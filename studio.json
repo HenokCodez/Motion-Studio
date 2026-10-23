@@ -1,0 +1,13 @@
+{
+  "studio": ".",
+  "videos": "Videos",
+  "channels": "Channels",
+  "libraries": {
+    "sfx": "D:/Editor 2.0/SFX + Meme sounds",
+    "music": "D:/Editor 2.0/Music",
+    "broll": "D:/Editor 2.0/B-Roll Library",
+    "logos": "project:assets/images/logos",
+    "icons": "C:/Users/zakbi/Downloads/tag-icons",
+    "fonts": "D:/Editor 2.0/Fonts"
+  }
+}

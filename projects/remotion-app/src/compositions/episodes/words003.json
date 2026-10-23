@@ -1,0 +1,5666 @@
+[
+  {
+    "word": "In",
+    "start": 0.0,
+    "end": 0.24,
+    "probability": 0.912
+  },
+  {
+    "word": "2026,",
+    "start": 0.24,
+    "end": 0.88,
+    "probability": 0.968
+  },
+  {
+    "word": "you",
+    "start": 1.04,
+    "end": 1.06,
+    "probability": 0.994
+  },
+  {
+    "word": "can",
+    "start": 1.06,
+    "end": 1.2,
+    "probability": 0.997
+  },
+  {
+    "word": "edit",
+    "start": 1.2,
+    "end": 1.38,
+    "probability": 1.0
+  },
+  {
+    "word": "videos,",
+    "start": 1.38,
+    "end": 1.66,
+    "probability": 0.841
+  },
+  {
+    "word": "design",
+    "start": 1.84,
+    "end": 2.02,
+    "probability": 0.998
+  },
+  {
+    "word": "graphics,",
+    "start": 2.02,
+    "end": 2.34,
+    "probability": 0.975
+  },
+  {
+    "word": "build",
+    "start": 2.52,
+    "end": 2.7,
+    "probability": 0.963
+  },
+  {
+    "word": "apps,",
+    "start": 2.7,
+    "end": 3.02,
+    "probability": 0.997
+  },
+  {
+    "word": "generate",
+    "start": 3.26,
+    "end": 3.44,
+    "probability": 0.998
+  },
+  {
+    "word": "images,",
+    "start": 3.44,
+    "end": 3.86,
+    "probability": 0.999
+  },
+  {
+    "word": "clone",
+    "start": 4.06,
+    "end": 4.24,
+    "probability": 0.999
+  },
+  {
+    "word": "voices,",
+    "start": 4.24,
+    "end": 4.68,
+    "probability": 0.994
+  },
+  {
+    "word": "and",
+    "start": 4.98,
+    "end": 5.1,
+    "probability": 0.994
+  },
+  {
+    "word": "even",
+    "start": 5.1,
+    "end": 5.28,
+    "probability": 0.996
+  },
+  {
+    "word": "run",
+    "start": 5.28,
+    "end": 5.54,
+    "probability": 0.994
+  },
+  {
+    "word": "AI",
+    "start": 5.54,
+    "end": 5.8,
+    "probability": 0.951
+  },
+  {
+    "word": "models",
+    "start": 5.8,
+    "end": 6.2,
+    "probability": 0.995
+  },
+  {
+    "word": "on",
+    "start": 6.2,
+    "end": 6.42,
+    "probability": 0.998
+  },
+  {
+    "word": "your",
+    "start": 6.42,
+    "end": 6.56,
+    "probability": 0.998
+  },
+  {
+    "word": "own",
+    "start": 6.56,
+    "end": 6.68,
+    "probability": 0.976
+  },
+  {
+    "word": "computer",
+    "start": 6.68,
+    "end": 7.16,
+    "probability": 0.997
+  },
+  {
+    "word": "without",
+    "start": 7.16,
+    "end": 7.44,
+    "probability": 0.957
+  },
+  {
+    "word": "paying",
+    "start": 7.44,
+    "end": 7.74,
+    "probability": 0.999
+  },
+  {
+    "word": "for",
+    "start": 7.74,
+    "end": 7.96,
+    "probability": 0.994
+  },
+  {
+    "word": "a",
+    "start": 7.96,
+    "end": 8.04,
+    "probability": 0.994
+  },
+  {
+    "word": "subscription.",
+    "start": 8.04,
+    "end": 8.42,
+    "probability": 0.999
+  },
+  {
+    "word": "And",
+    "start": 8.7,
+    "end": 8.78,
+    "probability": 0.982
+  },
+  {
+    "word": "the",
+    "start": 8.78,
+    "end": 8.88,
+    "probability": 0.981
+  },
+  {
+    "word": "alternatives",
+    "start": 8.88,
+    "end": 9.34,
+    "probability": 0.996
+  },
+  {
+    "word": "aren't",
+    "start": 9.34,
+    "end": 9.56,
+    "probability": 0.996
+  },
+  {
+    "word": "just",
+    "start": 9.56,
+    "end": 9.74,
+    "probability": 0.985
+  },
+  {
+    "word": "cheap",
+    "start": 9.74,
+    "end": 10.0,
+    "probability": 0.988
+  },
+  {
+    "word": "knockoffs",
+    "start": 10.0,
+    "end": 10.56,
+    "probability": 0.865
+  },
+  {
+    "word": "anymore.",
+    "start": 10.56,
+    "end": 10.8,
+    "probability": 0.978
+  },
+  {
+    "word": "Some",
+    "start": 11.14,
+    "end": 11.28,
+    "probability": 0.996
+  },
+  {
+    "word": "are",
+    "start": 11.28,
+    "end": 11.38,
+    "probability": 0.995
+  },
+  {
+    "word": "genuinely",
+    "start": 11.38,
+    "end": 11.68,
+    "probability": 0.991
+  },
+  {
+    "word": "good",
+    "start": 11.68,
+    "end": 12.04,
+    "probability": 0.997
+  },
+  {
+    "word": "enough",
+    "start": 12.04,
+    "end": 12.22,
+    "probability": 0.997
+  },
+  {
+    "word": "to",
+    "start": 12.22,
+    "end": 12.4,
+    "probability": 0.999
+  },
+  {
+    "word": "replace",
+    "start": 12.4,
+    "end": 12.68,
+    "probability": 0.999
+  },
+  {
+    "word": "the",
+    "start": 12.68,
+    "end": 12.86,
+    "probability": 0.996
+  },
+  {
+    "word": "software",
+    "start": 12.86,
+    "end": 13.12,
+    "probability": 0.998
+  },
+  {
+    "word": "people",
+    "start": 13.12,
+    "end": 13.44,
+    "probability": 0.993
+  },
+  {
+    "word": "have",
+    "start": 13.44,
+    "end": 13.62,
+    "probability": 0.996
+  },
+  {
+    "word": "been",
+    "start": 13.62,
+    "end": 13.76,
+    "probability": 0.999
+  },
+  {
+    "word": "paying",
+    "start": 13.76,
+    "end": 13.96,
+    "probability": 0.998
+  },
+  {
+    "word": "for",
+    "start": 13.96,
+    "end": 14.2,
+    "probability": 0.999
+  },
+  {
+    "word": "for",
+    "start": 14.2,
+    "end": 14.36,
+    "probability": 0.959
+  },
+  {
+    "word": "years.",
+    "start": 14.36,
+    "end": 14.6,
+    "probability": 0.999
+  },
+  {
+    "word": "Take",
+    "start": 14.94,
+    "end": 15.06,
+    "probability": 0.988
+  },
+  {
+    "word": "ArtCraft,",
+    "start": 15.06,
+    "end": 15.44,
+    "probability": 0.739
+  },
+  {
+    "word": "for",
+    "start": 15.54,
+    "end": 15.62,
+    "probability": 0.999
+  },
+  {
+    "word": "example.",
+    "start": 15.62,
+    "end": 15.92,
+    "probability": 1.0
+  },
+  {
+    "word": "It's",
+    "start": 16.4,
+    "end": 16.54,
+    "probability": 0.991
+  },
+  {
+    "word": "an",
+    "start": 16.54,
+    "end": 16.62,
+    "probability": 0.997
+  },
+  {
+    "word": "open",
+    "start": 16.62,
+    "end": 16.78,
+    "probability": 0.984
+  },
+  {
+    "word": "-source",
+    "start": 16.78,
+    "end": 17.02,
+    "probability": 0.756
+  },
+  {
+    "word": "project",
+    "start": 17.02,
+    "end": 17.42,
+    "probability": 0.999
+  },
+  {
+    "word": "trying",
+    "start": 17.42,
+    "end": 17.66,
+    "probability": 0.964
+  },
+  {
+    "word": "to",
+    "start": 17.66,
+    "end": 17.82,
+    "probability": 0.999
+  },
+  {
+    "word": "recreate",
+    "start": 17.82,
+    "end": 18.14,
+    "probability": 0.952
+  },
+  {
+    "word": "major",
+    "start": 18.14,
+    "end": 18.46,
+    "probability": 0.991
+  },
+  {
+    "word": "Adobe",
+    "start": 18.46,
+    "end": 18.74,
+    "probability": 0.971
+  },
+  {
+    "word": "applications,",
+    "start": 18.74,
+    "end": 19.4,
+    "probability": 0.997
+  },
+  {
+    "word": "including",
+    "start": 19.58,
+    "end": 19.88,
+    "probability": 0.999
+  },
+  {
+    "word": "Photoshop,",
+    "start": 19.88,
+    "end": 20.28,
+    "probability": 0.974
+  },
+  {
+    "word": "Premiere",
+    "start": 20.62,
+    "end": 20.76,
+    "probability": 0.958
+  },
+  {
+    "word": "Pro,",
+    "start": 20.76,
+    "end": 21.02,
+    "probability": 0.975
+  },
+  {
+    "word": "and",
+    "start": 21.08,
+    "end": 21.12,
+    "probability": 0.999
+  },
+  {
+    "word": "After",
+    "start": 21.12,
+    "end": 21.32,
+    "probability": 0.978
+  },
+  {
+    "word": "Effects.",
+    "start": 21.32,
+    "end": 21.6,
+    "probability": 0.977
+  },
+  {
+    "word": "It's",
+    "start": 21.82,
+    "end": 22.02,
+    "probability": 0.997
+  },
+  {
+    "word": "still",
+    "start": 22.02,
+    "end": 22.2,
+    "probability": 1.0
+  },
+  {
+    "word": "early,",
+    "start": 22.2,
+    "end": 22.58,
+    "probability": 0.999
+  },
+  {
+    "word": "and",
+    "start": 22.88,
+    "end": 23.04,
+    "probability": 0.997
+  },
+  {
+    "word": "it",
+    "start": 23.04,
+    "end": 23.18,
+    "probability": 0.995
+  },
+  {
+    "word": "can't",
+    "start": 23.18,
+    "end": 23.42,
+    "probability": 0.997
+  },
+  {
+    "word": "replace",
+    "start": 23.42,
+    "end": 23.68,
+    "probability": 1.0
+  },
+  {
+    "word": "Adobe",
+    "start": 23.68,
+    "end": 23.92,
+    "probability": 0.997
+  },
+  {
+    "word": "for",
+    "start": 23.92,
+    "end": 24.18,
+    "probability": 0.991
+  },
+  {
+    "word": "everyone.",
+    "start": 24.18,
+    "end": 24.46,
+    "probability": 0.994
+  },
+  {
+    "word": "But",
+    "start": 24.68,
+    "end": 24.84,
+    "probability": 0.994
+  },
+  {
+    "word": "the",
+    "start": 24.84,
+    "end": 24.98,
+    "probability": 0.984
+  },
+  {
+    "word": "fact",
+    "start": 24.98,
+    "end": 25.14,
+    "probability": 0.999
+  },
+  {
+    "word": "that",
+    "start": 25.14,
+    "end": 25.3,
+    "probability": 0.995
+  },
+  {
+    "word": "one",
+    "start": 25.3,
+    "end": 25.44,
+    "probability": 0.98
+  },
+  {
+    "word": "developer",
+    "start": 25.44,
+    "end": 25.82,
+    "probability": 0.998
+  },
+  {
+    "word": "can",
+    "start": 25.82,
+    "end": 26.1,
+    "probability": 0.997
+  },
+  {
+    "word": "even",
+    "start": 26.1,
+    "end": 26.34,
+    "probability": 0.998
+  },
+  {
+    "word": "attempt",
+    "start": 26.34,
+    "end": 26.68,
+    "probability": 0.999
+  },
+  {
+    "word": "something",
+    "start": 26.68,
+    "end": 27.02,
+    "probability": 0.999
+  },
+  {
+    "word": "like",
+    "start": 27.02,
+    "end": 27.34,
+    "probability": 0.999
+  },
+  {
+    "word": "this",
+    "start": 27.34,
+    "end": 27.62,
+    "probability": 0.999
+  },
+  {
+    "word": "with",
+    "start": 27.62,
+    "end": 27.9,
+    "probability": 0.572
+  },
+  {
+    "word": "the",
+    "start": 27.9,
+    "end": 28.06,
+    "probability": 0.983
+  },
+  {
+    "word": "help",
+    "start": 28.06,
+    "end": 28.28,
+    "probability": 0.995
+  },
+  {
+    "word": "of",
+    "start": 28.28,
+    "end": 28.52,
+    "probability": 0.996
+  },
+  {
+    "word": "AI",
+    "start": 28.52,
+    "end": 28.76,
+    "probability": 0.915
+  },
+  {
+    "word": "tells",
+    "start": 28.76,
+    "end": 29.2,
+    "probability": 0.931
+  },
+  {
+    "word": "you",
+    "start": 29.2,
+    "end": 29.38,
+    "probability": 0.997
+  },
+  {
+    "word": "where",
+    "start": 29.38,
+    "end": 29.6,
+    "probability": 0.995
+  },
+  {
+    "word": "software",
+    "start": 29.6,
+    "end": 29.96,
+    "probability": 0.992
+  },
+  {
+    "word": "development",
+    "start": 29.96,
+    "end": 30.36,
+    "probability": 0.996
+  },
+  {
+    "word": "is",
+    "start": 30.36,
+    "end": 30.62,
+    "probability": 0.997
+  },
+  {
+    "word": "heading.",
+    "start": 30.62,
+    "end": 30.82,
+    "probability": 0.994
+  },
+  {
+    "word": "And",
+    "start": 31.28,
+    "end": 31.3,
+    "probability": 0.941
+  },
+  {
+    "word": "this",
+    "start": 31.3,
+    "end": 31.48,
+    "probability": 0.991
+  },
+  {
+    "word": "isn't",
+    "start": 31.48,
+    "end": 31.7,
+    "probability": 0.996
+  },
+  {
+    "word": "just",
+    "start": 31.7,
+    "end": 31.84,
+    "probability": 0.997
+  },
+  {
+    "word": "happening",
+    "start": 31.84,
+    "end": 32.1,
+    "probability": 0.997
+  },
+  {
+    "word": "with",
+    "start": 32.1,
+    "end": 32.28,
+    "probability": 0.998
+  },
+  {
+    "word": "video",
+    "start": 32.28,
+    "end": 32.52,
+    "probability": 0.984
+  },
+  {
+    "word": "editors.",
+    "start": 32.52,
+    "end": 32.82,
+    "probability": 0.997
+  },
+  {
+    "word": "Almost",
+    "start": 33.26,
+    "end": 33.48,
+    "probability": 0.978
+  },
+  {
+    "word": "every",
+    "start": 33.48,
+    "end": 33.88,
+    "probability": 0.995
+  },
+  {
+    "word": "category",
+    "start": 33.88,
+    "end": 34.3,
+    "probability": 0.999
+  },
+  {
+    "word": "of",
+    "start": 34.3,
+    "end": 34.5,
+    "probability": 0.997
+  },
+  {
+    "word": "software",
+    "start": 34.5,
+    "end": 34.88,
+    "probability": 0.999
+  },
+  {
+    "word": "has",
+    "start": 34.88,
+    "end": 35.22,
+    "probability": 0.996
+  },
+  {
+    "word": "free",
+    "start": 35.22,
+    "end": 35.6,
+    "probability": 0.99
+  },
+  {
+    "word": "open",
+    "start": 35.6,
+    "end": 35.98,
+    "probability": 0.671
+  },
+  {
+    "word": "-source",
+    "start": 35.98,
+    "end": 36.22,
+    "probability": 0.662
+  },
+  {
+    "word": "alternatives",
+    "start": 36.22,
+    "end": 36.74,
+    "probability": 0.998
+  },
+  {
+    "word": "now,",
+    "start": 36.74,
+    "end": 37.08,
+    "probability": 0.979
+  },
+  {
+    "word": "and",
+    "start": 37.26,
+    "end": 37.3,
+    "probability": 0.995
+  },
+  {
+    "word": "AI",
+    "start": 37.3,
+    "end": 37.58,
+    "probability": 0.988
+  },
+  {
+    "word": "is",
+    "start": 37.58,
+    "end": 38.02,
+    "probability": 0.996
+  },
+  {
+    "word": "making",
+    "start": 38.02,
+    "end": 38.32,
+    "probability": 0.996
+  },
+  {
+    "word": "it",
+    "start": 38.32,
+    "end": 38.46,
+    "probability": 0.996
+  },
+  {
+    "word": "easier",
+    "start": 38.46,
+    "end": 38.7,
+    "probability": 0.998
+  },
+  {
+    "word": "to",
+    "start": 38.7,
+    "end": 38.9,
+    "probability": 0.999
+  },
+  {
+    "word": "build",
+    "start": 38.9,
+    "end": 39.12,
+    "probability": 0.997
+  },
+  {
+    "word": "even",
+    "start": 39.12,
+    "end": 39.34,
+    "probability": 0.989
+  },
+  {
+    "word": "more",
+    "start": 39.34,
+    "end": 39.58,
+    "probability": 1.0
+  },
+  {
+    "word": "of",
+    "start": 39.58,
+    "end": 39.7,
+    "probability": 0.997
+  },
+  {
+    "word": "them.",
+    "start": 39.7,
+    "end": 39.84,
+    "probability": 0.999
+  },
+  {
+    "word": "So",
+    "start": 40.0,
+    "end": 40.18,
+    "probability": 0.987
+  },
+  {
+    "word": "do",
+    "start": 40.18,
+    "end": 40.48,
+    "probability": 0.411
+  },
+  {
+    "word": "we",
+    "start": 40.48,
+    "end": 40.6,
+    "probability": 0.999
+  },
+  {
+    "word": "eventually",
+    "start": 40.6,
+    "end": 40.92,
+    "probability": 0.995
+  },
+  {
+    "word": "reach",
+    "start": 40.92,
+    "end": 41.28,
+    "probability": 0.995
+  },
+  {
+    "word": "a",
+    "start": 41.28,
+    "end": 41.38,
+    "probability": 0.998
+  },
+  {
+    "word": "point",
+    "start": 41.38,
+    "end": 41.6,
+    "probability": 1.0
+  },
+  {
+    "word": "where",
+    "start": 41.6,
+    "end": 41.74,
+    "probability": 0.995
+  },
+  {
+    "word": "almost",
+    "start": 41.74,
+    "end": 42.02,
+    "probability": 0.994
+  },
+  {
+    "word": "all",
+    "start": 42.02,
+    "end": 42.22,
+    "probability": 0.999
+  },
+  {
+    "word": "software",
+    "start": 42.22,
+    "end": 42.58,
+    "probability": 0.981
+  },
+  {
+    "word": "is",
+    "start": 42.58,
+    "end": 42.72,
+    "probability": 0.971
+  },
+  {
+    "word": "free?",
+    "start": 42.72,
+    "end": 42.9,
+    "probability": 0.999
+  },
+  {
+    "word": "And",
+    "start": 43.0,
+    "end": 43.06,
+    "probability": 0.981
+  },
+  {
+    "word": "if",
+    "start": 43.06,
+    "end": 43.14,
+    "probability": 0.996
+  },
+  {
+    "word": "nobody's",
+    "start": 43.14,
+    "end": 43.54,
+    "probability": 0.935
+  },
+  {
+    "word": "paying",
+    "start": 43.54,
+    "end": 43.66,
+    "probability": 0.999
+  },
+  {
+    "word": "for",
+    "start": 43.66,
+    "end": 43.84,
+    "probability": 0.997
+  },
+  {
+    "word": "the",
+    "start": 43.84,
+    "end": 43.92,
+    "probability": 0.997
+  },
+  {
+    "word": "software,",
+    "start": 43.92,
+    "end": 44.24,
+    "probability": 1.0
+  },
+  {
+    "word": "who's",
+    "start": 44.36,
+    "end": 44.5,
+    "probability": 0.984
+  },
+  {
+    "word": "actually",
+    "start": 44.5,
+    "end": 44.78,
+    "probability": 0.987
+  },
+  {
+    "word": "making",
+    "start": 44.78,
+    "end": 44.96,
+    "probability": 1.0
+  },
+  {
+    "word": "money?",
+    "start": 44.96,
+    "end": 45.28,
+    "probability": 0.999
+  },
+  {
+    "word": "Let's",
+    "start": 45.56,
+    "end": 45.76,
+    "probability": 0.996
+  },
+  {
+    "word": "look",
+    "start": 45.76,
+    "end": 45.88,
+    "probability": 0.998
+  },
+  {
+    "word": "at",
+    "start": 45.88,
+    "end": 46.0,
+    "probability": 0.999
+  },
+  {
+    "word": "what's",
+    "start": 46.0,
+    "end": 46.18,
+    "probability": 0.999
+  },
+  {
+    "word": "happening.",
+    "start": 46.18,
+    "end": 46.44,
+    "probability": 0.999
+  },
+  {
+    "word": "For",
+    "start": 46.66,
+    "end": 46.74,
+    "probability": 0.973
+  },
+  {
+    "word": "years,",
+    "start": 46.74,
+    "end": 47.08,
+    "probability": 0.999
+  },
+  {
+    "word": "if",
+    "start": 47.3,
+    "end": 47.3,
+    "probability": 0.964
+  },
+  {
+    "word": "you",
+    "start": 47.3,
+    "end": 47.38,
+    "probability": 0.997
+  },
+  {
+    "word": "wanted",
+    "start": 47.38,
+    "end": 47.56,
+    "probability": 0.994
+  },
+  {
+    "word": "professional",
+    "start": 47.56,
+    "end": 47.9,
+    "probability": 0.986
+  },
+  {
+    "word": "software,",
+    "start": 47.9,
+    "end": 48.42,
+    "probability": 0.999
+  },
+  {
+    "word": "you",
+    "start": 48.54,
+    "end": 48.6,
+    "probability": 0.933
+  },
+  {
+    "word": "usually",
+    "start": 48.6,
+    "end": 48.78,
+    "probability": 0.987
+  },
+  {
+    "word": "had",
+    "start": 48.78,
+    "end": 48.98,
+    "probability": 0.993
+  },
+  {
+    "word": "two",
+    "start": 48.98,
+    "end": 49.18,
+    "probability": 0.98
+  },
+  {
+    "word": "options,",
+    "start": 49.18,
+    "end": 49.64,
+    "probability": 0.999
+  },
+  {
+    "word": "pay",
+    "start": 49.9,
+    "end": 50.1,
+    "probability": 0.942
+  },
+  {
+    "word": "for",
+    "start": 50.1,
+    "end": 50.28,
+    "probability": 0.997
+  },
+  {
+    "word": "it",
+    "start": 50.28,
+    "end": 50.4,
+    "probability": 0.999
+  },
+  {
+    "word": "or",
+    "start": 50.4,
+    "end": 50.5,
+    "probability": 0.914
+  },
+  {
+    "word": "settle",
+    "start": 50.5,
+    "end": 50.74,
+    "probability": 0.998
+  },
+  {
+    "word": "for",
+    "start": 50.74,
+    "end": 51.04,
+    "probability": 0.999
+  },
+  {
+    "word": "something",
+    "start": 51.04,
+    "end": 51.42,
+    "probability": 0.996
+  },
+  {
+    "word": "worse.",
+    "start": 51.42,
+    "end": 51.68,
+    "probability": 0.989
+  },
+  {
+    "word": "Want",
+    "start": 51.84,
+    "end": 51.94,
+    "probability": 0.638
+  },
+  {
+    "word": "to",
+    "start": 51.94,
+    "end": 52.02,
+    "probability": 0.98
+  },
+  {
+    "word": "edit",
+    "start": 52.02,
+    "end": 52.14,
+    "probability": 1.0
+  },
+  {
+    "word": "videos,",
+    "start": 52.14,
+    "end": 52.52,
+    "probability": 0.995
+  },
+  {
+    "word": "pay",
+    "start": 52.68,
+    "end": 52.8,
+    "probability": 0.998
+  },
+  {
+    "word": "for",
+    "start": 52.8,
+    "end": 52.94,
+    "probability": 0.999
+  },
+  {
+    "word": "Premiere",
+    "start": 52.94,
+    "end": 53.18,
+    "probability": 0.87
+  },
+  {
+    "word": "Pro,",
+    "start": 53.18,
+    "end": 53.48,
+    "probability": 0.991
+  },
+  {
+    "word": "want",
+    "start": 53.6,
+    "end": 53.7,
+    "probability": 0.938
+  },
+  {
+    "word": "to",
+    "start": 53.7,
+    "end": 53.8,
+    "probability": 0.999
+  },
+  {
+    "word": "design",
+    "start": 53.8,
+    "end": 54.06,
+    "probability": 0.999
+  },
+  {
+    "word": "something,",
+    "start": 54.06,
+    "end": 54.44,
+    "probability": 0.999
+  },
+  {
+    "word": "pay",
+    "start": 54.66,
+    "end": 54.8,
+    "probability": 0.997
+  },
+  {
+    "word": "for",
+    "start": 54.8,
+    "end": 54.94,
+    "probability": 1.0
+  },
+  {
+    "word": "Photoshop,",
+    "start": 54.94,
+    "end": 55.32,
+    "probability": 0.986
+  },
+  {
+    "word": "need",
+    "start": 55.32,
+    "end": 55.72,
+    "probability": 0.03
+  },
+  {
+    "word": "office",
+    "start": 55.72,
+    "end": 56.0,
+    "probability": 0.535
+  },
+  {
+    "word": "software,",
+    "start": 56.0,
+    "end": 56.48,
+    "probability": 0.995
+  },
+  {
+    "word": "buy",
+    "start": 56.6,
+    "end": 56.72,
+    "probability": 0.96
+  },
+  {
+    "word": "Microsoft",
+    "start": 56.72,
+    "end": 57.12,
+    "probability": 0.977
+  },
+  {
+    "word": "Office,",
+    "start": 57.12,
+    "end": 57.58,
+    "probability": 0.903
+  },
+  {
+    "word": "or",
+    "start": 57.72,
+    "end": 57.76,
+    "probability": 0.988
+  },
+  {
+    "word": "get",
+    "start": 57.76,
+    "end": 57.86,
+    "probability": 0.997
+  },
+  {
+    "word": "a",
+    "start": 57.86,
+    "end": 57.94,
+    "probability": 0.997
+  },
+  {
+    "word": "subscription.",
+    "start": 57.94,
+    "end": 58.3,
+    "probability": 0.999
+  },
+  {
+    "word": "But",
+    "start": 58.86,
+    "end": 59.02,
+    "probability": 0.979
+  },
+  {
+    "word": "today,",
+    "start": 59.02,
+    "end": 59.32,
+    "probability": 0.979
+  },
+  {
+    "word": "you",
+    "start": 59.68,
+    "end": 59.84,
+    "probability": 0.994
+  },
+  {
+    "word": "can",
+    "start": 59.84,
+    "end": 60.0,
+    "probability": 0.997
+  },
+  {
+    "word": "use",
+    "start": 60.0,
+    "end": 60.14,
+    "probability": 0.998
+  },
+  {
+    "word": "tools",
+    "start": 60.14,
+    "end": 60.34,
+    "probability": 0.998
+  },
+  {
+    "word": "like",
+    "start": 60.34,
+    "end": 60.58,
+    "probability": 0.998
+  },
+  {
+    "word": "DaVinci",
+    "start": 60.58,
+    "end": 60.88,
+    "probability": 0.947
+  },
+  {
+    "word": "Resolve",
+    "start": 60.88,
+    "end": 61.26,
+    "probability": 0.99
+  },
+  {
+    "word": "for",
+    "start": 61.26,
+    "end": 61.48,
+    "probability": 0.989
+  },
+  {
+    "word": "video",
+    "start": 61.48,
+    "end": 61.72,
+    "probability": 0.987
+  },
+  {
+    "word": "editing,",
+    "start": 61.72,
+    "end": 62.02,
+    "probability": 0.992
+  },
+  {
+    "word": "Blender",
+    "start": 62.3,
+    "end": 62.48,
+    "probability": 0.873
+  },
+  {
+    "word": "for",
+    "start": 62.48,
+    "end": 62.7,
+    "probability": 0.962
+  },
+  {
+    "word": "3D,",
+    "start": 62.7,
+    "end": 63.1,
+    "probability": 0.972
+  },
+  {
+    "word": "and",
+    "start": 63.34,
+    "end": 63.44,
+    "probability": 0.997
+  },
+  {
+    "word": "LibreOffice",
+    "start": 63.44,
+    "end": 63.98,
+    "probability": 0.887
+  },
+  {
+    "word": "for",
+    "start": 63.98,
+    "end": 64.12,
+    "probability": 0.997
+  },
+  {
+    "word": "documents",
+    "start": 64.12,
+    "end": 64.5,
+    "probability": 0.608
+  },
+  {
+    "word": "without",
+    "start": 64.5,
+    "end": 64.98,
+    "probability": 0.735
+  },
+  {
+    "word": "paying",
+    "start": 64.98,
+    "end": 65.3,
+    "probability": 0.999
+  },
+  {
+    "word": "for",
+    "start": 65.3,
+    "end": 65.5,
+    "probability": 0.995
+  },
+  {
+    "word": "the",
+    "start": 65.5,
+    "end": 65.6,
+    "probability": 0.994
+  },
+  {
+    "word": "software",
+    "start": 65.6,
+    "end": 66.0,
+    "probability": 0.999
+  },
+  {
+    "word": "itself.",
+    "start": 66.0,
+    "end": 66.3,
+    "probability": 0.99
+  },
+  {
+    "word": "And",
+    "start": 66.62,
+    "end": 66.72,
+    "probability": 0.94
+  },
+  {
+    "word": "these",
+    "start": 66.72,
+    "end": 66.86,
+    "probability": 0.992
+  },
+  {
+    "word": "aren't",
+    "start": 66.86,
+    "end": 66.98,
+    "probability": 0.997
+  },
+  {
+    "word": "new",
+    "start": 66.98,
+    "end": 67.12,
+    "probability": 0.998
+  },
+  {
+    "word": "experiments",
+    "start": 67.12,
+    "end": 67.58,
+    "probability": 0.997
+  },
+  {
+    "word": "anymore.",
+    "start": 67.58,
+    "end": 67.86,
+    "probability": 0.962
+  },
+  {
+    "word": "Some",
+    "start": 68.38,
+    "end": 68.54,
+    "probability": 0.995
+  },
+  {
+    "word": "have",
+    "start": 68.54,
+    "end": 68.7,
+    "probability": 0.994
+  },
+  {
+    "word": "been",
+    "start": 68.7,
+    "end": 68.8,
+    "probability": 0.999
+  },
+  {
+    "word": "around",
+    "start": 68.8,
+    "end": 69.0,
+    "probability": 1.0
+  },
+  {
+    "word": "for",
+    "start": 69.0,
+    "end": 69.18,
+    "probability": 0.999
+  },
+  {
+    "word": "years",
+    "start": 69.18,
+    "end": 69.44,
+    "probability": 0.999
+  },
+  {
+    "word": "and",
+    "start": 69.44,
+    "end": 69.7,
+    "probability": 0.914
+  },
+  {
+    "word": "are",
+    "start": 69.7,
+    "end": 69.8,
+    "probability": 0.997
+  },
+  {
+    "word": "used",
+    "start": 69.8,
+    "end": 70.04,
+    "probability": 0.999
+  },
+  {
+    "word": "for",
+    "start": 70.04,
+    "end": 70.24,
+    "probability": 0.999
+  },
+  {
+    "word": "serious",
+    "start": 70.24,
+    "end": 70.56,
+    "probability": 0.998
+  },
+  {
+    "word": "work.",
+    "start": 70.56,
+    "end": 70.84,
+    "probability": 1.0
+  },
+  {
+    "word": "Now",
+    "start": 71.16,
+    "end": 71.26,
+    "probability": 0.989
+  },
+  {
+    "word": "AI",
+    "start": 71.26,
+    "end": 71.5,
+    "probability": 0.388
+  },
+  {
+    "word": "is",
+    "start": 71.5,
+    "end": 71.74,
+    "probability": 0.996
+  },
+  {
+    "word": "accelerating",
+    "start": 71.74,
+    "end": 72.08,
+    "probability": 0.996
+  },
+  {
+    "word": "this",
+    "start": 72.08,
+    "end": 72.46,
+    "probability": 0.999
+  },
+  {
+    "word": "even",
+    "start": 72.46,
+    "end": 72.66,
+    "probability": 0.996
+  },
+  {
+    "word": "further.",
+    "start": 72.66,
+    "end": 73.0,
+    "probability": 0.998
+  },
+  {
+    "word": "Projects",
+    "start": 73.28,
+    "end": 73.58,
+    "probability": 0.991
+  },
+  {
+    "word": "like",
+    "start": 73.58,
+    "end": 73.66,
+    "probability": 0.997
+  },
+  {
+    "word": "ArtCraft",
+    "start": 73.66,
+    "end": 74.04,
+    "probability": 0.805
+  },
+  {
+    "word": "are",
+    "start": 74.04,
+    "end": 74.2,
+    "probability": 0.985
+  },
+  {
+    "word": "using",
+    "start": 74.2,
+    "end": 74.38,
+    "probability": 0.999
+  },
+  {
+    "word": "AI",
+    "start": 74.38,
+    "end": 74.66,
+    "probability": 0.923
+  },
+  {
+    "word": "-assisted",
+    "start": 74.66,
+    "end": 74.98,
+    "probability": 0.831
+  },
+  {
+    "word": "development",
+    "start": 74.98,
+    "end": 75.42,
+    "probability": 0.984
+  },
+  {
+    "word": "to",
+    "start": 75.42,
+    "end": 75.74,
+    "probability": 0.997
+  },
+  {
+    "word": "recreate",
+    "start": 75.74,
+    "end": 76.12,
+    "probability": 0.936
+  },
+  {
+    "word": "expensive",
+    "start": 76.12,
+    "end": 76.72,
+    "probability": 0.996
+  },
+  {
+    "word": "applications.",
+    "start": 76.72,
+    "end": 77.28,
+    "probability": 0.999
+  },
+  {
+    "word": "Developers",
+    "start": 77.7,
+    "end": 78.18,
+    "probability": 0.997
+  },
+  {
+    "word": "can",
+    "start": 78.18,
+    "end": 78.32,
+    "probability": 0.999
+  },
+  {
+    "word": "also",
+    "start": 78.32,
+    "end": 78.6,
+    "probability": 0.994
+  },
+  {
+    "word": "build",
+    "start": 78.6,
+    "end": 78.9,
+    "probability": 0.999
+  },
+  {
+    "word": "their",
+    "start": 78.9,
+    "end": 79.1,
+    "probability": 0.999
+  },
+  {
+    "word": "own",
+    "start": 79.1,
+    "end": 79.28,
+    "probability": 1.0
+  },
+  {
+    "word": "tools",
+    "start": 79.28,
+    "end": 79.64,
+    "probability": 0.998
+  },
+  {
+    "word": "instead",
+    "start": 79.64,
+    "end": 79.96,
+    "probability": 0.87
+  },
+  {
+    "word": "of",
+    "start": 79.96,
+    "end": 80.14,
+    "probability": 0.999
+  },
+  {
+    "word": "waiting",
+    "start": 80.14,
+    "end": 80.3,
+    "probability": 0.999
+  },
+  {
+    "word": "for",
+    "start": 80.3,
+    "end": 80.52,
+    "probability": 0.999
+  },
+  {
+    "word": "a",
+    "start": 80.52,
+    "end": 80.64,
+    "probability": 0.998
+  },
+  {
+    "word": "company",
+    "start": 80.64,
+    "end": 80.86,
+    "probability": 1.0
+  },
+  {
+    "word": "to",
+    "start": 80.86,
+    "end": 81.04,
+    "probability": 0.999
+  },
+  {
+    "word": "add",
+    "start": 81.04,
+    "end": 81.24,
+    "probability": 0.998
+  },
+  {
+    "word": "a",
+    "start": 81.24,
+    "end": 81.34,
+    "probability": 0.999
+  },
+  {
+    "word": "feature",
+    "start": 81.34,
+    "end": 81.56,
+    "probability": 0.999
+  },
+  {
+    "word": "or",
+    "start": 81.56,
+    "end": 81.82,
+    "probability": 0.911
+  },
+  {
+    "word": "charging",
+    "start": 81.82,
+    "end": 82.12,
+    "probability": 0.993
+  },
+  {
+    "word": "them",
+    "start": 82.12,
+    "end": 82.36,
+    "probability": 0.998
+  },
+  {
+    "word": "for",
+    "start": 82.36,
+    "end": 82.56,
+    "probability": 0.997
+  },
+  {
+    "word": "an",
+    "start": 82.56,
+    "end": 82.64,
+    "probability": 0.995
+  },
+  {
+    "word": "entire",
+    "start": 82.64,
+    "end": 82.9,
+    "probability": 1.0
+  },
+  {
+    "word": "subscription",
+    "start": 82.9,
+    "end": 83.46,
+    "probability": 0.999
+  },
+  {
+    "word": "just",
+    "start": 83.46,
+    "end": 83.82,
+    "probability": 0.521
+  },
+  {
+    "word": "to",
+    "start": 83.82,
+    "end": 84.0,
+    "probability": 0.999
+  },
+  {
+    "word": "get",
+    "start": 84.0,
+    "end": 84.14,
+    "probability": 0.999
+  },
+  {
+    "word": "it.",
+    "start": 84.14,
+    "end": 84.28,
+    "probability": 1.0
+  },
+  {
+    "word": "And",
+    "start": 84.28,
+    "end": 84.56,
+    "probability": 0.701
+  },
+  {
+    "word": "if",
+    "start": 84.56,
+    "end": 84.68,
+    "probability": 0.972
+  },
+  {
+    "word": "an",
+    "start": 84.68,
+    "end": 84.76,
+    "probability": 0.988
+  },
+  {
+    "word": "open",
+    "start": 84.76,
+    "end": 84.92,
+    "probability": 0.957
+  },
+  {
+    "word": "-source",
+    "start": 84.92,
+    "end": 85.16,
+    "probability": 0.677
+  },
+  {
+    "word": "alternative",
+    "start": 85.16,
+    "end": 85.74,
+    "probability": 0.985
+  },
+  {
+    "word": "does",
+    "start": 85.74,
+    "end": 86.02,
+    "probability": 0.994
+  },
+  {
+    "word": "90",
+    "start": 86.02,
+    "end": 86.28,
+    "probability": 0.965
+  },
+  {
+    "word": "%",
+    "start": 86.28,
+    "end": 86.58,
+    "probability": 0.943
+  },
+  {
+    "word": "of",
+    "start": 86.58,
+    "end": 86.72,
+    "probability": 0.996
+  },
+  {
+    "word": "what",
+    "start": 86.72,
+    "end": 86.82,
+    "probability": 0.999
+  },
+  {
+    "word": "you",
+    "start": 86.82,
+    "end": 86.94,
+    "probability": 0.999
+  },
+  {
+    "word": "need,",
+    "start": 86.94,
+    "end": 87.14,
+    "probability": 0.999
+  },
+  {
+    "word": "paying",
+    "start": 87.28,
+    "end": 87.48,
+    "probability": 0.989
+  },
+  {
+    "word": "hundreds",
+    "start": 87.48,
+    "end": 87.84,
+    "probability": 0.957
+  },
+  {
+    "word": "of",
+    "start": 87.84,
+    "end": 88.02,
+    "probability": 0.996
+  },
+  {
+    "word": "dollars",
+    "start": 88.02,
+    "end": 88.24,
+    "probability": 0.995
+  },
+  {
+    "word": "a",
+    "start": 88.24,
+    "end": 88.42,
+    "probability": 0.988
+  },
+  {
+    "word": "year",
+    "start": 88.42,
+    "end": 88.58,
+    "probability": 0.999
+  },
+  {
+    "word": "for",
+    "start": 88.58,
+    "end": 88.76,
+    "probability": 0.994
+  },
+  {
+    "word": "the",
+    "start": 88.76,
+    "end": 88.86,
+    "probability": 0.997
+  },
+  {
+    "word": "original",
+    "start": 88.86,
+    "end": 89.18,
+    "probability": 0.997
+  },
+  {
+    "word": "becomes",
+    "start": 89.18,
+    "end": 89.64,
+    "probability": 0.963
+  },
+  {
+    "word": "nonsense.",
+    "start": 89.64,
+    "end": 90.04,
+    "probability": 0.994
+  },
+  {
+    "word": "But",
+    "start": 90.42,
+    "end": 90.5,
+    "probability": 0.992
+  },
+  {
+    "word": "software",
+    "start": 90.5,
+    "end": 90.8,
+    "probability": 0.98
+  },
+  {
+    "word": "is",
+    "start": 90.8,
+    "end": 91.18,
+    "probability": 0.99
+  },
+  {
+    "word": "only",
+    "start": 91.18,
+    "end": 91.44,
+    "probability": 0.996
+  },
+  {
+    "word": "half",
+    "start": 91.44,
+    "end": 91.72,
+    "probability": 0.99
+  },
+  {
+    "word": "of",
+    "start": 91.72,
+    "end": 91.86,
+    "probability": 0.979
+  },
+  {
+    "word": "the",
+    "start": 91.86,
+    "end": 91.92,
+    "probability": 0.996
+  },
+  {
+    "word": "story.",
+    "start": 91.92,
+    "end": 92.2,
+    "probability": 1.0
+  },
+  {
+    "word": "A",
+    "start": 92.52,
+    "end": 92.6,
+    "probability": 0.934
+  },
+  {
+    "word": "few",
+    "start": 92.6,
+    "end": 92.72,
+    "probability": 0.999
+  },
+  {
+    "word": "years",
+    "start": 92.72,
+    "end": 92.9,
+    "probability": 0.999
+  },
+  {
+    "word": "ago,",
+    "start": 92.9,
+    "end": 93.1,
+    "probability": 0.999
+  },
+  {
+    "word": "generating",
+    "start": 93.2,
+    "end": 93.42,
+    "probability": 0.996
+  },
+  {
+    "word": "high",
+    "start": 93.42,
+    "end": 93.78,
+    "probability": 0.998
+  },
+  {
+    "word": "-quality",
+    "start": 93.78,
+    "end": 94.0,
+    "probability": 0.828
+  },
+  {
+    "word": "images,",
+    "start": 94.0,
+    "end": 94.48,
+    "probability": 0.998
+  },
+  {
+    "word": "realistic",
+    "start": 94.68,
+    "end": 94.86,
+    "probability": 0.999
+  },
+  {
+    "word": "voices,",
+    "start": 94.86,
+    "end": 95.48,
+    "probability": 0.997
+  },
+  {
+    "word": "or",
+    "start": 95.6,
+    "end": 95.68,
+    "probability": 0.991
+  },
+  {
+    "word": "useful",
+    "start": 95.68,
+    "end": 95.94,
+    "probability": 0.998
+  },
+  {
+    "word": "AI",
+    "start": 95.94,
+    "end": 96.22,
+    "probability": 0.975
+  },
+  {
+    "word": "responses",
+    "start": 96.22,
+    "end": 96.74,
+    "probability": 0.998
+  },
+  {
+    "word": "usually",
+    "start": 96.74,
+    "end": 97.2,
+    "probability": 0.851
+  },
+  {
+    "word": "meant",
+    "start": 97.2,
+    "end": 97.46,
+    "probability": 0.999
+  },
+  {
+    "word": "relying",
+    "start": 97.46,
+    "end": 97.76,
+    "probability": 0.997
+  },
+  {
+    "word": "on",
+    "start": 97.76,
+    "end": 97.94,
+    "probability": 0.998
+  },
+  {
+    "word": "a",
+    "start": 97.94,
+    "end": 98.02,
+    "probability": 0.998
+  },
+  {
+    "word": "handful",
+    "start": 98.02,
+    "end": 98.3,
+    "probability": 0.992
+  },
+  {
+    "word": "of",
+    "start": 98.3,
+    "end": 98.46,
+    "probability": 0.999
+  },
+  {
+    "word": "major",
+    "start": 98.46,
+    "end": 98.66,
+    "probability": 0.998
+  },
+  {
+    "word": "companies.",
+    "start": 98.66,
+    "end": 99.08,
+    "probability": 0.999
+  },
+  {
+    "word": "Now,",
+    "start": 99.42,
+    "end": 99.56,
+    "probability": 0.996
+  },
+  {
+    "word": "there",
+    "start": 99.64,
+    "end": 99.74,
+    "probability": 0.997
+  },
+  {
+    "word": "are",
+    "start": 99.74,
+    "end": 99.82,
+    "probability": 0.998
+  },
+  {
+    "word": "open",
+    "start": 99.82,
+    "end": 100.02,
+    "probability": 0.992
+  },
+  {
+    "word": "models",
+    "start": 100.02,
+    "end": 100.3,
+    "probability": 0.994
+  },
+  {
+    "word": "for",
+    "start": 100.3,
+    "end": 100.52,
+    "probability": 0.997
+  },
+  {
+    "word": "all",
+    "start": 100.52,
+    "end": 100.66,
+    "probability": 0.997
+  },
+  {
+    "word": "of",
+    "start": 100.66,
+    "end": 100.76,
+    "probability": 0.916
+  },
+  {
+    "word": "these",
+    "start": 100.76,
+    "end": 100.86,
+    "probability": 0.997
+  },
+  {
+    "word": "things.",
+    "start": 100.86,
+    "end": 101.14,
+    "probability": 0.998
+  },
+  {
+    "word": "You",
+    "start": 101.5,
+    "end": 101.62,
+    "probability": 0.997
+  },
+  {
+    "word": "can",
+    "start": 101.62,
+    "end": 101.76,
+    "probability": 0.998
+  },
+  {
+    "word": "generate",
+    "start": 101.76,
+    "end": 102.08,
+    "probability": 0.998
+  },
+  {
+    "word": "images",
+    "start": 102.08,
+    "end": 102.46,
+    "probability": 0.998
+  },
+  {
+    "word": "with",
+    "start": 102.46,
+    "end": 102.72,
+    "probability": 0.997
+  },
+  {
+    "word": "models",
+    "start": 102.72,
+    "end": 102.98,
+    "probability": 0.996
+  },
+  {
+    "word": "like",
+    "start": 102.98,
+    "end": 103.22,
+    "probability": 0.995
+  },
+  {
+    "word": "Cria",
+    "start": 103.22,
+    "end": 103.48,
+    "probability": 0.36
+  },
+  {
+    "word": "and",
+    "start": 103.48,
+    "end": 103.8,
+    "probability": 0.562
+  },
+  {
+    "word": "use",
+    "start": 103.8,
+    "end": 103.96,
+    "probability": 0.999
+  },
+  {
+    "word": "projects",
+    "start": 103.96,
+    "end": 104.28,
+    "probability": 0.996
+  },
+  {
+    "word": "like",
+    "start": 104.28,
+    "end": 104.56,
+    "probability": 1.0
+  },
+  {
+    "word": "Kokoro",
+    "start": 104.56,
+    "end": 104.94,
+    "probability": 0.888
+  },
+  {
+    "word": "for",
+    "start": 104.94,
+    "end": 105.26,
+    "probability": 0.995
+  },
+  {
+    "word": "text",
+    "start": 105.26,
+    "end": 105.56,
+    "probability": 0.982
+  },
+  {
+    "word": "-to",
+    "start": 105.56,
+    "end": 105.74,
+    "probability": 0.886
+  },
+  {
+    "word": "-speech.",
+    "start": 105.74,
+    "end": 106.04,
+    "probability": 0.998
+  },
+  {
+    "word": "And",
+    "start": 106.16,
+    "end": 106.26,
+    "probability": 0.916
+  },
+  {
+    "word": "you",
+    "start": 106.26,
+    "end": 106.34,
+    "probability": 0.996
+  },
+  {
+    "word": "don't",
+    "start": 106.34,
+    "end": 106.46,
+    "probability": 0.996
+  },
+  {
+    "word": "necessarily",
+    "start": 106.46,
+    "end": 106.76,
+    "probability": 0.992
+  },
+  {
+    "word": "need",
+    "start": 106.76,
+    "end": 107.2,
+    "probability": 1.0
+  },
+  {
+    "word": "an",
+    "start": 107.2,
+    "end": 107.32,
+    "probability": 0.996
+  },
+  {
+    "word": "expensive",
+    "start": 107.32,
+    "end": 107.68,
+    "probability": 0.989
+  },
+  {
+    "word": "workstation",
+    "start": 107.68,
+    "end": 108.34,
+    "probability": 0.96
+  },
+  {
+    "word": "or",
+    "start": 108.34,
+    "end": 108.64,
+    "probability": 0.967
+  },
+  {
+    "word": "a",
+    "start": 108.64,
+    "end": 108.76,
+    "probability": 0.962
+  },
+  {
+    "word": "cloud",
+    "start": 108.76,
+    "end": 108.98,
+    "probability": 0.98
+  },
+  {
+    "word": "subscription",
+    "start": 108.98,
+    "end": 109.36,
+    "probability": 0.998
+  },
+  {
+    "word": "for",
+    "start": 109.36,
+    "end": 109.74,
+    "probability": 0.998
+  },
+  {
+    "word": "every",
+    "start": 109.74,
+    "end": 109.98,
+    "probability": 0.999
+  },
+  {
+    "word": "task.",
+    "start": 109.98,
+    "end": 110.34,
+    "probability": 0.995
+  },
+  {
+    "word": "Smaller",
+    "start": 110.58,
+    "end": 110.92,
+    "probability": 0.992
+  },
+  {
+    "word": "models",
+    "start": 110.92,
+    "end": 111.2,
+    "probability": 0.999
+  },
+  {
+    "word": "can",
+    "start": 111.2,
+    "end": 111.48,
+    "probability": 0.994
+  },
+  {
+    "word": "run",
+    "start": 111.48,
+    "end": 111.66,
+    "probability": 0.999
+  },
+  {
+    "word": "on",
+    "start": 111.66,
+    "end": 111.8,
+    "probability": 0.999
+  },
+  {
+    "word": "ordinary",
+    "start": 111.8,
+    "end": 112.18,
+    "probability": 0.994
+  },
+  {
+    "word": "consumer",
+    "start": 112.18,
+    "end": 112.56,
+    "probability": 0.984
+  },
+  {
+    "word": "hardware",
+    "start": 112.56,
+    "end": 112.98,
+    "probability": 0.999
+  },
+  {
+    "word": "depending",
+    "start": 112.98,
+    "end": 113.22,
+    "probability": 0.438
+  },
+  {
+    "word": "on",
+    "start": 113.22,
+    "end": 113.44,
+    "probability": 0.995
+  },
+  {
+    "word": "their",
+    "start": 113.44,
+    "end": 113.58,
+    "probability": 0.959
+  },
+  {
+    "word": "size",
+    "start": 113.58,
+    "end": 113.88,
+    "probability": 0.997
+  },
+  {
+    "word": "and",
+    "start": 113.88,
+    "end": 114.06,
+    "probability": 0.956
+  },
+  {
+    "word": "the",
+    "start": 114.06,
+    "end": 114.14,
+    "probability": 0.944
+  },
+  {
+    "word": "memory",
+    "start": 114.14,
+    "end": 114.36,
+    "probability": 0.992
+  },
+  {
+    "word": "available.",
+    "start": 114.36,
+    "end": 114.78,
+    "probability": 0.99
+  },
+  {
+    "word": "The",
+    "start": 115.04,
+    "end": 115.14,
+    "probability": 0.974
+  },
+  {
+    "word": "biggest",
+    "start": 115.14,
+    "end": 115.32,
+    "probability": 0.998
+  },
+  {
+    "word": "change",
+    "start": 115.32,
+    "end": 115.7,
+    "probability": 0.996
+  },
+  {
+    "word": "is",
+    "start": 115.7,
+    "end": 116.0,
+    "probability": 0.99
+  },
+  {
+    "word": "that",
+    "start": 116.0,
+    "end": 116.16,
+    "probability": 0.991
+  },
+  {
+    "word": "you're",
+    "start": 116.16,
+    "end": 116.3,
+    "probability": 0.958
+  },
+  {
+    "word": "no",
+    "start": 116.3,
+    "end": 116.44,
+    "probability": 0.996
+  },
+  {
+    "word": "longer",
+    "start": 116.44,
+    "end": 116.7,
+    "probability": 1.0
+  },
+  {
+    "word": "limited",
+    "start": 116.7,
+    "end": 116.98,
+    "probability": 0.996
+  },
+  {
+    "word": "to",
+    "start": 116.98,
+    "end": 117.18,
+    "probability": 0.996
+  },
+  {
+    "word": "whatever",
+    "start": 117.18,
+    "end": 117.36,
+    "probability": 0.991
+  },
+  {
+    "word": "a",
+    "start": 117.36,
+    "end": 117.6,
+    "probability": 0.986
+  },
+  {
+    "word": "company",
+    "start": 117.6,
+    "end": 117.8,
+    "probability": 1.0
+  },
+  {
+    "word": "decides",
+    "start": 117.8,
+    "end": 118.18,
+    "probability": 0.991
+  },
+  {
+    "word": "to",
+    "start": 118.18,
+    "end": 118.44,
+    "probability": 0.999
+  },
+  {
+    "word": "offer.",
+    "start": 118.44,
+    "end": 118.68,
+    "probability": 0.999
+  },
+  {
+    "word": "You",
+    "start": 119.04,
+    "end": 119.08,
+    "probability": 0.994
+  },
+  {
+    "word": "can",
+    "start": 119.08,
+    "end": 119.22,
+    "probability": 0.998
+  },
+  {
+    "word": "download",
+    "start": 119.22,
+    "end": 119.5,
+    "probability": 0.998
+  },
+  {
+    "word": "a",
+    "start": 119.5,
+    "end": 119.64,
+    "probability": 0.993
+  },
+  {
+    "word": "model,",
+    "start": 119.64,
+    "end": 119.92,
+    "probability": 0.996
+  },
+  {
+    "word": "run",
+    "start": 120.26,
+    "end": 120.4,
+    "probability": 0.997
+  },
+  {
+    "word": "it",
+    "start": 120.4,
+    "end": 120.5,
+    "probability": 1.0
+  },
+  {
+    "word": "locally,",
+    "start": 120.5,
+    "end": 120.84,
+    "probability": 0.999
+  },
+  {
+    "word": "connect",
+    "start": 121.22,
+    "end": 121.32,
+    "probability": 0.993
+  },
+  {
+    "word": "it",
+    "start": 121.32,
+    "end": 121.54,
+    "probability": 0.995
+  },
+  {
+    "word": "to",
+    "start": 121.54,
+    "end": 121.64,
+    "probability": 0.998
+  },
+  {
+    "word": "your",
+    "start": 121.64,
+    "end": 121.76,
+    "probability": 0.997
+  },
+  {
+    "word": "own",
+    "start": 121.76,
+    "end": 121.92,
+    "probability": 0.998
+  },
+  {
+    "word": "applications,",
+    "start": 121.92,
+    "end": 122.36,
+    "probability": 0.991
+  },
+  {
+    "word": "and",
+    "start": 122.68,
+    "end": 122.76,
+    "probability": 0.998
+  },
+  {
+    "word": "build",
+    "start": 122.76,
+    "end": 122.96,
+    "probability": 0.995
+  },
+  {
+    "word": "something",
+    "start": 122.96,
+    "end": 123.24,
+    "probability": 0.998
+  },
+  {
+    "word": "around",
+    "start": 123.24,
+    "end": 123.52,
+    "probability": 0.997
+  },
+  {
+    "word": "it.",
+    "start": 123.52,
+    "end": 123.74,
+    "probability": 0.998
+  },
+  {
+    "word": "If",
+    "start": 123.88,
+    "end": 123.98,
+    "probability": 0.994
+  },
+  {
+    "word": "a",
+    "start": 123.98,
+    "end": 124.08,
+    "probability": 0.991
+  },
+  {
+    "word": "company",
+    "start": 124.08,
+    "end": 124.24,
+    "probability": 1.0
+  },
+  {
+    "word": "changes",
+    "start": 124.24,
+    "end": 124.58,
+    "probability": 0.997
+  },
+  {
+    "word": "its",
+    "start": 124.58,
+    "end": 124.76,
+    "probability": 0.962
+  },
+  {
+    "word": "prices,",
+    "start": 124.76,
+    "end": 125.12,
+    "probability": 0.992
+  },
+  {
+    "word": "removes",
+    "start": 125.46,
+    "end": 125.68,
+    "probability": 0.997
+  },
+  {
+    "word": "a",
+    "start": 125.68,
+    "end": 125.9,
+    "probability": 0.999
+  },
+  {
+    "word": "feature,",
+    "start": 125.9,
+    "end": 126.1,
+    "probability": 0.999
+  },
+  {
+    "word": "or",
+    "start": 126.42,
+    "end": 126.58,
+    "probability": 0.999
+  },
+  {
+    "word": "shuts",
+    "start": 126.58,
+    "end": 126.76,
+    "probability": 0.999
+  },
+  {
+    "word": "down",
+    "start": 126.76,
+    "end": 127.0,
+    "probability": 0.999
+  },
+  {
+    "word": "a",
+    "start": 127.0,
+    "end": 127.1,
+    "probability": 0.998
+  },
+  {
+    "word": "service,",
+    "start": 127.1,
+    "end": 127.38,
+    "probability": 0.999
+  },
+  {
+    "word": "you",
+    "start": 127.66,
+    "end": 127.74,
+    "probability": 0.998
+  },
+  {
+    "word": "may",
+    "start": 127.74,
+    "end": 127.86,
+    "probability": 0.997
+  },
+  {
+    "word": "have",
+    "start": 127.86,
+    "end": 128.06,
+    "probability": 0.999
+  },
+  {
+    "word": "another",
+    "start": 128.06,
+    "end": 128.2,
+    "probability": 0.998
+  },
+  {
+    "word": "option.",
+    "start": 128.2,
+    "end": 128.6,
+    "probability": 0.999
+  },
+  {
+    "word": "That's",
+    "start": 128.94,
+    "end": 129.14,
+    "probability": 0.993
+  },
+  {
+    "word": "a",
+    "start": 129.14,
+    "end": 129.2,
+    "probability": 0.998
+  },
+  {
+    "word": "big",
+    "start": 129.2,
+    "end": 129.3,
+    "probability": 0.999
+  },
+  {
+    "word": "deal.",
+    "start": 129.3,
+    "end": 129.52,
+    "probability": 0.999
+  },
+  {
+    "word": "And",
+    "start": 129.86,
+    "end": 129.98,
+    "probability": 0.969
+  },
+  {
+    "word": "if",
+    "start": 129.98,
+    "end": 130.08,
+    "probability": 0.97
+  },
+  {
+    "word": "you're",
+    "start": 130.08,
+    "end": 130.24,
+    "probability": 0.995
+  },
+  {
+    "word": "into",
+    "start": 130.24,
+    "end": 130.4,
+    "probability": 0.988
+  },
+  {
+    "word": "AI",
+    "start": 130.4,
+    "end": 130.62,
+    "probability": 0.96
+  },
+  {
+    "word": "and",
+    "start": 130.62,
+    "end": 130.86,
+    "probability": 0.878
+  },
+  {
+    "word": "tech,",
+    "start": 130.86,
+    "end": 131.0,
+    "probability": 0.903
+  },
+  {
+    "word": "subscribe",
+    "start": 131.14,
+    "end": 131.36,
+    "probability": 0.994
+  },
+  {
+    "word": "to",
+    "start": 131.36,
+    "end": 131.62,
+    "probability": 0.964
+  },
+  {
+    "word": "Vantablief.",
+    "start": 131.62,
+    "end": 132.12,
+    "probability": 0.822
+  },
+  {
+    "word": "I",
+    "start": 132.28,
+    "end": 132.36,
+    "probability": 0.996
+  },
+  {
+    "word": "cover",
+    "start": 132.36,
+    "end": 132.54,
+    "probability": 0.518
+  },
+  {
+    "word": "the",
+    "start": 132.54,
+    "end": 132.7,
+    "probability": 0.998
+  },
+  {
+    "word": "tools",
+    "start": 132.7,
+    "end": 132.96,
+    "probability": 0.998
+  },
+  {
+    "word": "and",
+    "start": 132.96,
+    "end": 133.14,
+    "probability": 0.998
+  },
+  {
+    "word": "developments",
+    "start": 133.14,
+    "end": 133.44,
+    "probability": 0.99
+  },
+  {
+    "word": "that",
+    "start": 133.44,
+    "end": 133.72,
+    "probability": 0.998
+  },
+  {
+    "word": "are",
+    "start": 133.72,
+    "end": 133.82,
+    "probability": 0.998
+  },
+  {
+    "word": "actually",
+    "start": 133.82,
+    "end": 134.16,
+    "probability": 0.998
+  },
+  {
+    "word": "changing",
+    "start": 134.16,
+    "end": 134.54,
+    "probability": 0.998
+  },
+  {
+    "word": "how",
+    "start": 134.54,
+    "end": 134.78,
+    "probability": 0.999
+  },
+  {
+    "word": "we",
+    "start": 134.78,
+    "end": 134.92,
+    "probability": 0.999
+  },
+  {
+    "word": "use",
+    "start": 134.92,
+    "end": 135.04,
+    "probability": 0.999
+  },
+  {
+    "word": "technology.",
+    "start": 135.04,
+    "end": 135.52,
+    "probability": 0.998
+  },
+  {
+    "word": "But",
+    "start": 135.86,
+    "end": 136.0,
+    "probability": 0.99
+  },
+  {
+    "word": "this",
+    "start": 136.0,
+    "end": 136.14,
+    "probability": 0.99
+  },
+  {
+    "word": "freedom",
+    "start": 136.14,
+    "end": 136.36,
+    "probability": 0.983
+  },
+  {
+    "word": "creates",
+    "start": 136.36,
+    "end": 136.76,
+    "probability": 0.996
+  },
+  {
+    "word": "a",
+    "start": 136.76,
+    "end": 136.94,
+    "probability": 0.999
+  },
+  {
+    "word": "problem",
+    "start": 136.94,
+    "end": 137.22,
+    "probability": 1.0
+  },
+  {
+    "word": "for",
+    "start": 137.22,
+    "end": 137.5,
+    "probability": 0.999
+  },
+  {
+    "word": "companies",
+    "start": 137.5,
+    "end": 137.8,
+    "probability": 0.999
+  },
+  {
+    "word": "that",
+    "start": 137.8,
+    "end": 138.06,
+    "probability": 0.999
+  },
+  {
+    "word": "have",
+    "start": 138.06,
+    "end": 138.2,
+    "probability": 0.996
+  },
+  {
+    "word": "built",
+    "start": 138.2,
+    "end": 138.44,
+    "probability": 0.996
+  },
+  {
+    "word": "their",
+    "start": 138.44,
+    "end": 138.6,
+    "probability": 0.999
+  },
+  {
+    "word": "businesses",
+    "start": 138.6,
+    "end": 138.98,
+    "probability": 0.993
+  },
+  {
+    "word": "around",
+    "start": 138.98,
+    "end": 139.38,
+    "probability": 0.999
+  },
+  {
+    "word": "selling",
+    "start": 139.38,
+    "end": 139.7,
+    "probability": 0.999
+  },
+  {
+    "word": "software.",
+    "start": 139.7,
+    "end": 140.2,
+    "probability": 0.999
+  },
+  {
+    "word": "So",
+    "start": 140.34,
+    "end": 140.5,
+    "probability": 0.993
+  },
+  {
+    "word": "how",
+    "start": 140.5,
+    "end": 140.72,
+    "probability": 0.703
+  },
+  {
+    "word": "do",
+    "start": 140.72,
+    "end": 140.8,
+    "probability": 0.442
+  },
+  {
+    "word": "open",
+    "start": 140.8,
+    "end": 141.0,
+    "probability": 0.965
+  },
+  {
+    "word": "-source",
+    "start": 141.0,
+    "end": 141.24,
+    "probability": 0.664
+  },
+  {
+    "word": "developers",
+    "start": 141.24,
+    "end": 141.82,
+    "probability": 0.998
+  },
+  {
+    "word": "make",
+    "start": 141.82,
+    "end": 142.18,
+    "probability": 0.998
+  },
+  {
+    "word": "money?",
+    "start": 142.18,
+    "end": 142.52,
+    "probability": 1.0
+  },
+  {
+    "word": "Because",
+    "start": 142.52,
+    "end": 142.84,
+    "probability": 0.625
+  },
+  {
+    "word": "here's",
+    "start": 142.84,
+    "end": 143.12,
+    "probability": 0.961
+  },
+  {
+    "word": "the",
+    "start": 143.12,
+    "end": 143.24,
+    "probability": 0.999
+  },
+  {
+    "word": "thing,",
+    "start": 143.24,
+    "end": 143.44,
+    "probability": 0.998
+  },
+  {
+    "word": "making",
+    "start": 143.6,
+    "end": 143.74,
+    "probability": 0.949
+  },
+  {
+    "word": "software",
+    "start": 143.74,
+    "end": 144.2,
+    "probability": 0.993
+  },
+  {
+    "word": "isn't",
+    "start": 144.2,
+    "end": 144.54,
+    "probability": 0.995
+  },
+  {
+    "word": "free",
+    "start": 144.54,
+    "end": 144.82,
+    "probability": 0.975
+  },
+  {
+    "word": "even",
+    "start": 144.82,
+    "end": 145.12,
+    "probability": 0.585
+  },
+  {
+    "word": "when",
+    "start": 145.12,
+    "end": 145.28,
+    "probability": 0.993
+  },
+  {
+    "word": "downloading",
+    "start": 145.28,
+    "end": 145.66,
+    "probability": 0.995
+  },
+  {
+    "word": "it",
+    "start": 145.66,
+    "end": 145.92,
+    "probability": 0.976
+  },
+  {
+    "word": "is.",
+    "start": 145.92,
+    "end": 146.12,
+    "probability": 0.987
+  },
+  {
+    "word": "Developers",
+    "start": 146.34,
+    "end": 146.74,
+    "probability": 0.99
+  },
+  {
+    "word": "still",
+    "start": 146.74,
+    "end": 146.96,
+    "probability": 0.996
+  },
+  {
+    "word": "need",
+    "start": 146.96,
+    "end": 147.12,
+    "probability": 0.997
+  },
+  {
+    "word": "time,",
+    "start": 147.12,
+    "end": 147.42,
+    "probability": 0.997
+  },
+  {
+    "word": "hardware,",
+    "start": 147.62,
+    "end": 147.84,
+    "probability": 0.983
+  },
+  {
+    "word": "and",
+    "start": 148.04,
+    "end": 148.14,
+    "probability": 0.997
+  },
+  {
+    "word": "money",
+    "start": 148.14,
+    "end": 148.38,
+    "probability": 0.999
+  },
+  {
+    "word": "to",
+    "start": 148.38,
+    "end": 148.64,
+    "probability": 0.991
+  },
+  {
+    "word": "maintain",
+    "start": 148.64,
+    "end": 149.0,
+    "probability": 0.995
+  },
+  {
+    "word": "their",
+    "start": 149.0,
+    "end": 149.26,
+    "probability": 0.997
+  },
+  {
+    "word": "projects.",
+    "start": 149.26,
+    "end": 149.74,
+    "probability": 0.993
+  },
+  {
+    "word": "And",
+    "start": 150.06,
+    "end": 150.2,
+    "probability": 0.954
+  },
+  {
+    "word": "successful",
+    "start": 150.2,
+    "end": 150.58,
+    "probability": 0.991
+  },
+  {
+    "word": "open",
+    "start": 150.58,
+    "end": 150.92,
+    "probability": 0.915
+  },
+  {
+    "word": "-source",
+    "start": 150.92,
+    "end": 151.1,
+    "probability": 0.733
+  },
+  {
+    "word": "businesses",
+    "start": 151.1,
+    "end": 151.58,
+    "probability": 0.987
+  },
+  {
+    "word": "have",
+    "start": 151.58,
+    "end": 151.78,
+    "probability": 0.994
+  },
+  {
+    "word": "figured",
+    "start": 151.78,
+    "end": 151.98,
+    "probability": 0.997
+  },
+  {
+    "word": "out",
+    "start": 151.98,
+    "end": 152.18,
+    "probability": 0.995
+  },
+  {
+    "word": "how",
+    "start": 152.18,
+    "end": 152.38,
+    "probability": 0.996
+  },
+  {
+    "word": "to",
+    "start": 152.38,
+    "end": 152.48,
+    "probability": 0.997
+  },
+  {
+    "word": "make",
+    "start": 152.48,
+    "end": 152.66,
+    "probability": 0.999
+  },
+  {
+    "word": "money",
+    "start": 152.66,
+    "end": 152.94,
+    "probability": 0.999
+  },
+  {
+    "word": "without",
+    "start": 152.94,
+    "end": 153.28,
+    "probability": 0.956
+  },
+  {
+    "word": "charging",
+    "start": 153.28,
+    "end": 153.68,
+    "probability": 0.997
+  },
+  {
+    "word": "everyone",
+    "start": 153.68,
+    "end": 154.0,
+    "probability": 0.992
+  },
+  {
+    "word": "for",
+    "start": 154.0,
+    "end": 154.24,
+    "probability": 0.997
+  },
+  {
+    "word": "the",
+    "start": 154.24,
+    "end": 154.32,
+    "probability": 0.977
+  },
+  {
+    "word": "basic",
+    "start": 154.32,
+    "end": 154.56,
+    "probability": 0.995
+  },
+  {
+    "word": "software.",
+    "start": 154.56,
+    "end": 155.08,
+    "probability": 0.999
+  },
+  {
+    "word": "The",
+    "start": 155.32,
+    "end": 155.38,
+    "probability": 0.983
+  },
+  {
+    "word": "first",
+    "start": 155.38,
+    "end": 155.54,
+    "probability": 0.996
+  },
+  {
+    "word": "model",
+    "start": 155.54,
+    "end": 155.86,
+    "probability": 0.993
+  },
+  {
+    "word": "is",
+    "start": 155.86,
+    "end": 156.04,
+    "probability": 0.997
+  },
+  {
+    "word": "paid",
+    "start": 156.04,
+    "end": 156.22,
+    "probability": 0.895
+  },
+  {
+    "word": "convenience.",
+    "start": 156.22,
+    "end": 156.72,
+    "probability": 0.98
+  },
+  {
+    "word": "Take",
+    "start": 157.18,
+    "end": 157.3,
+    "probability": 0.986
+  },
+  {
+    "word": "an",
+    "start": 157.3,
+    "end": 157.42,
+    "probability": 0.995
+  },
+  {
+    "word": "open",
+    "start": 157.42,
+    "end": 157.56,
+    "probability": 0.992
+  },
+  {
+    "word": "-source",
+    "start": 157.56,
+    "end": 157.74,
+    "probability": 0.95
+  },
+  {
+    "word": "project",
+    "start": 157.74,
+    "end": 158.18,
+    "probability": 0.997
+  },
+  {
+    "word": "and",
+    "start": 158.18,
+    "end": 158.52,
+    "probability": 0.922
+  },
+  {
+    "word": "let",
+    "start": 158.52,
+    "end": 158.66,
+    "probability": 0.999
+  },
+  {
+    "word": "people",
+    "start": 158.66,
+    "end": 158.9,
+    "probability": 0.999
+  },
+  {
+    "word": "use",
+    "start": 158.9,
+    "end": 159.14,
+    "probability": 0.999
+  },
+  {
+    "word": "it",
+    "start": 159.14,
+    "end": 159.24,
+    "probability": 0.999
+  },
+  {
+    "word": "for",
+    "start": 159.24,
+    "end": 159.4,
+    "probability": 0.998
+  },
+  {
+    "word": "free.",
+    "start": 159.4,
+    "end": 159.66,
+    "probability": 0.999
+  },
+  {
+    "word": "Then",
+    "start": 159.82,
+    "end": 159.98,
+    "probability": 0.988
+  },
+  {
+    "word": "charge",
+    "start": 159.98,
+    "end": 160.2,
+    "probability": 0.94
+  },
+  {
+    "word": "for",
+    "start": 160.2,
+    "end": 160.44,
+    "probability": 0.997
+  },
+  {
+    "word": "hosting,",
+    "start": 160.44,
+    "end": 160.74,
+    "probability": 0.994
+  },
+  {
+    "word": "cloud",
+    "start": 161.02,
+    "end": 161.22,
+    "probability": 0.939
+  },
+  {
+    "word": "access,",
+    "start": 161.22,
+    "end": 161.58,
+    "probability": 0.998
+  },
+  {
+    "word": "automatic",
+    "start": 161.9,
+    "end": 162.18,
+    "probability": 0.992
+  },
+  {
+    "word": "updates,",
+    "start": 162.18,
+    "end": 162.74,
+    "probability": 0.999
+  },
+  {
+    "word": "or",
+    "start": 162.96,
+    "end": 163.1,
+    "probability": 0.998
+  },
+  {
+    "word": "the",
+    "start": 163.1,
+    "end": 163.22,
+    "probability": 0.997
+  },
+  {
+    "word": "infrastructure",
+    "start": 163.22,
+    "end": 163.56,
+    "probability": 0.999
+  },
+  {
+    "word": "needed",
+    "start": 163.56,
+    "end": 163.98,
+    "probability": 0.998
+  },
+  {
+    "word": "to",
+    "start": 163.98,
+    "end": 164.18,
+    "probability": 0.999
+  },
+  {
+    "word": "run",
+    "start": 164.18,
+    "end": 164.36,
+    "probability": 0.999
+  },
+  {
+    "word": "it.",
+    "start": 164.36,
+    "end": 164.48,
+    "probability": 0.999
+  },
+  {
+    "word": "The",
+    "start": 164.54,
+    "end": 164.64,
+    "probability": 0.993
+  },
+  {
+    "word": "second",
+    "start": 164.64,
+    "end": 164.86,
+    "probability": 0.997
+  },
+  {
+    "word": "is",
+    "start": 164.86,
+    "end": 165.08,
+    "probability": 0.993
+  },
+  {
+    "word": "enterprise",
+    "start": 165.08,
+    "end": 165.38,
+    "probability": 0.972
+  },
+  {
+    "word": "features",
+    "start": 165.38,
+    "end": 165.78,
+    "probability": 0.996
+  },
+  {
+    "word": "and",
+    "start": 165.78,
+    "end": 166.04,
+    "probability": 0.958
+  },
+  {
+    "word": "support.",
+    "start": 166.04,
+    "end": 166.34,
+    "probability": 0.999
+  },
+  {
+    "word": "A",
+    "start": 166.58,
+    "end": 166.7,
+    "probability": 0.995
+  },
+  {
+    "word": "regular",
+    "start": 166.7,
+    "end": 166.9,
+    "probability": 0.999
+  },
+  {
+    "word": "user",
+    "start": 166.9,
+    "end": 167.24,
+    "probability": 0.998
+  },
+  {
+    "word": "might",
+    "start": 167.24,
+    "end": 167.5,
+    "probability": 0.993
+  },
+  {
+    "word": "be",
+    "start": 167.5,
+    "end": 167.66,
+    "probability": 0.999
+  },
+  {
+    "word": "happy",
+    "start": 167.66,
+    "end": 167.9,
+    "probability": 0.999
+  },
+  {
+    "word": "with",
+    "start": 167.9,
+    "end": 168.08,
+    "probability": 0.999
+  },
+  {
+    "word": "the",
+    "start": 168.08,
+    "end": 168.22,
+    "probability": 0.99
+  },
+  {
+    "word": "free",
+    "start": 168.22,
+    "end": 168.34,
+    "probability": 0.993
+  },
+  {
+    "word": "version,",
+    "start": 168.34,
+    "end": 168.66,
+    "probability": 0.999
+  },
+  {
+    "word": "but",
+    "start": 168.8,
+    "end": 168.88,
+    "probability": 0.992
+  },
+  {
+    "word": "a",
+    "start": 168.88,
+    "end": 169.0,
+    "probability": 0.98
+  },
+  {
+    "word": "company",
+    "start": 169.0,
+    "end": 169.22,
+    "probability": 1.0
+  },
+  {
+    "word": "managing",
+    "start": 169.22,
+    "end": 169.66,
+    "probability": 0.996
+  },
+  {
+    "word": "thousands",
+    "start": 169.66,
+    "end": 170.0,
+    "probability": 0.991
+  },
+  {
+    "word": "of",
+    "start": 170.0,
+    "end": 170.22,
+    "probability": 0.999
+  },
+  {
+    "word": "employees",
+    "start": 170.22,
+    "end": 170.66,
+    "probability": 0.999
+  },
+  {
+    "word": "may",
+    "start": 170.66,
+    "end": 170.92,
+    "probability": 0.374
+  },
+  {
+    "word": "need",
+    "start": 170.92,
+    "end": 171.12,
+    "probability": 0.991
+  },
+  {
+    "word": "advanced",
+    "start": 171.12,
+    "end": 171.42,
+    "probability": 0.903
+  },
+  {
+    "word": "security,",
+    "start": 171.42,
+    "end": 171.96,
+    "probability": 0.998
+  },
+  {
+    "word": "access",
+    "start": 172.32,
+    "end": 172.58,
+    "probability": 0.979
+  },
+  {
+    "word": "controls,",
+    "start": 172.58,
+    "end": 173.08,
+    "probability": 0.976
+  },
+  {
+    "word": "compliance",
+    "start": 173.28,
+    "end": 173.54,
+    "probability": 0.987
+  },
+  {
+    "word": "tools,",
+    "start": 173.54,
+    "end": 173.9,
+    "probability": 0.996
+  },
+  {
+    "word": "and",
+    "start": 174.06,
+    "end": 174.12,
+    "probability": 0.991
+  },
+  {
+    "word": "someone",
+    "start": 174.12,
+    "end": 174.3,
+    "probability": 0.997
+  },
+  {
+    "word": "to",
+    "start": 174.3,
+    "end": 174.44,
+    "probability": 0.991
+  },
+  {
+    "word": "call",
+    "start": 174.44,
+    "end": 174.62,
+    "probability": 1.0
+  },
+  {
+    "word": "when",
+    "start": 174.62,
+    "end": 174.78,
+    "probability": 0.992
+  },
+  {
+    "word": "something",
+    "start": 174.78,
+    "end": 175.06,
+    "probability": 0.997
+  },
+  {
+    "word": "breaks.",
+    "start": 175.06,
+    "end": 175.42,
+    "probability": 0.995
+  },
+  {
+    "word": "The",
+    "start": 175.78,
+    "end": 175.86,
+    "probability": 0.978
+  },
+  {
+    "word": "third",
+    "start": 175.86,
+    "end": 176.06,
+    "probability": 0.993
+  },
+  {
+    "word": "is",
+    "start": 176.06,
+    "end": 176.2,
+    "probability": 0.996
+  },
+  {
+    "word": "selling",
+    "start": 176.2,
+    "end": 176.4,
+    "probability": 0.959
+  },
+  {
+    "word": "services.",
+    "start": 176.4,
+    "end": 176.86,
+    "probability": 0.998
+  },
+  {
+    "word": "Companies",
+    "start": 177.14,
+    "end": 177.36,
+    "probability": 0.977
+  },
+  {
+    "word": "can",
+    "start": 177.36,
+    "end": 177.56,
+    "probability": 0.997
+  },
+  {
+    "word": "build",
+    "start": 177.56,
+    "end": 177.76,
+    "probability": 0.997
+  },
+  {
+    "word": "open",
+    "start": 177.76,
+    "end": 177.94,
+    "probability": 0.95
+  },
+  {
+    "word": "-source",
+    "start": 177.94,
+    "end": 178.14,
+    "probability": 0.764
+  },
+  {
+    "word": "software",
+    "start": 178.14,
+    "end": 178.66,
+    "probability": 0.999
+  },
+  {
+    "word": "and",
+    "start": 178.66,
+    "end": 178.98,
+    "probability": 0.65
+  },
+  {
+    "word": "then",
+    "start": 178.98,
+    "end": 179.1,
+    "probability": 0.987
+  },
+  {
+    "word": "charge",
+    "start": 179.1,
+    "end": 179.38,
+    "probability": 0.997
+  },
+  {
+    "word": "for",
+    "start": 179.38,
+    "end": 179.58,
+    "probability": 0.998
+  },
+  {
+    "word": "installation,",
+    "start": 179.58,
+    "end": 180.08,
+    "probability": 0.996
+  },
+  {
+    "word": "customization,",
+    "start": 180.36,
+    "end": 180.68,
+    "probability": 0.983
+  },
+  {
+    "word": "consulting,",
+    "start": 181.4,
+    "end": 181.64,
+    "probability": 0.998
+  },
+  {
+    "word": "and",
+    "start": 181.86,
+    "end": 181.92,
+    "probability": 0.999
+  },
+  {
+    "word": "maintenance.",
+    "start": 181.92,
+    "end": 182.18,
+    "probability": 1.0
+  },
+  {
+    "word": "And",
+    "start": 182.68,
+    "end": 182.8,
+    "probability": 0.931
+  },
+  {
+    "word": "some",
+    "start": 182.8,
+    "end": 183.0,
+    "probability": 0.99
+  },
+  {
+    "word": "projects",
+    "start": 183.0,
+    "end": 183.34,
+    "probability": 0.998
+  },
+  {
+    "word": "survive",
+    "start": 183.34,
+    "end": 183.88,
+    "probability": 0.97
+  },
+  {
+    "word": "through",
+    "start": 183.88,
+    "end": 184.18,
+    "probability": 0.998
+  },
+  {
+    "word": "sponsorships,",
+    "start": 184.18,
+    "end": 184.96,
+    "probability": 0.996
+  },
+  {
+    "word": "donations,",
+    "start": 185.08,
+    "end": 185.28,
+    "probability": 0.997
+  },
+  {
+    "word": "or",
+    "start": 185.64,
+    "end": 185.78,
+    "probability": 0.997
+  },
+  {
+    "word": "funding",
+    "start": 185.78,
+    "end": 186.12,
+    "probability": 0.998
+  },
+  {
+    "word": "from",
+    "start": 186.12,
+    "end": 186.4,
+    "probability": 0.995
+  },
+  {
+    "word": "companies",
+    "start": 186.4,
+    "end": 186.78,
+    "probability": 0.997
+  },
+  {
+    "word": "that",
+    "start": 186.78,
+    "end": 187.0,
+    "probability": 0.998
+  },
+  {
+    "word": "depend",
+    "start": 187.0,
+    "end": 187.22,
+    "probability": 0.999
+  },
+  {
+    "word": "on",
+    "start": 187.22,
+    "end": 187.44,
+    "probability": 0.999
+  },
+  {
+    "word": "them.",
+    "start": 187.44,
+    "end": 187.62,
+    "probability": 1.0
+  },
+  {
+    "word": "So",
+    "start": 187.86,
+    "end": 187.94,
+    "probability": 0.99
+  },
+  {
+    "word": "the",
+    "start": 187.94,
+    "end": 188.04,
+    "probability": 0.879
+  },
+  {
+    "word": "software",
+    "start": 188.04,
+    "end": 188.36,
+    "probability": 0.999
+  },
+  {
+    "word": "can",
+    "start": 188.36,
+    "end": 188.58,
+    "probability": 0.998
+  },
+  {
+    "word": "be",
+    "start": 188.58,
+    "end": 188.72,
+    "probability": 0.999
+  },
+  {
+    "word": "free",
+    "start": 188.72,
+    "end": 189.04,
+    "probability": 0.997
+  },
+  {
+    "word": "while",
+    "start": 189.04,
+    "end": 189.28,
+    "probability": 0.918
+  },
+  {
+    "word": "the",
+    "start": 189.28,
+    "end": 189.4,
+    "probability": 0.997
+  },
+  {
+    "word": "business",
+    "start": 189.4,
+    "end": 189.64,
+    "probability": 0.999
+  },
+  {
+    "word": "around",
+    "start": 189.64,
+    "end": 189.96,
+    "probability": 0.994
+  },
+  {
+    "word": "it",
+    "start": 189.96,
+    "end": 190.18,
+    "probability": 0.995
+  },
+  {
+    "word": "still",
+    "start": 190.18,
+    "end": 190.46,
+    "probability": 0.991
+  },
+  {
+    "word": "makes",
+    "start": 190.46,
+    "end": 190.68,
+    "probability": 0.998
+  },
+  {
+    "word": "money.",
+    "start": 190.68,
+    "end": 191.0,
+    "probability": 1.0
+  },
+  {
+    "word": "But",
+    "start": 191.24,
+    "end": 191.38,
+    "probability": 0.995
+  },
+  {
+    "word": "here's",
+    "start": 191.38,
+    "end": 191.7,
+    "probability": 0.987
+  },
+  {
+    "word": "where",
+    "start": 191.7,
+    "end": 191.82,
+    "probability": 0.998
+  },
+  {
+    "word": "things",
+    "start": 191.82,
+    "end": 192.06,
+    "probability": 0.999
+  },
+  {
+    "word": "could",
+    "start": 192.06,
+    "end": 192.24,
+    "probability": 0.968
+  },
+  {
+    "word": "get",
+    "start": 192.24,
+    "end": 192.38,
+    "probability": 0.998
+  },
+  {
+    "word": "interesting.",
+    "start": 192.38,
+    "end": 192.76,
+    "probability": 0.999
+  },
+  {
+    "word": "If",
+    "start": 193.06,
+    "end": 193.2,
+    "probability": 0.995
+  },
+  {
+    "word": "AI",
+    "start": 193.2,
+    "end": 193.4,
+    "probability": 0.977
+  },
+  {
+    "word": "keeps",
+    "start": 193.4,
+    "end": 193.68,
+    "probability": 0.997
+  },
+  {
+    "word": "making",
+    "start": 193.68,
+    "end": 193.92,
+    "probability": 0.999
+  },
+  {
+    "word": "software",
+    "start": 193.92,
+    "end": 194.36,
+    "probability": 0.997
+  },
+  {
+    "word": "cheaper",
+    "start": 194.36,
+    "end": 194.66,
+    "probability": 0.999
+  },
+  {
+    "word": "and",
+    "start": 194.66,
+    "end": 194.94,
+    "probability": 0.995
+  },
+  {
+    "word": "easier",
+    "start": 194.94,
+    "end": 195.2,
+    "probability": 0.998
+  },
+  {
+    "word": "to",
+    "start": 195.2,
+    "end": 195.4,
+    "probability": 0.995
+  },
+  {
+    "word": "build,",
+    "start": 195.4,
+    "end": 195.68,
+    "probability": 0.999
+  },
+  {
+    "word": "I",
+    "start": 195.82,
+    "end": 195.96,
+    "probability": 0.997
+  },
+  {
+    "word": "think",
+    "start": 195.96,
+    "end": 196.12,
+    "probability": 0.999
+  },
+  {
+    "word": "we'll",
+    "start": 196.12,
+    "end": 196.36,
+    "probability": 0.995
+  },
+  {
+    "word": "see",
+    "start": 196.36,
+    "end": 196.54,
+    "probability": 0.998
+  },
+  {
+    "word": "more",
+    "start": 196.54,
+    "end": 196.76,
+    "probability": 0.997
+  },
+  {
+    "word": "pressure",
+    "start": 196.76,
+    "end": 197.1,
+    "probability": 0.999
+  },
+  {
+    "word": "on",
+    "start": 197.1,
+    "end": 197.28,
+    "probability": 0.999
+  },
+  {
+    "word": "traditional",
+    "start": 197.28,
+    "end": 197.58,
+    "probability": 0.998
+  },
+  {
+    "word": "software",
+    "start": 197.58,
+    "end": 198.08,
+    "probability": 0.999
+  },
+  {
+    "word": "companies.",
+    "start": 198.08,
+    "end": 198.6,
+    "probability": 0.999
+  },
+  {
+    "word": "Instead",
+    "start": 198.6,
+    "end": 199.1,
+    "probability": 0.541
+  },
+  {
+    "word": "of",
+    "start": 199.1,
+    "end": 199.28,
+    "probability": 0.997
+  },
+  {
+    "word": "paying",
+    "start": 199.28,
+    "end": 199.44,
+    "probability": 0.996
+  },
+  {
+    "word": "for",
+    "start": 199.44,
+    "end": 199.62,
+    "probability": 0.995
+  },
+  {
+    "word": "dozens",
+    "start": 199.62,
+    "end": 199.88,
+    "probability": 0.994
+  },
+  {
+    "word": "of",
+    "start": 199.88,
+    "end": 200.14,
+    "probability": 0.998
+  },
+  {
+    "word": "separate",
+    "start": 200.14,
+    "end": 200.4,
+    "probability": 0.96
+  },
+  {
+    "word": "applications,",
+    "start": 200.4,
+    "end": 200.98,
+    "probability": 0.995
+  },
+  {
+    "word": "people",
+    "start": 201.24,
+    "end": 201.42,
+    "probability": 0.991
+  },
+  {
+    "word": "may",
+    "start": 201.42,
+    "end": 201.62,
+    "probability": 0.996
+  },
+  {
+    "word": "increasingly",
+    "start": 201.62,
+    "end": 202.08,
+    "probability": 0.986
+  },
+  {
+    "word": "build",
+    "start": 202.08,
+    "end": 202.58,
+    "probability": 0.992
+  },
+  {
+    "word": "small",
+    "start": 202.58,
+    "end": 202.94,
+    "probability": 0.991
+  },
+  {
+    "word": "tools",
+    "start": 202.94,
+    "end": 203.4,
+    "probability": 0.995
+  },
+  {
+    "word": "that",
+    "start": 203.4,
+    "end": 203.64,
+    "probability": 0.989
+  },
+  {
+    "word": "do",
+    "start": 203.64,
+    "end": 203.82,
+    "probability": 0.992
+  },
+  {
+    "word": "exactly",
+    "start": 203.82,
+    "end": 204.24,
+    "probability": 0.991
+  },
+  {
+    "word": "what",
+    "start": 204.24,
+    "end": 204.48,
+    "probability": 0.999
+  },
+  {
+    "word": "they",
+    "start": 204.48,
+    "end": 204.64,
+    "probability": 0.998
+  },
+  {
+    "word": "need,",
+    "start": 204.64,
+    "end": 204.88,
+    "probability": 0.999
+  },
+  {
+    "word": "and",
+    "start": 204.96,
+    "end": 205.04,
+    "probability": 0.991
+  },
+  {
+    "word": "companies",
+    "start": 205.04,
+    "end": 205.28,
+    "probability": 0.996
+  },
+  {
+    "word": "will",
+    "start": 205.28,
+    "end": 205.46,
+    "probability": 0.995
+  },
+  {
+    "word": "have",
+    "start": 205.46,
+    "end": 205.62,
+    "probability": 0.995
+  },
+  {
+    "word": "to",
+    "start": 205.62,
+    "end": 205.74,
+    "probability": 0.998
+  },
+  {
+    "word": "compete",
+    "start": 205.74,
+    "end": 206.06,
+    "probability": 0.997
+  },
+  {
+    "word": "on",
+    "start": 206.06,
+    "end": 206.28,
+    "probability": 0.992
+  },
+  {
+    "word": "more",
+    "start": 206.28,
+    "end": 206.5,
+    "probability": 0.996
+  },
+  {
+    "word": "than",
+    "start": 206.5,
+    "end": 206.66,
+    "probability": 0.98
+  },
+  {
+    "word": "just",
+    "start": 206.66,
+    "end": 206.84,
+    "probability": 0.991
+  },
+  {
+    "word": "access",
+    "start": 206.84,
+    "end": 207.18,
+    "probability": 0.979
+  },
+  {
+    "word": "to",
+    "start": 207.18,
+    "end": 207.44,
+    "probability": 0.998
+  },
+  {
+    "word": "features.",
+    "start": 207.44,
+    "end": 207.72,
+    "probability": 0.989
+  },
+  {
+    "word": "But",
+    "start": 208.04,
+    "end": 208.14,
+    "probability": 0.987
+  },
+  {
+    "word": "I",
+    "start": 208.14,
+    "end": 208.22,
+    "probability": 0.946
+  },
+  {
+    "word": "wouldn't",
+    "start": 208.22,
+    "end": 208.36,
+    "probability": 0.997
+  },
+  {
+    "word": "expect",
+    "start": 208.36,
+    "end": 208.58,
+    "probability": 0.999
+  },
+  {
+    "word": "paid",
+    "start": 208.58,
+    "end": 208.86,
+    "probability": 0.982
+  },
+  {
+    "word": "software",
+    "start": 208.86,
+    "end": 209.26,
+    "probability": 0.998
+  },
+  {
+    "word": "to",
+    "start": 209.26,
+    "end": 209.58,
+    "probability": 0.997
+  },
+  {
+    "word": "disappear",
+    "start": 209.58,
+    "end": 209.86,
+    "probability": 0.993
+  },
+  {
+    "word": "completely.",
+    "start": 209.86,
+    "end": 210.34,
+    "probability": 0.999
+  },
+  {
+    "word": "Professional",
+    "start": 210.62,
+    "end": 210.82,
+    "probability": 0.953
+  },
+  {
+    "word": "support,",
+    "start": 210.82,
+    "end": 211.2,
+    "probability": 0.993
+  },
+  {
+    "word": "reliability,",
+    "start": 211.6,
+    "end": 211.9,
+    "probability": 0.997
+  },
+  {
+    "word": "collaboration,",
+    "start": 212.44,
+    "end": 212.86,
+    "probability": 0.996
+  },
+  {
+    "word": "and",
+    "start": 213.38,
+    "end": 213.56,
+    "probability": 0.993
+  },
+  {
+    "word": "specialized",
+    "start": 213.56,
+    "end": 213.96,
+    "probability": 0.986
+  },
+  {
+    "word": "features",
+    "start": 213.96,
+    "end": 214.42,
+    "probability": 0.997
+  },
+  {
+    "word": "still",
+    "start": 214.42,
+    "end": 214.78,
+    "probability": 0.992
+  },
+  {
+    "word": "have",
+    "start": 214.78,
+    "end": 214.98,
+    "probability": 0.999
+  },
+  {
+    "word": "value,",
+    "start": 214.98,
+    "end": 215.36,
+    "probability": 0.999
+  },
+  {
+    "word": "and",
+    "start": 215.52,
+    "end": 215.62,
+    "probability": 0.997
+  },
+  {
+    "word": "open",
+    "start": 215.62,
+    "end": 215.82,
+    "probability": 0.762
+  },
+  {
+    "word": "-source",
+    "start": 215.82,
+    "end": 216.08,
+    "probability": 0.646
+  },
+  {
+    "word": "doesn't",
+    "start": 216.08,
+    "end": 216.44,
+    "probability": 0.995
+  },
+  {
+    "word": "automatically",
+    "start": 216.44,
+    "end": 216.88,
+    "probability": 0.999
+  },
+  {
+    "word": "mean",
+    "start": 216.88,
+    "end": 217.2,
+    "probability": 0.999
+  },
+  {
+    "word": "better",
+    "start": 217.2,
+    "end": 217.4,
+    "probability": 0.988
+  },
+  {
+    "word": "security",
+    "start": 217.4,
+    "end": 217.84,
+    "probability": 0.999
+  },
+  {
+    "word": "or",
+    "start": 217.84,
+    "end": 218.22,
+    "probability": 0.911
+  },
+  {
+    "word": "a",
+    "start": 218.22,
+    "end": 218.44,
+    "probability": 0.969
+  },
+  {
+    "word": "better",
+    "start": 218.44,
+    "end": 218.6,
+    "probability": 0.998
+  },
+  {
+    "word": "product.",
+    "start": 218.6,
+    "end": 219.0,
+    "probability": 0.999
+  },
+  {
+    "word": "There's",
+    "start": 219.14,
+    "end": 219.3,
+    "probability": 0.983
+  },
+  {
+    "word": "also",
+    "start": 219.3,
+    "end": 219.46,
+    "probability": 0.995
+  },
+  {
+    "word": "a",
+    "start": 219.46,
+    "end": 219.58,
+    "probability": 0.997
+  },
+  {
+    "word": "difference",
+    "start": 219.58,
+    "end": 219.8,
+    "probability": 0.998
+  },
+  {
+    "word": "between",
+    "start": 219.8,
+    "end": 220.08,
+    "probability": 0.988
+  },
+  {
+    "word": "open",
+    "start": 220.08,
+    "end": 220.3,
+    "probability": 0.975
+  },
+  {
+    "word": "-source",
+    "start": 220.3,
+    "end": 220.52,
+    "probability": 0.964
+  },
+  {
+    "word": "software",
+    "start": 220.52,
+    "end": 221.0,
+    "probability": 0.992
+  },
+  {
+    "word": "and",
+    "start": 221.0,
+    "end": 221.2,
+    "probability": 0.997
+  },
+  {
+    "word": "AI",
+    "start": 221.2,
+    "end": 221.42,
+    "probability": 0.976
+  },
+  {
+    "word": "models",
+    "start": 221.42,
+    "end": 221.8,
+    "probability": 0.998
+  },
+  {
+    "word": "that",
+    "start": 221.8,
+    "end": 222.18,
+    "probability": 0.955
+  },
+  {
+    "word": "merely",
+    "start": 222.18,
+    "end": 222.44,
+    "probability": 0.996
+  },
+  {
+    "word": "let",
+    "start": 222.44,
+    "end": 222.72,
+    "probability": 0.996
+  },
+  {
+    "word": "you",
+    "start": 222.72,
+    "end": 222.86,
+    "probability": 1.0
+  },
+  {
+    "word": "download",
+    "start": 222.86,
+    "end": 223.14,
+    "probability": 0.998
+  },
+  {
+    "word": "their",
+    "start": 223.14,
+    "end": 223.34,
+    "probability": 0.995
+  },
+  {
+    "word": "weights,",
+    "start": 223.34,
+    "end": 223.64,
+    "probability": 0.961
+  },
+  {
+    "word": "the",
+    "start": 223.84,
+    "end": 223.96,
+    "probability": 0.958
+  },
+  {
+    "word": "license,",
+    "start": 223.96,
+    "end": 224.22,
+    "probability": 0.984
+  },
+  {
+    "word": "and",
+    "start": 224.48,
+    "end": 224.5,
+    "probability": 0.999
+  },
+  {
+    "word": "what's",
+    "start": 224.5,
+    "end": 224.72,
+    "probability": 0.996
+  },
+  {
+    "word": "actually",
+    "start": 224.72,
+    "end": 224.98,
+    "probability": 0.992
+  },
+  {
+    "word": "available",
+    "start": 224.98,
+    "end": 225.34,
+    "probability": 0.999
+  },
+  {
+    "word": "still",
+    "start": 225.34,
+    "end": 225.68,
+    "probability": 0.98
+  },
+  {
+    "word": "matter.",
+    "start": 225.68,
+    "end": 225.98,
+    "probability": 0.999
+  },
+  {
+    "word": "The",
+    "start": 226.14,
+    "end": 226.22,
+    "probability": 0.993
+  },
+  {
+    "word": "bigger",
+    "start": 226.22,
+    "end": 226.4,
+    "probability": 0.995
+  },
+  {
+    "word": "change",
+    "start": 226.4,
+    "end": 226.72,
+    "probability": 0.993
+  },
+  {
+    "word": "is",
+    "start": 226.72,
+    "end": 226.9,
+    "probability": 0.999
+  },
+  {
+    "word": "where",
+    "start": 226.9,
+    "end": 227.02,
+    "probability": 0.999
+  },
+  {
+    "word": "the",
+    "start": 227.02,
+    "end": 227.14,
+    "probability": 0.996
+  },
+  {
+    "word": "money",
+    "start": 227.14,
+    "end": 227.3,
+    "probability": 1.0
+  },
+  {
+    "word": "goes.",
+    "start": 227.3,
+    "end": 227.58,
+    "probability": 0.999
+  },
+  {
+    "word": "If",
+    "start": 227.58,
+    "end": 227.94,
+    "probability": 0.749
+  },
+  {
+    "word": "software",
+    "start": 227.94,
+    "end": 228.26,
+    "probability": 0.989
+  },
+  {
+    "word": "becomes",
+    "start": 228.26,
+    "end": 228.56,
+    "probability": 0.99
+  },
+  {
+    "word": "easier",
+    "start": 228.56,
+    "end": 228.94,
+    "probability": 0.995
+  },
+  {
+    "word": "to",
+    "start": 228.94,
+    "end": 229.12,
+    "probability": 0.998
+  },
+  {
+    "word": "reproduce,",
+    "start": 229.12,
+    "end": 229.48,
+    "probability": 0.997
+  },
+  {
+    "word": "the",
+    "start": 229.92,
+    "end": 229.98,
+    "probability": 0.991
+  },
+  {
+    "word": "advantage",
+    "start": 229.98,
+    "end": 230.28,
+    "probability": 0.991
+  },
+  {
+    "word": "may",
+    "start": 230.28,
+    "end": 230.48,
+    "probability": 0.998
+  },
+  {
+    "word": "shift",
+    "start": 230.48,
+    "end": 230.74,
+    "probability": 0.999
+  },
+  {
+    "word": "toward",
+    "start": 230.74,
+    "end": 230.96,
+    "probability": 0.928
+  },
+  {
+    "word": "the",
+    "start": 230.96,
+    "end": 231.12,
+    "probability": 0.963
+  },
+  {
+    "word": "hardware,",
+    "start": 231.12,
+    "end": 231.42,
+    "probability": 0.999
+  },
+  {
+    "word": "computing",
+    "start": 231.7,
+    "end": 231.94,
+    "probability": 0.999
+  },
+  {
+    "word": "power,",
+    "start": 231.94,
+    "end": 232.36,
+    "probability": 0.997
+  },
+  {
+    "word": "and",
+    "start": 232.54,
+    "end": 232.58,
+    "probability": 0.997
+  },
+  {
+    "word": "services",
+    "start": 232.58,
+    "end": 232.9,
+    "probability": 0.996
+  },
+  {
+    "word": "needed",
+    "start": 232.9,
+    "end": 233.28,
+    "probability": 0.995
+  },
+  {
+    "word": "to",
+    "start": 233.28,
+    "end": 233.5,
+    "probability": 0.998
+  },
+  {
+    "word": "run",
+    "start": 233.5,
+    "end": 233.66,
+    "probability": 0.998
+  },
+  {
+    "word": "it.",
+    "start": 233.66,
+    "end": 233.78,
+    "probability": 0.995
+  },
+  {
+    "word": "Companies",
+    "start": 233.96,
+    "end": 234.22,
+    "probability": 0.976
+  },
+  {
+    "word": "could",
+    "start": 234.22,
+    "end": 234.44,
+    "probability": 0.987
+  },
+  {
+    "word": "find",
+    "start": 234.44,
+    "end": 234.66,
+    "probability": 0.996
+  },
+  {
+    "word": "more",
+    "start": 234.66,
+    "end": 234.88,
+    "probability": 0.996
+  },
+  {
+    "word": "value",
+    "start": 234.88,
+    "end": 235.26,
+    "probability": 0.998
+  },
+  {
+    "word": "in",
+    "start": 235.26,
+    "end": 235.42,
+    "probability": 0.996
+  },
+  {
+    "word": "selling",
+    "start": 235.42,
+    "end": 235.66,
+    "probability": 0.997
+  },
+  {
+    "word": "cloud",
+    "start": 235.66,
+    "end": 236.0,
+    "probability": 0.955
+  },
+  {
+    "word": "computing,",
+    "start": 236.0,
+    "end": 236.36,
+    "probability": 0.998
+  },
+  {
+    "word": "specialized",
+    "start": 236.7,
+    "end": 237.02,
+    "probability": 0.843
+  },
+  {
+    "word": "chips,",
+    "start": 237.02,
+    "end": 237.52,
+    "probability": 0.993
+  },
+  {
+    "word": "and",
+    "start": 237.76,
+    "end": 237.86,
+    "probability": 0.998
+  },
+  {
+    "word": "devices",
+    "start": 237.86,
+    "end": 238.26,
+    "probability": 0.993
+  },
+  {
+    "word": "than",
+    "start": 238.26,
+    "end": 238.58,
+    "probability": 0.83
+  },
+  {
+    "word": "in",
+    "start": 238.58,
+    "end": 238.72,
+    "probability": 0.996
+  },
+  {
+    "word": "charging",
+    "start": 238.72,
+    "end": 238.94,
+    "probability": 0.997
+  },
+  {
+    "word": "for",
+    "start": 238.94,
+    "end": 239.18,
+    "probability": 0.996
+  },
+  {
+    "word": "basic",
+    "start": 239.18,
+    "end": 239.46,
+    "probability": 0.996
+  },
+  {
+    "word": "software",
+    "start": 239.46,
+    "end": 239.92,
+    "probability": 0.994
+  },
+  {
+    "word": "features.",
+    "start": 239.92,
+    "end": 240.24,
+    "probability": 0.998
+  },
+  {
+    "word": "That",
+    "start": 240.48,
+    "end": 240.56,
+    "probability": 0.982
+  },
+  {
+    "word": "doesn't",
+    "start": 240.56,
+    "end": 240.74,
+    "probability": 0.998
+  },
+  {
+    "word": "mean",
+    "start": 240.74,
+    "end": 240.9,
+    "probability": 0.999
+  },
+  {
+    "word": "hardware",
+    "start": 240.9,
+    "end": 241.2,
+    "probability": 0.991
+  },
+  {
+    "word": "prices",
+    "start": 241.2,
+    "end": 241.6,
+    "probability": 0.998
+  },
+  {
+    "word": "will",
+    "start": 241.6,
+    "end": 241.82,
+    "probability": 0.998
+  },
+  {
+    "word": "automatically",
+    "start": 241.82,
+    "end": 242.3,
+    "probability": 0.994
+  },
+  {
+    "word": "rise,",
+    "start": 242.3,
+    "end": 242.72,
+    "probability": 0.994
+  },
+  {
+    "word": "or",
+    "start": 242.92,
+    "end": 243.08,
+    "probability": 0.997
+  },
+  {
+    "word": "that",
+    "start": 243.08,
+    "end": 243.22,
+    "probability": 0.997
+  },
+  {
+    "word": "every",
+    "start": 243.22,
+    "end": 243.4,
+    "probability": 0.995
+  },
+  {
+    "word": "company",
+    "start": 243.4,
+    "end": 243.7,
+    "probability": 0.999
+  },
+  {
+    "word": "will",
+    "start": 243.7,
+    "end": 243.98,
+    "probability": 0.998
+  },
+  {
+    "word": "abandon",
+    "start": 243.98,
+    "end": 244.36,
+    "probability": 0.99
+  },
+  {
+    "word": "subscriptions.",
+    "start": 244.36,
+    "end": 244.98,
+    "probability": 0.993
+  },
+  {
+    "word": "But",
+    "start": 245.36,
+    "end": 245.52,
+    "probability": 0.983
+  },
+  {
+    "word": "it",
+    "start": 245.52,
+    "end": 245.62,
+    "probability": 0.972
+  },
+  {
+    "word": "does",
+    "start": 245.62,
+    "end": 245.78,
+    "probability": 0.99
+  },
+  {
+    "word": "mean",
+    "start": 245.78,
+    "end": 245.92,
+    "probability": 0.998
+  },
+  {
+    "word": "the",
+    "start": 245.92,
+    "end": 246.04,
+    "probability": 0.981
+  },
+  {
+    "word": "old",
+    "start": 246.04,
+    "end": 246.18,
+    "probability": 0.99
+  },
+  {
+    "word": "model",
+    "start": 246.18,
+    "end": 246.48,
+    "probability": 0.999
+  },
+  {
+    "word": "becomes",
+    "start": 246.48,
+    "end": 246.8,
+    "probability": 0.996
+  },
+  {
+    "word": "harder",
+    "start": 246.8,
+    "end": 247.08,
+    "probability": 0.997
+  },
+  {
+    "word": "to",
+    "start": 247.08,
+    "end": 247.28,
+    "probability": 1.0
+  },
+  {
+    "word": "defend",
+    "start": 247.28,
+    "end": 247.68,
+    "probability": 0.997
+  },
+  {
+    "word": "when",
+    "start": 247.68,
+    "end": 247.94,
+    "probability": 0.968
+  },
+  {
+    "word": "free",
+    "start": 247.94,
+    "end": 248.18,
+    "probability": 0.998
+  },
+  {
+    "word": "alternatives",
+    "start": 248.18,
+    "end": 248.56,
+    "probability": 0.998
+  },
+  {
+    "word": "keep",
+    "start": 248.56,
+    "end": 248.88,
+    "probability": 0.997
+  },
+  {
+    "word": "improving,",
+    "start": 248.88,
+    "end": 249.3,
+    "probability": 1.0
+  },
+  {
+    "word": "so",
+    "start": 249.5,
+    "end": 249.76,
+    "probability": 0.995
+  },
+  {
+    "word": "I",
+    "start": 249.76,
+    "end": 250.16,
+    "probability": 0.812
+  },
+  {
+    "word": "don't",
+    "start": 250.16,
+    "end": 250.3,
+    "probability": 0.999
+  },
+  {
+    "word": "think",
+    "start": 250.3,
+    "end": 250.44,
+    "probability": 0.997
+  },
+  {
+    "word": "every",
+    "start": 250.44,
+    "end": 250.64,
+    "probability": 0.996
+  },
+  {
+    "word": "paid",
+    "start": 250.64,
+    "end": 250.88,
+    "probability": 0.996
+  },
+  {
+    "word": "application",
+    "start": 250.88,
+    "end": 251.26,
+    "probability": 0.999
+  },
+  {
+    "word": "is",
+    "start": 251.26,
+    "end": 251.48,
+    "probability": 0.999
+  },
+  {
+    "word": "going",
+    "start": 251.48,
+    "end": 251.64,
+    "probability": 0.999
+  },
+  {
+    "word": "away.",
+    "start": 251.64,
+    "end": 251.98,
+    "probability": 0.998
+  },
+  {
+    "word": "But",
+    "start": 252.12,
+    "end": 252.22,
+    "probability": 0.971
+  },
+  {
+    "word": "I",
+    "start": 252.22,
+    "end": 252.3,
+    "probability": 0.993
+  },
+  {
+    "word": "do",
+    "start": 252.3,
+    "end": 252.4,
+    "probability": 0.979
+  },
+  {
+    "word": "think",
+    "start": 252.4,
+    "end": 252.6,
+    "probability": 0.999
+  },
+  {
+    "word": "we're",
+    "start": 252.6,
+    "end": 252.74,
+    "probability": 0.987
+  },
+  {
+    "word": "moving",
+    "start": 252.74,
+    "end": 252.94,
+    "probability": 0.999
+  },
+  {
+    "word": "toward",
+    "start": 252.94,
+    "end": 253.18,
+    "probability": 0.979
+  },
+  {
+    "word": "a",
+    "start": 253.18,
+    "end": 253.3,
+    "probability": 0.998
+  },
+  {
+    "word": "world",
+    "start": 253.3,
+    "end": 253.54,
+    "probability": 0.999
+  },
+  {
+    "word": "where",
+    "start": 253.54,
+    "end": 253.72,
+    "probability": 0.996
+  },
+  {
+    "word": "paying",
+    "start": 253.72,
+    "end": 253.94,
+    "probability": 0.998
+  },
+  {
+    "word": "for",
+    "start": 253.94,
+    "end": 254.12,
+    "probability": 0.999
+  },
+  {
+    "word": "software",
+    "start": 254.12,
+    "end": 254.44,
+    "probability": 0.997
+  },
+  {
+    "word": "becomes",
+    "start": 254.44,
+    "end": 254.74,
+    "probability": 0.996
+  },
+  {
+    "word": "a",
+    "start": 254.74,
+    "end": 254.94,
+    "probability": 0.998
+  },
+  {
+    "word": "choice",
+    "start": 254.94,
+    "end": 255.42,
+    "probability": 0.956
+  },
+  {
+    "word": "rather",
+    "start": 255.42,
+    "end": 255.8,
+    "probability": 0.75
+  },
+  {
+    "word": "than",
+    "start": 255.8,
+    "end": 256.04,
+    "probability": 0.997
+  },
+  {
+    "word": "a",
+    "start": 256.04,
+    "end": 256.12,
+    "probability": 0.994
+  },
+  {
+    "word": "requirement",
+    "start": 256.12,
+    "end": 256.52,
+    "probability": 0.997
+  },
+  {
+    "word": "for",
+    "start": 256.52,
+    "end": 256.82,
+    "probability": 0.998
+  },
+  {
+    "word": "more",
+    "start": 256.82,
+    "end": 257.04,
+    "probability": 0.998
+  },
+  {
+    "word": "and",
+    "start": 257.04,
+    "end": 257.12,
+    "probability": 0.994
+  },
+  {
+    "word": "more",
+    "start": 257.12,
+    "end": 257.26,
+    "probability": 0.999
+  },
+  {
+    "word": "tasks.",
+    "start": 257.26,
+    "end": 257.74,
+    "probability": 0.997
+  },
+  {
+    "word": "And",
+    "start": 258.14,
+    "end": 258.28,
+    "probability": 0.964
+  },
+  {
+    "word": "with",
+    "start": 258.28,
+    "end": 258.42,
+    "probability": 0.972
+  },
+  {
+    "word": "AI",
+    "start": 258.42,
+    "end": 258.6,
+    "probability": 0.984
+  },
+  {
+    "word": "making",
+    "start": 258.6,
+    "end": 258.84,
+    "probability": 0.86
+  },
+  {
+    "word": "development",
+    "start": 258.84,
+    "end": 259.26,
+    "probability": 0.997
+  },
+  {
+    "word": "faster,",
+    "start": 259.26,
+    "end": 259.72,
+    "probability": 0.997
+  },
+  {
+    "word": "that",
+    "start": 260.14,
+    "end": 260.26,
+    "probability": 0.99
+  },
+  {
+    "word": "choice",
+    "start": 260.26,
+    "end": 260.48,
+    "probability": 0.995
+  },
+  {
+    "word": "could",
+    "start": 260.48,
+    "end": 260.7,
+    "probability": 0.977
+  },
+  {
+    "word": "expand",
+    "start": 260.7,
+    "end": 261.04,
+    "probability": 0.995
+  },
+  {
+    "word": "into",
+    "start": 261.04,
+    "end": 261.26,
+    "probability": 0.991
+  },
+  {
+    "word": "categories",
+    "start": 261.26,
+    "end": 261.74,
+    "probability": 0.998
+  },
+  {
+    "word": "we",
+    "start": 261.74,
+    "end": 262.08,
+    "probability": 0.99
+  },
+  {
+    "word": "haven't",
+    "start": 262.08,
+    "end": 262.42,
+    "probability": 0.997
+  },
+  {
+    "word": "even",
+    "start": 262.42,
+    "end": 262.54,
+    "probability": 0.996
+  },
+  {
+    "word": "considered",
+    "start": 262.54,
+    "end": 262.94,
+    "probability": 0.997
+  },
+  {
+    "word": "yet.",
+    "start": 262.94,
+    "end": 263.24,
+    "probability": 0.997
+  },
+  {
+    "word": "Let",
+    "start": 263.44,
+    "end": 263.52,
+    "probability": 0.993
+  },
+  {
+    "word": "me",
+    "start": 263.52,
+    "end": 263.62,
+    "probability": 0.999
+  },
+  {
+    "word": "know",
+    "start": 263.62,
+    "end": 263.76,
+    "probability": 0.999
+  },
+  {
+    "word": "what",
+    "start": 263.76,
+    "end": 263.9,
+    "probability": 0.997
+  },
+  {
+    "word": "you",
+    "start": 263.9,
+    "end": 264.04,
+    "probability": 0.999
+  },
+  {
+    "word": "think",
+    "start": 264.04,
+    "end": 264.18,
+    "probability": 0.999
+  },
+  {
+    "word": "in",
+    "start": 264.18,
+    "end": 264.3,
+    "probability": 0.999
+  },
+  {
+    "word": "the",
+    "start": 264.3,
+    "end": 264.36,
+    "probability": 0.999
+  },
+  {
+    "word": "comments.",
+    "start": 264.36,
+    "end": 264.58,
+    "probability": 0.996
+  }
+]

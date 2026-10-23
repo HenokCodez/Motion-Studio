@@ -1,0 +1,30 @@
+{
+  "name": "003-Open-Source-Is-Taking-Over-Software-in-2026",
+  "title": "Open-Source-Is-Taking-Over-Software-in-2026",
+  "channel": "VantaBrief",
+  "created_at": "2026-10-22T07:39:19.994975",
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "aspect_ratio": "16:9",
+  "paths": {
+    "root": "Channels/VantaBrief/videos/003-Open-Source-Is-Taking-Over-Software-in-2026",
+    "assets": "Channels/VantaBrief/videos/003-Open-Source-Is-Taking-Over-Software-in-2026/assets",
+    "transcripts": "Channels/VantaBrief/videos/003-Open-Source-Is-Taking-Over-Software-in-2026/transcripts",
+    "manifests": "Channels/VantaBrief/videos/003-Open-Source-Is-Taking-Over-Software-in-2026/manifests",
+    "timeline": "Channels/VantaBrief/videos/003-Open-Source-Is-Taking-Over-Software-in-2026/timeline",
+    "renders": "Channels/VantaBrief/videos/003-Open-Source-Is-Taking-Over-Software-in-2026/renders"
+  },
+  "audio": {
+    "voiceover_file": "audio.mp3",
+    "duration_seconds": 264.86,
+    "transcription_status": "completed",
+    "language": "en"
+  },
+  "render_settings": {
+    "default_codec": "h264",
+    "transparent_codec": "prores"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "audio_file": "narration.wav",
+  "language": "en",
+  "language_probability": 0.308,
+  "duration_seconds": 12.0,
+  "model": "tiny",
+  "device": "cuda",
+  "compute_type": "float16",
+  "segments": []
+}

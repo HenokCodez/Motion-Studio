@@ -1,0 +1,324 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-10-22",
+  "people": [
+    {
+      "id": "sam_altman",
+      "name": "Sam Altman",
+      "file": "people/sam_altman.png",
+      "tags": [
+        "openai",
+        "ceo",
+        "ai"
+      ],
+      "has_alpha": true,
+      "license": "Wikimedia Commons / Fair Use"
+    },
+    {
+      "id": "linus_torvalds",
+      "name": "Linus Torvalds",
+      "file": "people/linus_torvalds.png",
+      "tags": [
+        "linux",
+        "git",
+        "open-source"
+      ],
+      "has_alpha": true,
+      "license": "Wikimedia Commons / Fair Use"
+    },
+    {
+      "id": "satya_nadella",
+      "name": "Satya Nadella",
+      "file": "people/satya_nadella.png",
+      "tags": [
+        "microsoft",
+        "ceo",
+        "enterprise"
+      ],
+      "has_alpha": true,
+      "license": "Wikimedia Commons / Fair Use"
+    },
+    {
+      "id": "jensen_huang",
+      "name": "Jensen Huang",
+      "file": "people/jensen_huang.png",
+      "tags": [
+        "nvidia",
+        "ceo",
+        "gpu",
+        "silicon"
+      ],
+      "has_alpha": true,
+      "license": "Wikimedia Commons / Fair Use"
+    },
+    {
+      "id": "bill_gates",
+      "name": "Bill Gates",
+      "file": "people/bill_gates.png",
+      "tags": [
+        "microsoft",
+        "founder",
+        "saas"
+      ],
+      "has_alpha": true,
+      "license": "Wikimedia Commons / Fair Use"
+    },
+    {
+      "id": "mark_zuckerberg",
+      "name": "Mark Zuckerberg",
+      "file": "people/mark_zuckerberg.png",
+      "tags": [
+        "meta",
+        "founder",
+        "llama"
+      ],
+      "has_alpha": true,
+      "license": "Wikimedia Commons / Fair Use"
+    }
+  ],
+  "memes": [
+    {
+      "id": "falling_dollar",
+      "name": "Raining  Cash",
+      "file": "memes/falling_dollar.png",
+      "tags": [
+        "money",
+        "cash",
+        "revenue",
+        "tax"
+      ],
+      "has_alpha": true,
+      "license": "Public Domain"
+    }
+  ],
+  "screenshots": [
+    {
+      "id": "davinci_resolve",
+      "name": "Blackmagic DaVinci Resolve Site",
+      "file": "screenshots/davinci_site.png",
+      "tags": [
+        "davinci",
+        "video",
+        "editing"
+      ],
+      "has_alpha": false,
+      "license": "Official Web Capture"
+    },
+    {
+      "id": "blender_3d",
+      "name": "Blender 3D Site",
+      "file": "screenshots/blender_site.png",
+      "tags": [
+        "blender",
+        "3d",
+        "open-source"
+      ],
+      "has_alpha": false,
+      "license": "Official Web Capture"
+    },
+    {
+      "id": "supabase_repo",
+      "name": "Supabase GitHub Repository",
+      "file": "screenshots/supabase_github.png",
+      "tags": [
+        "supabase",
+        "github",
+        "database"
+      ],
+      "has_alpha": false,
+      "license": "GitHub Capture"
+    },
+    {
+      "id": "kokoro_tts",
+      "name": "Kokoro TTS GitHub Repository",
+      "file": "screenshots/kokoro_github.png",
+      "tags": [
+        "kokoro",
+        "tts",
+        "local-ai"
+      ],
+      "has_alpha": false,
+      "license": "GitHub Capture"
+    },
+    {
+      "id": "krea_ai",
+      "name": "Krea AI Real-time Canvas",
+      "file": "screenshots/krea_site.png",
+      "tags": [
+        "krea",
+        "ai",
+        "image-gen"
+      ],
+      "has_alpha": false,
+      "license": "Official Web Capture"
+    },
+    {
+      "id": "anthropic_blog",
+      "name": "Anthropic Research Blog",
+      "file": "screenshots/anthropic_blog.png",
+      "tags": [
+        "anthropic",
+        "research",
+        "claude"
+      ],
+      "has_alpha": false,
+      "license": "Official Web Capture"
+    }
+  ],
+  "logos": [
+    {
+      "id": "blender",
+      "name": "Blender",
+      "file": "logos/blender.svg",
+      "tags": [
+        "3d",
+        "creative"
+      ],
+      "has_alpha": true,
+      "license": "Official SVG"
+    },
+    {
+      "id": "davinci",
+      "name": "DaVinci Resolve",
+      "file": "logos/davinci.svg",
+      "tags": [
+        "video",
+        "creative"
+      ],
+      "has_alpha": true,
+      "license": "Official SVG"
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "file": "logos/supabase.svg",
+      "tags": [
+        "db",
+        "backend"
+      ],
+      "has_alpha": true,
+      "license": "Official SVG"
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "file": "logos/nvidia.svg",
+      "tags": [
+        "gpu",
+        "silicon"
+      ],
+      "has_alpha": true,
+      "license": "Official SVG"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "file": "logos/openai.svg",
+      "tags": [
+        "ai",
+        "chatgpt"
+      ],
+      "has_alpha": true,
+      "license": "Official SVG"
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "file": "logos/apple.svg",
+      "tags": [
+        "hardware",
+        "silicon"
+      ],
+      "has_alpha": true,
+      "license": "Official SVG"
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "file": "logos/microsoft.svg",
+      "tags": [
+        "enterprise",
+        "saas"
+      ],
+      "has_alpha": true,
+      "license": "Official SVG"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "file": "logos/python.svg",
+      "tags": [
+        "code",
+        "language"
+      ],
+      "has_alpha": true,
+      "license": "Official SVG"
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "file": "logos/docker.svg",
+      "tags": [
+        "container",
+        "devops"
+      ],
+      "has_alpha": true,
+      "license": "Official SVG"
+    },
+    {
+      "id": "redhat",
+      "name": "Red Hat",
+      "file": "logos/redhat.svg",
+      "tags": [
+        "enterprise",
+        "support"
+      ],
+      "has_alpha": true,
+      "license": "Official SVG"
+    },
+    {
+      "id": "tux",
+      "name": "Linux Tux",
+      "file": "logos/tux.svg",
+      "tags": [
+        "linux",
+        "kernel"
+      ],
+      "has_alpha": true,
+      "license": "Official SVG"
+    },
+    {
+      "id": "photoshop",
+      "name": "Adobe Photoshop",
+      "file": "logos/photoshop.svg",
+      "tags": [
+        "adobe",
+        "creative"
+      ],
+      "has_alpha": true,
+      "license": "Official SVG"
+    },
+    {
+      "id": "premiere",
+      "name": "Adobe Premiere",
+      "file": "logos/premiere.svg",
+      "tags": [
+        "adobe",
+        "creative"
+      ],
+      "has_alpha": true,
+      "license": "Official SVG"
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "file": "logos/firebase.svg",
+      "tags": [
+        "google",
+        "cloud"
+      ],
+      "has_alpha": true,
+      "license": "Official SVG"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "HanaVanta",
+  "name": "HanaVanta",
+  "tagline": "Cinematic Documentaries, Cultural Evolutions & Deep-Dive Case Studies",
+  "audience": "Documentary viewers, lifelong learners, strategists, global thinkers",
+  "style": {
+    "theme": "cinematic_editorial",
+    "palette": {
+      "background": "#0C0D10",
+      "surface": "#18181B",
+      "surface_glass": "rgba(24, 24, 27, 0.80)",
+      "primary": "#F59E0B",
+      "secondary": "#E11D48",
+      "accent": "#14B8A6",
+      "text_primary": "#F5F5F4",
+      "text_muted": "#A1A1AA",
+      "border": "rgba(245, 245, 244, 0.12)",
+      "glow": "rgba(245, 158, 11, 0.20)"
+    },
+    "typography": {
+      "heading_font": "Playfair Display",
+      "body_font": "Inter",
+      "mono_font": "Fira Code",
+      "title_weight": "700",
+      "body_weight": "400"
+    },
+    "motion": {
+      "preset": "gentle_cinematic",
+      "spring": {
+        "damping": 20,
+        "mass": 1.0,
+        "stiffness": 85
+      },
+      "card_entrance": "fade_and_drift",
+      "transition_speed": 24
+    },
+    "captions": {
+      "style": "editorial_subtitles",
+      "active_color": "#F59E0B",
+      "inactive_color": "#D4D4D8",
+      "badge_bg": "rgba(24, 24, 27, 0.65)",
+      "placement": "bottom_center",
+      "font_size": 42
+    },
+    "transitions": {
+      "default": "cross_dissolve",
+      "overlay_exit": "fade_drift_down"
+    }
+  },
+  "sound": {
+    "preferred_sfx": ["Cinematic riser", "Deep boom", "Page turn"],
+    "bg_music_genre": "cinematic_acoustic_orchestral",
+    "bg_music_volume": 0.12
+  },
+  "paths": {
+    "root": "Channels/HanaVanta",
+    "videos": "Channels/HanaVanta/videos",
+    "style": "Channels/HanaVanta/style",
+    "media": "Channels/HanaVanta/media",
+    "references": "Channels/HanaVanta/references",
+    "components": "Channels/HanaVanta/components",
+    "templates": "Channels/HanaVanta/templates"
+  }
+}

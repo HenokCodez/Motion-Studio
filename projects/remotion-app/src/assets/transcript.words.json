@@ -1,0 +1,6600 @@
+{
+  "syncOffsetMs": 7.8,
+  "fps": 30,
+  "words": [
+    {
+      "word": "In",
+      "startMs": 0,
+      "endMs": 240,
+      "startFrame": 0,
+      "endFrame": 7
+    },
+    {
+      "word": "2026,",
+      "startMs": 240,
+      "endMs": 880,
+      "startFrame": 7,
+      "endFrame": 27
+    },
+    {
+      "word": "you",
+      "startMs": 1040,
+      "endMs": 1060,
+      "startFrame": 31,
+      "endFrame": 32
+    },
+    {
+      "word": "can",
+      "startMs": 1060,
+      "endMs": 1200,
+      "startFrame": 32,
+      "endFrame": 36
+    },
+    {
+      "word": "edit",
+      "startMs": 1200,
+      "endMs": 1380,
+      "startFrame": 36,
+      "endFrame": 42
+    },
+    {
+      "word": "videos,",
+      "startMs": 1380,
+      "endMs": 1660,
+      "startFrame": 42,
+      "endFrame": 50
+    },
+    {
+      "word": "design",
+      "startMs": 1840,
+      "endMs": 2020,
+      "startFrame": 55,
+      "endFrame": 61
+    },
+    {
+      "word": "graphics,",
+      "startMs": 2020,
+      "endMs": 2340,
+      "startFrame": 61,
+      "endFrame": 70
+    },
+    {
+      "word": "build",
+      "startMs": 2520,
+      "endMs": 2700,
+      "startFrame": 76,
+      "endFrame": 81
+    },
+    {
+      "word": "apps,",
+      "startMs": 2700,
+      "endMs": 3020,
+      "startFrame": 81,
+      "endFrame": 91
+    },
+    {
+      "word": "generate",
+      "startMs": 3260,
+      "endMs": 3440,
+      "startFrame": 98,
+      "endFrame": 103
+    },
+    {
+      "word": "images,",
+      "startMs": 3440,
+      "endMs": 3860,
+      "startFrame": 103,
+      "endFrame": 116
+    },
+    {
+      "word": "clone",
+      "startMs": 4060,
+      "endMs": 4240,
+      "startFrame": 122,
+      "endFrame": 127
+    },
+    {
+      "word": "voices,",
+      "startMs": 4240,
+      "endMs": 4680,
+      "startFrame": 127,
+      "endFrame": 141
+    },
+    {
+      "word": "and",
+      "startMs": 4980,
+      "endMs": 5100,
+      "startFrame": 150,
+      "endFrame": 153
+    },
+    {
+      "word": "even",
+      "startMs": 5100,
+      "endMs": 5280,
+      "startFrame": 153,
+      "endFrame": 159
+    },
+    {
+      "word": "run",
+      "startMs": 5280,
+      "endMs": 5540,
+      "startFrame": 159,
+      "endFrame": 166
+    },
+    {
+      "word": "AI",
+      "startMs": 5540,
+      "endMs": 5800,
+      "startFrame": 166,
+      "endFrame": 174
+    },
+    {
+      "word": "models",
+      "startMs": 5800,
+      "endMs": 6200,
+      "startFrame": 174,
+      "endFrame": 186
+    },
+    {
+      "word": "on",
+      "startMs": 6200,
+      "endMs": 6420,
+      "startFrame": 186,
+      "endFrame": 193
+    },
+    {
+      "word": "your",
+      "startMs": 6420,
+      "endMs": 6560,
+      "startFrame": 193,
+      "endFrame": 197
+    },
+    {
+      "word": "own",
+      "startMs": 6560,
+      "endMs": 6680,
+      "startFrame": 197,
+      "endFrame": 201
+    },
+    {
+      "word": "computer",
+      "startMs": 6680,
+      "endMs": 7160,
+      "startFrame": 201,
+      "endFrame": 215
+    },
+    {
+      "word": "without",
+      "startMs": 7160,
+      "endMs": 7440,
+      "startFrame": 215,
+      "endFrame": 223
+    },
+    {
+      "word": "paying",
+      "startMs": 7440,
+      "endMs": 7740,
+      "startFrame": 223,
+      "endFrame": 232
+    },
+    {
+      "word": "for",
+      "startMs": 7740,
+      "endMs": 7960,
+      "startFrame": 232,
+      "endFrame": 239
+    },
+    {
+      "word": "a",
+      "startMs": 7960,
+      "endMs": 8040,
+      "startFrame": 239,
+      "endFrame": 241
+    },
+    {
+      "word": "subscription.",
+      "startMs": 8040,
+      "endMs": 8420,
+      "startFrame": 241,
+      "endFrame": 253
+    },
+    {
+      "word": "And",
+      "startMs": 8700,
+      "endMs": 8780,
+      "startFrame": 261,
+      "endFrame": 264
+    },
+    {
+      "word": "the",
+      "startMs": 8780,
+      "endMs": 8880,
+      "startFrame": 264,
+      "endFrame": 267
+    },
+    {
+      "word": "alternatives",
+      "startMs": 8880,
+      "endMs": 9340,
+      "startFrame": 267,
+      "endFrame": 280
+    },
+    {
+      "word": "aren't",
+      "startMs": 9340,
+      "endMs": 9560,
+      "startFrame": 280,
+      "endFrame": 287
+    },
+    {
+      "word": "just",
+      "startMs": 9560,
+      "endMs": 9740,
+      "startFrame": 287,
+      "endFrame": 292
+    },
+    {
+      "word": "cheap",
+      "startMs": 9740,
+      "endMs": 10000,
+      "startFrame": 292,
+      "endFrame": 300
+    },
+    {
+      "word": "knockoffs",
+      "startMs": 10000,
+      "endMs": 10560,
+      "startFrame": 300,
+      "endFrame": 317
+    },
+    {
+      "word": "anymore.",
+      "startMs": 10560,
+      "endMs": 10800,
+      "startFrame": 317,
+      "endFrame": 324
+    },
+    {
+      "word": "Some",
+      "startMs": 11140,
+      "endMs": 11280,
+      "startFrame": 334,
+      "endFrame": 339
+    },
+    {
+      "word": "are",
+      "startMs": 11280,
+      "endMs": 11380,
+      "startFrame": 339,
+      "endFrame": 342
+    },
+    {
+      "word": "genuinely",
+      "startMs": 11380,
+      "endMs": 11680,
+      "startFrame": 342,
+      "endFrame": 351
+    },
+    {
+      "word": "good",
+      "startMs": 11680,
+      "endMs": 12040,
+      "startFrame": 351,
+      "endFrame": 361
+    },
+    {
+      "word": "enough",
+      "startMs": 12040,
+      "endMs": 12220,
+      "startFrame": 361,
+      "endFrame": 367
+    },
+    {
+      "word": "to",
+      "startMs": 12220,
+      "endMs": 12400,
+      "startFrame": 367,
+      "endFrame": 372
+    },
+    {
+      "word": "replace",
+      "startMs": 12400,
+      "endMs": 12680,
+      "startFrame": 372,
+      "endFrame": 381
+    },
+    {
+      "word": "the",
+      "startMs": 12680,
+      "endMs": 12860,
+      "startFrame": 381,
+      "endFrame": 386
+    },
+    {
+      "word": "software",
+      "startMs": 12860,
+      "endMs": 13120,
+      "startFrame": 386,
+      "endFrame": 394
+    },
+    {
+      "word": "people",
+      "startMs": 13120,
+      "endMs": 13440,
+      "startFrame": 394,
+      "endFrame": 403
+    },
+    {
+      "word": "have",
+      "startMs": 13440,
+      "endMs": 13620,
+      "startFrame": 403,
+      "endFrame": 409
+    },
+    {
+      "word": "been",
+      "startMs": 13620,
+      "endMs": 13760,
+      "startFrame": 409,
+      "endFrame": 413
+    },
+    {
+      "word": "paying",
+      "startMs": 13760,
+      "endMs": 13960,
+      "startFrame": 413,
+      "endFrame": 419
+    },
+    {
+      "word": "for",
+      "startMs": 13960,
+      "endMs": 14200,
+      "startFrame": 419,
+      "endFrame": 426
+    },
+    {
+      "word": "for",
+      "startMs": 14200,
+      "endMs": 14360,
+      "startFrame": 426,
+      "endFrame": 431
+    },
+    {
+      "word": "years.",
+      "startMs": 14360,
+      "endMs": 14600,
+      "startFrame": 431,
+      "endFrame": 438
+    },
+    {
+      "word": "Take",
+      "startMs": 14940,
+      "endMs": 15060,
+      "startFrame": 448,
+      "endFrame": 452
+    },
+    {
+      "word": "ArtCraft,",
+      "startMs": 15060,
+      "endMs": 15440,
+      "startFrame": 452,
+      "endFrame": 463
+    },
+    {
+      "word": "for",
+      "startMs": 15540,
+      "endMs": 15620,
+      "startFrame": 466,
+      "endFrame": 469
+    },
+    {
+      "word": "example.",
+      "startMs": 15620,
+      "endMs": 15920,
+      "startFrame": 469,
+      "endFrame": 478
+    },
+    {
+      "word": "It's",
+      "startMs": 16400,
+      "endMs": 16540,
+      "startFrame": 492,
+      "endFrame": 496
+    },
+    {
+      "word": "an",
+      "startMs": 16540,
+      "endMs": 16620,
+      "startFrame": 496,
+      "endFrame": 499
+    },
+    {
+      "word": "open-source",
+      "startMs": 16620,
+      "endMs": 16780,
+      "startFrame": 499,
+      "endFrame": 504
+    },
+    {
+      "word": "project",
+      "startMs": 17020,
+      "endMs": 17420,
+      "startFrame": 511,
+      "endFrame": 523
+    },
+    {
+      "word": "trying",
+      "startMs": 17420,
+      "endMs": 17660,
+      "startFrame": 523,
+      "endFrame": 530
+    },
+    {
+      "word": "to",
+      "startMs": 17660,
+      "endMs": 17820,
+      "startFrame": 530,
+      "endFrame": 535
+    },
+    {
+      "word": "recreate",
+      "startMs": 17820,
+      "endMs": 18140,
+      "startFrame": 535,
+      "endFrame": 544
+    },
+    {
+      "word": "major",
+      "startMs": 18140,
+      "endMs": 18460,
+      "startFrame": 544,
+      "endFrame": 554
+    },
+    {
+      "word": "Adobe",
+      "startMs": 18460,
+      "endMs": 18740,
+      "startFrame": 554,
+      "endFrame": 562
+    },
+    {
+      "word": "applications,",
+      "startMs": 18740,
+      "endMs": 19400,
+      "startFrame": 562,
+      "endFrame": 582
+    },
+    {
+      "word": "including",
+      "startMs": 19580,
+      "endMs": 19880,
+      "startFrame": 588,
+      "endFrame": 597
+    },
+    {
+      "word": "Photoshop,",
+      "startMs": 19880,
+      "endMs": 20280,
+      "startFrame": 597,
+      "endFrame": 609
+    },
+    {
+      "word": "Premiere",
+      "startMs": 20620,
+      "endMs": 20760,
+      "startFrame": 619,
+      "endFrame": 623
+    },
+    {
+      "word": "Pro,",
+      "startMs": 20760,
+      "endMs": 21020,
+      "startFrame": 623,
+      "endFrame": 631
+    },
+    {
+      "word": "and",
+      "startMs": 21080,
+      "endMs": 21120,
+      "startFrame": 633,
+      "endFrame": 634
+    },
+    {
+      "word": "After",
+      "startMs": 21120,
+      "endMs": 21320,
+      "startFrame": 634,
+      "endFrame": 640
+    },
+    {
+      "word": "Effects.",
+      "startMs": 21320,
+      "endMs": 21600,
+      "startFrame": 640,
+      "endFrame": 648
+    },
+    {
+      "word": "It's",
+      "startMs": 21820,
+      "endMs": 22020,
+      "startFrame": 655,
+      "endFrame": 661
+    },
+    {
+      "word": "still",
+      "startMs": 22020,
+      "endMs": 22200,
+      "startFrame": 661,
+      "endFrame": 666
+    },
+    {
+      "word": "early,",
+      "startMs": 22200,
+      "endMs": 22580,
+      "startFrame": 666,
+      "endFrame": 678
+    },
+    {
+      "word": "and",
+      "startMs": 22880,
+      "endMs": 23040,
+      "startFrame": 687,
+      "endFrame": 691
+    },
+    {
+      "word": "it",
+      "startMs": 23040,
+      "endMs": 23180,
+      "startFrame": 691,
+      "endFrame": 696
+    },
+    {
+      "word": "can't",
+      "startMs": 23180,
+      "endMs": 23420,
+      "startFrame": 696,
+      "endFrame": 703
+    },
+    {
+      "word": "replace",
+      "startMs": 23420,
+      "endMs": 23680,
+      "startFrame": 703,
+      "endFrame": 711
+    },
+    {
+      "word": "Adobe",
+      "startMs": 23680,
+      "endMs": 23920,
+      "startFrame": 711,
+      "endFrame": 718
+    },
+    {
+      "word": "for",
+      "startMs": 23920,
+      "endMs": 24180,
+      "startFrame": 718,
+      "endFrame": 726
+    },
+    {
+      "word": "everyone.",
+      "startMs": 24180,
+      "endMs": 24460,
+      "startFrame": 726,
+      "endFrame": 734
+    },
+    {
+      "word": "But",
+      "startMs": 24680,
+      "endMs": 24840,
+      "startFrame": 741,
+      "endFrame": 745
+    },
+    {
+      "word": "the",
+      "startMs": 24840,
+      "endMs": 24980,
+      "startFrame": 745,
+      "endFrame": 750
+    },
+    {
+      "word": "fact",
+      "startMs": 24980,
+      "endMs": 25140,
+      "startFrame": 750,
+      "endFrame": 754
+    },
+    {
+      "word": "that",
+      "startMs": 25140,
+      "endMs": 25300,
+      "startFrame": 754,
+      "endFrame": 759
+    },
+    {
+      "word": "one",
+      "startMs": 25300,
+      "endMs": 25440,
+      "startFrame": 759,
+      "endFrame": 763
+    },
+    {
+      "word": "developer",
+      "startMs": 25440,
+      "endMs": 25820,
+      "startFrame": 763,
+      "endFrame": 775
+    },
+    {
+      "word": "can",
+      "startMs": 25820,
+      "endMs": 26100,
+      "startFrame": 775,
+      "endFrame": 783
+    },
+    {
+      "word": "even",
+      "startMs": 26100,
+      "endMs": 26340,
+      "startFrame": 783,
+      "endFrame": 790
+    },
+    {
+      "word": "attempt",
+      "startMs": 26340,
+      "endMs": 26680,
+      "startFrame": 790,
+      "endFrame": 801
+    },
+    {
+      "word": "something",
+      "startMs": 26680,
+      "endMs": 27020,
+      "startFrame": 801,
+      "endFrame": 811
+    },
+    {
+      "word": "like",
+      "startMs": 27020,
+      "endMs": 27340,
+      "startFrame": 811,
+      "endFrame": 820
+    },
+    {
+      "word": "this",
+      "startMs": 27340,
+      "endMs": 27620,
+      "startFrame": 820,
+      "endFrame": 829
+    },
+    {
+      "word": "with",
+      "startMs": 27620,
+      "endMs": 27900,
+      "startFrame": 829,
+      "endFrame": 837
+    },
+    {
+      "word": "the",
+      "startMs": 27900,
+      "endMs": 28060,
+      "startFrame": 837,
+      "endFrame": 842
+    },
+    {
+      "word": "help",
+      "startMs": 28060,
+      "endMs": 28280,
+      "startFrame": 842,
+      "endFrame": 849
+    },
+    {
+      "word": "of",
+      "startMs": 28280,
+      "endMs": 28520,
+      "startFrame": 849,
+      "endFrame": 856
+    },
+    {
+      "word": "AI",
+      "startMs": 28520,
+      "endMs": 28760,
+      "startFrame": 856,
+      "endFrame": 863
+    },
+    {
+      "word": "tells",
+      "startMs": 28760,
+      "endMs": 29200,
+      "startFrame": 863,
+      "endFrame": 876
+    },
+    {
+      "word": "you",
+      "startMs": 29200,
+      "endMs": 29380,
+      "startFrame": 876,
+      "endFrame": 882
+    },
+    {
+      "word": "where",
+      "startMs": 29380,
+      "endMs": 29600,
+      "startFrame": 882,
+      "endFrame": 888
+    },
+    {
+      "word": "software",
+      "startMs": 29600,
+      "endMs": 29960,
+      "startFrame": 888,
+      "endFrame": 899
+    },
+    {
+      "word": "development",
+      "startMs": 29960,
+      "endMs": 30360,
+      "startFrame": 899,
+      "endFrame": 911
+    },
+    {
+      "word": "is",
+      "startMs": 30360,
+      "endMs": 30620,
+      "startFrame": 911,
+      "endFrame": 919
+    },
+    {
+      "word": "heading.",
+      "startMs": 30620,
+      "endMs": 30820,
+      "startFrame": 919,
+      "endFrame": 925
+    },
+    {
+      "word": "And",
+      "startMs": 31280,
+      "endMs": 31300,
+      "startFrame": 939,
+      "endFrame": 939
+    },
+    {
+      "word": "this",
+      "startMs": 31300,
+      "endMs": 31480,
+      "startFrame": 939,
+      "endFrame": 945
+    },
+    {
+      "word": "isn't",
+      "startMs": 31480,
+      "endMs": 31700,
+      "startFrame": 945,
+      "endFrame": 951
+    },
+    {
+      "word": "just",
+      "startMs": 31700,
+      "endMs": 31840,
+      "startFrame": 951,
+      "endFrame": 955
+    },
+    {
+      "word": "happening",
+      "startMs": 31840,
+      "endMs": 32100,
+      "startFrame": 955,
+      "endFrame": 963
+    },
+    {
+      "word": "with",
+      "startMs": 32100,
+      "endMs": 32280,
+      "startFrame": 963,
+      "endFrame": 969
+    },
+    {
+      "word": "video",
+      "startMs": 32280,
+      "endMs": 32520,
+      "startFrame": 969,
+      "endFrame": 976
+    },
+    {
+      "word": "editors.",
+      "startMs": 32520,
+      "endMs": 32820,
+      "startFrame": 976,
+      "endFrame": 985
+    },
+    {
+      "word": "Almost",
+      "startMs": 33260,
+      "endMs": 33480,
+      "startFrame": 998,
+      "endFrame": 1005
+    },
+    {
+      "word": "every",
+      "startMs": 33480,
+      "endMs": 33880,
+      "startFrame": 1005,
+      "endFrame": 1017
+    },
+    {
+      "word": "category",
+      "startMs": 33880,
+      "endMs": 34300,
+      "startFrame": 1017,
+      "endFrame": 1029
+    },
+    {
+      "word": "of",
+      "startMs": 34300,
+      "endMs": 34500,
+      "startFrame": 1029,
+      "endFrame": 1035
+    },
+    {
+      "word": "software",
+      "startMs": 34500,
+      "endMs": 34880,
+      "startFrame": 1035,
+      "endFrame": 1047
+    },
+    {
+      "word": "has",
+      "startMs": 34880,
+      "endMs": 35220,
+      "startFrame": 1047,
+      "endFrame": 1057
+    },
+    {
+      "word": "free,",
+      "startMs": 35220,
+      "endMs": 35600,
+      "startFrame": 1057,
+      "endFrame": 1068
+    },
+    {
+      "word": "open-source",
+      "startMs": 35600,
+      "endMs": 35980,
+      "startFrame": 1068,
+      "endFrame": 1080
+    },
+    {
+      "word": "alternatives",
+      "startMs": 36220,
+      "endMs": 36740,
+      "startFrame": 1087,
+      "endFrame": 1102
+    },
+    {
+      "word": "now.",
+      "startMs": 36740,
+      "endMs": 37080,
+      "startFrame": 1102,
+      "endFrame": 1113
+    },
+    {
+      "word": "And",
+      "startMs": 37260,
+      "endMs": 37300,
+      "startFrame": 1118,
+      "endFrame": 1119
+    },
+    {
+      "word": "AI",
+      "startMs": 37300,
+      "endMs": 37580,
+      "startFrame": 1119,
+      "endFrame": 1128
+    },
+    {
+      "word": "is",
+      "startMs": 37580,
+      "endMs": 38020,
+      "startFrame": 1128,
+      "endFrame": 1141
+    },
+    {
+      "word": "making",
+      "startMs": 38020,
+      "endMs": 38320,
+      "startFrame": 1141,
+      "endFrame": 1150
+    },
+    {
+      "word": "it",
+      "startMs": 38320,
+      "endMs": 38460,
+      "startFrame": 1150,
+      "endFrame": 1154
+    },
+    {
+      "word": "easier",
+      "startMs": 38460,
+      "endMs": 38700,
+      "startFrame": 1154,
+      "endFrame": 1161
+    },
+    {
+      "word": "to",
+      "startMs": 38700,
+      "endMs": 38900,
+      "startFrame": 1161,
+      "endFrame": 1167
+    },
+    {
+      "word": "build",
+      "startMs": 38900,
+      "endMs": 39120,
+      "startFrame": 1167,
+      "endFrame": 1174
+    },
+    {
+      "word": "even",
+      "startMs": 39120,
+      "endMs": 39340,
+      "startFrame": 1174,
+      "endFrame": 1180
+    },
+    {
+      "word": "more",
+      "startMs": 39340,
+      "endMs": 39580,
+      "startFrame": 1180,
+      "endFrame": 1188
+    },
+    {
+      "word": "of",
+      "startMs": 39580,
+      "endMs": 39700,
+      "startFrame": 1188,
+      "endFrame": 1191
+    },
+    {
+      "word": "them.",
+      "startMs": 39700,
+      "endMs": 39840,
+      "startFrame": 1191,
+      "endFrame": 1195
+    },
+    {
+      "word": "So,",
+      "startMs": 40000,
+      "endMs": 40180,
+      "startFrame": 1200,
+      "endFrame": 1206
+    },
+    {
+      "word": "do",
+      "startMs": 40180,
+      "endMs": 40480,
+      "startFrame": 1206,
+      "endFrame": 1215
+    },
+    {
+      "word": "we",
+      "startMs": 40480,
+      "endMs": 40600,
+      "startFrame": 1215,
+      "endFrame": 1218
+    },
+    {
+      "word": "eventually",
+      "startMs": 40600,
+      "endMs": 40920,
+      "startFrame": 1218,
+      "endFrame": 1228
+    },
+    {
+      "word": "reach",
+      "startMs": 40920,
+      "endMs": 41280,
+      "startFrame": 1228,
+      "endFrame": 1239
+    },
+    {
+      "word": "a",
+      "startMs": 41280,
+      "endMs": 41380,
+      "startFrame": 1239,
+      "endFrame": 1242
+    },
+    {
+      "word": "point",
+      "startMs": 41380,
+      "endMs": 41600,
+      "startFrame": 1242,
+      "endFrame": 1248
+    },
+    {
+      "word": "where",
+      "startMs": 41600,
+      "endMs": 41740,
+      "startFrame": 1248,
+      "endFrame": 1252
+    },
+    {
+      "word": "almost",
+      "startMs": 41740,
+      "endMs": 42020,
+      "startFrame": 1252,
+      "endFrame": 1261
+    },
+    {
+      "word": "all",
+      "startMs": 42020,
+      "endMs": 42220,
+      "startFrame": 1261,
+      "endFrame": 1267
+    },
+    {
+      "word": "software",
+      "startMs": 42220,
+      "endMs": 42580,
+      "startFrame": 1267,
+      "endFrame": 1278
+    },
+    {
+      "word": "is",
+      "startMs": 42580,
+      "endMs": 42720,
+      "startFrame": 1278,
+      "endFrame": 1282
+    },
+    {
+      "word": "free?",
+      "startMs": 42720,
+      "endMs": 42900,
+      "startFrame": 1282,
+      "endFrame": 1287
+    },
+    {
+      "word": "And",
+      "startMs": 43000,
+      "endMs": 43060,
+      "startFrame": 1290,
+      "endFrame": 1292
+    },
+    {
+      "word": "if",
+      "startMs": 43060,
+      "endMs": 43140,
+      "startFrame": 1292,
+      "endFrame": 1294
+    },
+    {
+      "word": "nobody's",
+      "startMs": 43140,
+      "endMs": 43540,
+      "startFrame": 1294,
+      "endFrame": 1306
+    },
+    {
+      "word": "paying",
+      "startMs": 43540,
+      "endMs": 43660,
+      "startFrame": 1306,
+      "endFrame": 1310
+    },
+    {
+      "word": "for",
+      "startMs": 43660,
+      "endMs": 43840,
+      "startFrame": 1310,
+      "endFrame": 1315
+    },
+    {
+      "word": "the",
+      "startMs": 43840,
+      "endMs": 43920,
+      "startFrame": 1315,
+      "endFrame": 1318
+    },
+    {
+      "word": "software,",
+      "startMs": 43920,
+      "endMs": 44240,
+      "startFrame": 1318,
+      "endFrame": 1327
+    },
+    {
+      "word": "who's",
+      "startMs": 44360,
+      "endMs": 44500,
+      "startFrame": 1331,
+      "endFrame": 1335
+    },
+    {
+      "word": "actually",
+      "startMs": 44500,
+      "endMs": 44780,
+      "startFrame": 1335,
+      "endFrame": 1344
+    },
+    {
+      "word": "making",
+      "startMs": 44780,
+      "endMs": 44960,
+      "startFrame": 1344,
+      "endFrame": 1349
+    },
+    {
+      "word": "money?",
+      "startMs": 44960,
+      "endMs": 45280,
+      "startFrame": 1349,
+      "endFrame": 1359
+    },
+    {
+      "word": "Let's",
+      "startMs": 45560,
+      "endMs": 45760,
+      "startFrame": 1367,
+      "endFrame": 1373
+    },
+    {
+      "word": "look",
+      "startMs": 45760,
+      "endMs": 45880,
+      "startFrame": 1373,
+      "endFrame": 1377
+    },
+    {
+      "word": "at",
+      "startMs": 45880,
+      "endMs": 46000,
+      "startFrame": 1377,
+      "endFrame": 1380
+    },
+    {
+      "word": "what's",
+      "startMs": 46000,
+      "endMs": 46180,
+      "startFrame": 1380,
+      "endFrame": 1386
+    },
+    {
+      "word": "happening.",
+      "startMs": 46180,
+      "endMs": 46440,
+      "startFrame": 1386,
+      "endFrame": 1393
+    },
+    {
+      "word": "For",
+      "startMs": 46660,
+      "endMs": 46740,
+      "startFrame": 1400,
+      "endFrame": 1402
+    },
+    {
+      "word": "years,",
+      "startMs": 46740,
+      "endMs": 47080,
+      "startFrame": 1402,
+      "endFrame": 1413
+    },
+    {
+      "word": "if",
+      "startMs": 47300,
+      "endMs": 47300,
+      "startFrame": 1419,
+      "endFrame": 1419
+    },
+    {
+      "word": "you",
+      "startMs": 47300,
+      "endMs": 47380,
+      "startFrame": 1419,
+      "endFrame": 1422
+    },
+    {
+      "word": "wanted",
+      "startMs": 47380,
+      "endMs": 47560,
+      "startFrame": 1422,
+      "endFrame": 1427
+    },
+    {
+      "word": "professional",
+      "startMs": 47560,
+      "endMs": 47900,
+      "startFrame": 1427,
+      "endFrame": 1437
+    },
+    {
+      "word": "software,",
+      "startMs": 47900,
+      "endMs": 48420,
+      "startFrame": 1437,
+      "endFrame": 1453
+    },
+    {
+      "word": "you",
+      "startMs": 48540,
+      "endMs": 48600,
+      "startFrame": 1456,
+      "endFrame": 1458
+    },
+    {
+      "word": "usually",
+      "startMs": 48600,
+      "endMs": 48780,
+      "startFrame": 1458,
+      "endFrame": 1464
+    },
+    {
+      "word": "had",
+      "startMs": 48780,
+      "endMs": 48980,
+      "startFrame": 1464,
+      "endFrame": 1470
+    },
+    {
+      "word": "two",
+      "startMs": 48980,
+      "endMs": 49180,
+      "startFrame": 1470,
+      "endFrame": 1476
+    },
+    {
+      "word": "options:",
+      "startMs": 49180,
+      "endMs": 49640,
+      "startFrame": 1476,
+      "endFrame": 1489
+    },
+    {
+      "word": "pay",
+      "startMs": 49900,
+      "endMs": 50100,
+      "startFrame": 1497,
+      "endFrame": 1503
+    },
+    {
+      "word": "for",
+      "startMs": 50100,
+      "endMs": 50280,
+      "startFrame": 1503,
+      "endFrame": 1509
+    },
+    {
+      "word": "it",
+      "startMs": 50280,
+      "endMs": 50400,
+      "startFrame": 1509,
+      "endFrame": 1512
+    },
+    {
+      "word": "or",
+      "startMs": 50400,
+      "endMs": 50500,
+      "startFrame": 1512,
+      "endFrame": 1515
+    },
+    {
+      "word": "settle",
+      "startMs": 50500,
+      "endMs": 50740,
+      "startFrame": 1515,
+      "endFrame": 1522
+    },
+    {
+      "word": "for",
+      "startMs": 50740,
+      "endMs": 51040,
+      "startFrame": 1522,
+      "endFrame": 1531
+    },
+    {
+      "word": "something",
+      "startMs": 51040,
+      "endMs": 51420,
+      "startFrame": 1531,
+      "endFrame": 1543
+    },
+    {
+      "word": "worse.",
+      "startMs": 51420,
+      "endMs": 51680,
+      "startFrame": 1543,
+      "endFrame": 1551
+    },
+    {
+      "word": "Want",
+      "startMs": 51840,
+      "endMs": 51940,
+      "startFrame": 1555,
+      "endFrame": 1558
+    },
+    {
+      "word": "to",
+      "startMs": 51940,
+      "endMs": 52020,
+      "startFrame": 1558,
+      "endFrame": 1561
+    },
+    {
+      "word": "edit",
+      "startMs": 52020,
+      "endMs": 52140,
+      "startFrame": 1561,
+      "endFrame": 1564
+    },
+    {
+      "word": "videos?",
+      "startMs": 52140,
+      "endMs": 52520,
+      "startFrame": 1564,
+      "endFrame": 1576
+    },
+    {
+      "word": "Pay",
+      "startMs": 52680,
+      "endMs": 52800,
+      "startFrame": 1581,
+      "endFrame": 1584
+    },
+    {
+      "word": "for",
+      "startMs": 52800,
+      "endMs": 52940,
+      "startFrame": 1584,
+      "endFrame": 1588
+    },
+    {
+      "word": "Premiere",
+      "startMs": 52940,
+      "endMs": 53180,
+      "startFrame": 1588,
+      "endFrame": 1596
+    },
+    {
+      "word": "Pro.",
+      "startMs": 53180,
+      "endMs": 53480,
+      "startFrame": 1596,
+      "endFrame": 1605
+    },
+    {
+      "word": "Want",
+      "startMs": 53600,
+      "endMs": 53700,
+      "startFrame": 1608,
+      "endFrame": 1611
+    },
+    {
+      "word": "to",
+      "startMs": 53700,
+      "endMs": 53800,
+      "startFrame": 1611,
+      "endFrame": 1614
+    },
+    {
+      "word": "design",
+      "startMs": 53800,
+      "endMs": 54060,
+      "startFrame": 1614,
+      "endFrame": 1622
+    },
+    {
+      "word": "something?",
+      "startMs": 54060,
+      "endMs": 54440,
+      "startFrame": 1622,
+      "endFrame": 1633
+    },
+    {
+      "word": "Pay",
+      "startMs": 54660,
+      "endMs": 54800,
+      "startFrame": 1640,
+      "endFrame": 1644
+    },
+    {
+      "word": "for",
+      "startMs": 54800,
+      "endMs": 54940,
+      "startFrame": 1644,
+      "endFrame": 1648
+    },
+    {
+      "word": "Photoshop.",
+      "startMs": 54940,
+      "endMs": 55320,
+      "startFrame": 1648,
+      "endFrame": 1660
+    },
+    {
+      "word": "Need",
+      "startMs": 55320,
+      "endMs": 55720,
+      "startFrame": 1660,
+      "endFrame": 1672
+    },
+    {
+      "word": "office",
+      "startMs": 55720,
+      "endMs": 56000,
+      "startFrame": 1672,
+      "endFrame": 1680
+    },
+    {
+      "word": "software?",
+      "startMs": 56000,
+      "endMs": 56480,
+      "startFrame": 1680,
+      "endFrame": 1695
+    },
+    {
+      "word": "Buy",
+      "startMs": 56600,
+      "endMs": 56720,
+      "startFrame": 1698,
+      "endFrame": 1702
+    },
+    {
+      "word": "Microsoft",
+      "startMs": 56720,
+      "endMs": 57120,
+      "startFrame": 1702,
+      "endFrame": 1714
+    },
+    {
+      "word": "Office",
+      "startMs": 57120,
+      "endMs": 57580,
+      "startFrame": 1714,
+      "endFrame": 1728
+    },
+    {
+      "word": "or",
+      "startMs": 57720,
+      "endMs": 57760,
+      "startFrame": 1732,
+      "endFrame": 1733
+    },
+    {
+      "word": "get",
+      "startMs": 57760,
+      "endMs": 57860,
+      "startFrame": 1733,
+      "endFrame": 1736
+    },
+    {
+      "word": "a",
+      "startMs": 57860,
+      "endMs": 57940,
+      "startFrame": 1736,
+      "endFrame": 1738
+    },
+    {
+      "word": "subscription.",
+      "startMs": 57940,
+      "endMs": 58300,
+      "startFrame": 1738,
+      "endFrame": 1749
+    },
+    {
+      "word": "But",
+      "startMs": 58860,
+      "endMs": 59020,
+      "startFrame": 1766,
+      "endFrame": 1771
+    },
+    {
+      "word": "today,",
+      "startMs": 59020,
+      "endMs": 59320,
+      "startFrame": 1771,
+      "endFrame": 1780
+    },
+    {
+      "word": "you",
+      "startMs": 59680,
+      "endMs": 59840,
+      "startFrame": 1791,
+      "endFrame": 1795
+    },
+    {
+      "word": "can",
+      "startMs": 59840,
+      "endMs": 60000,
+      "startFrame": 1795,
+      "endFrame": 1800
+    },
+    {
+      "word": "use",
+      "startMs": 60000,
+      "endMs": 60140,
+      "startFrame": 1800,
+      "endFrame": 1804
+    },
+    {
+      "word": "tools",
+      "startMs": 60140,
+      "endMs": 60340,
+      "startFrame": 1804,
+      "endFrame": 1810
+    },
+    {
+      "word": "like",
+      "startMs": 60340,
+      "endMs": 60580,
+      "startFrame": 1810,
+      "endFrame": 1818
+    },
+    {
+      "word": "DaVinci",
+      "startMs": 60580,
+      "endMs": 60880,
+      "startFrame": 1818,
+      "endFrame": 1827
+    },
+    {
+      "word": "Resolve",
+      "startMs": 60880,
+      "endMs": 61260,
+      "startFrame": 1827,
+      "endFrame": 1838
+    },
+    {
+      "word": "for",
+      "startMs": 61260,
+      "endMs": 61480,
+      "startFrame": 1838,
+      "endFrame": 1845
+    },
+    {
+      "word": "video",
+      "startMs": 61480,
+      "endMs": 61720,
+      "startFrame": 1845,
+      "endFrame": 1852
+    },
+    {
+      "word": "editing,",
+      "startMs": 61720,
+      "endMs": 62020,
+      "startFrame": 1852,
+      "endFrame": 1861
+    },
+    {
+      "word": "Blender",
+      "startMs": 62300,
+      "endMs": 62480,
+      "startFrame": 1869,
+      "endFrame": 1875
+    },
+    {
+      "word": "for",
+      "startMs": 62480,
+      "endMs": 62700,
+      "startFrame": 1875,
+      "endFrame": 1881
+    },
+    {
+      "word": "3D,",
+      "startMs": 62700,
+      "endMs": 63100,
+      "startFrame": 1881,
+      "endFrame": 1893
+    },
+    {
+      "word": "and",
+      "startMs": 63340,
+      "endMs": 63440,
+      "startFrame": 1900,
+      "endFrame": 1903
+    },
+    {
+      "word": "LibreOffice",
+      "startMs": 63440,
+      "endMs": 63980,
+      "startFrame": 1903,
+      "endFrame": 1920
+    },
+    {
+      "word": "for",
+      "startMs": 63980,
+      "endMs": 64120,
+      "startFrame": 1920,
+      "endFrame": 1924
+    },
+    {
+      "word": "documents",
+      "startMs": 64120,
+      "endMs": 64500,
+      "startFrame": 1924,
+      "endFrame": 1935
+    },
+    {
+      "word": "without",
+      "startMs": 64500,
+      "endMs": 64980,
+      "startFrame": 1935,
+      "endFrame": 1950
+    },
+    {
+      "word": "paying",
+      "startMs": 64980,
+      "endMs": 65300,
+      "startFrame": 1950,
+      "endFrame": 1959
+    },
+    {
+      "word": "for",
+      "startMs": 65300,
+      "endMs": 65500,
+      "startFrame": 1959,
+      "endFrame": 1965
+    },
+    {
+      "word": "the",
+      "startMs": 65500,
+      "endMs": 65600,
+      "startFrame": 1965,
+      "endFrame": 1968
+    },
+    {
+      "word": "software",
+      "startMs": 65600,
+      "endMs": 66000,
+      "startFrame": 1968,
+      "endFrame": 1980
+    },
+    {
+      "word": "itself.",
+      "startMs": 66000,
+      "endMs": 66300,
+      "startFrame": 1980,
+      "endFrame": 1989
+    },
+    {
+      "word": "And",
+      "startMs": 66620,
+      "endMs": 66720,
+      "startFrame": 1999,
+      "endFrame": 2002
+    },
+    {
+      "word": "these",
+      "startMs": 66720,
+      "endMs": 66860,
+      "startFrame": 2002,
+      "endFrame": 2006
+    },
+    {
+      "word": "aren't",
+      "startMs": 66860,
+      "endMs": 66980,
+      "startFrame": 2006,
+      "endFrame": 2010
+    },
+    {
+      "word": "new",
+      "startMs": 66980,
+      "endMs": 67120,
+      "startFrame": 2010,
+      "endFrame": 2014
+    },
+    {
+      "word": "experiments",
+      "startMs": 67120,
+      "endMs": 67580,
+      "startFrame": 2014,
+      "endFrame": 2028
+    },
+    {
+      "word": "anymore.",
+      "startMs": 67580,
+      "endMs": 67860,
+      "startFrame": 2028,
+      "endFrame": 2036
+    },
+    {
+      "word": "Some",
+      "startMs": 68380,
+      "endMs": 68540,
+      "startFrame": 2052,
+      "endFrame": 2056
+    },
+    {
+      "word": "have",
+      "startMs": 68540,
+      "endMs": 68700,
+      "startFrame": 2056,
+      "endFrame": 2061
+    },
+    {
+      "word": "been",
+      "startMs": 68700,
+      "endMs": 68800,
+      "startFrame": 2061,
+      "endFrame": 2064
+    },
+    {
+      "word": "around",
+      "startMs": 68800,
+      "endMs": 69000,
+      "startFrame": 2064,
+      "endFrame": 2070
+    },
+    {
+      "word": "for",
+      "startMs": 69000,
+      "endMs": 69180,
+      "startFrame": 2070,
+      "endFrame": 2076
+    },
+    {
+      "word": "years",
+      "startMs": 69180,
+      "endMs": 69440,
+      "startFrame": 2076,
+      "endFrame": 2083
+    },
+    {
+      "word": "and",
+      "startMs": 69440,
+      "endMs": 69700,
+      "startFrame": 2083,
+      "endFrame": 2091
+    },
+    {
+      "word": "are",
+      "startMs": 69700,
+      "endMs": 69800,
+      "startFrame": 2091,
+      "endFrame": 2094
+    },
+    {
+      "word": "used",
+      "startMs": 69800,
+      "endMs": 70040,
+      "startFrame": 2094,
+      "endFrame": 2101
+    },
+    {
+      "word": "for",
+      "startMs": 70040,
+      "endMs": 70240,
+      "startFrame": 2101,
+      "endFrame": 2107
+    },
+    {
+      "word": "serious",
+      "startMs": 70240,
+      "endMs": 70560,
+      "startFrame": 2107,
+      "endFrame": 2117
+    },
+    {
+      "word": "work.",
+      "startMs": 70560,
+      "endMs": 70840,
+      "startFrame": 2117,
+      "endFrame": 2125
+    },
+    {
+      "word": "Now",
+      "startMs": 71160,
+      "endMs": 71260,
+      "startFrame": 2135,
+      "endFrame": 2138
+    },
+    {
+      "word": "AI",
+      "startMs": 71260,
+      "endMs": 71500,
+      "startFrame": 2138,
+      "endFrame": 2145
+    },
+    {
+      "word": "is",
+      "startMs": 71500,
+      "endMs": 71740,
+      "startFrame": 2145,
+      "endFrame": 2152
+    },
+    {
+      "word": "accelerating",
+      "startMs": 71740,
+      "endMs": 72080,
+      "startFrame": 2152,
+      "endFrame": 2163
+    },
+    {
+      "word": "this",
+      "startMs": 72080,
+      "endMs": 72460,
+      "startFrame": 2163,
+      "endFrame": 2174
+    },
+    {
+      "word": "even",
+      "startMs": 72460,
+      "endMs": 72660,
+      "startFrame": 2174,
+      "endFrame": 2180
+    },
+    {
+      "word": "further.",
+      "startMs": 72660,
+      "endMs": 73000,
+      "startFrame": 2180,
+      "endFrame": 2190
+    },
+    {
+      "word": "Projects",
+      "startMs": 73280,
+      "endMs": 73580,
+      "startFrame": 2199,
+      "endFrame": 2208
+    },
+    {
+      "word": "like",
+      "startMs": 73580,
+      "endMs": 73660,
+      "startFrame": 2208,
+      "endFrame": 2210
+    },
+    {
+      "word": "ArtCraft",
+      "startMs": 73660,
+      "endMs": 74040,
+      "startFrame": 2210,
+      "endFrame": 2221
+    },
+    {
+      "word": "are",
+      "startMs": 74040,
+      "endMs": 74200,
+      "startFrame": 2221,
+      "endFrame": 2226
+    },
+    {
+      "word": "using",
+      "startMs": 74200,
+      "endMs": 74380,
+      "startFrame": 2226,
+      "endFrame": 2232
+    },
+    {
+      "word": "AI-assisted",
+      "startMs": 74660,
+      "endMs": 74980,
+      "startFrame": 2240,
+      "endFrame": 2250
+    },
+    {
+      "word": "development",
+      "startMs": 74980,
+      "endMs": 75420,
+      "startFrame": 2250,
+      "endFrame": 2263
+    },
+    {
+      "word": "to",
+      "startMs": 75420,
+      "endMs": 75740,
+      "startFrame": 2263,
+      "endFrame": 2272
+    },
+    {
+      "word": "recreate",
+      "startMs": 75740,
+      "endMs": 76120,
+      "startFrame": 2272,
+      "endFrame": 2284
+    },
+    {
+      "word": "expensive",
+      "startMs": 76120,
+      "endMs": 76720,
+      "startFrame": 2284,
+      "endFrame": 2302
+    },
+    {
+      "word": "applications.",
+      "startMs": 76720,
+      "endMs": 77280,
+      "startFrame": 2302,
+      "endFrame": 2319
+    },
+    {
+      "word": "Developers",
+      "startMs": 77700,
+      "endMs": 78180,
+      "startFrame": 2331,
+      "endFrame": 2346
+    },
+    {
+      "word": "can",
+      "startMs": 78180,
+      "endMs": 78320,
+      "startFrame": 2346,
+      "endFrame": 2350
+    },
+    {
+      "word": "also",
+      "startMs": 78320,
+      "endMs": 78600,
+      "startFrame": 2350,
+      "endFrame": 2358
+    },
+    {
+      "word": "build",
+      "startMs": 78600,
+      "endMs": 78900,
+      "startFrame": 2358,
+      "endFrame": 2367
+    },
+    {
+      "word": "their",
+      "startMs": 78900,
+      "endMs": 79100,
+      "startFrame": 2367,
+      "endFrame": 2373
+    },
+    {
+      "word": "own",
+      "startMs": 79100,
+      "endMs": 79280,
+      "startFrame": 2373,
+      "endFrame": 2379
+    },
+    {
+      "word": "tools",
+      "startMs": 79280,
+      "endMs": 79640,
+      "startFrame": 2379,
+      "endFrame": 2389
+    },
+    {
+      "word": "instead",
+      "startMs": 79640,
+      "endMs": 79960,
+      "startFrame": 2389,
+      "endFrame": 2399
+    },
+    {
+      "word": "of",
+      "startMs": 79960,
+      "endMs": 80140,
+      "startFrame": 2399,
+      "endFrame": 2404
+    },
+    {
+      "word": "waiting",
+      "startMs": 80140,
+      "endMs": 80300,
+      "startFrame": 2404,
+      "endFrame": 2409
+    },
+    {
+      "word": "for",
+      "startMs": 80300,
+      "endMs": 80520,
+      "startFrame": 2409,
+      "endFrame": 2416
+    },
+    {
+      "word": "a",
+      "startMs": 80520,
+      "endMs": 80640,
+      "startFrame": 2416,
+      "endFrame": 2419
+    },
+    {
+      "word": "company",
+      "startMs": 80640,
+      "endMs": 80860,
+      "startFrame": 2419,
+      "endFrame": 2426
+    },
+    {
+      "word": "to",
+      "startMs": 80860,
+      "endMs": 81040,
+      "startFrame": 2426,
+      "endFrame": 2431
+    },
+    {
+      "word": "add",
+      "startMs": 81040,
+      "endMs": 81240,
+      "startFrame": 2431,
+      "endFrame": 2437
+    },
+    {
+      "word": "a",
+      "startMs": 81240,
+      "endMs": 81340,
+      "startFrame": 2437,
+      "endFrame": 2440
+    },
+    {
+      "word": "feature",
+      "startMs": 81340,
+      "endMs": 81560,
+      "startFrame": 2440,
+      "endFrame": 2447
+    },
+    {
+      "word": "or",
+      "startMs": 81560,
+      "endMs": 81820,
+      "startFrame": 2447,
+      "endFrame": 2455
+    },
+    {
+      "word": "charging",
+      "startMs": 81820,
+      "endMs": 82120,
+      "startFrame": 2455,
+      "endFrame": 2464
+    },
+    {
+      "word": "them",
+      "startMs": 82120,
+      "endMs": 82360,
+      "startFrame": 2464,
+      "endFrame": 2471
+    },
+    {
+      "word": "for",
+      "startMs": 82360,
+      "endMs": 82560,
+      "startFrame": 2471,
+      "endFrame": 2477
+    },
+    {
+      "word": "an",
+      "startMs": 82560,
+      "endMs": 82640,
+      "startFrame": 2477,
+      "endFrame": 2479
+    },
+    {
+      "word": "entire",
+      "startMs": 82640,
+      "endMs": 82900,
+      "startFrame": 2479,
+      "endFrame": 2487
+    },
+    {
+      "word": "subscription",
+      "startMs": 82900,
+      "endMs": 83460,
+      "startFrame": 2487,
+      "endFrame": 2504
+    },
+    {
+      "word": "just",
+      "startMs": 83460,
+      "endMs": 83820,
+      "startFrame": 2504,
+      "endFrame": 2515
+    },
+    {
+      "word": "to",
+      "startMs": 83820,
+      "endMs": 84000,
+      "startFrame": 2515,
+      "endFrame": 2520
+    },
+    {
+      "word": "get",
+      "startMs": 84000,
+      "endMs": 84140,
+      "startFrame": 2520,
+      "endFrame": 2524
+    },
+    {
+      "word": "it.",
+      "startMs": 84140,
+      "endMs": 84280,
+      "startFrame": 2524,
+      "endFrame": 2529
+    },
+    {
+      "word": "And",
+      "startMs": 84280,
+      "endMs": 84560,
+      "startFrame": 2529,
+      "endFrame": 2537
+    },
+    {
+      "word": "if",
+      "startMs": 84560,
+      "endMs": 84680,
+      "startFrame": 2537,
+      "endFrame": 2541
+    },
+    {
+      "word": "an",
+      "startMs": 84680,
+      "endMs": 84760,
+      "startFrame": 2541,
+      "endFrame": 2543
+    },
+    {
+      "word": "open-source",
+      "startMs": 84760,
+      "endMs": 84920,
+      "startFrame": 2543,
+      "endFrame": 2548
+    },
+    {
+      "word": "alternative",
+      "startMs": 85160,
+      "endMs": 85740,
+      "startFrame": 2555,
+      "endFrame": 2572
+    },
+    {
+      "word": "does",
+      "startMs": 85740,
+      "endMs": 86020,
+      "startFrame": 2572,
+      "endFrame": 2581
+    },
+    {
+      "word": "90%",
+      "startMs": 86020,
+      "endMs": 86280,
+      "startFrame": 2581,
+      "endFrame": 2589
+    },
+    {
+      "word": "of",
+      "startMs": 86580,
+      "endMs": 86720,
+      "startFrame": 2598,
+      "endFrame": 2602
+    },
+    {
+      "word": "what",
+      "startMs": 86720,
+      "endMs": 86820,
+      "startFrame": 2602,
+      "endFrame": 2605
+    },
+    {
+      "word": "you",
+      "startMs": 86820,
+      "endMs": 86940,
+      "startFrame": 2605,
+      "endFrame": 2608
+    },
+    {
+      "word": "need,",
+      "startMs": 86940,
+      "endMs": 87140,
+      "startFrame": 2608,
+      "endFrame": 2614
+    },
+    {
+      "word": "paying",
+      "startMs": 87280,
+      "endMs": 87480,
+      "startFrame": 2619,
+      "endFrame": 2625
+    },
+    {
+      "word": "hundreds",
+      "startMs": 87480,
+      "endMs": 87840,
+      "startFrame": 2625,
+      "endFrame": 2635
+    },
+    {
+      "word": "of",
+      "startMs": 87840,
+      "endMs": 88020,
+      "startFrame": 2635,
+      "endFrame": 2641
+    },
+    {
+      "word": "dollars",
+      "startMs": 88020,
+      "endMs": 88240,
+      "startFrame": 2641,
+      "endFrame": 2647
+    },
+    {
+      "word": "a",
+      "startMs": 88240,
+      "endMs": 88420,
+      "startFrame": 2647,
+      "endFrame": 2653
+    },
+    {
+      "word": "year",
+      "startMs": 88420,
+      "endMs": 88580,
+      "startFrame": 2653,
+      "endFrame": 2658
+    },
+    {
+      "word": "for",
+      "startMs": 88580,
+      "endMs": 88760,
+      "startFrame": 2658,
+      "endFrame": 2663
+    },
+    {
+      "word": "the",
+      "startMs": 88760,
+      "endMs": 88860,
+      "startFrame": 2663,
+      "endFrame": 2666
+    },
+    {
+      "word": "original",
+      "startMs": 88860,
+      "endMs": 89180,
+      "startFrame": 2666,
+      "endFrame": 2676
+    },
+    {
+      "word": "becomes",
+      "startMs": 89180,
+      "endMs": 89640,
+      "startFrame": 2676,
+      "endFrame": 2689
+    },
+    {
+      "word": "nonsense.",
+      "startMs": 89640,
+      "endMs": 90040,
+      "startFrame": 2689,
+      "endFrame": 2701
+    },
+    {
+      "word": "But",
+      "startMs": 90420,
+      "endMs": 90500,
+      "startFrame": 2713,
+      "endFrame": 2715
+    },
+    {
+      "word": "software",
+      "startMs": 90500,
+      "endMs": 90800,
+      "startFrame": 2715,
+      "endFrame": 2724
+    },
+    {
+      "word": "is",
+      "startMs": 90800,
+      "endMs": 91180,
+      "startFrame": 2724,
+      "endFrame": 2736
+    },
+    {
+      "word": "only",
+      "startMs": 91180,
+      "endMs": 91440,
+      "startFrame": 2736,
+      "endFrame": 2743
+    },
+    {
+      "word": "half",
+      "startMs": 91440,
+      "endMs": 91720,
+      "startFrame": 2743,
+      "endFrame": 2752
+    },
+    {
+      "word": "of",
+      "startMs": 91720,
+      "endMs": 91860,
+      "startFrame": 2752,
+      "endFrame": 2756
+    },
+    {
+      "word": "the",
+      "startMs": 91860,
+      "endMs": 91920,
+      "startFrame": 2756,
+      "endFrame": 2758
+    },
+    {
+      "word": "story.",
+      "startMs": 91920,
+      "endMs": 92200,
+      "startFrame": 2758,
+      "endFrame": 2766
+    },
+    {
+      "word": "A",
+      "startMs": 92520,
+      "endMs": 92600,
+      "startFrame": 2776,
+      "endFrame": 2778
+    },
+    {
+      "word": "few",
+      "startMs": 92600,
+      "endMs": 92720,
+      "startFrame": 2778,
+      "endFrame": 2782
+    },
+    {
+      "word": "years",
+      "startMs": 92720,
+      "endMs": 92900,
+      "startFrame": 2782,
+      "endFrame": 2787
+    },
+    {
+      "word": "ago,",
+      "startMs": 92900,
+      "endMs": 93100,
+      "startFrame": 2787,
+      "endFrame": 2793
+    },
+    {
+      "word": "generating",
+      "startMs": 93200,
+      "endMs": 93420,
+      "startFrame": 2796,
+      "endFrame": 2803
+    },
+    {
+      "word": "high-quality",
+      "startMs": 93420,
+      "endMs": 93780,
+      "startFrame": 2803,
+      "endFrame": 2814
+    },
+    {
+      "word": "images,",
+      "startMs": 94000,
+      "endMs": 94480,
+      "startFrame": 2820,
+      "endFrame": 2835
+    },
+    {
+      "word": "realistic",
+      "startMs": 94680,
+      "endMs": 94860,
+      "startFrame": 2841,
+      "endFrame": 2846
+    },
+    {
+      "word": "voices,",
+      "startMs": 94860,
+      "endMs": 95480,
+      "startFrame": 2846,
+      "endFrame": 2865
+    },
+    {
+      "word": "or",
+      "startMs": 95600,
+      "endMs": 95680,
+      "startFrame": 2868,
+      "endFrame": 2871
+    },
+    {
+      "word": "useful",
+      "startMs": 95680,
+      "endMs": 95940,
+      "startFrame": 2871,
+      "endFrame": 2878
+    },
+    {
+      "word": "AI",
+      "startMs": 95940,
+      "endMs": 96220,
+      "startFrame": 2878,
+      "endFrame": 2887
+    },
+    {
+      "word": "responses",
+      "startMs": 96220,
+      "endMs": 96740,
+      "startFrame": 2887,
+      "endFrame": 2902
+    },
+    {
+      "word": "usually",
+      "startMs": 96740,
+      "endMs": 97200,
+      "startFrame": 2902,
+      "endFrame": 2916
+    },
+    {
+      "word": "meant",
+      "startMs": 97200,
+      "endMs": 97460,
+      "startFrame": 2916,
+      "endFrame": 2924
+    },
+    {
+      "word": "relying",
+      "startMs": 97460,
+      "endMs": 97760,
+      "startFrame": 2924,
+      "endFrame": 2933
+    },
+    {
+      "word": "on",
+      "startMs": 97760,
+      "endMs": 97940,
+      "startFrame": 2933,
+      "endFrame": 2938
+    },
+    {
+      "word": "a",
+      "startMs": 97940,
+      "endMs": 98020,
+      "startFrame": 2938,
+      "endFrame": 2941
+    },
+    {
+      "word": "handful",
+      "startMs": 98020,
+      "endMs": 98300,
+      "startFrame": 2941,
+      "endFrame": 2949
+    },
+    {
+      "word": "of",
+      "startMs": 98300,
+      "endMs": 98460,
+      "startFrame": 2949,
+      "endFrame": 2954
+    },
+    {
+      "word": "major",
+      "startMs": 98460,
+      "endMs": 98660,
+      "startFrame": 2954,
+      "endFrame": 2960
+    },
+    {
+      "word": "companies.",
+      "startMs": 98660,
+      "endMs": 99080,
+      "startFrame": 2960,
+      "endFrame": 2973
+    },
+    {
+      "word": "Now,",
+      "startMs": 99420,
+      "endMs": 99560,
+      "startFrame": 2983,
+      "endFrame": 2987
+    },
+    {
+      "word": "there",
+      "startMs": 99640,
+      "endMs": 99740,
+      "startFrame": 2989,
+      "endFrame": 2992
+    },
+    {
+      "word": "are",
+      "startMs": 99740,
+      "endMs": 99820,
+      "startFrame": 2992,
+      "endFrame": 2995
+    },
+    {
+      "word": "open",
+      "startMs": 99820,
+      "endMs": 100020,
+      "startFrame": 2995,
+      "endFrame": 3001
+    },
+    {
+      "word": "models",
+      "startMs": 100020,
+      "endMs": 100300,
+      "startFrame": 3001,
+      "endFrame": 3009
+    },
+    {
+      "word": "for",
+      "startMs": 100300,
+      "endMs": 100520,
+      "startFrame": 3009,
+      "endFrame": 3016
+    },
+    {
+      "word": "all",
+      "startMs": 100520,
+      "endMs": 100660,
+      "startFrame": 3016,
+      "endFrame": 3020
+    },
+    {
+      "word": "of",
+      "startMs": 100660,
+      "endMs": 100760,
+      "startFrame": 3020,
+      "endFrame": 3023
+    },
+    {
+      "word": "these",
+      "startMs": 100760,
+      "endMs": 100860,
+      "startFrame": 3023,
+      "endFrame": 3026
+    },
+    {
+      "word": "things.",
+      "startMs": 100860,
+      "endMs": 101140,
+      "startFrame": 3026,
+      "endFrame": 3034
+    },
+    {
+      "word": "You",
+      "startMs": 101500,
+      "endMs": 101620,
+      "startFrame": 3045,
+      "endFrame": 3049
+    },
+    {
+      "word": "can",
+      "startMs": 101620,
+      "endMs": 101760,
+      "startFrame": 3049,
+      "endFrame": 3053
+    },
+    {
+      "word": "generate",
+      "startMs": 101760,
+      "endMs": 102080,
+      "startFrame": 3053,
+      "endFrame": 3063
+    },
+    {
+      "word": "images",
+      "startMs": 102080,
+      "endMs": 102460,
+      "startFrame": 3063,
+      "endFrame": 3074
+    },
+    {
+      "word": "with",
+      "startMs": 102460,
+      "endMs": 102720,
+      "startFrame": 3074,
+      "endFrame": 3082
+    },
+    {
+      "word": "models",
+      "startMs": 102720,
+      "endMs": 102980,
+      "startFrame": 3082,
+      "endFrame": 3090
+    },
+    {
+      "word": "like",
+      "startMs": 102980,
+      "endMs": 103220,
+      "startFrame": 3090,
+      "endFrame": 3097
+    },
+    {
+      "word": "Krea,",
+      "startMs": 103220,
+      "endMs": 103500,
+      "startFrame": 3097,
+      "endFrame": 3105
+    },
+    {
+      "word": "and",
+      "startMs": 103480,
+      "endMs": 103800,
+      "startFrame": 3105,
+      "endFrame": 3114
+    },
+    {
+      "word": "use",
+      "startMs": 103800,
+      "endMs": 103960,
+      "startFrame": 3114,
+      "endFrame": 3119
+    },
+    {
+      "word": "projects",
+      "startMs": 103960,
+      "endMs": 104280,
+      "startFrame": 3119,
+      "endFrame": 3129
+    },
+    {
+      "word": "like",
+      "startMs": 104280,
+      "endMs": 104560,
+      "startFrame": 3129,
+      "endFrame": 3137
+    },
+    {
+      "word": "Kokoro",
+      "startMs": 104560,
+      "endMs": 104940,
+      "startFrame": 3137,
+      "endFrame": 3148
+    },
+    {
+      "word": "for",
+      "startMs": 104940,
+      "endMs": 105260,
+      "startFrame": 3148,
+      "endFrame": 3158
+    },
+    {
+      "word": "text-to-speech.",
+      "startMs": 105260,
+      "endMs": 105560,
+      "startFrame": 3158,
+      "endFrame": 3167
+    },
+    {
+      "word": "And",
+      "startMs": 106160,
+      "endMs": 106260,
+      "startFrame": 3185,
+      "endFrame": 3188
+    },
+    {
+      "word": "you",
+      "startMs": 106260,
+      "endMs": 106340,
+      "startFrame": 3188,
+      "endFrame": 3190
+    },
+    {
+      "word": "don't",
+      "startMs": 106340,
+      "endMs": 106460,
+      "startFrame": 3190,
+      "endFrame": 3194
+    },
+    {
+      "word": "necessarily",
+      "startMs": 106460,
+      "endMs": 106760,
+      "startFrame": 3194,
+      "endFrame": 3203
+    },
+    {
+      "word": "need",
+      "startMs": 106760,
+      "endMs": 107200,
+      "startFrame": 3203,
+      "endFrame": 3216
+    },
+    {
+      "word": "an",
+      "startMs": 107200,
+      "endMs": 107320,
+      "startFrame": 3216,
+      "endFrame": 3220
+    },
+    {
+      "word": "expensive",
+      "startMs": 107320,
+      "endMs": 107680,
+      "startFrame": 3220,
+      "endFrame": 3231
+    },
+    {
+      "word": "workstation",
+      "startMs": 107680,
+      "endMs": 108340,
+      "startFrame": 3231,
+      "endFrame": 3250
+    },
+    {
+      "word": "or",
+      "startMs": 108340,
+      "endMs": 108640,
+      "startFrame": 3250,
+      "endFrame": 3259
+    },
+    {
+      "word": "a",
+      "startMs": 108640,
+      "endMs": 108760,
+      "startFrame": 3259,
+      "endFrame": 3263
+    },
+    {
+      "word": "cloud",
+      "startMs": 108760,
+      "endMs": 108980,
+      "startFrame": 3263,
+      "endFrame": 3270
+    },
+    {
+      "word": "subscription",
+      "startMs": 108980,
+      "endMs": 109360,
+      "startFrame": 3270,
+      "endFrame": 3281
+    },
+    {
+      "word": "for",
+      "startMs": 109360,
+      "endMs": 109740,
+      "startFrame": 3281,
+      "endFrame": 3292
+    },
+    {
+      "word": "every",
+      "startMs": 109740,
+      "endMs": 109980,
+      "startFrame": 3292,
+      "endFrame": 3300
+    },
+    {
+      "word": "task.",
+      "startMs": 109980,
+      "endMs": 110340,
+      "startFrame": 3300,
+      "endFrame": 3310
+    },
+    {
+      "word": "Smaller",
+      "startMs": 110580,
+      "endMs": 110920,
+      "startFrame": 3318,
+      "endFrame": 3328
+    },
+    {
+      "word": "models",
+      "startMs": 110920,
+      "endMs": 111200,
+      "startFrame": 3328,
+      "endFrame": 3336
+    },
+    {
+      "word": "can",
+      "startMs": 111200,
+      "endMs": 111480,
+      "startFrame": 3336,
+      "endFrame": 3345
+    },
+    {
+      "word": "run",
+      "startMs": 111480,
+      "endMs": 111660,
+      "startFrame": 3345,
+      "endFrame": 3350
+    },
+    {
+      "word": "on",
+      "startMs": 111660,
+      "endMs": 111800,
+      "startFrame": 3350,
+      "endFrame": 3354
+    },
+    {
+      "word": "ordinary",
+      "startMs": 111800,
+      "endMs": 112180,
+      "startFrame": 3354,
+      "endFrame": 3366
+    },
+    {
+      "word": "consumer",
+      "startMs": 112180,
+      "endMs": 112560,
+      "startFrame": 3366,
+      "endFrame": 3377
+    },
+    {
+      "word": "hardware,",
+      "startMs": 112560,
+      "endMs": 112980,
+      "startFrame": 3377,
+      "endFrame": 3390
+    },
+    {
+      "word": "depending",
+      "startMs": 112980,
+      "endMs": 113220,
+      "startFrame": 3390,
+      "endFrame": 3397
+    },
+    {
+      "word": "on",
+      "startMs": 113220,
+      "endMs": 113440,
+      "startFrame": 3397,
+      "endFrame": 3403
+    },
+    {
+      "word": "their",
+      "startMs": 113440,
+      "endMs": 113580,
+      "startFrame": 3403,
+      "endFrame": 3408
+    },
+    {
+      "word": "size",
+      "startMs": 113580,
+      "endMs": 113880,
+      "startFrame": 3408,
+      "endFrame": 3417
+    },
+    {
+      "word": "and",
+      "startMs": 113880,
+      "endMs": 114060,
+      "startFrame": 3417,
+      "endFrame": 3422
+    },
+    {
+      "word": "the",
+      "startMs": 114060,
+      "endMs": 114140,
+      "startFrame": 3422,
+      "endFrame": 3424
+    },
+    {
+      "word": "memory",
+      "startMs": 114140,
+      "endMs": 114360,
+      "startFrame": 3424,
+      "endFrame": 3431
+    },
+    {
+      "word": "available.",
+      "startMs": 114360,
+      "endMs": 114780,
+      "startFrame": 3431,
+      "endFrame": 3444
+    },
+    {
+      "word": "The",
+      "startMs": 115040,
+      "endMs": 115140,
+      "startFrame": 3451,
+      "endFrame": 3454
+    },
+    {
+      "word": "biggest",
+      "startMs": 115140,
+      "endMs": 115320,
+      "startFrame": 3454,
+      "endFrame": 3460
+    },
+    {
+      "word": "change",
+      "startMs": 115320,
+      "endMs": 115700,
+      "startFrame": 3460,
+      "endFrame": 3471
+    },
+    {
+      "word": "is",
+      "startMs": 115700,
+      "endMs": 116000,
+      "startFrame": 3471,
+      "endFrame": 3480
+    },
+    {
+      "word": "that",
+      "startMs": 116000,
+      "endMs": 116160,
+      "startFrame": 3480,
+      "endFrame": 3485
+    },
+    {
+      "word": "you're",
+      "startMs": 116160,
+      "endMs": 116300,
+      "startFrame": 3485,
+      "endFrame": 3489
+    },
+    {
+      "word": "no",
+      "startMs": 116300,
+      "endMs": 116440,
+      "startFrame": 3489,
+      "endFrame": 3493
+    },
+    {
+      "word": "longer",
+      "startMs": 116440,
+      "endMs": 116700,
+      "startFrame": 3493,
+      "endFrame": 3501
+    },
+    {
+      "word": "limited",
+      "startMs": 116700,
+      "endMs": 116980,
+      "startFrame": 3501,
+      "endFrame": 3510
+    },
+    {
+      "word": "to",
+      "startMs": 116980,
+      "endMs": 117180,
+      "startFrame": 3510,
+      "endFrame": 3516
+    },
+    {
+      "word": "whatever",
+      "startMs": 117180,
+      "endMs": 117360,
+      "startFrame": 3516,
+      "endFrame": 3521
+    },
+    {
+      "word": "a",
+      "startMs": 117360,
+      "endMs": 117600,
+      "startFrame": 3521,
+      "endFrame": 3528
+    },
+    {
+      "word": "company",
+      "startMs": 117600,
+      "endMs": 117800,
+      "startFrame": 3528,
+      "endFrame": 3534
+    },
+    {
+      "word": "decides",
+      "startMs": 117800,
+      "endMs": 118180,
+      "startFrame": 3534,
+      "endFrame": 3546
+    },
+    {
+      "word": "to",
+      "startMs": 118180,
+      "endMs": 118440,
+      "startFrame": 3546,
+      "endFrame": 3553
+    },
+    {
+      "word": "offer.",
+      "startMs": 118440,
+      "endMs": 118680,
+      "startFrame": 3553,
+      "endFrame": 3561
+    },
+    {
+      "word": "You",
+      "startMs": 119040,
+      "endMs": 119080,
+      "startFrame": 3571,
+      "endFrame": 3573
+    },
+    {
+      "word": "can",
+      "startMs": 119080,
+      "endMs": 119220,
+      "startFrame": 3573,
+      "endFrame": 3577
+    },
+    {
+      "word": "download",
+      "startMs": 119220,
+      "endMs": 119500,
+      "startFrame": 3577,
+      "endFrame": 3585
+    },
+    {
+      "word": "a",
+      "startMs": 119500,
+      "endMs": 119640,
+      "startFrame": 3585,
+      "endFrame": 3589
+    },
+    {
+      "word": "model,",
+      "startMs": 119640,
+      "endMs": 119920,
+      "startFrame": 3589,
+      "endFrame": 3598
+    },
+    {
+      "word": "run",
+      "startMs": 120260,
+      "endMs": 120400,
+      "startFrame": 3608,
+      "endFrame": 3612
+    },
+    {
+      "word": "it",
+      "startMs": 120400,
+      "endMs": 120500,
+      "startFrame": 3612,
+      "endFrame": 3615
+    },
+    {
+      "word": "locally,",
+      "startMs": 120500,
+      "endMs": 120840,
+      "startFrame": 3615,
+      "endFrame": 3625
+    },
+    {
+      "word": "connect",
+      "startMs": 121220,
+      "endMs": 121320,
+      "startFrame": 3637,
+      "endFrame": 3640
+    },
+    {
+      "word": "it",
+      "startMs": 121320,
+      "endMs": 121540,
+      "startFrame": 3640,
+      "endFrame": 3646
+    },
+    {
+      "word": "to",
+      "startMs": 121540,
+      "endMs": 121640,
+      "startFrame": 3646,
+      "endFrame": 3649
+    },
+    {
+      "word": "your",
+      "startMs": 121640,
+      "endMs": 121760,
+      "startFrame": 3649,
+      "endFrame": 3653
+    },
+    {
+      "word": "own",
+      "startMs": 121760,
+      "endMs": 121920,
+      "startFrame": 3653,
+      "endFrame": 3658
+    },
+    {
+      "word": "applications,",
+      "startMs": 121920,
+      "endMs": 122360,
+      "startFrame": 3658,
+      "endFrame": 3671
+    },
+    {
+      "word": "and",
+      "startMs": 122680,
+      "endMs": 122760,
+      "startFrame": 3681,
+      "endFrame": 3683
+    },
+    {
+      "word": "build",
+      "startMs": 122760,
+      "endMs": 122960,
+      "startFrame": 3683,
+      "endFrame": 3689
+    },
+    {
+      "word": "something",
+      "startMs": 122960,
+      "endMs": 123240,
+      "startFrame": 3689,
+      "endFrame": 3697
+    },
+    {
+      "word": "around",
+      "startMs": 123240,
+      "endMs": 123520,
+      "startFrame": 3697,
+      "endFrame": 3706
+    },
+    {
+      "word": "it.",
+      "startMs": 123520,
+      "endMs": 123740,
+      "startFrame": 3706,
+      "endFrame": 3712
+    },
+    {
+      "word": "If",
+      "startMs": 123880,
+      "endMs": 123980,
+      "startFrame": 3717,
+      "endFrame": 3720
+    },
+    {
+      "word": "a",
+      "startMs": 123980,
+      "endMs": 124080,
+      "startFrame": 3720,
+      "endFrame": 3723
+    },
+    {
+      "word": "company",
+      "startMs": 124080,
+      "endMs": 124240,
+      "startFrame": 3723,
+      "endFrame": 3727
+    },
+    {
+      "word": "changes",
+      "startMs": 124240,
+      "endMs": 124580,
+      "startFrame": 3727,
+      "endFrame": 3738
+    },
+    {
+      "word": "its",
+      "startMs": 124580,
+      "endMs": 124760,
+      "startFrame": 3738,
+      "endFrame": 3743
+    },
+    {
+      "word": "prices,",
+      "startMs": 124760,
+      "endMs": 125120,
+      "startFrame": 3743,
+      "endFrame": 3754
+    },
+    {
+      "word": "removes",
+      "startMs": 125460,
+      "endMs": 125680,
+      "startFrame": 3764,
+      "endFrame": 3771
+    },
+    {
+      "word": "a",
+      "startMs": 125680,
+      "endMs": 125900,
+      "startFrame": 3771,
+      "endFrame": 3777
+    },
+    {
+      "word": "feature,",
+      "startMs": 125900,
+      "endMs": 126100,
+      "startFrame": 3777,
+      "endFrame": 3783
+    },
+    {
+      "word": "or",
+      "startMs": 126420,
+      "endMs": 126580,
+      "startFrame": 3793,
+      "endFrame": 3798
+    },
+    {
+      "word": "shuts",
+      "startMs": 126580,
+      "endMs": 126760,
+      "startFrame": 3798,
+      "endFrame": 3803
+    },
+    {
+      "word": "down",
+      "startMs": 126760,
+      "endMs": 127000,
+      "startFrame": 3803,
+      "endFrame": 3810
+    },
+    {
+      "word": "a",
+      "startMs": 127000,
+      "endMs": 127100,
+      "startFrame": 3810,
+      "endFrame": 3813
+    },
+    {
+      "word": "service,",
+      "startMs": 127100,
+      "endMs": 127380,
+      "startFrame": 3813,
+      "endFrame": 3822
+    },
+    {
+      "word": "you",
+      "startMs": 127660,
+      "endMs": 127740,
+      "startFrame": 3830,
+      "endFrame": 3832
+    },
+    {
+      "word": "may",
+      "startMs": 127740,
+      "endMs": 127860,
+      "startFrame": 3832,
+      "endFrame": 3836
+    },
+    {
+      "word": "have",
+      "startMs": 127860,
+      "endMs": 128060,
+      "startFrame": 3836,
+      "endFrame": 3842
+    },
+    {
+      "word": "another",
+      "startMs": 128060,
+      "endMs": 128200,
+      "startFrame": 3842,
+      "endFrame": 3846
+    },
+    {
+      "word": "option.",
+      "startMs": 128200,
+      "endMs": 128600,
+      "startFrame": 3846,
+      "endFrame": 3858
+    },
+    {
+      "word": "That's",
+      "startMs": 128940,
+      "endMs": 129140,
+      "startFrame": 3868,
+      "endFrame": 3874
+    },
+    {
+      "word": "a",
+      "startMs": 129140,
+      "endMs": 129200,
+      "startFrame": 3874,
+      "endFrame": 3876
+    },
+    {
+      "word": "big",
+      "startMs": 129200,
+      "endMs": 129300,
+      "startFrame": 3876,
+      "endFrame": 3879
+    },
+    {
+      "word": "deal.",
+      "startMs": 129300,
+      "endMs": 129520,
+      "startFrame": 3879,
+      "endFrame": 3886
+    },
+    {
+      "word": "And",
+      "startMs": 129860,
+      "endMs": 129980,
+      "startFrame": 3896,
+      "endFrame": 3900
+    },
+    {
+      "word": "if",
+      "startMs": 129980,
+      "endMs": 130080,
+      "startFrame": 3900,
+      "endFrame": 3903
+    },
+    {
+      "word": "you're",
+      "startMs": 130080,
+      "endMs": 130240,
+      "startFrame": 3903,
+      "endFrame": 3907
+    },
+    {
+      "word": "into",
+      "startMs": 130240,
+      "endMs": 130400,
+      "startFrame": 3907,
+      "endFrame": 3912
+    },
+    {
+      "word": "AI",
+      "startMs": 130400,
+      "endMs": 130620,
+      "startFrame": 3912,
+      "endFrame": 3919
+    },
+    {
+      "word": "and",
+      "startMs": 130620,
+      "endMs": 130860,
+      "startFrame": 3919,
+      "endFrame": 3926
+    },
+    {
+      "word": "tech,",
+      "startMs": 130860,
+      "endMs": 131000,
+      "startFrame": 3926,
+      "endFrame": 3930
+    },
+    {
+      "word": "subscribe",
+      "startMs": 131140,
+      "endMs": 131360,
+      "startFrame": 3934,
+      "endFrame": 3941
+    },
+    {
+      "word": "to",
+      "startMs": 131360,
+      "endMs": 131620,
+      "startFrame": 3941,
+      "endFrame": 3949
+    },
+    {
+      "word": "VantaBrief.",
+      "startMs": 131620,
+      "endMs": 131900,
+      "startFrame": 3949,
+      "endFrame": 3957
+    },
+    {
+      "word": "I",
+      "startMs": 132280,
+      "endMs": 132360,
+      "startFrame": 3969,
+      "endFrame": 3971
+    },
+    {
+      "word": "cover",
+      "startMs": 132360,
+      "endMs": 132540,
+      "startFrame": 3971,
+      "endFrame": 3976
+    },
+    {
+      "word": "the",
+      "startMs": 132540,
+      "endMs": 132700,
+      "startFrame": 3976,
+      "endFrame": 3981
+    },
+    {
+      "word": "tools",
+      "startMs": 132700,
+      "endMs": 132960,
+      "startFrame": 3981,
+      "endFrame": 3989
+    },
+    {
+      "word": "and",
+      "startMs": 132960,
+      "endMs": 133140,
+      "startFrame": 3989,
+      "endFrame": 3994
+    },
+    {
+      "word": "developments",
+      "startMs": 133140,
+      "endMs": 133440,
+      "startFrame": 3994,
+      "endFrame": 4003
+    },
+    {
+      "word": "that",
+      "startMs": 133440,
+      "endMs": 133720,
+      "startFrame": 4003,
+      "endFrame": 4012
+    },
+    {
+      "word": "are",
+      "startMs": 133720,
+      "endMs": 133820,
+      "startFrame": 4012,
+      "endFrame": 4015
+    },
+    {
+      "word": "actually",
+      "startMs": 133820,
+      "endMs": 134160,
+      "startFrame": 4015,
+      "endFrame": 4025
+    },
+    {
+      "word": "changing",
+      "startMs": 134160,
+      "endMs": 134540,
+      "startFrame": 4025,
+      "endFrame": 4036
+    },
+    {
+      "word": "how",
+      "startMs": 134540,
+      "endMs": 134780,
+      "startFrame": 4036,
+      "endFrame": 4044
+    },
+    {
+      "word": "we",
+      "startMs": 134780,
+      "endMs": 134920,
+      "startFrame": 4044,
+      "endFrame": 4048
+    },
+    {
+      "word": "use",
+      "startMs": 134920,
+      "endMs": 135040,
+      "startFrame": 4048,
+      "endFrame": 4051
+    },
+    {
+      "word": "technology.",
+      "startMs": 135040,
+      "endMs": 135520,
+      "startFrame": 4051,
+      "endFrame": 4066
+    },
+    {
+      "word": "But",
+      "startMs": 135860,
+      "endMs": 136000,
+      "startFrame": 4076,
+      "endFrame": 4080
+    },
+    {
+      "word": "this",
+      "startMs": 136000,
+      "endMs": 136140,
+      "startFrame": 4080,
+      "endFrame": 4084
+    },
+    {
+      "word": "freedom",
+      "startMs": 136140,
+      "endMs": 136360,
+      "startFrame": 4084,
+      "endFrame": 4091
+    },
+    {
+      "word": "creates",
+      "startMs": 136360,
+      "endMs": 136760,
+      "startFrame": 4091,
+      "endFrame": 4103
+    },
+    {
+      "word": "a",
+      "startMs": 136760,
+      "endMs": 136940,
+      "startFrame": 4103,
+      "endFrame": 4108
+    },
+    {
+      "word": "problem",
+      "startMs": 136940,
+      "endMs": 137220,
+      "startFrame": 4108,
+      "endFrame": 4117
+    },
+    {
+      "word": "for",
+      "startMs": 137220,
+      "endMs": 137500,
+      "startFrame": 4117,
+      "endFrame": 4125
+    },
+    {
+      "word": "companies",
+      "startMs": 137500,
+      "endMs": 137800,
+      "startFrame": 4125,
+      "endFrame": 4134
+    },
+    {
+      "word": "that",
+      "startMs": 137800,
+      "endMs": 138060,
+      "startFrame": 4134,
+      "endFrame": 4142
+    },
+    {
+      "word": "have",
+      "startMs": 138060,
+      "endMs": 138200,
+      "startFrame": 4142,
+      "endFrame": 4146
+    },
+    {
+      "word": "built",
+      "startMs": 138200,
+      "endMs": 138440,
+      "startFrame": 4146,
+      "endFrame": 4153
+    },
+    {
+      "word": "their",
+      "startMs": 138440,
+      "endMs": 138600,
+      "startFrame": 4153,
+      "endFrame": 4158
+    },
+    {
+      "word": "businesses",
+      "startMs": 138600,
+      "endMs": 138980,
+      "startFrame": 4158,
+      "endFrame": 4170
+    },
+    {
+      "word": "around",
+      "startMs": 138980,
+      "endMs": 139380,
+      "startFrame": 4170,
+      "endFrame": 4182
+    },
+    {
+      "word": "selling",
+      "startMs": 139380,
+      "endMs": 139700,
+      "startFrame": 4182,
+      "endFrame": 4191
+    },
+    {
+      "word": "software.",
+      "startMs": 139700,
+      "endMs": 140200,
+      "startFrame": 4191,
+      "endFrame": 4206
+    },
+    {
+      "word": "So,",
+      "startMs": 140340,
+      "endMs": 140500,
+      "startFrame": 4210,
+      "endFrame": 4215
+    },
+    {
+      "word": "how",
+      "startMs": 140500,
+      "endMs": 140720,
+      "startFrame": 4215,
+      "endFrame": 4222
+    },
+    {
+      "word": "do",
+      "startMs": 140720,
+      "endMs": 140800,
+      "startFrame": 4222,
+      "endFrame": 4224
+    },
+    {
+      "word": "open-source",
+      "startMs": 140800,
+      "endMs": 141000,
+      "startFrame": 4224,
+      "endFrame": 4230
+    },
+    {
+      "word": "developers",
+      "startMs": 141240,
+      "endMs": 141820,
+      "startFrame": 4237,
+      "endFrame": 4255
+    },
+    {
+      "word": "make",
+      "startMs": 141820,
+      "endMs": 142180,
+      "startFrame": 4255,
+      "endFrame": 4266
+    },
+    {
+      "word": "money?",
+      "startMs": 142180,
+      "endMs": 142520,
+      "startFrame": 4266,
+      "endFrame": 4276
+    },
+    {
+      "word": "Because",
+      "startMs": 142520,
+      "endMs": 142840,
+      "startFrame": 4276,
+      "endFrame": 4285
+    },
+    {
+      "word": "here's",
+      "startMs": 142840,
+      "endMs": 143120,
+      "startFrame": 4285,
+      "endFrame": 4294
+    },
+    {
+      "word": "the",
+      "startMs": 143120,
+      "endMs": 143240,
+      "startFrame": 4294,
+      "endFrame": 4297
+    },
+    {
+      "word": "thing:",
+      "startMs": 143240,
+      "endMs": 143440,
+      "startFrame": 4297,
+      "endFrame": 4303
+    },
+    {
+      "word": "making",
+      "startMs": 143600,
+      "endMs": 143740,
+      "startFrame": 4308,
+      "endFrame": 4312
+    },
+    {
+      "word": "software",
+      "startMs": 143740,
+      "endMs": 144200,
+      "startFrame": 4312,
+      "endFrame": 4326
+    },
+    {
+      "word": "isn't",
+      "startMs": 144200,
+      "endMs": 144540,
+      "startFrame": 4326,
+      "endFrame": 4336
+    },
+    {
+      "word": "free,",
+      "startMs": 144540,
+      "endMs": 144820,
+      "startFrame": 4336,
+      "endFrame": 4345
+    },
+    {
+      "word": "even",
+      "startMs": 144820,
+      "endMs": 145120,
+      "startFrame": 4345,
+      "endFrame": 4354
+    },
+    {
+      "word": "when",
+      "startMs": 145120,
+      "endMs": 145280,
+      "startFrame": 4354,
+      "endFrame": 4359
+    },
+    {
+      "word": "downloading",
+      "startMs": 145280,
+      "endMs": 145660,
+      "startFrame": 4359,
+      "endFrame": 4370
+    },
+    {
+      "word": "it",
+      "startMs": 145660,
+      "endMs": 145920,
+      "startFrame": 4370,
+      "endFrame": 4378
+    },
+    {
+      "word": "is.",
+      "startMs": 145920,
+      "endMs": 146120,
+      "startFrame": 4378,
+      "endFrame": 4384
+    },
+    {
+      "word": "Developers",
+      "startMs": 146340,
+      "endMs": 146740,
+      "startFrame": 4390,
+      "endFrame": 4402
+    },
+    {
+      "word": "still",
+      "startMs": 146740,
+      "endMs": 146960,
+      "startFrame": 4402,
+      "endFrame": 4409
+    },
+    {
+      "word": "need",
+      "startMs": 146960,
+      "endMs": 147120,
+      "startFrame": 4409,
+      "endFrame": 4414
+    },
+    {
+      "word": "time,",
+      "startMs": 147120,
+      "endMs": 147420,
+      "startFrame": 4414,
+      "endFrame": 4423
+    },
+    {
+      "word": "hardware,",
+      "startMs": 147620,
+      "endMs": 147840,
+      "startFrame": 4429,
+      "endFrame": 4435
+    },
+    {
+      "word": "and",
+      "startMs": 148040,
+      "endMs": 148140,
+      "startFrame": 4441,
+      "endFrame": 4444
+    },
+    {
+      "word": "money",
+      "startMs": 148140,
+      "endMs": 148380,
+      "startFrame": 4444,
+      "endFrame": 4452
+    },
+    {
+      "word": "to",
+      "startMs": 148380,
+      "endMs": 148640,
+      "startFrame": 4452,
+      "endFrame": 4459
+    },
+    {
+      "word": "maintain",
+      "startMs": 148640,
+      "endMs": 149000,
+      "startFrame": 4459,
+      "endFrame": 4470
+    },
+    {
+      "word": "their",
+      "startMs": 149000,
+      "endMs": 149260,
+      "startFrame": 4470,
+      "endFrame": 4478
+    },
+    {
+      "word": "projects.",
+      "startMs": 149260,
+      "endMs": 149740,
+      "startFrame": 4478,
+      "endFrame": 4492
+    },
+    {
+      "word": "And",
+      "startMs": 150060,
+      "endMs": 150200,
+      "startFrame": 4502,
+      "endFrame": 4506
+    },
+    {
+      "word": "successful",
+      "startMs": 150200,
+      "endMs": 150580,
+      "startFrame": 4506,
+      "endFrame": 4518
+    },
+    {
+      "word": "open-source",
+      "startMs": 150580,
+      "endMs": 150920,
+      "startFrame": 4518,
+      "endFrame": 4528
+    },
+    {
+      "word": "businesses",
+      "startMs": 151100,
+      "endMs": 151580,
+      "startFrame": 4533,
+      "endFrame": 4548
+    },
+    {
+      "word": "have",
+      "startMs": 151580,
+      "endMs": 151780,
+      "startFrame": 4548,
+      "endFrame": 4554
+    },
+    {
+      "word": "figured",
+      "startMs": 151780,
+      "endMs": 151980,
+      "startFrame": 4554,
+      "endFrame": 4560
+    },
+    {
+      "word": "out",
+      "startMs": 151980,
+      "endMs": 152180,
+      "startFrame": 4560,
+      "endFrame": 4566
+    },
+    {
+      "word": "how",
+      "startMs": 152180,
+      "endMs": 152380,
+      "startFrame": 4566,
+      "endFrame": 4572
+    },
+    {
+      "word": "to",
+      "startMs": 152380,
+      "endMs": 152480,
+      "startFrame": 4572,
+      "endFrame": 4575
+    },
+    {
+      "word": "make",
+      "startMs": 152480,
+      "endMs": 152660,
+      "startFrame": 4575,
+      "endFrame": 4580
+    },
+    {
+      "word": "money",
+      "startMs": 152660,
+      "endMs": 152940,
+      "startFrame": 4580,
+      "endFrame": 4588
+    },
+    {
+      "word": "without",
+      "startMs": 152940,
+      "endMs": 153280,
+      "startFrame": 4588,
+      "endFrame": 4599
+    },
+    {
+      "word": "charging",
+      "startMs": 153280,
+      "endMs": 153680,
+      "startFrame": 4599,
+      "endFrame": 4611
+    },
+    {
+      "word": "everyone",
+      "startMs": 153680,
+      "endMs": 154000,
+      "startFrame": 4611,
+      "endFrame": 4620
+    },
+    {
+      "word": "for",
+      "startMs": 154000,
+      "endMs": 154240,
+      "startFrame": 4620,
+      "endFrame": 4627
+    },
+    {
+      "word": "the",
+      "startMs": 154240,
+      "endMs": 154320,
+      "startFrame": 4627,
+      "endFrame": 4630
+    },
+    {
+      "word": "basic",
+      "startMs": 154320,
+      "endMs": 154560,
+      "startFrame": 4630,
+      "endFrame": 4637
+    },
+    {
+      "word": "software.",
+      "startMs": 154560,
+      "endMs": 155080,
+      "startFrame": 4637,
+      "endFrame": 4653
+    },
+    {
+      "word": "The",
+      "startMs": 155320,
+      "endMs": 155380,
+      "startFrame": 4660,
+      "endFrame": 4662
+    },
+    {
+      "word": "first",
+      "startMs": 155380,
+      "endMs": 155540,
+      "startFrame": 4662,
+      "endFrame": 4666
+    },
+    {
+      "word": "model",
+      "startMs": 155540,
+      "endMs": 155860,
+      "startFrame": 4666,
+      "endFrame": 4676
+    },
+    {
+      "word": "is",
+      "startMs": 155860,
+      "endMs": 156040,
+      "startFrame": 4676,
+      "endFrame": 4681
+    },
+    {
+      "word": "paid",
+      "startMs": 156040,
+      "endMs": 156220,
+      "startFrame": 4681,
+      "endFrame": 4687
+    },
+    {
+      "word": "convenience.",
+      "startMs": 156220,
+      "endMs": 156720,
+      "startFrame": 4687,
+      "endFrame": 4702
+    },
+    {
+      "word": "Take",
+      "startMs": 157180,
+      "endMs": 157300,
+      "startFrame": 4716,
+      "endFrame": 4719
+    },
+    {
+      "word": "an",
+      "startMs": 157300,
+      "endMs": 157420,
+      "startFrame": 4719,
+      "endFrame": 4723
+    },
+    {
+      "word": "open-source",
+      "startMs": 157420,
+      "endMs": 157560,
+      "startFrame": 4723,
+      "endFrame": 4727
+    },
+    {
+      "word": "project",
+      "startMs": 157740,
+      "endMs": 158180,
+      "startFrame": 4732,
+      "endFrame": 4746
+    },
+    {
+      "word": "and",
+      "startMs": 158180,
+      "endMs": 158520,
+      "startFrame": 4746,
+      "endFrame": 4756
+    },
+    {
+      "word": "let",
+      "startMs": 158520,
+      "endMs": 158660,
+      "startFrame": 4756,
+      "endFrame": 4760
+    },
+    {
+      "word": "people",
+      "startMs": 158660,
+      "endMs": 158900,
+      "startFrame": 4760,
+      "endFrame": 4767
+    },
+    {
+      "word": "use",
+      "startMs": 158900,
+      "endMs": 159140,
+      "startFrame": 4767,
+      "endFrame": 4774
+    },
+    {
+      "word": "it",
+      "startMs": 159140,
+      "endMs": 159240,
+      "startFrame": 4774,
+      "endFrame": 4777
+    },
+    {
+      "word": "for",
+      "startMs": 159240,
+      "endMs": 159400,
+      "startFrame": 4777,
+      "endFrame": 4782
+    },
+    {
+      "word": "free.",
+      "startMs": 159400,
+      "endMs": 159660,
+      "startFrame": 4782,
+      "endFrame": 4790
+    },
+    {
+      "word": "Then",
+      "startMs": 159820,
+      "endMs": 159980,
+      "startFrame": 4795,
+      "endFrame": 4800
+    },
+    {
+      "word": "charge",
+      "startMs": 159980,
+      "endMs": 160200,
+      "startFrame": 4800,
+      "endFrame": 4806
+    },
+    {
+      "word": "for",
+      "startMs": 160200,
+      "endMs": 160440,
+      "startFrame": 4806,
+      "endFrame": 4813
+    },
+    {
+      "word": "hosting,",
+      "startMs": 160440,
+      "endMs": 160740,
+      "startFrame": 4813,
+      "endFrame": 4822
+    },
+    {
+      "word": "cloud",
+      "startMs": 161020,
+      "endMs": 161220,
+      "startFrame": 4831,
+      "endFrame": 4837
+    },
+    {
+      "word": "access,",
+      "startMs": 161220,
+      "endMs": 161580,
+      "startFrame": 4837,
+      "endFrame": 4848
+    },
+    {
+      "word": "automatic",
+      "startMs": 161900,
+      "endMs": 162180,
+      "startFrame": 4857,
+      "endFrame": 4866
+    },
+    {
+      "word": "updates,",
+      "startMs": 162180,
+      "endMs": 162740,
+      "startFrame": 4866,
+      "endFrame": 4882
+    },
+    {
+      "word": "or",
+      "startMs": 162960,
+      "endMs": 163100,
+      "startFrame": 4889,
+      "endFrame": 4893
+    },
+    {
+      "word": "the",
+      "startMs": 163100,
+      "endMs": 163220,
+      "startFrame": 4893,
+      "endFrame": 4897
+    },
+    {
+      "word": "infrastructure",
+      "startMs": 163220,
+      "endMs": 163560,
+      "startFrame": 4897,
+      "endFrame": 4907
+    },
+    {
+      "word": "needed",
+      "startMs": 163560,
+      "endMs": 163980,
+      "startFrame": 4907,
+      "endFrame": 4920
+    },
+    {
+      "word": "to",
+      "startMs": 163980,
+      "endMs": 164180,
+      "startFrame": 4920,
+      "endFrame": 4926
+    },
+    {
+      "word": "run",
+      "startMs": 164180,
+      "endMs": 164360,
+      "startFrame": 4926,
+      "endFrame": 4931
+    },
+    {
+      "word": "it.",
+      "startMs": 164360,
+      "endMs": 164480,
+      "startFrame": 4931,
+      "endFrame": 4935
+    },
+    {
+      "word": "The",
+      "startMs": 164540,
+      "endMs": 164640,
+      "startFrame": 4936,
+      "endFrame": 4939
+    },
+    {
+      "word": "second",
+      "startMs": 164640,
+      "endMs": 164860,
+      "startFrame": 4939,
+      "endFrame": 4946
+    },
+    {
+      "word": "is",
+      "startMs": 164860,
+      "endMs": 165080,
+      "startFrame": 4946,
+      "endFrame": 4953
+    },
+    {
+      "word": "enterprise",
+      "startMs": 165080,
+      "endMs": 165380,
+      "startFrame": 4953,
+      "endFrame": 4962
+    },
+    {
+      "word": "features",
+      "startMs": 165380,
+      "endMs": 165780,
+      "startFrame": 4962,
+      "endFrame": 4974
+    },
+    {
+      "word": "and",
+      "startMs": 165780,
+      "endMs": 166040,
+      "startFrame": 4974,
+      "endFrame": 4981
+    },
+    {
+      "word": "support.",
+      "startMs": 166040,
+      "endMs": 166340,
+      "startFrame": 4981,
+      "endFrame": 4990
+    },
+    {
+      "word": "A",
+      "startMs": 166580,
+      "endMs": 166700,
+      "startFrame": 4998,
+      "endFrame": 5001
+    },
+    {
+      "word": "regular",
+      "startMs": 166700,
+      "endMs": 166900,
+      "startFrame": 5001,
+      "endFrame": 5007
+    },
+    {
+      "word": "user",
+      "startMs": 166900,
+      "endMs": 167240,
+      "startFrame": 5007,
+      "endFrame": 5017
+    },
+    {
+      "word": "might",
+      "startMs": 167240,
+      "endMs": 167500,
+      "startFrame": 5017,
+      "endFrame": 5025
+    },
+    {
+      "word": "be",
+      "startMs": 167500,
+      "endMs": 167660,
+      "startFrame": 5025,
+      "endFrame": 5030
+    },
+    {
+      "word": "happy",
+      "startMs": 167660,
+      "endMs": 167900,
+      "startFrame": 5030,
+      "endFrame": 5037
+    },
+    {
+      "word": "with",
+      "startMs": 167900,
+      "endMs": 168080,
+      "startFrame": 5037,
+      "endFrame": 5043
+    },
+    {
+      "word": "the",
+      "startMs": 168080,
+      "endMs": 168220,
+      "startFrame": 5043,
+      "endFrame": 5047
+    },
+    {
+      "word": "free",
+      "startMs": 168220,
+      "endMs": 168340,
+      "startFrame": 5047,
+      "endFrame": 5050
+    },
+    {
+      "word": "version.",
+      "startMs": 168340,
+      "endMs": 168660,
+      "startFrame": 5050,
+      "endFrame": 5060
+    },
+    {
+      "word": "But",
+      "startMs": 168800,
+      "endMs": 168880,
+      "startFrame": 5064,
+      "endFrame": 5067
+    },
+    {
+      "word": "a",
+      "startMs": 168880,
+      "endMs": 169000,
+      "startFrame": 5067,
+      "endFrame": 5070
+    },
+    {
+      "word": "company",
+      "startMs": 169000,
+      "endMs": 169220,
+      "startFrame": 5070,
+      "endFrame": 5077
+    },
+    {
+      "word": "managing",
+      "startMs": 169220,
+      "endMs": 169660,
+      "startFrame": 5077,
+      "endFrame": 5090
+    },
+    {
+      "word": "thousands",
+      "startMs": 169660,
+      "endMs": 170000,
+      "startFrame": 5090,
+      "endFrame": 5100
+    },
+    {
+      "word": "of",
+      "startMs": 170000,
+      "endMs": 170220,
+      "startFrame": 5100,
+      "endFrame": 5107
+    },
+    {
+      "word": "employees",
+      "startMs": 170220,
+      "endMs": 170660,
+      "startFrame": 5107,
+      "endFrame": 5120
+    },
+    {
+      "word": "may",
+      "startMs": 170660,
+      "endMs": 170920,
+      "startFrame": 5120,
+      "endFrame": 5128
+    },
+    {
+      "word": "need",
+      "startMs": 170920,
+      "endMs": 171120,
+      "startFrame": 5128,
+      "endFrame": 5134
+    },
+    {
+      "word": "advanced",
+      "startMs": 171120,
+      "endMs": 171420,
+      "startFrame": 5134,
+      "endFrame": 5143
+    },
+    {
+      "word": "security,",
+      "startMs": 171420,
+      "endMs": 171960,
+      "startFrame": 5143,
+      "endFrame": 5159
+    },
+    {
+      "word": "access",
+      "startMs": 172320,
+      "endMs": 172580,
+      "startFrame": 5170,
+      "endFrame": 5178
+    },
+    {
+      "word": "controls,",
+      "startMs": 172580,
+      "endMs": 173080,
+      "startFrame": 5178,
+      "endFrame": 5193
+    },
+    {
+      "word": "compliance",
+      "startMs": 173280,
+      "endMs": 173540,
+      "startFrame": 5199,
+      "endFrame": 5206
+    },
+    {
+      "word": "tools,",
+      "startMs": 173540,
+      "endMs": 173900,
+      "startFrame": 5206,
+      "endFrame": 5217
+    },
+    {
+      "word": "and",
+      "startMs": 174060,
+      "endMs": 174120,
+      "startFrame": 5222,
+      "endFrame": 5224
+    },
+    {
+      "word": "someone",
+      "startMs": 174120,
+      "endMs": 174300,
+      "startFrame": 5224,
+      "endFrame": 5229
+    },
+    {
+      "word": "to",
+      "startMs": 174300,
+      "endMs": 174440,
+      "startFrame": 5229,
+      "endFrame": 5233
+    },
+    {
+      "word": "call",
+      "startMs": 174440,
+      "endMs": 174620,
+      "startFrame": 5233,
+      "endFrame": 5239
+    },
+    {
+      "word": "when",
+      "startMs": 174620,
+      "endMs": 174780,
+      "startFrame": 5239,
+      "endFrame": 5244
+    },
+    {
+      "word": "something",
+      "startMs": 174780,
+      "endMs": 175060,
+      "startFrame": 5244,
+      "endFrame": 5252
+    },
+    {
+      "word": "breaks.",
+      "startMs": 175060,
+      "endMs": 175420,
+      "startFrame": 5252,
+      "endFrame": 5263
+    },
+    {
+      "word": "The",
+      "startMs": 175780,
+      "endMs": 175860,
+      "startFrame": 5274,
+      "endFrame": 5276
+    },
+    {
+      "word": "third",
+      "startMs": 175860,
+      "endMs": 176060,
+      "startFrame": 5276,
+      "endFrame": 5282
+    },
+    {
+      "word": "is",
+      "startMs": 176060,
+      "endMs": 176200,
+      "startFrame": 5282,
+      "endFrame": 5286
+    },
+    {
+      "word": "selling",
+      "startMs": 176200,
+      "endMs": 176400,
+      "startFrame": 5286,
+      "endFrame": 5292
+    },
+    {
+      "word": "services.",
+      "startMs": 176400,
+      "endMs": 176860,
+      "startFrame": 5292,
+      "endFrame": 5306
+    },
+    {
+      "word": "Companies",
+      "startMs": 177140,
+      "endMs": 177360,
+      "startFrame": 5314,
+      "endFrame": 5321
+    },
+    {
+      "word": "can",
+      "startMs": 177360,
+      "endMs": 177560,
+      "startFrame": 5321,
+      "endFrame": 5327
+    },
+    {
+      "word": "build",
+      "startMs": 177560,
+      "endMs": 177760,
+      "startFrame": 5327,
+      "endFrame": 5333
+    },
+    {
+      "word": "open-source",
+      "startMs": 177760,
+      "endMs": 177940,
+      "startFrame": 5333,
+      "endFrame": 5338
+    },
+    {
+      "word": "software",
+      "startMs": 178140,
+      "endMs": 178660,
+      "startFrame": 5344,
+      "endFrame": 5360
+    },
+    {
+      "word": "and",
+      "startMs": 178660,
+      "endMs": 178980,
+      "startFrame": 5360,
+      "endFrame": 5370
+    },
+    {
+      "word": "then",
+      "startMs": 178980,
+      "endMs": 179100,
+      "startFrame": 5370,
+      "endFrame": 5373
+    },
+    {
+      "word": "charge",
+      "startMs": 179100,
+      "endMs": 179380,
+      "startFrame": 5373,
+      "endFrame": 5382
+    },
+    {
+      "word": "for",
+      "startMs": 179380,
+      "endMs": 179580,
+      "startFrame": 5382,
+      "endFrame": 5388
+    },
+    {
+      "word": "installation,",
+      "startMs": 179580,
+      "endMs": 180080,
+      "startFrame": 5388,
+      "endFrame": 5403
+    },
+    {
+      "word": "customization,",
+      "startMs": 180360,
+      "endMs": 180680,
+      "startFrame": 5411,
+      "endFrame": 5421
+    },
+    {
+      "word": "consulting,",
+      "startMs": 181400,
+      "endMs": 181640,
+      "startFrame": 5442,
+      "endFrame": 5449
+    },
+    {
+      "word": "and",
+      "startMs": 181860,
+      "endMs": 181920,
+      "startFrame": 5456,
+      "endFrame": 5458
+    },
+    {
+      "word": "maintenance.",
+      "startMs": 181920,
+      "endMs": 182180,
+      "startFrame": 5458,
+      "endFrame": 5466
+    },
+    {
+      "word": "And",
+      "startMs": 182680,
+      "endMs": 182800,
+      "startFrame": 5481,
+      "endFrame": 5484
+    },
+    {
+      "word": "some",
+      "startMs": 182800,
+      "endMs": 183000,
+      "startFrame": 5484,
+      "endFrame": 5490
+    },
+    {
+      "word": "projects",
+      "startMs": 183000,
+      "endMs": 183340,
+      "startFrame": 5490,
+      "endFrame": 5500
+    },
+    {
+      "word": "survive",
+      "startMs": 183340,
+      "endMs": 183880,
+      "startFrame": 5500,
+      "endFrame": 5517
+    },
+    {
+      "word": "through",
+      "startMs": 183880,
+      "endMs": 184180,
+      "startFrame": 5517,
+      "endFrame": 5526
+    },
+    {
+      "word": "sponsorships,",
+      "startMs": 184180,
+      "endMs": 184960,
+      "startFrame": 5526,
+      "endFrame": 5549
+    },
+    {
+      "word": "donations,",
+      "startMs": 185080,
+      "endMs": 185280,
+      "startFrame": 5553,
+      "endFrame": 5559
+    },
+    {
+      "word": "or",
+      "startMs": 185640,
+      "endMs": 185780,
+      "startFrame": 5569,
+      "endFrame": 5574
+    },
+    {
+      "word": "funding",
+      "startMs": 185780,
+      "endMs": 186120,
+      "startFrame": 5574,
+      "endFrame": 5584
+    },
+    {
+      "word": "from",
+      "startMs": 186120,
+      "endMs": 186400,
+      "startFrame": 5584,
+      "endFrame": 5592
+    },
+    {
+      "word": "companies",
+      "startMs": 186400,
+      "endMs": 186780,
+      "startFrame": 5592,
+      "endFrame": 5604
+    },
+    {
+      "word": "that",
+      "startMs": 186780,
+      "endMs": 187000,
+      "startFrame": 5604,
+      "endFrame": 5610
+    },
+    {
+      "word": "depend",
+      "startMs": 187000,
+      "endMs": 187220,
+      "startFrame": 5610,
+      "endFrame": 5617
+    },
+    {
+      "word": "on",
+      "startMs": 187220,
+      "endMs": 187440,
+      "startFrame": 5617,
+      "endFrame": 5623
+    },
+    {
+      "word": "them.",
+      "startMs": 187440,
+      "endMs": 187620,
+      "startFrame": 5623,
+      "endFrame": 5629
+    },
+    {
+      "word": "So",
+      "startMs": 187860,
+      "endMs": 187940,
+      "startFrame": 5636,
+      "endFrame": 5638
+    },
+    {
+      "word": "the",
+      "startMs": 187940,
+      "endMs": 188040,
+      "startFrame": 5638,
+      "endFrame": 5641
+    },
+    {
+      "word": "software",
+      "startMs": 188040,
+      "endMs": 188360,
+      "startFrame": 5641,
+      "endFrame": 5651
+    },
+    {
+      "word": "can",
+      "startMs": 188360,
+      "endMs": 188580,
+      "startFrame": 5651,
+      "endFrame": 5658
+    },
+    {
+      "word": "be",
+      "startMs": 188580,
+      "endMs": 188720,
+      "startFrame": 5658,
+      "endFrame": 5662
+    },
+    {
+      "word": "free",
+      "startMs": 188720,
+      "endMs": 189040,
+      "startFrame": 5662,
+      "endFrame": 5671
+    },
+    {
+      "word": "while",
+      "startMs": 189040,
+      "endMs": 189280,
+      "startFrame": 5671,
+      "endFrame": 5679
+    },
+    {
+      "word": "the",
+      "startMs": 189280,
+      "endMs": 189400,
+      "startFrame": 5679,
+      "endFrame": 5682
+    },
+    {
+      "word": "business",
+      "startMs": 189400,
+      "endMs": 189640,
+      "startFrame": 5682,
+      "endFrame": 5689
+    },
+    {
+      "word": "around",
+      "startMs": 189640,
+      "endMs": 189960,
+      "startFrame": 5689,
+      "endFrame": 5699
+    },
+    {
+      "word": "it",
+      "startMs": 189960,
+      "endMs": 190180,
+      "startFrame": 5699,
+      "endFrame": 5706
+    },
+    {
+      "word": "still",
+      "startMs": 190180,
+      "endMs": 190460,
+      "startFrame": 5706,
+      "endFrame": 5714
+    },
+    {
+      "word": "makes",
+      "startMs": 190460,
+      "endMs": 190680,
+      "startFrame": 5714,
+      "endFrame": 5721
+    },
+    {
+      "word": "money.",
+      "startMs": 190680,
+      "endMs": 191000,
+      "startFrame": 5721,
+      "endFrame": 5730
+    },
+    {
+      "word": "But",
+      "startMs": 191240,
+      "endMs": 191380,
+      "startFrame": 5737,
+      "endFrame": 5742
+    },
+    {
+      "word": "here's",
+      "startMs": 191380,
+      "endMs": 191700,
+      "startFrame": 5742,
+      "endFrame": 5751
+    },
+    {
+      "word": "where",
+      "startMs": 191700,
+      "endMs": 191820,
+      "startFrame": 5751,
+      "endFrame": 5755
+    },
+    {
+      "word": "things",
+      "startMs": 191820,
+      "endMs": 192060,
+      "startFrame": 5755,
+      "endFrame": 5762
+    },
+    {
+      "word": "could",
+      "startMs": 192060,
+      "endMs": 192240,
+      "startFrame": 5762,
+      "endFrame": 5767
+    },
+    {
+      "word": "get",
+      "startMs": 192240,
+      "endMs": 192380,
+      "startFrame": 5767,
+      "endFrame": 5772
+    },
+    {
+      "word": "interesting.",
+      "startMs": 192380,
+      "endMs": 192760,
+      "startFrame": 5772,
+      "endFrame": 5783
+    },
+    {
+      "word": "If",
+      "startMs": 193060,
+      "endMs": 193200,
+      "startFrame": 5792,
+      "endFrame": 5796
+    },
+    {
+      "word": "AI",
+      "startMs": 193200,
+      "endMs": 193400,
+      "startFrame": 5796,
+      "endFrame": 5802
+    },
+    {
+      "word": "keeps",
+      "startMs": 193400,
+      "endMs": 193680,
+      "startFrame": 5802,
+      "endFrame": 5811
+    },
+    {
+      "word": "making",
+      "startMs": 193680,
+      "endMs": 193920,
+      "startFrame": 5811,
+      "endFrame": 5818
+    },
+    {
+      "word": "software",
+      "startMs": 193920,
+      "endMs": 194360,
+      "startFrame": 5818,
+      "endFrame": 5831
+    },
+    {
+      "word": "cheaper",
+      "startMs": 194360,
+      "endMs": 194660,
+      "startFrame": 5831,
+      "endFrame": 5840
+    },
+    {
+      "word": "and",
+      "startMs": 194660,
+      "endMs": 194940,
+      "startFrame": 5840,
+      "endFrame": 5848
+    },
+    {
+      "word": "easier",
+      "startMs": 194940,
+      "endMs": 195200,
+      "startFrame": 5848,
+      "endFrame": 5856
+    },
+    {
+      "word": "to",
+      "startMs": 195200,
+      "endMs": 195400,
+      "startFrame": 5856,
+      "endFrame": 5862
+    },
+    {
+      "word": "build,",
+      "startMs": 195400,
+      "endMs": 195680,
+      "startFrame": 5862,
+      "endFrame": 5871
+    },
+    {
+      "word": "I",
+      "startMs": 195820,
+      "endMs": 195960,
+      "startFrame": 5875,
+      "endFrame": 5879
+    },
+    {
+      "word": "think",
+      "startMs": 195960,
+      "endMs": 196120,
+      "startFrame": 5879,
+      "endFrame": 5884
+    },
+    {
+      "word": "we'll",
+      "startMs": 196120,
+      "endMs": 196360,
+      "startFrame": 5884,
+      "endFrame": 5891
+    },
+    {
+      "word": "see",
+      "startMs": 196360,
+      "endMs": 196540,
+      "startFrame": 5891,
+      "endFrame": 5896
+    },
+    {
+      "word": "more",
+      "startMs": 196540,
+      "endMs": 196760,
+      "startFrame": 5896,
+      "endFrame": 5903
+    },
+    {
+      "word": "pressure",
+      "startMs": 196760,
+      "endMs": 197100,
+      "startFrame": 5903,
+      "endFrame": 5913
+    },
+    {
+      "word": "on",
+      "startMs": 197100,
+      "endMs": 197280,
+      "startFrame": 5913,
+      "endFrame": 5919
+    },
+    {
+      "word": "traditional",
+      "startMs": 197280,
+      "endMs": 197580,
+      "startFrame": 5919,
+      "endFrame": 5928
+    },
+    {
+      "word": "software",
+      "startMs": 197580,
+      "endMs": 198080,
+      "startFrame": 5928,
+      "endFrame": 5943
+    },
+    {
+      "word": "companies.",
+      "startMs": 198080,
+      "endMs": 198600,
+      "startFrame": 5943,
+      "endFrame": 5958
+    },
+    {
+      "word": "Instead",
+      "startMs": 198600,
+      "endMs": 199100,
+      "startFrame": 5958,
+      "endFrame": 5973
+    },
+    {
+      "word": "of",
+      "startMs": 199100,
+      "endMs": 199280,
+      "startFrame": 5973,
+      "endFrame": 5979
+    },
+    {
+      "word": "paying",
+      "startMs": 199280,
+      "endMs": 199440,
+      "startFrame": 5979,
+      "endFrame": 5983
+    },
+    {
+      "word": "for",
+      "startMs": 199440,
+      "endMs": 199620,
+      "startFrame": 5983,
+      "endFrame": 5989
+    },
+    {
+      "word": "dozens",
+      "startMs": 199620,
+      "endMs": 199880,
+      "startFrame": 5989,
+      "endFrame": 5997
+    },
+    {
+      "word": "of",
+      "startMs": 199880,
+      "endMs": 200140,
+      "startFrame": 5997,
+      "endFrame": 6004
+    },
+    {
+      "word": "separate",
+      "startMs": 200140,
+      "endMs": 200400,
+      "startFrame": 6004,
+      "endFrame": 6012
+    },
+    {
+      "word": "applications,",
+      "startMs": 200400,
+      "endMs": 200980,
+      "startFrame": 6012,
+      "endFrame": 6030
+    },
+    {
+      "word": "people",
+      "startMs": 201240,
+      "endMs": 201420,
+      "startFrame": 6037,
+      "endFrame": 6043
+    },
+    {
+      "word": "may",
+      "startMs": 201420,
+      "endMs": 201620,
+      "startFrame": 6043,
+      "endFrame": 6049
+    },
+    {
+      "word": "increasingly",
+      "startMs": 201620,
+      "endMs": 202080,
+      "startFrame": 6049,
+      "endFrame": 6063
+    },
+    {
+      "word": "build",
+      "startMs": 202080,
+      "endMs": 202580,
+      "startFrame": 6063,
+      "endFrame": 6078
+    },
+    {
+      "word": "small",
+      "startMs": 202580,
+      "endMs": 202940,
+      "startFrame": 6078,
+      "endFrame": 6088
+    },
+    {
+      "word": "tools",
+      "startMs": 202940,
+      "endMs": 203400,
+      "startFrame": 6088,
+      "endFrame": 6102
+    },
+    {
+      "word": "that",
+      "startMs": 203400,
+      "endMs": 203640,
+      "startFrame": 6102,
+      "endFrame": 6109
+    },
+    {
+      "word": "do",
+      "startMs": 203640,
+      "endMs": 203820,
+      "startFrame": 6109,
+      "endFrame": 6115
+    },
+    {
+      "word": "exactly",
+      "startMs": 203820,
+      "endMs": 204240,
+      "startFrame": 6115,
+      "endFrame": 6127
+    },
+    {
+      "word": "what",
+      "startMs": 204240,
+      "endMs": 204480,
+      "startFrame": 6127,
+      "endFrame": 6135
+    },
+    {
+      "word": "they",
+      "startMs": 204480,
+      "endMs": 204640,
+      "startFrame": 6135,
+      "endFrame": 6139
+    },
+    {
+      "word": "need.",
+      "startMs": 204640,
+      "endMs": 204880,
+      "startFrame": 6139,
+      "endFrame": 6147
+    },
+    {
+      "word": "And",
+      "startMs": 204960,
+      "endMs": 205040,
+      "startFrame": 6149,
+      "endFrame": 6151
+    },
+    {
+      "word": "companies",
+      "startMs": 205040,
+      "endMs": 205280,
+      "startFrame": 6151,
+      "endFrame": 6159
+    },
+    {
+      "word": "will",
+      "startMs": 205280,
+      "endMs": 205460,
+      "startFrame": 6159,
+      "endFrame": 6164
+    },
+    {
+      "word": "have",
+      "startMs": 205460,
+      "endMs": 205620,
+      "startFrame": 6164,
+      "endFrame": 6169
+    },
+    {
+      "word": "to",
+      "startMs": 205620,
+      "endMs": 205740,
+      "startFrame": 6169,
+      "endFrame": 6172
+    },
+    {
+      "word": "compete",
+      "startMs": 205740,
+      "endMs": 206060,
+      "startFrame": 6172,
+      "endFrame": 6182
+    },
+    {
+      "word": "on",
+      "startMs": 206060,
+      "endMs": 206280,
+      "startFrame": 6182,
+      "endFrame": 6189
+    },
+    {
+      "word": "more",
+      "startMs": 206280,
+      "endMs": 206500,
+      "startFrame": 6189,
+      "endFrame": 6195
+    },
+    {
+      "word": "than",
+      "startMs": 206500,
+      "endMs": 206660,
+      "startFrame": 6195,
+      "endFrame": 6200
+    },
+    {
+      "word": "just",
+      "startMs": 206660,
+      "endMs": 206840,
+      "startFrame": 6200,
+      "endFrame": 6205
+    },
+    {
+      "word": "access",
+      "startMs": 206840,
+      "endMs": 207180,
+      "startFrame": 6205,
+      "endFrame": 6216
+    },
+    {
+      "word": "to",
+      "startMs": 207180,
+      "endMs": 207440,
+      "startFrame": 6216,
+      "endFrame": 6223
+    },
+    {
+      "word": "features.",
+      "startMs": 207440,
+      "endMs": 207720,
+      "startFrame": 6223,
+      "endFrame": 6232
+    },
+    {
+      "word": "But",
+      "startMs": 208040,
+      "endMs": 208140,
+      "startFrame": 6241,
+      "endFrame": 6244
+    },
+    {
+      "word": "I",
+      "startMs": 208140,
+      "endMs": 208220,
+      "startFrame": 6244,
+      "endFrame": 6247
+    },
+    {
+      "word": "wouldn't",
+      "startMs": 208220,
+      "endMs": 208360,
+      "startFrame": 6247,
+      "endFrame": 6251
+    },
+    {
+      "word": "expect",
+      "startMs": 208360,
+      "endMs": 208580,
+      "startFrame": 6251,
+      "endFrame": 6258
+    },
+    {
+      "word": "paid",
+      "startMs": 208580,
+      "endMs": 208860,
+      "startFrame": 6258,
+      "endFrame": 6266
+    },
+    {
+      "word": "software",
+      "startMs": 208860,
+      "endMs": 209260,
+      "startFrame": 6266,
+      "endFrame": 6278
+    },
+    {
+      "word": "to",
+      "startMs": 209260,
+      "endMs": 209580,
+      "startFrame": 6278,
+      "endFrame": 6288
+    },
+    {
+      "word": "disappear",
+      "startMs": 209580,
+      "endMs": 209860,
+      "startFrame": 6288,
+      "endFrame": 6296
+    },
+    {
+      "word": "completely.",
+      "startMs": 209860,
+      "endMs": 210340,
+      "startFrame": 6296,
+      "endFrame": 6310
+    },
+    {
+      "word": "Professional",
+      "startMs": 210620,
+      "endMs": 210820,
+      "startFrame": 6319,
+      "endFrame": 6325
+    },
+    {
+      "word": "support,",
+      "startMs": 210820,
+      "endMs": 211200,
+      "startFrame": 6325,
+      "endFrame": 6336
+    },
+    {
+      "word": "reliability,",
+      "startMs": 211600,
+      "endMs": 211900,
+      "startFrame": 6348,
+      "endFrame": 6357
+    },
+    {
+      "word": "collaboration,",
+      "startMs": 212440,
+      "endMs": 212860,
+      "startFrame": 6373,
+      "endFrame": 6386
+    },
+    {
+      "word": "and",
+      "startMs": 213380,
+      "endMs": 213560,
+      "startFrame": 6402,
+      "endFrame": 6407
+    },
+    {
+      "word": "specialized",
+      "startMs": 213560,
+      "endMs": 213960,
+      "startFrame": 6407,
+      "endFrame": 6419
+    },
+    {
+      "word": "features",
+      "startMs": 213960,
+      "endMs": 214420,
+      "startFrame": 6419,
+      "endFrame": 6433
+    },
+    {
+      "word": "still",
+      "startMs": 214420,
+      "endMs": 214780,
+      "startFrame": 6433,
+      "endFrame": 6444
+    },
+    {
+      "word": "have",
+      "startMs": 214780,
+      "endMs": 214980,
+      "startFrame": 6444,
+      "endFrame": 6450
+    },
+    {
+      "word": "value.",
+      "startMs": 214980,
+      "endMs": 215360,
+      "startFrame": 6450,
+      "endFrame": 6461
+    },
+    {
+      "word": "And",
+      "startMs": 215520,
+      "endMs": 215620,
+      "startFrame": 6466,
+      "endFrame": 6469
+    },
+    {
+      "word": "open",
+      "startMs": 215620,
+      "endMs": 215820,
+      "startFrame": 6469,
+      "endFrame": 6475
+    },
+    {
+      "word": "source",
+      "startMs": 215820,
+      "endMs": 216080,
+      "startFrame": 6475,
+      "endFrame": 6483
+    },
+    {
+      "word": "doesn't",
+      "startMs": 216080,
+      "endMs": 216440,
+      "startFrame": 6483,
+      "endFrame": 6493
+    },
+    {
+      "word": "automatically",
+      "startMs": 216440,
+      "endMs": 216880,
+      "startFrame": 6493,
+      "endFrame": 6507
+    },
+    {
+      "word": "mean",
+      "startMs": 216880,
+      "endMs": 217200,
+      "startFrame": 6507,
+      "endFrame": 6516
+    },
+    {
+      "word": "better",
+      "startMs": 217200,
+      "endMs": 217400,
+      "startFrame": 6516,
+      "endFrame": 6522
+    },
+    {
+      "word": "security",
+      "startMs": 217400,
+      "endMs": 217840,
+      "startFrame": 6522,
+      "endFrame": 6535
+    },
+    {
+      "word": "or",
+      "startMs": 217840,
+      "endMs": 218220,
+      "startFrame": 6535,
+      "endFrame": 6547
+    },
+    {
+      "word": "a",
+      "startMs": 218220,
+      "endMs": 218440,
+      "startFrame": 6547,
+      "endFrame": 6553
+    },
+    {
+      "word": "better",
+      "startMs": 218440,
+      "endMs": 218600,
+      "startFrame": 6553,
+      "endFrame": 6558
+    },
+    {
+      "word": "product.",
+      "startMs": 218600,
+      "endMs": 219000,
+      "startFrame": 6558,
+      "endFrame": 6570
+    },
+    {
+      "word": "There's",
+      "startMs": 219140,
+      "endMs": 219300,
+      "startFrame": 6574,
+      "endFrame": 6579
+    },
+    {
+      "word": "also",
+      "startMs": 219300,
+      "endMs": 219460,
+      "startFrame": 6579,
+      "endFrame": 6584
+    },
+    {
+      "word": "a",
+      "startMs": 219460,
+      "endMs": 219580,
+      "startFrame": 6584,
+      "endFrame": 6588
+    },
+    {
+      "word": "difference",
+      "startMs": 219580,
+      "endMs": 219800,
+      "startFrame": 6588,
+      "endFrame": 6594
+    },
+    {
+      "word": "between",
+      "startMs": 219800,
+      "endMs": 220080,
+      "startFrame": 6594,
+      "endFrame": 6603
+    },
+    {
+      "word": "open-source",
+      "startMs": 220080,
+      "endMs": 220300,
+      "startFrame": 6603,
+      "endFrame": 6609
+    },
+    {
+      "word": "software",
+      "startMs": 220520,
+      "endMs": 221000,
+      "startFrame": 6616,
+      "endFrame": 6630
+    },
+    {
+      "word": "and",
+      "startMs": 221000,
+      "endMs": 221200,
+      "startFrame": 6630,
+      "endFrame": 6636
+    },
+    {
+      "word": "AI",
+      "startMs": 221200,
+      "endMs": 221420,
+      "startFrame": 6636,
+      "endFrame": 6643
+    },
+    {
+      "word": "models",
+      "startMs": 221420,
+      "endMs": 221800,
+      "startFrame": 6643,
+      "endFrame": 6654
+    },
+    {
+      "word": "that",
+      "startMs": 221800,
+      "endMs": 222180,
+      "startFrame": 6654,
+      "endFrame": 6666
+    },
+    {
+      "word": "merely",
+      "startMs": 222180,
+      "endMs": 222440,
+      "startFrame": 6666,
+      "endFrame": 6673
+    },
+    {
+      "word": "let",
+      "startMs": 222440,
+      "endMs": 222720,
+      "startFrame": 6673,
+      "endFrame": 6682
+    },
+    {
+      "word": "you",
+      "startMs": 222720,
+      "endMs": 222860,
+      "startFrame": 6682,
+      "endFrame": 6686
+    },
+    {
+      "word": "download",
+      "startMs": 222860,
+      "endMs": 223140,
+      "startFrame": 6686,
+      "endFrame": 6694
+    },
+    {
+      "word": "their",
+      "startMs": 223140,
+      "endMs": 223340,
+      "startFrame": 6694,
+      "endFrame": 6700
+    },
+    {
+      "word": "weights.",
+      "startMs": 223340,
+      "endMs": 223640,
+      "startFrame": 6700,
+      "endFrame": 6709
+    },
+    {
+      "word": "The",
+      "startMs": 223840,
+      "endMs": 223960,
+      "startFrame": 6715,
+      "endFrame": 6719
+    },
+    {
+      "word": "license",
+      "startMs": 223960,
+      "endMs": 224220,
+      "startFrame": 6719,
+      "endFrame": 6727
+    },
+    {
+      "word": "and",
+      "startMs": 224480,
+      "endMs": 224500,
+      "startFrame": 6735,
+      "endFrame": 6735
+    },
+    {
+      "word": "what's",
+      "startMs": 224500,
+      "endMs": 224720,
+      "startFrame": 6735,
+      "endFrame": 6742
+    },
+    {
+      "word": "actually",
+      "startMs": 224720,
+      "endMs": 224980,
+      "startFrame": 6742,
+      "endFrame": 6750
+    },
+    {
+      "word": "available",
+      "startMs": 224980,
+      "endMs": 225340,
+      "startFrame": 6750,
+      "endFrame": 6760
+    },
+    {
+      "word": "still",
+      "startMs": 225340,
+      "endMs": 225680,
+      "startFrame": 6760,
+      "endFrame": 6771
+    },
+    {
+      "word": "matter.",
+      "startMs": 225680,
+      "endMs": 225980,
+      "startFrame": 6771,
+      "endFrame": 6780
+    },
+    {
+      "word": "The",
+      "startMs": 226140,
+      "endMs": 226220,
+      "startFrame": 6784,
+      "endFrame": 6787
+    },
+    {
+      "word": "bigger",
+      "startMs": 226220,
+      "endMs": 226400,
+      "startFrame": 6787,
+      "endFrame": 6792
+    },
+    {
+      "word": "change",
+      "startMs": 226400,
+      "endMs": 226720,
+      "startFrame": 6792,
+      "endFrame": 6802
+    },
+    {
+      "word": "is",
+      "startMs": 226720,
+      "endMs": 226900,
+      "startFrame": 6802,
+      "endFrame": 6807
+    },
+    {
+      "word": "where",
+      "startMs": 226900,
+      "endMs": 227020,
+      "startFrame": 6807,
+      "endFrame": 6811
+    },
+    {
+      "word": "the",
+      "startMs": 227020,
+      "endMs": 227140,
+      "startFrame": 6811,
+      "endFrame": 6814
+    },
+    {
+      "word": "money",
+      "startMs": 227140,
+      "endMs": 227300,
+      "startFrame": 6814,
+      "endFrame": 6819
+    },
+    {
+      "word": "goes.",
+      "startMs": 227300,
+      "endMs": 227580,
+      "startFrame": 6819,
+      "endFrame": 6828
+    },
+    {
+      "word": "If",
+      "startMs": 227580,
+      "endMs": 227940,
+      "startFrame": 6828,
+      "endFrame": 6838
+    },
+    {
+      "word": "software",
+      "startMs": 227940,
+      "endMs": 228260,
+      "startFrame": 6838,
+      "endFrame": 6848
+    },
+    {
+      "word": "becomes",
+      "startMs": 228260,
+      "endMs": 228560,
+      "startFrame": 6848,
+      "endFrame": 6857
+    },
+    {
+      "word": "easier",
+      "startMs": 228560,
+      "endMs": 228940,
+      "startFrame": 6857,
+      "endFrame": 6868
+    },
+    {
+      "word": "to",
+      "startMs": 228940,
+      "endMs": 229120,
+      "startFrame": 6868,
+      "endFrame": 6874
+    },
+    {
+      "word": "reproduce,",
+      "startMs": 229120,
+      "endMs": 229480,
+      "startFrame": 6874,
+      "endFrame": 6885
+    },
+    {
+      "word": "the",
+      "startMs": 229920,
+      "endMs": 229980,
+      "startFrame": 6898,
+      "endFrame": 6900
+    },
+    {
+      "word": "advantage",
+      "startMs": 229980,
+      "endMs": 230280,
+      "startFrame": 6900,
+      "endFrame": 6909
+    },
+    {
+      "word": "may",
+      "startMs": 230280,
+      "endMs": 230480,
+      "startFrame": 6909,
+      "endFrame": 6915
+    },
+    {
+      "word": "shift",
+      "startMs": 230480,
+      "endMs": 230740,
+      "startFrame": 6915,
+      "endFrame": 6922
+    },
+    {
+      "word": "toward",
+      "startMs": 230740,
+      "endMs": 230960,
+      "startFrame": 6922,
+      "endFrame": 6929
+    },
+    {
+      "word": "the",
+      "startMs": 230960,
+      "endMs": 231120,
+      "startFrame": 6929,
+      "endFrame": 6934
+    },
+    {
+      "word": "hardware,",
+      "startMs": 231120,
+      "endMs": 231420,
+      "startFrame": 6934,
+      "endFrame": 6943
+    },
+    {
+      "word": "computing",
+      "startMs": 231700,
+      "endMs": 231940,
+      "startFrame": 6951,
+      "endFrame": 6958
+    },
+    {
+      "word": "power,",
+      "startMs": 231940,
+      "endMs": 232360,
+      "startFrame": 6958,
+      "endFrame": 6971
+    },
+    {
+      "word": "and",
+      "startMs": 232540,
+      "endMs": 232580,
+      "startFrame": 6976,
+      "endFrame": 6978
+    },
+    {
+      "word": "services",
+      "startMs": 232580,
+      "endMs": 232900,
+      "startFrame": 6978,
+      "endFrame": 6987
+    },
+    {
+      "word": "needed",
+      "startMs": 232900,
+      "endMs": 233280,
+      "startFrame": 6987,
+      "endFrame": 6999
+    },
+    {
+      "word": "to",
+      "startMs": 233280,
+      "endMs": 233500,
+      "startFrame": 6999,
+      "endFrame": 7005
+    },
+    {
+      "word": "run",
+      "startMs": 233500,
+      "endMs": 233660,
+      "startFrame": 7005,
+      "endFrame": 7010
+    },
+    {
+      "word": "it.",
+      "startMs": 233660,
+      "endMs": 233780,
+      "startFrame": 7010,
+      "endFrame": 7014
+    },
+    {
+      "word": "Companies",
+      "startMs": 233960,
+      "endMs": 234220,
+      "startFrame": 7019,
+      "endFrame": 7027
+    },
+    {
+      "word": "could",
+      "startMs": 234220,
+      "endMs": 234440,
+      "startFrame": 7027,
+      "endFrame": 7033
+    },
+    {
+      "word": "find",
+      "startMs": 234440,
+      "endMs": 234660,
+      "startFrame": 7033,
+      "endFrame": 7040
+    },
+    {
+      "word": "more",
+      "startMs": 234660,
+      "endMs": 234880,
+      "startFrame": 7040,
+      "endFrame": 7047
+    },
+    {
+      "word": "value",
+      "startMs": 234880,
+      "endMs": 235260,
+      "startFrame": 7047,
+      "endFrame": 7058
+    },
+    {
+      "word": "in",
+      "startMs": 235260,
+      "endMs": 235420,
+      "startFrame": 7058,
+      "endFrame": 7063
+    },
+    {
+      "word": "selling",
+      "startMs": 235420,
+      "endMs": 235660,
+      "startFrame": 7063,
+      "endFrame": 7070
+    },
+    {
+      "word": "cloud",
+      "startMs": 235660,
+      "endMs": 236000,
+      "startFrame": 7070,
+      "endFrame": 7080
+    },
+    {
+      "word": "computing,",
+      "startMs": 236000,
+      "endMs": 236360,
+      "startFrame": 7080,
+      "endFrame": 7091
+    },
+    {
+      "word": "specialized",
+      "startMs": 236700,
+      "endMs": 237020,
+      "startFrame": 7101,
+      "endFrame": 7111
+    },
+    {
+      "word": "chips,",
+      "startMs": 237020,
+      "endMs": 237520,
+      "startFrame": 7111,
+      "endFrame": 7126
+    },
+    {
+      "word": "and",
+      "startMs": 237760,
+      "endMs": 237860,
+      "startFrame": 7133,
+      "endFrame": 7136
+    },
+    {
+      "word": "devices",
+      "startMs": 237860,
+      "endMs": 238260,
+      "startFrame": 7136,
+      "endFrame": 7148
+    },
+    {
+      "word": "than",
+      "startMs": 238260,
+      "endMs": 238580,
+      "startFrame": 7148,
+      "endFrame": 7158
+    },
+    {
+      "word": "in",
+      "startMs": 238580,
+      "endMs": 238720,
+      "startFrame": 7158,
+      "endFrame": 7162
+    },
+    {
+      "word": "charging",
+      "startMs": 238720,
+      "endMs": 238940,
+      "startFrame": 7162,
+      "endFrame": 7168
+    },
+    {
+      "word": "for",
+      "startMs": 238940,
+      "endMs": 239180,
+      "startFrame": 7168,
+      "endFrame": 7176
+    },
+    {
+      "word": "basic",
+      "startMs": 239180,
+      "endMs": 239460,
+      "startFrame": 7176,
+      "endFrame": 7184
+    },
+    {
+      "word": "software",
+      "startMs": 239460,
+      "endMs": 239920,
+      "startFrame": 7184,
+      "endFrame": 7198
+    },
+    {
+      "word": "features.",
+      "startMs": 239920,
+      "endMs": 240240,
+      "startFrame": 7198,
+      "endFrame": 7207
+    },
+    {
+      "word": "That",
+      "startMs": 240480,
+      "endMs": 240560,
+      "startFrame": 7215,
+      "endFrame": 7217
+    },
+    {
+      "word": "doesn't",
+      "startMs": 240560,
+      "endMs": 240740,
+      "startFrame": 7217,
+      "endFrame": 7222
+    },
+    {
+      "word": "mean",
+      "startMs": 240740,
+      "endMs": 240900,
+      "startFrame": 7222,
+      "endFrame": 7227
+    },
+    {
+      "word": "hardware",
+      "startMs": 240900,
+      "endMs": 241200,
+      "startFrame": 7227,
+      "endFrame": 7236
+    },
+    {
+      "word": "prices",
+      "startMs": 241200,
+      "endMs": 241600,
+      "startFrame": 7236,
+      "endFrame": 7248
+    },
+    {
+      "word": "will",
+      "startMs": 241600,
+      "endMs": 241820,
+      "startFrame": 7248,
+      "endFrame": 7255
+    },
+    {
+      "word": "automatically",
+      "startMs": 241820,
+      "endMs": 242300,
+      "startFrame": 7255,
+      "endFrame": 7269
+    },
+    {
+      "word": "rise,",
+      "startMs": 242300,
+      "endMs": 242720,
+      "startFrame": 7269,
+      "endFrame": 7282
+    },
+    {
+      "word": "or",
+      "startMs": 242920,
+      "endMs": 243080,
+      "startFrame": 7288,
+      "endFrame": 7293
+    },
+    {
+      "word": "that",
+      "startMs": 243080,
+      "endMs": 243220,
+      "startFrame": 7293,
+      "endFrame": 7297
+    },
+    {
+      "word": "every",
+      "startMs": 243220,
+      "endMs": 243400,
+      "startFrame": 7297,
+      "endFrame": 7302
+    },
+    {
+      "word": "company",
+      "startMs": 243400,
+      "endMs": 243700,
+      "startFrame": 7302,
+      "endFrame": 7311
+    },
+    {
+      "word": "will",
+      "startMs": 243700,
+      "endMs": 243980,
+      "startFrame": 7311,
+      "endFrame": 7320
+    },
+    {
+      "word": "abandon",
+      "startMs": 243980,
+      "endMs": 244360,
+      "startFrame": 7320,
+      "endFrame": 7331
+    },
+    {
+      "word": "subscriptions.",
+      "startMs": 244360,
+      "endMs": 244980,
+      "startFrame": 7331,
+      "endFrame": 7350
+    },
+    {
+      "word": "But",
+      "startMs": 245360,
+      "endMs": 245520,
+      "startFrame": 7361,
+      "endFrame": 7366
+    },
+    {
+      "word": "it",
+      "startMs": 245520,
+      "endMs": 245620,
+      "startFrame": 7366,
+      "endFrame": 7369
+    },
+    {
+      "word": "does",
+      "startMs": 245620,
+      "endMs": 245780,
+      "startFrame": 7369,
+      "endFrame": 7374
+    },
+    {
+      "word": "mean",
+      "startMs": 245780,
+      "endMs": 245920,
+      "startFrame": 7374,
+      "endFrame": 7378
+    },
+    {
+      "word": "the",
+      "startMs": 245920,
+      "endMs": 246040,
+      "startFrame": 7378,
+      "endFrame": 7381
+    },
+    {
+      "word": "old",
+      "startMs": 246040,
+      "endMs": 246180,
+      "startFrame": 7381,
+      "endFrame": 7386
+    },
+    {
+      "word": "model",
+      "startMs": 246180,
+      "endMs": 246480,
+      "startFrame": 7386,
+      "endFrame": 7395
+    },
+    {
+      "word": "becomes",
+      "startMs": 246480,
+      "endMs": 246800,
+      "startFrame": 7395,
+      "endFrame": 7404
+    },
+    {
+      "word": "harder",
+      "startMs": 246800,
+      "endMs": 247080,
+      "startFrame": 7404,
+      "endFrame": 7413
+    },
+    {
+      "word": "to",
+      "startMs": 247080,
+      "endMs": 247280,
+      "startFrame": 7413,
+      "endFrame": 7419
+    },
+    {
+      "word": "defend",
+      "startMs": 247280,
+      "endMs": 247680,
+      "startFrame": 7419,
+      "endFrame": 7431
+    },
+    {
+      "word": "when",
+      "startMs": 247680,
+      "endMs": 247940,
+      "startFrame": 7431,
+      "endFrame": 7438
+    },
+    {
+      "word": "free",
+      "startMs": 247940,
+      "endMs": 248180,
+      "startFrame": 7438,
+      "endFrame": 7446
+    },
+    {
+      "word": "alternatives",
+      "startMs": 248180,
+      "endMs": 248560,
+      "startFrame": 7446,
+      "endFrame": 7457
+    },
+    {
+      "word": "keep",
+      "startMs": 248560,
+      "endMs": 248880,
+      "startFrame": 7457,
+      "endFrame": 7467
+    },
+    {
+      "word": "improving.",
+      "startMs": 248880,
+      "endMs": 249300,
+      "startFrame": 7467,
+      "endFrame": 7479
+    },
+    {
+      "word": "So,",
+      "startMs": 249500,
+      "endMs": 249760,
+      "startFrame": 7485,
+      "endFrame": 7493
+    },
+    {
+      "word": "I",
+      "startMs": 249760,
+      "endMs": 250160,
+      "startFrame": 7493,
+      "endFrame": 7505
+    },
+    {
+      "word": "don't",
+      "startMs": 250160,
+      "endMs": 250300,
+      "startFrame": 7505,
+      "endFrame": 7509
+    },
+    {
+      "word": "think",
+      "startMs": 250300,
+      "endMs": 250440,
+      "startFrame": 7509,
+      "endFrame": 7513
+    },
+    {
+      "word": "every",
+      "startMs": 250440,
+      "endMs": 250640,
+      "startFrame": 7513,
+      "endFrame": 7519
+    },
+    {
+      "word": "paid",
+      "startMs": 250640,
+      "endMs": 250880,
+      "startFrame": 7519,
+      "endFrame": 7527
+    },
+    {
+      "word": "application",
+      "startMs": 250880,
+      "endMs": 251260,
+      "startFrame": 7527,
+      "endFrame": 7538
+    },
+    {
+      "word": "is",
+      "startMs": 251260,
+      "endMs": 251480,
+      "startFrame": 7538,
+      "endFrame": 7545
+    },
+    {
+      "word": "going",
+      "startMs": 251480,
+      "endMs": 251640,
+      "startFrame": 7545,
+      "endFrame": 7549
+    },
+    {
+      "word": "away.",
+      "startMs": 251640,
+      "endMs": 251980,
+      "startFrame": 7549,
+      "endFrame": 7560
+    },
+    {
+      "word": "But",
+      "startMs": 252120,
+      "endMs": 252220,
+      "startFrame": 7564,
+      "endFrame": 7567
+    },
+    {
+      "word": "I",
+      "startMs": 252220,
+      "endMs": 252300,
+      "startFrame": 7567,
+      "endFrame": 7569
+    },
+    {
+      "word": "do",
+      "startMs": 252300,
+      "endMs": 252400,
+      "startFrame": 7569,
+      "endFrame": 7572
+    },
+    {
+      "word": "think",
+      "startMs": 252400,
+      "endMs": 252600,
+      "startFrame": 7572,
+      "endFrame": 7578
+    },
+    {
+      "word": "we're",
+      "startMs": 252600,
+      "endMs": 252740,
+      "startFrame": 7578,
+      "endFrame": 7582
+    },
+    {
+      "word": "moving",
+      "startMs": 252740,
+      "endMs": 252940,
+      "startFrame": 7582,
+      "endFrame": 7588
+    },
+    {
+      "word": "toward",
+      "startMs": 252940,
+      "endMs": 253180,
+      "startFrame": 7588,
+      "endFrame": 7596
+    },
+    {
+      "word": "a",
+      "startMs": 253180,
+      "endMs": 253300,
+      "startFrame": 7596,
+      "endFrame": 7599
+    },
+    {
+      "word": "world",
+      "startMs": 253300,
+      "endMs": 253540,
+      "startFrame": 7599,
+      "endFrame": 7606
+    },
+    {
+      "word": "where",
+      "startMs": 253540,
+      "endMs": 253720,
+      "startFrame": 7606,
+      "endFrame": 7612
+    },
+    {
+      "word": "paying",
+      "startMs": 253720,
+      "endMs": 253940,
+      "startFrame": 7612,
+      "endFrame": 7618
+    },
+    {
+      "word": "for",
+      "startMs": 253940,
+      "endMs": 254120,
+      "startFrame": 7618,
+      "endFrame": 7624
+    },
+    {
+      "word": "software",
+      "startMs": 254120,
+      "endMs": 254440,
+      "startFrame": 7624,
+      "endFrame": 7633
+    },
+    {
+      "word": "becomes",
+      "startMs": 254440,
+      "endMs": 254740,
+      "startFrame": 7633,
+      "endFrame": 7642
+    },
+    {
+      "word": "a",
+      "startMs": 254740,
+      "endMs": 254940,
+      "startFrame": 7642,
+      "endFrame": 7648
+    },
+    {
+      "word": "choice",
+      "startMs": 254940,
+      "endMs": 255420,
+      "startFrame": 7648,
+      "endFrame": 7663
+    },
+    {
+      "word": "rather",
+      "startMs": 255420,
+      "endMs": 255800,
+      "startFrame": 7663,
+      "endFrame": 7674
+    },
+    {
+      "word": "than",
+      "startMs": 255800,
+      "endMs": 256040,
+      "startFrame": 7674,
+      "endFrame": 7681
+    },
+    {
+      "word": "a",
+      "startMs": 256040,
+      "endMs": 256120,
+      "startFrame": 7681,
+      "endFrame": 7684
+    },
+    {
+      "word": "requirement",
+      "startMs": 256120,
+      "endMs": 256520,
+      "startFrame": 7684,
+      "endFrame": 7696
+    },
+    {
+      "word": "for",
+      "startMs": 256520,
+      "endMs": 256820,
+      "startFrame": 7696,
+      "endFrame": 7705
+    },
+    {
+      "word": "more",
+      "startMs": 256820,
+      "endMs": 257040,
+      "startFrame": 7705,
+      "endFrame": 7711
+    },
+    {
+      "word": "and",
+      "startMs": 257040,
+      "endMs": 257120,
+      "startFrame": 7711,
+      "endFrame": 7714
+    },
+    {
+      "word": "more",
+      "startMs": 257120,
+      "endMs": 257260,
+      "startFrame": 7714,
+      "endFrame": 7718
+    },
+    {
+      "word": "tasks.",
+      "startMs": 257260,
+      "endMs": 257740,
+      "startFrame": 7718,
+      "endFrame": 7732
+    },
+    {
+      "word": "And",
+      "startMs": 258140,
+      "endMs": 258280,
+      "startFrame": 7744,
+      "endFrame": 7749
+    },
+    {
+      "word": "with",
+      "startMs": 258280,
+      "endMs": 258420,
+      "startFrame": 7749,
+      "endFrame": 7753
+    },
+    {
+      "word": "AI",
+      "startMs": 258420,
+      "endMs": 258600,
+      "startFrame": 7753,
+      "endFrame": 7758
+    },
+    {
+      "word": "making",
+      "startMs": 258600,
+      "endMs": 258840,
+      "startFrame": 7758,
+      "endFrame": 7765
+    },
+    {
+      "word": "development",
+      "startMs": 258840,
+      "endMs": 259260,
+      "startFrame": 7765,
+      "endFrame": 7778
+    },
+    {
+      "word": "faster,",
+      "startMs": 259260,
+      "endMs": 259720,
+      "startFrame": 7778,
+      "endFrame": 7792
+    },
+    {
+      "word": "that",
+      "startMs": 260140,
+      "endMs": 260260,
+      "startFrame": 7804,
+      "endFrame": 7808
+    },
+    {
+      "word": "choice",
+      "startMs": 260260,
+      "endMs": 260480,
+      "startFrame": 7808,
+      "endFrame": 7815
+    },
+    {
+      "word": "could",
+      "startMs": 260480,
+      "endMs": 260700,
+      "startFrame": 7815,
+      "endFrame": 7821
+    },
+    {
+      "word": "expand",
+      "startMs": 260700,
+      "endMs": 261040,
+      "startFrame": 7821,
+      "endFrame": 7831
+    },
+    {
+      "word": "into",
+      "startMs": 261040,
+      "endMs": 261260,
+      "startFrame": 7831,
+      "endFrame": 7838
+    },
+    {
+      "word": "categories",
+      "startMs": 261260,
+      "endMs": 261740,
+      "startFrame": 7838,
+      "endFrame": 7852
+    },
+    {
+      "word": "we",
+      "startMs": 261740,
+      "endMs": 262080,
+      "startFrame": 7852,
+      "endFrame": 7863
+    },
+    {
+      "word": "haven't",
+      "startMs": 262080,
+      "endMs": 262420,
+      "startFrame": 7863,
+      "endFrame": 7873
+    },
+    {
+      "word": "even",
+      "startMs": 262420,
+      "endMs": 262540,
+      "startFrame": 7873,
+      "endFrame": 7876
+    },
+    {
+      "word": "considered",
+      "startMs": 262540,
+      "endMs": 262940,
+      "startFrame": 7876,
+      "endFrame": 7888
+    },
+    {
+      "word": "yet.",
+      "startMs": 262940,
+      "endMs": 263240,
+      "startFrame": 7888,
+      "endFrame": 7897
+    },
+    {
+      "word": "Let",
+      "startMs": 263440,
+      "endMs": 263520,
+      "startFrame": 7903,
+      "endFrame": 7906
+    },
+    {
+      "word": "me",
+      "startMs": 263520,
+      "endMs": 263620,
+      "startFrame": 7906,
+      "endFrame": 7909
+    },
+    {
+      "word": "know",
+      "startMs": 263620,
+      "endMs": 263760,
+      "startFrame": 7909,
+      "endFrame": 7913
+    },
+    {
+      "word": "what",
+      "startMs": 263760,
+      "endMs": 263900,
+      "startFrame": 7913,
+      "endFrame": 7917
+    },
+    {
+      "word": "you",
+      "startMs": 263900,
+      "endMs": 264040,
+      "startFrame": 7917,
+      "endFrame": 7921
+    },
+    {
+      "word": "think",
+      "startMs": 264040,
+      "endMs": 264180,
+      "startFrame": 7921,
+      "endFrame": 7926
+    },
+    {
+      "word": "in",
+      "startMs": 264180,
+      "endMs": 264300,
+      "startFrame": 7926,
+      "endFrame": 7929
+    },
+    {
+      "word": "the",
+      "startMs": 264300,
+      "endMs": 264360,
+      "startFrame": 7929,
+      "endFrame": 7931
+    },
+    {
+      "word": "comments.",
+      "startMs": 264360,
+      "endMs": 264580,
+      "startFrame": 7931,
+      "endFrame": 7938
+    },
+    {
+      "word": "Thanks",
+      "startMs": 264580,
+      "endMs": 264860,
+      "startFrame": 7938,
+      "endFrame": 7946
+    },
+    {
+      "word": "for",
+      "startMs": 264860,
+      "endMs": 265140,
+      "startFrame": 7946,
+      "endFrame": 7954
+    },
+    {
+      "word": "watching,",
+      "startMs": 265140,
+      "endMs": 265420,
+      "startFrame": 7954,
+      "endFrame": 7963
+    },
+    {
+      "word": "and",
+      "startMs": 265420,
+      "endMs": 265700,
+      "startFrame": 7963,
+      "endFrame": 7971
+    },
+    {
+      "word": "I'll",
+      "startMs": 265700,
+      "endMs": 265980,
+      "startFrame": 7971,
+      "endFrame": 7980
+    },
+    {
+      "word": "see",
+      "startMs": 265980,
+      "endMs": 266260,
+      "startFrame": 7980,
+      "endFrame": 7988
+    },
+    {
+      "word": "you",
+      "startMs": 266260,
+      "endMs": 266540,
+      "startFrame": 7988,
+      "endFrame": 7996
+    },
+    {
+      "word": "in",
+      "startMs": 266540,
+      "endMs": 266820,
+      "startFrame": 7996,
+      "endFrame": 8005
+    },
+    {
+      "word": "the",
+      "startMs": 266820,
+      "endMs": 267100,
+      "startFrame": 8005,
+      "endFrame": 8013
+    },
+    {
+      "word": "next",
+      "startMs": 267100,
+      "endMs": 267380,
+      "startFrame": 8013,
+      "endFrame": 8022
+    },
+    {
+      "word": "one.",
+      "startMs": 267380,
+      "endMs": 267660,
+      "startFrame": 8022,
+      "endFrame": 8030
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "byd-qin-plus",
+  "created_at": "2026-10-18T21:00:20.083065",
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "aspect_ratio": "16:9",
+  "paths": {
+    "root": "Videos/byd-qin-plus",
+    "assets": "Videos/byd-qin-plus/assets",
+    "transcripts": "Videos/byd-qin-plus/transcripts",
+    "manifests": "Videos/byd-qin-plus/manifests",
+    "renders": "Videos/byd-qin-plus/renders"
+  },
+  "audio": {
+    "voiceover_file": null,
+    "duration_seconds": null,
+    "transcription_status": "pending"
+  },
+  "render_settings": {
+    "default_codec": "h264",
+    "transparent_codec": "prores"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "channelId": "VantaBrief",
+  "fps": 30,
+  "totalFrames": 540,
+  "durationSeconds": 18.0,
+  "channelStyle": {
+    "id": "VantaBrief",
+    "name": "VantaBrief",
+    "tagline": "Concise Intelligence & Software Engineering Breakdowns",
+    "audience": "Developers, AI researchers, automation engineers, technical founders",
+    "style": {
+      "theme": "dark_modern_tech",
+      "palette": {
+        "background": "#070A12",
+        "surface": "#0F172A",
+        "surface_glass": "rgba(15, 23, 42, 0.75)",
+        "primary": "#3B82F6",
+        "secondary": "#8B5CF6",
+        "accent": "#10B981",
+        "text_primary": "#F8FAFC",
+        "text_muted": "#94A3B8",
+        "border": "rgba(255, 255, 255, 0.12)",
+        "glow": "rgba(59, 130, 246, 0.25)"
+      },
+      "typography": {
+        "heading_font": "Inter",
+        "body_font": "Inter",
+        "mono_font": "JetBrains Mono",
+        "title_weight": "800",
+        "body_weight": "500"
+      },
+      "motion": {
+        "preset": "snappy_overshoot",
+        "spring": {
+          "damping": 12,
+          "mass": 0.6,
+          "stiffness": 130
+        },
+        "card_entrance": "translate_y_spring",
+        "transition_speed": 14
+      },
+      "captions": {
+        "style": "kinetic_highlight",
+        "active_color": "#FACC15",
+        "inactive_color": "#94A3B8",
+        "badge_bg": "rgba(250, 204, 21, 0.15)",
+        "placement": "bottom_center",
+        "font_size": 48
+      },
+      "transitions": {
+        "default": "slide_left",
+        "overlay_exit": "fade_scale_down"
+      }
+    },
+    "sound": {
+      "preferred_sfx": [
+        "Fast whoosh",
+        "UI click",
+        "Impact chime"
+      ],
+      "bg_music_genre": "ambient_electronic",
+      "bg_music_volume": 0.1
+    },
+    "paths": {
+      "root": "Channels/VantaBrief",
+      "videos": "Channels/VantaBrief/videos",
+      "style": "Channels/VantaBrief/style",
+      "media": "Channels/VantaBrief/media",
+      "references": "Channels/VantaBrief/references",
+      "components": "Channels/VantaBrief/components",
+      "templates": "Channels/VantaBrief/templates"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "type": "title-hook",
+      "startFrame": 0,
+      "endFrame": 120,
+      "durationInFrames": 120,
+      "narration": "Welcome to the next generation of automated video engineering.",
+      "title": "Scene 1: Title Hook",
+      "subtitle": "Welcome to the next generation of automated video engineering."
+    },
+    {
+      "id": "scene-02",
+      "type": "animated-map",
+      "startFrame": 120,
+      "endFrame": 270,
+      "durationInFrames": 150,
+      "narration": "Our distributed pipeline routes assets across high-performance studio nodes.",
+      "title": "Production Transit Corridor",
+      "subtitle": "Our distributed pipeline routes assets across high-performance studio nodes."
+    },
+    {
+      "id": "scene-03",
+      "type": "footage-placeholder",
+      "startFrame": 270,
+      "endFrame": 420,
+      "durationInFrames": 150,
+      "narration": "Here is an authentic capture of our automated timeline orchestrator.",
+      "title": "Scene 3: Footage Placeholder",
+      "subtitle": "Here is an authentic capture of our automated timeline orchestrator.",
+      "instruction": "RECORD: Demonstration for: Here is an authentic capture of our automated timeline orche...",
+      "actionPrompt": "Here is an authentic capture of our automated timeline orchestrator.",
+      "targetPath": "assets/video/scene-03-recording.mp4",
+      "mediaAvailable": false,
+      "orientation": "landscape"
+    },
+    {
+      "id": "scene-04",
+      "type": "ending-card",
+      "startFrame": 420,
+      "endFrame": 540,
+      "durationInFrames": 120,
+      "narration": "Subscribe and follow to automate your complete video production workflow.",
+      "title": "Scene 4: Ending Card",
+      "subtitle": "Subscribe and follow to automate your complete video production workflow."
+    }
+  ]
+}
