@@ -1,0 +1,143 @@
+{
+  "project": "003-Open-Source-Is-Taking-Over-Software-in-2026",
+  "channel": "VantaBrief",
+  "user_board_url": "https://pin.it/pGq22roa7",
+  "total_referenced_moments": 5,
+  "moments_with_references": [
+    {
+      "id": "MG-01",
+      "concept_name": "Local AI Stack 3D Carousel",
+      "composition_id": "UserBoard-CoverFlow",
+      "start_time": 4.98,
+      "end_time": 12.48,
+      "start_timecode": "00:04.980",
+      "end_timecode": "00:12.480",
+      "duration_seconds": 7.5,
+      "script_excerpt": "and even run AI models on your own computer without paying for a subscription.",
+      "surrounding_context": "Opening thesis hook exploring zero-subscription creative workflows.",
+      "explanation_objective": "Showcase local on-device AI models and open suites operating autonomously without cloud subscriptions.",
+      "viewer_understanding": "Immediately see that local AI tools are organized into a cohesive, production-ready stack.",
+      "why_animation_appropriate": "Elevates the script's promise into a tactile, high-end 3D hardware and software carousel.",
+      "reference": {
+        "source_platform": "User Pinterest Board (pin_12.jpg)",
+        "source_url": "https://pin.it/pGq22roa7",
+        "title": "3D Cover-Flow AI Card Carousel (Perplexity / ChatGPT / Gemini style)",
+        "is_verified": true,
+        "techniques": [
+          "3D perspective card carousel with subtle rotateY perspective depth and coverflow slide transition",
+          "Center active card elevated with prominent electric blue (#1677FF) glow",
+          "Floating subtle vertical sine wave oscillation and living hold animation",
+          "VantaBrief dark charcoal (#231F20) glassmorphic squircle containers with cream typography"
+        ]
+      }
+    },
+    {
+      "id": "MG-02",
+      "concept_name": "AI Development Speed & Progress",
+      "composition_id": "UserBoard-ProgressCard",
+      "start_time": 27.62,
+      "end_time": 35.12,
+      "start_timecode": "00:27.620",
+      "end_timecode": "00:35.120",
+      "duration_seconds": 7.5,
+      "script_excerpt": "with the help of AI tells you where software development is heading.",
+      "surrounding_context": "Highlighting a solo developer building an entire creative suite with AI assistance.",
+      "explanation_objective": "Illustrate exponential software velocity achieved by single developers using AI tool chains.",
+      "viewer_understanding": "Visualize software velocity metrics accelerating towards production completion.",
+      "why_animation_appropriate": "Replaces vague claims of 'faster development' with a calibrated progress bar and telemetry counter.",
+      "reference": {
+        "source_platform": "User Pinterest Board (pin_11.jpg)",
+        "source_url": "https://pin.it/pGq22roa7",
+        "title": "Project Progress 65% Dark Glass Card with Glowing Gradient Fill",
+        "is_verified": true,
+        "techniques": [
+          "Dark squircle container with spinning sparkle icon and 'Solo Architecture' tag",
+          "Multi-stage percentage counter ramping with acceleration from 0% to 85%",
+          "Thick pill progress track with glowing emerald-to-blue gradient fill and traveling shimmer sweep",
+          "Volumetric drop glow and sequentially popping tech stack chips"
+        ]
+      }
+    },
+    {
+      "id": "MG-03",
+      "concept_name": "Software Toll vs Open Stack Trio",
+      "composition_id": "UserBoard-TrioCards",
+      "start_time": 51.84,
+      "end_time": 59.34,
+      "start_timecode": "00:51.840",
+      "end_timecode": "00:59.340",
+      "duration_seconds": 7.5,
+      "script_excerpt": "Want to edit videos, pay for Premiere Pro, want to design something, pay for Photoshop,",
+      "surrounding_context": "Deconstructing the perennial recurring subscription cost of proprietary software.",
+      "explanation_objective": "Contrast the recurring Adobe tolls ($239/yr each) with ArtCraft and open code ($0.00).",
+      "viewer_understanding": "Instantly see the financial contrast and the liberation of open-source tooling.",
+      "why_animation_appropriate": "Presents cold comparative telemetry without generic text lists.",
+      "reference": {
+        "source_platform": "User Pinterest Board (pin_07.jpg)",
+        "source_url": "https://pin.it/pGq22roa7",
+        "title": "Trio of Dark Squircle Cards with Upward Beam Projection and Sparklines",
+        "is_verified": true,
+        "techniques": [
+          "Trio of dark squircle cards entering sequentially with dynamic SVG sparkline draws",
+          "Elevated center card highlighted with glowing emerald border",
+          "Illuminated upward light slit igniting and projecting a focused beam onto the center card",
+          "Bold typography displaying $239/yr tolls vs $0.00 free stack"
+        ]
+      }
+    },
+    {
+      "id": "MG-04",
+      "concept_name": "Timeline Milestone Ruler",
+      "composition_id": "UserBoard-TimelineRuler",
+      "start_time": 81.56,
+      "end_time": 89.06,
+      "start_timecode": "01:21.560",
+      "end_timecode": "01:29.060",
+      "duration_seconds": 7.5,
+      "script_excerpt": "or charging them for an entire subscription just to get it.",
+      "surrounding_context": "Asking whether we reach a point where all software becomes open and subscription-free.",
+      "explanation_objective": "Map the chronological timeline from 2020 through 2026 showing the paradigm shift.",
+      "viewer_understanding": "Understand that 2026 marks the turning point toward local compute and zero-subscription tooling.",
+      "why_animation_appropriate": "A calibrated timeline ruler gives historical weight and momentum to the argument.",
+      "reference": {
+        "source_platform": "User Pinterest Board (pin_02.jpg)",
+        "source_url": "https://pin.it/pGq22roa7",
+        "title": "Vertical Timeline Ruler with Contour Protrusion & Glowing Chevron Milestone",
+        "is_verified": true,
+        "techniques": [
+          "Vertical ruler with progressive node travel sequentially stopping across 2020, 2022, 2024, and locking at 2026",
+          "Organic curved contour protrusion that dynamically bulges outward around the 2026 milestone",
+          "Circular dial button with neon chevron and volumetric green/emerald ambient back-glow",
+          "Clean typography with telemetry badges: '$0/month' and '100% Local'"
+        ]
+      }
+    },
+    {
+      "id": "MG-05",
+      "concept_name": "Autonomous Infrastructure Rings",
+      "composition_id": "UserBoard-ActivityRings",
+      "start_time": 103.48,
+      "end_time": 110.98,
+      "start_timecode": "01:43.480",
+      "end_timecode": "01:50.980",
+      "duration_seconds": 7.5,
+      "script_excerpt": "and use projects like Kokoro for text-to-speech.",
+      "surrounding_context": "Explaining the infrastructure of hardware, open weights, and open tools.",
+      "explanation_objective": "Show how compute, weights, and software assemble into a complete local pipeline.",
+      "viewer_understanding": "See the multi-tier engine of open source running concurrently.",
+      "why_animation_appropriate": "Concentric rings communicate harmony, concurrent execution, and resource allocation.",
+      "reference": {
+        "source_platform": "User Pinterest Board (pin_03.jpg)",
+        "source_url": "https://pin.it/pGq22roa7",
+        "title": "Apple-Style Concentric Activity Rings Widget with Telemetry Stats",
+        "is_verified": true,
+        "techniques": [
+          "Rounded pill widget with sequentially lighting telemetry rows and color-coded status indicators",
+          "3 concentric circular SVG activity rings drawing sequentially in Blue (#1677FF), Emerald (#10B981), and Amber (#F59E0B)",
+          "Central pill badge with dynamic completion burst displaying bold '$0 FEE'",
+          "Living orbital shimmer and drop shadow glows"
+        ]
+      }
+    }
+  ]
+}

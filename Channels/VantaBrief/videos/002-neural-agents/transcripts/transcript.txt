@@ -1,2 +1,0 @@
-# Narration transcript for: 002-neural-agents
-# Place voiceover in assets/audio/voice/ and run: python studio.py transcribe 002-neural-agents

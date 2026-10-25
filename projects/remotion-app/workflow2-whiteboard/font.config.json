@@ -1,0 +1,5 @@
+{
+  "hand": { "family": "Virgil",  "file": "public/fonts/virgil.woff2", "fallback": "Kalam, Caveat, 'Comic Sans MS', cursive" },
+  "sans": { "family": "Inter",   "file": "public/fonts/inter-800.woff2", "fallback": "Helvetica, Arial, sans-serif", "weight": 800 },
+  "mono": { "family": "JetBrains Mono", "file": "public/fonts/jetbrains-mono.woff2", "fallback": "Consolas, 'DejaVu Sans Mono', monospace" }
+}

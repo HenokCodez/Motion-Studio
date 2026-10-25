@@ -1,0 +1,111 @@
+In 2026, you can edit videos, design graphics, build apps, generate images, clone voices, and even run AI models on your own computer without paying for a subscription.
+
+And the alternatives aren't just cheap knockoffs anymore. Some are genuinely good enough to replace the software people have been paying for for years.
+
+Take ArtCraft, for example. It's an open-source project trying to recreate major Adobe applications, including Photoshop, Premiere Pro, and After Effects.
+
+It's still early, and it can't replace Adobe for everyone. But the fact that one developer can even attempt something like this with the help of AI tells you where software development is heading.
+
+And this isn't just happening with video editors.
+
+Almost every category of software has free, open-source alternatives now. And AI is making it easier to build even more of them.
+
+So, do we eventually reach a point where almost all software is free? And if nobody's paying for the software, who's actually making money?
+
+Let's look at what's happening.
+
+For years, if you wanted professional software, you usually had two options: pay for it or settle for something worse.
+
+Want to edit videos? Pay for Premiere Pro.
+
+Want to design something? Pay for Photoshop.
+
+Need office software? Buy Microsoft Office or get a subscription.
+
+But today, you can use tools like DaVinci Resolve for video editing, Blender for 3D, and LibreOffice for documents without paying for the software itself.
+
+And these aren't new experiments anymore. Some have been around for years and are used for serious work.
+
+Now AI is accelerating this even further.
+
+Projects like ArtCraft are using AI-assisted development to recreate expensive applications. Developers can also build their own tools instead of waiting for a company to add a feature or charging them for an entire subscription just to get it.
+
+And if an open-source alternative does 90% of what you need, paying hundreds of dollars a year for the original becomes nonsense.
+
+But software is only half of the story.
+
+A few years ago, generating high-quality images, realistic voices, or useful AI responses usually meant relying on a handful of major companies.
+
+Now, there are open models for all of these things.
+
+You can generate images with models like Krea, and use projects like Kokoro for text-to-speech.
+
+And you don't necessarily need an expensive workstation or a cloud subscription for every task. Smaller models can run on ordinary consumer hardware, depending on their size and the memory available.
+
+The biggest change is that you're no longer limited to whatever a company decides to offer.
+
+You can download a model, run it locally, connect it to your own applications, and build something around it.
+
+If a company changes its prices, removes a feature, or shuts down a service, you may have another option.
+
+That's a big deal.
+
+And if you're into AI and tech, subscribe to VantaBrief. I cover the tools and developments that are actually changing how we use technology.
+
+But this freedom creates a problem for companies that have built their businesses around selling software.
+
+So, how do open-source developers make money?
+
+Because here's the thing: making software isn't free, even when downloading it is.
+
+Developers still need time, hardware, and money to maintain their projects.
+
+And successful open-source businesses have figured out how to make money without charging everyone for the basic software.
+
+The first model is paid convenience.
+
+Take an open-source project and let people use it for free. Then charge for hosting, cloud access, automatic updates, or the infrastructure needed to run it.
+
+The second is enterprise features and support.
+
+A regular user might be happy with the free version. But a company managing thousands of employees may need advanced security, access controls, compliance tools, and someone to call when something breaks.
+
+The third is selling services.
+
+Companies can build open-source software and then charge for installation, customization, consulting, and maintenance.
+
+And some projects survive through sponsorships, donations, or funding from companies that depend on them.
+
+So the software can be free while the business around it still makes money.
+
+But here's where things could get interesting.
+
+If AI keeps making software cheaper and easier to build, I think we'll see more pressure on traditional software companies.
+
+Instead of paying for dozens of separate applications, people may increasingly build small tools that do exactly what they need.
+
+And companies will have to compete on more than just access to features.
+
+But I wouldn't expect paid software to disappear completely.
+
+Professional support, reliability, collaboration, and specialized features still have value. And open source doesn't automatically mean better security or a better product.
+
+There's also a difference between open-source software and AI models that merely let you download their weights. The license and what's actually available still matter.
+
+The bigger change is where the money goes.
+
+If software becomes easier to reproduce, the advantage may shift toward the hardware, computing power, and services needed to run it.
+
+Companies could find more value in selling cloud computing, specialized chips, and devices than in charging for basic software features.
+
+That doesn't mean hardware prices will automatically rise, or that every company will abandon subscriptions. But it does mean the old model becomes harder to defend when free alternatives keep improving.
+
+So, I don't think every paid application is going away.
+
+But I do think we're moving toward a world where paying for software becomes a choice rather than a requirement for more and more tasks.
+
+And with AI making development faster, that choice could expand into categories we haven't even considered yet.
+
+Let me know what you think in the comments.
+
+Thanks for watching, and I'll see you in the next one.

@@ -1,0 +1,4712 @@
+[
+ {
+  "w": "In",
+  "start": 0,
+  "end": 0.24
+ },
+ {
+  "w": "2026,",
+  "start": 0.24,
+  "end": 0.88
+ },
+ {
+  "w": "you",
+  "start": 1.04,
+  "end": 1.06
+ },
+ {
+  "w": "can",
+  "start": 1.06,
+  "end": 1.2
+ },
+ {
+  "w": "edit",
+  "start": 1.2,
+  "end": 1.38
+ },
+ {
+  "w": "videos,",
+  "start": 1.38,
+  "end": 1.66
+ },
+ {
+  "w": "design",
+  "start": 1.84,
+  "end": 2.02
+ },
+ {
+  "w": "graphics,",
+  "start": 2.02,
+  "end": 2.34
+ },
+ {
+  "w": "build",
+  "start": 2.52,
+  "end": 2.7
+ },
+ {
+  "w": "apps,",
+  "start": 2.7,
+  "end": 3.02
+ },
+ {
+  "w": "generate",
+  "start": 3.26,
+  "end": 3.44
+ },
+ {
+  "w": "images,",
+  "start": 3.44,
+  "end": 3.86
+ },
+ {
+  "w": "clone",
+  "start": 4.06,
+  "end": 4.24
+ },
+ {
+  "w": "voices,",
+  "start": 4.24,
+  "end": 4.68
+ },
+ {
+  "w": "and",
+  "start": 4.98,
+  "end": 5.1
+ },
+ {
+  "w": "even",
+  "start": 5.1,
+  "end": 5.28
+ },
+ {
+  "w": "run",
+  "start": 5.28,
+  "end": 5.54
+ },
+ {
+  "w": "AI",
+  "start": 5.54,
+  "end": 5.8
+ },
+ {
+  "w": "models",
+  "start": 5.8,
+  "end": 6.2
+ },
+ {
+  "w": "on",
+  "start": 6.2,
+  "end": 6.42
+ },
+ {
+  "w": "your",
+  "start": 6.42,
+  "end": 6.56
+ },
+ {
+  "w": "own",
+  "start": 6.56,
+  "end": 6.68
+ },
+ {
+  "w": "computer",
+  "start": 6.68,
+  "end": 7.16
+ },
+ {
+  "w": "without",
+  "start": 7.16,
+  "end": 7.44
+ },
+ {
+  "w": "paying",
+  "start": 7.44,
+  "end": 7.74
+ },
+ {
+  "w": "for",
+  "start": 7.74,
+  "end": 7.96
+ },
+ {
+  "w": "a",
+  "start": 7.96,
+  "end": 8.04
+ },
+ {
+  "w": "subscription.",
+  "start": 8.04,
+  "end": 8.42
+ },
+ {
+  "w": "And",
+  "start": 8.7,
+  "end": 8.78
+ },
+ {
+  "w": "the",
+  "start": 8.78,
+  "end": 8.88
+ },
+ {
+  "w": "alternatives",
+  "start": 8.88,
+  "end": 9.34
+ },
+ {
+  "w": "aren't",
+  "start": 9.34,
+  "end": 9.56
+ },
+ {
+  "w": "just",
+  "start": 9.56,
+  "end": 9.74
+ },
+ {
+  "w": "cheap",
+  "start": 9.74,
+  "end": 10
+ },
+ {
+  "w": "knockoffs",
+  "start": 10,
+  "end": 10.56
+ },
+ {
+  "w": "anymore.",
+  "start": 10.56,
+  "end": 10.8
+ },
+ {
+  "w": "Some",
+  "start": 11.14,
+  "end": 11.28
+ },
+ {
+  "w": "are",
+  "start": 11.28,
+  "end": 11.38
+ },
+ {
+  "w": "genuinely",
+  "start": 11.38,
+  "end": 11.68
+ },
+ {
+  "w": "good",
+  "start": 11.68,
+  "end": 12.04
+ },
+ {
+  "w": "enough",
+  "start": 12.04,
+  "end": 12.22
+ },
+ {
+  "w": "to",
+  "start": 12.22,
+  "end": 12.4
+ },
+ {
+  "w": "replace",
+  "start": 12.4,
+  "end": 12.68
+ },
+ {
+  "w": "the",
+  "start": 12.68,
+  "end": 12.86
+ },
+ {
+  "w": "software",
+  "start": 12.86,
+  "end": 13.12
+ },
+ {
+  "w": "people",
+  "start": 13.12,
+  "end": 13.44
+ },
+ {
+  "w": "have",
+  "start": 13.44,
+  "end": 13.62
+ },
+ {
+  "w": "been",
+  "start": 13.62,
+  "end": 13.76
+ },
+ {
+  "w": "paying",
+  "start": 13.76,
+  "end": 13.96
+ },
+ {
+  "w": "for",
+  "start": 13.96,
+  "end": 14.2
+ },
+ {
+  "w": "for",
+  "start": 14.2,
+  "end": 14.36
+ },
+ {
+  "w": "years.",
+  "start": 14.36,
+  "end": 14.6
+ },
+ {
+  "w": "Take",
+  "start": 14.94,
+  "end": 15.06
+ },
+ {
+  "w": "ArtCraft,",
+  "start": 15.06,
+  "end": 15.44
+ },
+ {
+  "w": "for",
+  "start": 15.54,
+  "end": 15.62
+ },
+ {
+  "w": "example.",
+  "start": 15.62,
+  "end": 15.92
+ },
+ {
+  "w": "It's",
+  "start": 16.4,
+  "end": 16.54
+ },
+ {
+  "w": "an",
+  "start": 16.54,
+  "end": 16.62
+ },
+ {
+  "w": "open-source",
+  "start": 16.62,
+  "end": 16.78
+ },
+ {
+  "w": "project",
+  "start": 17.02,
+  "end": 17.42
+ },
+ {
+  "w": "trying",
+  "start": 17.42,
+  "end": 17.66
+ },
+ {
+  "w": "to",
+  "start": 17.66,
+  "end": 17.82
+ },
+ {
+  "w": "recreate",
+  "start": 17.82,
+  "end": 18.14
+ },
+ {
+  "w": "major",
+  "start": 18.14,
+  "end": 18.46
+ },
+ {
+  "w": "Adobe",
+  "start": 18.46,
+  "end": 18.74
+ },
+ {
+  "w": "applications,",
+  "start": 18.74,
+  "end": 19.4
+ },
+ {
+  "w": "including",
+  "start": 19.58,
+  "end": 19.88
+ },
+ {
+  "w": "Photoshop,",
+  "start": 19.88,
+  "end": 20.28
+ },
+ {
+  "w": "Premiere",
+  "start": 20.62,
+  "end": 20.76
+ },
+ {
+  "w": "Pro,",
+  "start": 20.76,
+  "end": 21.02
+ },
+ {
+  "w": "and",
+  "start": 21.08,
+  "end": 21.12
+ },
+ {
+  "w": "After",
+  "start": 21.12,
+  "end": 21.32
+ },
+ {
+  "w": "Effects.",
+  "start": 21.32,
+  "end": 21.6
+ },
+ {
+  "w": "It's",
+  "start": 21.82,
+  "end": 22.02
+ },
+ {
+  "w": "still",
+  "start": 22.02,
+  "end": 22.2
+ },
+ {
+  "w": "early,",
+  "start": 22.2,
+  "end": 22.58
+ },
+ {
+  "w": "and",
+  "start": 22.88,
+  "end": 23.04
+ },
+ {
+  "w": "it",
+  "start": 23.04,
+  "end": 23.18
+ },
+ {
+  "w": "can't",
+  "start": 23.18,
+  "end": 23.42
+ },
+ {
+  "w": "replace",
+  "start": 23.42,
+  "end": 23.68
+ },
+ {
+  "w": "Adobe",
+  "start": 23.68,
+  "end": 23.92
+ },
+ {
+  "w": "for",
+  "start": 23.92,
+  "end": 24.18
+ },
+ {
+  "w": "everyone.",
+  "start": 24.18,
+  "end": 24.46
+ },
+ {
+  "w": "But",
+  "start": 24.68,
+  "end": 24.84
+ },
+ {
+  "w": "the",
+  "start": 24.84,
+  "end": 24.98
+ },
+ {
+  "w": "fact",
+  "start": 24.98,
+  "end": 25.14
+ },
+ {
+  "w": "that",
+  "start": 25.14,
+  "end": 25.3
+ },
+ {
+  "w": "one",
+  "start": 25.3,
+  "end": 25.44
+ },
+ {
+  "w": "developer",
+  "start": 25.44,
+  "end": 25.82
+ },
+ {
+  "w": "can",
+  "start": 25.82,
+  "end": 26.1
+ },
+ {
+  "w": "even",
+  "start": 26.1,
+  "end": 26.34
+ },
+ {
+  "w": "attempt",
+  "start": 26.34,
+  "end": 26.68
+ },
+ {
+  "w": "something",
+  "start": 26.68,
+  "end": 27.02
+ },
+ {
+  "w": "like",
+  "start": 27.02,
+  "end": 27.34
+ },
+ {
+  "w": "this",
+  "start": 27.34,
+  "end": 27.62
+ },
+ {
+  "w": "with",
+  "start": 27.62,
+  "end": 27.9
+ },
+ {
+  "w": "the",
+  "start": 27.9,
+  "end": 28.06
+ },
+ {
+  "w": "help",
+  "start": 28.06,
+  "end": 28.28
+ },
+ {
+  "w": "of",
+  "start": 28.28,
+  "end": 28.52
+ },
+ {
+  "w": "AI",
+  "start": 28.52,
+  "end": 28.76
+ },
+ {
+  "w": "tells",
+  "start": 28.76,
+  "end": 29.2
+ },
+ {
+  "w": "you",
+  "start": 29.2,
+  "end": 29.38
+ },
+ {
+  "w": "where",
+  "start": 29.38,
+  "end": 29.6
+ },
+ {
+  "w": "software",
+  "start": 29.6,
+  "end": 29.96
+ },
+ {
+  "w": "development",
+  "start": 29.96,
+  "end": 30.36
+ },
+ {
+  "w": "is",
+  "start": 30.36,
+  "end": 30.62
+ },
+ {
+  "w": "heading.",
+  "start": 30.62,
+  "end": 30.82
+ },
+ {
+  "w": "And",
+  "start": 31.28,
+  "end": 31.3
+ },
+ {
+  "w": "this",
+  "start": 31.3,
+  "end": 31.48
+ },
+ {
+  "w": "isn't",
+  "start": 31.48,
+  "end": 31.7
+ },
+ {
+  "w": "just",
+  "start": 31.7,
+  "end": 31.84
+ },
+ {
+  "w": "happening",
+  "start": 31.84,
+  "end": 32.1
+ },
+ {
+  "w": "with",
+  "start": 32.1,
+  "end": 32.28
+ },
+ {
+  "w": "video",
+  "start": 32.28,
+  "end": 32.52
+ },
+ {
+  "w": "editors.",
+  "start": 32.52,
+  "end": 32.82
+ },
+ {
+  "w": "Almost",
+  "start": 33.26,
+  "end": 33.48
+ },
+ {
+  "w": "every",
+  "start": 33.48,
+  "end": 33.88
+ },
+ {
+  "w": "category",
+  "start": 33.88,
+  "end": 34.3
+ },
+ {
+  "w": "of",
+  "start": 34.3,
+  "end": 34.5
+ },
+ {
+  "w": "software",
+  "start": 34.5,
+  "end": 34.88
+ },
+ {
+  "w": "has",
+  "start": 34.88,
+  "end": 35.22
+ },
+ {
+  "w": "free,",
+  "start": 35.22,
+  "end": 35.6
+ },
+ {
+  "w": "open-source",
+  "start": 35.6,
+  "end": 35.98
+ },
+ {
+  "w": "alternatives",
+  "start": 36.22,
+  "end": 36.74
+ },
+ {
+  "w": "now.",
+  "start": 36.74,
+  "end": 37.08
+ },
+ {
+  "w": "And",
+  "start": 37.26,
+  "end": 37.3
+ },
+ {
+  "w": "AI",
+  "start": 37.3,
+  "end": 37.58
+ },
+ {
+  "w": "is",
+  "start": 37.58,
+  "end": 38.02
+ },
+ {
+  "w": "making",
+  "start": 38.02,
+  "end": 38.32
+ },
+ {
+  "w": "it",
+  "start": 38.32,
+  "end": 38.46
+ },
+ {
+  "w": "easier",
+  "start": 38.46,
+  "end": 38.7
+ },
+ {
+  "w": "to",
+  "start": 38.7,
+  "end": 38.9
+ },
+ {
+  "w": "build",
+  "start": 38.9,
+  "end": 39.12
+ },
+ {
+  "w": "even",
+  "start": 39.12,
+  "end": 39.34
+ },
+ {
+  "w": "more",
+  "start": 39.34,
+  "end": 39.58
+ },
+ {
+  "w": "of",
+  "start": 39.58,
+  "end": 39.7
+ },
+ {
+  "w": "them.",
+  "start": 39.7,
+  "end": 39.84
+ },
+ {
+  "w": "So,",
+  "start": 40,
+  "end": 40.18
+ },
+ {
+  "w": "do",
+  "start": 40.18,
+  "end": 40.48
+ },
+ {
+  "w": "we",
+  "start": 40.48,
+  "end": 40.6
+ },
+ {
+  "w": "eventually",
+  "start": 40.6,
+  "end": 40.92
+ },
+ {
+  "w": "reach",
+  "start": 40.92,
+  "end": 41.28
+ },
+ {
+  "w": "a",
+  "start": 41.28,
+  "end": 41.38
+ },
+ {
+  "w": "point",
+  "start": 41.38,
+  "end": 41.6
+ },
+ {
+  "w": "where",
+  "start": 41.6,
+  "end": 41.74
+ },
+ {
+  "w": "almost",
+  "start": 41.74,
+  "end": 42.02
+ },
+ {
+  "w": "all",
+  "start": 42.02,
+  "end": 42.22
+ },
+ {
+  "w": "software",
+  "start": 42.22,
+  "end": 42.58
+ },
+ {
+  "w": "is",
+  "start": 42.58,
+  "end": 42.72
+ },
+ {
+  "w": "free?",
+  "start": 42.72,
+  "end": 42.9
+ },
+ {
+  "w": "And",
+  "start": 43,
+  "end": 43.06
+ },
+ {
+  "w": "if",
+  "start": 43.06,
+  "end": 43.14
+ },
+ {
+  "w": "nobody's",
+  "start": 43.14,
+  "end": 43.54
+ },
+ {
+  "w": "paying",
+  "start": 43.54,
+  "end": 43.66
+ },
+ {
+  "w": "for",
+  "start": 43.66,
+  "end": 43.84
+ },
+ {
+  "w": "the",
+  "start": 43.84,
+  "end": 43.92
+ },
+ {
+  "w": "software,",
+  "start": 43.92,
+  "end": 44.24
+ },
+ {
+  "w": "who's",
+  "start": 44.36,
+  "end": 44.5
+ },
+ {
+  "w": "actually",
+  "start": 44.5,
+  "end": 44.78
+ },
+ {
+  "w": "making",
+  "start": 44.78,
+  "end": 44.96
+ },
+ {
+  "w": "money?",
+  "start": 44.96,
+  "end": 45.28
+ },
+ {
+  "w": "Let's",
+  "start": 45.56,
+  "end": 45.76
+ },
+ {
+  "w": "look",
+  "start": 45.76,
+  "end": 45.88
+ },
+ {
+  "w": "at",
+  "start": 45.88,
+  "end": 46
+ },
+ {
+  "w": "what's",
+  "start": 46,
+  "end": 46.18
+ },
+ {
+  "w": "happening.",
+  "start": 46.18,
+  "end": 46.44
+ },
+ {
+  "w": "For",
+  "start": 46.66,
+  "end": 46.74
+ },
+ {
+  "w": "years,",
+  "start": 46.74,
+  "end": 47.08
+ },
+ {
+  "w": "if",
+  "start": 47.3,
+  "end": 47.3
+ },
+ {
+  "w": "you",
+  "start": 47.3,
+  "end": 47.38
+ },
+ {
+  "w": "wanted",
+  "start": 47.38,
+  "end": 47.56
+ },
+ {
+  "w": "professional",
+  "start": 47.56,
+  "end": 47.9
+ },
+ {
+  "w": "software,",
+  "start": 47.9,
+  "end": 48.42
+ },
+ {
+  "w": "you",
+  "start": 48.54,
+  "end": 48.6
+ },
+ {
+  "w": "usually",
+  "start": 48.6,
+  "end": 48.78
+ },
+ {
+  "w": "had",
+  "start": 48.78,
+  "end": 48.98
+ },
+ {
+  "w": "two",
+  "start": 48.98,
+  "end": 49.18
+ },
+ {
+  "w": "options:",
+  "start": 49.18,
+  "end": 49.64
+ },
+ {
+  "w": "pay",
+  "start": 49.9,
+  "end": 50.1
+ },
+ {
+  "w": "for",
+  "start": 50.1,
+  "end": 50.28
+ },
+ {
+  "w": "it",
+  "start": 50.28,
+  "end": 50.4
+ },
+ {
+  "w": "or",
+  "start": 50.4,
+  "end": 50.5
+ },
+ {
+  "w": "settle",
+  "start": 50.5,
+  "end": 50.74
+ },
+ {
+  "w": "for",
+  "start": 50.74,
+  "end": 51.04
+ },
+ {
+  "w": "something",
+  "start": 51.04,
+  "end": 51.42
+ },
+ {
+  "w": "worse.",
+  "start": 51.42,
+  "end": 51.68
+ },
+ {
+  "w": "Want",
+  "start": 51.84,
+  "end": 51.94
+ },
+ {
+  "w": "to",
+  "start": 51.94,
+  "end": 52.02
+ },
+ {
+  "w": "edit",
+  "start": 52.02,
+  "end": 52.14
+ },
+ {
+  "w": "videos?",
+  "start": 52.14,
+  "end": 52.52
+ },
+ {
+  "w": "Pay",
+  "start": 52.68,
+  "end": 52.8
+ },
+ {
+  "w": "for",
+  "start": 52.8,
+  "end": 52.94
+ },
+ {
+  "w": "Premiere",
+  "start": 52.94,
+  "end": 53.18
+ },
+ {
+  "w": "Pro.",
+  "start": 53.18,
+  "end": 53.48
+ },
+ {
+  "w": "Want",
+  "start": 53.6,
+  "end": 53.7
+ },
+ {
+  "w": "to",
+  "start": 53.7,
+  "end": 53.8
+ },
+ {
+  "w": "design",
+  "start": 53.8,
+  "end": 54.06
+ },
+ {
+  "w": "something?",
+  "start": 54.06,
+  "end": 54.44
+ },
+ {
+  "w": "Pay",
+  "start": 54.66,
+  "end": 54.8
+ },
+ {
+  "w": "for",
+  "start": 54.8,
+  "end": 54.94
+ },
+ {
+  "w": "Photoshop.",
+  "start": 54.94,
+  "end": 55.32
+ },
+ {
+  "w": "Need",
+  "start": 55.32,
+  "end": 55.72
+ },
+ {
+  "w": "office",
+  "start": 55.72,
+  "end": 56
+ },
+ {
+  "w": "software?",
+  "start": 56,
+  "end": 56.48
+ },
+ {
+  "w": "Buy",
+  "start": 56.6,
+  "end": 56.72
+ },
+ {
+  "w": "Microsoft",
+  "start": 56.72,
+  "end": 57.12
+ },
+ {
+  "w": "Office",
+  "start": 57.12,
+  "end": 57.58
+ },
+ {
+  "w": "or",
+  "start": 57.72,
+  "end": 57.76
+ },
+ {
+  "w": "get",
+  "start": 57.76,
+  "end": 57.86
+ },
+ {
+  "w": "a",
+  "start": 57.86,
+  "end": 57.94
+ },
+ {
+  "w": "subscription.",
+  "start": 57.94,
+  "end": 58.3
+ },
+ {
+  "w": "But",
+  "start": 58.86,
+  "end": 59.02
+ },
+ {
+  "w": "today,",
+  "start": 59.02,
+  "end": 59.32
+ },
+ {
+  "w": "you",
+  "start": 59.68,
+  "end": 59.84
+ },
+ {
+  "w": "can",
+  "start": 59.84,
+  "end": 60
+ },
+ {
+  "w": "use",
+  "start": 60,
+  "end": 60.14
+ },
+ {
+  "w": "tools",
+  "start": 60.14,
+  "end": 60.34
+ },
+ {
+  "w": "like",
+  "start": 60.34,
+  "end": 60.58
+ },
+ {
+  "w": "DaVinci",
+  "start": 60.58,
+  "end": 60.88
+ },
+ {
+  "w": "Resolve",
+  "start": 60.88,
+  "end": 61.26
+ },
+ {
+  "w": "for",
+  "start": 61.26,
+  "end": 61.48
+ },
+ {
+  "w": "video",
+  "start": 61.48,
+  "end": 61.72
+ },
+ {
+  "w": "editing,",
+  "start": 61.72,
+  "end": 62.02
+ },
+ {
+  "w": "Blender",
+  "start": 62.3,
+  "end": 62.48
+ },
+ {
+  "w": "for",
+  "start": 62.48,
+  "end": 62.7
+ },
+ {
+  "w": "3D,",
+  "start": 62.7,
+  "end": 63.1
+ },
+ {
+  "w": "and",
+  "start": 63.34,
+  "end": 63.44
+ },
+ {
+  "w": "LibreOffice",
+  "start": 63.44,
+  "end": 63.98
+ },
+ {
+  "w": "for",
+  "start": 63.98,
+  "end": 64.12
+ },
+ {
+  "w": "documents",
+  "start": 64.12,
+  "end": 64.5
+ },
+ {
+  "w": "without",
+  "start": 64.5,
+  "end": 64.98
+ },
+ {
+  "w": "paying",
+  "start": 64.98,
+  "end": 65.3
+ },
+ {
+  "w": "for",
+  "start": 65.3,
+  "end": 65.5
+ },
+ {
+  "w": "the",
+  "start": 65.5,
+  "end": 65.6
+ },
+ {
+  "w": "software",
+  "start": 65.6,
+  "end": 66
+ },
+ {
+  "w": "itself.",
+  "start": 66,
+  "end": 66.3
+ },
+ {
+  "w": "And",
+  "start": 66.62,
+  "end": 66.72
+ },
+ {
+  "w": "these",
+  "start": 66.72,
+  "end": 66.86
+ },
+ {
+  "w": "aren't",
+  "start": 66.86,
+  "end": 66.98
+ },
+ {
+  "w": "new",
+  "start": 66.98,
+  "end": 67.12
+ },
+ {
+  "w": "experiments",
+  "start": 67.12,
+  "end": 67.58
+ },
+ {
+  "w": "anymore.",
+  "start": 67.58,
+  "end": 67.86
+ },
+ {
+  "w": "Some",
+  "start": 68.38,
+  "end": 68.54
+ },
+ {
+  "w": "have",
+  "start": 68.54,
+  "end": 68.7
+ },
+ {
+  "w": "been",
+  "start": 68.7,
+  "end": 68.8
+ },
+ {
+  "w": "around",
+  "start": 68.8,
+  "end": 69
+ },
+ {
+  "w": "for",
+  "start": 69,
+  "end": 69.18
+ },
+ {
+  "w": "years",
+  "start": 69.18,
+  "end": 69.44
+ },
+ {
+  "w": "and",
+  "start": 69.44,
+  "end": 69.7
+ },
+ {
+  "w": "are",
+  "start": 69.7,
+  "end": 69.8
+ },
+ {
+  "w": "used",
+  "start": 69.8,
+  "end": 70.04
+ },
+ {
+  "w": "for",
+  "start": 70.04,
+  "end": 70.24
+ },
+ {
+  "w": "serious",
+  "start": 70.24,
+  "end": 70.56
+ },
+ {
+  "w": "work.",
+  "start": 70.56,
+  "end": 70.84
+ },
+ {
+  "w": "Now",
+  "start": 71.16,
+  "end": 71.26
+ },
+ {
+  "w": "AI",
+  "start": 71.26,
+  "end": 71.5
+ },
+ {
+  "w": "is",
+  "start": 71.5,
+  "end": 71.74
+ },
+ {
+  "w": "accelerating",
+  "start": 71.74,
+  "end": 72.08
+ },
+ {
+  "w": "this",
+  "start": 72.08,
+  "end": 72.46
+ },
+ {
+  "w": "even",
+  "start": 72.46,
+  "end": 72.66
+ },
+ {
+  "w": "further.",
+  "start": 72.66,
+  "end": 73
+ },
+ {
+  "w": "Projects",
+  "start": 73.28,
+  "end": 73.58
+ },
+ {
+  "w": "like",
+  "start": 73.58,
+  "end": 73.66
+ },
+ {
+  "w": "ArtCraft",
+  "start": 73.66,
+  "end": 74.04
+ },
+ {
+  "w": "are",
+  "start": 74.04,
+  "end": 74.2
+ },
+ {
+  "w": "using",
+  "start": 74.2,
+  "end": 74.38
+ },
+ {
+  "w": "AI-assisted",
+  "start": 74.66,
+  "end": 74.98
+ },
+ {
+  "w": "development",
+  "start": 74.98,
+  "end": 75.42
+ },
+ {
+  "w": "to",
+  "start": 75.42,
+  "end": 75.74
+ },
+ {
+  "w": "recreate",
+  "start": 75.74,
+  "end": 76.12
+ },
+ {
+  "w": "expensive",
+  "start": 76.12,
+  "end": 76.72
+ },
+ {
+  "w": "applications.",
+  "start": 76.72,
+  "end": 77.28
+ },
+ {
+  "w": "Developers",
+  "start": 77.7,
+  "end": 78.18
+ },
+ {
+  "w": "can",
+  "start": 78.18,
+  "end": 78.32
+ },
+ {
+  "w": "also",
+  "start": 78.32,
+  "end": 78.6
+ },
+ {
+  "w": "build",
+  "start": 78.6,
+  "end": 78.9
+ },
+ {
+  "w": "their",
+  "start": 78.9,
+  "end": 79.1
+ },
+ {
+  "w": "own",
+  "start": 79.1,
+  "end": 79.28
+ },
+ {
+  "w": "tools",
+  "start": 79.28,
+  "end": 79.64
+ },
+ {
+  "w": "instead",
+  "start": 79.64,
+  "end": 79.96
+ },
+ {
+  "w": "of",
+  "start": 79.96,
+  "end": 80.14
+ },
+ {
+  "w": "waiting",
+  "start": 80.14,
+  "end": 80.3
+ },
+ {
+  "w": "for",
+  "start": 80.3,
+  "end": 80.52
+ },
+ {
+  "w": "a",
+  "start": 80.52,
+  "end": 80.64
+ },
+ {
+  "w": "company",
+  "start": 80.64,
+  "end": 80.86
+ },
+ {
+  "w": "to",
+  "start": 80.86,
+  "end": 81.04
+ },
+ {
+  "w": "add",
+  "start": 81.04,
+  "end": 81.24
+ },
+ {
+  "w": "a",
+  "start": 81.24,
+  "end": 81.34
+ },
+ {
+  "w": "feature",
+  "start": 81.34,
+  "end": 81.56
+ },
+ {
+  "w": "or",
+  "start": 81.56,
+  "end": 81.82
+ },
+ {
+  "w": "charging",
+  "start": 81.82,
+  "end": 82.12
+ },
+ {
+  "w": "them",
+  "start": 82.12,
+  "end": 82.36
+ },
+ {
+  "w": "for",
+  "start": 82.36,
+  "end": 82.56
+ },
+ {
+  "w": "an",
+  "start": 82.56,
+  "end": 82.64
+ },
+ {
+  "w": "entire",
+  "start": 82.64,
+  "end": 82.9
+ },
+ {
+  "w": "subscription",
+  "start": 82.9,
+  "end": 83.46
+ },
+ {
+  "w": "just",
+  "start": 83.46,
+  "end": 83.82
+ },
+ {
+  "w": "to",
+  "start": 83.82,
+  "end": 84
+ },
+ {
+  "w": "get",
+  "start": 84,
+  "end": 84.14
+ },
+ {
+  "w": "it.",
+  "start": 84.14,
+  "end": 84.28
+ },
+ {
+  "w": "And",
+  "start": 84.28,
+  "end": 84.56
+ },
+ {
+  "w": "if",
+  "start": 84.56,
+  "end": 84.68
+ },
+ {
+  "w": "an",
+  "start": 84.68,
+  "end": 84.76
+ },
+ {
+  "w": "open-source",
+  "start": 84.76,
+  "end": 84.92
+ },
+ {
+  "w": "alternative",
+  "start": 85.16,
+  "end": 85.74
+ },
+ {
+  "w": "does",
+  "start": 85.74,
+  "end": 86.02
+ },
+ {
+  "w": "90%",
+  "start": 86.02,
+  "end": 86.28
+ },
+ {
+  "w": "of",
+  "start": 86.58,
+  "end": 86.72
+ },
+ {
+  "w": "what",
+  "start": 86.72,
+  "end": 86.82
+ },
+ {
+  "w": "you",
+  "start": 86.82,
+  "end": 86.94
+ },
+ {
+  "w": "need,",
+  "start": 86.94,
+  "end": 87.14
+ },
+ {
+  "w": "paying",
+  "start": 87.28,
+  "end": 87.48
+ },
+ {
+  "w": "hundreds",
+  "start": 87.48,
+  "end": 87.84
+ },
+ {
+  "w": "of",
+  "start": 87.84,
+  "end": 88.02
+ },
+ {
+  "w": "dollars",
+  "start": 88.02,
+  "end": 88.24
+ },
+ {
+  "w": "a",
+  "start": 88.24,
+  "end": 88.42
+ },
+ {
+  "w": "year",
+  "start": 88.42,
+  "end": 88.58
+ },
+ {
+  "w": "for",
+  "start": 88.58,
+  "end": 88.76
+ },
+ {
+  "w": "the",
+  "start": 88.76,
+  "end": 88.86
+ },
+ {
+  "w": "original",
+  "start": 88.86,
+  "end": 89.18
+ },
+ {
+  "w": "becomes",
+  "start": 89.18,
+  "end": 89.64
+ },
+ {
+  "w": "nonsense.",
+  "start": 89.64,
+  "end": 90.04
+ },
+ {
+  "w": "But",
+  "start": 90.42,
+  "end": 90.5
+ },
+ {
+  "w": "software",
+  "start": 90.5,
+  "end": 90.8
+ },
+ {
+  "w": "is",
+  "start": 90.8,
+  "end": 91.18
+ },
+ {
+  "w": "only",
+  "start": 91.18,
+  "end": 91.44
+ },
+ {
+  "w": "half",
+  "start": 91.44,
+  "end": 91.72
+ },
+ {
+  "w": "of",
+  "start": 91.72,
+  "end": 91.86
+ },
+ {
+  "w": "the",
+  "start": 91.86,
+  "end": 91.92
+ },
+ {
+  "w": "story.",
+  "start": 91.92,
+  "end": 92.2
+ },
+ {
+  "w": "A",
+  "start": 92.52,
+  "end": 92.6
+ },
+ {
+  "w": "few",
+  "start": 92.6,
+  "end": 92.72
+ },
+ {
+  "w": "years",
+  "start": 92.72,
+  "end": 92.9
+ },
+ {
+  "w": "ago,",
+  "start": 92.9,
+  "end": 93.1
+ },
+ {
+  "w": "generating",
+  "start": 93.2,
+  "end": 93.42
+ },
+ {
+  "w": "high-quality",
+  "start": 93.42,
+  "end": 93.78
+ },
+ {
+  "w": "images,",
+  "start": 94,
+  "end": 94.48
+ },
+ {
+  "w": "realistic",
+  "start": 94.68,
+  "end": 94.86
+ },
+ {
+  "w": "voices,",
+  "start": 94.86,
+  "end": 95.48
+ },
+ {
+  "w": "or",
+  "start": 95.6,
+  "end": 95.68
+ },
+ {
+  "w": "useful",
+  "start": 95.68,
+  "end": 95.94
+ },
+ {
+  "w": "AI",
+  "start": 95.94,
+  "end": 96.22
+ },
+ {
+  "w": "responses",
+  "start": 96.22,
+  "end": 96.74
+ },
+ {
+  "w": "usually",
+  "start": 96.74,
+  "end": 97.2
+ },
+ {
+  "w": "meant",
+  "start": 97.2,
+  "end": 97.46
+ },
+ {
+  "w": "relying",
+  "start": 97.46,
+  "end": 97.76
+ },
+ {
+  "w": "on",
+  "start": 97.76,
+  "end": 97.94
+ },
+ {
+  "w": "a",
+  "start": 97.94,
+  "end": 98.02
+ },
+ {
+  "w": "handful",
+  "start": 98.02,
+  "end": 98.3
+ },
+ {
+  "w": "of",
+  "start": 98.3,
+  "end": 98.46
+ },
+ {
+  "w": "major",
+  "start": 98.46,
+  "end": 98.66
+ },
+ {
+  "w": "companies.",
+  "start": 98.66,
+  "end": 99.08
+ },
+ {
+  "w": "Now,",
+  "start": 99.42,
+  "end": 99.56
+ },
+ {
+  "w": "there",
+  "start": 99.64,
+  "end": 99.74
+ },
+ {
+  "w": "are",
+  "start": 99.74,
+  "end": 99.82
+ },
+ {
+  "w": "open",
+  "start": 99.82,
+  "end": 100.02
+ },
+ {
+  "w": "models",
+  "start": 100.02,
+  "end": 100.3
+ },
+ {
+  "w": "for",
+  "start": 100.3,
+  "end": 100.52
+ },
+ {
+  "w": "all",
+  "start": 100.52,
+  "end": 100.66
+ },
+ {
+  "w": "of",
+  "start": 100.66,
+  "end": 100.76
+ },
+ {
+  "w": "these",
+  "start": 100.76,
+  "end": 100.86
+ },
+ {
+  "w": "things.",
+  "start": 100.86,
+  "end": 101.14
+ },
+ {
+  "w": "You",
+  "start": 101.5,
+  "end": 101.62
+ },
+ {
+  "w": "can",
+  "start": 101.62,
+  "end": 101.76
+ },
+ {
+  "w": "generate",
+  "start": 101.76,
+  "end": 102.08
+ },
+ {
+  "w": "images",
+  "start": 102.08,
+  "end": 102.46
+ },
+ {
+  "w": "with",
+  "start": 102.46,
+  "end": 102.72
+ },
+ {
+  "w": "models",
+  "start": 102.72,
+  "end": 102.98
+ },
+ {
+  "w": "like",
+  "start": 102.98,
+  "end": 103.22
+ },
+ {
+  "w": "Krea,",
+  "start": 103.22,
+  "end": 103.5
+ },
+ {
+  "w": "and",
+  "start": 103.48,
+  "end": 103.8
+ },
+ {
+  "w": "use",
+  "start": 103.8,
+  "end": 103.96
+ },
+ {
+  "w": "projects",
+  "start": 103.96,
+  "end": 104.28
+ },
+ {
+  "w": "like",
+  "start": 104.28,
+  "end": 104.56
+ },
+ {
+  "w": "Kokoro",
+  "start": 104.56,
+  "end": 104.94
+ },
+ {
+  "w": "for",
+  "start": 104.94,
+  "end": 105.26
+ },
+ {
+  "w": "text-to-speech.",
+  "start": 105.26,
+  "end": 105.56
+ },
+ {
+  "w": "And",
+  "start": 106.16,
+  "end": 106.26
+ },
+ {
+  "w": "you",
+  "start": 106.26,
+  "end": 106.34
+ },
+ {
+  "w": "don't",
+  "start": 106.34,
+  "end": 106.46
+ },
+ {
+  "w": "necessarily",
+  "start": 106.46,
+  "end": 106.76
+ },
+ {
+  "w": "need",
+  "start": 106.76,
+  "end": 107.2
+ },
+ {
+  "w": "an",
+  "start": 107.2,
+  "end": 107.32
+ },
+ {
+  "w": "expensive",
+  "start": 107.32,
+  "end": 107.68
+ },
+ {
+  "w": "workstation",
+  "start": 107.68,
+  "end": 108.34
+ },
+ {
+  "w": "or",
+  "start": 108.34,
+  "end": 108.64
+ },
+ {
+  "w": "a",
+  "start": 108.64,
+  "end": 108.76
+ },
+ {
+  "w": "cloud",
+  "start": 108.76,
+  "end": 108.98
+ },
+ {
+  "w": "subscription",
+  "start": 108.98,
+  "end": 109.36
+ },
+ {
+  "w": "for",
+  "start": 109.36,
+  "end": 109.74
+ },
+ {
+  "w": "every",
+  "start": 109.74,
+  "end": 109.98
+ },
+ {
+  "w": "task.",
+  "start": 109.98,
+  "end": 110.34
+ },
+ {
+  "w": "Smaller",
+  "start": 110.58,
+  "end": 110.92
+ },
+ {
+  "w": "models",
+  "start": 110.92,
+  "end": 111.2
+ },
+ {
+  "w": "can",
+  "start": 111.2,
+  "end": 111.48
+ },
+ {
+  "w": "run",
+  "start": 111.48,
+  "end": 111.66
+ },
+ {
+  "w": "on",
+  "start": 111.66,
+  "end": 111.8
+ },
+ {
+  "w": "ordinary",
+  "start": 111.8,
+  "end": 112.18
+ },
+ {
+  "w": "consumer",
+  "start": 112.18,
+  "end": 112.56
+ },
+ {
+  "w": "hardware,",
+  "start": 112.56,
+  "end": 112.98
+ },
+ {
+  "w": "depending",
+  "start": 112.98,
+  "end": 113.22
+ },
+ {
+  "w": "on",
+  "start": 113.22,
+  "end": 113.44
+ },
+ {
+  "w": "their",
+  "start": 113.44,
+  "end": 113.58
+ },
+ {
+  "w": "size",
+  "start": 113.58,
+  "end": 113.88
+ },
+ {
+  "w": "and",
+  "start": 113.88,
+  "end": 114.06
+ },
+ {
+  "w": "the",
+  "start": 114.06,
+  "end": 114.14
+ },
+ {
+  "w": "memory",
+  "start": 114.14,
+  "end": 114.36
+ },
+ {
+  "w": "available.",
+  "start": 114.36,
+  "end": 114.78
+ },
+ {
+  "w": "The",
+  "start": 115.04,
+  "end": 115.14
+ },
+ {
+  "w": "biggest",
+  "start": 115.14,
+  "end": 115.32
+ },
+ {
+  "w": "change",
+  "start": 115.32,
+  "end": 115.7
+ },
+ {
+  "w": "is",
+  "start": 115.7,
+  "end": 116
+ },
+ {
+  "w": "that",
+  "start": 116,
+  "end": 116.16
+ },
+ {
+  "w": "you're",
+  "start": 116.16,
+  "end": 116.3
+ },
+ {
+  "w": "no",
+  "start": 116.3,
+  "end": 116.44
+ },
+ {
+  "w": "longer",
+  "start": 116.44,
+  "end": 116.7
+ },
+ {
+  "w": "limited",
+  "start": 116.7,
+  "end": 116.98
+ },
+ {
+  "w": "to",
+  "start": 116.98,
+  "end": 117.18
+ },
+ {
+  "w": "whatever",
+  "start": 117.18,
+  "end": 117.36
+ },
+ {
+  "w": "a",
+  "start": 117.36,
+  "end": 117.6
+ },
+ {
+  "w": "company",
+  "start": 117.6,
+  "end": 117.8
+ },
+ {
+  "w": "decides",
+  "start": 117.8,
+  "end": 118.18
+ },
+ {
+  "w": "to",
+  "start": 118.18,
+  "end": 118.44
+ },
+ {
+  "w": "offer.",
+  "start": 118.44,
+  "end": 118.68
+ },
+ {
+  "w": "You",
+  "start": 119.04,
+  "end": 119.08
+ },
+ {
+  "w": "can",
+  "start": 119.08,
+  "end": 119.22
+ },
+ {
+  "w": "download",
+  "start": 119.22,
+  "end": 119.5
+ },
+ {
+  "w": "a",
+  "start": 119.5,
+  "end": 119.64
+ },
+ {
+  "w": "model,",
+  "start": 119.64,
+  "end": 119.92
+ },
+ {
+  "w": "run",
+  "start": 120.26,
+  "end": 120.4
+ },
+ {
+  "w": "it",
+  "start": 120.4,
+  "end": 120.5
+ },
+ {
+  "w": "locally,",
+  "start": 120.5,
+  "end": 120.84
+ },
+ {
+  "w": "connect",
+  "start": 121.22,
+  "end": 121.32
+ },
+ {
+  "w": "it",
+  "start": 121.32,
+  "end": 121.54
+ },
+ {
+  "w": "to",
+  "start": 121.54,
+  "end": 121.64
+ },
+ {
+  "w": "your",
+  "start": 121.64,
+  "end": 121.76
+ },
+ {
+  "w": "own",
+  "start": 121.76,
+  "end": 121.92
+ },
+ {
+  "w": "applications,",
+  "start": 121.92,
+  "end": 122.36
+ },
+ {
+  "w": "and",
+  "start": 122.68,
+  "end": 122.76
+ },
+ {
+  "w": "build",
+  "start": 122.76,
+  "end": 122.96
+ },
+ {
+  "w": "something",
+  "start": 122.96,
+  "end": 123.24
+ },
+ {
+  "w": "around",
+  "start": 123.24,
+  "end": 123.52
+ },
+ {
+  "w": "it.",
+  "start": 123.52,
+  "end": 123.74
+ },
+ {
+  "w": "If",
+  "start": 123.88,
+  "end": 123.98
+ },
+ {
+  "w": "a",
+  "start": 123.98,
+  "end": 124.08
+ },
+ {
+  "w": "company",
+  "start": 124.08,
+  "end": 124.24
+ },
+ {
+  "w": "changes",
+  "start": 124.24,
+  "end": 124.58
+ },
+ {
+  "w": "its",
+  "start": 124.58,
+  "end": 124.76
+ },
+ {
+  "w": "prices,",
+  "start": 124.76,
+  "end": 125.12
+ },
+ {
+  "w": "removes",
+  "start": 125.46,
+  "end": 125.68
+ },
+ {
+  "w": "a",
+  "start": 125.68,
+  "end": 125.9
+ },
+ {
+  "w": "feature,",
+  "start": 125.9,
+  "end": 126.1
+ },
+ {
+  "w": "or",
+  "start": 126.42,
+  "end": 126.58
+ },
+ {
+  "w": "shuts",
+  "start": 126.58,
+  "end": 126.76
+ },
+ {
+  "w": "down",
+  "start": 126.76,
+  "end": 127
+ },
+ {
+  "w": "a",
+  "start": 127,
+  "end": 127.1
+ },
+ {
+  "w": "service,",
+  "start": 127.1,
+  "end": 127.38
+ },
+ {
+  "w": "you",
+  "start": 127.66,
+  "end": 127.74
+ },
+ {
+  "w": "may",
+  "start": 127.74,
+  "end": 127.86
+ },
+ {
+  "w": "have",
+  "start": 127.86,
+  "end": 128.06
+ },
+ {
+  "w": "another",
+  "start": 128.06,
+  "end": 128.2
+ },
+ {
+  "w": "option.",
+  "start": 128.2,
+  "end": 128.6
+ },
+ {
+  "w": "That's",
+  "start": 128.94,
+  "end": 129.14
+ },
+ {
+  "w": "a",
+  "start": 129.14,
+  "end": 129.2
+ },
+ {
+  "w": "big",
+  "start": 129.2,
+  "end": 129.3
+ },
+ {
+  "w": "deal.",
+  "start": 129.3,
+  "end": 129.52
+ },
+ {
+  "w": "And",
+  "start": 129.86,
+  "end": 129.98
+ },
+ {
+  "w": "if",
+  "start": 129.98,
+  "end": 130.08
+ },
+ {
+  "w": "you're",
+  "start": 130.08,
+  "end": 130.24
+ },
+ {
+  "w": "into",
+  "start": 130.24,
+  "end": 130.4
+ },
+ {
+  "w": "AI",
+  "start": 130.4,
+  "end": 130.62
+ },
+ {
+  "w": "and",
+  "start": 130.62,
+  "end": 130.86
+ },
+ {
+  "w": "tech,",
+  "start": 130.86,
+  "end": 131
+ },
+ {
+  "w": "subscribe",
+  "start": 131.14,
+  "end": 131.36
+ },
+ {
+  "w": "to",
+  "start": 131.36,
+  "end": 131.62
+ },
+ {
+  "w": "VantaBrief.",
+  "start": 131.62,
+  "end": 131.9
+ },
+ {
+  "w": "I",
+  "start": 132.28,
+  "end": 132.36
+ },
+ {
+  "w": "cover",
+  "start": 132.36,
+  "end": 132.54
+ },
+ {
+  "w": "the",
+  "start": 132.54,
+  "end": 132.7
+ },
+ {
+  "w": "tools",
+  "start": 132.7,
+  "end": 132.96
+ },
+ {
+  "w": "and",
+  "start": 132.96,
+  "end": 133.14
+ },
+ {
+  "w": "developments",
+  "start": 133.14,
+  "end": 133.44
+ },
+ {
+  "w": "that",
+  "start": 133.44,
+  "end": 133.72
+ },
+ {
+  "w": "are",
+  "start": 133.72,
+  "end": 133.82
+ },
+ {
+  "w": "actually",
+  "start": 133.82,
+  "end": 134.16
+ },
+ {
+  "w": "changing",
+  "start": 134.16,
+  "end": 134.54
+ },
+ {
+  "w": "how",
+  "start": 134.54,
+  "end": 134.78
+ },
+ {
+  "w": "we",
+  "start": 134.78,
+  "end": 134.92
+ },
+ {
+  "w": "use",
+  "start": 134.92,
+  "end": 135.04
+ },
+ {
+  "w": "technology.",
+  "start": 135.04,
+  "end": 135.52
+ },
+ {
+  "w": "But",
+  "start": 135.86,
+  "end": 136
+ },
+ {
+  "w": "this",
+  "start": 136,
+  "end": 136.14
+ },
+ {
+  "w": "freedom",
+  "start": 136.14,
+  "end": 136.36
+ },
+ {
+  "w": "creates",
+  "start": 136.36,
+  "end": 136.76
+ },
+ {
+  "w": "a",
+  "start": 136.76,
+  "end": 136.94
+ },
+ {
+  "w": "problem",
+  "start": 136.94,
+  "end": 137.22
+ },
+ {
+  "w": "for",
+  "start": 137.22,
+  "end": 137.5
+ },
+ {
+  "w": "companies",
+  "start": 137.5,
+  "end": 137.8
+ },
+ {
+  "w": "that",
+  "start": 137.8,
+  "end": 138.06
+ },
+ {
+  "w": "have",
+  "start": 138.06,
+  "end": 138.2
+ },
+ {
+  "w": "built",
+  "start": 138.2,
+  "end": 138.44
+ },
+ {
+  "w": "their",
+  "start": 138.44,
+  "end": 138.6
+ },
+ {
+  "w": "businesses",
+  "start": 138.6,
+  "end": 138.98
+ },
+ {
+  "w": "around",
+  "start": 138.98,
+  "end": 139.38
+ },
+ {
+  "w": "selling",
+  "start": 139.38,
+  "end": 139.7
+ },
+ {
+  "w": "software.",
+  "start": 139.7,
+  "end": 140.2
+ },
+ {
+  "w": "So,",
+  "start": 140.34,
+  "end": 140.5
+ },
+ {
+  "w": "how",
+  "start": 140.5,
+  "end": 140.72
+ },
+ {
+  "w": "do",
+  "start": 140.72,
+  "end": 140.8
+ },
+ {
+  "w": "open-source",
+  "start": 140.8,
+  "end": 141
+ },
+ {
+  "w": "developers",
+  "start": 141.24,
+  "end": 141.82
+ },
+ {
+  "w": "make",
+  "start": 141.82,
+  "end": 142.18
+ },
+ {
+  "w": "money?",
+  "start": 142.18,
+  "end": 142.52
+ },
+ {
+  "w": "Because",
+  "start": 142.52,
+  "end": 142.84
+ },
+ {
+  "w": "here's",
+  "start": 142.84,
+  "end": 143.12
+ },
+ {
+  "w": "the",
+  "start": 143.12,
+  "end": 143.24
+ },
+ {
+  "w": "thing:",
+  "start": 143.24,
+  "end": 143.44
+ },
+ {
+  "w": "making",
+  "start": 143.6,
+  "end": 143.74
+ },
+ {
+  "w": "software",
+  "start": 143.74,
+  "end": 144.2
+ },
+ {
+  "w": "isn't",
+  "start": 144.2,
+  "end": 144.54
+ },
+ {
+  "w": "free,",
+  "start": 144.54,
+  "end": 144.82
+ },
+ {
+  "w": "even",
+  "start": 144.82,
+  "end": 145.12
+ },
+ {
+  "w": "when",
+  "start": 145.12,
+  "end": 145.28
+ },
+ {
+  "w": "downloading",
+  "start": 145.28,
+  "end": 145.66
+ },
+ {
+  "w": "it",
+  "start": 145.66,
+  "end": 145.92
+ },
+ {
+  "w": "is.",
+  "start": 145.92,
+  "end": 146.12
+ },
+ {
+  "w": "Developers",
+  "start": 146.34,
+  "end": 146.74
+ },
+ {
+  "w": "still",
+  "start": 146.74,
+  "end": 146.96
+ },
+ {
+  "w": "need",
+  "start": 146.96,
+  "end": 147.12
+ },
+ {
+  "w": "time,",
+  "start": 147.12,
+  "end": 147.42
+ },
+ {
+  "w": "hardware,",
+  "start": 147.62,
+  "end": 147.84
+ },
+ {
+  "w": "and",
+  "start": 148.04,
+  "end": 148.14
+ },
+ {
+  "w": "money",
+  "start": 148.14,
+  "end": 148.38
+ },
+ {
+  "w": "to",
+  "start": 148.38,
+  "end": 148.64
+ },
+ {
+  "w": "maintain",
+  "start": 148.64,
+  "end": 149
+ },
+ {
+  "w": "their",
+  "start": 149,
+  "end": 149.26
+ },
+ {
+  "w": "projects.",
+  "start": 149.26,
+  "end": 149.74
+ },
+ {
+  "w": "And",
+  "start": 150.06,
+  "end": 150.2
+ },
+ {
+  "w": "successful",
+  "start": 150.2,
+  "end": 150.58
+ },
+ {
+  "w": "open-source",
+  "start": 150.58,
+  "end": 150.92
+ },
+ {
+  "w": "businesses",
+  "start": 151.1,
+  "end": 151.58
+ },
+ {
+  "w": "have",
+  "start": 151.58,
+  "end": 151.78
+ },
+ {
+  "w": "figured",
+  "start": 151.78,
+  "end": 151.98
+ },
+ {
+  "w": "out",
+  "start": 151.98,
+  "end": 152.18
+ },
+ {
+  "w": "how",
+  "start": 152.18,
+  "end": 152.38
+ },
+ {
+  "w": "to",
+  "start": 152.38,
+  "end": 152.48
+ },
+ {
+  "w": "make",
+  "start": 152.48,
+  "end": 152.66
+ },
+ {
+  "w": "money",
+  "start": 152.66,
+  "end": 152.94
+ },
+ {
+  "w": "without",
+  "start": 152.94,
+  "end": 153.28
+ },
+ {
+  "w": "charging",
+  "start": 153.28,
+  "end": 153.68
+ },
+ {
+  "w": "everyone",
+  "start": 153.68,
+  "end": 154
+ },
+ {
+  "w": "for",
+  "start": 154,
+  "end": 154.24
+ },
+ {
+  "w": "the",
+  "start": 154.24,
+  "end": 154.32
+ },
+ {
+  "w": "basic",
+  "start": 154.32,
+  "end": 154.56
+ },
+ {
+  "w": "software.",
+  "start": 154.56,
+  "end": 155.08
+ },
+ {
+  "w": "The",
+  "start": 155.32,
+  "end": 155.38
+ },
+ {
+  "w": "first",
+  "start": 155.38,
+  "end": 155.54
+ },
+ {
+  "w": "model",
+  "start": 155.54,
+  "end": 155.86
+ },
+ {
+  "w": "is",
+  "start": 155.86,
+  "end": 156.04
+ },
+ {
+  "w": "paid",
+  "start": 156.04,
+  "end": 156.22
+ },
+ {
+  "w": "convenience.",
+  "start": 156.22,
+  "end": 156.72
+ },
+ {
+  "w": "Take",
+  "start": 157.18,
+  "end": 157.3
+ },
+ {
+  "w": "an",
+  "start": 157.3,
+  "end": 157.42
+ },
+ {
+  "w": "open-source",
+  "start": 157.42,
+  "end": 157.56
+ },
+ {
+  "w": "project",
+  "start": 157.74,
+  "end": 158.18
+ },
+ {
+  "w": "and",
+  "start": 158.18,
+  "end": 158.52
+ },
+ {
+  "w": "let",
+  "start": 158.52,
+  "end": 158.66
+ },
+ {
+  "w": "people",
+  "start": 158.66,
+  "end": 158.9
+ },
+ {
+  "w": "use",
+  "start": 158.9,
+  "end": 159.14
+ },
+ {
+  "w": "it",
+  "start": 159.14,
+  "end": 159.24
+ },
+ {
+  "w": "for",
+  "start": 159.24,
+  "end": 159.4
+ },
+ {
+  "w": "free.",
+  "start": 159.4,
+  "end": 159.66
+ },
+ {
+  "w": "Then",
+  "start": 159.82,
+  "end": 159.98
+ },
+ {
+  "w": "charge",
+  "start": 159.98,
+  "end": 160.2
+ },
+ {
+  "w": "for",
+  "start": 160.2,
+  "end": 160.44
+ },
+ {
+  "w": "hosting,",
+  "start": 160.44,
+  "end": 160.74
+ },
+ {
+  "w": "cloud",
+  "start": 161.02,
+  "end": 161.22
+ },
+ {
+  "w": "access,",
+  "start": 161.22,
+  "end": 161.58
+ },
+ {
+  "w": "automatic",
+  "start": 161.9,
+  "end": 162.18
+ },
+ {
+  "w": "updates,",
+  "start": 162.18,
+  "end": 162.74
+ },
+ {
+  "w": "or",
+  "start": 162.96,
+  "end": 163.1
+ },
+ {
+  "w": "the",
+  "start": 163.1,
+  "end": 163.22
+ },
+ {
+  "w": "infrastructure",
+  "start": 163.22,
+  "end": 163.56
+ },
+ {
+  "w": "needed",
+  "start": 163.56,
+  "end": 163.98
+ },
+ {
+  "w": "to",
+  "start": 163.98,
+  "end": 164.18
+ },
+ {
+  "w": "run",
+  "start": 164.18,
+  "end": 164.36
+ },
+ {
+  "w": "it.",
+  "start": 164.36,
+  "end": 164.48
+ },
+ {
+  "w": "The",
+  "start": 164.54,
+  "end": 164.64
+ },
+ {
+  "w": "second",
+  "start": 164.64,
+  "end": 164.86
+ },
+ {
+  "w": "is",
+  "start": 164.86,
+  "end": 165.08
+ },
+ {
+  "w": "enterprise",
+  "start": 165.08,
+  "end": 165.38
+ },
+ {
+  "w": "features",
+  "start": 165.38,
+  "end": 165.78
+ },
+ {
+  "w": "and",
+  "start": 165.78,
+  "end": 166.04
+ },
+ {
+  "w": "support.",
+  "start": 166.04,
+  "end": 166.34
+ },
+ {
+  "w": "A",
+  "start": 166.58,
+  "end": 166.7
+ },
+ {
+  "w": "regular",
+  "start": 166.7,
+  "end": 166.9
+ },
+ {
+  "w": "user",
+  "start": 166.9,
+  "end": 167.24
+ },
+ {
+  "w": "might",
+  "start": 167.24,
+  "end": 167.5
+ },
+ {
+  "w": "be",
+  "start": 167.5,
+  "end": 167.66
+ },
+ {
+  "w": "happy",
+  "start": 167.66,
+  "end": 167.9
+ },
+ {
+  "w": "with",
+  "start": 167.9,
+  "end": 168.08
+ },
+ {
+  "w": "the",
+  "start": 168.08,
+  "end": 168.22
+ },
+ {
+  "w": "free",
+  "start": 168.22,
+  "end": 168.34
+ },
+ {
+  "w": "version.",
+  "start": 168.34,
+  "end": 168.66
+ },
+ {
+  "w": "But",
+  "start": 168.8,
+  "end": 168.88
+ },
+ {
+  "w": "a",
+  "start": 168.88,
+  "end": 169
+ },
+ {
+  "w": "company",
+  "start": 169,
+  "end": 169.22
+ },
+ {
+  "w": "managing",
+  "start": 169.22,
+  "end": 169.66
+ },
+ {
+  "w": "thousands",
+  "start": 169.66,
+  "end": 170
+ },
+ {
+  "w": "of",
+  "start": 170,
+  "end": 170.22
+ },
+ {
+  "w": "employees",
+  "start": 170.22,
+  "end": 170.66
+ },
+ {
+  "w": "may",
+  "start": 170.66,
+  "end": 170.92
+ },
+ {
+  "w": "need",
+  "start": 170.92,
+  "end": 171.12
+ },
+ {
+  "w": "advanced",
+  "start": 171.12,
+  "end": 171.42
+ },
+ {
+  "w": "security,",
+  "start": 171.42,
+  "end": 171.96
+ },
+ {
+  "w": "access",
+  "start": 172.32,
+  "end": 172.58
+ },
+ {
+  "w": "controls,",
+  "start": 172.58,
+  "end": 173.08
+ },
+ {
+  "w": "compliance",
+  "start": 173.28,
+  "end": 173.54
+ },
+ {
+  "w": "tools,",
+  "start": 173.54,
+  "end": 173.9
+ },
+ {
+  "w": "and",
+  "start": 174.06,
+  "end": 174.12
+ },
+ {
+  "w": "someone",
+  "start": 174.12,
+  "end": 174.3
+ },
+ {
+  "w": "to",
+  "start": 174.3,
+  "end": 174.44
+ },
+ {
+  "w": "call",
+  "start": 174.44,
+  "end": 174.62
+ },
+ {
+  "w": "when",
+  "start": 174.62,
+  "end": 174.78
+ },
+ {
+  "w": "something",
+  "start": 174.78,
+  "end": 175.06
+ },
+ {
+  "w": "breaks.",
+  "start": 175.06,
+  "end": 175.42
+ },
+ {
+  "w": "The",
+  "start": 175.78,
+  "end": 175.86
+ },
+ {
+  "w": "third",
+  "start": 175.86,
+  "end": 176.06
+ },
+ {
+  "w": "is",
+  "start": 176.06,
+  "end": 176.2
+ },
+ {
+  "w": "selling",
+  "start": 176.2,
+  "end": 176.4
+ },
+ {
+  "w": "services.",
+  "start": 176.4,
+  "end": 176.86
+ },
+ {
+  "w": "Companies",
+  "start": 177.14,
+  "end": 177.36
+ },
+ {
+  "w": "can",
+  "start": 177.36,
+  "end": 177.56
+ },
+ {
+  "w": "build",
+  "start": 177.56,
+  "end": 177.76
+ },
+ {
+  "w": "open-source",
+  "start": 177.76,
+  "end": 177.94
+ },
+ {
+  "w": "software",
+  "start": 178.14,
+  "end": 178.66
+ },
+ {
+  "w": "and",
+  "start": 178.66,
+  "end": 178.98
+ },
+ {
+  "w": "then",
+  "start": 178.98,
+  "end": 179.1
+ },
+ {
+  "w": "charge",
+  "start": 179.1,
+  "end": 179.38
+ },
+ {
+  "w": "for",
+  "start": 179.38,
+  "end": 179.58
+ },
+ {
+  "w": "installation,",
+  "start": 179.58,
+  "end": 180.08
+ },
+ {
+  "w": "customization,",
+  "start": 180.36,
+  "end": 180.68
+ },
+ {
+  "w": "consulting,",
+  "start": 181.4,
+  "end": 181.64
+ },
+ {
+  "w": "and",
+  "start": 181.86,
+  "end": 181.92
+ },
+ {
+  "w": "maintenance.",
+  "start": 181.92,
+  "end": 182.18
+ },
+ {
+  "w": "And",
+  "start": 182.68,
+  "end": 182.8
+ },
+ {
+  "w": "some",
+  "start": 182.8,
+  "end": 183
+ },
+ {
+  "w": "projects",
+  "start": 183,
+  "end": 183.34
+ },
+ {
+  "w": "survive",
+  "start": 183.34,
+  "end": 183.88
+ },
+ {
+  "w": "through",
+  "start": 183.88,
+  "end": 184.18
+ },
+ {
+  "w": "sponsorships,",
+  "start": 184.18,
+  "end": 184.96
+ },
+ {
+  "w": "donations,",
+  "start": 185.08,
+  "end": 185.28
+ },
+ {
+  "w": "or",
+  "start": 185.64,
+  "end": 185.78
+ },
+ {
+  "w": "funding",
+  "start": 185.78,
+  "end": 186.12
+ },
+ {
+  "w": "from",
+  "start": 186.12,
+  "end": 186.4
+ },
+ {
+  "w": "companies",
+  "start": 186.4,
+  "end": 186.78
+ },
+ {
+  "w": "that",
+  "start": 186.78,
+  "end": 187
+ },
+ {
+  "w": "depend",
+  "start": 187,
+  "end": 187.22
+ },
+ {
+  "w": "on",
+  "start": 187.22,
+  "end": 187.44
+ },
+ {
+  "w": "them.",
+  "start": 187.44,
+  "end": 187.62
+ },
+ {
+  "w": "So",
+  "start": 187.86,
+  "end": 187.94
+ },
+ {
+  "w": "the",
+  "start": 187.94,
+  "end": 188.04
+ },
+ {
+  "w": "software",
+  "start": 188.04,
+  "end": 188.36
+ },
+ {
+  "w": "can",
+  "start": 188.36,
+  "end": 188.58
+ },
+ {
+  "w": "be",
+  "start": 188.58,
+  "end": 188.72
+ },
+ {
+  "w": "free",
+  "start": 188.72,
+  "end": 189.04
+ },
+ {
+  "w": "while",
+  "start": 189.04,
+  "end": 189.28
+ },
+ {
+  "w": "the",
+  "start": 189.28,
+  "end": 189.4
+ },
+ {
+  "w": "business",
+  "start": 189.4,
+  "end": 189.64
+ },
+ {
+  "w": "around",
+  "start": 189.64,
+  "end": 189.96
+ },
+ {
+  "w": "it",
+  "start": 189.96,
+  "end": 190.18
+ },
+ {
+  "w": "still",
+  "start": 190.18,
+  "end": 190.46
+ },
+ {
+  "w": "makes",
+  "start": 190.46,
+  "end": 190.68
+ },
+ {
+  "w": "money.",
+  "start": 190.68,
+  "end": 191
+ },
+ {
+  "w": "But",
+  "start": 191.24,
+  "end": 191.38
+ },
+ {
+  "w": "here's",
+  "start": 191.38,
+  "end": 191.7
+ },
+ {
+  "w": "where",
+  "start": 191.7,
+  "end": 191.82
+ },
+ {
+  "w": "things",
+  "start": 191.82,
+  "end": 192.06
+ },
+ {
+  "w": "could",
+  "start": 192.06,
+  "end": 192.24
+ },
+ {
+  "w": "get",
+  "start": 192.24,
+  "end": 192.38
+ },
+ {
+  "w": "interesting.",
+  "start": 192.38,
+  "end": 192.76
+ },
+ {
+  "w": "If",
+  "start": 193.06,
+  "end": 193.2
+ },
+ {
+  "w": "AI",
+  "start": 193.2,
+  "end": 193.4
+ },
+ {
+  "w": "keeps",
+  "start": 193.4,
+  "end": 193.68
+ },
+ {
+  "w": "making",
+  "start": 193.68,
+  "end": 193.92
+ },
+ {
+  "w": "software",
+  "start": 193.92,
+  "end": 194.36
+ },
+ {
+  "w": "cheaper",
+  "start": 194.36,
+  "end": 194.66
+ },
+ {
+  "w": "and",
+  "start": 194.66,
+  "end": 194.94
+ },
+ {
+  "w": "easier",
+  "start": 194.94,
+  "end": 195.2
+ },
+ {
+  "w": "to",
+  "start": 195.2,
+  "end": 195.4
+ },
+ {
+  "w": "build,",
+  "start": 195.4,
+  "end": 195.68
+ },
+ {
+  "w": "I",
+  "start": 195.82,
+  "end": 195.96
+ },
+ {
+  "w": "think",
+  "start": 195.96,
+  "end": 196.12
+ },
+ {
+  "w": "we'll",
+  "start": 196.12,
+  "end": 196.36
+ },
+ {
+  "w": "see",
+  "start": 196.36,
+  "end": 196.54
+ },
+ {
+  "w": "more",
+  "start": 196.54,
+  "end": 196.76
+ },
+ {
+  "w": "pressure",
+  "start": 196.76,
+  "end": 197.1
+ },
+ {
+  "w": "on",
+  "start": 197.1,
+  "end": 197.28
+ },
+ {
+  "w": "traditional",
+  "start": 197.28,
+  "end": 197.58
+ },
+ {
+  "w": "software",
+  "start": 197.58,
+  "end": 198.08
+ },
+ {
+  "w": "companies.",
+  "start": 198.08,
+  "end": 198.6
+ },
+ {
+  "w": "Instead",
+  "start": 198.6,
+  "end": 199.1
+ },
+ {
+  "w": "of",
+  "start": 199.1,
+  "end": 199.28
+ },
+ {
+  "w": "paying",
+  "start": 199.28,
+  "end": 199.44
+ },
+ {
+  "w": "for",
+  "start": 199.44,
+  "end": 199.62
+ },
+ {
+  "w": "dozens",
+  "start": 199.62,
+  "end": 199.88
+ },
+ {
+  "w": "of",
+  "start": 199.88,
+  "end": 200.14
+ },
+ {
+  "w": "separate",
+  "start": 200.14,
+  "end": 200.4
+ },
+ {
+  "w": "applications,",
+  "start": 200.4,
+  "end": 200.98
+ },
+ {
+  "w": "people",
+  "start": 201.24,
+  "end": 201.42
+ },
+ {
+  "w": "may",
+  "start": 201.42,
+  "end": 201.62
+ },
+ {
+  "w": "increasingly",
+  "start": 201.62,
+  "end": 202.08
+ },
+ {
+  "w": "build",
+  "start": 202.08,
+  "end": 202.58
+ },
+ {
+  "w": "small",
+  "start": 202.58,
+  "end": 202.94
+ },
+ {
+  "w": "tools",
+  "start": 202.94,
+  "end": 203.4
+ },
+ {
+  "w": "that",
+  "start": 203.4,
+  "end": 203.64
+ },
+ {
+  "w": "do",
+  "start": 203.64,
+  "end": 203.82
+ },
+ {
+  "w": "exactly",
+  "start": 203.82,
+  "end": 204.24
+ },
+ {
+  "w": "what",
+  "start": 204.24,
+  "end": 204.48
+ },
+ {
+  "w": "they",
+  "start": 204.48,
+  "end": 204.64
+ },
+ {
+  "w": "need.",
+  "start": 204.64,
+  "end": 204.88
+ },
+ {
+  "w": "And",
+  "start": 204.96,
+  "end": 205.04
+ },
+ {
+  "w": "companies",
+  "start": 205.04,
+  "end": 205.28
+ },
+ {
+  "w": "will",
+  "start": 205.28,
+  "end": 205.46
+ },
+ {
+  "w": "have",
+  "start": 205.46,
+  "end": 205.62
+ },
+ {
+  "w": "to",
+  "start": 205.62,
+  "end": 205.74
+ },
+ {
+  "w": "compete",
+  "start": 205.74,
+  "end": 206.06
+ },
+ {
+  "w": "on",
+  "start": 206.06,
+  "end": 206.28
+ },
+ {
+  "w": "more",
+  "start": 206.28,
+  "end": 206.5
+ },
+ {
+  "w": "than",
+  "start": 206.5,
+  "end": 206.66
+ },
+ {
+  "w": "just",
+  "start": 206.66,
+  "end": 206.84
+ },
+ {
+  "w": "access",
+  "start": 206.84,
+  "end": 207.18
+ },
+ {
+  "w": "to",
+  "start": 207.18,
+  "end": 207.44
+ },
+ {
+  "w": "features.",
+  "start": 207.44,
+  "end": 207.72
+ },
+ {
+  "w": "But",
+  "start": 208.04,
+  "end": 208.14
+ },
+ {
+  "w": "I",
+  "start": 208.14,
+  "end": 208.22
+ },
+ {
+  "w": "wouldn't",
+  "start": 208.22,
+  "end": 208.36
+ },
+ {
+  "w": "expect",
+  "start": 208.36,
+  "end": 208.58
+ },
+ {
+  "w": "paid",
+  "start": 208.58,
+  "end": 208.86
+ },
+ {
+  "w": "software",
+  "start": 208.86,
+  "end": 209.26
+ },
+ {
+  "w": "to",
+  "start": 209.26,
+  "end": 209.58
+ },
+ {
+  "w": "disappear",
+  "start": 209.58,
+  "end": 209.86
+ },
+ {
+  "w": "completely.",
+  "start": 209.86,
+  "end": 210.34
+ },
+ {
+  "w": "Professional",
+  "start": 210.62,
+  "end": 210.82
+ },
+ {
+  "w": "support,",
+  "start": 210.82,
+  "end": 211.2
+ },
+ {
+  "w": "reliability,",
+  "start": 211.6,
+  "end": 211.9
+ },
+ {
+  "w": "collaboration,",
+  "start": 212.44,
+  "end": 212.86
+ },
+ {
+  "w": "and",
+  "start": 213.38,
+  "end": 213.56
+ },
+ {
+  "w": "specialized",
+  "start": 213.56,
+  "end": 213.96
+ },
+ {
+  "w": "features",
+  "start": 213.96,
+  "end": 214.42
+ },
+ {
+  "w": "still",
+  "start": 214.42,
+  "end": 214.78
+ },
+ {
+  "w": "have",
+  "start": 214.78,
+  "end": 214.98
+ },
+ {
+  "w": "value.",
+  "start": 214.98,
+  "end": 215.36
+ },
+ {
+  "w": "And",
+  "start": 215.52,
+  "end": 215.62
+ },
+ {
+  "w": "open",
+  "start": 215.62,
+  "end": 215.82
+ },
+ {
+  "w": "source",
+  "start": 215.82,
+  "end": 216.08
+ },
+ {
+  "w": "doesn't",
+  "start": 216.08,
+  "end": 216.44
+ },
+ {
+  "w": "automatically",
+  "start": 216.44,
+  "end": 216.88
+ },
+ {
+  "w": "mean",
+  "start": 216.88,
+  "end": 217.2
+ },
+ {
+  "w": "better",
+  "start": 217.2,
+  "end": 217.4
+ },
+ {
+  "w": "security",
+  "start": 217.4,
+  "end": 217.84
+ },
+ {
+  "w": "or",
+  "start": 217.84,
+  "end": 218.22
+ },
+ {
+  "w": "a",
+  "start": 218.22,
+  "end": 218.44
+ },
+ {
+  "w": "better",
+  "start": 218.44,
+  "end": 218.6
+ },
+ {
+  "w": "product.",
+  "start": 218.6,
+  "end": 219
+ },
+ {
+  "w": "There's",
+  "start": 219.14,
+  "end": 219.3
+ },
+ {
+  "w": "also",
+  "start": 219.3,
+  "end": 219.46
+ },
+ {
+  "w": "a",
+  "start": 219.46,
+  "end": 219.58
+ },
+ {
+  "w": "difference",
+  "start": 219.58,
+  "end": 219.8
+ },
+ {
+  "w": "between",
+  "start": 219.8,
+  "end": 220.08
+ },
+ {
+  "w": "open-source",
+  "start": 220.08,
+  "end": 220.3
+ },
+ {
+  "w": "software",
+  "start": 220.52,
+  "end": 221
+ },
+ {
+  "w": "and",
+  "start": 221,
+  "end": 221.2
+ },
+ {
+  "w": "AI",
+  "start": 221.2,
+  "end": 221.42
+ },
+ {
+  "w": "models",
+  "start": 221.42,
+  "end": 221.8
+ },
+ {
+  "w": "that",
+  "start": 221.8,
+  "end": 222.18
+ },
+ {
+  "w": "merely",
+  "start": 222.18,
+  "end": 222.44
+ },
+ {
+  "w": "let",
+  "start": 222.44,
+  "end": 222.72
+ },
+ {
+  "w": "you",
+  "start": 222.72,
+  "end": 222.86
+ },
+ {
+  "w": "download",
+  "start": 222.86,
+  "end": 223.14
+ },
+ {
+  "w": "their",
+  "start": 223.14,
+  "end": 223.34
+ },
+ {
+  "w": "weights.",
+  "start": 223.34,
+  "end": 223.64
+ },
+ {
+  "w": "The",
+  "start": 223.84,
+  "end": 223.96
+ },
+ {
+  "w": "license",
+  "start": 223.96,
+  "end": 224.22
+ },
+ {
+  "w": "and",
+  "start": 224.48,
+  "end": 224.5
+ },
+ {
+  "w": "what's",
+  "start": 224.5,
+  "end": 224.72
+ },
+ {
+  "w": "actually",
+  "start": 224.72,
+  "end": 224.98
+ },
+ {
+  "w": "available",
+  "start": 224.98,
+  "end": 225.34
+ },
+ {
+  "w": "still",
+  "start": 225.34,
+  "end": 225.68
+ },
+ {
+  "w": "matter.",
+  "start": 225.68,
+  "end": 225.98
+ },
+ {
+  "w": "The",
+  "start": 226.14,
+  "end": 226.22
+ },
+ {
+  "w": "bigger",
+  "start": 226.22,
+  "end": 226.4
+ },
+ {
+  "w": "change",
+  "start": 226.4,
+  "end": 226.72
+ },
+ {
+  "w": "is",
+  "start": 226.72,
+  "end": 226.9
+ },
+ {
+  "w": "where",
+  "start": 226.9,
+  "end": 227.02
+ },
+ {
+  "w": "the",
+  "start": 227.02,
+  "end": 227.14
+ },
+ {
+  "w": "money",
+  "start": 227.14,
+  "end": 227.3
+ },
+ {
+  "w": "goes.",
+  "start": 227.3,
+  "end": 227.58
+ },
+ {
+  "w": "If",
+  "start": 227.58,
+  "end": 227.94
+ },
+ {
+  "w": "software",
+  "start": 227.94,
+  "end": 228.26
+ },
+ {
+  "w": "becomes",
+  "start": 228.26,
+  "end": 228.56
+ },
+ {
+  "w": "easier",
+  "start": 228.56,
+  "end": 228.94
+ },
+ {
+  "w": "to",
+  "start": 228.94,
+  "end": 229.12
+ },
+ {
+  "w": "reproduce,",
+  "start": 229.12,
+  "end": 229.48
+ },
+ {
+  "w": "the",
+  "start": 229.92,
+  "end": 229.98
+ },
+ {
+  "w": "advantage",
+  "start": 229.98,
+  "end": 230.28
+ },
+ {
+  "w": "may",
+  "start": 230.28,
+  "end": 230.48
+ },
+ {
+  "w": "shift",
+  "start": 230.48,
+  "end": 230.74
+ },
+ {
+  "w": "toward",
+  "start": 230.74,
+  "end": 230.96
+ },
+ {
+  "w": "the",
+  "start": 230.96,
+  "end": 231.12
+ },
+ {
+  "w": "hardware,",
+  "start": 231.12,
+  "end": 231.42
+ },
+ {
+  "w": "computing",
+  "start": 231.7,
+  "end": 231.94
+ },
+ {
+  "w": "power,",
+  "start": 231.94,
+  "end": 232.36
+ },
+ {
+  "w": "and",
+  "start": 232.54,
+  "end": 232.58
+ },
+ {
+  "w": "services",
+  "start": 232.58,
+  "end": 232.9
+ },
+ {
+  "w": "needed",
+  "start": 232.9,
+  "end": 233.28
+ },
+ {
+  "w": "to",
+  "start": 233.28,
+  "end": 233.5
+ },
+ {
+  "w": "run",
+  "start": 233.5,
+  "end": 233.66
+ },
+ {
+  "w": "it.",
+  "start": 233.66,
+  "end": 233.78
+ },
+ {
+  "w": "Companies",
+  "start": 233.96,
+  "end": 234.22
+ },
+ {
+  "w": "could",
+  "start": 234.22,
+  "end": 234.44
+ },
+ {
+  "w": "find",
+  "start": 234.44,
+  "end": 234.66
+ },
+ {
+  "w": "more",
+  "start": 234.66,
+  "end": 234.88
+ },
+ {
+  "w": "value",
+  "start": 234.88,
+  "end": 235.26
+ },
+ {
+  "w": "in",
+  "start": 235.26,
+  "end": 235.42
+ },
+ {
+  "w": "selling",
+  "start": 235.42,
+  "end": 235.66
+ },
+ {
+  "w": "cloud",
+  "start": 235.66,
+  "end": 236
+ },
+ {
+  "w": "computing,",
+  "start": 236,
+  "end": 236.36
+ },
+ {
+  "w": "specialized",
+  "start": 236.7,
+  "end": 237.02
+ },
+ {
+  "w": "chips,",
+  "start": 237.02,
+  "end": 237.52
+ },
+ {
+  "w": "and",
+  "start": 237.76,
+  "end": 237.86
+ },
+ {
+  "w": "devices",
+  "start": 237.86,
+  "end": 238.26
+ },
+ {
+  "w": "than",
+  "start": 238.26,
+  "end": 238.58
+ },
+ {
+  "w": "in",
+  "start": 238.58,
+  "end": 238.72
+ },
+ {
+  "w": "charging",
+  "start": 238.72,
+  "end": 238.94
+ },
+ {
+  "w": "for",
+  "start": 238.94,
+  "end": 239.18
+ },
+ {
+  "w": "basic",
+  "start": 239.18,
+  "end": 239.46
+ },
+ {
+  "w": "software",
+  "start": 239.46,
+  "end": 239.92
+ },
+ {
+  "w": "features.",
+  "start": 239.92,
+  "end": 240.24
+ },
+ {
+  "w": "That",
+  "start": 240.48,
+  "end": 240.56
+ },
+ {
+  "w": "doesn't",
+  "start": 240.56,
+  "end": 240.74
+ },
+ {
+  "w": "mean",
+  "start": 240.74,
+  "end": 240.9
+ },
+ {
+  "w": "hardware",
+  "start": 240.9,
+  "end": 241.2
+ },
+ {
+  "w": "prices",
+  "start": 241.2,
+  "end": 241.6
+ },
+ {
+  "w": "will",
+  "start": 241.6,
+  "end": 241.82
+ },
+ {
+  "w": "automatically",
+  "start": 241.82,
+  "end": 242.3
+ },
+ {
+  "w": "rise,",
+  "start": 242.3,
+  "end": 242.72
+ },
+ {
+  "w": "or",
+  "start": 242.92,
+  "end": 243.08
+ },
+ {
+  "w": "that",
+  "start": 243.08,
+  "end": 243.22
+ },
+ {
+  "w": "every",
+  "start": 243.22,
+  "end": 243.4
+ },
+ {
+  "w": "company",
+  "start": 243.4,
+  "end": 243.7
+ },
+ {
+  "w": "will",
+  "start": 243.7,
+  "end": 243.98
+ },
+ {
+  "w": "abandon",
+  "start": 243.98,
+  "end": 244.36
+ },
+ {
+  "w": "subscriptions.",
+  "start": 244.36,
+  "end": 244.98
+ },
+ {
+  "w": "But",
+  "start": 245.36,
+  "end": 245.52
+ },
+ {
+  "w": "it",
+  "start": 245.52,
+  "end": 245.62
+ },
+ {
+  "w": "does",
+  "start": 245.62,
+  "end": 245.78
+ },
+ {
+  "w": "mean",
+  "start": 245.78,
+  "end": 245.92
+ },
+ {
+  "w": "the",
+  "start": 245.92,
+  "end": 246.04
+ },
+ {
+  "w": "old",
+  "start": 246.04,
+  "end": 246.18
+ },
+ {
+  "w": "model",
+  "start": 246.18,
+  "end": 246.48
+ },
+ {
+  "w": "becomes",
+  "start": 246.48,
+  "end": 246.8
+ },
+ {
+  "w": "harder",
+  "start": 246.8,
+  "end": 247.08
+ },
+ {
+  "w": "to",
+  "start": 247.08,
+  "end": 247.28
+ },
+ {
+  "w": "defend",
+  "start": 247.28,
+  "end": 247.68
+ },
+ {
+  "w": "when",
+  "start": 247.68,
+  "end": 247.94
+ },
+ {
+  "w": "free",
+  "start": 247.94,
+  "end": 248.18
+ },
+ {
+  "w": "alternatives",
+  "start": 248.18,
+  "end": 248.56
+ },
+ {
+  "w": "keep",
+  "start": 248.56,
+  "end": 248.88
+ },
+ {
+  "w": "improving.",
+  "start": 248.88,
+  "end": 249.3
+ },
+ {
+  "w": "So,",
+  "start": 249.5,
+  "end": 249.76
+ },
+ {
+  "w": "I",
+  "start": 249.76,
+  "end": 250.16
+ },
+ {
+  "w": "don't",
+  "start": 250.16,
+  "end": 250.3
+ },
+ {
+  "w": "think",
+  "start": 250.3,
+  "end": 250.44
+ },
+ {
+  "w": "every",
+  "start": 250.44,
+  "end": 250.64
+ },
+ {
+  "w": "paid",
+  "start": 250.64,
+  "end": 250.88
+ },
+ {
+  "w": "application",
+  "start": 250.88,
+  "end": 251.26
+ },
+ {
+  "w": "is",
+  "start": 251.26,
+  "end": 251.48
+ },
+ {
+  "w": "going",
+  "start": 251.48,
+  "end": 251.64
+ },
+ {
+  "w": "away.",
+  "start": 251.64,
+  "end": 251.98
+ },
+ {
+  "w": "But",
+  "start": 252.12,
+  "end": 252.22
+ },
+ {
+  "w": "I",
+  "start": 252.22,
+  "end": 252.3
+ },
+ {
+  "w": "do",
+  "start": 252.3,
+  "end": 252.4
+ },
+ {
+  "w": "think",
+  "start": 252.4,
+  "end": 252.6
+ },
+ {
+  "w": "we're",
+  "start": 252.6,
+  "end": 252.74
+ },
+ {
+  "w": "moving",
+  "start": 252.74,
+  "end": 252.94
+ },
+ {
+  "w": "toward",
+  "start": 252.94,
+  "end": 253.18
+ },
+ {
+  "w": "a",
+  "start": 253.18,
+  "end": 253.3
+ },
+ {
+  "w": "world",
+  "start": 253.3,
+  "end": 253.54
+ },
+ {
+  "w": "where",
+  "start": 253.54,
+  "end": 253.72
+ },
+ {
+  "w": "paying",
+  "start": 253.72,
+  "end": 253.94
+ },
+ {
+  "w": "for",
+  "start": 253.94,
+  "end": 254.12
+ },
+ {
+  "w": "software",
+  "start": 254.12,
+  "end": 254.44
+ },
+ {
+  "w": "becomes",
+  "start": 254.44,
+  "end": 254.74
+ },
+ {
+  "w": "a",
+  "start": 254.74,
+  "end": 254.94
+ },
+ {
+  "w": "choice",
+  "start": 254.94,
+  "end": 255.42
+ },
+ {
+  "w": "rather",
+  "start": 255.42,
+  "end": 255.8
+ },
+ {
+  "w": "than",
+  "start": 255.8,
+  "end": 256.04
+ },
+ {
+  "w": "a",
+  "start": 256.04,
+  "end": 256.12
+ },
+ {
+  "w": "requirement",
+  "start": 256.12,
+  "end": 256.52
+ },
+ {
+  "w": "for",
+  "start": 256.52,
+  "end": 256.82
+ },
+ {
+  "w": "more",
+  "start": 256.82,
+  "end": 257.04
+ },
+ {
+  "w": "and",
+  "start": 257.04,
+  "end": 257.12
+ },
+ {
+  "w": "more",
+  "start": 257.12,
+  "end": 257.26
+ },
+ {
+  "w": "tasks.",
+  "start": 257.26,
+  "end": 257.74
+ },
+ {
+  "w": "And",
+  "start": 258.14,
+  "end": 258.28
+ },
+ {
+  "w": "with",
+  "start": 258.28,
+  "end": 258.42
+ },
+ {
+  "w": "AI",
+  "start": 258.42,
+  "end": 258.6
+ },
+ {
+  "w": "making",
+  "start": 258.6,
+  "end": 258.84
+ },
+ {
+  "w": "development",
+  "start": 258.84,
+  "end": 259.26
+ },
+ {
+  "w": "faster,",
+  "start": 259.26,
+  "end": 259.72
+ },
+ {
+  "w": "that",
+  "start": 260.14,
+  "end": 260.26
+ },
+ {
+  "w": "choice",
+  "start": 260.26,
+  "end": 260.48
+ },
+ {
+  "w": "could",
+  "start": 260.48,
+  "end": 260.7
+ },
+ {
+  "w": "expand",
+  "start": 260.7,
+  "end": 261.04
+ },
+ {
+  "w": "into",
+  "start": 261.04,
+  "end": 261.26
+ },
+ {
+  "w": "categories",
+  "start": 261.26,
+  "end": 261.74
+ },
+ {
+  "w": "we",
+  "start": 261.74,
+  "end": 262.08
+ },
+ {
+  "w": "haven't",
+  "start": 262.08,
+  "end": 262.42
+ },
+ {
+  "w": "even",
+  "start": 262.42,
+  "end": 262.54
+ },
+ {
+  "w": "considered",
+  "start": 262.54,
+  "end": 262.94
+ },
+ {
+  "w": "yet.",
+  "start": 262.94,
+  "end": 263.24
+ },
+ {
+  "w": "Let",
+  "start": 263.44,
+  "end": 263.52
+ },
+ {
+  "w": "me",
+  "start": 263.52,
+  "end": 263.62
+ },
+ {
+  "w": "know",
+  "start": 263.62,
+  "end": 263.76
+ },
+ {
+  "w": "what",
+  "start": 263.76,
+  "end": 263.9
+ },
+ {
+  "w": "you",
+  "start": 263.9,
+  "end": 264.04
+ },
+ {
+  "w": "think",
+  "start": 264.04,
+  "end": 264.18
+ },
+ {
+  "w": "in",
+  "start": 264.18,
+  "end": 264.3
+ },
+ {
+  "w": "the",
+  "start": 264.3,
+  "end": 264.36
+ },
+ {
+  "w": "comments.",
+  "start": 264.36,
+  "end": 264.58
+ },
+ {
+  "w": "Thanks",
+  "start": 264.58,
+  "end": 264.86
+ },
+ {
+  "w": "for",
+  "start": 264.86,
+  "end": 265.14
+ },
+ {
+  "w": "watching,",
+  "start": 265.14,
+  "end": 265.42
+ },
+ {
+  "w": "and",
+  "start": 265.42,
+  "end": 265.7
+ },
+ {
+  "w": "I'll",
+  "start": 265.7,
+  "end": 265.98
+ },
+ {
+  "w": "see",
+  "start": 265.98,
+  "end": 266.26
+ },
+ {
+  "w": "you",
+  "start": 266.26,
+  "end": 266.54
+ },
+ {
+  "w": "in",
+  "start": 266.54,
+  "end": 266.82
+ },
+ {
+  "w": "the",
+  "start": 266.82,
+  "end": 267.1
+ },
+ {
+  "w": "next",
+  "start": 267.1,
+  "end": 267.38
+ },
+ {
+  "w": "one.",
+  "start": 267.38,
+  "end": 267.66
+ }
+]

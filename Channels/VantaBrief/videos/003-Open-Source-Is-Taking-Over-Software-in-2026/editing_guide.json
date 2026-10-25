@@ -1,0 +1,125 @@
+{
+  "project": "003-Open-Source-Is-Taking-Over-Software-in-2026",
+  "clips": [
+    {
+      "id": "MG-01",
+      "filename": "MG-01_Local-AI-Stack-3D-Carousel.mov",
+      "file_path": "D:\\Automations\\motion-studio\\Channels\\VantaBrief\\videos\\003-Open-Source-Is-Taking-Over-Software-in-2026\\renders\\motion-graphics\\MG-01_Local-AI-Stack-3D-Carousel.mov",
+      "concept_name": "Local AI Stack 3D Carousel",
+      "start_timecode": "00:04.980",
+      "end_timecode": "00:12.480",
+      "start_seconds": 4.98,
+      "end_seconds": 12.48,
+      "duration_seconds": 7.5,
+      "script_excerpt": "and even run AI models on your own computer without paying for a subscription.",
+      "explanation_objective": "Showcase local on-device AI models and open suites operating autonomously without cloud subscriptions.",
+      "reference_url": "https://pin.it/pGq22roa7",
+      "technical_specs": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "codec": "prores",
+        "pixel_format": "yuva444p12le",
+        "has_alpha_transparency": true
+      },
+      "transparent_alpha": true,
+      "compositing_note": "Transparent alpha overlay (place on V2 or V3 above footage)"
+    },
+    {
+      "id": "MG-02",
+      "filename": "MG-02_AI-Development-Speed-and-Progress.mov",
+      "file_path": "D:\\Automations\\motion-studio\\Channels\\VantaBrief\\videos\\003-Open-Source-Is-Taking-Over-Software-in-2026\\renders\\motion-graphics\\MG-02_AI-Development-Speed-and-Progress.mov",
+      "concept_name": "AI Development Speed & Progress",
+      "start_timecode": "00:27.620",
+      "end_timecode": "00:35.120",
+      "start_seconds": 27.62,
+      "end_seconds": 35.12,
+      "duration_seconds": 7.5,
+      "script_excerpt": "with the help of AI tells you where software development is heading.",
+      "explanation_objective": "Illustrate exponential software velocity achieved by single developers using AI tool chains.",
+      "reference_url": "https://pin.it/pGq22roa7",
+      "technical_specs": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "codec": "prores",
+        "pixel_format": "yuva444p12le",
+        "has_alpha_transparency": true
+      },
+      "transparent_alpha": true,
+      "compositing_note": "Transparent alpha overlay (place on V2 or V3 above footage)"
+    },
+    {
+      "id": "MG-03",
+      "filename": "MG-03_Software-Toll-vs-Open-Stack-Trio.mov",
+      "file_path": "D:\\Automations\\motion-studio\\Channels\\VantaBrief\\videos\\003-Open-Source-Is-Taking-Over-Software-in-2026\\renders\\motion-graphics\\MG-03_Software-Toll-vs-Open-Stack-Trio.mov",
+      "concept_name": "Software Toll vs Open Stack Trio",
+      "start_timecode": "00:51.840",
+      "end_timecode": "00:59.340",
+      "start_seconds": 51.84,
+      "end_seconds": 59.34,
+      "duration_seconds": 7.5,
+      "script_excerpt": "Want to edit videos, pay for Premiere Pro, want to design something, pay for Photoshop,",
+      "explanation_objective": "Contrast the recurring Adobe tolls ($239/yr each) with ArtCraft and open code ($0.00).",
+      "reference_url": "https://pin.it/pGq22roa7",
+      "technical_specs": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "codec": "prores",
+        "pixel_format": "yuva444p12le",
+        "has_alpha_transparency": true
+      },
+      "transparent_alpha": true,
+      "compositing_note": "Transparent alpha overlay (place on V2 or V3 above footage)"
+    },
+    {
+      "id": "MG-04",
+      "filename": "MG-04_Timeline-Milestone-Ruler.mov",
+      "file_path": "D:\\Automations\\motion-studio\\Channels\\VantaBrief\\videos\\003-Open-Source-Is-Taking-Over-Software-in-2026\\renders\\motion-graphics\\MG-04_Timeline-Milestone-Ruler.mov",
+      "concept_name": "Timeline Milestone Ruler",
+      "start_timecode": "01:21.560",
+      "end_timecode": "01:29.060",
+      "start_seconds": 81.56,
+      "end_seconds": 89.06,
+      "duration_seconds": 7.5,
+      "script_excerpt": "or charging them for an entire subscription just to get it.",
+      "explanation_objective": "Map the chronological timeline from 2020 through 2026 showing the paradigm shift.",
+      "reference_url": "https://pin.it/pGq22roa7",
+      "technical_specs": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "codec": "prores",
+        "pixel_format": "yuva444p12le",
+        "has_alpha_transparency": true
+      },
+      "transparent_alpha": true,
+      "compositing_note": "Transparent alpha overlay (place on V2 or V3 above footage)"
+    },
+    {
+      "id": "MG-05",
+      "filename": "MG-05_Autonomous-Infrastructure-Rings.mov",
+      "file_path": "D:\\Automations\\motion-studio\\Channels\\VantaBrief\\videos\\003-Open-Source-Is-Taking-Over-Software-in-2026\\renders\\motion-graphics\\MG-05_Autonomous-Infrastructure-Rings.mov",
+      "concept_name": "Autonomous Infrastructure Rings",
+      "start_timecode": "01:43.480",
+      "end_timecode": "01:50.980",
+      "start_seconds": 103.48,
+      "end_seconds": 110.98,
+      "duration_seconds": 7.5,
+      "script_excerpt": "and use projects like Kokoro for text-to-speech.",
+      "explanation_objective": "Show how compute, weights, and software assemble into a complete local pipeline.",
+      "reference_url": "https://pin.it/pGq22roa7",
+      "technical_specs": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "codec": "prores",
+        "pixel_format": "yuva444p12le",
+        "has_alpha_transparency": true
+      },
+      "transparent_alpha": true,
+      "compositing_note": "Transparent alpha overlay (place on V2 or V3 above footage)"
+    }
+  ]
+}

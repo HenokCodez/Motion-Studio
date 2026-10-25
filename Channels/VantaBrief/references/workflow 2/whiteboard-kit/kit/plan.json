@@ -1,0 +1,1212 @@
+{
+ "meta": {
+  "title": "The Zero-Subscription Shift",
+  "audio": "audio/narration.mp3",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "totalSec": 47,
+  "totalFrames": 1410
+ },
+ "scenes": [
+  {
+   "id": "s1-replace",
+   "type": "flow",
+   "start": 0,
+   "dur": 9,
+   "narration": "In 2026 you can edit video, design and 3D locally. ArtCraft replaces Photoshop, Premiere Pro and After Effects.",
+   "items": [
+    {
+     "cue": null,
+     "id": "header",
+     "kind": "header",
+     "x": 96,
+     "y": 96,
+     "w": 672,
+     "h": 70,
+     "lines": [
+      "2026: zero subscriptions"
+     ],
+     "size": 56,
+     "logo": null,
+     "at": 0.3,
+     "cued": false
+    },
+    {
+     "cue": "edit",
+     "id": "ask",
+     "kind": "bubble",
+     "x": 96,
+     "y": 485,
+     "w": 434,
+     "h": 230,
+     "lines": [
+      "edit video,",
+      "design, 3D"
+     ],
+     "subLines": [],
+     "size": 68,
+     "logo": null,
+     "emphasis": false,
+     "at": 2.02,
+     "cued": true
+    },
+    {
+     "cue": "ArtCraft",
+     "id": "suite",
+     "kind": "node",
+     "x": 664,
+     "y": 501,
+     "w": 428,
+     "h": 198,
+     "lines": [
+      "ArtCraft"
+     ],
+     "subLines": [
+      "open-source suite"
+     ],
+     "size": 68,
+     "logo": "github",
+     "emphasis": true,
+     "at": 4.54,
+     "cued": true
+    },
+    {
+     "cue": "Photoshop",
+     "id": "ps",
+     "kind": "node",
+     "x": 1294,
+     "y": 318.5,
+     "w": 462,
+     "h": 145,
+     "lines": [
+      "Photoshop"
+     ],
+     "subLines": [],
+     "size": 68,
+     "logo": "photoshop",
+     "emphasis": false,
+     "at": 5.380000000000001,
+     "cued": true
+    },
+    {
+     "cue": "Premiere",
+     "id": "pr",
+     "kind": "node",
+     "x": 1243,
+     "y": 527.5,
+     "w": 564,
+     "h": 145,
+     "lines": [
+      "Premiere Pro"
+     ],
+     "subLines": [],
+     "size": 68,
+     "logo": "premiere",
+     "emphasis": false,
+     "at": 5.800000000000001,
+     "cued": true
+    },
+    {
+     "cue": "After",
+     "id": "ae",
+     "kind": "node",
+     "x": 1226,
+     "y": 736.5,
+     "w": 598,
+     "h": 145,
+     "lines": [
+      "After Effects"
+     ],
+     "subLines": [],
+     "size": 68,
+     "logo": "aftereffects",
+     "emphasis": false,
+     "at": 7.0600000000000005,
+     "cued": true
+    }
+   ],
+   "edges": [
+    {
+     "from": "ask",
+     "to": "suite",
+     "p0": [
+      530,
+      600
+     ],
+     "p1": [
+      664,
+      600
+     ]
+    },
+    {
+     "from": "suite",
+     "to": "ps",
+     "p0": [
+      1092,
+      600
+     ],
+     "p1": [
+      1294,
+      391
+     ]
+    },
+    {
+     "from": "suite",
+     "to": "pr",
+     "p0": [
+      1092,
+      600
+     ],
+     "p1": [
+      1243,
+      600
+     ]
+    },
+    {
+     "from": "suite",
+     "to": "ae",
+     "p0": [
+      1092,
+      600
+     ],
+     "p1": [
+      1226,
+      809
+     ]
+    }
+   ],
+   "mascot": {
+    "x": 96,
+    "y": 754,
+    "w": 190,
+    "h": 230
+   },
+   "camera": [
+    {
+     "t": 0,
+     "s": 1,
+     "cx": 960,
+     "cy": 540
+    },
+    {
+     "t": 1.97,
+     "s": 1.1,
+     "cx": 872.7272727272726,
+     "cy": 589.0909090909091,
+     "ease": "expo"
+    },
+    {
+     "t": 4.49,
+     "s": 1.1,
+     "cx": 878,
+     "cy": 589.0909090909091,
+     "ease": "expo"
+    },
+    {
+     "t": 5.330000000000001,
+     "s": 1.1,
+     "cx": 1047.2727272727275,
+     "cy": 490.9090909090909,
+     "ease": "expo"
+    },
+    {
+     "t": 5.750000000000001,
+     "s": 1.1,
+     "cx": 1047.2727272727275,
+     "cy": 589.0909090909091,
+     "ease": "expo"
+    },
+    {
+     "t": 7.010000000000001,
+     "s": 1.1,
+     "cx": 1047.2727272727275,
+     "cy": 589.0909090909091,
+     "ease": "expo"
+    },
+    {
+     "t": 8.1,
+     "s": 1,
+     "cx": 960,
+     "cy": 540,
+     "ease": "expo"
+    }
+   ],
+   "events": [
+    {
+     "t": 0.3,
+     "type": "reveal",
+     "item": "header"
+    },
+    {
+     "t": 1.97,
+     "type": "camera"
+    },
+    {
+     "t": 2.02,
+     "type": "reveal",
+     "item": "ask"
+    },
+    {
+     "t": 4.02,
+     "type": "pulse",
+     "item": "ae"
+    },
+    {
+     "t": 4.49,
+     "type": "camera"
+    },
+    {
+     "t": 4.54,
+     "type": "reveal",
+     "item": "suite"
+    },
+    {
+     "t": 5.330000000000001,
+     "type": "camera"
+    },
+    {
+     "t": 5.380000000000001,
+     "type": "reveal",
+     "item": "ps"
+    },
+    {
+     "t": 5.750000000000001,
+     "type": "camera"
+    },
+    {
+     "t": 5.800000000000001,
+     "type": "reveal",
+     "item": "pr"
+    },
+    {
+     "t": 7.010000000000001,
+     "type": "camera"
+    },
+    {
+     "t": 7.0600000000000005,
+     "type": "reveal",
+     "item": "ae"
+    },
+    {
+     "t": 8.1,
+     "type": "camera"
+    }
+   ],
+   "pulsesInserted": 1
+  },
+  {
+   "id": "s2-toll",
+   "type": "stat",
+   "start": 9,
+   "dur": 6,
+   "narration": "That is six hundred dollars a year you stop paying.",
+   "items": [
+    {
+     "cue": null,
+     "id": "value",
+     "kind": "stat",
+     "x": 534.5,
+     "y": 311.5,
+     "w": 851,
+     "h": 253.00000000000003,
+     "lines": [
+      "$600+"
+     ],
+     "size": 230,
+     "center": true,
+     "emphasis": true,
+     "countTo": "$600+",
+     "at": 0.3,
+     "cued": false
+    },
+    {
+     "cue": null,
+     "id": "label",
+     "kind": "text",
+     "x": 660,
+     "y": 594.5,
+     "w": 600,
+     "h": 80,
+     "lines": [
+      "per year, every year"
+     ],
+     "size": 60,
+     "center": true,
+     "emphasis": false,
+     "countTo": null,
+     "at": 1.8,
+     "cued": false
+    },
+    {
+     "cue": null,
+     "id": "note",
+     "kind": "text",
+     "x": 630,
+     "y": 704.5,
+     "w": 660,
+     "h": 64,
+     "lines": [
+      "rent on software you never own"
+     ],
+     "size": 44,
+     "center": true,
+     "emphasis": false,
+     "countTo": null,
+     "at": 3.3,
+     "cued": false
+    }
+   ],
+   "edges": [],
+   "mascot": {
+    "x": 1634,
+    "y": 754,
+    "w": 190,
+    "h": 230
+   },
+   "camera": [
+    {
+     "t": 0,
+     "s": 1,
+     "cx": 960,
+     "cy": 540
+    },
+    {
+     "t": 1.75,
+     "s": 1.1,
+     "cx": 960,
+     "cy": 589.0909090909091,
+     "ease": "expo"
+    },
+    {
+     "t": 3.25,
+     "s": 1.1,
+     "cx": 960,
+     "cy": 589.0909090909091,
+     "ease": "expo"
+    },
+    {
+     "t": 4.699999999999999,
+     "s": 1,
+     "cx": 960,
+     "cy": 540,
+     "ease": "expo"
+    }
+   ],
+   "events": [
+    {
+     "t": 0.3,
+     "type": "reveal",
+     "item": "value"
+    },
+    {
+     "t": 1.75,
+     "type": "camera"
+    },
+    {
+     "t": 1.8,
+     "type": "reveal",
+     "item": "label"
+    },
+    {
+     "t": 3.25,
+     "type": "camera"
+    },
+    {
+     "t": 3.3,
+     "type": "reveal",
+     "item": "note"
+    },
+    {
+     "t": 4.699999999999999,
+     "type": "camera"
+    }
+   ],
+   "pulsesInserted": 0
+  },
+  {
+   "id": "s3-compare",
+   "type": "compare",
+   "start": 15,
+   "dur": 8,
+   "narration": "Adobe rents. DaVinci and Blender are yours.",
+   "items": [
+    {
+     "cue": null,
+     "id": "panel-a",
+     "kind": "panel",
+     "x": 96,
+     "y": 329,
+     "w": 794,
+     "h": 422,
+     "lines": [
+      "Adobe Creative Cloud",
+      "$600+ / year",
+      "monthly rent",
+      "cloud lock-in"
+     ],
+     "size": 60,
+     "emphasis": false,
+     "logo": "adobe",
+     "at": 0.3,
+     "cued": false
+    },
+    {
+     "cue": null,
+     "id": "panel-b",
+     "kind": "panel",
+     "x": 1030,
+     "y": 329,
+     "w": 794,
+     "h": 422,
+     "lines": [
+      "DaVinci + Blender",
+      "$0 / year",
+      "yours forever",
+      "runs locally"
+     ],
+     "size": 60,
+     "emphasis": true,
+     "logo": null,
+     "at": 2.3,
+     "cued": false
+    },
+    {
+     "cue": null,
+     "id": "vs",
+     "kind": "text",
+     "x": 900,
+     "y": 500,
+     "w": 120,
+     "h": 80,
+     "lines": [
+      "vs"
+     ],
+     "size": 44,
+     "center": true,
+     "at": 4.3,
+     "cued": false
+    }
+   ],
+   "edges": [],
+   "mascot": null,
+   "camera": [
+    {
+     "t": 0,
+     "s": 1,
+     "cx": 960,
+     "cy": 540
+    },
+    {
+     "t": 2.25,
+     "s": 1.1,
+     "cx": 1047.2727272727275,
+     "cy": 540,
+     "ease": "expo"
+    },
+    {
+     "t": 4.25,
+     "s": 1.1,
+     "cx": 960,
+     "cy": 540,
+     "ease": "expo"
+    },
+    {
+     "t": 5.699999999999999,
+     "s": 1,
+     "cx": 960,
+     "cy": 540,
+     "ease": "expo"
+    }
+   ],
+   "events": [
+    {
+     "t": 0.3,
+     "type": "reveal",
+     "item": "panel-a"
+    },
+    {
+     "t": 2.25,
+     "type": "camera"
+    },
+    {
+     "t": 2.3,
+     "type": "reveal",
+     "item": "panel-b"
+    },
+    {
+     "t": 4.25,
+     "type": "camera"
+    },
+    {
+     "t": 4.3,
+     "type": "reveal",
+     "item": "vs"
+    },
+    {
+     "t": 5.699999999999999,
+     "type": "camera"
+    },
+    {
+     "t": 7.699999999999999,
+     "type": "pulse",
+     "item": "vs"
+    }
+   ],
+   "pulsesInserted": 1
+  },
+  {
+   "id": "s4-proof",
+   "type": "shot",
+   "start": 23,
+   "dur": 9,
+   "narration": "Blender is open source and DaVinci Resolve has a free tier.",
+   "items": [
+    {
+     "cue": "Blender",
+     "id": "blender-label",
+     "kind": "label",
+     "x": 96,
+     "y": 269,
+     "w": 254,
+     "h": 64,
+     "lines": [
+      "Blender"
+     ],
+     "size": 44,
+     "logo": "blender",
+     "at": 0.3,
+     "cued": false
+    },
+    {
+     "cue": "Blender",
+     "id": "blender",
+     "kind": "shot",
+     "x": 96,
+     "y": 353,
+     "w": 836,
+     "h": 470,
+     "asset": "assets/shots/blender.png",
+     "assumedDims": true,
+     "at": 1.6500000000000001,
+     "cued": false
+    },
+    {
+     "cue": "open",
+     "id": "blender-hl0",
+     "kind": "mark",
+     "within": "blender",
+     "x": 179.60000000000002,
+     "y": 611.5,
+     "w": 418,
+     "h": 56.4,
+     "zoomTarget": true,
+     "at": 3,
+     "cued": false
+    },
+    {
+     "cue": "DaVinci",
+     "id": "davinci-label",
+     "kind": "label",
+     "x": 988,
+     "y": 269,
+     "w": 330,
+     "h": 64,
+     "lines": [
+      "DaVinci Resolve"
+     ],
+     "size": 44,
+     "logo": null,
+     "at": 4.35,
+     "cued": false
+    },
+    {
+     "cue": "DaVinci",
+     "id": "davinci",
+     "kind": "shot",
+     "x": 988,
+     "y": 353,
+     "w": 836,
+     "h": 470,
+     "asset": "assets/shots/davinci.png",
+     "assumedDims": true,
+     "at": 5.7,
+     "cued": false
+    }
+   ],
+   "edges": [],
+   "mascot": {
+    "x": 1634,
+    "y": 96,
+    "w": 190,
+    "h": 230
+   },
+   "camera": [
+    {
+     "t": 0,
+     "s": 1,
+     "cx": 960,
+     "cy": 540
+    },
+    {
+     "t": 1.6,
+     "s": 1.1,
+     "cx": 872.7272727272726,
+     "cy": 588,
+     "ease": "expo"
+    },
+    {
+     "t": 2.95,
+     "s": 2.2,
+     "cx": 436.3636363636363,
+     "cy": 639.7,
+     "ease": "expo"
+    },
+    {
+     "t": 4.3,
+     "s": 1.1,
+     "cx": 1047.2727272727275,
+     "cy": 490.9090909090909,
+     "ease": "expo"
+    },
+    {
+     "t": 5.65,
+     "s": 1.1,
+     "cx": 1047.2727272727275,
+     "cy": 588,
+     "ease": "expo"
+    },
+    {
+     "t": 7.1,
+     "s": 1,
+     "cx": 960,
+     "cy": 540,
+     "ease": "expo"
+    }
+   ],
+   "events": [
+    {
+     "t": 0.3,
+     "type": "reveal",
+     "item": "blender-label"
+    },
+    {
+     "t": 1.6,
+     "type": "camera"
+    },
+    {
+     "t": 1.6500000000000001,
+     "type": "reveal",
+     "item": "blender"
+    },
+    {
+     "t": 2.95,
+     "type": "camera"
+    },
+    {
+     "t": 3,
+     "type": "reveal",
+     "item": "blender-hl0"
+    },
+    {
+     "t": 4.3,
+     "type": "camera"
+    },
+    {
+     "t": 4.35,
+     "type": "reveal",
+     "item": "davinci-label"
+    },
+    {
+     "t": 5.65,
+     "type": "camera"
+    },
+    {
+     "t": 5.7,
+     "type": "reveal",
+     "item": "davinci"
+    },
+    {
+     "t": 7.1,
+     "type": "camera"
+    }
+   ],
+   "pulsesInserted": 0
+  },
+  {
+   "id": "s5-timeline",
+   "type": "timeline",
+   "start": 32,
+   "dur": 8,
+   "narration": "Open models arrived, then local tools caught up, then the toll made no sense.",
+   "items": [
+    {
+     "cue": null,
+     "id": "header",
+     "kind": "header",
+     "x": 96,
+     "y": 96,
+     "w": 420,
+     "h": 70,
+     "lines": [
+      "How it got here"
+     ],
+     "size": 56,
+     "logo": null,
+     "at": 0.3,
+     "cued": false
+    },
+    {
+     "cue": "Open",
+     "id": "t1",
+     "kind": "node",
+     "x": 174,
+     "y": 407.15999999999997,
+     "w": 420,
+     "h": 135,
+     "lines": [
+      "Open weights"
+     ],
+     "subLines": [],
+     "size": 60,
+     "logo": null,
+     "emphasis": false,
+     "at": 1.157142857142857,
+     "cued": false
+    },
+    {
+     "cue": "Open",
+     "id": "t1-date",
+     "kind": "date",
+     "x": 234,
+     "y": 732.16,
+     "w": 300,
+     "h": 64,
+     "lines": [
+      "2024"
+     ],
+     "size": 44,
+     "center": true,
+     "at": 2.0142857142857142,
+     "cued": false
+    },
+    {
+     "cue": "local",
+     "id": "t2",
+     "kind": "node",
+     "x": 765,
+     "y": 354.15999999999997,
+     "w": 390,
+     "h": 188,
+     "lines": [
+      "Local tools"
+     ],
+     "subLines": [
+      "video, 3D, code"
+     ],
+     "size": 60,
+     "logo": null,
+     "emphasis": false,
+     "at": 2.871428571428571,
+     "cued": false
+    },
+    {
+     "cue": "local",
+     "id": "t2-date",
+     "kind": "date",
+     "x": 810,
+     "y": 732.16,
+     "w": 300,
+     "h": 64,
+     "lines": [
+      "2025"
+     ],
+     "size": 44,
+     "center": true,
+     "at": 3.728571428571428,
+     "cued": false
+    },
+    {
+     "cue": "toll",
+     "id": "t3",
+     "kind": "node",
+     "x": 1386,
+     "y": 332.15999999999997,
+     "w": 300,
+     "h": 210,
+     "lines": [
+      "Toll is",
+      "nonsense"
+     ],
+     "subLines": [],
+     "size": 60,
+     "logo": null,
+     "emphasis": true,
+     "at": 4.585714285714285,
+     "cued": false
+    },
+    {
+     "cue": "toll",
+     "id": "t3-date",
+     "kind": "date",
+     "x": 1386,
+     "y": 732.16,
+     "w": 300,
+     "h": 64,
+     "lines": [
+      "2026"
+     ],
+     "size": 44,
+     "center": true,
+     "at": 5.442857142857142,
+     "cued": false
+    }
+   ],
+   "edges": [],
+   "mascot": null,
+   "timelineY": 692.16,
+   "xs": [
+    384,
+    960,
+    1536
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "s": 1,
+     "cx": 960,
+     "cy": 540
+    },
+    {
+     "t": 1.107142857142857,
+     "s": 1.1,
+     "cx": 872.7272727272726,
+     "cy": 490.9090909090909,
+     "ease": "expo"
+    },
+    {
+     "t": 2.821428571428571,
+     "s": 1.1,
+     "cx": 960,
+     "cy": 490.9090909090909,
+     "ease": "expo"
+    },
+    {
+     "t": 4.535714285714286,
+     "s": 1.1,
+     "cx": 1047.2727272727275,
+     "cy": 490.9090909090909,
+     "ease": "expo"
+    },
+    {
+     "t": 6.842857142857142,
+     "s": 1,
+     "cx": 960,
+     "cy": 540,
+     "ease": "expo"
+    }
+   ],
+   "events": [
+    {
+     "t": 0.3,
+     "type": "reveal",
+     "item": "header"
+    },
+    {
+     "t": 1.107142857142857,
+     "type": "camera"
+    },
+    {
+     "t": 1.157142857142857,
+     "type": "reveal",
+     "item": "t1"
+    },
+    {
+     "t": 2.0142857142857142,
+     "type": "reveal",
+     "item": "t1-date"
+    },
+    {
+     "t": 2.821428571428571,
+     "type": "camera"
+    },
+    {
+     "t": 2.871428571428571,
+     "type": "reveal",
+     "item": "t2"
+    },
+    {
+     "t": 3.728571428571428,
+     "type": "reveal",
+     "item": "t2-date"
+    },
+    {
+     "t": 4.535714285714286,
+     "type": "camera"
+    },
+    {
+     "t": 4.585714285714285,
+     "type": "reveal",
+     "item": "t3"
+    },
+    {
+     "t": 5.442857142857142,
+     "type": "reveal",
+     "item": "t3-date"
+    },
+    {
+     "t": 6.842857142857142,
+     "type": "camera"
+    }
+   ],
+   "pulsesInserted": 0
+  },
+  {
+   "id": "s6-wordmark",
+   "type": "title",
+   "start": 40,
+   "dur": 7,
+   "narration": "FOSS. One install and it is yours.",
+   "items": [
+    {
+     "cue": null,
+     "id": "title",
+     "kind": "bigtitle",
+     "x": 790,
+     "y": 242.5,
+     "w": 340,
+     "h": 195,
+     "lines": [
+      "FOSS"
+     ],
+     "size": 170,
+     "center": true,
+     "at": 0.3,
+     "cued": false
+    },
+    {
+     "cue": null,
+     "id": "subtitle",
+     "kind": "text",
+     "x": 641,
+     "y": 473.5,
+     "w": 638,
+     "h": 66,
+     "lines": [
+      "Free and Open Source Software"
+     ],
+     "size": 44,
+     "center": true,
+     "at": 1.05,
+     "cued": false
+    },
+    {
+     "cue": null,
+     "id": "chip-0",
+     "kind": "chip",
+     "x": 724,
+     "y": 575.5,
+     "w": 144,
+     "h": 80,
+     "lines": [
+      "video"
+     ],
+     "size": 40,
+     "at": 1.8,
+     "cued": false
+    },
+    {
+     "cue": null,
+     "id": "chip-1",
+     "kind": "chip",
+     "x": 908,
+     "y": 575.5,
+     "w": 164,
+     "h": 80,
+     "lines": [
+      "design"
+     ],
+     "size": 40,
+     "at": 2.55,
+     "cued": false
+    },
+    {
+     "cue": null,
+     "id": "chip-2",
+     "kind": "chip",
+     "x": 1112,
+     "y": 575.5,
+     "w": 84,
+     "h": 80,
+     "lines": [
+      "3D"
+     ],
+     "size": 40,
+     "at": 3.3,
+     "cued": false
+    },
+    {
+     "cue": null,
+     "id": "command",
+     "kind": "terminal",
+     "x": 610,
+     "y": 707.5,
+     "w": 700,
+     "h": 130,
+     "lines": [
+      "brew install blender"
+     ],
+     "size": 38,
+     "center": true,
+     "at": 4.05,
+     "cued": false
+    },
+    {
+     "cue": null,
+     "id": "tag",
+     "kind": "tag",
+     "x": 1150,
+     "y": 232.5,
+     "w": 152,
+     "h": 64,
+     "lines": [
+      "own it"
+     ],
+     "size": 44,
+     "at": 4.8,
+     "cued": false
+    }
+   ],
+   "edges": [],
+   "mascot": {
+    "x": 1634,
+    "y": 754,
+    "w": 190,
+    "h": 230
+   },
+   "camera": [
+    {
+     "t": 0,
+     "s": 1,
+     "cx": 960,
+     "cy": 540
+    },
+    {
+     "t": 1,
+     "s": 1.1,
+     "cx": 960,
+     "cy": 506.5,
+     "ease": "expo"
+    },
+    {
+     "t": 1.75,
+     "s": 1.1,
+     "cx": 872.7272727272726,
+     "cy": 589.0909090909091,
+     "ease": "expo"
+    },
+    {
+     "t": 2.5,
+     "s": 1.1,
+     "cx": 990,
+     "cy": 589.0909090909091,
+     "ease": "expo"
+    },
+    {
+     "t": 3.25,
+     "s": 1.1,
+     "cx": 1047.2727272727275,
+     "cy": 589.0909090909091,
+     "ease": "expo"
+    },
+    {
+     "t": 4,
+     "s": 1.1,
+     "cx": 960,
+     "cy": 589.0909090909091,
+     "ease": "expo"
+    },
+    {
+     "t": 4.75,
+     "s": 1.1,
+     "cx": 1047.2727272727275,
+     "cy": 490.9090909090909,
+     "ease": "expo"
+    },
+    {
+     "t": 6.1,
+     "s": 1,
+     "cx": 960,
+     "cy": 540,
+     "ease": "expo"
+    }
+   ],
+   "events": [
+    {
+     "t": 0.3,
+     "type": "reveal",
+     "item": "title"
+    },
+    {
+     "t": 1,
+     "type": "camera"
+    },
+    {
+     "t": 1.05,
+     "type": "reveal",
+     "item": "subtitle"
+    },
+    {
+     "t": 1.75,
+     "type": "camera"
+    },
+    {
+     "t": 1.8,
+     "type": "reveal",
+     "item": "chip-0"
+    },
+    {
+     "t": 2.5,
+     "type": "camera"
+    },
+    {
+     "t": 2.55,
+     "type": "reveal",
+     "item": "chip-1"
+    },
+    {
+     "t": 3.25,
+     "type": "camera"
+    },
+    {
+     "t": 3.3,
+     "type": "reveal",
+     "item": "chip-2"
+    },
+    {
+     "t": 4,
+     "type": "camera"
+    },
+    {
+     "t": 4.05,
+     "type": "reveal",
+     "item": "command"
+    },
+    {
+     "t": 4.75,
+     "type": "camera"
+    },
+    {
+     "t": 4.8,
+     "type": "reveal",
+     "item": "tag"
+    },
+    {
+     "t": 6.1,
+     "type": "camera"
+    }
+   ],
+   "pulsesInserted": 0
+  }
+ ]
+}

@@ -1,0 +1,3282 @@
+{
+  "total_beats": 153,
+  "total_duration_frames": 7946,
+  "beats": [
+    {
+      "id": "beat_001",
+      "startFrame": 0,
+      "endFrame": 36,
+      "durationFrames": 36,
+      "narration": "In 2026, you can",
+      "oneIdea": "2026 title wordmark reveal",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "draw_title_wordmark",
+        "orange_highlight_2026"
+      ],
+      "assets": [
+        "logos/opensource.svg"
+      ],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.4,
+        "type": "punch_in"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_002",
+      "startFrame": 36,
+      "endFrame": 70,
+      "durationFrames": 34,
+      "narration": "edit videos, design graphics,",
+      "oneIdea": "Capabilities check boxes draw",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "draw_sketch_box_features",
+        "stagger_sub_chips"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -420,
+        "y": -260,
+        "zoom": 1.35,
+        "type": "pan"
+      },
+      "mascotPose": "thinking"
+    },
+    {
+      "id": "beat_003",
+      "startFrame": 70,
+      "endFrame": 116,
+      "durationFrames": 46,
+      "narration": "build apps, generate images,",
+      "oneIdea": "Visual narrative step: build apps, generate images,",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_004",
+      "startFrame": 116,
+      "endFrame": 146,
+      "durationFrames": 30,
+      "narration": "clone voices,",
+      "oneIdea": "Capabilities check boxes draw",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "draw_sketch_box_features",
+        "stagger_sub_chips"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -420,
+        "y": -260,
+        "zoom": 1.35,
+        "type": "pan"
+      },
+      "mascotPose": "thinking"
+    },
+    {
+      "id": "beat_005",
+      "startFrame": 149,
+      "endFrame": 197,
+      "durationFrames": 48,
+      "narration": "and even run AI models on your",
+      "oneIdea": "Visual narrative step: and even run AI models on yo",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_006",
+      "startFrame": 197,
+      "endFrame": 253,
+      "durationFrames": 56,
+      "narration": "own computer without paying for a subscription.",
+      "oneIdea": "Visual narrative step: own computer without paying ",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_007",
+      "startFrame": 261,
+      "endFrame": 324,
+      "durationFrames": 63,
+      "narration": "And the alternatives aren't just cheap knockoffs anymore.",
+      "oneIdea": "Visual narrative step: And the alternatives aren't ",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_008",
+      "startFrame": 334,
+      "endFrame": 386,
+      "durationFrames": 52,
+      "narration": "Some are genuinely good enough to replace the",
+      "oneIdea": "Visual narrative step: Some are genuinely good enou",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_009",
+      "startFrame": 386,
+      "endFrame": 438,
+      "durationFrames": 52,
+      "narration": "software people have been paying for for years.",
+      "oneIdea": "Visual narrative step: software people have been pa",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_010",
+      "startFrame": 448,
+      "endFrame": 478,
+      "durationFrames": 30,
+      "narration": "Take ArtCraft, for example.",
+      "oneIdea": "ArtCraft open suite repo pop-in",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "drop_repo_card",
+        "draw_curved_arrow",
+        "counter_stars"
+      ],
+      "assets": [
+        "screenshots/artcraft_repo.png",
+        "logos/github.svg"
+      ],
+      "cameraMove": {
+        "x": -250,
+        "y": -220,
+        "zoom": 1.5,
+        "type": "punch_in"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_011",
+      "startFrame": 492,
+      "endFrame": 523,
+      "durationFrames": 31,
+      "narration": "It's an open -source project",
+      "oneIdea": "Visual narrative step: It's an open -source project",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_012",
+      "startFrame": 523,
+      "endFrame": 562,
+      "durationFrames": 39,
+      "narration": "trying to recreate major Adobe",
+      "oneIdea": "Visual narrative step: trying to recreate major Ado",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_013",
+      "startFrame": 562,
+      "endFrame": 592,
+      "durationFrames": 30,
+      "narration": "applications,",
+      "oneIdea": "Visual narrative step: applications,",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_014",
+      "startFrame": 587,
+      "endFrame": 648,
+      "durationFrames": 61,
+      "narration": "including Photoshop, Premiere Pro, and After Effects.",
+      "oneIdea": "Adobe Photoshop target node",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "draw_target_box",
+        "pop_logo"
+      ],
+      "assets": [
+        "logos/photoshop.svg",
+        "logos/adobe.svg"
+      ],
+      "cameraMove": {
+        "x": -180,
+        "y": -180,
+        "zoom": 1.45,
+        "type": "pan"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_015",
+      "startFrame": 655,
+      "endFrame": 695,
+      "durationFrames": 40,
+      "narration": "It's still early, and it",
+      "oneIdea": "Visual narrative step: It's still early, and it",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_016",
+      "startFrame": 695,
+      "endFrame": 734,
+      "durationFrames": 39,
+      "narration": "can't replace Adobe for everyone.",
+      "oneIdea": "Visual narrative step: can't replace Adobe for ever",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_017",
+      "startFrame": 740,
+      "endFrame": 775,
+      "durationFrames": 35,
+      "narration": "But the fact that one developer",
+      "oneIdea": "Solo developer velocity highlight",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "draw_sketch_callout",
+        "marker_highlight_solo"
+      ],
+      "assets": [
+        "logos/anthropic.svg"
+      ],
+      "cameraMove": {
+        "x": -320,
+        "y": -180,
+        "zoom": 1.4,
+        "type": "punch_in"
+      },
+      "mascotPose": "celebrating"
+    },
+    {
+      "id": "beat_018",
+      "startFrame": 775,
+      "endFrame": 829,
+      "durationFrames": 54,
+      "narration": "can even attempt something like this",
+      "oneIdea": "Visual narrative step: can even attempt something l",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_019",
+      "startFrame": 829,
+      "endFrame": 876,
+      "durationFrames": 47,
+      "narration": "with the help of AI tells",
+      "oneIdea": "Visual narrative step: with the help of AI tells",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_020",
+      "startFrame": 876,
+      "endFrame": 925,
+      "durationFrames": 49,
+      "narration": "you where software development is heading.",
+      "oneIdea": "Visual narrative step: you where software developme",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_021",
+      "startFrame": 938,
+      "endFrame": 985,
+      "durationFrames": 47,
+      "narration": "And this isn't just happening with video editors.",
+      "oneIdea": "Visual narrative step: And this isn't just happenin",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_022",
+      "startFrame": 998,
+      "endFrame": 1046,
+      "durationFrames": 48,
+      "narration": "Almost every category of software",
+      "oneIdea": "Visual narrative step: Almost every category of sof",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_023",
+      "startFrame": 1046,
+      "endFrame": 1102,
+      "durationFrames": 56,
+      "narration": "has free open -source alternatives",
+      "oneIdea": "Visual narrative step: has free open -source altern",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_024",
+      "startFrame": 1102,
+      "endFrame": 1132,
+      "durationFrames": 30,
+      "narration": "now,",
+      "oneIdea": "Visual narrative step: now,",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_025",
+      "startFrame": 1118,
+      "endFrame": 1161,
+      "durationFrames": 43,
+      "narration": "and AI is making it easier",
+      "oneIdea": "Visual narrative step: and AI is making it easier",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_026",
+      "startFrame": 1161,
+      "endFrame": 1195,
+      "durationFrames": 34,
+      "narration": "to build even more of them.",
+      "oneIdea": "Visual narrative step: to build even more of them.",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_027",
+      "startFrame": 1200,
+      "endFrame": 1241,
+      "durationFrames": 41,
+      "narration": "So do we eventually reach a",
+      "oneIdea": "Visual narrative step: So do we eventually reach a",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_028",
+      "startFrame": 1241,
+      "endFrame": 1282,
+      "durationFrames": 41,
+      "narration": "point where almost all software is",
+      "oneIdea": "Visual narrative step: point where almost all softw",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_029",
+      "startFrame": 1282,
+      "endFrame": 1312,
+      "durationFrames": 30,
+      "narration": "free?",
+      "oneIdea": "Visual narrative step: free?",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_030",
+      "startFrame": 1290,
+      "endFrame": 1358,
+      "durationFrames": 68,
+      "narration": "And if nobody's paying for the software, who's actually making money?",
+      "oneIdea": "Central monetization paradox query",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "draw_rust_box_query",
+        "draw_curved_orange_arrow",
+        "marker_highlight_money"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -20,
+        "y": 0,
+        "zoom": 1.55,
+        "type": "punch_in"
+      },
+      "mascotPose": "shrugging"
+    },
+    {
+      "id": "beat_031",
+      "startFrame": 1367,
+      "endFrame": 1393,
+      "durationFrames": 26,
+      "narration": "Let's look at what's happening.",
+      "oneIdea": "Visual narrative step: Let's look at what's happeni",
+      "cluster": "cluster_1_2026_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_032",
+      "startFrame": 1400,
+      "endFrame": 1437,
+      "durationFrames": 37,
+      "narration": "For years, if you wanted professional",
+      "oneIdea": "Visual narrative step: For years, if you wanted pro",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_033",
+      "startFrame": 1437,
+      "endFrame": 1489,
+      "durationFrames": 52,
+      "narration": "software, you usually had two options,",
+      "oneIdea": "Visual narrative step: software, you usually had tw",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_034",
+      "startFrame": 1497,
+      "endFrame": 1550,
+      "durationFrames": 53,
+      "narration": "pay for it or settle for something worse.",
+      "oneIdea": "Visual narrative step: pay for it or settle for som",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_035",
+      "startFrame": 1555,
+      "endFrame": 1595,
+      "durationFrames": 40,
+      "narration": "Want to edit videos, pay for Premiere",
+      "oneIdea": "Capabilities check boxes draw",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "draw_sketch_box_features",
+        "stagger_sub_chips"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 580,
+        "y": -260,
+        "zoom": 1.35,
+        "type": "pan"
+      },
+      "mascotPose": "thinking"
+    },
+    {
+      "id": "beat_036",
+      "startFrame": 1595,
+      "endFrame": 1648,
+      "durationFrames": 53,
+      "narration": "Pro, want to design something, pay for",
+      "oneIdea": "Visual narrative step: Pro, want to design somethin",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_037",
+      "startFrame": 1648,
+      "endFrame": 1678,
+      "durationFrames": 30,
+      "narration": "Photoshop,",
+      "oneIdea": "Adobe Photoshop target node",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "draw_target_box",
+        "pop_logo"
+      ],
+      "assets": [
+        "logos/photoshop.svg",
+        "logos/adobe.svg"
+      ],
+      "cameraMove": {
+        "x": 820,
+        "y": -180,
+        "zoom": 1.45,
+        "type": "pan"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_038",
+      "startFrame": 1660,
+      "endFrame": 1714,
+      "durationFrames": 54,
+      "narration": "need office software, buy Microsoft",
+      "oneIdea": "Visual narrative step: need office software, buy Mi",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_039",
+      "startFrame": 1714,
+      "endFrame": 1749,
+      "durationFrames": 35,
+      "narration": "Office, or get a subscription.",
+      "oneIdea": "Visual narrative step: Office, or get a subscriptio",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_040",
+      "startFrame": 1766,
+      "endFrame": 1810,
+      "durationFrames": 44,
+      "narration": "But today, you can use tools",
+      "oneIdea": "Visual narrative step: But today, you can use tools",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_041",
+      "startFrame": 1810,
+      "endFrame": 1861,
+      "durationFrames": 51,
+      "narration": "like DaVinci Resolve for video editing,",
+      "oneIdea": "The free Hollywood-grade stack",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "draw_open_stack_box",
+        "pop_logo_davinci",
+        "pop_logo_blender",
+        "pop_logo_libreoffice"
+      ],
+      "assets": [
+        "logos/davinci.svg",
+        "logos/blender.svg",
+        "logos/libreoffice.svg"
+      ],
+      "cameraMove": {
+        "x": 700,
+        "y": -300,
+        "zoom": 1.4,
+        "type": "punch_in"
+      },
+      "mascotPose": "celebrating"
+    },
+    {
+      "id": "beat_042",
+      "startFrame": 1869,
+      "endFrame": 1924,
+      "durationFrames": 55,
+      "narration": "Blender for 3D, and LibreOffice for",
+      "oneIdea": "The free Hollywood-grade stack",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "draw_open_stack_box",
+        "pop_logo_davinci",
+        "pop_logo_blender",
+        "pop_logo_libreoffice"
+      ],
+      "assets": [
+        "logos/davinci.svg",
+        "logos/blender.svg",
+        "logos/libreoffice.svg"
+      ],
+      "cameraMove": {
+        "x": 700,
+        "y": -300,
+        "zoom": 1.4,
+        "type": "punch_in"
+      },
+      "mascotPose": "celebrating"
+    },
+    {
+      "id": "beat_043",
+      "startFrame": 1924,
+      "endFrame": 1980,
+      "durationFrames": 56,
+      "narration": "documents without paying for the software",
+      "oneIdea": "Visual narrative step: documents without paying for",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_044",
+      "startFrame": 1980,
+      "endFrame": 2010,
+      "durationFrames": 30,
+      "narration": "itself.",
+      "oneIdea": "Visual narrative step: itself.",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_045",
+      "startFrame": 1999,
+      "endFrame": 2036,
+      "durationFrames": 37,
+      "narration": "And these aren't new experiments anymore.",
+      "oneIdea": "Visual narrative step: And these aren't new experim",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_046",
+      "startFrame": 2051,
+      "endFrame": 2125,
+      "durationFrames": 74,
+      "narration": "Some have been around for years and are used for serious work.",
+      "oneIdea": "Visual narrative step: Some have been around for ye",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_047",
+      "startFrame": 2135,
+      "endFrame": 2190,
+      "durationFrames": 55,
+      "narration": "Now AI is accelerating this even further.",
+      "oneIdea": "Visual narrative step: Now AI is accelerating this ",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_048",
+      "startFrame": 2198,
+      "endFrame": 2263,
+      "durationFrames": 65,
+      "narration": "Projects like ArtCraft are using AI-assisted development",
+      "oneIdea": "ArtCraft open suite repo pop-in",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "drop_repo_card",
+        "draw_curved_arrow",
+        "counter_stars"
+      ],
+      "assets": [
+        "screenshots/artcraft_repo.png",
+        "logos/github.svg"
+      ],
+      "cameraMove": {
+        "x": 750,
+        "y": -220,
+        "zoom": 1.5,
+        "type": "punch_in"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_049",
+      "startFrame": 2263,
+      "endFrame": 2318,
+      "durationFrames": 55,
+      "narration": "to recreate expensive applications.",
+      "oneIdea": "Visual narrative step: to recreate expensive applic",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_050",
+      "startFrame": 2331,
+      "endFrame": 2389,
+      "durationFrames": 58,
+      "narration": "Developers can also build their own tools",
+      "oneIdea": "Visual narrative step: Developers can also build th",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_051",
+      "startFrame": 2389,
+      "endFrame": 2447,
+      "durationFrames": 58,
+      "narration": "instead of waiting for a company to add a feature",
+      "oneIdea": "Visual narrative step: instead of waiting for a com",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_052",
+      "startFrame": 2447,
+      "endFrame": 2479,
+      "durationFrames": 32,
+      "narration": "or charging them for an",
+      "oneIdea": "Visual narrative step: or charging them for an",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_053",
+      "startFrame": 2479,
+      "endFrame": 2524,
+      "durationFrames": 45,
+      "narration": "entire subscription just to get",
+      "oneIdea": "Visual narrative step: entire subscription just to ",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_054",
+      "startFrame": 2524,
+      "endFrame": 2554,
+      "durationFrames": 30,
+      "narration": "it.",
+      "oneIdea": "Visual narrative step: it.",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_055",
+      "startFrame": 2528,
+      "endFrame": 2572,
+      "durationFrames": 44,
+      "narration": "And if an open -source alternative",
+      "oneIdea": "Visual narrative step: And if an open -source alter",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_056",
+      "startFrame": 2572,
+      "endFrame": 2608,
+      "durationFrames": 36,
+      "narration": "does 90 % of what you",
+      "oneIdea": "Visual narrative step: does 90 % of what you",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_057",
+      "startFrame": 2608,
+      "endFrame": 2638,
+      "durationFrames": 30,
+      "narration": "need,",
+      "oneIdea": "Visual narrative step: need,",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_058",
+      "startFrame": 2618,
+      "endFrame": 2653,
+      "durationFrames": 35,
+      "narration": "paying hundreds of dollars a",
+      "oneIdea": "Visual narrative step: paying hundreds of dollars a",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_059",
+      "startFrame": 2653,
+      "endFrame": 2689,
+      "durationFrames": 36,
+      "narration": "year for the original becomes",
+      "oneIdea": "Visual narrative step: year for the original become",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 500,
+        "y": -300,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_060",
+      "startFrame": 2689,
+      "endFrame": 2719,
+      "durationFrames": 30,
+      "narration": "nonsense.",
+      "oneIdea": "90% utility threshold gauge",
+      "cluster": "cluster_2_saas_toll",
+      "elements": [
+        "draw_gauge_line",
+        "pulse_90_percent",
+        "marker_highlight_nonsense"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 850,
+        "y": -220,
+        "zoom": 1.5,
+        "type": "punch_in"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_061",
+      "startFrame": 2713,
+      "endFrame": 2766,
+      "durationFrames": 53,
+      "narration": "But software is only half of the story.",
+      "oneIdea": "Visual narrative step: But software is only half of",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_062",
+      "startFrame": 2776,
+      "endFrame": 2834,
+      "durationFrames": 58,
+      "narration": "A few years ago, generating high-quality images,",
+      "oneIdea": "Visual narrative step: A few years ago, generating ",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_063",
+      "startFrame": 2840,
+      "endFrame": 2902,
+      "durationFrames": 62,
+      "narration": "realistic voices, or useful AI responses",
+      "oneIdea": "Visual narrative step: realistic voices, or useful ",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_064",
+      "startFrame": 2902,
+      "endFrame": 2972,
+      "durationFrames": 70,
+      "narration": "usually meant relying on a handful of major companies.",
+      "oneIdea": "Visual narrative step: usually meant relying on a h",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_065",
+      "startFrame": 2983,
+      "endFrame": 3034,
+      "durationFrames": 51,
+      "narration": "Now, there are open models for all of these things.",
+      "oneIdea": "Visual narrative step: Now, there are open models f",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_066",
+      "startFrame": 3045,
+      "endFrame": 3104,
+      "durationFrames": 59,
+      "narration": "You can generate images with models like Cria",
+      "oneIdea": "Visual narrative step: You can generate images with",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_067",
+      "startFrame": 3104,
+      "endFrame": 3137,
+      "durationFrames": 33,
+      "narration": "and use projects like",
+      "oneIdea": "Visual narrative step: and use projects like",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_068",
+      "startFrame": 3137,
+      "endFrame": 3172,
+      "durationFrames": 35,
+      "narration": "Kokoro for text -to",
+      "oneIdea": "Open weights models reveal",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "drop_models_card",
+        "pop_terminal_snippet"
+      ],
+      "assets": [
+        "screenshots/kokoro_repo.png",
+        "screenshots/krea_ai.png"
+      ],
+      "cameraMove": {
+        "x": 900,
+        "y": 300,
+        "zoom": 1.45,
+        "type": "punch_in"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_069",
+      "startFrame": 3172,
+      "endFrame": 3202,
+      "durationFrames": 30,
+      "narration": "-speech.",
+      "oneIdea": "Visual narrative step: -speech.",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_070",
+      "startFrame": 3185,
+      "endFrame": 3250,
+      "durationFrames": 65,
+      "narration": "And you don't necessarily need an expensive workstation",
+      "oneIdea": "Visual narrative step: And you don't necessarily ne",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_071",
+      "startFrame": 3250,
+      "endFrame": 3310,
+      "durationFrames": 60,
+      "narration": "or a cloud subscription for every task.",
+      "oneIdea": "Visual narrative step: or a cloud subscription for ",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_072",
+      "startFrame": 3317,
+      "endFrame": 3389,
+      "durationFrames": 72,
+      "narration": "Smaller models can run on ordinary consumer hardware",
+      "oneIdea": "The Hardware & VRAM Migration",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "draw_hardware_chassis",
+        "led_power_pulse",
+        "draw_price_slider"
+      ],
+      "assets": [
+        "logos/nvidia.svg",
+        "logos/apple.svg"
+      ],
+      "cameraMove": {
+        "x": 950,
+        "y": 300,
+        "zoom": 1.45,
+        "type": "punch_in"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_073",
+      "startFrame": 3389,
+      "endFrame": 3443,
+      "durationFrames": 54,
+      "narration": "depending on their size and the memory available.",
+      "oneIdea": "Visual narrative step: depending on their size and ",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_074",
+      "startFrame": 3451,
+      "endFrame": 3509,
+      "durationFrames": 58,
+      "narration": "The biggest change is that you're no longer limited",
+      "oneIdea": "Visual narrative step: The biggest change is that y",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_075",
+      "startFrame": 3509,
+      "endFrame": 3560,
+      "durationFrames": 51,
+      "narration": "to whatever a company decides to offer.",
+      "oneIdea": "Visual narrative step: to whatever a company decide",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_076",
+      "startFrame": 3571,
+      "endFrame": 3625,
+      "durationFrames": 54,
+      "narration": "You can download a model, run it locally,",
+      "oneIdea": "Local compute execution diagram",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "draw_terminal_window",
+        "type_terminal_command",
+        "marker_highlight_local"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 1050,
+        "y": 400,
+        "zoom": 1.5,
+        "type": "punch_in"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_077",
+      "startFrame": 3637,
+      "endFrame": 3671,
+      "durationFrames": 34,
+      "narration": "connect it to your own applications,",
+      "oneIdea": "Visual narrative step: connect it to your own appli",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_078",
+      "startFrame": 3680,
+      "endFrame": 3712,
+      "durationFrames": 32,
+      "narration": "and build something around it.",
+      "oneIdea": "Visual narrative step: and build something around i",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_079",
+      "startFrame": 3716,
+      "endFrame": 3783,
+      "durationFrames": 67,
+      "narration": "If a company changes its prices, removes a feature,",
+      "oneIdea": "Visual narrative step: If a company changes its pri",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_080",
+      "startFrame": 3793,
+      "endFrame": 3858,
+      "durationFrames": 65,
+      "narration": "or shuts down a service, you may have another option.",
+      "oneIdea": "Visual narrative step: or shuts down a service, you",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_081",
+      "startFrame": 3868,
+      "endFrame": 3886,
+      "durationFrames": 18,
+      "narration": "That's a big deal.",
+      "oneIdea": "Visual narrative step: That's a big deal.",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_082",
+      "startFrame": 3896,
+      "endFrame": 3964,
+      "durationFrames": 68,
+      "narration": "And if you're into AI and tech, subscribe to Vantablief.",
+      "oneIdea": "Visual narrative step: And if you're into AI and te",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_083",
+      "startFrame": 3968,
+      "endFrame": 4003,
+      "durationFrames": 35,
+      "narration": "I cover the tools and developments",
+      "oneIdea": "Visual narrative step: I cover the tools and develo",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_084",
+      "startFrame": 4003,
+      "endFrame": 4066,
+      "durationFrames": 63,
+      "narration": "that are actually changing how we use technology.",
+      "oneIdea": "Visual narrative step: that are actually changing h",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_085",
+      "startFrame": 4076,
+      "endFrame": 4134,
+      "durationFrames": 58,
+      "narration": "But this freedom creates a problem for companies",
+      "oneIdea": "Visual narrative step: But this freedom creates a p",
+      "cluster": "cluster_3_open_weights",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 800,
+        "y": 200,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_086",
+      "startFrame": 4134,
+      "endFrame": 4206,
+      "durationFrames": 72,
+      "narration": "that have built their businesses around selling software.",
+      "oneIdea": "Visual narrative step: that have built their busine",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_087",
+      "startFrame": 4210,
+      "endFrame": 4276,
+      "durationFrames": 66,
+      "narration": "So how do open-source developers make money?",
+      "oneIdea": "Visual narrative step: So how do open-source develo",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_088",
+      "startFrame": 4276,
+      "endFrame": 4345,
+      "durationFrames": 69,
+      "narration": "Because here's the thing, making software isn't free",
+      "oneIdea": "Visual narrative step: Because here's the thing, ma",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_089",
+      "startFrame": 4345,
+      "endFrame": 4384,
+      "durationFrames": 39,
+      "narration": "even when downloading it is.",
+      "oneIdea": "Visual narrative step: even when downloading it is.",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_090",
+      "startFrame": 4390,
+      "endFrame": 4451,
+      "durationFrames": 61,
+      "narration": "Developers still need time, hardware, and money",
+      "oneIdea": "The Hardware & VRAM Migration",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "draw_hardware_chassis",
+        "led_power_pulse",
+        "draw_price_slider"
+      ],
+      "assets": [
+        "logos/nvidia.svg",
+        "logos/apple.svg"
+      ],
+      "cameraMove": {
+        "x": 150,
+        "y": 450,
+        "zoom": 1.45,
+        "type": "punch_in"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_091",
+      "startFrame": 4451,
+      "endFrame": 4492,
+      "durationFrames": 41,
+      "narration": "to maintain their projects.",
+      "oneIdea": "Visual narrative step: to maintain their projects.",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_092",
+      "startFrame": 4502,
+      "endFrame": 4547,
+      "durationFrames": 45,
+      "narration": "And successful open-source businesses",
+      "oneIdea": "Visual narrative step: And successful open-source b",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_093",
+      "startFrame": 4547,
+      "endFrame": 4588,
+      "durationFrames": 41,
+      "narration": "have figured out how to make money",
+      "oneIdea": "Visual narrative step: have figured out how to make",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_094",
+      "startFrame": 4588,
+      "endFrame": 4652,
+      "durationFrames": 64,
+      "narration": "without charging everyone for the basic software.",
+      "oneIdea": "Visual narrative step: without charging everyone fo",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_095",
+      "startFrame": 4660,
+      "endFrame": 4702,
+      "durationFrames": 42,
+      "narration": "The first model is paid convenience.",
+      "oneIdea": "Monetization Blueprint 1: Paid Convenience",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "draw_quadrant_1",
+        "draw_fork_arrow_1",
+        "pop_cloud_chip"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -180,
+        "y": 230,
+        "zoom": 1.4,
+        "type": "punch_in"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_096",
+      "startFrame": 4715,
+      "endFrame": 4790,
+      "durationFrames": 75,
+      "narration": "Take an open-source project and let people use it for free.",
+      "oneIdea": "Visual narrative step: Take an open-source project ",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_097",
+      "startFrame": 4795,
+      "endFrame": 4847,
+      "durationFrames": 52,
+      "narration": "Then charge for hosting, cloud access,",
+      "oneIdea": "Visual narrative step: Then charge for hosting, clo",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_098",
+      "startFrame": 4857,
+      "endFrame": 4897,
+      "durationFrames": 40,
+      "narration": "automatic updates, or the",
+      "oneIdea": "Visual narrative step: automatic updates, or the",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_099",
+      "startFrame": 4897,
+      "endFrame": 4931,
+      "durationFrames": 34,
+      "narration": "infrastructure needed to run",
+      "oneIdea": "Visual narrative step: infrastructure needed to run",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_100",
+      "startFrame": 4931,
+      "endFrame": 4961,
+      "durationFrames": 30,
+      "narration": "it.",
+      "oneIdea": "Visual narrative step: it.",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_101",
+      "startFrame": 4936,
+      "endFrame": 4990,
+      "durationFrames": 54,
+      "narration": "The second is enterprise features and support.",
+      "oneIdea": "Monetization Blueprint 2: Enterprise Tier",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "draw_quadrant_2",
+        "draw_fork_arrow_2",
+        "pop_security_chip"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 180,
+        "y": 230,
+        "zoom": 1.4,
+        "type": "punch_in"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_102",
+      "startFrame": 4997,
+      "endFrame": 5060,
+      "durationFrames": 63,
+      "narration": "A regular user might be happy with the free version,",
+      "oneIdea": "Visual narrative step: A regular user might be happ",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_103",
+      "startFrame": 5064,
+      "endFrame": 5120,
+      "durationFrames": 56,
+      "narration": "but a company managing thousands of employees",
+      "oneIdea": "Visual narrative step: but a company managing thous",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_104",
+      "startFrame": 5120,
+      "endFrame": 5192,
+      "durationFrames": 72,
+      "narration": "may need advanced security, access controls,",
+      "oneIdea": "Visual narrative step: may need advanced security, ",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_105",
+      "startFrame": 5198,
+      "endFrame": 5263,
+      "durationFrames": 65,
+      "narration": "compliance tools, and someone to call when something breaks.",
+      "oneIdea": "Visual narrative step: compliance tools, and someon",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_106",
+      "startFrame": 5273,
+      "endFrame": 5306,
+      "durationFrames": 33,
+      "narration": "The third is selling services.",
+      "oneIdea": "Monetization Blueprint 3: Services & Consulting",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "draw_quadrant_3",
+        "draw_fork_arrow_3",
+        "pop_consulting_chip"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -180,
+        "y": 490,
+        "zoom": 1.4,
+        "type": "punch_in"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_107",
+      "startFrame": 5314,
+      "endFrame": 5360,
+      "durationFrames": 46,
+      "narration": "Companies can build open-source software",
+      "oneIdea": "Visual narrative step: Companies can build open-sou",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_108",
+      "startFrame": 5360,
+      "endFrame": 5420,
+      "durationFrames": 60,
+      "narration": "and then charge for installation, customization,",
+      "oneIdea": "Visual narrative step: and then charge for installa",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_109",
+      "startFrame": 5442,
+      "endFrame": 5465,
+      "durationFrames": 23,
+      "narration": "consulting, and maintenance.",
+      "oneIdea": "Visual narrative step: consulting, and maintenance.",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_110",
+      "startFrame": 5480,
+      "endFrame": 5549,
+      "durationFrames": 69,
+      "narration": "And some projects survive through sponsorships,",
+      "oneIdea": "Monetization Blueprint 4: Capital & Grants",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "draw_quadrant_4",
+        "draw_fork_arrow_4",
+        "pop_grant_chip"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 180,
+        "y": 490,
+        "zoom": 1.4,
+        "type": "punch_in"
+      },
+      "mascotPose": "celebrating"
+    },
+    {
+      "id": "beat_111",
+      "startFrame": 5552,
+      "endFrame": 5592,
+      "durationFrames": 40,
+      "narration": "donations, or funding from",
+      "oneIdea": "Monetization Blueprint 4: Capital & Grants",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "draw_quadrant_4",
+        "draw_fork_arrow_4",
+        "pop_grant_chip"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 180,
+        "y": 490,
+        "zoom": 1.4,
+        "type": "punch_in"
+      },
+      "mascotPose": "celebrating"
+    },
+    {
+      "id": "beat_112",
+      "startFrame": 5592,
+      "endFrame": 5623,
+      "durationFrames": 31,
+      "narration": "companies that depend on",
+      "oneIdea": "Visual narrative step: companies that depend on",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_113",
+      "startFrame": 5623,
+      "endFrame": 5653,
+      "durationFrames": 30,
+      "narration": "them.",
+      "oneIdea": "Visual narrative step: them.",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_114",
+      "startFrame": 5636,
+      "endFrame": 5671,
+      "durationFrames": 35,
+      "narration": "So the software can be free",
+      "oneIdea": "Visual narrative step: So the software can be free",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_115",
+      "startFrame": 5671,
+      "endFrame": 5730,
+      "durationFrames": 59,
+      "narration": "while the business around it still makes money.",
+      "oneIdea": "Visual narrative step: while the business around it",
+      "cluster": "cluster_4_monetization",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 350,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_116",
+      "startFrame": 5737,
+      "endFrame": 5783,
+      "durationFrames": 46,
+      "narration": "But here's where things could get interesting.",
+      "oneIdea": "Visual narrative step: But here's where things coul",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_117",
+      "startFrame": 5792,
+      "endFrame": 5831,
+      "durationFrames": 39,
+      "narration": "If AI keeps making software",
+      "oneIdea": "Visual narrative step: If AI keeps making software",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_118",
+      "startFrame": 5831,
+      "endFrame": 5870,
+      "durationFrames": 39,
+      "narration": "cheaper and easier to build,",
+      "oneIdea": "Visual narrative step: cheaper and easier to build,",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_119",
+      "startFrame": 5875,
+      "endFrame": 5905,
+      "durationFrames": 30,
+      "narration": "I think we'll see more",
+      "oneIdea": "Visual narrative step: I think we'll see more",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_120",
+      "startFrame": 5905,
+      "endFrame": 5958,
+      "durationFrames": 53,
+      "narration": "pressure on traditional software companies.",
+      "oneIdea": "Visual narrative step: pressure on traditional soft",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_121",
+      "startFrame": 5958,
+      "endFrame": 6029,
+      "durationFrames": 71,
+      "narration": "Instead of paying for dozens of separate applications,",
+      "oneIdea": "Visual narrative step: Instead of paying for dozens",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_122",
+      "startFrame": 6037,
+      "endFrame": 6102,
+      "durationFrames": 65,
+      "narration": "people may increasingly build small tools",
+      "oneIdea": "Visual narrative step: people may increasingly buil",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_123",
+      "startFrame": 6102,
+      "endFrame": 6146,
+      "durationFrames": 44,
+      "narration": "that do exactly what they need,",
+      "oneIdea": "Visual narrative step: that do exactly what they ne",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_124",
+      "startFrame": 6149,
+      "endFrame": 6182,
+      "durationFrames": 33,
+      "narration": "and companies will have to compete",
+      "oneIdea": "Visual narrative step: and companies will have to c",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_125",
+      "startFrame": 6182,
+      "endFrame": 6232,
+      "durationFrames": 50,
+      "narration": "on more than just access to features.",
+      "oneIdea": "Visual narrative step: on more than just access to ",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_126",
+      "startFrame": 6241,
+      "endFrame": 6310,
+      "durationFrames": 69,
+      "narration": "But I wouldn't expect paid software to disappear completely.",
+      "oneIdea": "Visual narrative step: But I wouldn't expect paid s",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_127",
+      "startFrame": 6319,
+      "endFrame": 6386,
+      "durationFrames": 67,
+      "narration": "Professional support, reliability, collaboration,",
+      "oneIdea": "Visual narrative step: Professional support, reliab",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_128",
+      "startFrame": 6401,
+      "endFrame": 6461,
+      "durationFrames": 60,
+      "narration": "and specialized features still have value,",
+      "oneIdea": "Visual narrative step: and specialized features sti",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_129",
+      "startFrame": 6466,
+      "endFrame": 6535,
+      "durationFrames": 69,
+      "narration": "and open-source doesn't automatically mean better security",
+      "oneIdea": "Visual narrative step: and open-source doesn't auto",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_130",
+      "startFrame": 6535,
+      "endFrame": 6570,
+      "durationFrames": 35,
+      "narration": "or a better product.",
+      "oneIdea": "Visual narrative step: or a better product.",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_131",
+      "startFrame": 6574,
+      "endFrame": 6630,
+      "durationFrames": 56,
+      "narration": "There's also a difference between open-source software",
+      "oneIdea": "Visual narrative step: There's also a difference be",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_132",
+      "startFrame": 6630,
+      "endFrame": 6673,
+      "durationFrames": 43,
+      "narration": "and AI models that merely",
+      "oneIdea": "Visual narrative step: and AI models that merely",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_133",
+      "startFrame": 6673,
+      "endFrame": 6709,
+      "durationFrames": 36,
+      "narration": "let you download their weights,",
+      "oneIdea": "Visual narrative step: let you download their weigh",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_134",
+      "startFrame": 6715,
+      "endFrame": 6779,
+      "durationFrames": 64,
+      "narration": "the license, and what's actually available still matter.",
+      "oneIdea": "Visual narrative step: the license, and what's actu",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_135",
+      "startFrame": 6784,
+      "endFrame": 6827,
+      "durationFrames": 43,
+      "narration": "The bigger change is where the money goes.",
+      "oneIdea": "Visual narrative step: The bigger change is where t",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_136",
+      "startFrame": 6827,
+      "endFrame": 6884,
+      "durationFrames": 57,
+      "narration": "If software becomes easier to reproduce,",
+      "oneIdea": "Visual narrative step: If software becomes easier t",
+      "cluster": "cluster_5_hardware_shift",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -600,
+        "y": 650,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_137",
+      "startFrame": 6898,
+      "endFrame": 6943,
+      "durationFrames": 45,
+      "narration": "the advantage may shift toward the hardware,",
+      "oneIdea": "The Hardware & VRAM Migration",
+      "cluster": "cluster_6_master_overview",
+      "elements": [
+        "draw_hardware_chassis",
+        "led_power_pulse",
+        "draw_price_slider"
+      ],
+      "assets": [
+        "logos/nvidia.svg",
+        "logos/apple.svg"
+      ],
+      "cameraMove": {
+        "x": 150,
+        "y": 250,
+        "zoom": 1.45,
+        "type": "punch_in"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_138",
+      "startFrame": 6951,
+      "endFrame": 7013,
+      "durationFrames": 62,
+      "narration": "computing power, and services needed to run it.",
+      "oneIdea": "Monetization Blueprint 3: Services & Consulting",
+      "cluster": "cluster_6_master_overview",
+      "elements": [
+        "draw_quadrant_3",
+        "draw_fork_arrow_3",
+        "pop_consulting_chip"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": -180,
+        "y": 290,
+        "zoom": 1.4,
+        "type": "punch_in"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_139",
+      "startFrame": 7019,
+      "endFrame": 7091,
+      "durationFrames": 72,
+      "narration": "Companies could find more value in selling cloud computing,",
+      "oneIdea": "Visual narrative step: Companies could find more va",
+      "cluster": "cluster_6_master_overview",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 150,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_140",
+      "startFrame": 7101,
+      "endFrame": 7148,
+      "durationFrames": 47,
+      "narration": "specialized chips, and devices",
+      "oneIdea": "The Hardware & VRAM Migration",
+      "cluster": "cluster_6_master_overview",
+      "elements": [
+        "draw_hardware_chassis",
+        "led_power_pulse",
+        "draw_price_slider"
+      ],
+      "assets": [
+        "logos/nvidia.svg",
+        "logos/apple.svg"
+      ],
+      "cameraMove": {
+        "x": 150,
+        "y": 250,
+        "zoom": 1.45,
+        "type": "punch_in"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_141",
+      "startFrame": 7148,
+      "endFrame": 7207,
+      "durationFrames": 59,
+      "narration": "than in charging for basic software features.",
+      "oneIdea": "Visual narrative step: than in charging for basic s",
+      "cluster": "cluster_6_master_overview",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 150,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_142",
+      "startFrame": 7214,
+      "endFrame": 7282,
+      "durationFrames": 68,
+      "narration": "That doesn't mean hardware prices will automatically rise,",
+      "oneIdea": "The Hardware & VRAM Migration",
+      "cluster": "cluster_6_master_overview",
+      "elements": [
+        "draw_hardware_chassis",
+        "led_power_pulse",
+        "draw_price_slider"
+      ],
+      "assets": [
+        "logos/nvidia.svg",
+        "logos/apple.svg"
+      ],
+      "cameraMove": {
+        "x": 150,
+        "y": 250,
+        "zoom": 1.45,
+        "type": "punch_in"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_143",
+      "startFrame": 7288,
+      "endFrame": 7349,
+      "durationFrames": 61,
+      "narration": "or that every company will abandon subscriptions.",
+      "oneIdea": "Visual narrative step: or that every company will a",
+      "cluster": "cluster_6_master_overview",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 150,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_144",
+      "startFrame": 7361,
+      "endFrame": 7430,
+      "durationFrames": 69,
+      "narration": "But it does mean the old model becomes harder to defend",
+      "oneIdea": "Visual narrative step: But it does mean the old mod",
+      "cluster": "cluster_6_master_overview",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 150,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_145",
+      "startFrame": 7430,
+      "endFrame": 7479,
+      "durationFrames": 49,
+      "narration": "when free alternatives keep improving,",
+      "oneIdea": "Visual narrative step: when free alternatives keep ",
+      "cluster": "cluster_6_master_overview",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 150,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_146",
+      "startFrame": 7485,
+      "endFrame": 7559,
+      "durationFrames": 74,
+      "narration": "so I don't think every paid application is going away.",
+      "oneIdea": "Visual narrative step: so I don't think every paid ",
+      "cluster": "cluster_6_master_overview",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 150,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_147",
+      "startFrame": 7564,
+      "endFrame": 7606,
+      "durationFrames": 42,
+      "narration": "But I do think we're moving toward a world",
+      "oneIdea": "Visual narrative step: But I do think we're moving ",
+      "cluster": "cluster_6_master_overview",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 150,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_148",
+      "startFrame": 7606,
+      "endFrame": 7663,
+      "durationFrames": 57,
+      "narration": "where paying for software becomes a choice",
+      "oneIdea": "Visual narrative step: where paying for software be",
+      "cluster": "cluster_6_master_overview",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 150,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_149",
+      "startFrame": 7663,
+      "endFrame": 7732,
+      "durationFrames": 69,
+      "narration": "rather than a requirement for more and more tasks.",
+      "oneIdea": "Visual narrative step: rather than a requirement fo",
+      "cluster": "cluster_6_master_overview",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 150,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_150",
+      "startFrame": 7744,
+      "endFrame": 7792,
+      "durationFrames": 48,
+      "narration": "And with AI making development faster,",
+      "oneIdea": "Visual narrative step: And with AI making developme",
+      "cluster": "cluster_6_master_overview",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 150,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_151",
+      "startFrame": 7804,
+      "endFrame": 7852,
+      "durationFrames": 48,
+      "narration": "that choice could expand into categories",
+      "oneIdea": "Visual narrative step: that choice could expand int",
+      "cluster": "cluster_6_master_overview",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 150,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "idle"
+    },
+    {
+      "id": "beat_152",
+      "startFrame": 7852,
+      "endFrame": 7897,
+      "durationFrames": 45,
+      "narration": "we haven't even considered yet.",
+      "oneIdea": "Visual narrative step: we haven't even considered y",
+      "cluster": "cluster_6_master_overview",
+      "elements": [
+        "pulse_active_node",
+        "marker_sweep_keyword"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 150,
+        "zoom": 1.25,
+        "type": "settle"
+      },
+      "mascotPose": "pointing"
+    },
+    {
+      "id": "beat_153",
+      "startFrame": 7903,
+      "endFrame": 7937,
+      "durationFrames": 34,
+      "narration": "Let me know what you think in the comments.",
+      "oneIdea": "Master canvas full overview outro",
+      "cluster": "cluster_6_master_overview",
+      "elements": [
+        "pull_back_master_view",
+        "highlight_all_nodes",
+        "outro_call_to_action"
+      ],
+      "assets": [],
+      "cameraMove": {
+        "x": 0,
+        "y": 100,
+        "zoom": 0.65,
+        "type": "pull_back"
+      },
+      "mascotPose": "pointing"
+    }
+  ]
+}

@@ -772,9 +772,9 @@ def cmd_new_video(a):
     studio, videos, channels, _ = load_cfg()
     proj = project_dir(videos, a.project)
     py = venv_python(studio)
-    print("═══════════════════════════════════════════════════════════")
+    print("=" * 60)
     print(f"   VANTABRIEF UNIFIED 1-COMMAND VIDEO PIPELINE: {proj.name}")
-    print("═══════════════════════════════════════════════════════════\n")
+    print("=" * 60 + "\n")
 
     # Step 1: Transcribe & Calibrate if needed
     voice_file = proj / "assets" / "audio" / "voice" / "audio.mp3"
@@ -806,6 +806,72 @@ def cmd_new_video(a):
         print("Review checkpoint: docs/beats-review.md")
         print("Footage checklist: manifests/PLACEHOLDERS.md")
         print("To render: python studio.py render-remotion <project> VantaBrief-Episode-003")
+
+
+def cmd_plan_motion(a):
+    studio, videos, channels, _ = load_cfg()
+    proj = project_dir(videos, a.project)
+    py = venv_python(studio)
+    script = studio / "scripts" / "motion_planner.py"
+    ch = getattr(a, "channel", "VantaBrief")
+    run([str(py), str(script), str(proj), ch])
+
+
+def cmd_research_references(a):
+    studio, videos, channels, _ = load_cfg()
+    proj = project_dir(videos, a.project)
+    py = venv_python(studio)
+    script = studio / "scripts" / "reference_researcher.py"
+    run([str(py), str(script), str(proj)])
+
+
+def cmd_render_motion_graphics(a):
+    studio, videos, channels, _ = load_cfg()
+    proj = project_dir(videos, a.project)
+    py = venv_python(studio)
+    script = studio / "scripts" / "render_motion_graphics.py"
+    args = [str(py), str(script), str(proj)]
+    if getattr(a, "transparent", False):
+        args.append("--transparent")
+    run(args)
+
+
+def cmd_render_all_motion(a):
+    studio, videos, channels, _ = load_cfg()
+    proj = project_dir(videos, a.project)
+    py = venv_python(studio)
+    ch = getattr(a, "channel", "VantaBrief")
+    print("=" * 70)
+    print(f"   MOTION STUDIO: REFERENCE-DRIVEN MOTION GRAPHICS PIPELINE")
+    print(f"   Project: {proj.name} | Channel: {ch}")
+    print("=" * 70 + "\n")
+    
+    # 1. Transcribe voiceover if transcripts not found
+    words_file = proj / "transcripts" / "transcript.words.json"
+    transcript_file = proj / "transcripts" / "transcript.json"
+    if not words_file.exists() and not transcript_file.exists():
+        print("--> Step 1: Transcribing voiceover audio...")
+        transcribe_script = studio / "scripts" / "transcribe.py"
+        run([str(py), str(transcribe_script), str(proj)])
+        
+    # 2. Identify key animation-worthy moments (3-5 moments)
+    print("--> Step 2: Analyzing script & selecting animation-worthy moments...")
+    planner_script = studio / "scripts" / "motion_planner.py"
+    run([str(py), str(planner_script), str(proj), ch])
+    
+    # 3. Research verified visual references
+    print("--> Step 3: Researching verified visual design references...")
+    ref_script = studio / "scripts" / "reference_researcher.py"
+    run([str(py), str(ref_script), str(proj)])
+    
+    # 4. Render standalone clips & generate Premiere Editing Guide
+    print("--> Step 4: Rendering standalone clips & generating Premiere Editing Guide...")
+    render_script = studio / "scripts" / "render_motion_graphics.py"
+    args = [str(py), str(render_script), str(proj)]
+    if getattr(a, "transparent", False):
+        args.append("--transparent")
+    run(args)
+    print("\n[SUCCESS] Reference-driven motion graphics pipeline complete!")
 
 
 def cmd_render_manim(a):
@@ -1085,6 +1151,122 @@ def cmd_clean(a):
     print("Done. Reinstall with: python studio.py setup")
 
 
+def cmd_plan_motion(a):
+    from scripts.motion_planner import plan_project_motion
+    studio, videos, channels, _ = load_cfg()
+    proj = project_dir(videos, a.project)
+    channel_name = a.channel or "VantaBrief"
+    plan_project_motion(proj, channel_name)
+
+
+def cmd_research_references(a):
+    from scripts.reference_researcher import research_references_for_plan
+    studio, videos, channels, _ = load_cfg()
+    proj = project_dir(videos, a.project)
+    research_references_for_plan(proj)
+
+
+def cmd_render_motion_graphics(a):
+    from scripts.render_motion_graphics import render_standalone_clips
+    studio, videos, channels, _ = load_cfg()
+    proj = project_dir(videos, a.project)
+    render_standalone_clips(proj, transparent=a.transparent)
+
+
+def cmd_render_all_motion(a):
+    studio, videos, channels, _ = load_cfg()
+    proj = project_dir(videos, a.project)
+    channel_name = a.channel or "VantaBrief"
+
+    print("\n=======================================================")
+    print("   MOTION STUDIO: REFERENCE-DRIVEN PRODUCTION")
+    print(f"   Project: {proj.name} | Channel: {channel_name}")
+    print("=======================================================\n")
+
+    from scripts.motion_planner import plan_project_motion
+    plan_project_motion(proj, channel_name)
+
+    from scripts.reference_researcher import research_references_for_plan
+    research_references_for_plan(proj, verify_live=True)
+
+    from scripts.render_motion_graphics import render_standalone_clips
+    render_standalone_clips(proj, transparent=a.transparent)
+
+    print("\n=======================================================")
+    print("   [SUCCESS] All motion graphics rendered and verified!")
+    print(f"   Editing Guide: {proj / 'editing_guide.md'}")
+    print(f"   Clips:         {proj / 'renders' / 'motion-graphics'}")
+    print("=======================================================\n")
+
+
+def cmd_build_explainer_canvas(a):
+    studio, videos, channels, _ = load_cfg()
+    proj = project_dir(videos, a.project)
+    out_dir = proj / "renders" / "explainer-canvas"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_file = out_dir / "explainer_canvas.mp4"
+    remotion_app = studio / "projects" / "remotion-app"
+    npx_cmd = "npx.cmd" if IS_WIN else "npx"
+    comp_id = getattr(a, "composition", None) or "Workflow2-FullExplainerCanvas"
+    cmd = [
+        npx_cmd, "remotion", "render",
+        "src/index.ts",
+        comp_id,
+        str(out_file.resolve()),
+        "--codec=h264"
+    ]
+    print(f"\n--> Rendering Workflow 2 Explainer Canvas ({comp_id}) -> {out_file.name}...")
+    subprocess.run(cmd, cwd=remotion_app, check=True)
+def cmd_w2_words(a):
+    studio, videos, channels, _ = load_cfg()
+    proj = project_dir(videos, a.project)
+    from scripts.workflow2_pipeline import w2_words_cmd
+    w2_words_cmd(proj)
+
+
+def cmd_w2_assets(a):
+    studio, videos, channels, _ = load_cfg()
+    proj = project_dir(videos, a.project)
+    from scripts.workflow2_pipeline import w2_assets_cmd
+    w2_assets_cmd(proj)
+
+
+def cmd_w2_plan(a):
+    studio, videos, channels, _ = load_cfg()
+    proj = project_dir(videos, a.project)
+    from scripts.workflow2_pipeline import w2_plan_cmd
+    w2_plan_cmd(proj, allow_missing=a.allow_missing)
+
+
+def cmd_w2_preview(a):
+    studio, videos, channels, _ = load_cfg()
+    proj = project_dir(videos, a.project)
+    from scripts.workflow2_pipeline import w2_preview_cmd
+    w2_preview_cmd(proj)
+
+
+def cmd_w2_render(a):
+    studio, videos, channels, _ = load_cfg()
+    proj = project_dir(videos, a.project)
+    from scripts.workflow2_pipeline import w2_render_cmd
+    w2_render_cmd(proj, crf=a.crf)
+
+
+def cmd_w2_all(a):
+    studio, videos, channels, _ = load_cfg()
+    proj = project_dir(videos, a.project)
+    from scripts.workflow2_pipeline import w2_words_cmd, w2_assets_cmd, w2_plan_cmd, w2_preview_cmd, w2_render_cmd
+    print(f"\n=======================================================")
+    print(f"   WORKFLOW 2: END-TO-END WHITEBOARD PIPELINE")
+    print(f"   Project: {proj.name}")
+    print(f"=======================================================\n")
+    w2_words_cmd(proj)
+    w2_assets_cmd(proj)
+    w2_plan_cmd(proj, allow_missing=a.allow_missing)
+    w2_preview_cmd(proj)
+    w2_render_cmd(proj, crf=a.crf)
+
+
 def main():
     ap = argparse.ArgumentParser(description="Motion Studio helper")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -1203,6 +1385,61 @@ def main():
     s = sub.add_parser("clean", help="Free disk space (preserves user projects in Videos/)")
     s.add_argument("--all", action="store_true")
     s.set_defaults(fn=cmd_clean)
+
+    # --- Reference-Driven Standalone Motion Graphics Pipeline ---
+    s = sub.add_parser("plan-motion", help="Analyze script & identify 3-5 animation-worthy moments")
+    s.add_argument("project", help="Project name or relative path")
+    s.add_argument("--channel", default="VantaBrief", help="Channel configuration (e.g. VantaBrief, HanaVanta)")
+    s.set_defaults(fn=cmd_plan_motion)
+
+    s = sub.add_parser("research-references", help="Research verified visual design references for planned moments")
+    s.add_argument("project", help="Project name or relative path")
+    s.set_defaults(fn=cmd_research_references)
+
+    s = sub.add_parser("render-motion-graphics", help="Render standalone motion graphic clips & generate Editing Guide")
+    s.add_argument("project", help="Project name or relative path")
+    s.add_argument("--transparent", action="store_true", help="Export transparent ProRes 4444 alpha clips")
+    s.set_defaults(fn=cmd_render_motion_graphics)
+
+    s = sub.add_parser("render-all-motion", help="Run full 1-command Reference-Driven Motion Graphics pipeline")
+    s.add_argument("project", help="Project name or relative path")
+    s.add_argument("--channel", default="VantaBrief", help="Channel configuration (e.g. VantaBrief, HanaVanta)")
+    s.add_argument("--transparent", action="store_true", help="Export transparent ProRes 4444 alpha clips")
+    s.set_defaults(fn=cmd_render_all_motion)
+
+    s = sub.add_parser("build-explainer-canvas", help="Render continuous Workflow 2 Infinite Explainer Canvas video")
+    s.add_argument("project", help="Project name or relative path")
+    s.add_argument("--channel", default="VantaBrief", help="Channel configuration")
+    s.set_defaults(fn=cmd_build_explainer_canvas)
+
+    # Workflow 2: Whiteboard Explainer Kit commands
+    s = sub.add_parser("w2-words", help="Convert project Whisper transcript into workflow2/words.json")
+    s.add_argument("project", help="Project name or relative path")
+    s.set_defaults(fn=cmd_w2_words)
+
+    s = sub.add_parser("w2-assets", help="Fetch verified logos & screenshots for workflow2/beats.json")
+    s.add_argument("project", help="Project name or relative path")
+    s.set_defaults(fn=cmd_w2_assets)
+
+    s = sub.add_parser("w2-plan", help="Solve layout, camera and lint workflow2/beats.json")
+    s.add_argument("project", help="Project name or relative path")
+    s.add_argument("--allow-missing", action="store_true", help="Allow missing assets during drafting")
+    s.set_defaults(fn=cmd_w2_plan)
+
+    s = sub.add_parser("w2-preview", help="Render headless Playwright previews into workflow2/previews/")
+    s.add_argument("project", help="Project name or relative path")
+    s.set_defaults(fn=cmd_w2_preview)
+
+    s = sub.add_parser("w2-render", help="Render master video & contact sheet for workflow2")
+    s.add_argument("project", help="Project name or relative path")
+    s.add_argument("--crf", type=int, default=18, help="H.264 CRF quality (default: 18)")
+    s.set_defaults(fn=cmd_w2_render)
+
+    s = sub.add_parser("w2-all", help="Run end-to-end Workflow 2 pipeline (words -> assets -> plan -> preview -> render)")
+    s.add_argument("project", help="Project name or relative path")
+    s.add_argument("--allow-missing", action="store_true", help="Allow missing assets during drafting")
+    s.add_argument("--crf", type=int, default=18, help="H.264 CRF quality (default: 18)")
+    s.set_defaults(fn=cmd_w2_all)
 
     a = ap.parse_args()
     a.fn(a)

@@ -1,0 +1,198 @@
+{
+ "meta": {
+  "title": "The Zero-Subscription Shift",
+  "audio": "audio/narration.mp3",
+  "mascot": [
+   "point",
+   "think",
+   "shrug",
+   "cheer"
+  ]
+ },
+ "scenes": [
+  {
+   "id": "s1-title",
+   "type": "title",
+   "narration": "In 2026 you can run professional software entirely on your own machine.",
+   "title": "2026",
+   "cue": "2026",
+   "subtitle": "professional software, run locally",
+   "subtitleCue": "software",
+   "tag": "on your machine",
+   "tagCue": "machine",
+   "icon": "desktop",
+   "iconCue": "run"
+  },
+  {
+   "id": "s2-devices",
+   "type": "iconrow",
+   "narration": "It works on your desktop, on your phone, and even on a drone.",
+   "cards": [
+    {
+     "id": "d1",
+     "icon": "desktop",
+     "label": "Desktop",
+     "cue": "desktop"
+    },
+    {
+     "id": "d2",
+     "icon": "phone",
+     "label": "Phone",
+     "cue": "phone"
+    },
+    {
+     "id": "d3",
+     "icon": "drone",
+     "label": "Drone",
+     "cue": "drone",
+     "emphasis": true
+    }
+   ]
+  },
+  {
+   "id": "s3-toll",
+   "type": "stat",
+   "narration": "Adobe charges over $600 a year for that, every single year.",
+   "value": "$600+",
+   "cue": "600",
+   "label": "per year, every year",
+   "labelCue": "every",
+   "note": "rent on software you never own",
+   "noteCue": "single",
+   "icon": "money",
+   "iconCue": "Adobe"
+  },
+  {
+   "id": "s4-replace",
+   "type": "flow",
+   "narration": "One open source suite recreates Photoshop, Premiere and After Effects on your own hardware.",
+   "title": "One suite replaces three",
+   "titleCue": "One",
+   "nodes": [
+    {
+     "id": "suite",
+     "icon": "box",
+     "label": "Open source suite",
+     "cue": "suite",
+     "emphasis": true
+    },
+    {
+     "id": "ps",
+     "icon": "photo",
+     "label": "Photoshop",
+     "cue": "Photoshop"
+    },
+    {
+     "id": "pr",
+     "icon": "movie",
+     "label": "Premiere",
+     "cue": "Premiere"
+    },
+    {
+     "id": "ae",
+     "icon": "palette",
+     "label": "After Effects",
+     "cue": "After"
+    }
+   ],
+   "edges": [
+    [
+     "suite",
+     "ps"
+    ],
+    [
+     "suite",
+     "pr"
+    ],
+    [
+     "suite",
+     "ae"
+    ]
+   ]
+  },
+  {
+   "id": "s5-proof",
+   "type": "shot",
+   "narration": "Blender is the proof. It is free, open source, and runs completely offline.",
+   "shots": [
+    {
+     "id": "blender",
+     "asset": "assets/shots/blender.png",
+     "frame": "browser",
+     "label": "Blender",
+     "labelLogo": "blender",
+     "cue": "offline",
+     "highlights": [
+      {
+       "text": "Blender 5.3 Beta",
+       "cue": "free"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6-compare",
+   "type": "compare",
+   "narration": "Paid software rents you the tool. Open source lets you keep it.",
+   "a": {
+    "title": "Paid software",
+    "bullets": [
+     "monthly rent",
+     "cloud lock-in"
+    ],
+    "cue": "Paid",
+    "icon": "lock"
+   },
+   "b": {
+    "title": "Open source",
+    "bullets": [
+     "yours forever",
+     "runs offline"
+    ],
+    "emphasis": true,
+    "cue": "Open",
+    "icon": "open"
+   },
+   "vsCue": "rents"
+  },
+  {
+   "id": "s7-ai",
+   "type": "iconrow",
+   "arrows": true,
+   "narration": "Next, local AI models run from your laptop, all the way to a drone.",
+   "cards": [
+    {
+     "id": "a1",
+     "icon": "laptop",
+     "label": "Your laptop",
+     "cue": "laptop"
+    },
+    {
+     "id": "a2",
+     "icon": "ai",
+     "label": "Local AI",
+     "cue": "models",
+     "emphasis": true
+    },
+    {
+     "id": "a3",
+     "icon": "drone",
+     "label": "A drone",
+     "cue": "drone"
+    }
+   ]
+  },
+  {
+   "id": "s8-close",
+   "type": "title",
+   "narration": "That is the shift. Own your tools.",
+   "title": "OWN IT",
+   "cue": "Own",
+   "subtitle": "the zero-subscription shift",
+   "subtitleCue": "shift",
+   "icon": "rocket",
+   "iconCue": "That"
+  }
+ ]
+}

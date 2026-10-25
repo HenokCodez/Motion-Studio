@@ -1,0 +1,180 @@
+{
+ "meta": {
+  "title": "The Zero-Subscription Shift",
+  "audio": "audio/narration.mp3"
+ },
+ "scenes": [
+  {
+   "id": "s1-replace",
+   "type": "flow",
+   "dur": 9,
+   "narration": "In 2026 you can edit video, design and 3D locally. ArtCraft replaces Photoshop, Premiere Pro and After Effects.",
+   "title": "2026: zero subscriptions",
+   "nodes": [
+    {
+     "id": "ask",
+     "kind": "bubble",
+     "label": "edit video, design, 3D",
+     "cue": "edit"
+    },
+    {
+     "id": "suite",
+     "label": "ArtCraft",
+     "sub": "open-source suite",
+     "logo": "github",
+     "emphasis": true,
+     "cue": "ArtCraft"
+    },
+    {
+     "id": "ps",
+     "label": "Photoshop",
+     "logo": "photoshop",
+     "cue": "Photoshop"
+    },
+    {
+     "id": "pr",
+     "label": "Premiere Pro",
+     "logo": "premiere",
+     "cue": "Premiere"
+    },
+    {
+     "id": "ae",
+     "label": "After Effects",
+     "logo": "aftereffects",
+     "cue": "After"
+    }
+   ],
+   "edges": [
+    [
+     "ask",
+     "suite"
+    ],
+    [
+     "suite",
+     "ps"
+    ],
+    [
+     "suite",
+     "pr"
+    ],
+    [
+     "suite",
+     "ae"
+    ]
+   ]
+  },
+  {
+   "id": "s2-toll",
+   "type": "stat",
+   "dur": 6,
+   "narration": "That is six hundred dollars a year you stop paying.",
+   "value": "$600+",
+   "label": "per year, every year",
+   "note": "rent on software you never own"
+  },
+  {
+   "id": "s3-compare",
+   "type": "compare",
+   "dur": 8,
+   "narration": "Adobe rents. DaVinci and Blender are yours.",
+   "a": {
+    "title": "Adobe Creative Cloud",
+    "logo": "adobe",
+    "bullets": [
+     "$600+ / year",
+     "monthly rent",
+     "cloud lock-in"
+    ]
+   },
+   "b": {
+    "title": "DaVinci + Blender",
+    "emphasis": true,
+    "bullets": [
+     "$0 / year",
+     "yours forever",
+     "runs locally"
+    ]
+   }
+  },
+  {
+   "id": "s4-proof",
+   "type": "shot",
+   "dur": 9,
+   "narration": "Blender is open source and DaVinci Resolve has a free tier.",
+   "shots": [
+    {
+     "id": "blender",
+     "asset": "assets/shots/blender.png",
+     "label": "Blender",
+     "labelLogo": "blender",
+     "cue": "Blender",
+     "highlights": [
+      {
+       "x": 0.1,
+       "y": 0.55,
+       "w": 0.5,
+       "h": 0.12,
+       "cue": "open"
+      }
+     ]
+    },
+    {
+     "id": "davinci",
+     "asset": "assets/shots/davinci.png",
+     "label": "DaVinci Resolve",
+     "cue": "DaVinci"
+    }
+   ]
+  },
+  {
+   "id": "s5-timeline",
+   "type": "timeline",
+   "dur": 8,
+   "title": "How it got here",
+   "narration": "Open models arrived, then local tools caught up, then the toll made no sense.",
+   "points": [
+    {
+     "id": "t1",
+     "label": "Open weights",
+     "date": "2024",
+     "cue": "Open"
+    },
+    {
+     "id": "t2",
+     "label": "Local tools",
+     "date": "2025",
+     "detail": "video, 3D, code",
+     "cue": "local"
+    },
+    {
+     "id": "t3",
+     "label": "Toll is nonsense",
+     "date": "2026",
+     "emphasis": true,
+     "cue": "toll"
+    }
+   ]
+  },
+  {
+   "id": "s6-wordmark",
+   "type": "title",
+   "dur": 7,
+   "title": "FOSS",
+   "subtitle": "Free and Open Source Software",
+   "tag": "own it",
+   "narration": "FOSS. One install and it is yours.",
+   "command": "brew install blender",
+   "chips": [
+    {
+     "label": "video"
+    },
+    {
+     "label": "design"
+    },
+    {
+     "label": "3D"
+    }
+   ]
+  }
+ ]
+}

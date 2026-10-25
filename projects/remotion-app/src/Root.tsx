@@ -19,10 +19,181 @@ import { FootagePlaceholder } from "./components/global/FootagePlaceholder";
 import { VantaBriefPreview } from "./compositions/VantaBriefPreview";
 import { VantaBriefShowcase } from "./compositions/VantaBriefShowcase";
 import { Episode003OpenSource } from "./compositions/episodes/Episode003OpenSource";
+import { Ep003Test } from "./compositions/episodes/Ep003Test";
+import { UserBoardCoverFlow } from "./compositions/user_board/UserBoardCoverFlow";
+import { UserBoardProgressCard } from "./compositions/user_board/UserBoardProgressCard";
+import { UserBoardTrioCards } from "./compositions/user_board/UserBoardTrioCards";
+import { UserBoardTimelineRuler } from "./compositions/user_board/UserBoardTimelineRuler";
+import { UserBoardActivityRings } from "./compositions/user_board/UserBoardActivityRings";
+import { KaisplainCanvas } from "./compositions/explainer_canvas/KaisplainCanvas";
+import { FullExplainerCanvas } from "./compositions/explainer_canvas/FullExplainerCanvas";
+import { WhiteboardExplainer } from "./compositions/whiteboard/WhiteboardExplainer";
+import { Explainer as WhiteboardKitExplainer } from "../workflow2-whiteboard/remotion/Video";
+// @ts-ignore
+import whiteboardKitPlan from "../workflow2-whiteboard/plan.json";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      {/* Workflow 2: Whiteboard Kit Explainer */}
+      <Composition
+        id="Workflow2-WhiteboardKit"
+        component={WhiteboardKitExplainer}
+        durationInFrames={(whiteboardKitPlan as any)?.meta?.totalFrames || 1410}
+        fps={(whiteboardKitPlan as any)?.meta?.fps || 30}
+        width={(whiteboardKitPlan as any)?.meta?.width || 1920}
+        height={(whiteboardKitPlan as any)?.meta?.height || 1080}
+        defaultProps={{
+          plan: whiteboardKitPlan,
+        }}
+        calculateMetadata={({ props }) => {
+          const p = (props as any)?.plan || whiteboardKitPlan;
+          return {
+            durationInFrames: p?.meta?.totalFrames || 1410,
+            fps: p?.meta?.fps || 30,
+            width: p?.meta?.width || 1920,
+            height: p?.meta?.height || 1080,
+            props: {
+              plan: p,
+            },
+          };
+        }}
+      />
+
+      {/* Hand-Drawn Whiteboard Explainer (7946 frames = 264.86s @ 30fps) */}
+      <Composition
+        id="WhiteboardExplainer"
+        component={WhiteboardExplainer}
+        durationInFrames={7946}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* Workflow 2: Full 4.4-Minute Technical Explainer Canvas (7946 frames = 264.86s @ 30fps) */}
+      <Composition
+        id="Workflow2-FullExplainerCanvas"
+        component={FullExplainerCanvas}
+        durationInFrames={7946}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          channelName: "VantaBrief",
+          audioPath: "audio/003/audio.mp3",
+        }}
+      />
+
+      {/* Workflow 2: Infinite Whiteboard Explainer Canvas Prototype (300 frames = 10s @ 30fps) */}
+      <Composition
+        id="Workflow2-ExplainerCanvas"
+        component={KaisplainCanvas}
+        durationInFrames={300}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          channelName: "VantaBrief",
+        }}
+      />
+
+      {/* User Curated Pinterest Board Compositions (7.5s Duration = 225 frames) */}
+      <Composition
+        id="UserBoard-CoverFlow"
+        component={UserBoardCoverFlow}
+        durationInFrames={225}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="UserBoard-ProgressCard"
+        component={UserBoardProgressCard}
+        durationInFrames={225}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="UserBoard-TrioCards"
+        component={UserBoardTrioCards}
+        durationInFrames={225}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="UserBoard-TimelineRuler"
+        component={UserBoardTimelineRuler}
+        durationInFrames={225}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="UserBoard-ActivityRings"
+        component={UserBoardActivityRings}
+        durationInFrames={225}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+
+      {/* POC Automated Premiere Test Compositions (Transparent Overlays) */}
+      <Composition
+        id="POC-TitleHook"
+        component={TitleHook}
+        durationInFrames={120}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          title: "In 2026, Everything Changes",
+          subtitle: "Edit, create, and build without paying a single subscription",
+          tag: "VANTA BRIEF INTEL",
+          accentColor: "#1677FF",
+        }}
+      />
+      <Composition
+        id="POC-CalloutCard"
+        component={CalloutCard}
+        durationInFrames={120}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          title: "ArtCraft & Open Source",
+          description: "Replacing Photoshop, Premiere Pro, and After Effects with open code.",
+          numberTarget: 100,
+          numberPrefix: "$",
+          numberSuffix: " Saved",
+          accentColor: "#10B981",
+        }}
+      />
+      <Composition
+        id="POC-ComparisonGrid"
+        component={ComparisonGrid}
+        durationInFrames={150}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          leftTitle: "Paid Subscriptions",
+          leftPoints: [
+            "Monthly fee for Photoshop",
+            "Monthly fee for Premiere Pro",
+            "Vendor lock-in & perpetual rent",
+          ],
+          rightTitle: "Open Alternatives",
+          rightPoints: [
+            "DaVinci Resolve & ArtCraft",
+            "Blender 3D & LibreOffice",
+            "Local AI on your own computer",
+          ],
+        }}
+      />
+
       {/* VantaBrief Master Production Showcase */}
       <Composition
         id="VantaBrief-Showcase"
@@ -234,6 +405,15 @@ export const RemotionRoot: React.FC = () => {
           width={1920}
           height={1080}
           defaultProps={{ debug: true }}
+        />
+        {/* Isolated Test Composition: Approved Hybrid Section 142.52s-187.86s */}
+        <Composition
+          id="Ep003Test"
+          component={Ep003Test}
+          durationInFrames={1360}
+          fps={30}
+          width={1920}
+          height={1080}
         />
         <Folder name="Video-1" />
         <Folder name="Templates" />

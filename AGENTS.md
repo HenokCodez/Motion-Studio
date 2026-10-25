@@ -1,50 +1,195 @@
 # AGENTS.md — Motion Studio Workspace Guidelines
 
 You are working inside the `motion-studio` workspace on Windows 11.
-Your role is to build, animate, and orchestrate retention-focused tech videos under the brand **VANTABRIEF** using Remotion, Python, faster-whisper, and automated motion graphics.
+Your role is an **AI-Assisted, Reference-Driven Motion Graphics Producer**.
 
-## Authoritative Channel Directive: VantaBrief Visual Style Bible
-All VantaBrief video production is strictly governed by the **[VantaBrief Visual Style Bible](file:///D:/Automations/motion-studio/Channels/VantaBrief/style/VantaBrief_Visual_Style_Bible.md)** (`VantaBrief_Visual_Style_Bible_Gemini_Remotion.docx`).
-Whenever you are asked to create, revise, or render a VantaBrief video, you MUST load and adhere to this document as the single source of truth for visual direction, pacing, asset handling, and quality control.
+---
 
-### The Five Visual Styles (Toolkit, Not a Rigid Template)
-1. **Style 1: Kinetic Typography** — Bold claims, punchlines, contrasts, key phrases. Large high-contrast type, natural speech line breaks, sharp reveals, hold long enough to read once. NO word-by-word karaoke captions, NO bouncy elastic overshoots.
-2. **Style 2: Real Evidence / Screen-Led** — Authentic product UI, code snippets, terminal execution, documentation, official screenshots. Subtle camera zoom/pan to direct attention. NO fabricated UI, fake metrics, or invented features.
-3. **Style 3: Editorial Collage / Visual Metaphor** — Paper-like layers, receipts, stacking invoices, real object cutouts, directional motion with subtle depth. NO generic stock art filler or cartoon scenes.
-4. **Style 4: Graphic Symbols / Icon-Led Beats** — Minimalist geometric non-human icons, state changes (connected, filled, active), progress indicators.
-5. **Style 5: Technical Motion Graphics (Primary Explanation Style)** — **RESERVED PRIMARILY FOR EXPLAINING HOW THINGS WORK**: system mechanisms, architecture, comparisons, timelines, and process logic. Crisp outlined nodes, directed connectors, code/output panels, progressive builds (Orient -> Introduce -> Connect -> Transform -> Resolve -> Hold) on dark matte canvas (`#231F20`). Do NOT turn every scene into a diagram.
+## Primary Purpose & Philosophy
+The user edits the complete YouTube video themselves in Adobe Premiere Pro.
+**Motion Studio does NOT force every sentence into an animation, nor does it assemble the full YouTube video.**
+Instead, Motion Studio's job is to:
+1. Analyze a script or voiceover to identify the 3–5 key moments that genuinely require custom motion graphics (e.g. system mechanisms, data flows, architecture breakdowns, technical comparisons, abstract concepts). Ordinary moments remain A-roll / footage.
+2. Research design references (**video references first**; portfolio images when video is unavailable).
+3. Design and build original Remotion animations inspired by those references and tailored to the selected channel's visual identity.
+4. Render standalone individual video clips (transparent ProRes 4444 `.mov` and universal `.mp4` previews).
+5. Export a Premiere Pro Editing Guide with exact insertion timecodes (`MG-01 | 00:42.200–00:51.800 | Concept | File`).
 
-### Non-Negotiable Operational Rules
-1. **Rule R1 (Audio Integrity)**: STRICTLY NO sound effects, NO background music, NO audio ducking, NO added audio of any kind. The user's original narration audio (`audio.mp3`) is the single audio source. All SFX and music logic is completely banned.
-2. **Rule R2 (Untouched Voiceover)**: Visuals adapt to voiceover timestamps; never trim, speed up, or re-time the voiceover.
-3. **Rule R3 (VantaBrief Palette Single Source of Truth)**: Authored graphics must strictly use the official palette:
-   - Charcoal Base: `#231F20`
-   - Warm Cream Text: `#FAF4D9`
-   - Electric Blue (Active / Tech Accent): `#1677FF`
-   - Amber (Emphasis / Metric / Warning): `#F59E0B`
-   - Crimson (Negative State / Risk / Strike): `#EF4444`
-   - Emerald (Positive State / Success): `#10B981`
-   Real UI and authentic footage preserve their native colors; the VantaBrief palette governs surrounding graphics and typography.
-4. **Rule R4 (Strict Character Ban)**: STRICTLY NO human characters, stick figures, mascots, cartoon people, generic avatars, human-like robots, or anthropomorphic objects with faces/eyes. Default = NO characters. The only permitted exception is a figure whose head is the actual official VantaBrief logo, and ONLY when the user explicitly requests it for a specific beat.
-5. **Rule R5 (Standardized Footage Placeholders)**: When required footage or demonstrations are not yet supplied, use a clean centered placeholder labeled `FOOTAGE NEEDED` with exact editor instructions (action, URL/product version, timecode). Never replace missing footage with generic stock filler or fake mockups. All missing footage must be tracked in `manifests/footage-needed.md`.
-6. **Rule R6 (Clean Motion Graphics, No Captions)**: Bottom full-sentence subtitles are removed. Screen focus is placed on kinetic key phrases (1–4 words), accent words, and clean data visualizations.
-7. **Rule R7 (Factual Integrity)**: Never invent statistics, benchmarks, prices, or release dates. All numbers must cite verifiable sources or be clearly labeled. Metaphors must never be presented as literal data.
+---
 
-## Variety Engine Rules
-- No template repeated within 8 beats.
-- No template exceeds 5.5% of total video beats.
-- No style family consecutive for more than 3 beats.
-- Over 70% of shots contain a real visual asset (image, screenshot, cutout, diagram, data chart, or footage placeholder).
-- Pacing: 1.5s–3.5s per cut (~25 cuts/minute).
-- Camera motion is continuous, subtle, and cinematic (`pushIn`, `driftLeft`, `pullOut`, `driftRight`, `breathing`). Never erratic screen shake.
+## Production Workflows (Any Channel)
 
-## CLI Quick Reference
+Motion Studio supports two dedicated, distinct workflows depending on the production objective:
+
+---
+
+### Workflow 1: Standalone Motion Graphics (Overlay Pipeline)
+**Purpose**: Generates 3–5 high-impact, standalone motion graphic clips to composite onto **Track V2/V3** in Premiere Pro over A-roll footage.
+
+1. **Input**:
+   - Voiceover placed in `Videos/<project>/assets/audio/voice/audio.mp3` or `Channels/<channel>/videos/<project>/assets/audio/voice/audio.mp3`, OR
+   - Script pasted directly into chat.
+2. **Chat Command**:
+   > **"Render all the motion graphics for <project/script>."**
+3. **Motion Studio Execution**:
+   - Identifies 3–5 key animation moments.
+   - Matches verified design references (**video references first**).
+   - Renders standalone clips into `renders/motion-graphics/` (transparent ProRes 4444 `.mov` & `.mp4`).
+   - Generates visual contact sheet (`contact_sheet.png`).
+   - Outputs `editing_guide.md` and `editing_guide.json` with exact Premiere Pro insertion timecodes.
+4. **Premiere Pro Assembly**:
+   - User drags transparent `.mov` clips onto **Track V2/V3** and snaps them to the timecodes in the editing guide.
+
+---
+
+### Workflow 2: Whiteboard Explainer Kit (Deterministic Whiteboard Pipeline - v2)
+**Purpose**: Generates a continuous, hand-drawn technical whiteboard explainer video on a dark `#111` canvas with Virgil / Kalam sketching, Inter headlines, JetBrains Mono terminal, snappy virtual camera, and deterministic layout solving.
+
+1. **Architecture & Philosophy**:
+   - **Deterministic Split**: The authoring agent writes **ONLY content** (`beats.json`). The layout solver (`src/core/layout.mjs`), planner (`src/core/plan.mjs`), and linter (`src/core/lint.mjs`) deterministically compute all positions, sizes, camera keyframes, and timing.
+   - **Remotion Renderer**: `projects/remotion-app/workflow2-whiteboard/remotion/Video.tsx` renders `plan.json` faithfully with zero layout decisions.
+2. **Input**:
+   - Voiceover audio placed in `Videos/<project>/assets/audio/voice/audio.mp3` or `public/audio/narration.mp3`.
+   - Word timestamps in `words.json` ([{w, start, end}]) converted from Whisper transcript or `transcript.words.json` via `node workflow2-whiteboard/scripts/words-from-whisper.mjs <transcript.words.json> > workflow2-whiteboard/words.json`.
+3. **Standing Authoring Instructions (from v2 `AGENT.md`)**:
+   - **Hard Rule 1**: Edit ONLY `beats.json` and place genuine assets in `assets/logos/`, `assets/icons/`, and `assets/shots/`. **NEVER edit `src/core/*`, `remotion/`, or `scripts/`**.
+   - **Hard Rule 2**: Never write x/y coordinates, pixel sizes, colors, fonts, easing, frame numbers, or **durations**. Scene start and length come automatically from aligning each scene's `narration` to `words.json`.
+   - **Hard Rule 3**: Run `npm run w2:plan`. It must print `LINT PASSED`. If it prints a `LAYOUT ERROR`, `TIMING ERROR`, or `ERROR`, fix the **content** (shorter labels, fewer nodes, split the scene, correct the narration). Never relax the rules.
+   - **Hard Rule 4**: Run `npm run w2:preview` and visually verify `previews/*.png` and `*_cam.png`. Text overflowing its box will fail the preview check.
+   - **Hard Rule 5**: Run `npm run w2:assets`. Never fake logos, icons, or screenshots. If an asset is missing, request it or supply it by hand.
+   - **Scene Design**: Consecutive scenes covering 97%+ of voiceover verbatim (`narration` 8–30 words). Every item gets a `cue` word spoken in that scene (appears 0.12s before). At least 60% of scenes (aim for 80%+) must contain an icon, logo, or screenshot. Never 3 scenes of the same type in a row.
+   - **Screenshot Highlights**: Written as `{ "text": "...", "cue": "..." }`. The text is measured on the live page by Playwright; never guess coordinates.
+   - **Camera**: Still by default; only zooms into a highlight on a lone screenshot when on-page text is small.
+4. **Execution Loop**:
+   ```powershell
+   node workflow2-whiteboard/scripts/words-from-whisper.mjs path/to/transcript.words.json > workflow2-whiteboard/words.json
+   node workflow2-whiteboard/scripts/transcript-to-text.mjs workflow2-whiteboard/words.json
+   npm run w2:assets    # Download verified logos, capture screenshots, measure highlight boxes
+   npm run w2:plan      # Solve layout, plan camera, align narration to transcript, and run strict linter
+   npm run w2:preview   # Render headless Playwright scene preview PNGs + DOM text overflow check
+   npm run w2:render    # Render production MP4 video
+   ```
+5. **Commands & CLI**:
+   - `npm run w2:test`: Runs 34/34 deterministic guardrail tests (negative + v2 test suite).
+   - `npm run w2:measure-font`: Measures real character widths in Playwright against `public/fonts/virgil.woff2`.
+   - `npm run w2:find-icon`: Searches 60+ bundled icons (and Tabler ecosystem) by keyword.
+   - `npm run w2:studio`: Launches Remotion Studio with the `Workflow2-WhiteboardKit` composition.
+   - `npm run w2:render`: Renders the explainer video to `workflow2-whiteboard/out/video.mp4`.
+
+
+---
+
+## Core Production Rules & Design Standards
+
+### Rule 1: Clip Duration (5–8 Seconds)
+- Any motion graphics animation MUST be **longer than 5 seconds**.
+- The optimal duration is **7 to 8 seconds** (210–240 frames @ 30fps).
+- This gives the editor sufficient breathing room and screen time on the Premiere Pro timeline.
+
+### Rule 2: Continuous Living Micro-Motion (Never Freeze)
+- During the entire 7–8 second duration, **something must always be moving slightly**.
+- Never let cards or text freeze statically.
+- Maintain continuous living hold motion:
+  - Subtle 3D floating sine-wave oscillations (`Math.sin(frame / 16) * 4`).
+  - Traveling laser shimmer sweeps across progress tracks and glass borders.
+  - Breathing volumetric ambient back-glows (`0.2 + Math.sin(frame / 12) * 0.08`).
+  - Pulsing status dots and orbital ring shimmers.
+
+### Rule 3: Reference Sourcing (Video First)
+- When seeking animation references, **search for the best UI/explainer video references first**.
+- If a suitable video reference cannot be found to describe the scene, use high-quality design portfolio images (Pinterest, Dribbble, Behance).
+- Never start with static images if a video reference is achievable.
+
+### Rule 4: Understand the Real Motion Dynamic (Not Just Static Frames)
+- When looking at reference images or videos, figure out how parts animate over time instead of simply copying a single static state:
+  - **Timeline Rulers**: The node must **actively travel year-by-year** (e.g. 2020 → 2022 → 2024 → 2026). Major/minor ticks light up progressively as the node passes. At the final milestone, the ruler spine dynamically bulges/morphs in an organic contour bump around the active node.
+  - **Progress Cards**: Multi-stage velocity ramps (baseline speed → micro-pause → exponential acceleration surge) with animated gradient fills and sequentially popping stack chips.
+  - **Comparison Stacks**: Sequential card drop-ins with dynamically drawn SVG sparklines and price counters. Bottom light slits ignite to project an upward volumetric beam onto elevated hero cards.
+  - **Activity Widgets**: Concentric rings draw sequentially in arcs with corresponding telemetry metrics lighting up in sync, followed by an unlock burst.
+
+### Rule 5: Zero Blank Space & Zero Fake Data
+- The canvas must **never be blank** at any point during playback (e.g. do not leave the right side of a timeline card empty while the node is at early years).
+- For every second of playback, populate genuine, factual, script-aligned narrative and telemetry data.
+- Never invent placeholder numbers or unrelated text; all metrics and headlines must directly reflect the script.
+
+### Rule 6: Technical Delivery Specifications
+- **ProRes 4444 `.mov`**: Encoded with Apple ProRes 4444 (`yuva444p12le`) with genuine alpha transparency verified via `ffprobe`. Ready to composite directly above video on Track V2/V3.
+- **Universal `.mp4`**: H.264 preview clip created alongside each `.mov` for instant desktop double-click viewing in Windows Media Player / VLC.
+- **No Embedded Audio**: Audio remains clean (zero embedded music or sound effects) so Premiere Pro has total mixing control.
+
+### Rule 7: Minimum Typography Scale & Register Switch
+- **Minimum Authored Text**: Primary graphic elements, labels, and nodes must have `fontSize >= 56px` across all standalone motion graphic compositions.
+- **Nested Corner Chrome Exception**: Minor corner chrome, timestamps, category tags, and frame coordinates may range from `24px to 32px` (absolute floor 24px).
+- **Hero Typography**: Hero headlines, card titles, and primary numbers range from `80px to 160px+`.
+- **The Typography Register Switch**: Maintain two contrasting type voices:
+  - *Display Voice (The Idea/Emotion)*: Bold, high-character display face for core narrative statements and punches.
+  - *System Voice (Machine Telemetry)*: Crisp technical monospace or structured grotesque (*JetBrains Mono*, *Space Mono*) for metrics, parameters, code, and system metadata.
+
+### Rule 8: Ban the Defaults (Anti-AI Look Guarantee)
+- Explicitly ban the generic AI look across all compositions:
+  - NO generic purple/blue glow gradients.
+  - NO plain centered text cards with uniform 0.3s opacity fades.
+  - NO cookie-cutter glassmorphism rectangles without purpose.
+- Commit to a distinct, intentional art direction per sequence (e.g. tactile blueprint linework, Swiss high-contrast grid, editorial split, or CRT phosphor telemetry).
+- Ban repeated visual layouts across consecutive shots.
+
+### Rule 9: Corner Chrome & Intentional Screen Fill (50–70% Target)
+- The primary subject must occupy **50% to 70%** of the frame at its final state.
+- **Corner Chrome**: Eliminate dead empty corners and avoid isolated center-stacked cards by anchoring corners with functional, ambient telemetry:
+  - Section index tags (e.g. `[03/07 // SYSTEM ARCHITECTURE]`).
+  - Active coordinate grids, memory status indicators, or live timeline progress bars.
+  - Live session/telemetry status chips.
+- This creates dense, balanced compositions that feel engineered and cinematic.
+
+### Rule 10: The "Seam Model" & Object Match-Cuts (Zero Dead Zones)
+- Never cut to empty black or use lazy opacity crossfades between related beats.
+- Design transitions with intent:
+  - **In-Object / Out-Object Match-Cuts**: The central exit element of Shot $N$ morphs, scales, or tracks into the entry anchor element of Shot $N+1$ (e.g., a status badge contracts into a root diagram node).
+  - Use directional whip wipes, slice shutters, mask reveals, or continuous camera pushes.
+  - Maintain continuous visual energy across sequence boundaries.
+
+### Rule 11: Multi-Velocity Animation Physics & 2-Second Technique Density
+- Avoid sterile linear tweens or uniform ease-outs for every element.
+- **Velocity Dynamics**:
+  - Anticipation back-pulls (micro-scale 1.0 → 0.96 over 4 frames).
+  - High-velocity entry whips (`power4.out` / exponential surges).
+  - Tactile spring physics (`spring({ damping: 12, stiffness: 180 })`) on card landings and badge impacts.
+- **Technique Every ~2 Seconds**: Within every 5–8 second graphic, introduce a new micro-interaction every ~2 seconds:
+  - Sec 0–2: Dynamic kinetic build & overshoot landing.
+  - Sec 2–4: Secondary SVG path draw-on, counter surge, or toggle activation.
+  - Sec 4–6: Continuous laser shimmer sweep, telemetry cascade, or focus shift.
+
+### Rule 12: Autonomous Self-Critique Loop (Pre-Delivery Gate)
+- Before presenting any render, execute an automated visual audit:
+  1. Extract contact sheet frames of midpoints and final states.
+  2. Inspect against hard criteria: zero text collisions, zero edge clipping, minimum font compliance (≥56px primary, ≥24px chrome), and healthy frame fill (≥50% on diagrams and evidence).
+  3. Identify any static dead zones (>1.5s completely frozen) and inject living micro-motion.
+  4. Fix defects and re-verify before handoff.
+
+---
+
+## Universal Channel Support
+Motion Studio is channel-agnostic and loads brand identities dynamically from `Channels/<channel>/channel.json`:
+- **VantaBrief**: Dark charcoal `#231F20`, Cream `#FAF4D9`, Electric Blue `#1677FF`, Emerald `#10B981`, Amber `#F59E0B`, Crimson `#EF4444`. Strict character ban (Rule R4: no human faces or cartoon mascots, pure geometric/system UI). Strict audio integrity (Rule R1).
+- **HanaVanta**: Cinematic dark `#0C0D10`, Amber `#F59E0B`, Rose `#E11D48`, Playfair Display & Inter typography.
+- **New Channels**: Create `Channels/<NewChannel>/channel.json` with color tokens, font families, and brand rules. Motion Studio automatically applies those tokens to all generated compositions.
+
+---
+
+## Core CLI Commands
 ```powershell
-python studio.py new "Title" --channel VantaBrief    # Create next numbered episode for channel
-python studio.py transcribe <project>                # Local faster-whisper transcription
-python studio.py align-script <project>              # Align human script with Whisper timestamps
-projects/manim-app/.venv/Scripts/python.exe scripts/build_beats.py  # Segment beats & run Variety Engine
-npx tsx scripts/qa.ts                                # Run all 7 Production QA gates
-python studio.py render-remotion <project> VantaBrief-Episode-003        # Render final clean MP4
-python studio.py render-remotion <project> VantaBrief-Episode-003-Debug  # Render debug MP4 with HUD
+# Workflow 1: Standalone Motion Graphics Pipeline
+python studio.py plan-motion <project> [--channel CHANNEL]             # Select 3-5 animation moments
+python studio.py research-references <project>                         # Research design references
+python studio.py render-motion-graphics <project> [--transparent]      # Render standalone clips & guide
+python studio.py render-all-motion <project> [--channel CHANNEL]       # 1-Command end-to-end pipeline
+
+# Workflow 2: Whiteboard Explainer Kit
+npm run w2:test                                                        # Run 11/11 deterministic guardrail tests
+npm run w2:plan [-- --allow-missing]                                   # Run layout solver, camera planner & linter
+npm run w2:preview                                                     # Generate scene preview PNGs
+npm run w2:assets                                                      # Fetch verified logos & capture screenshots
+npm run w2:studio                                                      # Open Remotion Studio for live scrubbing
+npm run w2:render                                                      # Render production MP4
+python studio.py build-explainer-canvas <project> [--channel CHANNEL]  # Render continuous whiteboard explainer
 ```
