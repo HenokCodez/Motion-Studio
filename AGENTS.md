@@ -42,25 +42,39 @@ Motion Studio supports two dedicated, distinct workflows depending on the produc
 
 ---
 
-### Workflow 2: Whiteboard Explainer Kit (Deterministic Whiteboard Pipeline - v2)
-**Purpose**: Generates a continuous, hand-drawn technical whiteboard explainer video on a dark `#111` canvas with Virgil / Kalam sketching, Inter headlines, JetBrains Mono terminal, snappy virtual camera, and deterministic layout solving.
+### Workflow 2: Infinite Explainer Canvas (Continuous Whiteboard Pipeline)
 
-1. **Architecture & Philosophy**:
-   - **Deterministic Split**: The authoring agent writes **ONLY content** (`beats.json`). The layout solver (`src/core/layout.mjs`), planner (`src/core/plan.mjs`), and linter (`src/core/lint.mjs`) deterministically compute all positions, sizes, camera keyframes, and timing.
-   - **Remotion Renderer**: `projects/remotion-app/workflow2-whiteboard/remotion/Video.tsx` renders `plan.json` faithfully with zero layout decisions.
-2. **Input**:
-   - Voiceover audio placed in `Videos/<project>/assets/audio/voice/audio.mp3` or `public/audio/narration.mp3`.
-   - Word timestamps in `words.json` ([{w, start, end}]) converted from Whisper transcript or `transcript.words.json` via `node workflow2-whiteboard/scripts/words-from-whisper.mjs <transcript.words.json> > workflow2-whiteboard/words.json`.
-3. **Standing Authoring Instructions (from v2 `AGENT.md`)**:
+> **Use when**: You want an end-to-end continuous technical explainer video in the **Kaisplain dark whiteboard aesthetic**, where an infinite camera glides between connected system architecture nodes, mindmaps, dark browser windows, terminal code, and hardware vectors.
+
+1. **Input**:
+   - Voiceover narration file placed in `Videos/<project-name>/assets/audio/voice/audio.mp3` or `Channels/<channel>/videos/<project>/assets/audio/voice/audio.mp3` (or paste your script into chat).
+   - Word timestamps in `words.json` ([{w, start, end}]) converted from Whisper transcript or `transcript.words.json` via `node workflow2-whiteboard/scripts/words-from-whisper.mjs <transcript.words.json> > workflow2-whiteboard/words.json` (or `python studio.py transcribe <project>`).
+2. **Chat Command**:
+   > **"Build the full explainer canvas for `<project/script>`."**
+3. **Motion Studio Execution**:
+   - **Structure Spatial Architecture**: Structures the script into `beats.json` with consecutive narrative beats and genuine assets (no abrupt slide cuts).
+   - **Deterministic Split & v2.1 Standards**: Layout solver (`layout.mjs`), camera planner (`plan.mjs`), and strict linter (`lint.mjs`) deterministically compute all positions, font scaling, camera keyframes, and timing.
+   - **Construct Dynamic Nodes**: Excalidraw-style sketchy cards, dark browser frames, terminal CLI windows, vector hardware, price tags, and brand badges (dark logos automatically placed on `#EDEDED` light plates).
+   - **Fluid Virtual Camera**: Smooth virtual camera rig (`panX`, `panY`, `zoom`) synchronized with voiceover pacing.
+   - **Animated SVG Connectors & Indicators**: Animated SVG arrows connecting concepts in real time; living hold underlines and marker wipes on quiet stretches; zero blank frames ($\le 3\%$), every last item visible $\ge 1.3\text{s}$, zero static holds $> 3.3\text{s}$.
+   - **Enforce Brand Rules**: `fontSize >= 24px` (node labels $\ge 40\text{px}$), brand colors, factual data, zero mascots/characters.
+   - **Render Master Deliverable**: Renders the complete master video into `renders/explainer-canvas/explainer_canvas.mp4` and `workflow2-whiteboard/out/video.mp4`.
+   - **Audit Pass Guarantee**: Automatically executes `python scripts/audit-video.py` to verify `AUDIT PASSED`.
+4. **Premiere Pro Assembly**:
+   - User can publish the video directly, or drop it onto **Track V1** in Premiere Pro as their foundational visual backbone.
+
+5. **Standing Authoring Instructions (v2.1)**:
    - **Hard Rule 1**: Edit ONLY `beats.json` and place genuine assets in `assets/logos/`, `assets/icons/`, and `assets/shots/`. **NEVER edit `src/core/*`, `remotion/`, or `scripts/`**.
    - **Hard Rule 2**: Never write x/y coordinates, pixel sizes, colors, fonts, easing, frame numbers, or **durations**. Scene start and length come automatically from aligning each scene's `narration` to `words.json`.
    - **Hard Rule 3**: Run `npm run w2:plan`. It must print `LINT PASSED`. If it prints a `LAYOUT ERROR`, `TIMING ERROR`, or `ERROR`, fix the **content** (shorter labels, fewer nodes, split the scene, correct the narration). Never relax the rules.
    - **Hard Rule 4**: Run `npm run w2:preview` and visually verify `previews/*.png` and `*_cam.png`. Text overflowing its box will fail the preview check.
    - **Hard Rule 5**: Run `npm run w2:assets`. Never fake logos, icons, or screenshots. If an asset is missing, request it or supply it by hand.
-   - **Scene Design**: Consecutive scenes covering 97%+ of voiceover verbatim (`narration` 8–30 words). Every item gets a `cue` word spoken in that scene (appears 0.12s before). At least 60% of scenes (aim for 80%+) must contain an icon, logo, or screenshot. Never 3 scenes of the same type in a row.
+   - **Scene Design**: Consecutive scenes covering 97%+ of voiceover verbatim (`narration` 8–30 words). Reading order = speaking order (left-to-right). Put the first item's cue on the sentence's opening subject. No cues on a scene's last word. At least 60% of scenes (aim for 80%+) must contain an icon, logo, or screenshot. Never 3 scenes of the same type in a row.
    - **Screenshot Highlights**: Written as `{ "text": "...", "cue": "..." }`. The text is measured on the live page by Playwright; never guess coordinates.
    - **Camera**: Still by default; only zooms into a highlight on a lone screenshot when on-page text is small.
-4. **Execution Loop**:
+   - **No Mascots/Characters**: Do NOT include `meta.mascot`. No character sprites anywhere.
+
+6. **Execution Commands**:
    ```powershell
    node workflow2-whiteboard/scripts/words-from-whisper.mjs path/to/transcript.words.json > workflow2-whiteboard/words.json
    node workflow2-whiteboard/scripts/transcript-to-text.mjs workflow2-whiteboard/words.json
@@ -68,13 +82,9 @@ Motion Studio supports two dedicated, distinct workflows depending on the produc
    npm run w2:plan      # Solve layout, plan camera, align narration to transcript, and run strict linter
    npm run w2:preview   # Render headless Playwright scene preview PNGs + DOM text overflow check
    npm run w2:render    # Render production MP4 video
+   python workflow2-whiteboard/scripts/audit-video.py workflow2-whiteboard/out/video.mp4 # Verify AUDIT PASSED
+   python studio.py build-explainer-canvas <project> [--channel CHANNEL] # 1-Command CLI pipeline
    ```
-5. **Commands & CLI**:
-   - `npm run w2:test`: Runs 34/34 deterministic guardrail tests (negative + v2 test suite).
-   - `npm run w2:measure-font`: Measures real character widths in Playwright against `public/fonts/virgil.woff2`.
-   - `npm run w2:find-icon`: Searches 60+ bundled icons (and Tabler ecosystem) by keyword.
-   - `npm run w2:studio`: Launches Remotion Studio with the `Workflow2-WhiteboardKit` composition.
-   - `npm run w2:render`: Renders the explainer video to `workflow2-whiteboard/out/video.mp4`.
 
 
 ---

@@ -113,7 +113,7 @@ function flow(scene, area, items) {
     const b = boxes[n.id];
     items.push(item({
       id: n.id, kind: n.kind || 'node', ...placed[n.id], lines: b.lines, subLines: b.subLines,
-      size: b.size, logo: n.logo || null, icon: b.icon, iconSize: b.iconSize, iconMode: 'left', emphasis: !!n.emphasis, cue: n.cue || null,
+      size: b.size, logo: n.logo || null, icon: b.icon, iconSize: b.iconSize, iconMode: 'left', emphasis: !!n.emphasis, cue: n.cue || null, col: depth[n.id],
     }));
   }
   return edges.map(([a, b]) => ({
@@ -146,7 +146,7 @@ function shots(scene, area, items, dims) {
       w: Math.min(w, cw(s.label, FONT.label) + (s.labelLogo ? 110 : 0)), h: 72,
       lines: [s.label], size: FONT.label, logo: s.labelLogo || null, cue: s.labelCue || s.cue || null, parent: s.id,
     }));
-    items.push(item({ id: s.id, kind: 'shot', x, y, w, h, inset: ins, frame: s.frame || null, asset: s.asset, assumedDims: !!d.assumed, cue: s.cue || null }));
+    items.push(item({ id: s.id, kind: 'shot', col: i, x, y, w, h, inset: ins, frame: s.frame || null, asset: s.asset, assumedDims: !!d.assumed, cue: s.cue || null }));
     (s.highlights || []).forEach((hl, j) => {
       let box = null, manual = false;
       if (hl.text) {
@@ -188,7 +188,7 @@ function iconrow(scene, area, items) {
   const placed = [];
   cards.forEach((c, i) => {
     const b = best.bs[i];
-    items.push(item({ id: c.id, kind: 'icard', x, y, w: cardW, h: best.H, lines: b.lines, subLines: b.subLines, size: best.size, icon: c.icon, iconSize: b.iconSize, emphasis: !!c.emphasis, cue: c.cue || null }));
+    items.push(item({ id: c.id, kind: 'icard', x, y, w: cardW, h: best.H, lines: b.lines, subLines: b.subLines, size: best.size, icon: c.icon, iconSize: b.iconSize, emphasis: !!c.emphasis, cue: c.cue || null, col: i }));
     placed.push({ x, y, w: cardW, h: best.H }); x += cardW + gap;
   });
   return scene.arrows ? cards.slice(1).map((c, i) => ({ from: cards[i].id, to: c.id, p0: [placed[i].x + placed[i].w, y + best.H / 2], p1: [placed[i + 1].x, y + best.H / 2] })) : [];
@@ -204,13 +204,12 @@ function stat(scene, area, items) {
   const H = parts.reduce((a, p) => a + p[3], 0) + 30 * (parts.length - 1);
   let y = area.y + (area.h - H) / 2;
   for (const [id, text, size, h] of parts) {
-    if (id === 'hero') { items.push(item({ id: 'hero', kind: 'hero', x: area.x + (area.w - 190) / 2, y, w: 190, h: 190, icon: scene.icon, iconSize: 190, emphasis: true, cue: scene.iconCue || scene.cue || null })); y += h + 30; continue; }
+    if (id === 'hero') { items.push(item({ id: 'hero', kind: 'hero', x: area.x + (area.w - 190) / 2, y, w: 190, h: 190, icon: scene.icon, iconSize: 190, emphasis: true, cue: null, groupWith: 'value' })); y += h + 30; continue; }
     const w = Math.min(area.w, cw(text, size, false, id === 'value'));
     items.push(item({
       id, kind: id === 'value' ? 'stat' : 'text', x: area.x + (area.w - w) / 2, y, w, h,
       lines: [text], size, center: true, emphasis: id === 'value',
       cue: scene[id + 'Cue'] || (id === 'value' ? scene.cue : null) || null,
-      countTo: id === 'value' ? big : null,
     }));
     y += h + 30;
   }
@@ -227,9 +226,9 @@ function timeline(scene, area, items) {
     for (const sz of [60, 54, 48, FONT.label, FONT.labelFloor]) { b = boxFor(p.label, { size: sz, maxW: colW - 50, logo: !!p.logo, sub: p.detail }); if (b.h <= 330) break; }
     items.push(item({
       id: p.id, kind: 'node', x: cx - b.w / 2, y: lineY - 150 - b.h, w: b.w, h: b.h,
-      lines: b.lines, subLines: b.subLines, size: b.size, logo: p.logo || null, emphasis: !!p.emphasis, cue: p.cue || null,
+      lines: b.lines, subLines: b.subLines, size: b.size, logo: p.logo || null, emphasis: !!p.emphasis, cue: p.cue || null, col: i,
     }));
-    items.push(item({ id: `${p.id}-date`, kind: 'date', x: cx - 150, y: lineY + 40, w: 300, h: 64, lines: [p.date], size: FONT.label, center: true, cue: p.cue || null }));
+    items.push(item({ id: `${p.id}-date`, kind: 'date', x: cx - 150, y: lineY + 40, w: 300, h: 64, lines: [p.date], size: FONT.label, center: true, cue: null, groupWith: p.id }));
   });
   return { timelineY: lineY, xs: pts.map((_, i) => area.x + colW * (i + 0.5)) };
 }
@@ -251,7 +250,7 @@ function compare(scene, area, items) {
     id: `panel-${k}`, kind: 'panel', x: area.x + i * (W + gap), y: area.y + (area.h - H) / 2, w: W, h: H,
     lines: [s.title, ...(s.bullets || [])], size, emphasis: s.emphasis === true, logo: s.logo || null, icon: s.icon || null, iconSize: Math.round((size + 8) * 1.3), cue: s.cue || null,
   })));
-  items.push(item({ id: 'vs', kind: 'text', x: area.x + W + 10, y: area.y + area.h / 2 - 40, w: gap - 20, h: 80, lines: ['vs'], size: FONT.label, center: true, cue: scene.vsCue || null }));
+  items.push(item({ id: 'vs', kind: 'text', x: area.x + W + 10, y: area.y + area.h / 2 - 40, w: gap - 20, h: 80, lines: ['vs'], size: FONT.label, center: true, cue: null, groupWith: 'panel-b' }));
 }
 
 // ---------- TITLE / WORDMARK ----------
@@ -277,7 +276,7 @@ function title(scene, area, items) {
         x += bs[i].w + gapC;
       });
     } else if (p.id === 'hero') {
-      items.push(item({ id: 'hero', kind: 'hero', x: area.x + (area.w - 200) / 2, y, w: 200, h: 200, icon: scene.icon, iconSize: 200, emphasis: true, cue: p.cue || null }));
+      items.push(item({ id: 'hero', kind: 'hero', x: area.x + (area.w - 200) / 2, y, w: 200, h: 200, icon: scene.icon, iconSize: 200, emphasis: true, cue: null, groupWith: 'title' }));
     } else {
       const w = Math.min(area.w, p.kind === 'terminal' ? Math.max(700, cw(p.text, p.size, true) + 140) : cw(p.text, p.size));
       items.push(item({ id: p.id, kind: p.kind, x: area.x + (area.w - w) / 2, y, w, h: p.h, lines: [p.text], size: p.size, center: true, cue: p.cue || null }));
@@ -291,7 +290,7 @@ function title(scene, area, items) {
   }
 }
 
-export function layoutScene(scene, { dims = {}, root = '.' } = {}) {
+export function layoutScene(scene, { dims = {}, root = '.', mascot: wantMascot = false, logoInfo = {} } = {}) {
   const items = [];
   const area = withHeader(scene, { ...SAFE }, items);
   let extra = {}, edges = [];
@@ -309,6 +308,8 @@ export function layoutScene(scene, { dims = {}, root = '.' } = {}) {
   // resolve icons to path data so plan.json is self-contained (unknown icon -> iconData:null -> lint error)
   for (const it of items) if (it.icon) it.iconData = loadIcon(it.icon, root);
 
+  for (const it of items) if (it.logo) it.logoDark = !!logoInfo[it.logo]?.dark;     // dark logos get a light plate so they stay readable on the dark canvas
+
   // Mascot gets a RESERVED slot that provably does not overlap anything.
   const hit = (a, b, g) => a.x < b.x + b.w + g && a.x + a.w > b.x - g && a.y < b.y + b.h + g && a.y + a.h > b.y - g;
   const edgeBox = e => ({ x: Math.min(e.p0[0], e.p1[0]), y: Math.min(e.p0[1], e.p1[1]), w: Math.abs(e.p1[0] - e.p0[0]), h: Math.abs(e.p1[1] - e.p0[1]) });
@@ -318,6 +319,6 @@ export function layoutScene(scene, { dims = {}, root = '.' } = {}) {
     { x: SAFE.x + SAFE.w - MASCOT.w, y: SAFE.y },
     { x: SAFE.x, y: SAFE.y },
   ].map(c => ({ ...c, w: MASCOT.w, h: MASCOT.h }));
-  const mascot = cands.find(m => !items.some(it => hit(m, it, RULES.minGap)) && !edges.some(e => hit(m, edgeBox(e), 0))) || null;
+  const mascot = !wantMascot ? null : cands.find(m => !items.some(it => hit(m, it, RULES.minGap)) && !edges.some(e => hit(m, edgeBox(e), 0))) || null;
   return { items, edges, mascot, ...extra };
 }

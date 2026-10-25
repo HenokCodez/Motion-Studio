@@ -1,13 +1,7 @@
 {
  "meta": {
   "title": "The Zero-Subscription Shift",
-  "audio": "audio/narration.mp3",
-  "mascot": [
-   "point",
-   "think",
-   "shrug",
-   "cheer"
-  ]
+  "audio": "audio/narration.mp3"
  },
  "scenes": [
   {
@@ -17,11 +11,10 @@
    "title": "2026",
    "cue": "2026",
    "subtitle": "professional software, run locally",
-   "subtitleCue": "software",
+   "subtitleCue": "professional",
    "tag": "on your machine",
    "tagCue": "machine",
-   "icon": "desktop",
-   "iconCue": "run"
+   "icon": "desktop"
   },
   {
    "id": "s2-devices",
@@ -59,8 +52,7 @@
    "labelCue": "every",
    "note": "rent on software you never own",
    "noteCue": "single",
-   "icon": "money",
-   "iconCue": "Adobe"
+   "icon": "money"
   },
   {
    "id": "s4-replace",
@@ -163,17 +155,17 @@
    "narration": "Next, local AI models run from your laptop, all the way to a drone.",
    "cards": [
     {
-     "id": "a1",
-     "icon": "laptop",
-     "label": "Your laptop",
-     "cue": "laptop"
-    },
-    {
      "id": "a2",
      "icon": "ai",
      "label": "Local AI",
      "cue": "models",
      "emphasis": true
+    },
+    {
+     "id": "a1",
+     "icon": "laptop",
+     "label": "Your laptop",
+     "cue": "laptop"
     },
     {
      "id": "a3",
@@ -188,11 +180,10 @@
    "type": "title",
    "narration": "That is the shift. Own your tools.",
    "title": "OWN IT",
-   "cue": "Own",
+   "cue": "That",
    "subtitle": "the zero-subscription shift",
    "subtitleCue": "shift",
-   "icon": "rocket",
-   "iconCue": "That"
+   "icon": "rocket"
   }
  ]
 }

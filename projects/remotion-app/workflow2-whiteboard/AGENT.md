@@ -22,7 +22,24 @@ npm run assets          # real logos + real screenshots (+ measured highlight po
 npm run build:plan      # beats.json + words.json -> plan.json, lint
 npm run preview         # LOOK at every PNG
 npm run render
+python3 scripts/audit-video.py out/video.mp4   # AFTER rendering: blank canvas <3%, last item visible >=1s, no static hold >3.3s
 ```
+
+## Reading order = speaking order (v2.1). Nothing ever animates right-to-left or from the middle.
+- The framework reveals items in the order the eye reads them: left to right, top to bottom
+  (stat: icon+value -> label -> note; title: title -> subtitle -> tag -> chips; compare: A -> B, with "vs" arriving WITH B;
+  flow: parent -> children top to bottom; timeline: node + date together). It never reorders them to match the audio.
+- Therefore **you must order the items in beats.json in the order they are spoken**. If the narration says
+  "Local AI ... your laptop ... a drone", the cards are [Local AI, laptop, drone] left to right. A mismatch is a lint ERROR
+  ("X is spoken BEFORE Y but sits after it"). Fix it by reordering the items, never by ignoring it.
+- The first item of every scene appears 0.25s after the scene starts, whatever its cue. Pick the sentence's opening
+  subject for item 1 so picture and voice agree from the first second. No scene may open on an empty screen.
+- Every item stays visible; the LAST item must have >= 1.3s on screen before the scene exits. Do not put cues on the last
+  word of a scene; if you must, the framework shows it early and warns (W_EARLY). Prefer an earlier cue word.
+- Visuals lead the word by 0.4s (the eye reads first, the voice confirms). Do not try to change this.
+- No numbers counting up. No character/mascot (do not set meta.mascot).
+- Quiet stretches get a visible hand-drawn underline/marker automatically; more than 3 means the scene is too sparse. Add items.
+- Dark logos (GitHub, Notion, Ps/Pr/Ae) are put on a light plate automatically.
 
 ## Timing (voiceover sync) - the part that must be exact
 - `narration` = the words spoken in that scene, copied **VERBATIM** from the transcript. 8-30 words. Scenes must be

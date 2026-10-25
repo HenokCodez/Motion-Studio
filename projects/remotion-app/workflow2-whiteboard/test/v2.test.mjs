@@ -24,18 +24,17 @@ const thr = (fn, C) => { try { fn(); return null; } catch (e) { return e instanc
     if (w) worst = Math.max(worst, sc.start === 0 ? 0 : Math.abs(w.start - (sc.start + 0.15)));   // scene 1 starts at video t=0 by design
   }
   ok('every scene starts at its first spoken word', worst < 0.05, `worst offset ${worst.toFixed(3)}s`);
-  // every cued item appears 0.12s before its word (exact-token match inside the scene's own words)
-  let n = 0, bad = 0;
-  for (const sc of good.scenes) for (const it of sc.items) if (it.cued && !it.parent) {
+  // visuals LEAD the voice: never later than 0.15s after the word (opening item excepted), and exactly 0.40s ahead when nothing forces otherwise
+  let n = 0, late = 0, exact = 0;
+  for (const sc of good.scenes) for (const it of sc.items) if (it.cued && !it.parent && !it.groupWith) {
     const cue = norm(it.cue.split('#')[0].split(' ')[0]);
-    const cand = words.filter(w => norm(w.w) === cue && w.start >= sc.start - 0.2 && w.start <= sc.start + sc.dur);
-    n++;
-    const exact = cand.some(w => Math.abs(w.start - (sc.start + it.at) - 0.12) < 0.02 || it.at <= 0.051);
-    // the ONLY allowed deviation: a screenshot pulled EARLIER so it precedes its highlight. Never later than its word.
-    const early = it.kind === 'shot' && cand.some(w => sc.start + it.at < w.start - 0.12);
-    if (!exact && !early) bad++;
+    const w = words.find(w => norm(w.w) === cue && w.start >= sc.start - 0.3 && w.start <= sc.start + sc.dur);
+    const lead = w.start - (sc.start + it.at); n++;
+    if (lead < -0.15) late++;
+    if (Math.abs(lead - 0.4) < 0.03) exact++;
   }
-  ok('cued items land 0.12s before their spoken word', n > 15 && bad === 0, `${n} items checked, ${bad} off`);
+  ok('no visual ever appears after its spoken word (0.15s tolerance)', n > 15 && late === 0, `${n} items, ${late} late`);
+  ok('most cued items land exactly 0.40s before their word', exact >= n * 0.6, `${exact}/${n}`);
   ok('voiceover fully covered', good.align.coverage > 0.99 && good.align.issues.length === 0);
 }
 { // narration that is not in the voiceover is rejected with the transcript text in the message

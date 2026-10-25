@@ -20,8 +20,8 @@ export function loadFontConfig(root = '.') {
 export const fontFaceCss = (fonts) => Object.values(fonts).filter(f => f.file)
   .map(f => {
     try {
-      const b64 = fs.readFileSync(f.file).toString('base64');
-      return `@font-face{font-family:'${f.family}';src:url('data:font/woff2;base64,${b64}');font-weight:${f.weight};}`;
+      const data = fs.readFileSync(f.file).toString('base64');
+      return `@font-face{font-family:'${f.family}';src:url('data:font/woff2;base64,${data}');font-weight:${f.weight};}`;
     } catch {
       return `@font-face{font-family:'${f.family}';src:url('${pathToFileURL(f.file).href}');font-weight:${f.weight};}`;
     }

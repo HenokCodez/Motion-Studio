@@ -1,980 +1,1051 @@
 {
- "meta": {
-  "title": "003 - Open Source Is Taking Over Software",
-  "channel": "VantaBrief",
-  "audio": "audio.mp3",
-  "bgVideo": "backgrounds/vanta_grid.mp4",
-  "mascot": [
-   "point",
-   "think",
-   "shrug",
-   "cheer"
+  "meta": {
+    "title": "003 - Open Source Is Taking Over Software",
+    "channel": "VantaBrief",
+    "audio": "audio.mp3",
+    "bgVideo": "backgrounds/vanta_grid.mp4"
+  },
+  "scenes": [
+    {
+      "id": "s01-hook",
+      "type": "title",
+      "title": "2026",
+      "cue": "2026,",
+      "subtitle": "Run professional software locally",
+      "subtitleCue": "can",
+      "icon": "device-desktop",
+      "narration": "In 2026, you can edit videos, design graphics, build apps, generate images, clone voices, and even run AI models on your own computer without paying for a subscription.",
+      "chips": [
+        {
+          "label": "video",
+          "cue": "videos,"
+        },
+        {
+          "label": "graphics",
+          "cue": "graphics,"
+        },
+        {
+          "label": "apps",
+          "cue": "apps,"
+        },
+        {
+          "label": "images",
+          "cue": "images,"
+        },
+        {
+          "label": "voices",
+          "cue": "voices,"
+        },
+        {
+          "label": "local AI",
+          "cue": "AI"
+        },
+        {
+          "label": "offline",
+          "cue": "computer"
+        }
+      ]
+    },
+    {
+      "id": "s02-alternatives",
+      "type": "compare",
+      "narration": "And the alternatives aren't just cheap knockoffs anymore. Some are genuinely good enough to replace the software people have been paying for for years.",
+      "a": {
+        "title": "Open Source",
+        "icon": "lock-open",
+        "cue": "alternatives",
+        "bullets": [
+          "Own it forever",
+          "Run locally offline",
+          "No subscriptions"
+        ]
+      },
+      "b": {
+        "title": "Paid Software",
+        "icon": "lock",
+        "emphasis": true,
+        "cue": "replace",
+        "bullets": [
+          "Monthly toll",
+          "Cloud lock-in",
+          "Per-seat fees"
+        ]
+      },
+      "vsCue": "anymore."
+    },
+    {
+      "id": "s03-artcraft",
+      "type": "flow",
+      "title": "Recreating Adobe Suite",
+      "titleCue": "example.",
+      "narration": "Take ArtCraft, for example. It's an open-source project trying to recreate major Adobe applications, including Photoshop, Premiere Pro, and After Effects.",
+      "nodes": [
+        {
+          "id": "ac",
+          "label": "ArtCraft",
+          "logo": "git",
+          "emphasis": true,
+          "cue": "ArtCraft,"
+        },
+        {
+          "id": "ad",
+          "label": "Adobe Apps",
+          "icon": "app-window",
+          "cue": "Adobe"
+        },
+        {
+          "id": "ps",
+          "label": "Photoshop",
+          "logo": "photoshop",
+          "cue": "applications,"
+        },
+        {
+          "id": "pr",
+          "label": "Premiere",
+          "logo": "premiere",
+          "cue": "Photoshop,"
+        },
+        {
+          "id": "ae",
+          "label": "After Effects",
+          "logo": "aftereffects",
+          "cue": "Effects."
+        }
+      ],
+      "edges": [
+        [
+          "ac",
+          "ad"
+        ],
+        [
+          "ad",
+          "ps"
+        ],
+        [
+          "ad",
+          "pr"
+        ],
+        [
+          "ad",
+          "ae"
+        ]
+      ]
+    },
+    {
+      "id": "s04-solo-dev",
+      "type": "stat",
+      "narration": "It's still early, and it can't replace Adobe for everyone. But the fact that one developer can even attempt something like this with the help of AI tells you where software development is heading.",
+      "value": "1 Dev + AI",
+      "cue": "early,",
+      "icon": "user",
+      "iconCue": "early,",
+      "label": "Full App Suite Recreation",
+      "labelCue": "developer",
+      "note": "where development is heading",
+      "noteCue": "AI"
+    },
+    {
+      "id": "s05-every-category",
+      "type": "iconrow",
+      "narration": "And this isn't just happening with video editors. Almost every category of software has free, open-source alternatives now. And AI is making it easier to build even more of them.",
+      "cards": [
+        {
+          "id": "c1",
+          "icon": "movie",
+          "label": "Video Editing",
+          "cue": "this"
+        },
+        {
+          "id": "c2",
+          "icon": "palette",
+          "label": "Creative Suite",
+          "cue": "category"
+        },
+        {
+          "id": "c3",
+          "icon": "code",
+          "label": "Developer Tools",
+          "cue": "software"
+        },
+        {
+          "id": "c4",
+          "icon": "brain",
+          "label": "AI Models",
+          "cue": "AI",
+          "emphasis": true
+        }
+      ]
+    },
+    {
+      "id": "s06-economic-question",
+      "type": "flow",
+      "title": "The Economic Shift",
+      "titleCue": "happening.",
+      "narration": "So, do we eventually reach a point where almost all software is free? And if nobody's paying for the software, who's actually making money? Let's look at what's happening.",
+      "nodes": [
+        {
+          "id": "n1",
+          "label": "Free Software Core",
+          "icon": "box",
+          "cue": "So,"
+        },
+        {
+          "id": "n2",
+          "label": "Sustainable Revenue",
+          "icon": "coin",
+          "emphasis": true,
+          "cue": "paying"
+        }
+      ],
+      "edges": [
+        [
+          "n1",
+          "n2"
+        ]
+      ]
+    },
+    {
+      "id": "s07-old-duopoly",
+      "type": "stat",
+      "narration": "For years, if you wanted professional software, you usually had two options: pay for it or settle for something worse. Want to edit videos? Pay for Premiere Pro.",
+      "value": "2 Options",
+      "cue": "years,",
+      "icon": "building",
+      "iconCue": "years,",
+      "label": "Pay High Rent or Settle",
+      "labelCue": "options:",
+      "note": "monopoly software toll",
+      "noteCue": "settle"
+    },
+    {
+      "id": "s08-adobe-ms",
+      "type": "compare",
+      "narration": "Want to design something? Pay for Photoshop. Need office software? Buy Microsoft Office or get a subscription.",
+      "a": {
+        "title": "Adobe Creative",
+        "logo": "adobe",
+        "cue": "design",
+        "bullets": [
+          "$600+ / year",
+          "Cloud subscription",
+          "File lock-in"
+        ]
+      },
+      "b": {
+        "title": "Microsoft 365",
+        "logo": "microsoft",
+        "cue": "Microsoft",
+        "bullets": [
+          "Recurring license",
+          "User tax",
+          "Per-seat fees"
+        ]
+      },
+      "vsCue": "Need"
+    },
+    {
+      "id": "s09-davinci-blender",
+      "type": "shot",
+      "narration": "But today, you can use tools like DaVinci Resolve for video editing, Blender for 3D, and LibreOffice for documents without paying for the software itself.",
+      "shots": [
+        {
+          "id": "dv",
+          "asset": "assets/shots/davinci_site.png",
+          "frame": "browser",
+          "label": "DaVinci Resolve",
+          "labelLogo": "davinci",
+          "cue": "today,"
+        },
+        {
+          "id": "bl",
+          "asset": "assets/shots/blender.png",
+          "frame": "browser",
+          "label": "Blender 3D",
+          "labelLogo": "blender",
+          "cue": "Blender",
+          "highlights": [
+            {
+              "text": "Download Blender",
+              "cue": "documents"
+            }
+          ]
+        }
+      ],
+      "caption": "Zero software licenses",
+      "captionCue": "paying"
+    },
+    {
+      "id": "s10-maturity",
+      "type": "timeline",
+      "title": "Open Source Milestones",
+      "titleCue": "these",
+      "narration": "And these aren't new experiments anymore. Some have been around for years and are used for serious work. Now AI is accelerating this even further.",
+      "points": [
+        {
+          "id": "p1",
+          "label": "Linux",
+          "date": "1990s",
+          "logo": "linux",
+          "cue": "new"
+        },
+        {
+          "id": "p2",
+          "label": "Blender",
+          "date": "2000s",
+          "logo": "blender",
+          "cue": "years"
+        },
+        {
+          "id": "p3",
+          "label": "AI",
+          "date": "2026",
+          "logo": "git",
+          "emphasis": true,
+          "cue": "accelerating"
+        }
+      ]
+    },
+    {
+      "id": "s11a-ai-recreate",
+      "type": "flow",
+      "title": "AI Development Pipeline",
+      "titleCue": "expensive",
+      "narration": "Projects like ArtCraft are using AI-assisted development to recreate expensive applications.",
+      "nodes": [
+        {
+          "id": "ai",
+          "label": "AI Assistance",
+          "icon": "brain",
+          "cue": "Projects"
+        },
+        {
+          "id": "code",
+          "label": "Code Generation",
+          "icon": "code",
+          "cue": "AI-assisted"
+        },
+        {
+          "id": "app",
+          "label": "Pro Applications",
+          "icon": "app-window",
+          "emphasis": true,
+          "cue": "recreate"
+        }
+      ],
+      "edges": [
+        [
+          "ai",
+          "code"
+        ],
+        [
+          "code",
+          "app"
+        ]
+      ]
+    },
+    {
+      "id": "s11b-bespoke-dev",
+      "type": "iconrow",
+      "narration": "Developers can also build their own tools instead of waiting for a company to add a feature or charging them for an entire subscription just to get it.",
+      "cards": [
+        {
+          "id": "c1",
+          "icon": "tool",
+          "label": "Build Own Tools",
+          "cue": "Developers"
+        },
+        {
+          "id": "c2",
+          "icon": "clock",
+          "label": "Zero Waiting",
+          "cue": "waiting"
+        },
+        {
+          "id": "c3",
+          "icon": "currency-dollar",
+          "label": "No Subscription",
+          "cue": "charging",
+          "emphasis": true
+        }
+      ]
+    },
+    {
+      "id": "s12-ninety-percent",
+      "type": "stat",
+      "narration": "And if an open-source alternative does 90% of what you need, paying hundreds of dollars a year for the original becomes nonsense.",
+      "value": "90% Fit",
+      "cue": "open-source",
+      "icon": "chart-bar",
+      "iconCue": "open-source",
+      "label": "Free Alternative Replaces Paid",
+      "labelCue": "90%",
+      "note": "paying hundreds is nonsense",
+      "noteCue": "hundreds"
+    },
+    {
+      "id": "s13-ai-half-story",
+      "type": "compare",
+      "narration": "But software is only half of the story. A few years ago, generating high-quality images, realistic voices, or useful AI responses usually meant relying on a handful of major companies.",
+      "a": {
+        "title": "Local Open Weights",
+        "icon": "brain",
+        "cue": "software",
+        "bullets": [
+          "Offline on device",
+          "Zero recurring costs",
+          "Full privacy & control"
+        ]
+      },
+      "b": {
+        "title": "Closed Cloud AI",
+        "icon": "cloud-lock",
+        "emphasis": true,
+        "cue": "years",
+        "bullets": [
+          "API meter running",
+          "Terms of service limits",
+          "Data sent to servers"
+        ]
+      },
+      "vsCue": "generating"
+    },
+    {
+      "id": "s14-krea-kokoro",
+      "type": "shot",
+      "narration": "Now, there are open models for all of these things. You can generate images with models like Krea, and use projects like Kokoro for text-to-speech.",
+      "shots": [
+        {
+          "id": "krea",
+          "asset": "assets/shots/krea_site.png",
+          "frame": "browser",
+          "label": "Krea AI",
+          "cue": "Now,",
+          "highlights": [
+            {
+              "text": "Open Krea",
+              "cue": "images"
+            }
+          ]
+        },
+        {
+          "id": "kokoro",
+          "asset": "assets/shots/kokoro_github.png",
+          "frame": "browser",
+          "label": "Kokoro TTS",
+          "labelLogo": "github",
+          "cue": "generate"
+        }
+      ],
+      "caption": "Local open-weight models",
+      "captionCue": "projects"
+    },
+    {
+      "id": "s15-consumer-hw",
+      "type": "flow",
+      "title": "Offline Local Compute",
+      "titleCue": "expensive",
+      "narration": "And you don't necessarily need an expensive workstation or a cloud subscription for every task. Smaller models can run on ordinary consumer hardware, depending on their size and the memory available.",
+      "nodes": [
+        {
+          "id": "n1",
+          "label": "Cloud Free",
+          "icon": "cloud",
+          "cue": "don't"
+        },
+        {
+          "id": "n2",
+          "label": "No Big Rig",
+          "icon": "device-desktop",
+          "cue": "expensive"
+        },
+        {
+          "id": "n3",
+          "label": "Small Models",
+          "icon": "cpu",
+          "cue": "Smaller"
+        },
+        {
+          "id": "n4",
+          "label": "Consumer PC",
+          "icon": "device-desktop",
+          "emphasis": true,
+          "cue": "hardware,"
+        }
+      ],
+      "edges": [
+        [
+          "n1",
+          "n3"
+        ],
+        [
+          "n2",
+          "n3"
+        ],
+        [
+          "n3",
+          "n4"
+        ]
+      ]
+    },
+    {
+      "id": "s16-developer-control",
+      "type": "iconrow",
+      "narration": "The biggest change is that you're no longer limited to whatever a company decides to offer. You can download a model, run it locally, connect it to your own applications, and build something around it.",
+      "cards": [
+        {
+          "id": "c1",
+          "icon": "lock-open",
+          "label": "No Limits",
+          "cue": "biggest"
+        },
+        {
+          "id": "c2",
+          "icon": "building",
+          "label": "No Lock",
+          "cue": "company"
+        },
+        {
+          "id": "c3",
+          "icon": "download",
+          "label": "Download",
+          "cue": "download"
+        },
+        {
+          "id": "c4",
+          "icon": "device-desktop",
+          "label": "Run Local",
+          "cue": "locally,"
+        },
+        {
+          "id": "c5",
+          "icon": "plug",
+          "label": "Connect",
+          "cue": "applications,",
+          "emphasis": true
+        }
+      ]
+    },
+    {
+      "id": "s17-no-shut-down",
+      "type": "stat",
+      "narration": "If a company changes its prices, removes a feature, or shuts down a service, you may have another option. That's a big deal.",
+      "value": "100%",
+      "cue": "company",
+      "icon": "shield",
+      "iconCue": "company",
+      "label": "Immune to Price Hikes & Shutdowns",
+      "labelCue": "feature,",
+      "note": "you own the execution stack",
+      "noteCue": "option."
+    },
+    {
+      "id": "s18-subscribe-cta",
+      "type": "title",
+      "title": "VantaBrief",
+      "cue": "into",
+      "subtitle": "Tools changing how we use tech",
+      "subtitleCue": "subscribe",
+      "icon": "star",
+      "narration": "And if you're into AI and tech, subscribe to VantaBrief. I cover the tools and developments that are actually changing how we use technology.",
+      "chips": [
+        {
+          "label": "Tools",
+          "cue": "tools"
+        },
+        {
+          "label": "Developments",
+          "cue": "developments"
+        },
+        {
+          "label": "Future Tech",
+          "cue": "actually"
+        }
+      ]
+    },
+    {
+      "id": "s19a-saas-dilemma",
+      "type": "compare",
+      "narration": "But this freedom creates a problem for companies that have built their businesses around selling software.",
+      "a": {
+        "title": "Old SaaS Model",
+        "icon": "currency-dollar",
+        "cue": "freedom",
+        "bullets": [
+          "Software as toll",
+          "Feature gating",
+          "Customer lock-in"
+        ]
+      },
+      "b": {
+        "title": "The New Reality",
+        "icon": "alert-triangle",
+        "emphasis": true,
+        "cue": "companies",
+        "bullets": [
+          "Free alternatives match",
+          "Zero switching costs",
+          "Pricing power lost"
+        ]
+      },
+      "vsCue": "problem"
+    },
+    {
+      "id": "s19b-how-make-money",
+      "type": "flow",
+      "title": "The Revenue Equation",
+      "titleCue": "thing:",
+      "narration": "So, how do open-source developers make money? Because here's the thing: making software isn't free, even when downloading it is.",
+      "nodes": [
+        {
+          "id": "cost",
+          "label": "Dev Costs & Servers",
+          "icon": "coin",
+          "emphasis": true,
+          "cue": "developers"
+        },
+        {
+          "id": "free",
+          "label": "Free Download",
+          "icon": "download",
+          "cue": "downloading"
+        }
+      ],
+      "edges": [
+        [
+          "cost",
+          "free"
+        ]
+      ]
+    },
+    {
+      "id": "s20-cost-equation",
+      "type": "iconrow",
+      "narration": "Developers still need time, hardware, and money to maintain their projects. And successful open-source businesses have figured out how to make money without charging everyone for the basic software.",
+      "cards": [
+        {
+          "id": "c1",
+          "icon": "clock",
+          "label": "Time",
+          "cue": "Developers"
+        },
+        {
+          "id": "c2",
+          "icon": "server",
+          "label": "Hardware",
+          "cue": "hardware,"
+        },
+        {
+          "id": "c3",
+          "icon": "coin",
+          "label": "Money",
+          "cue": "maintain"
+        },
+        {
+          "id": "c4",
+          "icon": "building",
+          "label": "Business",
+          "cue": "businesses"
+        },
+        {
+          "id": "c5",
+          "icon": "shield",
+          "label": "Free App",
+          "cue": "charging",
+          "emphasis": true
+        }
+      ]
+    },
+    {
+      "id": "s21-model-convenience",
+      "type": "iconrow",
+      "narration": "The first model is paid convenience. Take an open-source project and let people use it for free. Then charge for hosting, cloud access, automatic updates, or the infrastructure needed to run it.",
+      "cards": [
+        {
+          "id": "c1",
+          "icon": "star",
+          "label": "Convenience",
+          "cue": "first"
+        },
+        {
+          "id": "c2",
+          "icon": "box",
+          "label": "Free Tool",
+          "cue": "project"
+        },
+        {
+          "id": "c3",
+          "icon": "cloud",
+          "label": "Cloud",
+          "cue": "hosting,"
+        },
+        {
+          "id": "c4",
+          "icon": "refresh",
+          "label": "Updates",
+          "cue": "updates,"
+        },
+        {
+          "id": "c5",
+          "icon": "server",
+          "label": "Infra",
+          "cue": "infrastructure",
+          "emphasis": true
+        }
+      ]
+    },
+    {
+      "id": "s22a-enterprise-intro",
+      "type": "flow",
+      "title": "Enterprise vs Community",
+      "titleCue": "version.",
+      "narration": "The second is enterprise features and support. A regular user might be happy with the free version.",
+      "nodes": [
+        {
+          "id": "ent",
+          "label": "Enterprise Support",
+          "icon": "building",
+          "cue": "second"
+        },
+        {
+          "id": "user",
+          "label": "Free Community",
+          "icon": "user",
+          "cue": "regular"
+        }
+      ],
+      "edges": [
+        [
+          "ent",
+          "user"
+        ]
+      ]
+    },
+    {
+      "id": "s22b-enterprise-fleet",
+      "type": "compare",
+      "narration": "But a company managing thousands of employees may need advanced security, access controls, compliance tools, and someone to call when something breaks.",
+      "a": {
+        "title": "Community Tier",
+        "icon": "user",
+        "cue": "company",
+        "bullets": [
+          "Free download",
+          "Self-hosted",
+          "Community forums"
+        ]
+      },
+      "b": {
+        "title": "Enterprise Fleet",
+        "icon": "building",
+        "emphasis": true,
+        "cue": "security,",
+        "bullets": [
+          "SLA & 24/7 hotline",
+          "Access controls",
+          "Security & audits"
+        ]
+      },
+      "vsCue": "thousands"
+    },
+    {
+      "id": "s23-services-model",
+      "type": "iconrow",
+      "narration": "The third is selling services. Companies can build open-source software and then charge for installation, customization, consulting, and maintenance.",
+      "cards": [
+        {
+          "id": "c1",
+          "icon": "tool",
+          "label": "Install",
+          "cue": "third"
+        },
+        {
+          "id": "c2",
+          "icon": "settings",
+          "label": "Custom",
+          "cue": "installation,"
+        },
+        {
+          "id": "c3",
+          "icon": "users",
+          "label": "Consult",
+          "cue": "customization,"
+        },
+        {
+          "id": "c4",
+          "icon": "shield",
+          "label": "Support",
+          "cue": "consulting,",
+          "emphasis": true
+        }
+      ]
+    },
+    {
+      "id": "s24-billion-dollar-foss",
+      "type": "stat",
+      "narration": "And some projects survive through sponsorships, donations, or funding from companies that depend on them. So the software can be free while the business around it still makes money.",
+      "value": "$0",
+      "cue": "projects",
+      "icon": "cash",
+      "iconCue": "projects",
+      "label": "Corporate Sponsorships & Grants",
+      "labelCue": "donations,",
+      "note": "free software with funded business",
+      "noteCue": "free"
+    },
+    {
+      "id": "s25-ai-pressure",
+      "type": "flow",
+      "title": "The AI Acceleration Curve",
+      "titleCue": "interesting.",
+      "narration": "But here's where things could get interesting. If AI keeps making software cheaper and easier to build, I think we'll see more pressure on traditional software companies.",
+      "nodes": [
+        {
+          "id": "ai",
+          "label": "AI Tooling",
+          "icon": "brain",
+          "cue": "here's"
+        },
+        {
+          "id": "cost",
+          "label": "Cheaper Code",
+          "icon": "coin",
+          "cue": "cheaper"
+        },
+        {
+          "id": "pres",
+          "label": "SaaS Margin Squeeze",
+          "icon": "alert-triangle",
+          "emphasis": true,
+          "cue": "pressure"
+        }
+      ],
+      "edges": [
+        [
+          "ai",
+          "cost"
+        ],
+        [
+          "cost",
+          "pres"
+        ]
+      ]
+    },
+    {
+      "id": "s26-bespoke-tools",
+      "type": "iconrow",
+      "narration": "Instead of paying for dozens of separate applications, people may increasingly build small tools that do exactly what they need. And companies will have to compete on more than just access to features.",
+      "cards": [
+        {
+          "id": "c1",
+          "icon": "tool",
+          "label": "Micro Tools",
+          "cue": "Instead"
+        },
+        {
+          "id": "c2",
+          "icon": "settings",
+          "label": "Exact Fit",
+          "cue": "small"
+        },
+        {
+          "id": "c3",
+          "icon": "star",
+          "label": "Beyond Features",
+          "cue": "compete",
+          "emphasis": true
+        }
+      ]
+    },
+    {
+      "id": "s27-paid-not-dead",
+      "type": "compare",
+      "narration": "But I wouldn't expect paid software to disappear completely. Professional support, reliability, collaboration, and specialized features still have value.",
+      "a": {
+        "title": "What Stays Paid",
+        "icon": "shield",
+        "cue": "paid",
+        "bullets": [
+          "24/7 SLA reliability",
+          "Deep collaboration",
+          "Enterprise compliance"
+        ]
+      },
+      "b": {
+        "title": "What Goes Free",
+        "icon": "lock-open",
+        "emphasis": true,
+        "cue": "completely.",
+        "bullets": [
+          "Commodity tools",
+          "Basic utility apps",
+          "Standard libraries"
+        ]
+      },
+      "vsCue": "reliability,"
+    },
+    {
+      "id": "s28-weights-vs-code",
+      "type": "timeline",
+      "title": "Open Source vs Open Weights",
+      "titleCue": "source",
+      "narration": "And open source doesn't automatically mean better security or a better product. There's also a difference between open-source software and AI models that merely let you download their weights.",
+      "points": [
+        {
+          "id": "p1",
+          "label": "Code",
+          "date": "OSI Compliant",
+          "logo": "opensource",
+          "cue": "open"
+        },
+        {
+          "id": "p2",
+          "label": "Weights",
+          "date": "Commercial Caps",
+          "logo": "git",
+          "emphasis": true,
+          "cue": "difference"
+        }
+      ]
+    },
+    {
+      "id": "s29-advantage-hardware",
+      "type": "flow",
+      "title": "Value Stack Shift",
+      "titleCue": "advantage",
+      "narration": "The license and what's actually available still matter. The bigger change is where the money goes. If software becomes easier to reproduce, the advantage may shift toward the hardware, computing power, and services needed to run it.",
+      "nodes": [
+        {
+          "id": "soft",
+          "label": "Software Layer",
+          "icon": "app-window",
+          "cue": "license"
+        },
+        {
+          "id": "cap",
+          "label": "Capital Shift",
+          "icon": "coin",
+          "cue": "money"
+        },
+        {
+          "id": "serv",
+          "label": "Services Layer",
+          "icon": "server",
+          "cue": "advantage"
+        },
+        {
+          "id": "hw",
+          "label": "Compute Power",
+          "icon": "cpu",
+          "emphasis": true,
+          "cue": "power,"
+        }
+      ],
+      "edges": [
+        [
+          "soft",
+          "serv"
+        ],
+        [
+          "cap",
+          "serv"
+        ],
+        [
+          "serv",
+          "hw"
+        ]
+      ]
+    },
+    {
+      "id": "s30-chips-layer",
+      "type": "stat",
+      "narration": "Companies could find more value in selling cloud computing, specialized chips, and devices than in charging for basic software features.",
+      "value": "Chips",
+      "cue": "Companies",
+      "icon": "cpu",
+      "iconCue": "Companies",
+      "label": "Selling Hardware & Cloud Compute",
+      "labelCue": "computing,",
+      "note": "software is the loss leader",
+      "noteCue": "devices"
+    },
+    {
+      "id": "s31-vulnerable-models",
+      "type": "compare",
+      "narration": "That doesn't mean hardware prices will automatically rise, or that every company will abandon subscriptions. But it does mean the old model becomes harder to defend when free alternatives keep improving.",
+      "a": {
+        "title": "The Old Moat",
+        "icon": "lock",
+        "cue": "hardware",
+        "bullets": [
+          "Rent on code",
+          "Feature monopolies",
+          "Vendor lock-in"
+        ]
+      },
+      "b": {
+        "title": "The New Reality",
+        "icon": "chart-line",
+        "emphasis": true,
+        "cue": "model",
+        "bullets": [
+          "FOSS keeps improving",
+          "Harder to defend",
+          "Rent model crumbles"
+        ]
+      },
+      "vsCue": "abandon"
+    },
+    {
+      "id": "s32-paying-a-choice",
+      "type": "flow",
+      "title": "The 2026 Paradigm",
+      "titleCue": "tasks.",
+      "narration": "So, I don't think every paid application is going away. But I do think we're moving toward a world where paying for software becomes a choice rather than a requirement for more and more tasks.",
+      "nodes": [
+        {
+          "id": "req",
+          "label": "Mandatory Toll",
+          "icon": "lock",
+          "cue": "paid"
+        },
+        {
+          "id": "cho",
+          "label": "Optional Choice",
+          "icon": "check",
+          "emphasis": true,
+          "cue": "choice"
+        }
+      ],
+      "edges": [
+        [
+          "req",
+          "cho"
+        ]
+      ]
+    },
+    {
+      "id": "s33-outro",
+      "type": "title",
+      "title": "The Choice Expands",
+      "cue": "development",
+      "subtitle": "Expanding into new categories",
+      "subtitleCue": "choice",
+      "icon": "message",
+      "narration": "And with AI making development faster, that choice could expand into categories we haven't even considered yet. Let me know what you think in the comments. Thanks for watching, and I'll see you in the next one.",
+      "chips": [
+        {
+          "label": "Comment",
+          "cue": "think"
+        },
+        {
+          "label": "Subscribe",
+          "cue": "watching,"
+        },
+        {
+          "label": "Next Video",
+          "cue": "next"
+        }
+      ]
+    }
   ]
- },
- "scenes": [
-  {
-   "id": "s01-hook",
-   "type": "title",
-   "title": "2026",
-   "subtitle": "Run professional software locally",
-   "icon": "device-desktop",
-   "cue": "2026,",
-   "iconCue": "computer",
-   "subtitleCue": "subscription.",
-   "narration": "In 2026, you can edit videos, design graphics, build apps, generate images, clone voices, and even run AI models on your own computer without paying for a subscription.",
-   "chips": [
-    {
-     "label": "video",
-     "cue": "videos,"
-    },
-    {
-     "label": "graphics",
-     "cue": "graphics,"
-    },
-    {
-     "label": "apps",
-     "cue": "apps,"
-    },
-    {
-     "label": "local AI",
-     "cue": "models"
-    }
-   ]
-  },
-  {
-   "id": "s02-alternatives",
-   "type": "compare",
-   "narration": "And the alternatives aren't just cheap knockoffs anymore. Some are genuinely good enough to replace the software people have been paying for for years.",
-   "a": {
-    "title": "Paid Software",
-    "icon": "lock",
-    "cue": "paying",
-    "bullets": [
-     "Monthly toll",
-     "Cloud lock-in",
-     "Per-seat fees"
-    ]
-   },
-   "b": {
-    "title": "Open Source",
-    "icon": "lock-open",
-    "emphasis": true,
-    "cue": "replace",
-    "bullets": [
-     "Own it forever",
-     "Run locally offline",
-     "No subscriptions"
-    ]
-   },
-   "vsCue": "anymore."
-  },
-  {
-   "id": "s03-artcraft",
-   "type": "flow",
-   "title": "Recreating Adobe Suite",
-   "titleCue": "example.",
-   "narration": "Take ArtCraft, for example. It's an open-source project trying to recreate major Adobe applications, including Photoshop, Premiere Pro, and After Effects.",
-   "nodes": [
-    {
-     "id": "ac",
-     "label": "ArtCraft",
-     "logo": "git",
-     "emphasis": true,
-     "cue": "ArtCraft,"
-    },
-    {
-     "id": "ps",
-     "label": "Photoshop",
-     "logo": "photoshop",
-     "cue": "Photoshop,"
-    },
-    {
-     "id": "pr",
-     "label": "Premiere",
-     "logo": "premiere",
-     "cue": "Premiere"
-    },
-    {
-     "id": "ae",
-     "label": "AfterEffects",
-     "logo": "aftereffects",
-     "cue": "Effects."
-    }
-   ],
-   "edges": [
-    [
-     "ac",
-     "ps"
-    ],
-    [
-     "ac",
-     "pr"
-    ],
-    [
-     "ac",
-     "ae"
-    ]
-   ]
-  },
-  {
-   "id": "s04-solo-dev",
-   "type": "stat",
-   "narration": "It's still early, and it can't replace Adobe for everyone. But the fact that one developer can even attempt something like this with the help of AI tells you where software development is heading.",
-   "value": "1 Dev + AI",
-   "cue": "developer",
-   "icon": "user",
-   "iconCue": "one",
-   "label": "Full App Suite Recreation",
-   "labelCue": "attempt",
-   "note": "where development is heading",
-   "noteCue": "heading."
-  },
-  {
-   "id": "s05-every-category",
-   "type": "iconrow",
-   "narration": "And this isn't just happening with video editors. Almost every category of software has free, open-source alternatives now. And AI is making it easier to build even more of them.",
-   "cards": [
-    {
-     "id": "c1",
-     "icon": "movie",
-     "label": "Video Editing",
-     "cue": "video"
-    },
-    {
-     "id": "c2",
-     "icon": "palette",
-     "label": "Creative Suite",
-     "cue": "category"
-    },
-    {
-     "id": "c3",
-     "icon": "code",
-     "label": "Developer Tools",
-     "cue": "software"
-    },
-    {
-     "id": "c4",
-     "icon": "brain",
-     "label": "AI Models",
-     "cue": "easier",
-     "emphasis": true
-    }
-   ]
-  },
-  {
-   "id": "s06-economic-question",
-   "type": "flow",
-   "title": "The Economic Shift",
-   "titleCue": "happening.",
-   "narration": "So, do we eventually reach a point where almost all software is free? And if nobody's paying for the software, who's actually making money? Let's look at what's happening.",
-   "nodes": [
-    {
-     "id": "n1",
-     "label": "Free Software Core",
-     "icon": "box",
-     "cue": "free?"
-    },
-    {
-     "id": "n2",
-     "label": "Sustainable Revenue",
-     "icon": "coin",
-     "emphasis": true,
-     "cue": "money?"
-    }
-   ],
-   "edges": [
-    [
-     "n1",
-     "n2"
-    ]
-   ]
-  },
-  {
-   "id": "s07-old-duopoly",
-   "type": "stat",
-   "narration": "For years, if you wanted professional software, you usually had two options: pay for it or settle for something worse. Want to edit videos? Pay for Premiere Pro.",
-   "value": "2 Options",
-   "cue": "options:",
-   "icon": "building",
-   "iconCue": "years,",
-   "label": "Pay High Rent or Settle",
-   "labelCue": "settle",
-   "note": "monopoly software toll",
-   "noteCue": "Premiere"
-  },
-  {
-   "id": "s08-adobe-ms",
-   "type": "compare",
-   "narration": "Want to design something? Pay for Photoshop. Need office software? Buy Microsoft Office or get a subscription.",
-   "a": {
-    "title": "Adobe Creative",
-    "logo": "adobe",
-    "cue": "Photoshop.",
-    "bullets": [
-     "$600+ / year",
-     "Cloud subscription",
-     "File lock-in"
-    ]
-   },
-   "b": {
-    "title": "Microsoft 365",
-    "logo": "microsoft",
-    "cue": "Office",
-    "bullets": [
-     "Recurring license",
-     "User tax",
-     "Per-seat fees"
-    ]
-   },
-   "vsCue": "Need"
-  },
-  {
-   "id": "s09-davinci-blender",
-   "type": "shot",
-   "narration": "But today, you can use tools like DaVinci Resolve for video editing, Blender for 3D, and LibreOffice for documents without paying for the software itself.",
-   "shots": [
-    {
-     "id": "dv",
-     "asset": "assets/shots/davinci_site.png",
-     "frame": "browser",
-     "label": "DaVinci Resolve",
-     "labelLogo": "davinci",
-     "cue": "DaVinci"
-    },
-    {
-     "id": "bl",
-     "asset": "assets/shots/blender_site.png",
-     "frame": "browser",
-     "label": "Blender 3D",
-     "labelLogo": "blender",
-     "cue": "Blender"
-    }
-   ],
-   "caption": "Zero software licenses",
-   "captionCue": "itself."
-  },
-  {
-   "id": "s10-maturity",
-   "type": "timeline",
-   "title": "Open Source Milestones",
-   "titleCue": "experiments",
-   "narration": "And these aren't new experiments anymore. Some have been around for years and are used for serious work. Now AI is accelerating this even further.",
-   "points": [
-    {
-     "id": "p1",
-     "label": "Linux",
-     "date": "1990s",
-     "logo": "linux",
-     "cue": "years"
-    },
-    {
-     "id": "p2",
-     "label": "Blender",
-     "date": "2000s",
-     "logo": "blender",
-     "cue": "serious"
-    },
-    {
-     "id": "p3",
-     "label": "AI",
-     "date": "2026",
-     "logo": "git",
-     "emphasis": true,
-     "cue": "accelerating"
-    }
-   ]
-  },
-  {
-   "id": "s11a-ai-recreate",
-   "type": "flow",
-   "title": "AI Development Pipeline",
-   "titleCue": "expensive",
-   "narration": "Projects like ArtCraft are using AI-assisted development to recreate expensive applications.",
-   "nodes": [
-    {
-     "id": "ai",
-     "label": "AI Assistance",
-     "icon": "brain",
-     "cue": "AI-assisted"
-    },
-    {
-     "id": "code",
-     "label": "Code Generation",
-     "icon": "code",
-     "cue": "development"
-    },
-    {
-     "id": "app",
-     "label": "Pro Applications",
-     "icon": "app-window",
-     "emphasis": true,
-     "cue": "applications."
-    }
-   ],
-   "edges": [
-    [
-     "ai",
-     "code"
-    ],
-    [
-     "code",
-     "app"
-    ]
-   ]
-  },
-  {
-   "id": "s11b-bespoke-dev",
-   "type": "iconrow",
-   "narration": "Developers can also build their own tools instead of waiting for a company to add a feature or charging them for an entire subscription just to get it.",
-   "cards": [
-    {
-     "id": "c1",
-     "icon": "tool",
-     "label": "Build Own Tools",
-     "cue": "Developers"
-    },
-    {
-     "id": "c2",
-     "icon": "clock",
-     "label": "Zero Waiting",
-     "cue": "waiting"
-    },
-    {
-     "id": "c3",
-     "icon": "currency-dollar",
-     "label": "No Subscription",
-     "cue": "subscription",
-     "emphasis": true
-    }
-   ]
-  },
-  {
-   "id": "s12-ninety-percent",
-   "type": "stat",
-   "narration": "And if an open-source alternative does 90% of what you need, paying hundreds of dollars a year for the original becomes nonsense.",
-   "value": "90% Fit",
-   "cue": "90%",
-   "icon": "chart-bar",
-   "iconCue": "alternative",
-   "label": "Free Alternative Replaces Paid",
-   "labelCue": "hundreds",
-   "note": "paying hundreds is nonsense",
-   "noteCue": "nonsense."
-  },
-  {
-   "id": "s13-ai-half-story",
-   "type": "compare",
-   "narration": "But software is only half of the story. A few years ago, generating high-quality images, realistic voices, or useful AI responses usually meant relying on a handful of major companies.",
-   "a": {
-    "title": "Closed Cloud AI",
-    "icon": "cloud-lock",
-    "cue": "companies.",
-    "bullets": [
-     "API meter running",
-     "Terms of service limits",
-     "Data sent to servers"
-    ]
-   },
-   "b": {
-    "title": "Local Open Weights",
-    "icon": "brain",
-    "emphasis": true,
-    "cue": "story.",
-    "bullets": [
-     "Offline on device",
-     "Zero recurring costs",
-     "Full privacy & control"
-    ]
-   },
-   "vsCue": "generating"
-  },
-  {
-   "id": "s14-krea-kokoro",
-   "type": "shot",
-   "narration": "Now, there are open models for all of these things. You can generate images with models like Krea, and use projects like Kokoro for text-to-speech.",
-   "shots": [
-    {
-     "id": "krea",
-     "asset": "assets/shots/krea_site.png",
-     "frame": "browser",
-     "label": "Krea AI",
-     "cue": "Krea,"
-    },
-    {
-     "id": "kokoro",
-     "asset": "assets/shots/kokoro_github.png",
-     "frame": "browser",
-     "label": "Kokoro TTS",
-     "labelLogo": "github",
-     "cue": "Kokoro"
-    }
-   ],
-   "caption": "Local open-weight models",
-   "captionCue": "text-to-speech."
-  },
-  {
-   "id": "s15-consumer-hw",
-   "type": "flow",
-   "title": "Offline Local Compute",
-   "titleCue": "expensive",
-   "narration": "And you don't necessarily need an expensive workstation or a cloud subscription for every task. Smaller models can run on ordinary consumer hardware, depending on their size and the memory available.",
-   "nodes": [
-    {
-     "id": "m1",
-     "label": "Small AI Models",
-     "icon": "binary",
-     "cue": "Smaller"
-    },
-    {
-     "id": "hw",
-     "label": "Consumer Hardware",
-     "icon": "device-desktop",
-     "cue": "hardware,"
-    },
-    {
-     "id": "mem",
-     "label": "Local Memory",
-     "icon": "cpu",
-     "emphasis": true,
-     "cue": "memory"
-    }
-   ],
-   "edges": [
-    [
-     "m1",
-     "hw"
-    ],
-    [
-     "hw",
-     "mem"
-    ]
-   ]
-  },
-  {
-   "id": "s16-developer-control",
-   "type": "iconrow",
-   "narration": "The biggest change is that you're no longer limited to whatever a company decides to offer. You can download a model, run it locally, connect it to your own applications, and build something around it.",
-   "arrows": true,
-   "cards": [
-    {
-     "id": "c1",
-     "icon": "download",
-     "label": "Download Model",
-     "cue": "download"
-    },
-    {
-     "id": "c2",
-     "icon": "device-desktop",
-     "label": "Run Locally",
-     "cue": "locally,"
-    },
-    {
-     "id": "c3",
-     "icon": "plug",
-     "label": "Connect Apps",
-     "cue": "applications,"
-    },
-    {
-     "id": "c4",
-     "icon": "rocket",
-     "label": "Deploy Custom",
-     "cue": "build",
-     "emphasis": true
-    }
-   ]
-  },
-  {
-   "id": "s17-no-shut-down",
-   "type": "stat",
-   "narration": "If a company changes its prices, removes a feature, or shuts down a service, you may have another option. That's a big deal.",
-   "value": "100%",
-   "cue": "option.",
-   "icon": "shield",
-   "iconCue": "service,",
-   "label": "Immune to Price Hikes & Shutdowns",
-   "labelCue": "prices,",
-   "note": "you own the execution stack",
-   "noteCue": "deal."
-  },
-  {
-   "id": "s18-subscribe-cta",
-   "type": "title",
-   "title": "VantaBrief",
-   "cue": "VantaBrief.",
-   "subtitle": "Tools changing how we use tech",
-   "subtitleCue": "technology.",
-   "icon": "star",
-   "iconCue": "subscribe",
-   "narration": "And if you're into AI and tech, subscribe to VantaBrief. I cover the tools and developments that are actually changing how we use technology.",
-   "chips": [
-    {
-     "label": "Local AI",
-     "cue": "AI"
-    },
-    {
-     "label": "Open Source",
-     "cue": "tools"
-    },
-    {
-     "label": "Architecture",
-     "cue": "changing"
-    }
-   ]
-  },
-  {
-   "id": "s19a-saas-dilemma",
-   "type": "compare",
-   "narration": "But this freedom creates a problem for companies that have built their businesses around selling software.",
-   "a": {
-    "title": "Old SaaS Model",
-    "icon": "currency-dollar",
-    "cue": "businesses",
-    "bullets": [
-     "Software as toll",
-     "Feature gating",
-     "Customer lock-in"
-    ]
-   },
-   "b": {
-    "title": "The New Reality",
-    "icon": "alert-triangle",
-    "emphasis": true,
-    "cue": "software.",
-    "bullets": [
-     "Free alternatives match",
-     "Zero switching costs",
-     "Pricing power lost"
-    ]
-   },
-   "vsCue": "problem"
-  },
-  {
-   "id": "s19b-how-make-money",
-   "type": "flow",
-   "title": "The Revenue Equation",
-   "titleCue": "thing:",
-   "narration": "So, how do open-source developers make money? Because here's the thing: making software isn't free, even when downloading it is.",
-   "nodes": [
-    {
-     "id": "free",
-     "label": "Free Download",
-     "icon": "download",
-     "cue": "downloading"
-    },
-    {
-     "id": "cost",
-     "label": "Dev Costs & Servers",
-     "icon": "coin",
-     "emphasis": true,
-     "cue": "free,"
-    }
-   ],
-   "edges": [
-    [
-     "free",
-     "cost"
-    ]
-   ]
-  },
-  {
-   "id": "s20-cost-equation",
-   "type": "iconrow",
-   "narration": "Developers still need time, hardware, and money to maintain their projects. And successful open-source businesses have figured out how to make money without charging everyone for the basic software.",
-   "cards": [
-    {
-     "id": "c1",
-     "icon": "clock",
-     "label": "Time",
-     "cue": "time,"
-    },
-    {
-     "id": "c2",
-     "icon": "server",
-     "label": "Hardware",
-     "cue": "hardware,"
-    },
-    {
-     "id": "c3",
-     "icon": "cash",
-     "label": "Money",
-     "cue": "money",
-     "emphasis": true
-    }
-   ]
-  },
-  {
-   "id": "s21-model-convenience",
-   "type": "iconrow",
-   "narration": "The first model is paid convenience. Take an open-source project and let people use it for free. Then charge for hosting, cloud access, automatic updates, or the infrastructure needed to run it.",
-   "cards": [
-    {
-     "id": "c1",
-     "icon": "box",
-     "label": "Free Core",
-     "cue": "free."
-    },
-    {
-     "id": "c2",
-     "icon": "cloud",
-     "label": "Cloud Host",
-     "cue": "hosting,"
-    },
-    {
-     "id": "c3",
-     "icon": "refresh",
-     "label": "Updates",
-     "cue": "updates,"
-    },
-    {
-     "id": "c4",
-     "icon": "server",
-     "label": "Hardware",
-     "cue": "infrastructure",
-     "emphasis": true
-    }
-   ]
-  },
-  {
-   "id": "s22a-enterprise-intro",
-   "type": "flow",
-   "title": "Tier 2: Enterprise Support",
-   "titleCue": "features",
-   "narration": "The second is enterprise features and support. A regular user might be happy with the free version.",
-   "nodes": [
-    {
-     "id": "reg",
-     "label": "Regular User",
-     "icon": "user",
-     "cue": "regular"
-    },
-    {
-     "id": "free",
-     "label": "Free Core Version",
-     "icon": "check",
-     "emphasis": true,
-     "cue": "free"
-    }
-   ],
-   "edges": [
-    [
-     "reg",
-     "free"
-    ]
-   ]
-  },
-  {
-   "id": "s22b-enterprise-fleet",
-   "type": "compare",
-   "narration": "But a company managing thousands of employees may need advanced security, access controls, compliance tools, and someone to call when something breaks.",
-   "a": {
-    "title": "Community Tier",
-    "icon": "user",
-    "cue": "company",
-    "bullets": [
-     "Free download",
-     "Self-hosted",
-     "Community forums"
-    ]
-   },
-   "b": {
-    "title": "Enterprise Fleet",
-    "icon": "building",
-    "emphasis": true,
-    "cue": "compliance",
-    "bullets": [
-     "SLA & 24/7 hotline",
-     "Access controls",
-     "Security & audits"
-    ]
-   },
-   "vsCue": "thousands"
-  },
-  {
-   "id": "s23-services-model",
-   "type": "iconrow",
-   "narration": "The third is selling services. Companies can build open-source software and then charge for installation, customization, consulting, and maintenance.",
-   "cards": [
-    {
-     "id": "c1",
-     "icon": "tool",
-     "label": "Installation",
-     "cue": "installation,"
-    },
-    {
-     "id": "c2",
-     "icon": "settings",
-     "label": "Customization",
-     "cue": "customization,"
-    },
-    {
-     "id": "c3",
-     "icon": "users",
-     "label": "Consulting",
-     "cue": "consulting,"
-    },
-    {
-     "id": "c4",
-     "icon": "shield",
-     "label": "Maintenance",
-     "cue": "maintenance.",
-     "emphasis": true
-    }
-   ]
-  },
-  {
-   "id": "s24-billion-dollar-foss",
-   "type": "stat",
-   "narration": "And some projects survive through sponsorships, donations, or funding from companies that depend on them. So the software can be free while the business around it still makes money.",
-   "value": "$0",
-   "cue": "free",
-   "icon": "cash",
-   "iconCue": "sponsorships,",
-   "label": "Corporate Sponsorship & Grants",
-   "labelCue": "depend",
-   "note": "funded by companies that depend on it",
-   "noteCue": "money."
-  },
-  {
-   "id": "s25-ai-pressure",
-   "type": "flow",
-   "title": "The AI Acceleration Curve",
-   "titleCue": "interesting.",
-   "narration": "But here's where things could get interesting. If AI keeps making software cheaper and easier to build, I think we'll see more pressure on traditional software companies.",
-   "nodes": [
-    {
-     "id": "ai",
-     "label": "AI Tooling",
-     "icon": "brain",
-     "cue": "AI"
-    },
-    {
-     "id": "cost",
-     "label": "Cheaper Code",
-     "icon": "coin",
-     "cue": "cheaper"
-    },
-    {
-     "id": "pres",
-     "label": "SaaS Margin Squeeze",
-     "icon": "alert-triangle",
-     "emphasis": true,
-     "cue": "pressure"
-    }
-   ],
-   "edges": [
-    [
-     "ai",
-     "cost"
-    ],
-    [
-     "cost",
-     "pres"
-    ]
-   ]
-  },
-  {
-   "id": "s26-bespoke-tools",
-   "type": "iconrow",
-   "narration": "Instead of paying for dozens of separate applications, people may increasingly build small tools that do exactly what they need. And companies will have to compete on more than just access to features.",
-   "cards": [
-    {
-     "id": "c1",
-     "icon": "tool",
-     "label": "Micro Tools",
-     "cue": "small"
-    },
-    {
-     "id": "c2",
-     "icon": "settings",
-     "label": "Exact Fit",
-     "cue": "exactly"
-    },
-    {
-     "id": "c3",
-     "icon": "star",
-     "label": "Beyond Features",
-     "cue": "compete",
-     "emphasis": true
-    }
-   ]
-  },
-  {
-   "id": "s27-paid-not-dead",
-   "type": "compare",
-   "narration": "But I wouldn't expect paid software to disappear completely. Professional support, reliability, collaboration, and specialized features still have value.",
-   "a": {
-    "title": "What Stays Paid",
-    "icon": "shield",
-    "cue": "support,",
-    "bullets": [
-     "24/7 SLA reliability",
-     "Deep collaboration",
-     "Enterprise compliance"
-    ]
-   },
-   "b": {
-    "title": "What Goes Free",
-    "icon": "lock-open",
-    "emphasis": true,
-    "cue": "disappear",
-    "bullets": [
-     "Commodity tools",
-     "Basic utility apps",
-     "Standard libraries"
-    ]
-   },
-   "vsCue": "reliability,"
-  },
-  {
-   "id": "s28-weights-vs-code",
-   "type": "timeline",
-   "title": "Open Source vs Open Weights",
-   "titleCue": "difference",
-   "narration": "And open source doesn't automatically mean better security or a better product. There's also a difference between open-source software and AI models that merely let you download their weights.",
-   "points": [
-    {
-     "id": "p1",
-     "label": "Code",
-     "date": "OSI Compliant",
-     "logo": "opensource",
-     "cue": "software"
-    },
-    {
-     "id": "p2",
-     "label": "Weights",
-     "date": "Commercial Caps",
-     "logo": "git",
-     "emphasis": true,
-     "cue": "weights."
-    }
-   ]
-  },
-  {
-   "id": "s29-advantage-hardware",
-   "type": "flow",
-   "title": "Value Stack Shift",
-   "titleCue": "advantage",
-   "narration": "The license and what's actually available still matter. The bigger change is where the money goes. If software becomes easier to reproduce, the advantage may shift toward the hardware, computing power, and services needed to run it.",
-   "nodes": [
-    {
-     "id": "soft",
-     "label": "Software Layer",
-     "icon": "app-window",
-     "cue": "software"
-    },
-    {
-     "id": "serv",
-     "label": "Services Layer",
-     "icon": "server",
-     "cue": "services"
-    },
-    {
-     "id": "hw",
-     "label": "Compute & Hardware",
-     "icon": "cpu",
-     "emphasis": true,
-     "cue": "hardware,"
-    }
-   ],
-   "edges": [
-    [
-     "soft",
-     "serv"
-    ],
-    [
-     "serv",
-     "hw"
-    ]
-   ]
-  },
-  {
-   "id": "s30-chips-layer",
-   "type": "stat",
-   "narration": "Companies could find more value in selling cloud computing, specialized chips, and devices than in charging for basic software features.",
-   "value": "Chips",
-   "cue": "chips,",
-   "icon": "cpu",
-   "iconCue": "computing,",
-   "label": "Selling Hardware & Cloud Compute",
-   "labelCue": "selling",
-   "note": "software is the loss leader",
-   "noteCue": "features."
-  },
-  {
-   "id": "s31-vulnerable-models",
-   "type": "compare",
-   "narration": "That doesn't mean hardware prices will automatically rise, or that every company will abandon subscriptions. But it does mean the old model becomes harder to defend when free alternatives keep improving.",
-   "a": {
-    "title": "The Old Moat",
-    "icon": "lock",
-    "cue": "subscriptions.",
-    "bullets": [
-     "Rent on code",
-     "Feature monopolies",
-     "Vendor lock-in"
-    ]
-   },
-   "b": {
-    "title": "The New Reality",
-    "icon": "chart-line",
-    "emphasis": true,
-    "cue": "improving.",
-    "bullets": [
-     "FOSS keeps improving",
-     "Harder to defend",
-     "Rent model crumbles"
-    ]
-   },
-   "vsCue": "defend"
-  },
-  {
-   "id": "s32-paying-a-choice",
-   "type": "flow",
-   "title": "The 2026 Paradigm",
-   "titleCue": "tasks.",
-   "narration": "So, I don't think every paid application is going away. But I do think we're moving toward a world where paying for software becomes a choice rather than a requirement for more and more tasks.",
-   "nodes": [
-    {
-     "id": "req",
-     "label": "Mandatory Toll",
-     "icon": "lock",
-     "cue": "requirement"
-    },
-    {
-     "id": "cho",
-     "label": "Optional Choice",
-     "icon": "check",
-     "emphasis": true,
-     "cue": "choice"
-    }
-   ],
-   "edges": [
-    [
-     "req",
-     "cho"
-    ]
-   ]
-  },
-  {
-   "id": "s33-outro",
-   "type": "title",
-   "title": "The Choice Expands",
-   "cue": "choice",
-   "subtitle": "What do you think in the comments?",
-   "subtitleCue": "comments.",
-   "icon": "message",
-   "iconCue": "watching,",
-   "narration": "And with AI making development faster, that choice could expand into categories we haven't even considered yet. Let me know what you think in the comments. Thanks for watching, and I'll see you in the next one.",
-   "chips": [
-    {
-     "label": "Subscribe",
-     "cue": "watching,"
-    },
-    {
-     "label": "Comment",
-     "cue": "think"
-    }
-   ]
-  }
- ]
 }

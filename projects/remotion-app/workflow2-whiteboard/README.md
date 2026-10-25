@@ -30,6 +30,20 @@ So the split is:
 | Unnecessary, clipping zooms; wacky motion | Camera moved on every reveal; bouncy springs; scale pulses; constant drift | Camera still by default; max 2 zooms, only into a highlight on a lone screenshot; everything else fades during a zoom. Critically damped springs, no drift, pulses are stroke-only. |
 | Text spilling out of boxes | Character-width guess vs. real font | `measure-font.mjs` measures the real fonts; `preview.mjs` renders in a real browser and FAILS on any text outside its box. |
 
+## v2.1 changes (from a frame-by-frame review of a real 268 s render)
+
+| Measured in the render | Fix |
+|---|---|
+| 32% of the video (84.8 s) was an empty canvas, and the narrator was talking over 88% of it | First item guaranteed at 0.25 s; DEAD AIR is a lint error; `scripts/audit-video.py` measures it from the finished mp4 |
+| 19 of 31 scenes showed their last item < 1 s before exiting | Tail guard: last item >= 1.3 s on screen, lint error otherwise; visuals lead the word by 0.4 s |
+| Items appeared right-to-left / middle-first (compare panels, flow nodes, stat labels before the number) | Reveal order is reading order (L->R, T->B). Speaking order that contradicts it is a lint error that tells the author to reorder |
+| Text appeared before its box; arrows appeared before their target | Box draws in 8 frames, its text follows after 3; arrows draw for 9 frames and land exactly as the target appears; items slide in from the left |
+| Counters showed wrong numbers ("0 Dev + AI", "64% Fit", "1 Options") | Count-up removed; values pop in final |
+| 12 static holds > 3 s (the filler "pulse" was invisible) | Filler is now a visible hand-drawn underline then marker; lint counts only visible events |
+| Timeline had no line or dots (renderer omission) | Line draws left to right, dots pop with their points |
+| Photoshop/Premiere/GitHub logos nearly invisible | Dark logos auto-detected (sharp) and placed on a light plate |
+| Mascot | Removed (opt-in only) |
+
 ## Quick start
 
 ```bash

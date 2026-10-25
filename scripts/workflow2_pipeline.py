@@ -35,7 +35,7 @@ def get_w2_workspace(proj_dir: Path) -> Path:
     (w2 / "assets" / "shots").mkdir(parents=True, exist_ok=True)
     (w2 / "assets" / "mascot").mkdir(parents=True, exist_ok=True)
     (w2 / "previews").mkdir(parents=True, exist_ok=True)
-    (proj_dir / "renders" / "workflow2").mkdir(parents=True, exist_ok=True)
+    (proj_dir / "renders" / "explainer-canvas").mkdir(parents=True, exist_ok=True)
     return w2
 
 
@@ -213,9 +213,9 @@ def w2_render_cmd(proj_dir: Path, crf: int = 18):
         props_file = stage_dir / "props.json"
         props_file.write_text(json.dumps({"plan": plan_data}), encoding="utf-8")
 
-        out_dir = proj_dir / "renders" / "workflow2"
+        out_dir = proj_dir / "renders" / "explainer-canvas"
         out_dir.mkdir(parents=True, exist_ok=True)
-        out_file = out_dir / "final.mp4"
+        out_file = out_dir / "explainer_canvas.mp4"
 
         print(f"\n--> Rendering Workflow 2 Final Video ({proj_dir.name}) -> {out_file.name}...")
         render_cmd = [

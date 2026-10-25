@@ -20,8 +20,8 @@ const iconSvg = (it, size, color) => it.iconData
   ? `<svg viewBox="0 0 ${it.iconData.vb} ${it.iconData.vb}" width="${size}" height="${size}" fill="none" stroke="${color}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="flex:none">${it.iconData.paths.map(d => `<path d="${d}"/>`).join('')}</svg>`
   : `<div style="width:${size}px;height:${size}px;border:3px dashed #f33;color:#f33;font:20px monospace">?</div>`;
 
-const logoHtml = (name, size) => {
-  for (const e of ['.svg', '.png']) { const f = `assets/logos/${name}${e}`; if (exists(f)) return `<img src="${url(f)}" style="width:${size}px;height:${size}px;object-fit:contain;flex:none">`; }
+const logoHtml = (name, size, dark = false) => {
+  for (const e of ['.svg', '.png']) { const f = `assets/logos/${name}${e}`; if (exists(f)) return dark ? `<span style="flex:none;width:${size}px;height:${size}px;background:#EDEDED;border-radius:${Math.round(size * 0.22)}px;display:inline-flex;align-items:center;justify-content:center"><img src="${url(f)}" style="width:${size - 12}px;height:${size - 12}px;object-fit:contain"></span>` : `<img src="${url(f)}" style="width:${size}px;height:${size}px;object-fit:contain;flex:none">`; }
   return `<div style="flex:none;width:${size}px;height:${size}px;border:3px dashed ${COLOR.accent};border-radius:50%;display:flex;align-items:center;justify-content:center;font:20px monospace;color:${COLOR.accent}">${name.slice(0, 4)}</div>`;
 };
 
@@ -41,7 +41,7 @@ function sceneHtml(sc, cam) {
     const f = `font-family:${HAND};font-size:${it.size || 40}px;line-height:1.25;color:${COLOR.ink};`;
     const lines = (it.lines || []).map(l => `<div>${l}</div>`).join('');
     const sub = (it.subLines || []).map(l => `<div style="font-size:34px;color:${COLOR.dim}">${l}</div>`).join('');
-    const logo = it.logo ? `<span style="margin-right:20px;display:inline-flex">${logoHtml(it.logo, it.kind === 'header' || it.kind === 'label' ? it.h - 8 : Math.round(it.size * 1.5))}</span>` : '';
+    const logo = it.logo ? `<span style="margin-right:20px;display:inline-flex">${logoHtml(it.logo, it.kind === 'header' || it.kind === 'label' ? it.h - 8 : Math.round(it.size * 1.5), it.logoDark)}</span>` : '';
     const ic = it.icon ? iconSvg(it, it.iconSize, it.emphasis ? COLOR.accent : COLOR.ink) : '';
     const box = it.emphasis ? `border:3px solid ${COLOR.accent};background:${COLOR.rust}` : `border:3px solid ${COLOR.dim};background:${COLOR.panel}`;
     const chk = (inner) => `<div class="inner" style="display:inline-block;max-width:100%">${inner}</div>`;
@@ -65,7 +65,7 @@ function sceneHtml(sc, cam) {
       }
       case 'icard': return `<div data-box style="${base}${f}padding:30px;${box};border-radius:26px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:14px">${chk(`<div style="display:flex;flex-direction:column;align-items:center;gap:14px">${ic}<div>${lines}</div>${sub}</div>`)}</div>`;
       default: { // node / bubble: icon on the left like a logo
-        return `<div data-box style="${base}${f}padding:30px;${box};border-radius:${it.kind === 'bubble' ? 36 : 18}px;display:flex;flex-direction:column;justify-content:center;overflow:visible">${chk(`<div style="display:flex;align-items:center;gap:24px">${it.icon ? ic : ''}${logo}<div>${lines}</div></div>${sub}`)}</div>`;
+        return `<div data-box style="${base}${f}padding:30px;${box};border-radius:${it.kind === 'bubble' ? 36 : 18}px;display:flex;flex-direction:column;justify-content:center;overflow:visible">${chk(`<div style="display:flex;align-items:center;gap:${it.icon ? 24 : 0}px">${it.icon ? ic : ''}${logo}<div>${lines}</div></div>${sub}`)}</div>`;
       }
     }
   }).join('');

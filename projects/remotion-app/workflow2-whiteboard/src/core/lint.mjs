@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { SAFE, FONT, RULES, CANVAS } from './tokens.mjs';
+import { SAFE, FONT, RULES, CANVAS, TIMING } from './tokens.mjs';
 import { suggestIcons } from './icons.mjs';
 
 const SPACED = new Set(['node', 'panel', 'shot', 'chip', 'terminal', 'bigtitle', 'icard']);
@@ -39,8 +39,8 @@ export function lintPlan(plan, { root = '.', allowMissing = false, allowDraft = 
     if (zooms.length > 2) E(S, `${zooms.length} camera zooms in one scene (max 2). Zoom is only for reading small on-screenshot text.`);
     for (const k of sc.camera) if (k.s > 1.001 && !k.target) E(S, `camera zoom at ${k.t.toFixed(2)}s has no highlight target. The camera must stay still unless it is zooming into a highlight.`);
     for (const it of sc.items) if (it.icon && !it.iconData) E(S, `icon "${it.icon}" not found in assets/icons. Similar: ${suggestIcons(it.icon, root).join(', ') || '(none)'}. Run "node scripts/find-icon.mjs <word>".`);
-    if (plan.align && sc.items.some(i => !i.cued && !['mark'].includes(i.kind))) {
-      const un = sc.items.filter(i => !i.cued && !['mark', 'label'].includes(i.kind)).map(i => i.id);
+    if (plan.align) {
+      const un = sc.items.filter(i => !i.cued && !i.groupWith && !['mark', 'label', 'header'].includes(i.kind)).map(i => i.id);
       if (un.length) W(S, `no cue word for: ${un.join(', ')}. They appear after the previous item rather than on a spoken word.`);
     }
     if (sc.dur > RULES.maxSceneSec) E(S, `scene is ${sc.dur}s (max ${RULES.maxSceneSec}s). Split it into two beats.`);
@@ -78,10 +78,15 @@ export function lintPlan(plan, { root = '.', allowMissing = false, allowDraft = 
     }
     if (sc.mascot) for (const it of sc.items) if (hit(sc.mascot, it, 0) && it.kind !== 'mark') E(S, `mascot overlaps "${it.id}"`);
 
-    // 6. pacing
+    // 6. pacing & dead air: only VISIBLE events count (a reveal, a camera move, an underline/marker)
+    const content = sc.items.filter(i => i.kind !== 'header' && i.kind !== 'mark' && !i.groupWith && !(i.kind === 'label' && i.parent));
+    const firstAt = Math.min(...content.map(i => i.at));
+    if (content.length && firstAt > 0.5) E(S, `DEAD AIR: nothing but empty canvas for the first ${firstAt.toFixed(1)}s of this scene while the narrator is already speaking.`);
+    const lastAt = Math.max(...content.map(i => i.at));
+    if (content.length && sc.dur - lastAt < TIMING.minTail - 0.05) E(S, `"${content.find(i => i.at === lastAt).id}" is on screen only ${(sc.dur - lastAt).toFixed(1)}s before the scene exits (need ${TIMING.minTail}s).`);
     const ts = [0, ...sc.events.map(e => e.t), sc.dur].sort((a, b) => a - b);
-    for (let i = 1; i < ts.length; i++) if (ts[i] - ts[i - 1] > RULES.maxGapSec) E(S, `${(ts[i] - ts[i - 1]).toFixed(1)}s with no visual event at t=${ts[i - 1].toFixed(1)}s`);
-    if (sc.pulsesInserted > 2) W(S, `${sc.pulsesInserted} filler pulses needed. Scene is too sparse for its length: add items/highlights or shorten it.`);
+    for (let i = 1; i < ts.length; i++) if (ts[i] - ts[i - 1] > TIMING.maxGap) E(S, `${(ts[i] - ts[i - 1]).toFixed(1)}s with no visible change at t=${ts[i - 1].toFixed(1)}s. Add an item or split the scene.`);
+    if (sc.pulsesInserted > 3) W(S, `${sc.pulsesInserted} filler emphases needed. The scene is too sparse for its length: add items/highlights or shorten it.`);
 
     // 7. camera must keep every revealed item (non-zoom) mostly on screen
     for (const k of sc.camera) {

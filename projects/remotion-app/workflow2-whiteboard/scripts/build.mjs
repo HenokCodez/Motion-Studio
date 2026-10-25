@@ -8,6 +8,7 @@ import { createRequire } from 'node:module';
 import { planVideo, AlignError } from '../src/core/plan.mjs';
 import { lintPlan } from '../src/core/lint.mjs';
 import { LayoutError } from '../src/core/layout.mjs';
+import { collectLogoInfo } from '../src/core/logos.mjs';
 
 const arg = (k, d) => { const i = process.argv.indexOf(k); return i > -1 ? process.argv[i + 1] : d; };
 const root = process.cwd();
@@ -33,8 +34,15 @@ for (const sc of beats.scenes) for (const s of sc.shots || []) {
   }
 }
 
+// logo contrast: a logo whose visible pixels are mostly dark (GitHub, Notion, Ps/Pr/Ae tiles) disappears on the dark canvas.
+// Those get a light plate behind them in the renderer.
+const logoNames = new Set(); (function walk(o) { if (o && typeof o === 'object') for (const [k, v] of Object.entries(o)) { if (/^(logo|titleLogo|labelLogo)$/.test(k) && typeof v === 'string') logoNames.add(v); else walk(v); } })(beats);
+const logoInfo = await collectLogoInfo(logoNames, root, sharp);
+const darkLogos = Object.entries(logoInfo).filter(([, v]) => v.dark).map(([k]) => k);
+if (darkLogos.length) console.log(`dark logos (will get a light plate): ${darkLogos.join(', ')}`);
+
 let plan;
-try { plan = planVideo(beats, { words, dims, root, draft }); }
+try { plan = planVideo(beats, { words, dims, root, draft, logoInfo }); }
 catch (e) {
   if (e instanceof LayoutError || e instanceof AlignError) {
     console.error(`\n${e instanceof AlignError ? 'TIMING' : 'LAYOUT'} ERROR: ${e.message}\n-> Fix beats.json (content only). Do NOT edit src/core.`);
@@ -43,7 +51,6 @@ catch (e) {
   throw e;
 }
 fs.writeFileSync('plan.json', JSON.stringify(plan, null, 1));
-fs.mkdirSync('public', { recursive: true });
 if (fs.existsSync('assets')) {
   fs.cpSync('assets', 'public/assets', { recursive: true });
   const parentPublic = path.resolve(root, '../public');

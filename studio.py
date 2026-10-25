@@ -1202,21 +1202,47 @@ def cmd_render_all_motion(a):
 def cmd_build_explainer_canvas(a):
     studio, videos, channels, _ = load_cfg()
     proj = project_dir(videos, a.project)
-    out_dir = proj / "renders" / "explainer-canvas"
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out_file = out_dir / "explainer_canvas.mp4"
-    remotion_app = studio / "projects" / "remotion-app"
-    npx_cmd = "npx.cmd" if IS_WIN else "npx"
-    comp_id = getattr(a, "composition", None) or "Workflow2-FullExplainerCanvas"
-    cmd = [
-        npx_cmd, "remotion", "render",
-        "src/index.ts",
-        comp_id,
-        str(out_file.resolve()),
-        "--codec=h264"
-    ]
-    print(f"\n--> Rendering Workflow 2 Explainer Canvas ({comp_id}) -> {out_file.name}...")
-    subprocess.run(cmd, cwd=remotion_app, check=True)
+    channel_name = getattr(a, "channel", None) or "VantaBrief"
+    w2_dir = proj / "workflow2"
+
+    print("\n=======================================================")
+    print("   WORKFLOW 2: INFINITE EXPLAINER CANVAS PIPELINE")
+    print(f"   Project: {proj.name} | Channel: {channel_name}")
+    print("=======================================================\n")
+
+    if (w2_dir / "beats.json").exists() or (proj / "transcripts").exists() or (proj / "assets" / "audio" / "voice").exists():
+        from scripts.workflow2_pipeline import w2_words_cmd, w2_assets_cmd, w2_plan_cmd, w2_preview_cmd, w2_render_cmd
+        if not (w2_dir / "words.json").exists():
+            w2_words_cmd(proj)
+        w2_assets_cmd(proj)
+        w2_plan_cmd(proj, allow_missing=False)
+        w2_preview_cmd(proj)
+        w2_render_cmd(proj, crf=18)
+    else:
+        out_dir = proj / "renders" / "explainer-canvas"
+        out_dir.mkdir(parents=True, exist_ok=True)
+        out_file = out_dir / "explainer_canvas.mp4"
+        remotion_app = studio / "projects" / "remotion-app"
+        npx_cmd = "npx.cmd" if IS_WIN else "npx"
+        comp_id = getattr(a, "composition", None) or "Workflow2-WhiteboardKit"
+        cmd = [
+            npx_cmd, "remotion", "render",
+            "src/index.ts",
+            comp_id,
+            str(out_file.resolve()),
+            "--codec=h264"
+        ]
+        print(f"\n--> Rendering Workflow 2 Explainer Canvas ({comp_id}) -> {out_file.name}...")
+        subprocess.run(cmd, cwd=remotion_app, check=True)
+
+    # Post-render audit
+    target_vid = proj / "renders" / "explainer-canvas" / "explainer_canvas.mp4"
+    audit_script = studio / "projects" / "remotion-app" / "workflow2-whiteboard" / "scripts" / "audit-video.py"
+    if target_vid.exists() and audit_script.exists():
+        print(f"\n--> Running automated post-render audit on {target_vid.name}...")
+        py_exe = sys.executable
+        subprocess.run([py_exe, str(audit_script), str(target_vid)], check=False)
+
 def cmd_w2_words(a):
     studio, videos, channels, _ = load_cfg()
     proj = project_dir(videos, a.project)

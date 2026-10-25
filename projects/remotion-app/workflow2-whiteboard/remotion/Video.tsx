@@ -7,7 +7,7 @@ import { loadFont as loadHand } from '@remotion/google-fonts/Kalam';          //
 import { loadFont as loadSans } from '@remotion/google-fonts/Inter';
 import { loadFont as loadMono } from '@remotion/google-fonts/JetBrainsMono';
 // @ts-ignore (allowJs)
-import { COLOR, CANVAS, RULES } from '../src/core/tokens.mjs';
+import { COLOR, CANVAS, RULES, SAFE } from '../src/core/tokens.mjs';
 // PLAN SOURCE: swap this import (or pass `plan` as a prop / inputProps) if your studio keeps plan.json per video.
 // @ts-ignore
 import defaultPlan from '../plan.json';
@@ -58,20 +58,10 @@ const useReveal = (atSec: number) => {
   const frame = useCurrentFrame(); const { fps } = useVideoConfig();
   const f = frame - Math.round(atSec * fps);
   const p = f < 0 ? 0 : spring({ frame: f, fps, config: { damping: 22, stiffness: 240, mass: 0.7 } });
-  const draw = f < 0 ? 0 : Math.min(1, f / 12);
-  return { p, draw, f, visible: f >= 0 };
+  const draw = f < 0 ? 0 : Math.min(1, f / 8);                       // the box/stroke draws FIRST (8 frames)
+  const text = f < 3 ? 0 : Math.min(1, (f - 3) / 6);                  // ...and its text follows 3 frames later, never before
+  return { p, draw, text, f, visible: f >= 0 };
 };
-
-// Filler "pulse" = a brief stroke emphasis. It never moves or scales anything.
-function usePulse(sc: any, id: string) {
-  const frame = useCurrentFrame(); const { fps } = useVideoConfig();
-  let e = 0;
-  for (const ev of sc.events) if (ev.type === 'pulse' && ev.item === id) {
-    const f = frame - Math.round(ev.t * fps);
-    if (f >= 0 && f < 14) e = Math.max(e, Math.sin((f / 14) * Math.PI));
-  }
-  return e;
-}
 
 // ---------- camera: STILL unless the plan zooms into a highlight. A move = start at t, arrive in camMoveSec. ----------
 function useCamera(sc: any) {
@@ -87,17 +77,11 @@ function useCamera(sc: any) {
 }
 
 // ---------- items ----------
-const Logo: React.FC<{ name: string; size: number }> = ({ name, size }) => {
+const Logo: React.FC<{ name: string; size: number; plate?: boolean }> = ({ name, size, plate }) => {
   const [ext, setExt] = React.useState('svg');
-  return <Img src={staticFile(`assets/logos/${name}.${ext}`)} onError={() => ext === 'svg' && setExt('png')} style={{ width: size, height: size, objectFit: 'contain', marginRight: 20, flex: 'none' }} />;
-};
-
-const countText = (target: string, p: number) => {
-  const m = target.match(/^(\D*)([\d,]+(?:\.\d+)?)(.*)$/);
-  if (!m) return target;
-  const num = parseFloat(m[2].replace(/,/g, '')), cur = num * Math.min(1, p);
-  const txt = m[2].includes(',') ? Math.round(cur).toLocaleString('en-US') : (m[2].includes('.') ? cur.toFixed(m[2].split('.')[1].length) : String(Math.round(cur)));
-  return m[1] + txt + m[3];
+  const img = <Img src={staticFile(`assets/logos/${name}.${ext}`)} onError={() => ext === 'svg' && setExt('png')} style={{ width: plate ? size - 12 : size, height: plate ? size - 12 : size, objectFit: 'contain' }} />;
+  // dark logos (GitHub, Notion, Ps/Pr/Ae tiles) vanish on the dark canvas: give them a light plate
+  return <div style={{ width: size, height: size, marginRight: 20, flex: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center', background: plate ? '#EDEDED' : 'transparent', borderRadius: plate ? Math.round(size * 0.22) : 0 }}>{img}</div>;
 };
 
 // Hand-drawn device frame around a screenshot (browser / laptop / phone)
@@ -124,8 +108,7 @@ const FrameSketch: React.FC<{ it: Item; draw: number; seed: number }> = ({ it, d
 };
 
 const ItemView: React.FC<{ it: Item; sc: any; seed: number; dim: number }> = ({ it, sc, seed, dim }) => {
-  const { p, draw, visible, f } = useReveal(it.at);
-  const emph = usePulse(sc, it.id);
+  const { p, draw, text, visible } = useReveal(it.at);
   const frame = useCurrentFrame(); const { fps } = useVideoConfig();
   if (!visible) return null;
   // a highlight can never exist before the thing it highlights
@@ -136,13 +119,14 @@ const ItemView: React.FC<{ it: Item; sc: any; seed: number; dim: number }> = ({ 
   const isFocus = it.kind === 'shot' || it.kind === 'mark';
   const base: React.CSSProperties = {
     position: 'absolute', left: it.x, top: it.y, width: it.w, height: it.h, boxSizing: 'border-box',
-    opacity: Math.min(1, p * 1.8) * (isFocus ? 1 : 1 - dim), transform: `translateY(${(1 - p) * 14}px) scale(${0.94 + 0.06 * p})`,
+    opacity: (isFocus ? 1 : 1 - dim), transform: `translateX(${(1 - p) * -28}px) scale(${0.97 + 0.03 * p})`,   // always slides in from the LEFT
     fontFamily: HAND, fontSize: it.size, lineHeight: 1.25, color: COLOR.ink, textAlign: it.center ? 'center' : 'left',
   };
-  const sw = 3.5 + 3.5 * emph;                                   // pulse = thicker stroke only
+  const sw = 3.5;
+  const tx: React.CSSProperties = { opacity: text };            // text layer: appears after its box
   const lines = (it.lines || []).map((l: string, i: number) => <div key={i}>{l}</div>);
   const logoSize = it.kind === 'header' || it.kind === 'label' ? it.h - 8 : Math.round(it.size * 1.5);
-  const logo = it.logo ? <Logo name={it.logo} size={logoSize} /> : null;
+  const logo = it.logo ? <Logo name={it.logo} size={logoSize} plate={!!it.logoDark} /> : null;
   const accent = it.emphasis ? COLOR.accent : COLOR.ink;
   const icon = it.icon && it.iconData ? <IconSketch data={it.iconData} size={it.iconSize} color={accent} draw={draw} seed={seed * 3} /> : null;
   const fillBox = it.emphasis ? COLOR.rust : COLOR.panel;
@@ -157,20 +141,20 @@ const ItemView: React.FC<{ it: Item; sc: any; seed: number; dim: number }> = ({ 
     case 'hero': return <div style={{ ...base, display: 'flex', justifyContent: 'center' }}>{icon}</div>;
     case 'mark':   // marker highlight wipes left to right
       return <div style={{ ...base, transform: 'none', opacity: 1, background: `${COLOR.accent}59`, border: `4px solid ${COLOR.accent}`, borderRadius: 8, clipPath: `inset(0 ${(1 - draw) * 100}% 0 0)` }} />;
-    case 'bigtitle': return <div style={{ ...base, fontFamily: SANS, fontWeight: 800, lineHeight: 1, whiteSpace: 'nowrap' }}>{lines}</div>;
-    case 'stat': return <div style={{ ...base, fontFamily: SANS, fontWeight: 800, color: COLOR.accent, lineHeight: 1, whiteSpace: 'nowrap' }}>{countText(it.countTo, f / 24)}</div>;
+    case 'bigtitle': return <div style={{ ...base, ...tx, fontFamily: SANS, fontWeight: 800, lineHeight: 1, whiteSpace: 'nowrap' }}>{lines}</div>;
+    case 'stat': return <div style={{ ...base, ...tx, fontFamily: SANS, fontWeight: 800, color: COLOR.accent, lineHeight: 1, whiteSpace: 'nowrap' }}>{it.lines[0]}</div>;
     case 'tag': return <div style={{ ...base, color: COLOR.accent, whiteSpace: 'nowrap', transform: `${base.transform} rotate(-4deg)` }}>{lines}</div>;
     case 'terminal': return <div style={{ ...base, background: '#1a1a1a', border: '2px solid #333', borderRadius: 14, padding: '22px 30px', fontFamily: MONO, fontSize: it.size, textAlign: 'left' }}>
       <div style={{ fontSize: 20, color: '#ff5f56' }}>● <span style={{ color: '#ffbd2e' }}>●</span> <span style={{ color: '#27c93f' }}>●</span></div>$ {it.lines[0]}</div>;
     case 'chip': return <div style={{ ...base, background: COLOR.rust, border: `3px solid ${COLOR.ink}`, borderRadius: 40, display: 'flex', alignItems: 'center', justifyContent: 'center', whiteSpace: 'nowrap' }}>{lines}</div>;
     case 'header': case 'label': return <div style={{ ...base, display: 'flex', alignItems: 'center', whiteSpace: 'nowrap' }}>{logo}{it.lines[0]}</div>;
-    case 'text': case 'caption': case 'date': return <div style={{ ...base, whiteSpace: 'nowrap' }}>{lines}</div>;
+    case 'text': case 'caption': case 'date': return <div style={{ ...base, ...tx, whiteSpace: 'nowrap' }}>{lines}</div>;
     case 'panel': {
       const [h, ...rest] = it.lines;
       return <div style={{ ...base, padding: '30px 36px' }}>
         <svg width={it.w} height={it.h} style={{ position: 'absolute', inset: 0, overflow: 'visible' }}>
           <Sketch d={roundedPath(it.w, it.h, 22)} stroke={it.emphasis ? COLOR.accent : COLOR.dim} width={sw} draw={draw} seed={seed} fill={fillBox} /></svg>
-        <div style={{ position: 'relative' }}>
+        <div style={{ position: 'relative', ...tx }}>
           <div style={{ fontSize: it.size + 8, marginBottom: 14, color: it.emphasis ? COLOR.accent : COLOR.ink, display: 'flex', alignItems: 'center', gap: it.icon ? 24 : 0 }}>{icon}{logo}<span>{h}</span></div>
           {rest.map((r: string, i: number) => <div key={i}>• {r}</div>)}</div></div>;
     }
@@ -178,21 +162,22 @@ const ItemView: React.FC<{ it: Item; sc: any; seed: number; dim: number }> = ({ 
       return <div style={{ ...base, padding: 30, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center', gap: 14 }}>
         <svg width={it.w} height={it.h} style={{ position: 'absolute', inset: 0, overflow: 'visible' }}>
           <Sketch d={roundedPath(it.w, it.h, 26)} stroke={it.emphasis ? COLOR.accent : COLOR.dim} width={sw} draw={draw} seed={seed} fill={fillBox} /></svg>
-        <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 14 }}>
+        <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 14, ...tx }}>
           {icon}<div>{lines}</div>{(it.subLines || []).map((l: string, i: number) => <div key={i} style={{ fontSize: 34, color: COLOR.dim }}>{l}</div>)}</div></div>;
     default: // node / bubble: icon or logo sits to the LEFT of the label
       return <div style={{ ...base, padding: 30, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
         <svg width={it.w} height={it.h} style={{ position: 'absolute', inset: 0, overflow: 'visible' }}>
           <Sketch d={roundedPath(it.w, it.h, it.kind === 'bubble' ? 36 : 18)} stroke={it.emphasis ? COLOR.accent : COLOR.dim} width={sw} draw={draw} seed={seed} fill={fillBox} /></svg>
-        <div style={{ position: 'relative', display: 'flex', alignItems: 'center', gap: icon ? 24 : 0 }}>{icon}{logo}<div>{lines}</div></div>
-        {(it.subLines || []).map((l: string, i: number) => <div key={i} style={{ position: 'relative', fontSize: 34, color: COLOR.dim }}>{l}</div>)}
+        <div style={{ position: 'relative', display: 'flex', alignItems: 'center', gap: icon ? 24 : 0, ...tx }}>{icon}{logo}<div>{lines}</div></div>
+        {(it.subLines || []).map((l: string, i: number) => <div key={i} style={{ position: 'relative', fontSize: 34, color: COLOR.dim, ...tx }}>{l}</div>)}
       </div>;
   }
 };
 
 const EdgeView: React.FC<{ e: any; at: number; seed: number }> = ({ e, at, seed }) => {
-  const { draw, visible } = useReveal(Math.max(0, at - 0.3));
+  const { f, visible } = useReveal(Math.max(0, at - 0.3));
   if (!visible) return null;
+  const draw = Math.min(1, f / 9);                       // the arrow reaches its target exactly as the target appears
   const [x0, y0] = e.p0, [x1, y1] = e.p1, mx = (x0 + x1) / 2;
   return <>
     <Sketch d={`M${x0 + 6} ${y0}C${mx} ${y0} ${mx} ${y1} ${x1 - 16} ${y1}`} stroke={COLOR.dim} width={4} draw={draw} seed={seed} />
@@ -200,15 +185,38 @@ const EdgeView: React.FC<{ e: any; at: number; seed: number }> = ({ e, at, seed 
   </>;
 };
 
-const Mascot: React.FC<{ sc: any; idx: number }> = ({ sc, idx }) => {
-  const plan = React.useContext(PlanCtx);
-  const poses: string[] = plan.meta.mascot || [];       // e.g. ["point","think","shrug","cheer"] -> public/assets/mascot/<pose>.png
-  const { p } = useReveal(0.5); const frame = useCurrentFrame();
-  if (!sc.mascot || !poses.length) return null;
-  return <Img src={staticFile(`assets/mascot/${poses[idx % poses.length]}.png`)} style={{ position: 'absolute', left: sc.mascot.x, top: sc.mascot.y, width: sc.mascot.w, height: sc.mascot.h, objectFit: 'contain', opacity: p, transform: `translateY(${Math.sin(frame / 14) * 2 + (1 - p) * 24}px)` }} />;
+// Timeline: the line draws left to right, and each dot pops exactly when its point appears.
+const TimelineLine: React.FC<{ sc: any }> = ({ sc }) => {
+  const frame = useCurrentFrame(); const { fps } = useVideoConfig();
+  const nodes = sc.items.filter((i: Item) => i.kind === 'node');
+  if (!sc.timelineY || !nodes.length) return null;
+  const T = frame / fps, t0 = Math.min(...nodes.map((n: Item) => n.at)) - 0.25, t1 = Math.max(...nodes.map((n: Item) => n.at));
+  const draw = Math.max(0, Math.min(1, (T - t0) / Math.max(0.6, t1 - t0 + 0.3)));
+  return (
+    <svg style={{ position: 'absolute', inset: 0 }} width={CANVAS.w} height={CANVAS.h}>
+      <Sketch d={`M${SAFE.x} ${sc.timelineY}H${SAFE.x + SAFE.w}`} stroke={COLOR.dim} width={4} draw={draw} seed={91} />
+      {sc.xs.map((x: number, i: number) => {
+        const n = nodes.find((m: Item) => m.col === i); const k = n ? Math.max(0, Math.min(1, (T - n.at) * fps / 6)) : 0;
+        return k > 0 ? <circle key={i} cx={x} cy={sc.timelineY} r={13 * k} fill={COLOR.accent} /> : null;
+      })}
+    </svg>
+  );
 };
 
-const SceneView: React.FC<{ sc: any; idx: number }> = ({ sc, idx }) => {
+// Visible hand-drawn emphasis for quiet stretches: a marker wipe behind, or an underline drawn left to right.
+const FillView: React.FC<{ ev: any; it: Item; idx: number }> = ({ ev, it, idx }) => {
+  const frame = useCurrentFrame(); const { fps } = useVideoConfig();
+  const f = frame - Math.round(ev.t * fps);
+  if (f < 0 || !it) return null;
+  const p = Math.min(1, f / 10);
+  if (ev.type === 'marker')
+    return <div style={{ position: 'absolute', left: it.x - 12, top: it.y - 8, width: it.w + 24, height: it.h + 16, background: `${COLOR.accent}38`, borderRadius: 12, clipPath: `inset(0 ${(1 - p) * 100}% 0 0)` }} />;
+  const y = it.y + it.h + 14, x0 = it.x + it.w * 0.08, x1 = it.x + it.w * 0.92;
+  return <svg style={{ position: 'absolute', inset: 0 }} width={CANVAS.w} height={CANVAS.h}>
+    <Sketch d={`M${x0} ${y}Q${(x0 + x1) / 2} ${y + 10} ${x1} ${y - 2}`} stroke={COLOR.accent} width={6} draw={p} seed={300 + idx} /></svg>;
+};
+
+const SceneView: React.FC<{ sc: any }> = ({ sc }) => {
   const cam = useCamera(sc);
   const frame = useCurrentFrame(); const { fps } = useVideoConfig();
   const exit = interpolate(frame, [sc.dur * fps - 6, sc.dur * fps], [1, 0], { extrapolateLeft: 'clamp' });
@@ -217,11 +225,13 @@ const SceneView: React.FC<{ sc: any; idx: number }> = ({ sc, idx }) => {
   return (
     <AbsoluteFill style={{ opacity: exit, transform: `scale(${0.97 + 0.03 * exit})` }}>
       <AbsoluteFill style={{ transformOrigin: '0 0', transform: cam.transform }}>
+        {sc.events.filter((e: any) => e.type === 'marker').map((e: any, i: number) => <FillView key={'m' + i} ev={e} it={sc.items.find((x: Item) => x.id === e.item)} idx={i} />)}
+        <TimelineLine sc={sc} />
         <svg style={{ position: 'absolute', inset: 0, opacity: 1 - dim }} width={CANVAS.w} height={CANVAS.h}>
           {(sc.edges || []).map((e: any, i: number) => <EdgeView key={i} e={e} at={atOf(e.to)} seed={i * 7 + 3} />)}
         </svg>
         {sc.items.map((it: Item, i: number) => <ItemView key={it.id} it={it} sc={sc} seed={i + 11} dim={dim} />)}
-        <Mascot sc={sc} idx={idx} />
+        {sc.events.filter((e: any) => e.type === 'underline').map((e: any, i: number) => <FillView key={'u' + i} ev={e} it={sc.items.find((x: Item) => x.id === e.item)} idx={i} />)}
       </AbsoluteFill>
     </AbsoluteFill>
   );
@@ -248,7 +258,7 @@ export const Explainer: React.FC<{ plan?: any }> = ({ plan: planProp }) => {
         <style>{fontCss}</style>
         {plan.meta.audio && <Audio src={staticFile(plan.meta.audio)} />}
         {plan.scenes.map((sc: any, idx: number) => (
-          <Sequence key={sc.id} from={Math.round(sc.start * fps)} durationInFrames={Math.round(sc.dur * fps)}><SceneView sc={sc} idx={idx} /></Sequence>
+          <Sequence key={sc.id} from={Math.round(sc.start * fps)} durationInFrames={Math.round(sc.dur * fps)}><SceneView sc={sc} /></Sequence>
         ))}
       </AbsoluteFill>
     </PlanCtx.Provider>
