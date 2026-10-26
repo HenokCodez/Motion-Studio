@@ -86,6 +86,32 @@ Motion Studio supports two dedicated, distinct workflows depending on the produc
    python studio.py build-explainer-canvas <project> [--channel CHANNEL] # 1-Command CLI pipeline
    ```
 
+---
+
+### Workflow 3: Vertical Explainer Short (Voiceover to Short Pipeline)
+
+> **Use when**: You want a finished 30–60 second vertical (1080x1920, 30fps) YouTube Short or Reel with a black animated-grid background, word-by-word captions, logo badges, screenshot cards, hub/orbit diagrams, bullets, big numbers, and an end call-to-action.
+
+1. **Input**:
+   - Voiceover placed in `public/workflow3/voiceover.mp3` or project assets (`assets/audio/voice/audio.mp3`).
+   - Optional: logos, screenshots, brand handle for watermark, and CTA keyword.
+2. **Chat Command**:
+   > **"Use the skill `voiceover-to-short`. My voiceover is `<path>`. Brand/handle for the watermark: `<@handle or none>`. CTA keyword: `<WORD>`. Extra images/logos are in `<folder>` (optional)."**
+3. **Motion Studio Execution**:
+   - Transcribes voiceover at word level via faster-whisper.
+   - Deterministically chunks captions into scenes (`scripts/chunk.py`).
+   - Selects from 12 visual templates and prepares real images (`scripts/prep_images.py`).
+   - Populates and validates `storyboard.json` (`scripts/validate.py --public public/workflow3`).
+   - Renders 1080x1920 vertical composition (`Workflow3Short`) into `out/short.mp4` or project renders (`scripts/render.py`).
+   - Executes multi-point QA checks (`scripts/qa.py`) and inspects rendered contact sheet frames to fix defects.
+4. **Execution Commands**:
+   ```powershell
+   python .agents/skills/workflow3-voiceover-to-short/scripts/transcribe.py <audio_path> --out words.json
+   python .agents/skills/workflow3-voiceover-to-short/scripts/chunk.py words.json --audio voiceover.mp3 --brand "@handle" --out storyboard.json
+   python .agents/skills/workflow3-voiceover-to-short/scripts/validate.py storyboard.json --public public/workflow3
+   npx remotion still src/index.ts Workflow3Short out/test.png --frame=60
+   python .agents/skills/workflow3-voiceover-to-short/scripts/render.py storyboard.json --out out/short.mp4
+   ```
 
 ---
 

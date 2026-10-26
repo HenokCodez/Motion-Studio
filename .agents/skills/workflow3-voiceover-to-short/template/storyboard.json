@@ -1,0 +1,808 @@
+{
+ "meta": {
+  "fps": 30,
+  "durationSec": 38.66,
+  "audio": "voiceover.mp3",
+  "brand": "yourhandle",
+  "grid": "video"
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 2.773,
+   "media": {
+    "type": "BADGE_LINE_CARD",
+    "badges": [
+     {
+      "src": "img/logo_a.png",
+      "w": 512,
+      "h": 512
+     },
+     {
+      "src": "img/logo_b.png",
+      "w": 512,
+      "h": 512,
+      "bg": "black"
+     }
+    ],
+    "card": {
+     "src": "img/site_pricing.jpg",
+     "w": 1600,
+     "h": 1000
+    }
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "AI",
+      "s": 0.15,
+      "e": 0.376,
+      "b": true
+     },
+     {
+      "t": "coding",
+      "s": 0.391,
+      "e": 0.729
+     },
+     {
+      "t": "tools",
+      "s": 0.744,
+      "e": 1.054
+     },
+     {
+      "t": "cost",
+      "s": 1.069,
+      "e": 1.351
+     },
+     {
+      "t": "a",
+      "s": 1.366,
+      "e": 1.564
+     },
+     {
+      "t": "fortune",
+      "s": 1.579,
+      "e": 1.945
+     },
+     {
+      "t": "every",
+      "s": 1.96,
+      "e": 2.27
+     },
+     {
+      "t": "month.",
+      "s": 2.285,
+      "e": 2.623
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 2.773,
+   "end": 5.972,
+   "media": {
+    "type": "HERO_CARD",
+    "image": {
+     "src": "img/ui_dark.jpg",
+     "w": 1600,
+     "h": 1000
+    },
+    "tilt": "none"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "But",
+      "s": 2.923,
+      "e": 3.177
+     },
+     {
+      "t": "there",
+      "s": 3.192,
+      "e": 3.502
+     },
+     {
+      "t": "is",
+      "s": 3.517,
+      "e": 3.743
+     },
+     {
+      "t": "now",
+      "s": 3.758,
+      "e": 4.012
+     },
+     {
+      "t": "a",
+      "s": 4.027,
+      "e": 4.225
+     },
+     {
+      "t": "free",
+      "s": 4.24,
+      "e": 4.522
+     },
+     {
+      "t": "and",
+      "s": 4.537,
+      "e": 4.791
+     },
+     {
+      "t": "open",
+      "s": 4.806,
+      "e": 5.088
+     },
+     {
+      "t": "source",
+      "s": 5.103,
+      "e": 5.441
+     },
+     {
+      "t": "option.",
+      "s": 5.456,
+      "e": 5.822
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 5.972,
+   "end": 9.339,
+   "media": {
+    "type": "HUB_SPOKES",
+    "center": {
+     "src": "img/logo_a.png",
+     "w": 512,
+     "h": 512
+    },
+    "spokes": [
+     {
+      "src": "img/logo_b.png",
+      "w": 512,
+      "h": 512,
+      "bg": "black"
+     },
+     {
+      "src": "img/logo_c.png",
+      "w": 512,
+      "h": 512
+     },
+     {
+      "src": "img/logo_d.png",
+      "w": 512,
+      "h": 512
+     }
+    ]
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "Think",
+      "s": 6.122,
+      "e": 6.432
+     },
+     {
+      "t": "of",
+      "s": 6.447,
+      "e": 6.673
+     },
+     {
+      "t": "it",
+      "s": 6.688,
+      "e": 6.914
+     },
+     {
+      "t": "like",
+      "s": 6.929,
+      "e": 7.211
+     },
+     {
+      "t": "a",
+      "s": 7.226,
+      "e": 7.424
+     },
+     {
+      "t": "personal",
+      "s": 7.439,
+      "e": 7.833
+     },
+     {
+      "t": "coworker",
+      "s": 7.848,
+      "e": 8.242
+     },
+     {
+      "t": "on",
+      "s": 8.257,
+      "e": 8.483
+     },
+     {
+      "t": "your",
+      "s": 8.498,
+      "e": 8.78
+     },
+     {
+      "t": "desktop.",
+      "s": 8.795,
+      "e": 9.189
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 9.339,
+   "end": 11.137,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "You",
+      "s": 9.489,
+      "e": 9.743
+     },
+     {
+      "t": "describe",
+      "s": 9.758,
+      "e": 10.152
+     },
+     {
+      "t": "a",
+      "s": 10.167,
+      "e": 10.365
+     },
+     {
+      "t": "task",
+      "s": 10.38,
+      "e": 10.662
+     },
+     {
+      "t": "once.",
+      "s": 10.677,
+      "e": 10.987
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 11.137,
+   "end": 13.075,
+   "media": {
+    "type": "HERO_CARD",
+    "image": {
+     "src": "img/ui_light.jpg",
+     "w": 1600,
+     "h": 1000
+    }
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "It",
+      "s": 11.287,
+      "e": 11.513
+     },
+     {
+      "t": "reads",
+      "s": 11.528,
+      "e": 11.838
+     },
+     {
+      "t": "your",
+      "s": 11.853,
+      "e": 12.135
+     },
+     {
+      "t": "entire",
+      "s": 12.15,
+      "e": 12.488
+     },
+     {
+      "t": "codebase,",
+      "s": 12.503,
+      "e": 12.925
+     }
+    ]
+   },
+   "mediaKey": "codebase"
+  },
+  {
+   "id": "s06",
+   "start": 13.075,
+   "end": 15.876,
+   "media": {
+    "type": "HERO_CARD",
+    "image": {
+     "src": "img/ui_light.jpg",
+     "w": 1600,
+     "h": 1000
+    }
+   },
+   "caption": {
+    "mode": "BULLETS",
+    "icon": "arrow",
+    "items": [
+     {
+      "text": "catches the bugs",
+      "at": 13.225,
+      "bold": "bugs"
+     },
+     {
+      "text": "opens the pull request",
+      "at": 14.172,
+      "bold": "pull request"
+     }
+    ]
+   },
+   "mediaKey": "codebase"
+  },
+  {
+   "id": "s07",
+   "start": 15.876,
+   "end": 18.52,
+   "media": {
+    "type": "BADGE_ROW",
+    "badges": [
+     {
+      "src": "img/logo_b.png",
+      "w": 512,
+      "h": 512,
+      "bg": "black"
+     },
+     {
+      "src": "img/logo_c.png",
+      "w": 512,
+      "h": 512
+     }
+    ],
+    "card": {
+     "src": "img/ui_dark.jpg",
+     "w": 1600,
+     "h": 1000
+    }
+   },
+   "caption": {
+    "mode": "BIG_STAT",
+    "words": [
+     {
+      "t": "Normally",
+      "s": 16.026,
+      "e": 16.42
+     },
+     {
+      "t": "this",
+      "s": 16.435,
+      "e": 16.717
+     },
+     {
+      "t": "needs",
+      "s": 16.732,
+      "e": 17.042
+     },
+     {
+      "t": "around",
+      "s": 17.057,
+      "e": 17.395
+     }
+    ],
+    "stat": "1400GB",
+    "statAt": 17.41
+   }
+  },
+  {
+   "id": "s08",
+   "start": 18.52,
+   "end": 21.013,
+   "media": {
+    "type": "CUTOUT",
+    "image": {
+     "src": "img/laptop_cutout.png",
+     "w": 1400,
+     "h": 900
+    }
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "Now",
+      "s": 18.67,
+      "e": 18.924
+     },
+     {
+      "t": "it",
+      "s": 18.939,
+      "e": 19.165
+     },
+     {
+      "t": "runs",
+      "s": 19.18,
+      "e": 19.462
+     },
+     {
+      "t": "on",
+      "s": 19.477,
+      "e": 19.703
+     },
+     {
+      "t": "a",
+      "s": 19.718,
+      "e": 19.916
+     },
+     {
+      "t": "four",
+      "s": 19.931,
+      "e": 20.213
+     },
+     {
+      "t": "gig",
+      "s": 20.228,
+      "e": 20.482
+     },
+     {
+      "t": "laptop.",
+      "s": 20.497,
+      "e": 20.863
+     }
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": 21.013,
+   "end": 24.593,
+   "media": {
+    "type": "PROGRESS_BAR",
+    "from": 8,
+    "to": 92,
+    "label": "LOADING..."
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "Loading",
+      "s": 21.163,
+      "e": 21.529
+     },
+     {
+      "t": "one",
+      "s": 21.544,
+      "e": 21.798
+     },
+     {
+      "t": "layer",
+      "s": 21.813,
+      "e": 22.123
+     },
+     {
+      "t": "at",
+      "s": 22.138,
+      "e": 22.364
+     },
+     {
+      "t": "a",
+      "s": 22.379,
+      "e": 22.577
+     },
+     {
+      "t": "time",
+      "s": 22.592,
+      "e": 22.874
+     },
+     {
+      "t": "instead",
+      "s": 22.889,
+      "e": 23.255
+     },
+     {
+      "t": "of",
+      "s": 23.27,
+      "e": 23.496
+     },
+     {
+      "t": "the",
+      "s": 23.511,
+      "e": 23.765
+     },
+     {
+      "t": "whole",
+      "s": 23.78,
+      "e": 24.09
+     },
+     {
+      "t": "model.",
+      "s": 24.105,
+      "e": 24.443
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 24.593,
+   "end": 27.382,
+   "media": {
+    "type": "ORBIT",
+    "center": {
+     "src": "img/logo_a.png",
+     "w": 512,
+     "h": 512
+    },
+    "orbiters": [
+     {
+      "src": "img/logo_b.png",
+      "w": 512,
+      "h": 512,
+      "bg": "black"
+     },
+     {
+      "src": "img/logo_c.png",
+      "w": 512,
+      "h": 512
+     },
+     {
+      "src": "img/logo_d.png",
+      "w": 512,
+      "h": 512
+     },
+     {
+      "src": "img/logo_b.png",
+      "w": 512,
+      "h": 512,
+      "bg": "black"
+     },
+     {
+      "src": "img/logo_c.png",
+      "w": 512,
+      "h": 512
+     }
+    ]
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "It",
+      "s": 24.743,
+      "e": 24.969
+     },
+     {
+      "t": "connects",
+      "s": 24.984,
+      "e": 25.378
+     },
+     {
+      "t": "to",
+      "s": 25.393,
+      "e": 25.619
+     },
+     {
+      "t": "Gmail,",
+      "s": 25.634,
+      "e": 25.972
+     },
+     {
+      "t": "Slack",
+      "s": 26.272,
+      "e": 26.582,
+      "b": true
+     },
+     {
+      "t": "and",
+      "s": 26.597,
+      "e": 26.851
+     },
+     {
+      "t": "Notion.",
+      "s": 26.866,
+      "e": 27.232,
+      "b": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "start": 27.382,
+   "end": 30.323,
+   "media": {
+    "type": "CARD_STACK",
+    "cards": [
+     {
+      "src": "img/ui_light.jpg",
+      "w": 1600,
+      "h": 1000
+     },
+     {
+      "src": "img/site_pricing.jpg",
+      "w": 1600,
+      "h": 1000
+     },
+     {
+      "src": "img/ui_dark.jpg",
+      "w": 1600,
+      "h": 1000
+     }
+    ]
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "Every",
+      "s": 27.532,
+      "e": 27.842
+     },
+     {
+      "t": "morning",
+      "s": 27.857,
+      "e": 28.223
+     },
+     {
+      "t": "it",
+      "s": 28.238,
+      "e": 28.464
+     },
+     {
+      "t": "sends",
+      "s": 28.479,
+      "e": 28.789
+     },
+     {
+      "t": "you",
+      "s": 28.804,
+      "e": 29.058
+     },
+     {
+      "t": "a",
+      "s": 29.073,
+      "e": 29.271
+     },
+     {
+      "t": "structured",
+      "s": 29.286,
+      "e": 29.736,
+      "b": true
+     },
+     {
+      "t": "briefing.",
+      "s": 29.751,
+      "e": 30.173
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 30.323,
+   "end": 32.233,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "BIG_STAT",
+    "words": [
+     {
+      "t": "The",
+      "s": 30.473,
+      "e": 30.727
+     },
+     {
+      "t": "only",
+      "s": 30.742,
+      "e": 31.024
+     },
+     {
+      "t": "limitation",
+      "s": 31.039,
+      "e": 31.489,
+      "b": true
+     },
+     {
+      "t": "is",
+      "s": 31.504,
+      "e": 31.73
+     }
+    ],
+    "stat": "Speed",
+    "statAt": 31.745
+   }
+  },
+  {
+   "id": "s13",
+   "start": 32.233,
+   "end": 35.051,
+   "media": {
+    "type": "HERO_CARD",
+    "image": {
+     "src": "img/photo_portrait.jpg",
+     "w": 900,
+     "h": 1600
+    },
+    "tilt": "left"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "But",
+      "s": 32.383,
+      "e": 32.637
+     },
+     {
+      "t": "you",
+      "s": 32.652,
+      "e": 32.906
+     },
+     {
+      "t": "just",
+      "s": 32.921,
+      "e": 33.203
+     },
+     {
+      "t": "cut",
+      "s": 33.218,
+      "e": 33.472
+     },
+     {
+      "t": "your",
+      "s": 33.487,
+      "e": 33.769
+     },
+     {
+      "t": "AI",
+      "s": 33.784,
+      "e": 34.01,
+      "b": true
+     },
+     {
+      "t": "costs",
+      "s": 34.025,
+      "e": 34.335
+     },
+     {
+      "t": "to",
+      "s": 34.35,
+      "e": 34.576
+     },
+     {
+      "t": "zero.",
+      "s": 34.591,
+      "e": 34.901
+     }
+    ]
+   }
+  },
+  {
+   "id": "s14",
+   "start": 35.051,
+   "end": 38.66,
+   "media": {
+    "type": "END_CTA",
+    "top": "Comment",
+    "keyword": "GUIDE",
+    "image": {
+     "src": "img/guide_cover.png",
+     "w": 900,
+     "h": 1100
+    },
+    "bottom": "and I will send you the setup",
+    "bottomBold": "setup"
+   },
+   "caption": {
+    "mode": "NONE"
+   }
+  }
+ ]
+}

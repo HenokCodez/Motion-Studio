@@ -31,10 +31,36 @@ import { WhiteboardExplainer } from "./compositions/whiteboard/WhiteboardExplain
 import { Explainer as WhiteboardKitExplainer } from "../workflow2-whiteboard/remotion/Video";
 // @ts-ignore
 import whiteboardKitPlan from "../workflow2-whiteboard/plan.json";
+import { Workflow3Short } from "./workflow3/Short";
+// @ts-ignore
+import workflow3Storyboard from "./workflow3/storyboard.json";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      {/* Workflow 3: Vertical Explainer Short (1080x1920 @ 30fps) */}
+      <Composition
+        id="Workflow3Short"
+        component={Workflow3Short}
+        durationInFrames={Math.round(((workflow3Storyboard as any)?.meta?.durationSec || 38.7) * ((workflow3Storyboard as any)?.meta?.fps || 30))}
+        fps={(workflow3Storyboard as any)?.meta?.fps || 30}
+        width={1080}
+        height={1920}
+        defaultProps={workflow3Storyboard}
+        calculateMetadata={({ props }) => {
+          const p = (props as any) || workflow3Storyboard;
+          const fps = p?.meta?.fps || 30;
+          const durSec = p?.meta?.durationSec || 38.7;
+          return {
+            durationInFrames: Math.round(durSec * fps),
+            fps,
+            width: 1080,
+            height: 1920,
+            props: p,
+          };
+        }}
+      />
+
       {/* Workflow 2: Whiteboard Kit Explainer */}
       <Composition
         id="Workflow2-WhiteboardKit"

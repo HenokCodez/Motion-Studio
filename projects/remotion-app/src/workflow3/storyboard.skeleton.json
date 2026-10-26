@@ -1,0 +1,2266 @@
+{
+ "meta": {
+  "fps": 30,
+  "durationSec": 102.113,
+  "audio": "voiceover.mp3",
+  "brand": "@insiderforce",
+  "grid": "video"
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 2.58,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "The",
+      "s": 0.0,
+      "e": 0.22
+     },
+     {
+      "t": "open",
+      "s": 0.22,
+      "e": 0.46
+     },
+     {
+      "t": "-source",
+      "s": 0.46,
+      "e": 0.7
+     },
+     {
+      "t": "model",
+      "s": 0.7,
+      "e": 1.12
+     },
+     {
+      "t": "that",
+      "s": 1.12,
+      "e": 1.38
+     },
+     {
+      "t": "just",
+      "s": 1.38,
+      "e": 1.72
+     },
+     {
+      "t": "beat",
+      "s": 1.72,
+      "e": 1.96
+     },
+     {
+      "t": "Claude.",
+      "s": 1.96,
+      "e": 2.52,
+      "b": true
+     }
+    ]
+   },
+   "note": "The open -source model that just beat Claude."
+  },
+  {
+   "id": "s02",
+   "start": 2.58,
+   "end": 4.46,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "You",
+      "s": 2.64,
+      "e": 2.74
+     },
+     {
+      "t": "can",
+      "s": 2.74,
+      "e": 2.88
+     },
+     {
+      "t": "now",
+      "s": 2.88,
+      "e": 3.06
+     },
+     {
+      "t": "run",
+      "s": 3.06,
+      "e": 3.26
+     },
+     {
+      "t": "it",
+      "s": 3.26,
+      "e": 3.36
+     },
+     {
+      "t": "locally",
+      "s": 3.36,
+      "e": 3.72
+     },
+     {
+      "t": "on",
+      "s": 3.72,
+      "e": 3.94
+     },
+     {
+      "t": "any",
+      "s": 3.94,
+      "e": 4.2
+     },
+     {
+      "t": "cheap",
+      "s": 4.2,
+      "e": 4.46
+     }
+    ]
+   },
+   "note": "You can now run it locally on any cheap"
+  },
+  {
+   "id": "s03",
+   "start": 4.46,
+   "end": 7.19,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "laptop",
+      "s": 4.46,
+      "e": 4.92
+     },
+     {
+      "t": "for",
+      "s": 4.92,
+      "e": 5.22
+     },
+     {
+      "t": "free,",
+      "s": 5.22,
+      "e": 5.6
+     },
+     {
+      "t": "forever,",
+      "s": 5.82,
+      "e": 6.18
+     },
+     {
+      "t": "no",
+      "s": 6.5,
+      "e": 6.6
+     },
+     {
+      "t": "subscriptions,",
+      "s": 6.6,
+      "e": 6.94,
+      "b": true
+     }
+    ]
+   },
+   "note": "laptop for free, forever, no subscriptions,"
+  },
+  {
+   "id": "s04",
+   "start": 7.19,
+   "end": 9.86,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "no",
+      "s": 7.44,
+      "e": 7.54
+     },
+     {
+      "t": "usage",
+      "s": 7.54,
+      "e": 7.86
+     },
+     {
+      "t": "restrictions,",
+      "s": 7.86,
+      "e": 8.36,
+      "b": true
+     },
+     {
+      "t": "no",
+      "s": 8.68,
+      "e": 8.84
+     },
+     {
+      "t": "internet",
+      "s": 8.84,
+      "e": 9.26
+     },
+     {
+      "t": "required.",
+      "s": 9.26,
+      "e": 9.7
+     }
+    ]
+   },
+   "note": "no usage restrictions, no internet required."
+  },
+  {
+   "id": "s05",
+   "start": 9.86,
+   "end": 13.72,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "The",
+      "s": 10.02,
+      "e": 10.08
+     },
+     {
+      "t": "tool",
+      "s": 10.08,
+      "e": 10.32
+     },
+     {
+      "t": "is",
+      "s": 10.32,
+      "e": 10.54
+     },
+     {
+      "t": "called",
+      "s": 10.54,
+      "e": 10.78
+     },
+     {
+      "t": "AirLLM.",
+      "s": 10.78,
+      "e": 11.9,
+      "b": true
+     },
+     {
+      "t": "And",
+      "s": 12.16,
+      "e": 12.24
+     },
+     {
+      "t": "to",
+      "s": 12.24,
+      "e": 12.36
+     },
+     {
+      "t": "understand",
+      "s": 12.36,
+      "e": 12.74,
+      "b": true
+     },
+     {
+      "t": "why",
+      "s": 12.74,
+      "e": 12.96
+     },
+     {
+      "t": "this",
+      "s": 12.96,
+      "e": 13.14
+     },
+     {
+      "t": "matters,",
+      "s": 13.14,
+      "e": 13.5
+     }
+    ]
+   },
+   "note": "The tool is called AirLLM. And to understand why this matters,"
+  },
+  {
+   "id": "s06",
+   "start": 13.72,
+   "end": 15.51,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "you",
+      "s": 13.94,
+      "e": 14.1
+     },
+     {
+      "t": "need",
+      "s": 14.1,
+      "e": 14.24
+     },
+     {
+      "t": "to",
+      "s": 14.24,
+      "e": 14.38
+     },
+     {
+      "t": "know",
+      "s": 14.38,
+      "e": 14.52
+     },
+     {
+      "t": "one",
+      "s": 14.52,
+      "e": 14.8
+     },
+     {
+      "t": "thing",
+      "s": 14.8,
+      "e": 15.06
+     },
+     {
+      "t": "first.",
+      "s": 15.06,
+      "e": 15.38
+     }
+    ]
+   },
+   "note": "you need to know one thing first."
+  },
+  {
+   "id": "s07",
+   "start": 15.51,
+   "end": 18.58,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "Running",
+      "s": 15.64,
+      "e": 15.76
+     },
+     {
+      "t": "a",
+      "s": 15.76,
+      "e": 15.92
+     },
+     {
+      "t": "model",
+      "s": 15.92,
+      "e": 16.18
+     },
+     {
+      "t": "like",
+      "s": 16.18,
+      "e": 16.42
+     },
+     {
+      "t": "Kimmy",
+      "s": 16.42,
+      "e": 16.74
+     },
+     {
+      "t": "K3",
+      "s": 16.74,
+      "e": 17.24,
+      "b": true
+     },
+     {
+      "t": "or",
+      "s": 17.24,
+      "e": 17.52
+     },
+     {
+      "t": "DeepSeq",
+      "s": 17.52,
+      "e": 18.08
+     },
+     {
+      "t": "R1",
+      "s": 18.08,
+      "e": 18.58,
+      "b": true
+     }
+    ]
+   },
+   "note": "Running a model like Kimmy K3 or DeepSeq R1"
+  },
+  {
+   "id": "s08",
+   "start": 18.58,
+   "end": 22.34,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "normally",
+      "s": 18.58,
+      "e": 19.04
+     },
+     {
+      "t": "requires",
+      "s": 19.04,
+      "e": 19.58
+     },
+     {
+      "t": "around",
+      "s": 19.58,
+      "e": 19.86
+     },
+     {
+      "t": "1",
+      "s": 19.86,
+      "e": 20.22,
+      "b": true
+     },
+     {
+      "t": ",400",
+      "s": 20.22,
+      "e": 21.24,
+      "b": true
+     },
+     {
+      "t": "gigabytes",
+      "s": 21.24,
+      "e": 21.5
+     },
+     {
+      "t": "of",
+      "s": 21.5,
+      "e": 21.9
+     },
+     {
+      "t": "memory.",
+      "s": 21.9,
+      "e": 22.2
+     }
+    ]
+   },
+   "note": "normally requires around 1 ,400 gigabytes of memory."
+  },
+  {
+   "id": "s09",
+   "start": 22.34,
+   "end": 24.8,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "The",
+      "s": 22.48,
+      "e": 22.54
+     },
+     {
+      "t": "hardware",
+      "s": 22.54,
+      "e": 22.84
+     },
+     {
+      "t": "alone",
+      "s": 22.84,
+      "e": 23.18
+     },
+     {
+      "t": "costs",
+      "s": 23.18,
+      "e": 23.62
+     },
+     {
+      "t": "more",
+      "s": 23.62,
+      "e": 23.96
+     },
+     {
+      "t": "than",
+      "s": 23.96,
+      "e": 24.1
+     },
+     {
+      "t": "most",
+      "s": 24.1,
+      "e": 24.32
+     },
+     {
+      "t": "people",
+      "s": 24.32,
+      "e": 24.56
+     },
+     {
+      "t": "make",
+      "s": 24.56,
+      "e": 24.8
+     }
+    ]
+   },
+   "note": "The hardware alone costs more than most people make"
+  },
+  {
+   "id": "s10",
+   "start": 24.8,
+   "end": 26.9,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "in",
+      "s": 24.8,
+      "e": 24.92
+     },
+     {
+      "t": "a",
+      "s": 24.92,
+      "e": 25.02
+     },
+     {
+      "t": "year,",
+      "s": 25.02,
+      "e": 25.3
+     },
+     {
+      "t": "which",
+      "s": 25.3,
+      "e": 25.58
+     },
+     {
+      "t": "is",
+      "s": 25.58,
+      "e": 25.7
+     },
+     {
+      "t": "exactly",
+      "s": 25.7,
+      "e": 26.1
+     },
+     {
+      "t": "why",
+      "s": 26.1,
+      "e": 26.36
+     },
+     {
+      "t": "these",
+      "s": 26.36,
+      "e": 26.56
+     },
+     {
+      "t": "models",
+      "s": 26.56,
+      "e": 26.9
+     }
+    ]
+   },
+   "note": "in a year, which is exactly why these models"
+  },
+  {
+   "id": "s11",
+   "start": 26.9,
+   "end": 28.96,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "have",
+      "s": 26.9,
+      "e": 27.1
+     },
+     {
+      "t": "always",
+      "s": 27.1,
+      "e": 27.48
+     },
+     {
+      "t": "lived",
+      "s": 27.48,
+      "e": 27.74
+     },
+     {
+      "t": "on",
+      "s": 27.74,
+      "e": 27.9
+     },
+     {
+      "t": "someone",
+      "s": 27.9,
+      "e": 28.2
+     },
+     {
+      "t": "else's",
+      "s": 28.2,
+      "e": 28.66
+     },
+     {
+      "t": "server",
+      "s": 28.66,
+      "e": 28.96
+     }
+    ]
+   },
+   "note": "have always lived on someone else's server"
+  },
+  {
+   "id": "s12",
+   "start": 28.96,
+   "end": 31.92,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "and",
+      "s": 28.96,
+      "e": 29.3
+     },
+     {
+      "t": "you",
+      "s": 29.3,
+      "e": 29.44
+     },
+     {
+      "t": "have",
+      "s": 29.44,
+      "e": 29.56
+     },
+     {
+      "t": "been",
+      "s": 29.56,
+      "e": 29.68
+     },
+     {
+      "t": "paying",
+      "s": 29.68,
+      "e": 29.92
+     },
+     {
+      "t": "to",
+      "s": 29.92,
+      "e": 30.1
+     },
+     {
+      "t": "access",
+      "s": 30.1,
+      "e": 30.44
+     },
+     {
+      "t": "them",
+      "s": 30.44,
+      "e": 30.74
+     },
+     {
+      "t": "through",
+      "s": 30.74,
+      "e": 30.94
+     },
+     {
+      "t": "an",
+      "s": 30.94,
+      "e": 31.08
+     },
+     {
+      "t": "API.",
+      "s": 31.08,
+      "e": 31.44,
+      "b": true
+     }
+    ]
+   },
+   "note": "and you have been paying to access them through an API."
+  },
+  {
+   "id": "s13",
+   "start": 31.92,
+   "end": 34.18,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "AirLLM",
+      "s": 32.4,
+      "e": 32.88,
+      "b": true
+     },
+     {
+      "t": "just",
+      "s": 32.88,
+      "e": 33.06
+     },
+     {
+      "t": "broke",
+      "s": 33.06,
+      "e": 33.32
+     },
+     {
+      "t": "that",
+      "s": 33.32,
+      "e": 33.56
+     },
+     {
+      "t": "completely.",
+      "s": 33.56,
+      "e": 34.02,
+      "b": true
+     }
+    ]
+   },
+   "note": "AirLLM just broke that completely."
+  },
+  {
+   "id": "s14",
+   "start": 34.18,
+   "end": 36.74,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "Instead",
+      "s": 34.34,
+      "e": 34.56
+     },
+     {
+      "t": "of",
+      "s": 34.56,
+      "e": 34.72
+     },
+     {
+      "t": "loading",
+      "s": 34.72,
+      "e": 34.96
+     },
+     {
+      "t": "the",
+      "s": 34.96,
+      "e": 35.12
+     },
+     {
+      "t": "entire",
+      "s": 35.12,
+      "e": 35.5
+     },
+     {
+      "t": "massive",
+      "s": 35.5,
+      "e": 35.9
+     },
+     {
+      "t": "model",
+      "s": 35.9,
+      "e": 36.22
+     },
+     {
+      "t": "into",
+      "s": 36.22,
+      "e": 36.44
+     },
+     {
+      "t": "memory",
+      "s": 36.44,
+      "e": 36.74
+     }
+    ]
+   },
+   "note": "Instead of loading the entire massive model into memory"
+  },
+  {
+   "id": "s15",
+   "start": 36.74,
+   "end": 39.02,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "at",
+      "s": 36.74,
+      "e": 36.92
+     },
+     {
+      "t": "once,",
+      "s": 36.92,
+      "e": 37.24
+     },
+     {
+      "t": "it",
+      "s": 37.4,
+      "e": 37.48
+     },
+     {
+      "t": "loads",
+      "s": 37.48,
+      "e": 37.72
+     },
+     {
+      "t": "one",
+      "s": 37.72,
+      "e": 38.04
+     },
+     {
+      "t": "layer",
+      "s": 38.04,
+      "e": 38.3
+     },
+     {
+      "t": "at",
+      "s": 38.3,
+      "e": 38.48
+     },
+     {
+      "t": "a",
+      "s": 38.48,
+      "e": 38.58
+     },
+     {
+      "t": "time,",
+      "s": 38.58,
+      "e": 38.9
+     }
+    ]
+   },
+   "note": "at once, it loads one layer at a time,"
+  },
+  {
+   "id": "s16",
+   "start": 39.02,
+   "end": 41.54,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "runs",
+      "s": 39.14,
+      "e": 39.3
+     },
+     {
+      "t": "it,",
+      "s": 39.3,
+      "e": 39.52
+     },
+     {
+      "t": "unloads",
+      "s": 39.62,
+      "e": 40.06
+     },
+     {
+      "t": "it,",
+      "s": 40.06,
+      "e": 40.16
+     },
+     {
+      "t": "then",
+      "s": 40.3,
+      "e": 40.4
+     },
+     {
+      "t": "pulls",
+      "s": 40.4,
+      "e": 40.66
+     },
+     {
+      "t": "in",
+      "s": 40.66,
+      "e": 40.86
+     },
+     {
+      "t": "the",
+      "s": 40.86,
+      "e": 40.96
+     },
+     {
+      "t": "next",
+      "s": 40.96,
+      "e": 41.16
+     },
+     {
+      "t": "one.",
+      "s": 41.16,
+      "e": 41.42
+     }
+    ]
+   },
+   "note": "runs it, unloads it, then pulls in the next one."
+  },
+  {
+   "id": "s17",
+   "start": 41.54,
+   "end": 43.18,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "Think",
+      "s": 41.66,
+      "e": 41.78
+     },
+     {
+      "t": "of",
+      "s": 41.78,
+      "e": 41.94
+     },
+     {
+      "t": "it",
+      "s": 41.94,
+      "e": 42.02
+     },
+     {
+      "t": "like",
+      "s": 42.02,
+      "e": 42.22
+     },
+     {
+      "t": "printing",
+      "s": 42.22,
+      "e": 42.52
+     },
+     {
+      "t": "one",
+      "s": 42.52,
+      "e": 42.86
+     },
+     {
+      "t": "page",
+      "s": 42.86,
+      "e": 43.18
+     }
+    ]
+   },
+   "note": "Think of it like printing one page"
+  },
+  {
+   "id": "s18",
+   "start": 43.18,
+   "end": 45.44,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "at",
+      "s": 43.18,
+      "e": 43.36
+     },
+     {
+      "t": "a",
+      "s": 43.36,
+      "e": 43.48
+     },
+     {
+      "t": "time",
+      "s": 43.48,
+      "e": 43.8
+     },
+     {
+      "t": "instead",
+      "s": 43.8,
+      "e": 44.1
+     },
+     {
+      "t": "of",
+      "s": 44.1,
+      "e": 44.26
+     },
+     {
+      "t": "jamming",
+      "s": 44.26,
+      "e": 44.66
+     },
+     {
+      "t": "an",
+      "s": 44.66,
+      "e": 44.76
+     },
+     {
+      "t": "entire",
+      "s": 44.76,
+      "e": 45.1
+     },
+     {
+      "t": "book",
+      "s": 45.1,
+      "e": 45.44
+     }
+    ]
+   },
+   "note": "at a time instead of jamming an entire book"
+  },
+  {
+   "id": "s19",
+   "start": 45.44,
+   "end": 47.23,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "into",
+      "s": 45.44,
+      "e": 45.66
+     },
+     {
+      "t": "the",
+      "s": 45.66,
+      "e": 45.82
+     },
+     {
+      "t": "printer",
+      "s": 45.82,
+      "e": 46.12
+     },
+     {
+      "t": "and",
+      "s": 46.12,
+      "e": 46.36
+     },
+     {
+      "t": "hoping",
+      "s": 46.36,
+      "e": 46.64
+     },
+     {
+      "t": "it",
+      "s": 46.64,
+      "e": 46.82
+     },
+     {
+      "t": "works.",
+      "s": 46.82,
+      "e": 47.1
+     }
+    ]
+   },
+   "note": "into the printer and hoping it works."
+  },
+  {
+   "id": "s20",
+   "start": 47.23,
+   "end": 49.76,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "And",
+      "s": 47.36,
+      "e": 47.46
+     },
+     {
+      "t": "what",
+      "s": 47.46,
+      "e": 47.62
+     },
+     {
+      "t": "runs",
+      "s": 47.62,
+      "e": 47.9
+     },
+     {
+      "t": "on",
+      "s": 47.9,
+      "e": 48.12
+     },
+     {
+      "t": "it",
+      "s": 48.12,
+      "e": 48.26
+     },
+     {
+      "t": "is",
+      "s": 48.26,
+      "e": 48.36
+     },
+     {
+      "t": "the",
+      "s": 48.36,
+      "e": 48.5
+     },
+     {
+      "t": "part",
+      "s": 48.5,
+      "e": 48.74
+     },
+     {
+      "t": "nobody",
+      "s": 48.74,
+      "e": 49.08
+     },
+     {
+      "t": "can",
+      "s": 49.08,
+      "e": 49.42
+     },
+     {
+      "t": "believe.",
+      "s": 49.42,
+      "e": 49.76
+     }
+    ]
+   },
+   "note": "And what runs on it is the part nobody can believe."
+  },
+  {
+   "id": "s21",
+   "start": 49.76,
+   "end": 52.74,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "Kimmy",
+      "s": 49.76,
+      "e": 50.4
+     },
+     {
+      "t": "K3,",
+      "s": 50.4,
+      "e": 50.98,
+      "b": true
+     },
+     {
+      "t": "the",
+      "s": 51.28,
+      "e": 51.38
+     },
+     {
+      "t": "model",
+      "s": 51.38,
+      "e": 51.66
+     },
+     {
+      "t": "that",
+      "s": 51.66,
+      "e": 51.84
+     },
+     {
+      "t": "just",
+      "s": 51.84,
+      "e": 52.08
+     },
+     {
+      "t": "beat",
+      "s": 52.08,
+      "e": 52.28
+     },
+     {
+      "t": "Claude",
+      "s": 52.28,
+      "e": 52.74,
+      "b": true
+     }
+    ]
+   },
+   "note": "Kimmy K3, the model that just beat Claude"
+  },
+  {
+   "id": "s22",
+   "start": 52.74,
+   "end": 55.54,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "and",
+      "s": 52.74,
+      "e": 52.82
+     },
+     {
+      "t": "every",
+      "s": 52.82,
+      "e": 53.12
+     },
+     {
+      "t": "other",
+      "s": 53.12,
+      "e": 53.32
+     },
+     {
+      "t": "frontier",
+      "s": 53.32,
+      "e": 53.68
+     },
+     {
+      "t": "AI",
+      "s": 53.68,
+      "e": 54.14,
+      "b": true
+     },
+     {
+      "t": "on",
+      "s": 54.14,
+      "e": 54.52
+     },
+     {
+      "t": "major",
+      "s": 54.52,
+      "e": 54.8
+     },
+     {
+      "t": "benchmarks.",
+      "s": 54.8,
+      "e": 55.38,
+      "b": true
+     }
+    ]
+   },
+   "note": "and every other frontier AI on major benchmarks."
+  },
+  {
+   "id": "s23",
+   "start": 55.54,
+   "end": 58.62,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "DeepSeq",
+      "s": 55.7,
+      "e": 56.18
+     },
+     {
+      "t": "R1,",
+      "s": 56.18,
+      "e": 56.76,
+      "b": true
+     },
+     {
+      "t": "Lama",
+      "s": 56.98,
+      "e": 57.28
+     },
+     {
+      "t": "405b,",
+      "s": 57.28,
+      "e": 58.52,
+      "b": true
+     }
+    ]
+   },
+   "note": "DeepSeq R1, Lama 405b,"
+  },
+  {
+   "id": "s24",
+   "start": 58.62,
+   "end": 61.28,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "all",
+      "s": 58.72,
+      "e": 58.92
+     },
+     {
+      "t": "of",
+      "s": 58.92,
+      "e": 59.04
+     },
+     {
+      "t": "them",
+      "s": 59.04,
+      "e": 59.22
+     },
+     {
+      "t": "on",
+      "s": 59.22,
+      "e": 59.32
+     },
+     {
+      "t": "a",
+      "s": 59.32,
+      "e": 59.46
+     },
+     {
+      "t": "4",
+      "s": 59.46,
+      "e": 59.7,
+      "b": true
+     },
+     {
+      "t": "gigabyte",
+      "s": 59.7,
+      "e": 60.12
+     },
+     {
+      "t": "GPU",
+      "s": 60.12,
+      "e": 60.46,
+      "b": true
+     },
+     {
+      "t": "laptop,",
+      "s": 60.46,
+      "e": 61.16
+     }
+    ]
+   },
+   "note": "all of them on a 4 gigabyte GPU laptop,"
+  },
+  {
+   "id": "s25",
+   "start": 61.28,
+   "end": 63.4,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "free",
+      "s": 61.4,
+      "e": 61.62
+     },
+     {
+      "t": "to",
+      "s": 61.62,
+      "e": 61.76
+     },
+     {
+      "t": "run",
+      "s": 61.76,
+      "e": 62.0
+     },
+     {
+      "t": "as",
+      "s": 62.0,
+      "e": 62.12
+     },
+     {
+      "t": "many",
+      "s": 62.12,
+      "e": 62.36
+     },
+     {
+      "t": "times",
+      "s": 62.36,
+      "e": 62.72
+     },
+     {
+      "t": "as",
+      "s": 62.72,
+      "e": 62.88
+     },
+     {
+      "t": "you",
+      "s": 62.88,
+      "e": 63.0
+     },
+     {
+      "t": "want.",
+      "s": 63.0,
+      "e": 63.32
+     }
+    ]
+   },
+   "note": "free to run as many times as you want."
+  },
+  {
+   "id": "s26",
+   "start": 63.4,
+   "end": 65.05,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "And",
+      "s": 63.48,
+      "e": 63.58
+     },
+     {
+      "t": "if",
+      "s": 63.58,
+      "e": 63.68
+     },
+     {
+      "t": "you",
+      "s": 63.68,
+      "e": 63.82
+     },
+     {
+      "t": "are",
+      "s": 63.82,
+      "e": 63.92
+     },
+     {
+      "t": "on",
+      "s": 63.92,
+      "e": 64.04
+     },
+     {
+      "t": "a",
+      "s": 64.04,
+      "e": 64.14
+     },
+     {
+      "t": "Mac",
+      "s": 64.14,
+      "e": 64.34,
+      "b": true
+     },
+     {
+      "t": "M1,",
+      "s": 64.34,
+      "e": 64.94,
+      "b": true
+     }
+    ]
+   },
+   "note": "And if you are on a Mac M1,"
+  },
+  {
+   "id": "s27",
+   "start": 65.05,
+   "end": 67.28,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "M2,",
+      "s": 65.16,
+      "e": 65.62
+     },
+     {
+      "t": "M3",
+      "s": 65.8,
+      "e": 66.32,
+      "b": true
+     },
+     {
+      "t": "or",
+      "s": 66.32,
+      "e": 66.58
+     },
+     {
+      "t": "M4,",
+      "s": 66.58,
+      "e": 67.16,
+      "b": true
+     }
+    ]
+   },
+   "note": "M2, M3 or M4,"
+  },
+  {
+   "id": "s28",
+   "start": 67.28,
+   "end": 69.34,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "it",
+      "s": 67.4,
+      "e": 67.48
+     },
+     {
+      "t": "runs",
+      "s": 67.48,
+      "e": 67.7
+     },
+     {
+      "t": "directly",
+      "s": 67.7,
+      "e": 68.06
+     },
+     {
+      "t": "on",
+      "s": 68.06,
+      "e": 68.34
+     },
+     {
+      "t": "your",
+      "s": 68.34,
+      "e": 68.46
+     },
+     {
+      "t": "chip",
+      "s": 68.46,
+      "e": 68.7
+     },
+     {
+      "t": "without",
+      "s": 68.7,
+      "e": 69.02
+     },
+     {
+      "t": "needing",
+      "s": 69.02,
+      "e": 69.34
+     }
+    ]
+   },
+   "note": "it runs directly on your chip without needing"
+  },
+  {
+   "id": "s29",
+   "start": 69.34,
+   "end": 72.13,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "a",
+      "s": 69.34,
+      "e": 69.48
+     },
+     {
+      "t": "GPU",
+      "s": 69.48,
+      "e": 69.92,
+      "b": true
+     },
+     {
+      "t": "at",
+      "s": 69.92,
+      "e": 70.28
+     },
+     {
+      "t": "all.",
+      "s": 70.28,
+      "e": 70.52
+     },
+     {
+      "t": "It",
+      "s": 70.7,
+      "e": 70.84
+     },
+     {
+      "t": "does",
+      "s": 70.84,
+      "e": 71.02
+     },
+     {
+      "t": "have",
+      "s": 71.02,
+      "e": 71.24
+     },
+     {
+      "t": "one",
+      "s": 71.24,
+      "e": 71.48
+     },
+     {
+      "t": "limitation,",
+      "s": 71.48,
+      "e": 71.92,
+      "b": true
+     }
+    ]
+   },
+   "note": "a GPU at all. It does have one limitation,"
+  },
+  {
+   "id": "s30",
+   "start": 72.13,
+   "end": 74.91,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "speed,",
+      "s": 72.34,
+      "e": 72.74
+     },
+     {
+      "t": "one",
+      "s": 73.12,
+      "e": 73.36
+     },
+     {
+      "t": "to",
+      "s": 73.36,
+      "e": 73.58
+     },
+     {
+      "t": "three",
+      "s": 73.58,
+      "e": 73.8
+     },
+     {
+      "t": "minutes",
+      "s": 73.8,
+      "e": 74.06
+     },
+     {
+      "t": "per",
+      "s": 74.06,
+      "e": 74.3
+     },
+     {
+      "t": "response.",
+      "s": 74.3,
+      "e": 74.8
+     }
+    ]
+   },
+   "note": "speed, one to three minutes per response."
+  },
+  {
+   "id": "s31",
+   "start": 74.91,
+   "end": 77.02,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "But",
+      "s": 75.02,
+      "e": 75.12
+     },
+     {
+      "t": "consider",
+      "s": 75.12,
+      "e": 75.5
+     },
+     {
+      "t": "what",
+      "s": 75.5,
+      "e": 75.68
+     },
+     {
+      "t": "you",
+      "s": 75.68,
+      "e": 75.8
+     },
+     {
+      "t": "are",
+      "s": 75.8,
+      "e": 75.9
+     },
+     {
+      "t": "actually",
+      "s": 75.9,
+      "e": 76.26
+     },
+     {
+      "t": "getting",
+      "s": 76.26,
+      "e": 76.5
+     },
+     {
+      "t": "in",
+      "s": 76.5,
+      "e": 76.68
+     },
+     {
+      "t": "return.",
+      "s": 76.68,
+      "e": 77.02
+     }
+    ]
+   },
+   "note": "But consider what you are actually getting in return."
+  },
+  {
+   "id": "s32",
+   "start": 77.02,
+   "end": 79.64,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "The",
+      "s": 77.02,
+      "e": 77.42
+     },
+     {
+      "t": "most",
+      "s": 77.42,
+      "e": 77.58
+     },
+     {
+      "t": "powerful",
+      "s": 77.58,
+      "e": 78.12
+     },
+     {
+      "t": "open",
+      "s": 78.12,
+      "e": 78.44
+     },
+     {
+      "t": "source",
+      "s": 78.44,
+      "e": 78.72
+     },
+     {
+      "t": "models",
+      "s": 78.72,
+      "e": 79.1
+     },
+     {
+      "t": "in",
+      "s": 79.1,
+      "e": 79.26
+     },
+     {
+      "t": "the",
+      "s": 79.26,
+      "e": 79.34
+     },
+     {
+      "t": "world",
+      "s": 79.34,
+      "e": 79.64
+     }
+    ]
+   },
+   "note": "The most powerful open source models in the world"
+  },
+  {
+   "id": "s33",
+   "start": 79.64,
+   "end": 83.22,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "running",
+      "s": 79.64,
+      "e": 79.94
+     },
+     {
+      "t": "privately",
+      "s": 79.94,
+      "e": 80.36
+     },
+     {
+      "t": "on",
+      "s": 80.36,
+      "e": 80.66
+     },
+     {
+      "t": "your",
+      "s": 80.66,
+      "e": 80.76
+     },
+     {
+      "t": "own",
+      "s": 80.76,
+      "e": 80.96
+     },
+     {
+      "t": "machine,",
+      "s": 80.96,
+      "e": 81.4
+     },
+     {
+      "t": "completely",
+      "s": 81.68,
+      "e": 82.08,
+      "b": true
+     },
+     {
+      "t": "free",
+      "s": 82.08,
+      "e": 82.54
+     },
+     {
+      "t": "forever.",
+      "s": 82.54,
+      "e": 83.06
+     }
+    ]
+   },
+   "note": "running privately on your own machine, completely free forever."
+  },
+  {
+   "id": "s34",
+   "start": 83.22,
+   "end": 85.48,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "You",
+      "s": 83.38,
+      "e": 83.44
+     },
+     {
+      "t": "just",
+      "s": 83.44,
+      "e": 83.66
+     },
+     {
+      "t": "cut",
+      "s": 83.66,
+      "e": 83.84
+     },
+     {
+      "t": "your",
+      "s": 83.84,
+      "e": 84.0
+     },
+     {
+      "t": "AI",
+      "s": 84.0,
+      "e": 84.24,
+      "b": true
+     },
+     {
+      "t": "costs",
+      "s": 84.24,
+      "e": 84.72
+     },
+     {
+      "t": "to",
+      "s": 84.72,
+      "e": 85.0
+     },
+     {
+      "t": "zero.",
+      "s": 85.0,
+      "e": 85.3
+     }
+    ]
+   },
+   "note": "You just cut your AI costs to zero."
+  },
+  {
+   "id": "s35",
+   "start": 85.48,
+   "end": 88.65,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "Now",
+      "s": 85.66,
+      "e": 85.78
+     },
+     {
+      "t": "make",
+      "s": 85.78,
+      "e": 86.04
+     },
+     {
+      "t": "sure",
+      "s": 86.04,
+      "e": 86.24
+     },
+     {
+      "t": "everything",
+      "s": 86.24,
+      "e": 86.62,
+      "b": true
+     },
+     {
+      "t": "they",
+      "s": 86.62,
+      "e": 86.88
+     },
+     {
+      "t": "write",
+      "s": 86.88,
+      "e": 87.14
+     },
+     {
+      "t": "sounds",
+      "s": 87.14,
+      "e": 87.46
+     },
+     {
+      "t": "human",
+      "s": 87.46,
+      "e": 87.78
+     },
+     {
+      "t": "enough",
+      "s": 87.78,
+      "e": 88.06
+     },
+     {
+      "t": "to",
+      "s": 88.06,
+      "e": 88.22
+     },
+     {
+      "t": "pass.",
+      "s": 88.22,
+      "e": 88.52
+     }
+    ]
+   },
+   "note": "Now make sure everything they write sounds human enough to pass."
+  },
+  {
+   "id": "s36",
+   "start": 88.65,
+   "end": 91.06,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "Comment,",
+      "s": 88.78,
+      "e": 89.0
+     },
+     {
+      "t": "human,",
+      "s": 89.32,
+      "e": 89.6
+     },
+     {
+      "t": "and",
+      "s": 89.94,
+      "e": 89.99
+     },
+     {
+      "t": "I'll",
+      "s": 89.98,
+      "e": 90.16,
+      "b": true
+     },
+     {
+      "t": "send",
+      "s": 90.16,
+      "e": 90.28
+     },
+     {
+      "t": "you",
+      "s": 90.28,
+      "e": 90.44
+     },
+     {
+      "t": "my",
+      "s": 90.44,
+      "e": 90.58
+     },
+     {
+      "t": "ebook.",
+      "s": 90.58,
+      "e": 90.94
+     }
+    ]
+   },
+   "note": "Comment, human, and I'll send you my ebook."
+  },
+  {
+   "id": "s37",
+   "start": 91.06,
+   "end": 93.03,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "They",
+      "s": 91.18,
+      "e": 91.26
+     },
+     {
+      "t": "will",
+      "s": 91.26,
+      "e": 91.4
+     },
+     {
+      "t": "never",
+      "s": 91.4,
+      "e": 91.72
+     },
+     {
+      "t": "know",
+      "s": 91.72,
+      "e": 92.02
+     },
+     {
+      "t": "AI",
+      "s": 92.02,
+      "e": 92.4,
+      "b": true
+     },
+     {
+      "t": "wrote",
+      "s": 92.4,
+      "e": 92.78
+     },
+     {
+      "t": "it.",
+      "s": 92.78,
+      "e": 92.94
+     }
+    ]
+   },
+   "note": "They will never know AI wrote it."
+  },
+  {
+   "id": "s38",
+   "start": 93.03,
+   "end": 95.22,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "A",
+      "s": 93.12,
+      "e": 93.22
+     },
+     {
+      "t": "simple",
+      "s": 93.22,
+      "e": 93.54
+     },
+     {
+      "t": "step",
+      "s": 93.54,
+      "e": 93.84
+     },
+     {
+      "t": "-by",
+      "s": 93.84,
+      "e": 94.06
+     },
+     {
+      "t": "-step",
+      "s": 94.06,
+      "e": 94.24
+     },
+     {
+      "t": "guide",
+      "s": 94.24,
+      "e": 94.58
+     },
+     {
+      "t": "to",
+      "s": 94.58,
+      "e": 94.76
+     },
+     {
+      "t": "make",
+      "s": 94.76,
+      "e": 94.9
+     },
+     {
+      "t": "AI",
+      "s": 94.9,
+      "e": 95.22,
+      "b": true
+     }
+    ]
+   },
+   "note": "A simple step -by -step guide to make AI"
+  },
+  {
+   "id": "s39",
+   "start": 95.22,
+   "end": 97.45,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "copies",
+      "s": 95.22,
+      "e": 95.64
+     },
+     {
+      "t": "sound",
+      "s": 95.64,
+      "e": 96.0
+     },
+     {
+      "t": "100",
+      "s": 96.0,
+      "e": 96.52,
+      "b": true
+     },
+     {
+      "t": "%",
+      "s": 96.52,
+      "e": 96.9
+     },
+     {
+      "t": "human.",
+      "s": 96.9,
+      "e": 97.32
+     }
+    ]
+   },
+   "note": "copies sound 100 % human."
+  },
+  {
+   "id": "s40",
+   "start": 97.45,
+   "end": 99.28,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "Make",
+      "s": 97.58,
+      "e": 97.68
+     },
+     {
+      "t": "sure",
+      "s": 97.68,
+      "e": 97.88
+     },
+     {
+      "t": "you",
+      "s": 97.88,
+      "e": 98.02
+     },
+     {
+      "t": "follow",
+      "s": 98.02,
+      "e": 98.28
+     },
+     {
+      "t": "Insider",
+      "s": 98.28,
+      "e": 98.84,
+      "b": true
+     },
+     {
+      "t": "Force.",
+      "s": 98.84,
+      "e": 99.1,
+      "b": true
+     }
+    ]
+   },
+   "note": "Make sure you follow Insider Force."
+  },
+  {
+   "id": "s41",
+   "start": 99.28,
+   "end": 102.113,
+   "media": {
+    "type": "NONE"
+   },
+   "caption": {
+    "mode": "WORDS",
+    "words": [
+     {
+      "t": "The",
+      "s": 99.46,
+      "e": 99.56
+     },
+     {
+      "t": "system",
+      "s": 99.56,
+      "e": 99.86
+     },
+     {
+      "t": "only",
+      "s": 99.86,
+      "e": 100.2
+     },
+     {
+      "t": "sends",
+      "s": 100.2,
+      "e": 100.5
+     },
+     {
+      "t": "it",
+      "s": 100.5,
+      "e": 100.64
+     },
+     {
+      "t": "to",
+      "s": 100.64,
+      "e": 100.74
+     },
+     {
+      "t": "followers.",
+      "s": 100.74,
+      "e": 101.08,
+      "b": true
+     }
+    ]
+   },
+   "note": "The system only sends it to followers."
+  }
+ ]
+}

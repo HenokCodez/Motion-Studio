@@ -1,0 +1,156 @@
+{
+ "airllm_repo.png": {
+  "src": "img/airllm_repo.png",
+  "w": 1200,
+  "h": 750,
+  "hint": "HERO_CARD (landscape)",
+  "notes": []
+ },
+ "apple.png": {
+  "src": "img/apple.png",
+  "w": 512,
+  "h": 512,
+  "hint": "badge",
+  "notes": []
+ },
+ "apple_silicon.png": {
+  "src": "img/apple_silicon.png",
+  "w": 1200,
+  "h": 750,
+  "hint": "HERO_CARD (landscape)",
+  "notes": []
+ },
+ "benchmark_card.png": {
+  "src": "img/benchmark_card.png",
+  "w": 1200,
+  "h": 750,
+  "hint": "HERO_CARD (landscape)",
+  "notes": []
+ },
+ "claude.png": {
+  "src": "img/claude.png",
+  "w": 512,
+  "h": 512,
+  "hint": "badge",
+  "notes": []
+ },
+ "deepseek.png": {
+  "src": "img/deepseek.png",
+  "w": 512,
+  "h": 512,
+  "hint": "badge",
+  "notes": []
+ },
+ "github.png": {
+  "src": "img/github.png",
+  "w": 512,
+  "h": 512,
+  "hint": "badge",
+  "notes": []
+ },
+ "guide_cover.png": {
+  "src": "img/guide_cover.png",
+  "w": 900,
+  "h": 1100,
+  "hint": "HERO_CARD",
+  "notes": []
+ },
+ "huggingface.png": {
+  "src": "img/huggingface.png",
+  "w": 512,
+  "h": 512,
+  "hint": "badge",
+  "notes": []
+ },
+ "kimi.png": {
+  "src": "img/kimi.png",
+  "w": 512,
+  "h": 512,
+  "hint": "badge",
+  "notes": []
+ },
+ "laptop_cutout.png": {
+  "src": "img/laptop_cutout.png",
+  "w": 1400,
+  "h": 900,
+  "hint": "CUTOUT",
+  "notes": []
+ },
+ "logo_a.png": {
+  "src": "img/logo_a.png",
+  "w": 512,
+  "h": 512,
+  "hint": "badge",
+  "notes": []
+ },
+ "logo_b.png": {
+  "src": "img/logo_b.png",
+  "w": 512,
+  "h": 512,
+  "hint": "badge",
+  "notes": []
+ },
+ "logo_c.png": {
+  "src": "img/logo_c.png",
+  "w": 512,
+  "h": 512,
+  "hint": "badge",
+  "notes": []
+ },
+ "logo_d.png": {
+  "src": "img/logo_d.png",
+  "w": 512,
+  "h": 512,
+  "hint": "badge",
+  "notes": []
+ },
+ "meta.png": {
+  "src": "img/meta.png",
+  "w": 512,
+  "h": 512,
+  "hint": "badge",
+  "notes": []
+ },
+ "opensource.png": {
+  "src": "img/opensource.png",
+  "w": 512,
+  "h": 512,
+  "hint": "badge",
+  "notes": []
+ },
+ "photo_portrait.jpg": {
+  "src": "img/photo_portrait.jpg",
+  "w": 900,
+  "h": 1600,
+  "hint": "HERO_CARD (portrait)",
+  "notes": []
+ },
+ "server_cluster.png": {
+  "src": "img/server_cluster.png",
+  "w": 1200,
+  "h": 750,
+  "hint": "HERO_CARD (landscape)",
+  "notes": []
+ },
+ "site_pricing.jpg": {
+  "src": "img/site_pricing.jpg",
+  "w": 1600,
+  "h": 1000,
+  "hint": "HERO_CARD (landscape)",
+  "notes": []
+ },
+ "ui_dark.jpg": {
+  "src": "img/ui_dark.jpg",
+  "w": 1600,
+  "h": 1000,
+  "hint": "HERO_CARD (landscape)",
+  "notes": []
+ },
+ "ui_light.jpg": {
+  "src": "img/ui_light.jpg",
+  "w": 1600,
+  "h": 1000,
+  "hint": "HERO_CARD (landscape)",
+  "notes": []
+ }
+}
