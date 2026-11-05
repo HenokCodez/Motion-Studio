@@ -3,19 +3,16 @@
 import React, { useMemo } from 'react';
 import { AbsoluteFill, Audio, Img, Loop, OffthreadVideo, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 import rough from 'roughjs';
-import { loadFont as loadHand } from '@remotion/google-fonts/Kalam';          // fallback if Virgil is missing
-import { loadFont as loadSans } from '@remotion/google-fonts/Inter';
-import { loadFont as loadMono } from '@remotion/google-fonts/JetBrainsMono';
 // @ts-ignore (allowJs)
 import { COLOR, CANVAS, RULES, SAFE } from '../src/core/tokens.mjs';
 // PLAN SOURCE: swap this import (or pass `plan` as a prop / inputProps) if your studio keeps plan.json per video.
 // @ts-ignore
 import defaultPlan from '../plan.json';
 
-const kalam = loadHand('normal', { weights: ['400', '700'] }).fontFamily;
+const kalam = "'Kalam', 'Virgil', cursive, sans-serif";
 const HAND = `Virgil, ${kalam}`;                                               // Virgil from public/fonts/virgil.woff2
-const SANS = loadSans('normal', { weights: ['800'] }).fontFamily;
-const MONO = loadMono('normal', { weights: ['400'] }).fontFamily;
+const SANS = "'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+const MONO = "'JetBrains Mono', 'VP Pixel', monospace, Consolas, 'Courier New'";
 const fontCss = `@font-face{font-family:'Virgil';src:url('${staticFile('fonts/virgil.woff2')}') format('woff2');}`;
 const gen = (rough as any).generator ? (rough as any).generator() : (rough as any).default.generator();
 

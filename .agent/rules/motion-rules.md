@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> NOT FOR HENA VANTA. Never use for the Hena Vanta channel.
+
 # Motion Graphics Rules
 
 ## Layout

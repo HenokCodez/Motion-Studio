@@ -7,13 +7,9 @@ import {
   useVideoConfig,
 } from "remotion";
 import { evolvePath, getLength, getPointAtLength } from "@remotion/paths";
-import { loadFont } from "@remotion/google-fonts/Montserrat";
 
-// Load Montserrat with ExtraBold (800) and Medium (500)
-const { fontFamily } = loadFont("normal", {
-  weights: ["500", "800"],
-  subsets: ["latin"],
-});
+// Local Montserrat fallback
+const fontFamily = "'Montserrat', 'Inter', system-ui, sans-serif";
 
 // Edit timeline labels easily here:
 export const LABELS = ["subscribe", "to", "the", "channel", "for", "more"];

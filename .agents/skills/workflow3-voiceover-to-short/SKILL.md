@@ -3,6 +3,9 @@ name: voiceover-to-short
 description: Turns a user-supplied voiceover audio file into a finished 30-60 second vertical (1080x1920, 30fps) YouTube Short in a "tech explainer" motion-graphics style - black animated grid background, word-by-word captions, logo badges, screenshot cards, hub/orbit diagrams, bullets, big numbers and an end call-to-action - built with Remotion. After rendering it extracts frames, looks at its own video, and fixes defects. Use whenever the user uploads or mentions a voiceover/narration and wants a short, reel, vertical explainer or "video like the reference".
 ---
 
+> [!IMPORTANT]
+> NOT FOR HENA VANTA. Never use for the Hena Vanta channel.
+
 # voiceover-to-short
 
 You turn **one voiceover file** into **one finished vertical video**. You are NOT designing anything.

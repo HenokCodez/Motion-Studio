@@ -1,0 +1,142 @@
+{
+  "channelId": "VantaBrief",
+  "styleBibleVersion": "VantaBrief_Visual_Style_Bible_2026",
+  "fps": 30,
+  "totalFrames": 540,
+  "durationSeconds": 18.0,
+  "totalScenes": 4,
+  "styleDistribution": {
+    "kinetic_typography": 1,
+    "real_evidence": 1,
+    "editorial_collage": 0,
+    "graphic_symbol": 1,
+    "technical_motion_graphics": 1
+  },
+  "characterBanCompliant": true,
+  "brandPaletteCompliant": true,
+  "scenes": [
+    {
+      "id": "scene-01",
+      "sceneNumber": 1,
+      "startFrame": 0,
+      "endFrame": 120,
+      "durationInFrames": 120,
+      "durationSeconds": 4.0,
+      "voiceoverSegment": "Welcome to VantaBrief. Open source software is fundamentally reshaping modern development.",
+      "narrativePurpose": "Hook the audience with the core premise and thesis statement.",
+      "primaryStyle": "kinetic_typography",
+      "secondaryStyle": "real_evidence",
+      "audienceTakeaway": "Understand why this topic matters right now in 2026.",
+      "visualComposition": "Centered heavy sans typography with brand accent word highlight and subtle dark canvas glow.",
+      "layoutTemplate": "vanta-title-hook",
+      "animationSequence": {
+        "entrance": "springPop (8 frames, damping: 11, stiffness: 230)",
+        "mainAction": "subtle camera pushIn (scale: 1.00 -> 1.04)",
+        "hold": "steady hold with kinetic element drift",
+        "exit": "rapid scaleDown (6 frames, damping: 15, stiffness: 300)"
+      },
+      "requiredAssets": [],
+      "isPlaceholder": false,
+      "placeholderHeading": null,
+      "factualClaims": [],
+      "transitionIntent": "hard-cut with camera continuity",
+      "readabilityNotes": "Panton Rust Display font; word cap <= 7 words per kinetic card; high contrast on #231F20 charcoal background."
+    },
+    {
+      "id": "scene-02",
+      "sceneNumber": 2,
+      "startFrame": 120,
+      "endFrame": 270,
+      "durationInFrames": 150,
+      "durationSeconds": 5.0,
+      "voiceoverSegment": "Let us examine the architecture of local AI systems running directly on developer workstations.",
+      "narrativePurpose": "Explain the technical mechanism, system architecture, or comparative performance.",
+      "primaryStyle": "technical_motion_graphics",
+      "secondaryStyle": "graphic_symbol",
+      "audienceTakeaway": "See the exact data flow or comparison without hand-waving abstractions.",
+      "visualComposition": "Step-by-step node pipeline or side-by-side comparison matrix with glowing connectors.",
+      "layoutTemplate": "vanta-benchmark",
+      "animationSequence": {
+        "entrance": "springPop (8 frames, damping: 11, stiffness: 230)",
+        "mainAction": "subtle camera pushIn (scale: 1.00 -> 1.04)",
+        "hold": "steady hold with kinetic element drift",
+        "exit": "rapid scaleDown (6 frames, damping: 15, stiffness: 300)"
+      },
+      "requiredAssets": [],
+      "isPlaceholder": false,
+      "placeholderHeading": null,
+      "factualClaims": [],
+      "transitionIntent": "hard-cut with camera continuity",
+      "readabilityNotes": "Panton Rust Display font; word cap <= 7 words per kinetic card; high contrast on #231F20 charcoal background."
+    },
+    {
+      "id": "scene-03",
+      "sceneNumber": 3,
+      "startFrame": 270,
+      "endFrame": 420,
+      "durationInFrames": 150,
+      "durationSeconds": 5.0,
+      "voiceoverSegment": "Here is an authentic screen recording of model weights executing offline at twenty tokens per second.",
+      "narrativePurpose": "Present authentic evidence, verified documentation, or software interfaces.",
+      "primaryStyle": "real_evidence",
+      "secondaryStyle": "kinetic_typography",
+      "audienceTakeaway": "Verify the concrete tool or source discussed in the voiceover.",
+      "visualComposition": "Authentic UI framed inside EvidenceFrame with window controls and source URL pill.",
+      "layoutTemplate": "footage-placeholder",
+      "animationSequence": {
+        "entrance": "springPop (8 frames, damping: 11, stiffness: 230)",
+        "mainAction": "subtle camera pushIn (scale: 1.00 -> 1.04)",
+        "hold": "steady hold with kinetic element drift",
+        "exit": "rapid scaleDown (6 frames, damping: 15, stiffness: 300)"
+      },
+      "requiredAssets": [
+        {
+          "slotId": "scene-03",
+          "type": "SCREEN RECORDING",
+          "path": "assets/user-footage/scene-03-recording.mp4",
+          "verified": false,
+          "instruction": "Screen recording: authentic capture of Here is an authentic screen recording of model weights execu...",
+          "actionPrompt": "Here is an authentic screen recording of model weights executing offline at twenty tokens per second.",
+          "searchTerms": [
+            "authentic",
+            "screen",
+            "recording",
+            "model"
+          ]
+        }
+      ],
+      "isPlaceholder": true,
+      "placeholderHeading": "FOOTAGE NEEDED",
+      "factualClaims": [],
+      "transitionIntent": "hard-cut with camera continuity",
+      "readabilityNotes": "Panton Rust Display font; word cap <= 7 words per kinetic card; high contrast on #231F20 charcoal background."
+    },
+    {
+      "id": "scene-04",
+      "sceneNumber": 4,
+      "startFrame": 420,
+      "endFrame": 540,
+      "durationInFrames": 120,
+      "durationSeconds": 4.0,
+      "voiceoverSegment": "The balance of power has shifted from closed centralized servers to distributed local compute.",
+      "narrativePurpose": "Anchor abstract infrastructure concepts with clean non-human graphic symbols.",
+      "primaryStyle": "graphic_symbol",
+      "secondaryStyle": "kinetic_typography",
+      "audienceTakeaway": "Recognize the structural building block (database, server, key, or compute engine).",
+      "visualComposition": "Geometric vector symbol inside elevated surface card with pulsing brand glow. No mascots.",
+      "layoutTemplate": "vanta-spatial-callout",
+      "animationSequence": {
+        "entrance": "springPop (8 frames, damping: 11, stiffness: 230)",
+        "mainAction": "subtle camera pushIn (scale: 1.00 -> 1.04)",
+        "hold": "steady hold with kinetic element drift",
+        "exit": "rapid scaleDown (6 frames, damping: 15, stiffness: 300)"
+      },
+      "requiredAssets": [],
+      "isPlaceholder": false,
+      "placeholderHeading": null,
+      "factualClaims": [],
+      "transitionIntent": "hard-cut with camera continuity",
+      "readabilityNotes": "Panton Rust Display font; word cap <= 7 words per kinetic card; high contrast on #231F20 charcoal background."
+    }
+  ]
+}

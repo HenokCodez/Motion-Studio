@@ -115,6 +115,35 @@ Motion Studio supports two dedicated, distinct workflows depending on the produc
 
 ---
 
+### Workflow 4: The Documentary Talking-Head & Shorts Edit (Editor V1 Pipeline)
+
+> **Use when**: You have a raw talking-head recording (especially a vertical YouTube Short, Reel, or horizontal documentary explainer) and want an automated, high-craft documentary edit with real online evidence, cinematic color grading, 18 frame-measured motion devices, word-by-word kinetic captions, and device-locked sound design.
+
+1. **Input**:
+   - Raw talking-head recording (.mov / .mp4 / .mkv) in 9:16 vertical or 16:9 horizontal.
+   - Optional: script file (.txt / .md), brand music track (`assets/music/`), and workspace sound effects (`assets/sfx/`).
+2. **Chat Command**:
+   > **"Edit `<path_to_recording>` with Workflow 4 [using script `<path_to_script>`] [and music `<path_to_music>`]."**
+3. **Motion Studio Execution**:
+   - **Initialize Project**: Sets up project workspace under `Videos/editor-v1/<project>/` (or channel folder).
+   - **Normalize Plates**: Normalizes camera video to 30 fps CFR (`cam_raw.mp4`) and extracts 48 kHz voice track (`vo.wav`). Auto-detects 9:16 vertical Shorts vs 16:9 landscape.
+   - **Transcribe & Snap Onsets**: Word-level transcription via Whisper and snaps onsets directly to audio waveform transients (±1 frame accuracy).
+   - **Source Evidence & Metaphors**: Plans real online evidence (product pages, GitHub repos, launch tweets, archives) and metaphors for each spoken line in `PLAN.md`.
+   - **Grade Imagery & Hero Cutout**: Grades imagery with cinematic color treatments (`teal split`, `hard B&W`, `amber`, `halftone`). Extracts speaker cutout plate (`matte.py`) for the hero beat with giant shock word behind head.
+   - **Assemble GSAP Timeline**: Connects lines to 18 frame-measured devices (`tile_reveal`, `pop_collage`, `strobe`, `wall3d`, `keyword`) with word-by-word kinetic captions.
+   - **Render & Sound Design**: Renders with HyperFrames (`npx -y hyperframes@0.8.210`) and mixes device-locked sound cues, ducked/cut music bed, and workspace SFX via `finish.py`.
+4. **Execution Commands**:
+   ```powershell
+   python .agents/skills/workflow4-editor-v1/scripts/new_video.py "<path/to/take.mp4>" [name] [--vertical]
+   python .agents/skills/workflow4-editor-v1/scripts/transcribe.py "Videos/editor-v1/<name>"
+   python .agents/skills/workflow4-editor-v1/scripts/snap-onsets.py "Videos/editor-v1/<name>"
+   npx -y hyperframes@0.8.210 lint "Videos/editor-v1/<name>"
+   npx -y hyperframes@0.8.210 render "Videos/editor-v1/<name>" -q high -f 30 -o "Videos/editor-v1/<name>/out/render.mp4"
+   python .agents/skills/workflow4-editor-v1/scripts/finish.py "Videos/editor-v1/<name>"
+   ```
+
+---
+
 ## Core Production Rules & Design Standards
 
 ### Rule 1: Clip Duration (5–8 Seconds)
@@ -229,3 +258,5 @@ npm run w2:studio                                                      # Open Re
 npm run w2:render                                                      # Render production MP4
 python studio.py build-explainer-canvas <project> [--channel CHANNEL]  # Render continuous whiteboard explainer
 ```
+
+For Hena Vanta, hena-vanta-lock.md takes priority over everything in this file.

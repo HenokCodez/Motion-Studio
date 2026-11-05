@@ -172,7 +172,7 @@ def w2_preview_cmd(proj_dir: Path):
     print(f"[OK] Previews generated in {w2 / 'previews'}")
 
 
-def w2_render_cmd(proj_dir: Path, crf: int = 18):
+def w2_render_cmd(proj_dir: Path, crf: int = 18, out_dest: Path = None):
     """Render master video without polluting shared folders. Stages assets dynamically."""
     w2 = get_w2_workspace(proj_dir)
     plan_file = w2 / "plan.json"
@@ -198,14 +198,18 @@ def w2_render_cmd(proj_dir: Path, crf: int = 18):
 
     try:
         if audio_src:
+            (REMOTION_APP / "public" / "audio").mkdir(parents=True, exist_ok=True)
+            audio_dst = REMOTION_APP / "public" / "audio" / f"{slug}.mp3"
+            shutil.copy2(audio_src, audio_dst)
             shutil.copy2(audio_src, stage_dir / "audio.mp3")
-            plan_data["meta"]["audio"] = "audio.mp3"
+            plan_data["meta"]["audio"] = f"audio/{slug}.mp3"
         else:
             plan_data["meta"]["audio"] = ""
 
-        # Copy project assets
+        # Copy project assets to both stage_dir and public/assets for absolute safety
         if (w2 / "assets").exists():
             shutil.copytree(w2 / "assets", stage_dir / "assets", dirs_exist_ok=True)
+            shutil.copytree(w2 / "assets", REMOTION_APP / "public" / "assets", dirs_exist_ok=True)
 
         plan_data["meta"]["assetPrefix"] = f"staged/{slug}"
 
@@ -213,9 +217,14 @@ def w2_render_cmd(proj_dir: Path, crf: int = 18):
         props_file = stage_dir / "props.json"
         props_file.write_text(json.dumps({"plan": plan_data}), encoding="utf-8")
 
-        out_dir = proj_dir / "renders" / "explainer-canvas"
-        out_dir.mkdir(parents=True, exist_ok=True)
-        out_file = out_dir / "explainer_canvas.mp4"
+        if out_dest:
+            out_file = Path(out_dest).resolve()
+            out_file.parent.mkdir(parents=True, exist_ok=True)
+            out_dir = out_file.parent
+        else:
+            out_dir = proj_dir / "renders" / "explainer-canvas"
+            out_dir.mkdir(parents=True, exist_ok=True)
+            out_file = out_dir / "explainer_canvas.mp4"
 
         print(f"\n--> Rendering Workflow 2 Final Video ({proj_dir.name}) -> {out_file.name}...")
         render_cmd = [
@@ -231,7 +240,7 @@ def w2_render_cmd(proj_dir: Path, crf: int = 18):
         print(f"[OK] Master render complete: {out_file.resolve()}")
 
         # Generate Contact Sheet (1 frame every 2 seconds)
-        contact_sheet = out_dir / "contact_sheet.png"
+        contact_sheet = out_dir / f"{out_file.stem}_contact_sheet.png"
         generate_contact_sheet(out_file, contact_sheet, interval_sec=2.0)
         print(f"[OK] Contact sheet generated: {contact_sheet.resolve()}\n")
 

@@ -1,0 +1,5 @@
+{
+  "_comment": "Copy to the video folder as glossary.json BEFORE import-timestamps. map = speech-recognition errors to fix (timing is untouched). keep = same-sounding word pairs that are both correct.",
+  "map": { "kinects": "connects" },
+  "keep": [["nothing", "anything"], ["sample", "simple"], ["started", "saturated"]]
+}

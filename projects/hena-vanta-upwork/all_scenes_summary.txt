@@ -1,0 +1,244 @@
+[0] s001 (0s - 5.013s, dur 5.0s): I spent almost a year on Upwork and honestly the thing I thought would be the hardest wasn't
+[1] s002 (5.013s - 6.373s, dur 1.4s): even the problem.
+[2] s003 (6.373s - 10.993s, dur 4.6s): When I started I thought that after getting my first one or two clients things would become
+[3] s004 (10.993s - 15.173s, dur 4.2s): smooth and I would start getting more and more clients. Boy was I wrong.
+[4] s005 (15.173s - 20.013s, dur 4.8s): So in this video I wanna basically show you my whole Upwork journey, what I did wrong,
+[5] s006 (20.013s - 24.913s, dur 4.9s): how I got my first clients and what I learned from actually working with clients.
+[6] s007 (24.913s - 29.273s, dur 4.4s): So if you're thinking about starting Upwork, hopefully this gives you a realistic idea
+[7] s008 (29.273s - 31.333s, dur 2.1s): of what it was actually like for me.
+[8] s009 (31.333s - 35.093s, dur 3.8s): I started Upwork on March 10, 2025.
+[9] s010 (35.093s - 42.093s, dur 7.0s): At the time I was a second year software engineering student and I was really interested in freelancing and YouTube.
+[10] s011 (42.093s - 48.213s, dur 6.1s): I really liked the idea of making money online from home especially when you live in a third world country.
+[11] s012 (48.213s - 53.333s, dur 5.1s): You understand that making money in dollars can be a really good way to change your life
+[12] s013 (53.333s - 56.453s, dur 3.1s): and I didn't really want the traditional 9 to 5 path.
+[13] s014 (56.453s - 60.113s, dur 3.7s): I wanted to become a freelancer who could make good money from home.
+[14] s015 (60.113s - 63.533s, dur 3.4s): So Upwork seemed like the best platform to start with.
+[15] s016 (63.533s - 69.373s, dur 5.8s): And before starting I thought that after getting my first one or two clients everything would become easy.
+[16] s017 (69.373s - 73.173s, dur 3.8s): I expected to get my first clients within around 3 months.
+[17] s018 (73.173s - 78.033s, dur 4.9s): And honestly I probably could have gotten them faster if I had started applying sooner
+[18] s019 (78.033s - 79.933s, dur 1.9s): and build a better profile.
+[19] s020 (79.933s - 82.493s, dur 2.6s): But I made a lot of mistakes at the beginning.
+[20] s021 (82.493s - 87.713s, dur 5.2s): First mistake I made was basically doing too much optimization and not enough actual work.
+[21] s022 (87.713s - 91.773s, dur 4.1s): After creating my profile I started optimizing my profile and portfolio.
+[22] s023 (91.773s - 97.093s, dur 5.3s): I was changing my title, my description, my portfolio trying to make everything look professional.
+[23] s024 (97.093s - 100.213s, dur 3.1s): But the problem was I didn't even have a strong portfolio.
+[24] s025 (100.213s - 105.853s, dur 5.6s): I had just started learning video editing so instead of making like 6 really good sample
+[25] s026 (105.853s - 110.253s, dur 4.4s): projects, I was just putting everything I had into my portfolio.
+[26] s027 (110.253s - 115.173s, dur 4.9s): Even some cheap or nonsense videos that didn't really represent the type of work I wanted
+[27] s028 (115.173s - 116.773s, dur 1.6s): to get hired for.
+[28] s029 (116.773s - 120.973s, dur 4.2s): Looking back I should have just learned the skill, made some really good sample work,
+[29] s030 (120.973s - 126.613s, dur 5.6s): maybe around 6 good projects, put them in my portfolio, make the profile simple and start applying.
+[30] s031 (126.613s - 131.293s, dur 4.7s): Instead I was trying to optimize everything before I even had something good to show.
+[31] s032 (131.293s - 132.773s, dur 1.5s): And I did this for a long time.
+[32] s033 (132.773s - 134.773s, dur 2.0s): I also changed my niche a lot.
+[33] s034 (134.773s - 140.173s, dur 5.4s): I would change things, update the profile, change the portfolio and then wait for invitations.
+[34] s035 (140.173s - 145.573s, dur 5.4s): And at the beginning I wasn't even applying to jobs because I didn't have money to buy Kinects.
+[35] s036 (145.573s - 147.733s, dur 2.2s): So I was basically just waiting.
+[36] s037 (147.733s - 152.653s, dur 4.9s): If you don't have money to buy Kinects, obviously you can't just sit there and do nothing.
+[37] s038 (152.653s - 157.953s, dur 5.3s): You can still work on your skill, build your portfolio and make your profile better.
+[38] s039 (157.953s - 164.213s, dur 6.3s): But if you actually have the money to buy Kinects, I think I should have started applying much earlier.
+[39] s040 (164.213s - 169.573s, dur 5.4s): Because eventually I realized that just optimizing your profile and waiting isn't enough.
+[40] s041 (169.573s - 174.333s, dur 4.8s): And while all of this was happening, I was also changing what I wanted to freelance with.
+[41] s042 (174.333s - 179.493s, dur 5.2s): I started my Upwork profile as a software engineer because that's what I was studying.
+[42] s043 (179.493s - 184.693s, dur 5.2s): But after a while, I started seeing the software engineering market becoming very saturated.
+[43] s044 (184.693s - 189.733s, dur 5.0s): I was seeing clients asking people to build or refactor full stack applications for like
+[44] s045 (189.733s - 191.693s, dur 2.0s): 30 or 50 dollars.
+[45] s046 (191.693s - 196.893s, dur 5.2s): And especially after the rise of AI, I started feeling like clients were becoming cheaper
+[46] s047 (196.893s - 200.573s, dur 3.7s): and that they didn't need as many developers as before.
+[47] s048 (200.573s - 204.053s, dur 3.5s): Now I'm not saying software engineering is dead or anything like that.
+[48] s049 (204.053s - 208.853s, dur 4.8s): I'm just talking about what I was seeing and how it affected my decision.
+[49] s050 (208.853s - 213.173s, dur 4.3s): At the same time, my mother had an Upwork account as a video editor and she was getting
+[50] s051 (213.173s - 215.453s, dur 2.3s): a lot of invitations.
+[51] s052 (215.453s - 218.613s, dur 3.2s): Sometimes she would get around 3 invitations per week.
+[52] s053 (218.613s - 223.213s, dur 4.6s): Meanwhile, my software engineering profile was basically dead silent.
+[53] s054 (223.213s - 228.733s, dur 5.5s): That made me think, ok, maybe I should try video editing. So I started learning video editing.
+[54] s055 (228.733s - 233.573s, dur 4.8s): For about 3 months I was learning the basics, using CapCut, I was making Instagram reels,
+[55] s056 (233.573s - 236.693s, dur 3.1s): getting some views here and there and just learning.
+[56] s057 (236.693s - 239.333s, dur 2.6s): Then I got lucky and found a local client.
+[57] s058 (239.333s - 241.973s, dur 2.6s): I worked with that client for around 7 months.
+[58] s059 (241.973s - 246.833s, dur 4.9s): And honestly, that was really important for me because during those 7 months I improved
+[59] s060 (246.833s - 248.453s, dur 1.6s): my video editing a lot.
+[60] s061 (248.453s - 253.493s, dur 5.0s): I started learning Premiere Pro, After Effects and other software and I actually started
+[61] s062 (253.493s - 255.253s, dur 1.8s): enjoying video editing.
+[62] s063 (255.253s - 257.733s, dur 2.5s): It also started making me money locally.
+[63] s064 (257.733s - 262.373s, dur 4.6s): I was able to make enough money from video editing to afford my current laptop, which
+[64] s065 (262.373s - 267.773s, dur 5.4s): cost around 100,000 Ethiopian Burr, so around 2000 dollars at the time.
+[65] s066 (267.773s - 271.493s, dur 3.7s): And that motivated me even more to keep learning video editing.
+[66] s067 (271.493s - 277.493s, dur 6.0s): So gradually I started changing my Upwork profile from software engineering to video editing.
+[67] s068 (277.493s - 282.773s, dur 5.3s): But there was another mistake here, my first Upwork job was actually a software engineering job.
+[68] s069 (282.773s - 287.493s, dur 4.7s): I delivered a website for 10 dollars and I thought, ok, I finally got my first job, now
+[69] s070 (287.493s - 290.513s, dur 3.0s): things should start moving. But they didn't.
+[70] s071 (290.513s - 295.653s, dur 5.1s): I still had this long period where basically nothing was happening and that's when I realized
+[71] s072 (295.653s - 297.233s, dur 1.6s): something important.
+[72] s073 (297.233s - 300.513s, dur 3.3s): Your first job isn't just about getting your first review.
+[73] s074 (300.513s - 303.453s, dur 2.9s): Your work history stays on your Upwork profile.
+[74] s075 (303.453s - 308.053s, dur 4.6s): So if you already know that you don't want to work in a certain profession in the future,
+[75] s076 (308.053s - 311.613s, dur 3.6s): don't just take a random job because you want your first contract.
+[76] s077 (311.613s - 314.773s, dur 3.2s): For me, software engineering job wasn't useless.
+[77] s078 (314.773s - 320.193s, dur 5.4s): Having one job is obviously better than having zero jobs because it gives you some credibility.
+[78] s079 (320.193s - 325.073s, dur 4.9s): But if I could go back, I would rather have my first job be related to the thing I actually
+[79] s080 (325.073s - 327.273s, dur 2.2s): wanted to continue doing.
+[80] s081 (327.273s - 331.633s, dur 4.4s): Because now that software engineering job is still part of my work history and I can't
+[81] s082 (331.633s - 332.893s, dur 1.3s): just undo it.
+[82] s083 (332.893s - 335.053s, dur 2.2s): Then came the long silent period.
+[83] s084 (335.053s - 339.433s, dur 4.4s): For several months I was basically working locally, improving my skills, building my
+[84] s085 (339.433s - 342.653s, dur 3.2s): portfolio and updating my Upwork profile.
+[85] s086 (342.653s - 346.373s, dur 3.7s): I wasn't spending hours every day on Upwork either.
+[86] s087 (346.373s - 347.613s, dur 1.2s): Sometimes I would barely check it.
+[87] s088 (347.613s - 353.613s, dur 6.0s): I would just go in, check if anything changed, update my portfolio if I had a new project and then leave.
+[88] s089 (353.613s - 356.213s, dur 2.6s): I was getting some invitations here and there.
+[89] s090 (356.213s - 360.713s, dur 4.5s): Some were relevant, some were not and some honestly looked like scams.
+[90] s091 (360.713s - 365.453s, dur 4.7s): But most of them didn't turn into anything and I started realizing that getting a profile
+[91] s092 (365.453s - 368.853s, dur 3.4s): online doesn't mean clients are just going to come to you.
+[92] s093 (368.853s - 373.373s, dur 4.5s): After that long period I got an invitation for a true crime video and this was my first
+[93] s094 (373.373s - 375.853s, dur 2.5s): actual video editing job on Upwork.
+[94] s095 (375.853s - 377.533s, dur 1.7s): It was a pretty straightforward job.
+[95] s096 (377.533s - 380.813s, dur 3.3s): I made the video, sent it and got paid $20.
+[96] s097 (380.813s - 385.513s, dur 4.7s): It took around 2 days and the client didn't really ask for any major revisions.
+[97] s098 (385.513s - 390.893s, dur 5.4s): But honestly that $20 was important to me for one reason, I used it to buy connects.
+[98] s099 (390.893s - 393.533s, dur 2.6s): And this is where my actual Upwork journey started.
+[99] s100 (393.533s - 400.393s, dur 6.9s): I spent $15 on connects and that gave me enough connects to actually start applying to jobs.
+[100] s101 (400.393s - 403.233s, dur 2.8s): Before that I was mostly waiting for invitations.
+[101] s102 (403.233s - 407.253s, dur 4.0s): Now I could actually choose the jobs I wanted to apply for.
+[102] s103 (407.253s - 410.353s, dur 3.1s): And that's when things started becoming more interesting.
+[103] s104 (410.353s - 414.373s, dur 4.0s): Because I realized that it's not really about applying to every job you see.
+[104] s105 (414.373s - 418.453s, dur 4.1s): It's about finding jobs that actually match your profile and what you can do.
+[105] s106 (418.453s - 423.773s, dur 5.3s): I also learned that you shouldn't just finish your connects in one day by applying to everything.
+[106] s107 (423.773s - 426.773s, dur 3.0s): It's not really about quantity, it's about quality.
+[107] s108 (426.773s - 431.773s, dur 5.0s): If I see a job that doesn't match my profile I don't need to apply just because it's there.
+[108] s109 (431.773s - 437.533s, dur 5.8s): And when I do apply I try to write a simple message that is confident and actually matches my profile.
+[109] s110 (437.533s - 441.333s, dur 3.8s): I don't think you need some complicated AI generated proposal.
+[110] s111 (441.333s - 446.053s, dur 4.7s): You just need to show the client that you understand what they need and that you can actually give
+[111] s112 (446.053s - 447.333s, dur 1.3s): them value.
+[112] s113 (447.333s - 450.693s, dur 3.4s): And that's how I eventually got my $90 client.
+[113] s114 (450.693s - 453.613s, dur 2.9s): This client taught me more than any of the other jobs.
+[114] s115 (453.613s - 458.693s, dur 5.1s): The job was for a YouTube video and when I saw sample they attached, I was immediately
+[115] s116 (458.693s - 462.813s, dur 4.1s): interested because it was exactly the type of editing I wanted to do.
+[116] s117 (462.813s - 467.813s, dur 5.0s): So my proposal was basically saying that I saw the sample, it matched my skillset, I
+[117] s118 (467.813s - 472.653s, dur 4.8s): edit in Premiere Pro and After Effects, I have a fast internet connection, I respond quickly
+[118] s119 (472.653s - 475.653s, dur 3.0s): and I've never missed a deadline with my previous clients.
+[119] s120 (475.653s - 480.013s, dur 4.4s): I also said that I could recreate the style of the reference and I was happy to do a pay
+[120] s121 (480.013s - 481.773s, dur 1.8s): test and I got the job.
+[121] s122 (481.773s - 484.373s, dur 2.6s): It was a $90 one time YouTube video.
+[122] s123 (484.373s - 488.373s, dur 4.0s): And the client was very professional and very specific about what he wanted.
+[123] s124 (488.373s - 492.293s, dur 3.9s): And this is where I learned my first big lesson about clients.
+[124] s125 (492.293s - 494.713s, dur 2.4s): First don't always try do your own thing.
+[125] s126 (494.713s - 498.853s, dur 4.1s): As an editor sometimes you think you can make the project better, you see something and
+[126] s127 (498.853s - 500.813s, dur 2.0s): you're like ok I can improve this.
+[127] s128 (500.813s - 504.013s, dur 3.2s): But sometimes the client doesn't want your improvement.
+[128] s129 (504.013s - 508.413s, dur 4.4s): They already have a specific style, they already have a reference, they already know what they
+[129] s130 (508.413s - 514.373s, dur 6.0s): want and in that case your job is not to make it better according to your own taste.
+[130] s131 (514.373s - 517.673s, dur 3.3s): Your job is to understand what they want and execute it.
+[131] s132 (517.673s - 521.413s, dur 3.7s): So before adding your own touch to something just ask them.
+[132] s133 (521.413s - 524.893s, dur 3.5s): Because what you think is better might not be what the client wants.
+[133] s134 (524.893s - 528.373s, dur 3.5s): The second thing I learned is to be patient with revisions.
+[134] s135 (528.373s - 531.373s, dur 3.0s): This client had already paid me after I finished the project.
+[135] s136 (531.373s - 534.173s, dur 2.8s): Then he came back and asked me to change a few small things.
+[136] s137 (534.173s - 538.813s, dur 4.6s): I could've said you already reviewed it, I already finished the project, why are you
+[137] s138 (538.813s - 541.293s, dur 2.5s): asking me to change it? But I didn't.
+[138] s139 (541.293s - 544.253s, dur 3.0s): It was a small thing so I just said ok I'll change it.
+[139] s140 (544.253s - 548.453s, dur 4.2s): Honestly it wasn't a big deal for me but for the client it mattered.
+[140] s141 (548.453s - 552.413s, dur 4.0s): And especially when you're starting out I think it's better to create this friendly
+[141] s142 (552.413s - 558.893s, dur 6.5s): vibe instead of having this really strict professional relationship where you're counting every little thing.
+[142] s143 (558.893s - 562.293s, dur 3.4s): I'm not saying you should accept unlimited work for free.
+[143] s144 (562.293s - 567.713s, dur 5.4s): I'm just saying if a client asks for a small and reasonable change sometimes it's better
+[144] s145 (567.713s - 571.413s, dur 3.7s): to just do it instead of creating unnecessary problems.
+[145] s146 (571.413s - 573.573s, dur 2.2s): And the third thing is communication.
+[146] s147 (573.573s - 579.373s, dur 5.8s): If a client tells you to change a lot of things don't just sit there guessing what they mean.
+[147] s148 (579.373s - 581.613s, dur 2.2s): Ask them specifically what they want.
+[148] s149 (581.613s - 586.973s, dur 5.4s): Because sometimes you can spend hours going back and forth just because you misunderstood one small thing.
+[149] s150 (586.973s - 592.093s, dur 5.1s): If they have some technical knowledge sometimes you can even give them the project files if
+[150] s151 (592.093s - 595.293s, dur 3.2s): the changes are very small and they want to do them themselves.
+[151] s152 (595.293s - 597.973s, dur 2.7s): But the main thing is just communicate.
+[152] s153 (597.973s - 599.333s, dur 1.4s): Ask before you do.
+[153] s154 (599.333s - 603.053s, dur 3.7s): Because a lot of problems with clients aren't really editing problems.
+[154] s155 (603.053s - 604.813s, dur 1.8s): They're communication problems.
+[155] s156 (604.813s - 606.293s, dur 1.5s): And then I learned something else.
+[156] s157 (606.293s - 608.573s, dur 2.3s): Not every client is a good client.
+[157] s158 (608.573s - 614.453s, dur 5.9s): I had another client offer me around $30 for an 8 minute video and at first I thought okay
+[158] s159 (614.453s - 616.373s, dur 1.9s): this could be a long term client.
+[159] s160 (616.373s - 618.813s, dur 2.4s): But then I actually looked at the requirements.
+[160] s161 (618.813s - 621.613s, dur 2.8s): There were more than 20 requirements for one video.
+[161] s162 (621.613s - 623.933s, dur 2.3s): They wanted very specific timestamps.
+[162] s163 (623.933s - 626.833s, dur 2.9s): They wanted every silent section identified.
+[163] s164 (626.833s - 631.233s, dur 4.4s): They wanted me to generate footage using my own AI tools.
+[164] s165 (631.233s - 634.413s, dur 3.2s): And there were a lot of other very specific requirements.
+[165] s166 (634.413s - 639.773s, dur 5.4s): So when I actually look at the amount of work that $30 wasn't really $30 worth of work.
+[166] s167 (639.773s - 644.893s, dur 5.1s): That video could have taken me basically the whole day and I already had other work.
+[167] s168 (644.893s - 646.513s, dur 1.6s): So I didn't accept it.
+[168] s169 (646.513s - 648.793s, dur 2.3s): And that taught me something really important.
+[169] s170 (648.793s - 651.733s, dur 2.9s): At the beginning you think I just need a client.
+[170] s171 (651.733s - 656.493s, dur 4.8s): But later you realize I need a client whose expectations I can actually meet.
+[171] s172 (656.493s - 660.493s, dur 4.0s): Because if you accept a job you can't handle you might end up with a bad review.
+[172] s173 (660.493s - 662.613s, dur 2.1s): And that can affect your future jobs.
+[173] s174 (662.613s - 668.733s, dur 6.1s): So sometimes saying no to a job is better than accepting it just because you want the money.
+[174] s175 (668.733s - 671.973s, dur 3.2s): And looking back my portfolio was probably one of my biggest problems.
+[175] s176 (671.973s - 674.373s, dur 2.4s): My portfolio was missing quality.
+[176] s177 (674.373s - 676.293s, dur 1.9s): There were unrelated videos in it.
+[177] s178 (676.293s - 681.053s, dur 4.8s): Some of the work was cheap and my profile description was claiming more than what my
+[178] s179 (681.053s - 682.973s, dur 1.9s): portfolio could actually prove.
+[179] s180 (682.973s - 688.453s, dur 5.5s): I was trying to make my profile look professional instead of actually making the work professional.
+[180] s181 (688.453s - 691.413s, dur 3.0s): And eventually I realized that clients can see that.
+[181] s182 (691.413s - 693.653s, dur 2.2s): You can't really fool most clients.
+[182] s183 (693.653s - 695.933s, dur 2.3s): They've already posted multiple jobs.
+[183] s184 (695.933s - 698.933s, dur 3.0s): They've already looked through hundreds of freelancers.
+[184] s185 (698.933s - 704.813s, dur 5.9s): They can look at your portfolio and understand pretty quickly whether you actually know what you're doing.
+[185] s186 (704.813s - 708.613s, dur 3.8s): So if you're just starting out don't try to pretend you're an expert.
+[186] s187 (708.613s - 710.253s, dur 1.6s): Just show what you actually know.
+[187] s188 (710.253s - 713.393s, dur 3.1s): If you don't have client work yet make your own sample projects.
+[188] s189 (713.393s - 714.813s, dur 1.4s): Make them as good as you can.
+[189] s190 (714.813s - 719.613s, dur 4.8s): And make sure the portfolio actually supports what your profile says you can do.
+[190] s191 (719.613s - 721.813s, dur 2.2s): And that's another thing I learned about myself.
+[191] s192 (721.813s - 723.733s, dur 1.9s): I'm not an Upwork expert.
+[192] s193 (723.733s - 726.333s, dur 2.6s): I'm not making this video because I mastered Upwork.
+[193] s194 (726.333s - 730.733s, dur 4.4s): I've made more than $5,000 outside of Upwork from video editing.
+[194] s195 (730.733s - 734.353s, dur 3.6s): But on Upwork I've only made around $150.
+[195] s196 (734.353s - 736.853s, dur 2.5s): So I'm not here to tell you that I'm some Upwork guru.
+[196] s197 (736.853s - 740.953s, dur 4.1s): I'm just showing you what happened to me and what made my journey easier.
+[197] s198 (740.953s - 744.493s, dur 3.5s): And I think that's actually more useful for someone who is starting out.
+[198] s199 (744.493s - 748.333s, dur 3.8s): Because I was a beginner too, I made a lot of stupid mistakes.
+[199] s200 (748.333s - 751.653s, dur 3.3s): And I can show you exactly what those mistakes were.
+[200] s201 (751.653s - 754.973s, dur 3.3s): So if I had to start Upwork again, I would do things very differently.
+[201] s202 (754.973s - 758.733s, dur 3.8s): First, I would actually learn the skill before trying to freelance with it.
+[202] s203 (758.733s - 763.933s, dur 5.2s): For video editing, I spent around 3 or 4 months learning the basics before I really started
+[203] s204 (763.933s - 765.373s, dur 1.4s): taking it seriously.
+[204] s205 (765.373s - 768.053s, dur 2.7s): Then I would choose what I actually want to work with.
+[205] s206 (768.053s - 773.773s, dur 5.7s): I wouldn't create a profile as a software engineer and then slowly turn it into a video editor.
+[206] s207 (773.773s - 777.413s, dur 3.6s): I would decide what I want to do and build everything around that.
+[207] s208 (777.413s - 779.573s, dur 2.2s): Then I would build a real portfolio.
+[208] s209 (779.573s - 781.053s, dur 1.5s): Not just random videos.
+[209] s210 (781.053s - 782.593s, dur 1.5s): Not someone else's work.
+[210] s211 (782.593s - 785.093s, dur 2.5s): Not cheap videos just to fill the portfolio.
+[211] s212 (785.093s - 790.133s, dur 5.0s): I would make a few really good sample projects that actually represent the work I want clients
+[212] s213 (790.133s - 791.573s, dur 1.4s): to hire me for.
+[213] s214 (791.573s - 793.253s, dur 1.7s): Then I would make the profile simple.
+[214] s215 (793.253s - 797.013s, dur 3.8s): I wouldn't spend months trying to make the description sound perfect.
+[215] s216 (797.013s - 799.773s, dur 2.8s): Because honestly, your portfolio is the backbone.
+[216] s217 (799.773s - 802.913s, dur 3.1s): If your portfolio is good, it shows what you can do.
+[217] s218 (802.913s - 808.893s, dur 6.0s): If your portfolio is bad, no amount of 5 years of experience in your description is going to fix it.
+[218] s219 (808.893s - 811.453s, dur 2.6s): And after that I would start applying much earlier.
+[219] s220 (811.453s - 813.053s, dur 1.6s): I wouldn't apply to everything.
+[220] s221 (813.053s - 817.933s, dur 4.9s): I would look through the jobs, find the ones that actually match me and apply strategically.
+[221] s222 (817.933s - 819.953s, dur 2.0s): So was Upwork worth it?
+[222] s223 (819.953s - 823.933s, dur 4.0s): For me I think it was useful, but definitely not in the way I expected.
+[223] s224 (823.933s - 830.253s, dur 6.3s): I started thinking that once I got 1 or 2 clients, I would get flooded with clients. That didn't happen.
+[224] s225 (830.253s - 832.333s, dur 2.1s): I spent months getting almost nothing.
+[225] s226 (832.333s - 837.293s, dur 5.0s): I changed my profession, I changed my profile, I worked locally, I improved my skills, I
+[226] s227 (837.293s - 842.173s, dur 4.9s): built my portfolio, I eventually got a $20 job, used that money to buy Kinects and then
+[227] s228 (842.173s - 843.573s, dur 1.4s): got a $90 client.
+[228] s229 (843.573s - 848.893s, dur 5.3s): And that $90 client probably taught me more about freelancing than all the profile optimization
+[229] s230 (848.893s - 850.173s, dur 1.3s): I did before that.
+[230] s231 (850.173s - 854.893s, dur 4.7s): So if you're starting Upwork because you think it's easy money, my experience definitely
+[231] s232 (854.893s - 856.433s, dur 1.5s): doesn't show that.
+[232] s233 (856.433s - 861.373s, dur 4.9s): But if you already have a skill, you can actually show your work, you're willing to be patient
+[233] s234 (861.373s - 866.493s, dur 5.1s): and you're willing to learn from the clients you work with, then yes, you can eventually
+[234] s235 (866.493s - 867.733s, dur 1.2s): get work.
+[235] s236 (867.733s - 872.893s, dur 5.2s): But the biggest thing I learned is that you shouldn't spend all your time trying to look hireable.
+[236] s237 (872.893s - 875.573s, dur 2.7s): You need to actually become good enough to be hireable.
+[237] s238 (875.573s - 880.693s, dur 5.1s): And then your profile, your portfolio, your proposal and everything else should just show that.
+[238] s239 (880.693s - 881.973s, dur 1.3s): That's basically my Upwork journey.
+[239] s240 (881.973s - 887.933s, dur 6.0s): I only made around $150 from Upwork, but honestly I learned a lot from those few clients.
+[240] s241 (887.933s - 891.793s, dur 3.9s): And if you want me to make another video where I actually go through the technical side of
+[241] s242 (891.793s - 897.733s, dur 5.9s): Upwork, how I find jobs, how I decide which jobs to apply for, how I write the application,
+[242] s243 (897.733s - 902.773s, dur 5.0s): how I detect fake clients and how I actually apply to a job, just comment Upwork and I'll
+[243] s244 (902.773s - 904.556s, dur 1.8s): make that video.

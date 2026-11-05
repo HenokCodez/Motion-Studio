@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> NOT FOR HENA VANTA. Never use for the Hena Vanta channel.
+
 # Shared Motion Studio Guidelines
 
 This rule is automatically loaded by Google Antigravity for the `motion-studio` workspace across all channels and projects.

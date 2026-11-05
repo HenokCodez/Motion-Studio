@@ -1,6 +1,5 @@
 import React from 'react';
 import {AbsoluteFill, Audio, Sequence, staticFile} from 'remotion';
-import {loadFont} from '@remotion/google-fonts/Inter';
 import {GridBackground} from './GridBackground';
 import {Watermark} from './Watermark';
 import {BigStatCaption, BulletsCaption, WordsCaption} from './Caption';
@@ -8,8 +7,6 @@ import {CAPTION_CENTERED, MediaSwitch} from './media';
 import {MP} from './hooks';
 import {COLORS, WF3_PUBLIC, ZONES} from './theme';
 import {Scene, Storyboard} from './types';
-
-loadFont('normal', {weights: ['400', '500', '700', '800', '900'], subsets: ['latin']});
 
 const keyOf = (s: Scene) => s.mediaKey ?? JSON.stringify(s.media);
 

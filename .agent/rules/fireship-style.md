@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> NOT FOR HENA VANTA. Never use for the Hena Vanta channel.
+
 # VantaBrief Production & Style Directive (Supercedes Fireship Legacy)
 
 All production in this workspace is governed by the authoritative **[VantaBrief Visual Style Bible](file:///D:/Automations/motion-studio/Channels/VantaBrief/style/VantaBrief_Visual_Style_Bible.md)**.

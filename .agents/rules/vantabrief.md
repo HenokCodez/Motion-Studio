@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> NOT FOR HENA VANTA. Never use for the Hena Vanta channel.
+
 # VantaBrief Visual Style Bible Integration Rule
 
 This rule is automatically loaded by Google Antigravity for the `motion-studio` workspace.

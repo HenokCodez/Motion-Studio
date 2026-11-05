@@ -1275,7 +1275,8 @@ def cmd_w2_render(a):
     studio, videos, channels, _ = load_cfg()
     proj = project_dir(videos, a.project)
     from scripts.workflow2_pipeline import w2_render_cmd
-    w2_render_cmd(proj, crf=a.crf)
+    out_dest = getattr(a, "out", None)
+    w2_render_cmd(proj, crf=a.crf, out_dest=Path(out_dest) if out_dest else None)
 
 
 def cmd_w2_all(a):
@@ -1459,6 +1460,7 @@ def main():
     s = sub.add_parser("w2-render", help="Render master video & contact sheet for workflow2")
     s.add_argument("project", help="Project name or relative path")
     s.add_argument("--crf", type=int, default=18, help="H.264 CRF quality (default: 18)")
+    s.add_argument("--out", help="Explicit destination path for rendered mp4 deliverable")
     s.set_defaults(fn=cmd_w2_render)
 
     s = sub.add_parser("w2-all", help="Run end-to-end Workflow 2 pipeline (words -> assets -> plan -> preview -> render)")

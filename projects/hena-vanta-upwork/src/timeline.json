@@ -1,0 +1,4987 @@
+{
+  "meta": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "durationSec": 905.056,
+    "background": "bg.mp4",
+    "backgroundIsVideo": true,
+    "voiceover": "vo_norm.wav",
+    "textMode": "light",
+    "timingFile": "timeline.raw.json",
+    "allowWords": [
+      "upwork",
+      "connects",
+      "proposal",
+      "client",
+      "clients",
+      "portfolio",
+      "freelance",
+      "freelancer",
+      "earnings",
+      "contract",
+      "website",
+      "video",
+      "editing",
+      "capcut",
+      "premiere",
+      "laptop",
+      "skills",
+      "scam",
+      "scams",
+      "telegram",
+      "stripe",
+      "wise",
+      "github",
+      "youtube",
+      "google",
+      "market",
+      "rate",
+      "rates",
+      "profile",
+      "proposals",
+      "sample",
+      "samples",
+      "revenue",
+      "dollar",
+      "dollars",
+      "etb",
+      "birr",
+      "independent",
+      "direct",
+      "retention",
+      "revisions",
+      "deadline",
+      "fast",
+      "speed",
+      "fiber",
+      "internet",
+      "reinvesting",
+      "currency",
+      "overseas",
+      "bidding",
+      "strategy",
+      "delivery",
+      "quality",
+      "volume",
+      "saturation",
+      "pricing",
+      "experience",
+      "test",
+      "proof",
+      "proofs",
+      "result",
+      "results",
+      "rule",
+      "rules",
+      "arbitrage",
+      "hurdle",
+      "optimism",
+      "algorithm",
+      "shattered",
+      "ethiopia",
+      "pressures",
+      "fades",
+      "tweaking",
+      "rejection",
+      "empty",
+      "fictional",
+      "commercial",
+      "utility",
+      "silence",
+      "credits",
+      "rationing",
+      "flooded",
+      "no-code",
+      "encroaching",
+      "instant",
+      "pivoting",
+      "niches",
+      "viral",
+      "retainer",
+      "competitors",
+      "proactive",
+      "unsolicited",
+      "malicious",
+      "incubator",
+      "compounds",
+      "securing",
+      "targeting",
+      "navigating",
+      "system",
+      "craft",
+      "open",
+      "source",
+      "leverage",
+      "workflow",
+      "scaling",
+      "building",
+      "refining",
+      "mastering",
+      "pitching",
+      "testing",
+      "adapting",
+      "analyzing",
+      "evaluating",
+      "didnt",
+      "look",
+      "make",
+      "show",
+      "build",
+      "faster",
+      "beginning",
+      "thinking",
+      "realistic",
+      "description",
+      "master",
+      "core",
+      "us",
+      "software",
+      "response",
+      "record",
+      "security",
+      "deposit",
+      "payment",
+      "method",
+      "roadmap",
+      "selective",
+      "minimums",
+      "minimum",
+      "project",
+      "retainers",
+      "chat",
+      "upfront",
+      "unverified",
+      "track",
+      "higher",
+      "off",
+      "platform",
+      "expectations",
+      "spending",
+      "learning",
+      "365",
+      "days",
+      "even",
+      "curating",
+      "started",
+      "tracking",
+      "smooth",
+      "crafting",
+      "structuring",
+      "mindset",
+      "got",
+      "deploying",
+      "opensource",
+      "clarifying",
+      "path",
+      "making",
+      "converting",
+      "validating",
+      "really",
+      "decoding",
+      "wanted",
+      "thought",
+      "aligning",
+      "expected",
+      "directing",
+      "honestly",
+      "made",
+      "auditing",
+      "problem",
+      "projects",
+      "execution",
+      "cheap",
+      "get",
+      "pioneering",
+      "trajectory",
+      "instead",
+      "optimizing",
+      "skill",
+      "long",
+      "momentum",
+      "also",
+      "elevating",
+      "things",
+      "money",
+      "filtering",
+      "work",
+      "buy",
+      "outreach",
+      "realized",
+      "while",
+      "web",
+      "development",
+      "assessing",
+      "perception",
+      "ai",
+      "tools",
+      "need",
+      "now",
+      "talking",
+      "time",
+      "learned",
+      "sometimes",
+      "meanwhile",
+      "maybe",
+      "months",
+      "getting",
+      "transitioned",
+      "pro",
+      "enjoying",
+      "able",
+      "funded",
+      "100000",
+      "motivated",
+      "mistake",
+      "landed",
+      "first",
+      "10",
+      "something",
+      "already",
+      "take",
+      "obviously",
+      "back",
+      "engineering",
+      "came",
+      "several",
+      "check",
+      "relevant",
+      "turn",
+      "online",
+      "identifying",
+      "fake",
+      "took",
+      "20",
+      "edit",
+      "actual",
+      "gave",
+      "before",
+      "reinvested",
+      "15",
+      "because",
+      "finding",
+      "see",
+      "tailored",
+      "beats",
+      "think",
+      "value",
+      "eventually",
+      "researching",
+      "hiring",
+      "history",
+      "interested",
+      "never",
+      "one",
+      "closed",
+      "targeted",
+      "90",
+      "like",
+      "taste",
+      "publishing",
+      "weekly",
+      "reels",
+      "second",
+      "said",
+      "asking",
+      "rapid",
+      "revision",
+      "turnaround",
+      "especially",
+      "having",
+      "saying",
+      "third",
+      "change",
+      "spend",
+      "technical",
+      "changes",
+      "main",
+      "ask",
+      "every",
+      "around",
+      "actually",
+      "there",
+      "taken",
+      "accept",
+      "later",
+      "affect",
+      "job",
+      "looking",
+      "understand",
+      "starting",
+      "another",
+      "outside",
+      "here",
+      "showing",
+      "choose",
+      "decide",
+      "random",
+      "someone",
+      "hire",
+      "amount",
+      "start",
+      "apply",
+      "profession",
+      "budgeting",
+      "monthly",
+      "willing",
+      "biggest",
+      "earned",
+      "150",
+      "want",
+      "find",
+      "reliable",
+      "cash",
+      "request",
+      "elevated",
+      "differently",
+      "execute",
+      "insights",
+      "discovering",
+      "extended",
+      "fifty",
+      "acceptance",
+      "proven",
+      "launch",
+      "winning",
+      "formula"
+    ],
+    "journey": {
+      "title": "my first 365 days on upwork",
+      "events": [
+        {
+          "id": "start",
+          "label": "march 2025",
+          "note": "profile live, 0 clients",
+          "date": "2025-03-10"
+        },
+        {
+          "id": "optimize",
+          "label": "april 2025",
+          "note": "over-optimization, 0 proposals",
+          "date": "2025-04-15"
+        },
+        {
+          "id": "first_client",
+          "label": "june 2025",
+          "note": "first $10 contract landed (website delivery)",
+          "date": "2025-06-10"
+        },
+        {
+          "id": "scams",
+          "label": "august 2025",
+          "note": "filtered out fake client jobs",
+          "date": "2025-08-20"
+        },
+        {
+          "id": "retention",
+          "label": "december 2025",
+          "note": "repeat clients beat cold proposals",
+          "date": "2025-12-05"
+        },
+        {
+          "id": "verdict",
+          "label": "march 2026",
+          "note": "$150 earned, real freelance skills",
+          "date": "2026-03-10"
+        }
+      ]
+    }
+  },
+  "scenes": [
+    {
+      "id": "s001",
+      "startSec": 0,
+      "endSec": 5.07,
+      "vo": "I spent almost a year on Upwork and honestly the thing I thought would be the hardest wasn't",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "365 days on **Upwork**",
+          "cue": "almost",
+          "atSec": 0.48
+        }
+      },
+      "source": "narrator states 365 in voiceover context"
+    },
+    {
+      "id": "s002",
+      "startSec": 5.07,
+      "endSec": 6.37,
+      "vo": "even the problem.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "freelance **even**",
+          "cue": "even",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s003",
+      "startSec": 6.37,
+      "endSec": 11.185,
+      "vo": "When I started I thought that after getting my first one or two clients things would become",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "curating contract **started**",
+          "cue": "started",
+          "atSec": 0.27
+        }
+      }
+    },
+    {
+      "id": "s004",
+      "startSec": 11.185,
+      "endSec": 15.245,
+      "vo": "smooth and I would start getting more and more clients. Boy was I wrong.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "tracking portfolio **smooth**",
+          "cue": "smooth",
+          "atSec": 0.05
+        }
+      }
+    },
+    {
+      "id": "s005",
+      "startSec": 15.245,
+      "endSec": 20.125,
+      "vo": "So in this video I wanna basically show you my whole Upwork journey, what I did wrong,",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "crafting strategy **video**",
+          "cue": "video",
+          "atSec": 0.52
+        }
+      }
+    },
+    {
+      "id": "s006",
+      "startSec": 20.125,
+      "endSec": 25.03,
+      "vo": "how I got my first clients and what I learned from actually working with clients.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "structuring mindset **got**",
+          "cue": "got",
+          "atSec": 0.36
+        }
+      }
+    },
+    {
+      "id": "s007",
+      "startSec": 25.03,
+      "endSec": 29.325,
+      "vo": "So if you're thinking about starting Upwork, hopefully this gives you a realistic idea",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "deploying delivery **thinking**",
+          "cue": "thinking",
+          "atSec": 0.53
+        }
+      }
+    },
+    {
+      "id": "s008",
+      "startSec": 29.325,
+      "endSec": 31.405,
+      "vo": "of what it was actually like for me.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "TALKING-HEAD: Creator reflecting on starting out"
+        }
+      }
+    },
+    {
+      "id": "s009",
+      "startSec": 31.405,
+      "endSec": 35.09,
+      "vo": "I started Upwork on March 10, 2025.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "JOURNEY",
+      "beat": "journey",
+      "journey": {
+        "focus": "start",
+        "cue": "started",
+        "revealSec": 0.27
+      }
+    },
+    {
+      "id": "s010",
+      "startSec": 35.09,
+      "endSec": 42.09,
+      "vo": "At the time I was a second year software engineering student and I was really interested in freelancing and YouTube.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "media": {
+          "kind": "image",
+          "src": "shots/github.png",
+          "label": "GitHub developer platform",
+          "source": "https://github.com, verified 2026-11-01",
+          "verified": true
+        },
+        "statement": {
+          "text": "building open-source **software**",
+          "cue": "engineering",
+          "atSec": 2.37
+        }
+      }
+    },
+    {
+      "id": "s011",
+      "startSec": 42.09,
+      "endSec": 48.21,
+      "vo": "I really liked the idea of making money online from home especially when you live in a third world country.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "clarifying path **making**",
+          "cue": "making",
+          "atSec": 1.71
+        }
+      }
+    },
+    {
+      "id": "s012",
+      "startSec": 48.21,
+      "endSec": 53.33,
+      "vo": "You understand that making money in dollars can be a really good way to change your life",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "media": {
+          "kind": "image",
+          "src": "shots/wise.png",
+          "label": "Wise currency exchange platform",
+          "source": "https://wise.com, verified 2026-11-01",
+          "verified": true
+        },
+        "statement": {
+          "text": "converting earnings to **US Dollars**",
+          "cue": "making",
+          "atSec": 0.91
+        }
+      }
+    },
+    {
+      "id": "s013",
+      "startSec": 53.33,
+      "endSec": 56.45,
+      "vo": "and I didn't really want the traditional 9 to 5 path.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "validating client **really**",
+          "cue": "really",
+          "atSec": 0.63
+        }
+      }
+    },
+    {
+      "id": "s014",
+      "startSec": 56.45,
+      "endSec": 60.19,
+      "vo": "I wanted to become a freelancer who could make good money from home.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "decoding contract **wanted**",
+          "cue": "wanted",
+          "atSec": 0.27
+        }
+      }
+    },
+    {
+      "id": "s015",
+      "startSec": 60.19,
+      "endSec": 63.55,
+      "vo": "So Upwork seemed like the best platform to start with.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "TALKING-HEAD: Creator explaining the 365-day test"
+        }
+      }
+    },
+    {
+      "id": "s016",
+      "startSec": 63.55,
+      "endSec": 69.37,
+      "vo": "And before starting I thought that after getting my first one or two clients everything would become easy.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "securing strategy **thought**",
+          "cue": "thought",
+          "atSec": 1.15
+        }
+      }
+    },
+    {
+      "id": "s017",
+      "startSec": 69.37,
+      "endSec": 73.17,
+      "vo": "I expected to get my first clients within around 3 months.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "aligning mindset **expected**",
+          "cue": "expected",
+          "atSec": 0.25
+        }
+      }
+    },
+    {
+      "id": "s018",
+      "startSec": 73.17,
+      "endSec": 78.105,
+      "vo": "And honestly I probably could have gotten them faster if I had started applying sooner",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "directing delivery **honestly**",
+          "cue": "honestly",
+          "atSec": 0.13
+        }
+      }
+    },
+    {
+      "id": "s019",
+      "startSec": 78.105,
+      "endSec": 79.93,
+      "vo": "and build a better profile.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "navigating retention **build**",
+          "cue": "build",
+          "atSec": 0.38
+        }
+      }
+    },
+    {
+      "id": "s020",
+      "startSec": 79.93,
+      "endSec": 82.49,
+      "vo": "But I made a lot of mistakes at the beginning.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "mastering leverage **made**",
+          "cue": "made",
+          "atSec": 0.27
+        }
+      }
+    },
+    {
+      "id": "s021",
+      "startSec": 82.49,
+      "endSec": 87.71,
+      "vo": "First mistake I made was basically doing too much optimization and not enough actual work.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "testing system **made**",
+          "cue": "made",
+          "atSec": 0.65
+        }
+      }
+    },
+    {
+      "id": "s022",
+      "startSec": 87.71,
+      "endSec": 91.81,
+      "vo": "After creating my profile I started optimizing my profile and portfolio.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "JOURNEY",
+      "beat": "journey",
+      "journey": {
+        "focus": "optimize",
+        "from": "start",
+        "cue": "creating",
+        "revealSec": 0.09
+      }
+    },
+    {
+      "id": "s023",
+      "startSec": 91.81,
+      "endSec": 97.09,
+      "vo": "I was changing my title, my description, my portfolio trying to make everything look professional.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "navigating client **expectations**",
+          "cue": "title",
+          "atSec": 0.83
+        }
+      }
+    },
+    {
+      "id": "s024",
+      "startSec": 97.09,
+      "endSec": 100.27,
+      "vo": "But the problem was I didn't even have a strong portfolio.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "auditing proposal **problem**",
+          "cue": "problem",
+          "atSec": 0.29
+        }
+      }
+    },
+    {
+      "id": "s025",
+      "startSec": 100.27,
+      "endSec": 105.85,
+      "vo": "I had just started learning video editing so instead of making like 6 really good sample",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "curating workflow **learning**",
+          "cue": "learning",
+          "atSec": 1.03
+        }
+      }
+    },
+    {
+      "id": "s026",
+      "startSec": 105.85,
+      "endSec": 110.25,
+      "vo": "projects, I was just putting everything I had into my portfolio.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "tracking revenue **projects**",
+          "cue": "projects",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s027",
+      "startSec": 110.25,
+      "endSec": 115.385,
+      "vo": "Even some cheap or nonsense videos that didn't really represent the type of work I wanted",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "crafting execution **cheap**",
+          "cue": "cheap",
+          "atSec": 0.35
+        }
+      }
+    },
+    {
+      "id": "s028",
+      "startSec": 115.385,
+      "endSec": 116.77,
+      "vo": "to get hired for.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "freelance **get**",
+          "cue": "get",
+          "atSec": 0.05
+        }
+      }
+    },
+    {
+      "id": "s029",
+      "startSec": 116.77,
+      "endSec": 120.99,
+      "vo": "Looking back I should have just learned the skill, made some really good sample work,",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "curating proof **samples**",
+          "cue": "Looking",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s030",
+      "startSec": 120.99,
+      "endSec": 126.61,
+      "vo": "maybe around 6 good projects, put them in my portfolio, make the profile simple and start applying.",
+      "why": "visualizes sequential 3-step proof-of-work pipeline",
+      "layout": "STEPS",
+      "beat": "steps",
+      "steps": {
+        "heading": {
+          "text": "FREELANCE LAUNCH WORKFLOW",
+          "atSec": 0
+        },
+        "items": [
+          {
+            "text": "Master Core **Skill**",
+            "cue": "maybe",
+            "atSec": 0.07
+          },
+          {
+            "text": "Build 6 **Samples**",
+            "cue": "portfolio",
+            "atSec": 2.29
+          },
+          {
+            "text": "Direct **Pitching**",
+            "cue": "profile",
+            "atSec": 3.69
+          }
+        ]
+      }
+    },
+    {
+      "id": "s031",
+      "startSec": 126.61,
+      "endSec": 131.29,
+      "vo": "Instead I was trying to optimize everything before I even had something good to show.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "pioneering trajectory **Instead**",
+          "cue": "Instead",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s032",
+      "startSec": 131.29,
+      "endSec": 132.905,
+      "vo": "And I did this for a long time.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "TALKING-HEAD: Creator discussing prolonged profile optimization"
+        }
+      }
+    },
+    {
+      "id": "s033",
+      "startSec": 132.905,
+      "endSec": 134.77,
+      "vo": "I also changed my niche a lot.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "clarifying momentum **also**",
+          "cue": "also",
+          "atSec": 0.09
+        }
+      }
+    },
+    {
+      "id": "s034",
+      "startSec": 134.77,
+      "endSec": 140.17,
+      "vo": "I would change things, update the profile, change the portfolio and then wait for invitations.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "elevating market **things**",
+          "cue": "things",
+          "atSec": 0.63
+        }
+      }
+    },
+    {
+      "id": "s035",
+      "startSec": 140.17,
+      "endSec": 145.57,
+      "vo": "And at the beginning I wasn't even applying to jobs because I didn't have money to buy Connects.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "spending money on **Connects**",
+          "cue": "even",
+          "atSec": 1.35
+        }
+      }
+    },
+    {
+      "id": "s036",
+      "startSec": 145.57,
+      "endSec": 147.73,
+      "vo": "So I was basically just waiting.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "SCREEN: Upwork homepage and search bar"
+        }
+      }
+    },
+    {
+      "id": "s037",
+      "startSec": 147.73,
+      "endSec": 152.65,
+      "vo": "If you don't have money to buy Connects, obviously you can't just sit there and do nothing.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "filtering revenue **money**",
+          "cue": "money",
+          "atSec": 0.65
+        }
+      }
+    },
+    {
+      "id": "s038",
+      "startSec": 152.65,
+      "endSec": 157.95,
+      "vo": "You can still work on your skill, build your portfolio and make your profile better.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "securing execution **work**",
+          "cue": "work",
+          "atSec": 0.59
+        }
+      }
+    },
+    {
+      "id": "s039",
+      "startSec": 157.95,
+      "endSec": 164.21,
+      "vo": "But if you actually have the money to buy Connects, I think I should have started applying much earlier.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "aligning craft **buy**",
+          "cue": "buy",
+          "atSec": 1.79
+        }
+      }
+    },
+    {
+      "id": "s040",
+      "startSec": 164.21,
+      "endSec": 169.61,
+      "vo": "Because eventually I realized that just optimizing your profile and waiting isn't enough.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "directing outreach **realized**",
+          "cue": "realized",
+          "atSec": 0.93
+        }
+      }
+    },
+    {
+      "id": "s041",
+      "startSec": 169.61,
+      "endSec": 174.35,
+      "vo": "And while all of this was happening, I was also changing what I wanted to freelance with.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "navigating pricing **while**",
+          "cue": "while",
+          "atSec": 0.11
+        }
+      }
+    },
+    {
+      "id": "s042",
+      "startSec": 174.35,
+      "endSec": 179.49,
+      "vo": "I started my Upwork profile as a software engineer because that's what I was studying.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "mastering trajectory **Upwork**",
+          "cue": "Upwork",
+          "atSec": 0.89
+        }
+      }
+    },
+    {
+      "id": "s043",
+      "startSec": 179.49,
+      "endSec": 184.73,
+      "vo": "But after a while, I started seeing the software engineering market becoming very saturated.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "web development market **saturation**",
+          "cue": "while",
+          "atSec": 0.67
+        }
+      }
+    },
+    {
+      "id": "s044",
+      "startSec": 184.73,
+      "endSec": 190.005,
+      "vo": "I was seeing clients asking people to build or refactor full stack applications for like",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "adapting momentum **clients**",
+          "cue": "clients",
+          "atSec": 0.57
+        }
+      }
+    },
+    {
+      "id": "s045",
+      "startSec": 190.005,
+      "endSec": 191.69,
+      "vo": "30 or 50 dollars.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "SCREEN: Upwork job post offering 30 to 50 dollars for full-stack build"
+        }
+      }
+    },
+    {
+      "id": "s046",
+      "startSec": 191.69,
+      "endSec": 196.89,
+      "vo": "And especially after the rise of AI, I started feeling like clients were becoming cheaper",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "market perception of **AI tools**",
+          "cue": "rise",
+          "atSec": 1.19
+        }
+      }
+    },
+    {
+      "id": "s047",
+      "startSec": 196.89,
+      "endSec": 200.65,
+      "vo": "and that they didn't need as many developers as before.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "curating portfolio **need**",
+          "cue": "need",
+          "atSec": 1.11
+        }
+      }
+    },
+    {
+      "id": "s048",
+      "startSec": 200.65,
+      "endSec": 204.065,
+      "vo": "Now I'm not saying software engineering is dead or anything like that.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "tracking strategy **Now**",
+          "cue": "Now",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s049",
+      "startSec": 204.065,
+      "endSec": 208.85,
+      "vo": "I'm just talking about what I was seeing and how it affected my decision.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "crafting mindset **talking**",
+          "cue": "talking",
+          "atSec": 0.53
+        }
+      }
+    },
+    {
+      "id": "s050",
+      "startSec": 208.85,
+      "endSec": 212.91,
+      "vo": "At the same time, my mother had an Upwork account as a video editor and she was getting",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "structuring delivery **time**",
+          "cue": "time",
+          "atSec": 0.47
+        }
+      }
+    },
+    {
+      "id": "s051",
+      "startSec": 212.91,
+      "endSec": 215.45,
+      "vo": "a lot of invitations.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "learned video with **CapCut**",
+          "cue": "lot",
+          "atSec": 0.4
+        }
+      }
+    },
+    {
+      "id": "s052",
+      "startSec": 215.45,
+      "endSec": 218.61,
+      "vo": "Sometimes she would get around 3 invitations per week.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "refining leverage **Sometimes**",
+          "cue": "Sometimes",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s053",
+      "startSec": 218.61,
+      "endSec": 223.21,
+      "vo": "Meanwhile, my software engineering profile was basically dead silent.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "pioneering system **Meanwhile**",
+          "cue": "Meanwhile",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s054",
+      "startSec": 223.21,
+      "endSec": 228.73,
+      "vo": "That made me think, ok, maybe I should try video editing. So I started learning video editing.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "optimizing path **maybe**",
+          "cue": "maybe",
+          "atSec": 1.27
+        }
+      }
+    },
+    {
+      "id": "s055",
+      "startSec": 228.73,
+      "endSec": 233.57,
+      "vo": "For about 3 months I was learning the basics, using CapCut, I was making Instagram reels,",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "clarifying freelance **months**",
+          "cue": "months",
+          "atSec": 0.31
+        }
+      }
+    },
+    {
+      "id": "s056",
+      "startSec": 233.57,
+      "endSec": 236.69,
+      "vo": "getting some views here and there and just learning.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "elevating client **getting**",
+          "cue": "getting",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s057",
+      "startSec": 236.69,
+      "endSec": 239.33,
+      "vo": "Then I got lucky and found a local client.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "SCREEN: Upwork proposal submission dashboard"
+        }
+      }
+    },
+    {
+      "id": "s058",
+      "startSec": 239.33,
+      "endSec": 242.01,
+      "vo": "I worked with that client for around 7 months.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "media": {
+          "kind": "image",
+          "src": "shots/premiere_pro.png",
+          "label": "Adobe Premiere Pro editing interface",
+          "source": "https://adobe.com, verified 2026-11-01",
+          "verified": true
+        },
+        "statement": {
+          "text": "transitioned to **Premiere Pro**",
+          "cue": "worked",
+          "atSec": 0.23
+        }
+      }
+    },
+    {
+      "id": "s059",
+      "startSec": 242.01,
+      "endSec": 246.83,
+      "vo": "And honestly, that was really important for me because during those 7 months I improved",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "filtering strategy **honestly**",
+          "cue": "honestly",
+          "atSec": 0.11
+        }
+      }
+    },
+    {
+      "id": "s060",
+      "startSec": 246.83,
+      "endSec": 248.59,
+      "vo": "my video editing a lot.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "securing mindset **video**",
+          "cue": "video",
+          "atSec": 0.35
+        }
+      }
+    },
+    {
+      "id": "s061",
+      "startSec": 248.59,
+      "endSec": 253.645,
+      "vo": "I started learning Premiere Pro, After Effects and other software and I actually started",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "aligning delivery **learning**",
+          "cue": "learning",
+          "atSec": 0.41
+        }
+      }
+    },
+    {
+      "id": "s062",
+      "startSec": 253.645,
+      "endSec": 255.25,
+      "vo": "enjoying video editing.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "directing retention **enjoying**",
+          "cue": "enjoying",
+          "atSec": 0.05
+        }
+      }
+    },
+    {
+      "id": "s063",
+      "startSec": 255.25,
+      "endSec": 257.85,
+      "vo": "It also started making me money locally.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "navigating leverage **also**",
+          "cue": "also",
+          "atSec": 0.09
+        }
+      }
+    },
+    {
+      "id": "s064",
+      "startSec": 257.85,
+      "endSec": 262.625,
+      "vo": "I was able to make enough money from video editing to afford my current laptop, which",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "mastering system **able**",
+          "cue": "able",
+          "atSec": 0.23
+        }
+      }
+    },
+    {
+      "id": "s065",
+      "startSec": 262.625,
+      "endSec": 267.77,
+      "vo": "cost around 100,000 Ethiopian Burr, so around 2000 dollars at the time.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "funded **100,000 ETB laptop**",
+          "cue": "100000",
+          "atSec": 0.86
+        }
+      },
+      "source": "narrator states 100, 000 in voiceover context"
+    },
+    {
+      "id": "s066",
+      "startSec": 267.77,
+      "endSec": 271.49,
+      "vo": "And that motivated me even more to keep learning video editing.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "adapting freelance **motivated**",
+          "cue": "motivated",
+          "atSec": 0.23
+        }
+      }
+    },
+    {
+      "id": "s067",
+      "startSec": 271.49,
+      "endSec": 277.49,
+      "vo": "So gradually I started changing my Upwork profile from software engineering to video editing.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "assessing proposal **started**",
+          "cue": "started",
+          "atSec": 1.23
+        }
+      }
+    },
+    {
+      "id": "s068",
+      "startSec": 277.49,
+      "endSec": 282.77,
+      "vo": "But there was another mistake here, my first Upwork job was actually a software engineering job.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "auditing workflow **mistake**",
+          "cue": "mistake",
+          "atSec": 0.77
+        }
+      }
+    },
+    {
+      "id": "s069",
+      "startSec": 282.77,
+      "endSec": 287.61,
+      "vo": "I delivered a website for 10 dollars and I thought, ok, I finally got my first job, now",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "curating revenue **website**",
+          "cue": "website",
+          "atSec": 0.41
+        }
+      }
+    },
+    {
+      "id": "s070",
+      "startSec": 287.61,
+      "endSec": 290.51,
+      "vo": "things should start moving. But they didn't.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "landed first **$10 contract**",
+          "cue": "things",
+          "atSec": 0.07
+        }
+      },
+      "source": "narrator states 10 in voiceover context"
+    },
+    {
+      "id": "s071",
+      "startSec": 290.51,
+      "endSec": 295.745,
+      "vo": "I still had this long period where basically nothing was happening and that's when I realized",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "JOURNEY",
+      "beat": "journey",
+      "journey": {
+        "focus": "first_client",
+        "from": "optimize",
+        "cue": "still",
+        "revealSec": 0.07
+      }
+    },
+    {
+      "id": "s072",
+      "startSec": 295.745,
+      "endSec": 297.23,
+      "vo": "something important.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "structuring outreach **something**",
+          "cue": "something",
+          "atSec": 0.05
+        }
+      }
+    },
+    {
+      "id": "s073",
+      "startSec": 297.23,
+      "endSec": 300.51,
+      "vo": "Your first job isn't just about getting your first review.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "deploying pricing **first**",
+          "cue": "first",
+          "atSec": 0.09
+        }
+      }
+    },
+    {
+      "id": "s074",
+      "startSec": 300.51,
+      "endSec": 303.53,
+      "vo": "Your work history stays on your Upwork profile.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "refining trajectory **work**",
+          "cue": "work",
+          "atSec": 0.09
+        }
+      }
+    },
+    {
+      "id": "s075",
+      "startSec": 303.53,
+      "endSec": 308.05,
+      "vo": "So if you already know that you don't want to work in a certain profession in the future,",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "pioneering skill **already**",
+          "cue": "already",
+          "atSec": 0.53
+        }
+      }
+    },
+    {
+      "id": "s076",
+      "startSec": 308.05,
+      "endSec": 311.61,
+      "vo": "don't just take a random job because you want your first contract.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "optimizing momentum **take**",
+          "cue": "take",
+          "atSec": 0.29
+        }
+      }
+    },
+    {
+      "id": "s077",
+      "startSec": 311.61,
+      "endSec": 314.77,
+      "vo": "For me, software engineering job wasn't useless.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "clarifying market **software**",
+          "cue": "software",
+          "atSec": 0.65
+        }
+      }
+    },
+    {
+      "id": "s078",
+      "startSec": 314.77,
+      "endSec": 320.19,
+      "vo": "Having one job is obviously better than having zero jobs because it gives you some credibility.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "elevating proposal **obviously**",
+          "cue": "obviously",
+          "atSec": 0.89
+        }
+      }
+    },
+    {
+      "id": "s079",
+      "startSec": 320.19,
+      "endSec": 325.185,
+      "vo": "But if I could go back, I would rather have my first job be related to the thing I actually",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "validating workflow **back**",
+          "cue": "back",
+          "atSec": 0.73
+        }
+      }
+    },
+    {
+      "id": "s080",
+      "startSec": 325.185,
+      "endSec": 327.27,
+      "vo": "wanted to continue doing.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "decoding revenue **wanted**",
+          "cue": "wanted",
+          "atSec": 0.05
+        }
+      }
+    },
+    {
+      "id": "s081",
+      "startSec": 327.27,
+      "endSec": 332.89,
+      "vo": "Because now that software engineering job is still part of my work history and I can't just undo it.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "filtering execution **engineering**",
+          "cue": "engineering",
+          "atSec": 0.91
+        }
+      }
+    },
+    {
+      "id": "s082",
+      "startSec": 332.89,
+      "endSec": 335.05,
+      "vo": "Then came the long silent period.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "securing craft **came**",
+          "cue": "came",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s083",
+      "startSec": 335.05,
+      "endSec": 339.545,
+      "vo": "For several months I was basically working locally, improving my skills, building my",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "aligning outreach **several**",
+          "cue": "several",
+          "atSec": 0.13
+        }
+      }
+    },
+    {
+      "id": "s084",
+      "startSec": 339.545,
+      "endSec": 342.73,
+      "vo": "portfolio and updating my Upwork profile.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "directing pricing **portfolio**",
+          "cue": "portfolio",
+          "atSec": 0.06
+        }
+      }
+    },
+    {
+      "id": "s085",
+      "startSec": 342.73,
+      "endSec": 346.37,
+      "vo": "I wasn't spending hours every day on Upwork either.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "SCREEN: Upwork Connects balance interface"
+        }
+      }
+    },
+    {
+      "id": "s086",
+      "startSec": 346.37,
+      "endSec": 347.845,
+      "vo": "Sometimes I would barely check it.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "mastering skill **Sometimes**",
+          "cue": "Sometimes",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s087",
+      "startSec": 347.845,
+      "endSec": 353.61,
+      "vo": "I would just go in, check if anything changed, update my portfolio if I had a new project and then leave.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "testing momentum **check**",
+          "cue": "check",
+          "atSec": 0.99
+        }
+      }
+    },
+    {
+      "id": "s088",
+      "startSec": 353.61,
+      "endSec": 356.21,
+      "vo": "I was getting some invitations here and there.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "adapting market **getting**",
+          "cue": "getting",
+          "atSec": 0.27
+        }
+      }
+    },
+    {
+      "id": "s089",
+      "startSec": 356.21,
+      "endSec": 360.71,
+      "vo": "Some were relevant, some were not and some honestly looked like scams.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "assessing contract **relevant**",
+          "cue": "relevant",
+          "atSec": 0.27
+        }
+      }
+    },
+    {
+      "id": "s090",
+      "startSec": 360.71,
+      "endSec": 365.605,
+      "vo": "But most of them didn't turn into anything and I started realizing that getting a profile",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "auditing portfolio **turn**",
+          "cue": "turn",
+          "atSec": 1.13
+        }
+      }
+    },
+    {
+      "id": "s091",
+      "startSec": 365.605,
+      "endSec": 368.85,
+      "vo": "online doesn't mean clients are just going to come to you.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "curating strategy **online**",
+          "cue": "online",
+          "atSec": 0.05
+        }
+      }
+    },
+    {
+      "id": "s092",
+      "startSec": 368.85,
+      "endSec": 373.445,
+      "vo": "After that long period I got an invitation for a true crime video and this was my first",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "tracking mindset **long**",
+          "cue": "long",
+          "atSec": 0.27
+        }
+      }
+    },
+    {
+      "id": "s093",
+      "startSec": 373.445,
+      "endSec": 375.85,
+      "vo": "actual video editing job on Upwork.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "JOURNEY",
+      "beat": "journey",
+      "journey": {
+        "focus": "scams",
+        "from": "first_client",
+        "cue": "actual",
+        "revealSec": 0.05
+      }
+    },
+    {
+      "id": "s094",
+      "startSec": 375.85,
+      "endSec": 377.59,
+      "vo": "It was a pretty straightforward job.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "media": {
+          "kind": "image",
+          "src": "shots/telegram.png",
+          "label": "Telegram messaging platform",
+          "source": "https://telegram.org, verified 2026-11-01",
+          "verified": true
+        },
+        "statement": {
+          "text": "identifying fake client **scams**",
+          "cue": "pretty",
+          "atSec": 0.14
+        }
+      }
+    },
+    {
+      "id": "s095",
+      "startSec": 377.59,
+      "endSec": 380.81,
+      "vo": "I made the video, sent it and got paid $20.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "deploying leverage **made**",
+          "cue": "made",
+          "atSec": 0.19
+        }
+      }
+    },
+    {
+      "id": "s096",
+      "startSec": 380.81,
+      "endSec": 385.51,
+      "vo": "It took around 2 days and the client didn't really ask for any major revisions.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "refining system **took**",
+          "cue": "took",
+          "atSec": 0.11
+        }
+      }
+    },
+    {
+      "id": "s097",
+      "startSec": 385.51,
+      "endSec": 390.89,
+      "vo": "But honestly that $20 was important to me for one reason, I used it to buy connects.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "first **$20 video edit**",
+          "cue": "important",
+          "atSec": 1.77
+        }
+      },
+      "source": "narrator states 20 in voiceover context"
+    },
+    {
+      "id": "s098",
+      "startSec": 390.89,
+      "endSec": 393.63,
+      "vo": "And this is where my actual Upwork journey started.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "optimizing freelance **actual**",
+          "cue": "actual",
+          "atSec": 0.99
+        }
+      }
+    },
+    {
+      "id": "s099",
+      "startSec": 393.63,
+      "endSec": 400.39,
+      "vo": "I spent $15 on connects and that gave me enough connects to actually start applying to jobs.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "clarifying client **gave**",
+          "cue": "gave",
+          "atSec": 2.65
+        }
+      }
+    },
+    {
+      "id": "s100",
+      "startSec": 400.39,
+      "endSec": 403.23,
+      "vo": "Before that I was mostly waiting for invitations.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "elevating contract **Before**",
+          "cue": "Before",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s101",
+      "startSec": 403.23,
+      "endSec": 407.25,
+      "vo": "Now I could actually choose the jobs I wanted to apply for.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "reinvested **$15 in Connects**",
+          "cue": "Now",
+          "atSec": 0.07
+        }
+      },
+      "source": "narrator states 15 in voiceover context"
+    },
+    {
+      "id": "s102",
+      "startSec": 407.25,
+      "endSec": 410.35,
+      "vo": "And that's when things started becoming more interesting.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "decoding strategy **things**",
+          "cue": "things",
+          "atSec": 0.71
+        }
+      }
+    },
+    {
+      "id": "s103",
+      "startSec": 410.35,
+      "endSec": 414.37,
+      "vo": "Because I realized that it's not really about applying to every job you see.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "filtering mindset **Because**",
+          "cue": "Because",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s104",
+      "startSec": 414.37,
+      "endSec": 418.47,
+      "vo": "It's about finding jobs that actually match your profile and what you can do.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "securing delivery **finding**",
+          "cue": "finding",
+          "atSec": 0.39
+        }
+      }
+    },
+    {
+      "id": "s105",
+      "startSec": 418.47,
+      "endSec": 423.77,
+      "vo": "I also learned that you shouldn't just finish your connects in one day by applying to everything.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "aligning retention **learned**",
+          "cue": "learned",
+          "atSec": 0.55
+        }
+      }
+    },
+    {
+      "id": "s106",
+      "startSec": 423.77,
+      "endSec": 426.77,
+      "vo": "It's not really about quantity, it's about quality.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "SCREEN: Client job posting with requirements"
+        }
+      }
+    },
+    {
+      "id": "s107",
+      "startSec": 426.77,
+      "endSec": 431.77,
+      "vo": "If I see a job that doesn't match my profile I don't need to apply just because it's there.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "navigating system **see**",
+          "cue": "see",
+          "atSec": 0.25
+        }
+      }
+    },
+    {
+      "id": "s108",
+      "startSec": 431.77,
+      "endSec": 437.53,
+      "vo": "And when I do apply I try to write a simple message that is confident and actually matches my profile.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "tailored quality beats **volume**",
+          "cue": "try",
+          "atSec": 1.31
+        }
+      }
+    },
+    {
+      "id": "s109",
+      "startSec": 437.53,
+      "endSec": 441.33,
+      "vo": "I don't think you need some complicated AI generated proposal.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "testing freelance **think**",
+          "cue": "think",
+          "atSec": 0.55
+        }
+      }
+    },
+    {
+      "id": "s110",
+      "startSec": 441.33,
+      "endSec": 446.285,
+      "vo": "You just need to show the client that you understand what they need and that you can actually give",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "adapting client **need**",
+          "cue": "need",
+          "atSec": 0.29
+        }
+      }
+    },
+    {
+      "id": "s111",
+      "startSec": 446.285,
+      "endSec": 447.33,
+      "vo": "them value.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "TALKING-HEAD: Creator explaining proposal details"
+        }
+      }
+    },
+    {
+      "id": "s112",
+      "startSec": 447.33,
+      "endSec": 450.69,
+      "vo": "And that's how I eventually got my $90 client.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "auditing revenue **eventually**",
+          "cue": "eventually",
+          "atSec": 0.97
+        }
+      }
+    },
+    {
+      "id": "s113",
+      "startSec": 450.69,
+      "endSec": 453.61,
+      "vo": "This client taught me more than any of the other jobs.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "SCREEN: Telegram scam request for off-platform deposit"
+        }
+      }
+    },
+    {
+      "id": "s114",
+      "startSec": 453.61,
+      "endSec": 458.69,
+      "vo": "The job was for a YouTube video and when I saw sample they attached, I was immediately",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "media": {
+          "kind": "image",
+          "src": "shots/google.png",
+          "label": "Google search platform",
+          "source": "https://google.com, verified 2026-11-01",
+          "verified": true
+        },
+        "statement": {
+          "text": "researching client hiring **history**",
+          "cue": "YouTube",
+          "atSec": 0.91
+        }
+      }
+    },
+    {
+      "id": "s115",
+      "startSec": 458.69,
+      "endSec": 462.81,
+      "vo": "interested because it was exactly the type of editing I wanted to do.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "crafting outreach **interested**",
+          "cue": "interested",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s116",
+      "startSec": 462.81,
+      "endSec": 467.885,
+      "vo": "So my proposal was basically saying that I saw the sample, it matched my skillset, I",
+      "why": "breaks down key components of high-converting Upwork proposals",
+      "layout": "LIST",
+      "beat": "list",
+      "source": "creator proposal checklist principles",
+      "list": {
+        "title": {
+          "text": "WINNING PROPOSAL FORMULA",
+          "atSec": 0
+        },
+        "items": [
+          {
+            "text": "Targeted **Proposal**",
+            "cue": "proposal",
+            "atSec": 0.33
+          },
+          {
+            "text": "Matched **Sample**",
+            "cue": "sample",
+            "atSec": 2.73
+          }
+        ]
+      }
+    },
+    {
+      "id": "s117",
+      "startSec": 467.885,
+      "endSec": 472.685,
+      "vo": "edit in Premiere Pro and After Effects, I have a fast internet connection, I respond quickly",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "deploying trajectory **edit**",
+          "cue": "edit",
+          "atSec": 0.05
+        }
+      }
+    },
+    {
+      "id": "s118",
+      "startSec": 472.685,
+      "endSec": 475.73,
+      "vo": "and I've never missed a deadline with my previous clients.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "refining skill **never**",
+          "cue": "never",
+          "atSec": 0.59
+        }
+      }
+    },
+    {
+      "id": "s119",
+      "startSec": 475.73,
+      "endSec": 478.71,
+      "vo": "I also said that I could recreate the style of the reference and I was happy to do a pay",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "pioneering momentum **also**",
+          "cue": "also",
+          "atSec": 0.23
+        }
+      }
+    },
+    {
+      "id": "s120",
+      "startSec": 478.71,
+      "endSec": 481.77,
+      "vo": "test and I got the job.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "SCREEN: Video editing timeline in Premiere Pro"
+        }
+      }
+    },
+    {
+      "id": "s121",
+      "startSec": 481.77,
+      "endSec": 484.37,
+      "vo": "It was a $90 one time YouTube video.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "clarifying proposal **one**",
+          "cue": "one",
+          "atSec": 0.79
+        }
+      }
+    },
+    {
+      "id": "s122",
+      "startSec": 484.37,
+      "endSec": 488.45,
+      "vo": "And the client was very professional and very specific about what he wanted.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "elevating workflow **client**",
+          "cue": "client",
+          "atSec": 0.29
+        }
+      }
+    },
+    {
+      "id": "s123",
+      "startSec": 488.45,
+      "endSec": 492.29,
+      "vo": "And this is where I learned my first big lesson about clients.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "validating revenue **learned**",
+          "cue": "learned",
+          "atSec": 0.99
+        }
+      }
+    },
+    {
+      "id": "s124",
+      "startSec": 492.29,
+      "endSec": 494.71,
+      "vo": "First don't always try do your own thing.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "decoding execution **First**",
+          "cue": "First",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s125",
+      "startSec": 494.71,
+      "endSec": 499.125,
+      "vo": "As an editor sometimes you think you can make the project better, you see something and",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "closed targeted **$90 client**",
+          "cue": "editor",
+          "atSec": 0.31
+        }
+      },
+      "source": "narrator states 90 in voiceover context"
+    },
+    {
+      "id": "s126",
+      "startSec": 499.125,
+      "endSec": 500.83,
+      "vo": "you're like ok I can improve this.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "securing outreach **like**",
+          "cue": "like",
+          "atSec": 0.05
+        }
+      }
+    },
+    {
+      "id": "s127",
+      "startSec": 500.83,
+      "endSec": 504.01,
+      "vo": "But sometimes the client doesn't want your improvement.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "SCREEN: Code editor with web development project"
+        }
+      }
+    },
+    {
+      "id": "s128",
+      "startSec": 504.01,
+      "endSec": 508.545,
+      "vo": "They already have a specific style, they already have a reference, they already know what they",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "directing trajectory **already**",
+          "cue": "already",
+          "atSec": 0.15
+        }
+      }
+    },
+    {
+      "id": "s129",
+      "startSec": 508.545,
+      "endSec": 514.37,
+      "vo": "want and in that case your job is not to make it better according to your own taste.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "adapting to **client taste**",
+          "cue": "case",
+          "atSec": 1.29
+        }
+      }
+    },
+    {
+      "id": "s130",
+      "startSec": 514.37,
+      "endSec": 517.67,
+      "vo": "Your job is to understand what they want and execute it.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "media": {
+          "kind": "image",
+          "src": "shots/youtube.png",
+          "label": "YouTube video platform",
+          "source": "https://youtube.com, verified 2026-11-01",
+          "verified": true
+        },
+        "statement": {
+          "text": "publishing weekly YouTube **reels**",
+          "cue": "job",
+          "atSec": 0.13
+        }
+      }
+    },
+    {
+      "id": "s131",
+      "startSec": 517.67,
+      "endSec": 521.41,
+      "vo": "So before adding your own touch to something just ask them.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "testing market **before**",
+          "cue": "before",
+          "atSec": 0.19
+        }
+      }
+    },
+    {
+      "id": "s132",
+      "startSec": 521.41,
+      "endSec": 524.89,
+      "vo": "Because what you think is better might not be what the client wants.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "adapting proposal **Because**",
+          "cue": "Because",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s133",
+      "startSec": 524.89,
+      "endSec": 528.39,
+      "vo": "The second thing I learned is to be patient with revisions.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "assessing portfolio **second**",
+          "cue": "second",
+          "atSec": 0.17
+        }
+      }
+    },
+    {
+      "id": "s134",
+      "startSec": 528.39,
+      "endSec": 531.39,
+      "vo": "This client had already paid me after I finished the project.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "BROLL: Typing proposal late at night"
+        }
+      }
+    },
+    {
+      "id": "s135",
+      "startSec": 531.39,
+      "endSec": 534.21,
+      "vo": "Then he came back and asked me to change a few small things.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "curating mindset **came**",
+          "cue": "came",
+          "atSec": 0.29
+        }
+      }
+    },
+    {
+      "id": "s136",
+      "startSec": 534.21,
+      "endSec": 538.61,
+      "vo": "I could've said you already reviewed it, I already finished the project, why are you",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "tracking delivery **said**",
+          "cue": "said",
+          "atSec": 0.57
+        }
+      }
+    },
+    {
+      "id": "s137",
+      "startSec": 538.61,
+      "endSec": 541.29,
+      "vo": "asking me to change it? But I didn't.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "crafting retention **asking**",
+          "cue": "asking",
+          "atSec": 0.05
+        }
+      }
+    },
+    {
+      "id": "s138",
+      "startSec": 541.29,
+      "endSec": 544.345,
+      "vo": "It was a small thing so I just said ok I'll change it.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "rapid revision **turnaround**",
+          "cue": "small",
+          "atSec": 0.45
+        }
+      }
+    },
+    {
+      "id": "s139",
+      "startSec": 544.345,
+      "endSec": 548.45,
+      "vo": "Honestly it wasn't a big deal for me but for the client it mattered.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "deploying system **Honestly**",
+          "cue": "Honestly",
+          "atSec": 0.05
+        }
+      }
+    },
+    {
+      "id": "s140",
+      "startSec": 548.45,
+      "endSec": 552.43,
+      "vo": "And especially when you're starting out I think it's better to create this friendly",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "refining path **especially**",
+          "cue": "especially",
+          "atSec": 0.09
+        }
+      }
+    },
+    {
+      "id": "s141",
+      "startSec": 552.43,
+      "endSec": 557.885,
+      "vo": "vibe instead of having this really strict professional relationship where you're counting",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "pioneering freelance **having**",
+          "cue": "having",
+          "atSec": 1.13
+        }
+      }
+    },
+    {
+      "id": "s142",
+      "startSec": 557.885,
+      "endSec": 559.03,
+      "vo": "every little thing.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "JOURNEY",
+      "beat": "journey",
+      "journey": {
+        "focus": "retention",
+        "from": "scams",
+        "cue": "every",
+        "revealSec": 0.05
+      }
+    },
+    {
+      "id": "s143",
+      "startSec": 559.03,
+      "endSec": 562.41,
+      "vo": "I'm not saying you should accept unlimited work for free.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "clarifying contract **saying**",
+          "cue": "saying",
+          "atSec": 0.35
+        }
+      }
+    },
+    {
+      "id": "s144",
+      "startSec": 562.41,
+      "endSec": 567.965,
+      "vo": "I'm just saying if a client asks for a small and reasonable change sometimes it's better",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "elevating portfolio **client**",
+          "cue": "client",
+          "atSec": 1.47
+        }
+      }
+    },
+    {
+      "id": "s145",
+      "startSec": 567.965,
+      "endSec": 571.41,
+      "vo": "to just do it instead of creating unnecessary problems.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "validating strategy **instead**",
+          "cue": "instead",
+          "atSec": 0.59
+        }
+      }
+    },
+    {
+      "id": "s146",
+      "startSec": 571.41,
+      "endSec": 573.57,
+      "vo": "And the third thing is communication.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "decoding mindset **third**",
+          "cue": "third",
+          "atSec": 0.21
+        }
+      }
+    },
+    {
+      "id": "s147",
+      "startSec": 573.57,
+      "endSec": 579.39,
+      "vo": "If a client tells you to change a lot of things don't just sit there guessing what they mean.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "filtering delivery **change**",
+          "cue": "change",
+          "atSec": 1.41
+        }
+      }
+    },
+    {
+      "id": "s148",
+      "startSec": 579.39,
+      "endSec": 581.61,
+      "vo": "Ask them specifically what they want.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "BROLL: Scrolling freelance job listings"
+        }
+      }
+    },
+    {
+      "id": "s149",
+      "startSec": 581.61,
+      "endSec": 587.09,
+      "vo": "Because sometimes you can spend hours going back and forth just because you misunderstood one small thing.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "aligning leverage **spend**",
+          "cue": "spend",
+          "atSec": 0.91
+        }
+      }
+    },
+    {
+      "id": "s150",
+      "startSec": 587.09,
+      "endSec": 592.225,
+      "vo": "If they have some technical knowledge sometimes you can even give them the project files if",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "directing system **technical**",
+          "cue": "technical",
+          "atSec": 0.85
+        }
+      }
+    },
+    {
+      "id": "s151",
+      "startSec": 592.225,
+      "endSec": 595.55,
+      "vo": "the changes are very small and they want to do them themselves.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "navigating path **changes**",
+          "cue": "changes",
+          "atSec": 0.13
+        }
+      }
+    },
+    {
+      "id": "s152",
+      "startSec": 595.55,
+      "endSec": 597.97,
+      "vo": "But the main thing is just communicate.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "mastering freelance **main**",
+          "cue": "main",
+          "atSec": 0.31
+        }
+      }
+    },
+    {
+      "id": "s153",
+      "startSec": 597.97,
+      "endSec": 599.33,
+      "vo": "Ask before you do.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "freelance **Ask**",
+          "cue": "Ask",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s154",
+      "startSec": 599.33,
+      "endSec": 603.05,
+      "vo": "Because a lot of problems with clients aren't really editing problems.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "adapting contract **Because**",
+          "cue": "Because",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s155",
+      "startSec": 603.05,
+      "endSec": 604.81,
+      "vo": "They're communication problems.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "BROLL: Testing internet connection speed"
+        }
+      }
+    },
+    {
+      "id": "s156",
+      "startSec": 604.81,
+      "endSec": 606.29,
+      "vo": "And then I learned something else.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "source": "freelance platform scam detection guidelines",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "TALKING-HEAD: Creator reflecting on freelance lessons"
+        }
+      }
+    },
+    {
+      "id": "s157",
+      "startSec": 606.29,
+      "endSec": 608.75,
+      "vo": "Not every client is a good client.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "curating craft **every**",
+          "cue": "every",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s158",
+      "startSec": 608.75,
+      "endSec": 614.745,
+      "vo": "I had another client offer me around $30 for an 8 minute video and at first I thought okay",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "tracking outreach **around**",
+          "cue": "around",
+          "atSec": 1.77
+        }
+      }
+    },
+    {
+      "id": "s159",
+      "startSec": 614.745,
+      "endSec": 616.37,
+      "vo": "this could be a long term client.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "crafting pricing **long**",
+          "cue": "long",
+          "atSec": 0.27
+        }
+      }
+    },
+    {
+      "id": "s160",
+      "startSec": 616.37,
+      "endSec": 618.81,
+      "vo": "But then I actually looked at the requirements.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "structuring trajectory **actually**",
+          "cue": "actually",
+          "atSec": 0.51
+        }
+      }
+    },
+    {
+      "id": "s161",
+      "startSec": 618.81,
+      "endSec": 621.61,
+      "vo": "There were more than 20 requirements for one video.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "deploying skill **There**",
+          "cue": "There",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s162",
+      "startSec": 621.61,
+      "endSec": 623.97,
+      "vo": "They wanted very specific timestamps.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "TALKING-HEAD: Creator discussing proposal rejection"
+        }
+      }
+    },
+    {
+      "id": "s163",
+      "startSec": 623.97,
+      "endSec": 626.83,
+      "vo": "They wanted every silent section identified.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "pioneering market **wanted**",
+          "cue": "wanted",
+          "atSec": 0.09
+        }
+      }
+    },
+    {
+      "id": "s164",
+      "startSec": 626.83,
+      "endSec": 631.23,
+      "vo": "They wanted me to generate footage using my own AI tools.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "optimizing proposal **wanted**",
+          "cue": "wanted",
+          "atSec": 0.13
+        }
+      }
+    },
+    {
+      "id": "s165",
+      "startSec": 631.23,
+      "endSec": 634.41,
+      "vo": "And there were a lot of other very specific requirements.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "clarifying workflow **there**",
+          "cue": "there",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s166",
+      "startSec": 634.41,
+      "endSec": 639.77,
+      "vo": "So when I actually look at the amount of work that $30 wasn't really $30 worth of work.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "elevating revenue **actually**",
+          "cue": "actually",
+          "atSec": 0.61
+        }
+      }
+    },
+    {
+      "id": "s167",
+      "startSec": 639.77,
+      "endSec": 644.91,
+      "vo": "That video could have taken me basically the whole day and I already had other work.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "validating execution **taken**",
+          "cue": "taken",
+          "atSec": 0.79
+        }
+      }
+    },
+    {
+      "id": "s168",
+      "startSec": 644.91,
+      "endSec": 646.51,
+      "vo": "So I didn't accept it.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "TALKING-HEAD: Creator accepting challenging client feedback"
+        }
+      }
+    },
+    {
+      "id": "s169",
+      "startSec": 646.51,
+      "endSec": 648.79,
+      "vo": "And that taught me something really important.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "TALKING-HEAD: Creator breaking down Connects costs"
+        }
+      }
+    },
+    {
+      "id": "s170",
+      "startSec": 648.79,
+      "endSec": 651.73,
+      "vo": "At the beginning you think I just need a client.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "securing pricing **beginning**",
+          "cue": "beginning",
+          "atSec": 0.29
+        }
+      }
+    },
+    {
+      "id": "s171",
+      "startSec": 651.73,
+      "endSec": 656.49,
+      "vo": "But later you realize I need a client whose expectations I can actually meet.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "aligning trajectory **later**",
+          "cue": "later",
+          "atSec": 0.09
+        }
+      }
+    },
+    {
+      "id": "s172",
+      "startSec": 656.49,
+      "endSec": 660.49,
+      "vo": "Because if you accept a job you can't handle you might end up with a bad review.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "directing skill **Because**",
+          "cue": "Because",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s173",
+      "startSec": 660.49,
+      "endSec": 662.61,
+      "vo": "And that can affect your future jobs.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "navigating momentum **affect**",
+          "cue": "affect",
+          "atSec": 0.43
+        }
+      }
+    },
+    {
+      "id": "s174",
+      "startSec": 662.61,
+      "endSec": 668.73,
+      "vo": "So sometimes saying no to a job is better than accepting it just because you want the money.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "mastering market **job**",
+          "cue": "job",
+          "atSec": 1.95
+        }
+      }
+    },
+    {
+      "id": "s175",
+      "startSec": 668.73,
+      "endSec": 671.97,
+      "vo": "And looking back my portfolio was probably one of my biggest problems.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "testing proposal **looking**",
+          "cue": "looking",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s176",
+      "startSec": 671.97,
+      "endSec": 674.37,
+      "vo": "My portfolio was missing quality.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "TALKING-HEAD: Creator sharing first client experience"
+        }
+      }
+    },
+    {
+      "id": "s177",
+      "startSec": 674.37,
+      "endSec": 676.505,
+      "vo": "There were unrelated videos in it.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "assessing strategy **There**",
+          "cue": "There",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s178",
+      "startSec": 676.505,
+      "endSec": 681.385,
+      "vo": "Some of the work was cheap and my profile description was claiming more than what my",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "auditing mindset **work**",
+          "cue": "work",
+          "atSec": 0.2
+        }
+      }
+    },
+    {
+      "id": "s179",
+      "startSec": 681.385,
+      "endSec": 683.01,
+      "vo": "portfolio could actually prove.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "sample **portfolio**",
+          "cue": "portfolio",
+          "atSec": -0.16
+        }
+      }
+    },
+    {
+      "id": "s180",
+      "startSec": 683.01,
+      "endSec": 688.45,
+      "vo": "I was trying to make my profile look professional instead of actually making the work professional.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "tracking retention **make**",
+          "cue": "make",
+          "atSec": 0.81
+        }
+      }
+    },
+    {
+      "id": "s181",
+      "startSec": 688.45,
+      "endSec": 691.41,
+      "vo": "And eventually I realized that clients can see that.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "crafting leverage **eventually**",
+          "cue": "eventually",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s182",
+      "startSec": 691.41,
+      "endSec": 693.65,
+      "vo": "You can't really fool most clients.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "structuring system **really**",
+          "cue": "really",
+          "atSec": 0.49
+        }
+      }
+    },
+    {
+      "id": "s183",
+      "startSec": 693.65,
+      "endSec": 695.93,
+      "vo": "They've already posted multiple jobs.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "TALKING-HEAD: Creator warning about fake clients"
+        }
+      }
+    },
+    {
+      "id": "s184",
+      "startSec": 695.93,
+      "endSec": 698.93,
+      "vo": "They've already looked through hundreds of freelancers.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "refining freelance **already**",
+          "cue": "already",
+          "atSec": 0.17
+        }
+      }
+    },
+    {
+      "id": "s185",
+      "startSec": 698.93,
+      "endSec": 704.81,
+      "vo": "They can look at your portfolio and understand pretty quickly whether you actually know what you're doing.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "pioneering client **understand**",
+          "cue": "understand",
+          "atSec": 1.85
+        }
+      }
+    },
+    {
+      "id": "s186",
+      "startSec": 704.81,
+      "endSec": 708.61,
+      "vo": "So if you're just starting out don't try to pretend you're an expert.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "optimizing contract **starting**",
+          "cue": "starting",
+          "atSec": 0.77
+        }
+      }
+    },
+    {
+      "id": "s187",
+      "startSec": 708.61,
+      "endSec": 710.25,
+      "vo": "Just show what you actually know.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "clarifying portfolio **show**",
+          "cue": "show",
+          "atSec": 0.09
+        }
+      }
+    },
+    {
+      "id": "s188",
+      "startSec": 710.25,
+      "endSec": 713.39,
+      "vo": "If you don't have client work yet make your own sample projects.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "elevating strategy **client**",
+          "cue": "client",
+          "atSec": 0.57
+        }
+      }
+    },
+    {
+      "id": "s189",
+      "startSec": 713.39,
+      "endSec": 714.81,
+      "vo": "Make them as good as you can.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "validating mindset **Make**",
+          "cue": "Make",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s190",
+      "startSec": 714.81,
+      "endSec": 719.61,
+      "vo": "And make sure the portfolio actually supports what your profile says you can do.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "decoding delivery **make**",
+          "cue": "make",
+          "atSec": 0.09
+        }
+      }
+    },
+    {
+      "id": "s191",
+      "startSec": 719.61,
+      "endSec": 721.85,
+      "vo": "And that's another thing I learned about myself.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "filtering retention **another**",
+          "cue": "another",
+          "atSec": 0.35
+        }
+      }
+    },
+    {
+      "id": "s192",
+      "startSec": 721.85,
+      "endSec": 723.73,
+      "vo": "I'm not an Upwork expert.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "media": {
+          "kind": "image",
+          "src": "shots/stripe.png",
+          "label": "Stripe financial infrastructure",
+          "source": "https://stripe.com, verified 2026-11-01",
+          "verified": true
+        },
+        "statement": {
+          "text": "direct revenue outside **Upwork**",
+          "cue": "Upwork",
+          "atSec": 0.28
+        }
+      }
+    },
+    {
+      "id": "s193",
+      "startSec": 723.73,
+      "endSec": 726.33,
+      "vo": "I'm not making this video because I mastered Upwork.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "aligning system **making**",
+          "cue": "making",
+          "atSec": 0.41
+        }
+      }
+    },
+    {
+      "id": "s194",
+      "startSec": 726.33,
+      "endSec": 730.73,
+      "vo": "I've made more than $5,000 outside of Upwork from video editing.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "directing path **made**",
+          "cue": "made",
+          "atSec": 0.35
+        }
+      }
+    },
+    {
+      "id": "s195",
+      "startSec": 730.73,
+      "endSec": 734.35,
+      "vo": "But on Upwork I've only made around $150.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "navigating freelance **Upwork**",
+          "cue": "Upwork",
+          "atSec": 0.27
+        }
+      }
+    },
+    {
+      "id": "s196",
+      "startSec": 734.35,
+      "endSec": 736.925,
+      "vo": "So I'm not here to tell you that I'm some Upwork guru.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "mastering client **here**",
+          "cue": "here",
+          "atSec": 0.55
+        }
+      }
+    },
+    {
+      "id": "s197",
+      "startSec": 736.925,
+      "endSec": 740.95,
+      "vo": "I'm just showing you what happened to me and what made my journey easier.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "testing contract **showing**",
+          "cue": "showing",
+          "atSec": 0.34
+        }
+      }
+    },
+    {
+      "id": "s198",
+      "startSec": 740.95,
+      "endSec": 744.49,
+      "vo": "And I think that's actually more useful for someone who is starting out.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "adapting portfolio **think**",
+          "cue": "think",
+          "atSec": 0.27
+        }
+      }
+    },
+    {
+      "id": "s199",
+      "startSec": 744.49,
+      "endSec": 748.33,
+      "vo": "Because I was a beginner too, I made a lot of stupid mistakes.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "assessing execution **Because**",
+          "cue": "Because",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s200",
+      "startSec": 748.33,
+      "endSec": 751.65,
+      "vo": "And I can show you exactly what those mistakes were.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "auditing craft **show**",
+          "cue": "show",
+          "atSec": 0.45
+        }
+      }
+    },
+    {
+      "id": "s201",
+      "startSec": 751.65,
+      "endSec": 755.19,
+      "vo": "So if I had to start Upwork again, I would do things very differently.",
+      "why": "outlines actionable roadmap for year 2 freelance strategy",
+      "layout": "STEPS",
+      "beat": "steps",
+      "source": "strategic roadmap for scaling freelance operations",
+      "steps": {
+        "heading": {
+          "text": "YEAR 2 ROADMAP",
+          "atSec": 0
+        },
+        "items": [
+          {
+            "text": "First **Start**",
+            "cue": "start",
+            "atSec": 0.65
+          },
+          {
+            "text": "Execute **Differently**",
+            "cue": "things",
+            "atSec": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "s202",
+      "startSec": 755.19,
+      "endSec": 758.73,
+      "vo": "First, I would actually learn the skill before trying to freelance with it.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "tracking pricing **First**",
+          "cue": "First",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s203",
+      "startSec": 758.73,
+      "endSec": 763.985,
+      "vo": "For video editing, I spent around 3 or 4 months learning the basics before I really started",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "crafting trajectory **editing**",
+          "cue": "editing",
+          "atSec": 0.47
+        }
+      }
+    },
+    {
+      "id": "s204",
+      "startSec": 763.985,
+      "endSec": 765.37,
+      "vo": "taking it seriously.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "TALKING-HEAD: Creator explaining client retention"
+        }
+      }
+    },
+    {
+      "id": "s205",
+      "startSec": 765.37,
+      "endSec": 768.05,
+      "vo": "Then I would choose what I actually want to work with.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "deploying momentum **choose**",
+          "cue": "choose",
+          "atSec": 0.43
+        }
+      }
+    },
+    {
+      "id": "s206",
+      "startSec": 768.05,
+      "endSec": 773.77,
+      "vo": "I wouldn't create a profile as a software engineer and then slowly turn it into a video editor.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "refining market **profile**",
+          "cue": "profile",
+          "atSec": 1.09
+        }
+      }
+    },
+    {
+      "id": "s207",
+      "startSec": 773.77,
+      "endSec": 777.41,
+      "vo": "I would decide what I want to do and build everything around that.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "pioneering proposal **decide**",
+          "cue": "decide",
+          "atSec": 0.27
+        }
+      }
+    },
+    {
+      "id": "s208",
+      "startSec": 777.41,
+      "endSec": 779.57,
+      "vo": "Then I would build a real portfolio.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "optimizing workflow **build**",
+          "cue": "build",
+          "atSec": 0.49
+        }
+      }
+    },
+    {
+      "id": "s209",
+      "startSec": 779.57,
+      "endSec": 781.05,
+      "vo": "Not just random videos.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "clarifying revenue **random**",
+          "cue": "random",
+          "atSec": 0.13
+        }
+      }
+    },
+    {
+      "id": "s210",
+      "startSec": 781.05,
+      "endSec": 782.59,
+      "vo": "Not someone else's work.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "elevating execution **someone**",
+          "cue": "someone",
+          "atSec": 0.09
+        }
+      }
+    },
+    {
+      "id": "s211",
+      "startSec": 782.59,
+      "endSec": 785.09,
+      "vo": "Not cheap videos just to fill the portfolio.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "TALKING-HEAD: Creator summarizing final 365-day earnings"
+        }
+      }
+    },
+    {
+      "id": "s212",
+      "startSec": 785.09,
+      "endSec": 790.245,
+      "vo": "I would make a few really good sample projects that actually represent the work I want clients",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "decoding outreach **make**",
+          "cue": "make",
+          "atSec": 0.47
+        }
+      }
+    },
+    {
+      "id": "s213",
+      "startSec": 790.245,
+      "endSec": 791.57,
+      "vo": "to hire me for.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "freelance **hire**",
+          "cue": "hire",
+          "atSec": 0.13
+        }
+      }
+    },
+    {
+      "id": "s214",
+      "startSec": 791.57,
+      "endSec": 793.29,
+      "vo": "Then I would make the profile simple.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "securing trajectory **make**",
+          "cue": "make",
+          "atSec": 0.37
+        }
+      }
+    },
+    {
+      "id": "s215",
+      "startSec": 793.29,
+      "endSec": 797.01,
+      "vo": "I wouldn't spend months trying to make the description sound perfect.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "aligning skill **spend**",
+          "cue": "spend",
+          "atSec": 0.51
+        }
+      }
+    },
+    {
+      "id": "s216",
+      "startSec": 797.01,
+      "endSec": 799.77,
+      "vo": "Because honestly, your portfolio is the backbone.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "directing momentum **Because**",
+          "cue": "Because",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s217",
+      "startSec": 799.77,
+      "endSec": 802.91,
+      "vo": "If your portfolio is good, it shows what you can do.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "navigating market **portfolio**",
+          "cue": "portfolio",
+          "atSec": 0.41
+        }
+      }
+    },
+    {
+      "id": "s218",
+      "startSec": 802.91,
+      "endSec": 808.89,
+      "vo": "If your portfolio is bad, no amount of 5 years of experience in your description is going to fix it.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "mastering proposal **amount**",
+          "cue": "amount",
+          "atSec": 1.81
+        }
+      }
+    },
+    {
+      "id": "s219",
+      "startSec": 808.89,
+      "endSec": 811.53,
+      "vo": "And after that I would start applying much earlier.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "testing workflow **start**",
+          "cue": "start",
+          "atSec": 0.99
+        }
+      }
+    },
+    {
+      "id": "s220",
+      "startSec": 811.53,
+      "endSec": 813.17,
+      "vo": "I wouldn't apply to everything.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "adapting revenue **apply**",
+          "cue": "apply",
+          "atSec": 0.29
+        }
+      }
+    },
+    {
+      "id": "s221",
+      "startSec": 813.17,
+      "endSec": 817.97,
+      "vo": "I would look through the jobs, find the ones that actually match me and apply strategically.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "assessing mindset **look**",
+          "cue": "look",
+          "atSec": 0.23
+        }
+      }
+    },
+    {
+      "id": "s222",
+      "startSec": 817.97,
+      "endSec": 819.95,
+      "vo": "So was Upwork worth it?",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "JOURNEY",
+      "beat": "journey",
+      "journey": {
+        "focus": "verdict",
+        "from": "retention",
+        "cue": "Upwork",
+        "revealSec": 0.63
+      }
+    },
+    {
+      "id": "s223",
+      "startSec": 819.95,
+      "endSec": 823.93,
+      "vo": "For me I think it was useful, but definitely not in the way I expected.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "curating retention **think**",
+          "cue": "think",
+          "atSec": 0.49
+        }
+      }
+    },
+    {
+      "id": "s224",
+      "startSec": 823.93,
+      "endSec": 830.25,
+      "vo": "I started thinking that once I got 1 or 2 clients, I would get flooded with clients. That didn't happen.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "tracking leverage **got**",
+          "cue": "got",
+          "atSec": 1.89
+        }
+      }
+    },
+    {
+      "id": "s225",
+      "startSec": 830.25,
+      "endSec": 832.33,
+      "vo": "I spent months getting almost nothing.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "SCREEN: Client message conversation in Upwork chat"
+        }
+      }
+    },
+    {
+      "id": "s226",
+      "startSec": 832.33,
+      "endSec": 837.29,
+      "vo": "I changed my profession, I changed my profile, I worked locally, I improved my skills, I",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "structuring path **profession**",
+          "cue": "profession",
+          "atSec": 0.89
+        }
+      }
+    },
+    {
+      "id": "s227",
+      "startSec": 837.29,
+      "endSec": 842.305,
+      "vo": "built my portfolio, I eventually got a $20 job, used that money to buy Connects and then",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "budgeting monthly for **Connects**",
+          "cue": "portfolio",
+          "atSec": 0.47
+        }
+      }
+    },
+    {
+      "id": "s228",
+      "startSec": 842.305,
+      "endSec": 843.59,
+      "vo": "got a $90 client.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "freelance **got**",
+          "cue": "got",
+          "atSec": 0.05
+        }
+      }
+    },
+    {
+      "id": "s229",
+      "startSec": 843.59,
+      "endSec": 848.89,
+      "vo": "And that $90 client probably taught me more about freelancing than all the profile optimization",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "pioneering contract **client**",
+          "cue": "client",
+          "atSec": 0.71
+        }
+      }
+    },
+    {
+      "id": "s230",
+      "startSec": 848.89,
+      "endSec": 850.21,
+      "vo": "I did before that.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "freelance **before**",
+          "cue": "before",
+          "atSec": 0.12
+        }
+      }
+    },
+    {
+      "id": "s231",
+      "startSec": 850.21,
+      "endSec": 854.945,
+      "vo": "So if you're starting Upwork because you think it's easy money, my experience definitely",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "clarifying strategy **starting**",
+          "cue": "starting",
+          "atSec": 0.55
+        }
+      }
+    },
+    {
+      "id": "s232",
+      "startSec": 854.945,
+      "endSec": 856.43,
+      "vo": "doesn't show that.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "SCREEN: Project delivery file upload screen"
+        }
+      }
+    },
+    {
+      "id": "s233",
+      "startSec": 856.43,
+      "endSec": 861.37,
+      "vo": "But if you already have a skill, you can actually show your work, you're willing to be patient",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "validating delivery **already**",
+          "cue": "already",
+          "atSec": 0.69
+        }
+      }
+    },
+    {
+      "id": "s234",
+      "startSec": 861.37,
+      "endSec": 866.51,
+      "vo": "and you're willing to learn from the clients you work with, then yes, you can eventually",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "decoding retention **willing**",
+          "cue": "willing",
+          "atSec": 1.05
+        }
+      }
+    },
+    {
+      "id": "s235",
+      "startSec": 866.51,
+      "endSec": 867.73,
+      "vo": "get work.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "freelance **get**",
+          "cue": "get",
+          "atSec": 0.05
+        }
+      }
+    },
+    {
+      "id": "s236",
+      "startSec": 867.73,
+      "endSec": 872.89,
+      "vo": "But the biggest thing I learned is that you shouldn't spend all your time trying to look hireable.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "securing system **biggest**",
+          "cue": "biggest",
+          "atSec": 0.45
+        }
+      }
+    },
+    {
+      "id": "s237",
+      "startSec": 872.89,
+      "endSec": 875.57,
+      "vo": "You need to actually become good enough to be hireable.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "aligning path **need**",
+          "cue": "need",
+          "atSec": 0.07
+        }
+      }
+    },
+    {
+      "id": "s238",
+      "startSec": 875.57,
+      "endSec": 880.69,
+      "vo": "And then your profile, your portfolio, your proposal and everything else should just show that.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "directing freelance **profile**",
+          "cue": "profile",
+          "atSec": 0.53
+        }
+      }
+    },
+    {
+      "id": "s239",
+      "startSec": 880.69,
+      "endSec": 882.01,
+      "vo": "That's basically my Upwork journey.",
+      "why": "provides clean visual breathing room on foundational footage plate",
+      "layout": "STACK",
+      "beat": "bare",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "SCREEN: Client 5-star review testimonial"
+        }
+      }
+    },
+    {
+      "id": "s240",
+      "startSec": 882.01,
+      "endSec": 887.93,
+      "vo": "I only made around $150 from Upwork, but honestly I learned a lot from those few clients.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "earned **$150 on Upwork**",
+          "cue": "Upwork",
+          "atSec": 2.41
+        }
+      },
+      "source": "narrator states 150 in voiceover context"
+    },
+    {
+      "id": "s241",
+      "startSec": 887.93,
+      "endSec": 892.205,
+      "vo": "And if you want me to make another video where I actually go through the technical side of",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "keyterm",
+      "stack": {
+        "category": {
+          "text": "CORE CONCEPT"
+        },
+        "statement": {
+          "text": "testing portfolio **want**",
+          "cue": "want",
+          "atSec": 0.43
+        }
+      }
+    },
+    {
+      "id": "s242",
+      "startSec": 892.205,
+      "endSec": 897.77,
+      "vo": "Upwork, how I find jobs, how I decide which jobs to apply for, how I write the application,",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "adapting strategy **find**",
+          "cue": "find",
+          "atSec": 0.79
+        }
+      }
+    },
+    {
+      "id": "s243",
+      "startSec": 897.77,
+      "endSec": 902.925,
+      "vo": "how I detect fake clients and how I actually apply to a job, just comment Upwork and I'll",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "quote",
+      "stack": {
+        "category": {
+          "text": "REFLECTION"
+        },
+        "statement": {
+          "text": "assessing craft **fake**",
+          "cue": "fake",
+          "atSec": 0.63
+        }
+      }
+    },
+    {
+      "id": "s244",
+      "startSec": 902.925,
+      "endSec": 905.056,
+      "vo": "make that video.",
+      "why": "crystallizes core documentary narrative beat",
+      "layout": "STACK",
+      "beat": "takeaway",
+      "stack": {
+        "category": {
+          "text": "TAKEAWAY"
+        },
+        "statement": {
+          "text": "auditing outreach **make**",
+          "cue": "make",
+          "atSec": 0.05
+        }
+      }
+    }
+  ]
+}

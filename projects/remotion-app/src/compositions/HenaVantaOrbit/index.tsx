@@ -9,13 +9,9 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { loadFont } from "@remotion/google-fonts/Montserrat";
 
-// Load Montserrat with ExtraBold (800) and Medium (500)
-const { fontFamily } = loadFont("normal", {
-  weights: ["500", "800"],
-  subsets: ["latin"],
-});
+// Local Montserrat fallback
+const fontFamily = "'Montserrat', 'Inter', system-ui, sans-serif";
 
 // ==================== EDITABLE DATA ====================
 export const CONFIG = {

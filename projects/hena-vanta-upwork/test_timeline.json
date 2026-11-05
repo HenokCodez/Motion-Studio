@@ -1,0 +1,3919 @@
+{
+  "meta": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "durationSec": 905.056,
+    "background": "bg.mp4",
+    "backgroundIsVideo": true,
+    "voiceover": "vo_norm.wav",
+    "textMode": "light",
+    "timingFile": "timeline.raw.json"
+  },
+  "scenes": [
+    {
+      "id": "s001",
+      "startSec": 0,
+      "endSec": 5.073,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I spent almost a year on Upwork and honestly the thing I thought would be the hardest wasn't",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s002",
+      "startSec": 5.073,
+      "endSec": 6.373,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "even the problem.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "even"
+        }
+      }
+    },
+    {
+      "id": "s003",
+      "startSec": 6.373,
+      "endSec": 11.073,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "When I started I thought that after getting my first one or two clients things would become",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "When"
+        }
+      }
+    },
+    {
+      "id": "s004",
+      "startSec": 11.073,
+      "endSec": 15.173,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "smooth and I would start getting more and more clients. Boy was I wrong.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "smooth"
+        }
+      }
+    },
+    {
+      "id": "s005",
+      "startSec": 15.173,
+      "endSec": 20.093,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "So in this video I wanna basically show you my whole Upwork journey, what I did wrong,",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "So"
+        }
+      }
+    },
+    {
+      "id": "s006",
+      "startSec": 20.093,
+      "endSec": 25.033,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "how I got my first clients and what I learned from actually working with clients.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "how"
+        }
+      }
+    },
+    {
+      "id": "s007",
+      "startSec": 25.033,
+      "endSec": 29.293,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "So if you're thinking about starting Upwork, hopefully this gives you a realistic idea",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "So"
+        }
+      }
+    },
+    {
+      "id": "s008",
+      "startSec": 29.293,
+      "endSec": 31.393,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "of what it was actually like for me.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "of"
+        }
+      }
+    },
+    {
+      "id": "s009",
+      "startSec": 31.393,
+      "endSec": 35.093,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I started Upwork on March 10, 2025.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s010",
+      "startSec": 35.093,
+      "endSec": 42.093,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "At the time I was a second year software engineering student and I was really interested in freelancing and YouTube.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "At"
+        }
+      }
+    },
+    {
+      "id": "s011",
+      "startSec": 42.093,
+      "endSec": 48.213,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I really liked the idea of making money online from home especially when you live in a third world country.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s012",
+      "startSec": 48.213,
+      "endSec": 53.333,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "You understand that making money in dollars can be a really good way to change your life",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "You"
+        }
+      }
+    },
+    {
+      "id": "s013",
+      "startSec": 53.333,
+      "endSec": 56.453,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "and I didn't really want the traditional 9 to 5 path.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "and"
+        }
+      }
+    },
+    {
+      "id": "s014",
+      "startSec": 56.453,
+      "endSec": 60.193,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I wanted to become a freelancer who could make good money from home.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s015",
+      "startSec": 60.193,
+      "endSec": 63.553,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "So Upwork seemed like the best platform to start with.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "So"
+        }
+      }
+    },
+    {
+      "id": "s016",
+      "startSec": 63.553,
+      "endSec": 69.373,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And before starting I thought that after getting my first one or two clients everything would become easy.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s017",
+      "startSec": 69.373,
+      "endSec": 73.173,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I expected to get my first clients within around 3 months.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s018",
+      "startSec": 73.173,
+      "endSec": 78.093,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And honestly I probably could have gotten them faster if I had started applying sooner",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s019",
+      "startSec": 78.093,
+      "endSec": 79.933,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "and build a better profile.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "and"
+        }
+      }
+    },
+    {
+      "id": "s020",
+      "startSec": 79.933,
+      "endSec": 82.493,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "But I made a lot of mistakes at the beginning.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "But"
+        }
+      }
+    },
+    {
+      "id": "s021",
+      "startSec": 82.493,
+      "endSec": 87.713,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "First mistake I made was basically doing too much optimization and not enough actual work.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "First"
+        }
+      }
+    },
+    {
+      "id": "s022",
+      "startSec": 87.713,
+      "endSec": 91.813,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "After creating my profile I started optimizing my profile and portfolio.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "After"
+        }
+      }
+    },
+    {
+      "id": "s023",
+      "startSec": 91.813,
+      "endSec": 97.093,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I was changing my title, my description, my portfolio trying to make everything look professional.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s024",
+      "startSec": 97.093,
+      "endSec": 100.273,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "But the problem was I didn't even have a strong portfolio.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "But"
+        }
+      }
+    },
+    {
+      "id": "s025",
+      "startSec": 100.273,
+      "endSec": 105.853,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I had just started learning video editing so instead of making like 6 really good sample",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s026",
+      "startSec": 105.853,
+      "endSec": 110.253,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "projects, I was just putting everything I had into my portfolio.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "projects"
+        }
+      }
+    },
+    {
+      "id": "s027",
+      "startSec": 110.253,
+      "endSec": 115.173,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Even some cheap or nonsense videos that didn't really represent the type of work I wanted",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Even"
+        }
+      }
+    },
+    {
+      "id": "s028",
+      "startSec": 115.173,
+      "endSec": 116.773,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "to get hired for.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "to"
+        }
+      }
+    },
+    {
+      "id": "s029",
+      "startSec": 116.773,
+      "endSec": 120.993,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Looking back I should have just learned the skill, made some really good sample work,",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Looking"
+        }
+      }
+    },
+    {
+      "id": "s030",
+      "startSec": 120.993,
+      "endSec": 126.613,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "maybe around 6 good projects, put them in my portfolio, make the profile simple and start applying.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "maybe"
+        }
+      }
+    },
+    {
+      "id": "s031",
+      "startSec": 126.613,
+      "endSec": 131.293,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Instead I was trying to optimize everything before I even had something good to show.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Instead"
+        }
+      }
+    },
+    {
+      "id": "s032",
+      "startSec": 131.293,
+      "endSec": 132.833,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And I did this for a long time.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s033",
+      "startSec": 132.833,
+      "endSec": 134.773,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I also changed my niche a lot.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s034",
+      "startSec": 134.773,
+      "endSec": 140.173,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I would change things, update the profile, change the portfolio and then wait for invitations.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s035",
+      "startSec": 140.173,
+      "endSec": 145.573,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And at the beginning I wasn't even applying to jobs because I didn't have money to buy Kinects.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s036",
+      "startSec": 145.573,
+      "endSec": 147.733,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "So I was basically just waiting.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "So"
+        }
+      }
+    },
+    {
+      "id": "s037",
+      "startSec": 147.733,
+      "endSec": 152.653,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "If you don't have money to buy Kinects, obviously you can't just sit there and do nothing.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "If"
+        }
+      }
+    },
+    {
+      "id": "s038",
+      "startSec": 152.653,
+      "endSec": 157.953,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "You can still work on your skill, build your portfolio and make your profile better.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "You"
+        }
+      }
+    },
+    {
+      "id": "s039",
+      "startSec": 157.953,
+      "endSec": 164.213,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "But if you actually have the money to buy Kinects, I think I should have started applying much earlier.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "But"
+        }
+      }
+    },
+    {
+      "id": "s040",
+      "startSec": 164.213,
+      "endSec": 169.613,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Because eventually I realized that just optimizing your profile and waiting isn't enough.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Because"
+        }
+      }
+    },
+    {
+      "id": "s041",
+      "startSec": 169.613,
+      "endSec": 174.353,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And while all of this was happening, I was also changing what I wanted to freelance with.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s042",
+      "startSec": 174.353,
+      "endSec": 179.493,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I started my Upwork profile as a software engineer because that's what I was studying.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s043",
+      "startSec": 179.493,
+      "endSec": 184.733,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "But after a while, I started seeing the software engineering market becoming very saturated.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "But"
+        }
+      }
+    },
+    {
+      "id": "s044",
+      "startSec": 184.733,
+      "endSec": 189.813,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I was seeing clients asking people to build or refactor full stack applications for like",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s045",
+      "startSec": 189.813,
+      "endSec": 191.693,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "30 or 50 dollars.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "30"
+        }
+      }
+    },
+    {
+      "id": "s046",
+      "startSec": 191.693,
+      "endSec": 196.893,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And especially after the rise of AI, I started feeling like clients were becoming cheaper",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s047",
+      "startSec": 196.893,
+      "endSec": 200.653,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "and that they didn't need as many developers as before.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "and"
+        }
+      }
+    },
+    {
+      "id": "s048",
+      "startSec": 200.653,
+      "endSec": 204.053,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Now I'm not saying software engineering is dead or anything like that.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Now"
+        }
+      }
+    },
+    {
+      "id": "s049",
+      "startSec": 204.053,
+      "endSec": 208.853,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I'm just talking about what I was seeing and how it affected my decision.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I'm"
+        }
+      }
+    },
+    {
+      "id": "s050",
+      "startSec": 208.853,
+      "endSec": 213.173,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "At the same time, my mother had an Upwork account as a video editor and she was getting",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "At"
+        }
+      }
+    },
+    {
+      "id": "s051",
+      "startSec": 213.173,
+      "endSec": 215.453,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "a lot of invitations.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "a"
+        }
+      }
+    },
+    {
+      "id": "s052",
+      "startSec": 215.453,
+      "endSec": 218.613,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Sometimes she would get around 3 invitations per week.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Sometimes"
+        }
+      }
+    },
+    {
+      "id": "s053",
+      "startSec": 218.613,
+      "endSec": 223.213,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Meanwhile, my software engineering profile was basically dead silent.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Meanwhile"
+        }
+      }
+    },
+    {
+      "id": "s054",
+      "startSec": 223.213,
+      "endSec": 228.733,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "That made me think, ok, maybe I should try video editing. So I started learning video editing.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "That"
+        }
+      }
+    },
+    {
+      "id": "s055",
+      "startSec": 228.733,
+      "endSec": 233.573,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "For about 3 months I was learning the basics, using CapCut, I was making Instagram reels,",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "For"
+        }
+      }
+    },
+    {
+      "id": "s056",
+      "startSec": 233.573,
+      "endSec": 236.693,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "getting some views here and there and just learning.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "getting"
+        }
+      }
+    },
+    {
+      "id": "s057",
+      "startSec": 236.693,
+      "endSec": 239.333,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Then I got lucky and found a local client.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Then"
+        }
+      }
+    },
+    {
+      "id": "s058",
+      "startSec": 239.333,
+      "endSec": 242.013,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I worked with that client for around 7 months.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s059",
+      "startSec": 242.013,
+      "endSec": 246.833,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And honestly, that was really important for me because during those 7 months I improved",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s060",
+      "startSec": 246.833,
+      "endSec": 248.593,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "my video editing a lot.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "my"
+        }
+      }
+    },
+    {
+      "id": "s061",
+      "startSec": 248.593,
+      "endSec": 253.513,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I started learning Premiere Pro, After Effects and other software and I actually started",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s062",
+      "startSec": 253.513,
+      "endSec": 255.253,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "enjoying video editing.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "enjoying"
+        }
+      }
+    },
+    {
+      "id": "s063",
+      "startSec": 255.253,
+      "endSec": 257.853,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "It also started making me money locally.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "It"
+        }
+      }
+    },
+    {
+      "id": "s064",
+      "startSec": 257.853,
+      "endSec": 262.413,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I was able to make enough money from video editing to afford my current laptop, which",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s065",
+      "startSec": 262.413,
+      "endSec": 267.773,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "cost around 100,000 Ethiopian Burr, so around 2000 dollars at the time.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "cost"
+        }
+      }
+    },
+    {
+      "id": "s066",
+      "startSec": 267.773,
+      "endSec": 271.493,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And that motivated me even more to keep learning video editing.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s067",
+      "startSec": 271.493,
+      "endSec": 277.493,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "So gradually I started changing my Upwork profile from software engineering to video editing.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "So"
+        }
+      }
+    },
+    {
+      "id": "s068",
+      "startSec": 277.493,
+      "endSec": 282.773,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "But there was another mistake here, my first Upwork job was actually a software engineering job.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "But"
+        }
+      }
+    },
+    {
+      "id": "s069",
+      "startSec": 282.773,
+      "endSec": 287.613,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I delivered a website for 10 dollars and I thought, ok, I finally got my first job, now",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s070",
+      "startSec": 287.613,
+      "endSec": 290.513,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "things should start moving. But they didn't.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "things"
+        }
+      }
+    },
+    {
+      "id": "s071",
+      "startSec": 290.513,
+      "endSec": 295.653,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I still had this long period where basically nothing was happening and that's when I realized",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s072",
+      "startSec": 295.653,
+      "endSec": 297.233,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "something important.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "something"
+        }
+      }
+    },
+    {
+      "id": "s073",
+      "startSec": 297.233,
+      "endSec": 300.513,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Your first job isn't just about getting your first review.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Your"
+        }
+      }
+    },
+    {
+      "id": "s074",
+      "startSec": 300.513,
+      "endSec": 303.533,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Your work history stays on your Upwork profile.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Your"
+        }
+      }
+    },
+    {
+      "id": "s075",
+      "startSec": 303.533,
+      "endSec": 308.053,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "So if you already know that you don't want to work in a certain profession in the future,",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "So"
+        }
+      }
+    },
+    {
+      "id": "s076",
+      "startSec": 308.053,
+      "endSec": 311.613,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "don't just take a random job because you want your first contract.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "don't"
+        }
+      }
+    },
+    {
+      "id": "s077",
+      "startSec": 311.613,
+      "endSec": 314.773,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "For me, software engineering job wasn't useless.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "For"
+        }
+      }
+    },
+    {
+      "id": "s078",
+      "startSec": 314.773,
+      "endSec": 320.193,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Having one job is obviously better than having zero jobs because it gives you some credibility.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Having"
+        }
+      }
+    },
+    {
+      "id": "s079",
+      "startSec": 320.193,
+      "endSec": 325.093,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "But if I could go back, I would rather have my first job be related to the thing I actually",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "But"
+        }
+      }
+    },
+    {
+      "id": "s080",
+      "startSec": 325.093,
+      "endSec": 327.273,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "wanted to continue doing.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "wanted"
+        }
+      }
+    },
+    {
+      "id": "s081",
+      "startSec": 327.273,
+      "endSec": 332.893,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Because now that software engineering job is still part of my work history and I can't just undo it.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Because"
+        }
+      }
+    },
+    {
+      "id": "s082",
+      "startSec": 332.893,
+      "endSec": 335.053,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Then came the long silent period.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Then"
+        }
+      }
+    },
+    {
+      "id": "s083",
+      "startSec": 335.053,
+      "endSec": 339.533,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "For several months I was basically working locally, improving my skills, building my",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "For"
+        }
+      }
+    },
+    {
+      "id": "s084",
+      "startSec": 339.533,
+      "endSec": 342.733,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "portfolio and updating my Upwork profile.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "portfolio"
+        }
+      }
+    },
+    {
+      "id": "s085",
+      "startSec": 342.733,
+      "endSec": 346.373,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I wasn't spending hours every day on Upwork either.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s086",
+      "startSec": 346.373,
+      "endSec": 347.693,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Sometimes I would barely check it.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Sometimes"
+        }
+      }
+    },
+    {
+      "id": "s087",
+      "startSec": 347.693,
+      "endSec": 353.613,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I would just go in, check if anything changed, update my portfolio if I had a new project and then leave.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s088",
+      "startSec": 353.613,
+      "endSec": 356.213,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I was getting some invitations here and there.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s089",
+      "startSec": 356.213,
+      "endSec": 360.713,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Some were relevant, some were not and some honestly looked like scams.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Some"
+        }
+      }
+    },
+    {
+      "id": "s090",
+      "startSec": 360.713,
+      "endSec": 365.473,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "But most of them didn't turn into anything and I started realizing that getting a profile",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "But"
+        }
+      }
+    },
+    {
+      "id": "s091",
+      "startSec": 365.473,
+      "endSec": 368.853,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "online doesn't mean clients are just going to come to you.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "online"
+        }
+      }
+    },
+    {
+      "id": "s092",
+      "startSec": 368.853,
+      "endSec": 373.373,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "After that long period I got an invitation for a true crime video and this was my first",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "After"
+        }
+      }
+    },
+    {
+      "id": "s093",
+      "startSec": 373.373,
+      "endSec": 375.853,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "actual video editing job on Upwork.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "actual"
+        }
+      }
+    },
+    {
+      "id": "s094",
+      "startSec": 375.853,
+      "endSec": 377.593,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "It was a pretty straightforward job.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "It"
+        }
+      }
+    },
+    {
+      "id": "s095",
+      "startSec": 377.593,
+      "endSec": 380.813,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I made the video, sent it and got paid $20.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s096",
+      "startSec": 380.813,
+      "endSec": 385.513,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "It took around 2 days and the client didn't really ask for any major revisions.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "It"
+        }
+      }
+    },
+    {
+      "id": "s097",
+      "startSec": 385.513,
+      "endSec": 390.893,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "But honestly that $20 was important to me for one reason, I used it to buy connects.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "But"
+        }
+      }
+    },
+    {
+      "id": "s098",
+      "startSec": 390.893,
+      "endSec": 393.633,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And this is where my actual Upwork journey started.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s099",
+      "startSec": 393.633,
+      "endSec": 400.393,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I spent $15 on connects and that gave me enough connects to actually start applying to jobs.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s100",
+      "startSec": 400.393,
+      "endSec": 403.233,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Before that I was mostly waiting for invitations.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Before"
+        }
+      }
+    },
+    {
+      "id": "s101",
+      "startSec": 403.233,
+      "endSec": 407.253,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Now I could actually choose the jobs I wanted to apply for.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Now"
+        }
+      }
+    },
+    {
+      "id": "s102",
+      "startSec": 407.253,
+      "endSec": 410.353,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And that's when things started becoming more interesting.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s103",
+      "startSec": 410.353,
+      "endSec": 414.373,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Because I realized that it's not really about applying to every job you see.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Because"
+        }
+      }
+    },
+    {
+      "id": "s104",
+      "startSec": 414.373,
+      "endSec": 418.473,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "It's about finding jobs that actually match your profile and what you can do.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "It's"
+        }
+      }
+    },
+    {
+      "id": "s105",
+      "startSec": 418.473,
+      "endSec": 423.773,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I also learned that you shouldn't just finish your connects in one day by applying to everything.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s106",
+      "startSec": 423.773,
+      "endSec": 426.773,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "It's not really about quantity, it's about quality.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "It's"
+        }
+      }
+    },
+    {
+      "id": "s107",
+      "startSec": 426.773,
+      "endSec": 431.773,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "If I see a job that doesn't match my profile I don't need to apply just because it's there.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "If"
+        }
+      }
+    },
+    {
+      "id": "s108",
+      "startSec": 431.773,
+      "endSec": 437.533,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And when I do apply I try to write a simple message that is confident and actually matches my profile.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s109",
+      "startSec": 437.533,
+      "endSec": 441.333,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I don't think you need some complicated AI generated proposal.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s110",
+      "startSec": 441.333,
+      "endSec": 446.093,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "You just need to show the client that you understand what they need and that you can actually give",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "You"
+        }
+      }
+    },
+    {
+      "id": "s111",
+      "startSec": 446.093,
+      "endSec": 447.333,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "them value.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "them"
+        }
+      }
+    },
+    {
+      "id": "s112",
+      "startSec": 447.333,
+      "endSec": 450.693,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And that's how I eventually got my $90 client.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s113",
+      "startSec": 450.693,
+      "endSec": 453.613,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "This client taught me more than any of the other jobs.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "This"
+        }
+      }
+    },
+    {
+      "id": "s114",
+      "startSec": 453.613,
+      "endSec": 458.693,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "The job was for a YouTube video and when I saw sample they attached, I was immediately",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "The"
+        }
+      }
+    },
+    {
+      "id": "s115",
+      "startSec": 458.693,
+      "endSec": 462.813,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "interested because it was exactly the type of editing I wanted to do.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "interested"
+        }
+      }
+    },
+    {
+      "id": "s116",
+      "startSec": 462.813,
+      "endSec": 467.813,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "So my proposal was basically saying that I saw the sample, it matched my skillset, I",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "So"
+        }
+      }
+    },
+    {
+      "id": "s117",
+      "startSec": 467.813,
+      "endSec": 472.653,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "edit in Premiere Pro and After Effects, I have a fast internet connection, I respond quickly",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "edit"
+        }
+      }
+    },
+    {
+      "id": "s118",
+      "startSec": 472.653,
+      "endSec": 475.733,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "and I've never missed a deadline with my previous clients.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "and"
+        }
+      }
+    },
+    {
+      "id": "s119",
+      "startSec": 475.733,
+      "endSec": 480.153,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I also said that I could recreate the style of the reference and I was happy to do a pay",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s120",
+      "startSec": 480.153,
+      "endSec": 481.773,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "test and I got the job.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "test"
+        }
+      }
+    },
+    {
+      "id": "s121",
+      "startSec": 481.773,
+      "endSec": 484.373,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "It was a $90 one time YouTube video.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "It"
+        }
+      }
+    },
+    {
+      "id": "s122",
+      "startSec": 484.373,
+      "endSec": 488.453,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And the client was very professional and very specific about what he wanted.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s123",
+      "startSec": 488.453,
+      "endSec": 492.293,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And this is where I learned my first big lesson about clients.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s124",
+      "startSec": 492.293,
+      "endSec": 494.713,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "First don't always try do your own thing.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "First"
+        }
+      }
+    },
+    {
+      "id": "s125",
+      "startSec": 494.713,
+      "endSec": 498.873,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "As an editor sometimes you think you can make the project better, you see something and",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "As"
+        }
+      }
+    },
+    {
+      "id": "s126",
+      "startSec": 498.873,
+      "endSec": 500.833,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "you're like ok I can improve this.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "you're"
+        }
+      }
+    },
+    {
+      "id": "s127",
+      "startSec": 500.833,
+      "endSec": 504.013,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "But sometimes the client doesn't want your improvement.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "But"
+        }
+      }
+    },
+    {
+      "id": "s128",
+      "startSec": 504.013,
+      "endSec": 508.533,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "They already have a specific style, they already have a reference, they already know what they",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "They"
+        }
+      }
+    },
+    {
+      "id": "s129",
+      "startSec": 508.533,
+      "endSec": 514.373,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "want and in that case your job is not to make it better according to your own taste.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "want"
+        }
+      }
+    },
+    {
+      "id": "s130",
+      "startSec": 514.373,
+      "endSec": 517.673,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Your job is to understand what they want and execute it.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Your"
+        }
+      }
+    },
+    {
+      "id": "s131",
+      "startSec": 517.673,
+      "endSec": 521.413,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "So before adding your own touch to something just ask them.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "So"
+        }
+      }
+    },
+    {
+      "id": "s132",
+      "startSec": 521.413,
+      "endSec": 524.893,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Because what you think is better might not be what the client wants.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Because"
+        }
+      }
+    },
+    {
+      "id": "s133",
+      "startSec": 524.893,
+      "endSec": 528.393,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "The second thing I learned is to be patient with revisions.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "The"
+        }
+      }
+    },
+    {
+      "id": "s134",
+      "startSec": 528.393,
+      "endSec": 531.393,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "This client had already paid me after I finished the project.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "This"
+        }
+      }
+    },
+    {
+      "id": "s135",
+      "startSec": 531.393,
+      "endSec": 534.213,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Then he came back and asked me to change a few small things.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Then"
+        }
+      }
+    },
+    {
+      "id": "s136",
+      "startSec": 534.213,
+      "endSec": 538.893,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I could've said you already reviewed it, I already finished the project, why are you",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s137",
+      "startSec": 538.893,
+      "endSec": 541.293,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "asking me to change it? But I didn't.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "asking"
+        }
+      }
+    },
+    {
+      "id": "s138",
+      "startSec": 541.293,
+      "endSec": 544.253,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "It was a small thing so I just said ok I'll change it.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "It"
+        }
+      }
+    },
+    {
+      "id": "s139",
+      "startSec": 544.253,
+      "endSec": 548.453,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Honestly it wasn't a big deal for me but for the client it mattered.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Honestly"
+        }
+      }
+    },
+    {
+      "id": "s140",
+      "startSec": 548.453,
+      "endSec": 552.433,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And especially when you're starting out I think it's better to create this friendly",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s141",
+      "startSec": 552.433,
+      "endSec": 557.813,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "vibe instead of having this really strict professional relationship where you're counting",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "vibe"
+        }
+      }
+    },
+    {
+      "id": "s142",
+      "startSec": 557.813,
+      "endSec": 559.033,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "every little thing.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "every"
+        }
+      }
+    },
+    {
+      "id": "s143",
+      "startSec": 559.033,
+      "endSec": 562.413,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I'm not saying you should accept unlimited work for free.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I'm"
+        }
+      }
+    },
+    {
+      "id": "s144",
+      "startSec": 562.413,
+      "endSec": 567.713,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I'm just saying if a client asks for a small and reasonable change sometimes it's better",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I'm"
+        }
+      }
+    },
+    {
+      "id": "s145",
+      "startSec": 567.713,
+      "endSec": 571.413,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "to just do it instead of creating unnecessary problems.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "to"
+        }
+      }
+    },
+    {
+      "id": "s146",
+      "startSec": 571.413,
+      "endSec": 573.573,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And the third thing is communication.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s147",
+      "startSec": 573.573,
+      "endSec": 579.393,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "If a client tells you to change a lot of things don't just sit there guessing what they mean.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "If"
+        }
+      }
+    },
+    {
+      "id": "s148",
+      "startSec": 579.393,
+      "endSec": 581.613,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Ask them specifically what they want.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Ask"
+        }
+      }
+    },
+    {
+      "id": "s149",
+      "startSec": 581.613,
+      "endSec": 587.093,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Because sometimes you can spend hours going back and forth just because you misunderstood one small thing.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Because"
+        }
+      }
+    },
+    {
+      "id": "s150",
+      "startSec": 587.093,
+      "endSec": 592.113,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "If they have some technical knowledge sometimes you can even give them the project files if",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "If"
+        }
+      }
+    },
+    {
+      "id": "s151",
+      "startSec": 592.113,
+      "endSec": 595.553,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "the changes are very small and they want to do them themselves.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "the"
+        }
+      }
+    },
+    {
+      "id": "s152",
+      "startSec": 595.553,
+      "endSec": 597.973,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "But the main thing is just communicate.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "But"
+        }
+      }
+    },
+    {
+      "id": "s153",
+      "startSec": 597.973,
+      "endSec": 599.333,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Ask before you do.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Ask"
+        }
+      }
+    },
+    {
+      "id": "s154",
+      "startSec": 599.333,
+      "endSec": 603.053,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Because a lot of problems with clients aren't really editing problems.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Because"
+        }
+      }
+    },
+    {
+      "id": "s155",
+      "startSec": 603.053,
+      "endSec": 604.813,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "They're communication problems.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "They're"
+        }
+      }
+    },
+    {
+      "id": "s156",
+      "startSec": 604.813,
+      "endSec": 606.293,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And then I learned something else.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s157",
+      "startSec": 606.293,
+      "endSec": 608.753,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Not every client is a good client.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Not"
+        }
+      }
+    },
+    {
+      "id": "s158",
+      "startSec": 608.753,
+      "endSec": 614.573,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I had another client offer me around $30 for an 8 minute video and at first I thought okay",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s159",
+      "startSec": 614.573,
+      "endSec": 616.373,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "this could be a long term client.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "this"
+        }
+      }
+    },
+    {
+      "id": "s160",
+      "startSec": 616.373,
+      "endSec": 618.813,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "But then I actually looked at the requirements.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "But"
+        }
+      }
+    },
+    {
+      "id": "s161",
+      "startSec": 618.813,
+      "endSec": 621.613,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "There were more than 20 requirements for one video.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "There"
+        }
+      }
+    },
+    {
+      "id": "s162",
+      "startSec": 621.613,
+      "endSec": 623.973,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "They wanted very specific timestamps.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "They"
+        }
+      }
+    },
+    {
+      "id": "s163",
+      "startSec": 623.973,
+      "endSec": 626.833,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "They wanted every silent section identified.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "They"
+        }
+      }
+    },
+    {
+      "id": "s164",
+      "startSec": 626.833,
+      "endSec": 631.233,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "They wanted me to generate footage using my own AI tools.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "They"
+        }
+      }
+    },
+    {
+      "id": "s165",
+      "startSec": 631.233,
+      "endSec": 634.413,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And there were a lot of other very specific requirements.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s166",
+      "startSec": 634.413,
+      "endSec": 639.773,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "So when I actually look at the amount of work that $30 wasn't really $30 worth of work.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "So"
+        }
+      }
+    },
+    {
+      "id": "s167",
+      "startSec": 639.773,
+      "endSec": 644.913,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "That video could have taken me basically the whole day and I already had other work.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "That"
+        }
+      }
+    },
+    {
+      "id": "s168",
+      "startSec": 644.913,
+      "endSec": 646.513,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "So I didn't accept it.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "So"
+        }
+      }
+    },
+    {
+      "id": "s169",
+      "startSec": 646.513,
+      "endSec": 648.793,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And that taught me something really important.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s170",
+      "startSec": 648.793,
+      "endSec": 651.733,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "At the beginning you think I just need a client.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "At"
+        }
+      }
+    },
+    {
+      "id": "s171",
+      "startSec": 651.733,
+      "endSec": 656.493,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "But later you realize I need a client whose expectations I can actually meet.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "But"
+        }
+      }
+    },
+    {
+      "id": "s172",
+      "startSec": 656.493,
+      "endSec": 660.493,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Because if you accept a job you can't handle you might end up with a bad review.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Because"
+        }
+      }
+    },
+    {
+      "id": "s173",
+      "startSec": 660.493,
+      "endSec": 662.613,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And that can affect your future jobs.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s174",
+      "startSec": 662.613,
+      "endSec": 668.733,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "So sometimes saying no to a job is better than accepting it just because you want the money.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "So"
+        }
+      }
+    },
+    {
+      "id": "s175",
+      "startSec": 668.733,
+      "endSec": 671.973,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And looking back my portfolio was probably one of my biggest problems.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s176",
+      "startSec": 671.973,
+      "endSec": 674.373,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "My portfolio was missing quality.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "My"
+        }
+      }
+    },
+    {
+      "id": "s177",
+      "startSec": 674.373,
+      "endSec": 676.293,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "There were unrelated videos in it.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "There"
+        }
+      }
+    },
+    {
+      "id": "s178",
+      "startSec": 676.293,
+      "endSec": 681.153,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Some of the work was cheap and my profile description was claiming more than what my",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Some"
+        }
+      }
+    },
+    {
+      "id": "s179",
+      "startSec": 681.153,
+      "endSec": 683.013,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "portfolio could actually prove.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "portfolio"
+        }
+      }
+    },
+    {
+      "id": "s180",
+      "startSec": 683.013,
+      "endSec": 688.453,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I was trying to make my profile look professional instead of actually making the work professional.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s181",
+      "startSec": 688.453,
+      "endSec": 691.413,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And eventually I realized that clients can see that.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s182",
+      "startSec": 691.413,
+      "endSec": 693.653,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "You can't really fool most clients.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "You"
+        }
+      }
+    },
+    {
+      "id": "s183",
+      "startSec": 693.653,
+      "endSec": 695.933,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "They've already posted multiple jobs.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "They've"
+        }
+      }
+    },
+    {
+      "id": "s184",
+      "startSec": 695.933,
+      "endSec": 698.933,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "They've already looked through hundreds of freelancers.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "They've"
+        }
+      }
+    },
+    {
+      "id": "s185",
+      "startSec": 698.933,
+      "endSec": 704.813,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "They can look at your portfolio and understand pretty quickly whether you actually know what you're doing.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "They"
+        }
+      }
+    },
+    {
+      "id": "s186",
+      "startSec": 704.813,
+      "endSec": 708.613,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "So if you're just starting out don't try to pretend you're an expert.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "So"
+        }
+      }
+    },
+    {
+      "id": "s187",
+      "startSec": 708.613,
+      "endSec": 710.253,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Just show what you actually know.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Just"
+        }
+      }
+    },
+    {
+      "id": "s188",
+      "startSec": 710.253,
+      "endSec": 713.393,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "If you don't have client work yet make your own sample projects.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "If"
+        }
+      }
+    },
+    {
+      "id": "s189",
+      "startSec": 713.393,
+      "endSec": 714.813,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Make them as good as you can.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Make"
+        }
+      }
+    },
+    {
+      "id": "s190",
+      "startSec": 714.813,
+      "endSec": 719.613,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And make sure the portfolio actually supports what your profile says you can do.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s191",
+      "startSec": 719.613,
+      "endSec": 721.853,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And that's another thing I learned about myself.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s192",
+      "startSec": 721.853,
+      "endSec": 723.733,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I'm not an Upwork expert.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I'm"
+        }
+      }
+    },
+    {
+      "id": "s193",
+      "startSec": 723.733,
+      "endSec": 726.333,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I'm not making this video because I mastered Upwork.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I'm"
+        }
+      }
+    },
+    {
+      "id": "s194",
+      "startSec": 726.333,
+      "endSec": 730.733,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I've made more than $5,000 outside of Upwork from video editing.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I've"
+        }
+      }
+    },
+    {
+      "id": "s195",
+      "startSec": 730.733,
+      "endSec": 734.353,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "But on Upwork I've only made around $150.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "But"
+        }
+      }
+    },
+    {
+      "id": "s196",
+      "startSec": 734.353,
+      "endSec": 736.853,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "So I'm not here to tell you that I'm some Upwork guru.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "So"
+        }
+      }
+    },
+    {
+      "id": "s197",
+      "startSec": 736.853,
+      "endSec": 740.953,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I'm just showing you what happened to me and what made my journey easier.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I'm"
+        }
+      }
+    },
+    {
+      "id": "s198",
+      "startSec": 740.953,
+      "endSec": 744.493,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And I think that's actually more useful for someone who is starting out.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s199",
+      "startSec": 744.493,
+      "endSec": 748.333,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Because I was a beginner too, I made a lot of stupid mistakes.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Because"
+        }
+      }
+    },
+    {
+      "id": "s200",
+      "startSec": 748.333,
+      "endSec": 751.653,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And I can show you exactly what those mistakes were.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s201",
+      "startSec": 751.653,
+      "endSec": 755.193,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "So if I had to start Upwork again, I would do things very differently.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "So"
+        }
+      }
+    },
+    {
+      "id": "s202",
+      "startSec": 755.193,
+      "endSec": 758.733,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "First, I would actually learn the skill before trying to freelance with it.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "First"
+        }
+      }
+    },
+    {
+      "id": "s203",
+      "startSec": 758.733,
+      "endSec": 763.933,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "For video editing, I spent around 3 or 4 months learning the basics before I really started",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "For"
+        }
+      }
+    },
+    {
+      "id": "s204",
+      "startSec": 763.933,
+      "endSec": 765.373,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "taking it seriously.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "taking"
+        }
+      }
+    },
+    {
+      "id": "s205",
+      "startSec": 765.373,
+      "endSec": 768.053,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Then I would choose what I actually want to work with.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Then"
+        }
+      }
+    },
+    {
+      "id": "s206",
+      "startSec": 768.053,
+      "endSec": 773.773,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I wouldn't create a profile as a software engineer and then slowly turn it into a video editor.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s207",
+      "startSec": 773.773,
+      "endSec": 777.413,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I would decide what I want to do and build everything around that.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s208",
+      "startSec": 777.413,
+      "endSec": 779.573,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Then I would build a real portfolio.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Then"
+        }
+      }
+    },
+    {
+      "id": "s209",
+      "startSec": 779.573,
+      "endSec": 781.053,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Not just random videos.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Not"
+        }
+      }
+    },
+    {
+      "id": "s210",
+      "startSec": 781.053,
+      "endSec": 782.593,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Not someone else's work.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Not"
+        }
+      }
+    },
+    {
+      "id": "s211",
+      "startSec": 782.593,
+      "endSec": 785.093,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Not cheap videos just to fill the portfolio.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Not"
+        }
+      }
+    },
+    {
+      "id": "s212",
+      "startSec": 785.093,
+      "endSec": 790.133,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I would make a few really good sample projects that actually represent the work I want clients",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s213",
+      "startSec": 790.133,
+      "endSec": 791.573,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "to hire me for.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "to"
+        }
+      }
+    },
+    {
+      "id": "s214",
+      "startSec": 791.573,
+      "endSec": 793.293,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Then I would make the profile simple.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Then"
+        }
+      }
+    },
+    {
+      "id": "s215",
+      "startSec": 793.293,
+      "endSec": 797.013,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I wouldn't spend months trying to make the description sound perfect.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s216",
+      "startSec": 797.013,
+      "endSec": 799.773,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Because honestly, your portfolio is the backbone.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Because"
+        }
+      }
+    },
+    {
+      "id": "s217",
+      "startSec": 799.773,
+      "endSec": 802.913,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "If your portfolio is good, it shows what you can do.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "If"
+        }
+      }
+    },
+    {
+      "id": "s218",
+      "startSec": 802.913,
+      "endSec": 808.893,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "If your portfolio is bad, no amount of 5 years of experience in your description is going to fix it.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "If"
+        }
+      }
+    },
+    {
+      "id": "s219",
+      "startSec": 808.893,
+      "endSec": 811.533,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And after that I would start applying much earlier.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s220",
+      "startSec": 811.533,
+      "endSec": 813.173,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I wouldn't apply to everything.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s221",
+      "startSec": 813.173,
+      "endSec": 817.973,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I would look through the jobs, find the ones that actually match me and apply strategically.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s222",
+      "startSec": 817.973,
+      "endSec": 819.953,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "So was Upwork worth it?",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "So"
+        }
+      }
+    },
+    {
+      "id": "s223",
+      "startSec": 819.953,
+      "endSec": 823.933,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "For me I think it was useful, but definitely not in the way I expected.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "For"
+        }
+      }
+    },
+    {
+      "id": "s224",
+      "startSec": 823.933,
+      "endSec": 830.253,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I started thinking that once I got 1 or 2 clients, I would get flooded with clients. That didn't happen.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s225",
+      "startSec": 830.253,
+      "endSec": 832.333,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I spent months getting almost nothing.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s226",
+      "startSec": 832.333,
+      "endSec": 837.293,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I changed my profession, I changed my profile, I worked locally, I improved my skills, I",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s227",
+      "startSec": 837.293,
+      "endSec": 842.213,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "built my portfolio, I eventually got a $20 job, used that money to buy Kinects and then",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "built"
+        }
+      }
+    },
+    {
+      "id": "s228",
+      "startSec": 842.213,
+      "endSec": 843.593,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "got a $90 client.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "got"
+        }
+      }
+    },
+    {
+      "id": "s229",
+      "startSec": 843.593,
+      "endSec": 848.893,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And that $90 client probably taught me more about freelancing than all the profile optimization",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s230",
+      "startSec": 848.893,
+      "endSec": 850.213,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I did before that.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s231",
+      "startSec": 850.213,
+      "endSec": 854.893,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "So if you're starting Upwork because you think it's easy money, my experience definitely",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "So"
+        }
+      }
+    },
+    {
+      "id": "s232",
+      "startSec": 854.893,
+      "endSec": 856.433,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "doesn't show that.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "doesn't"
+        }
+      }
+    },
+    {
+      "id": "s233",
+      "startSec": 856.433,
+      "endSec": 861.373,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "But if you already have a skill, you can actually show your work, you're willing to be patient",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "But"
+        }
+      }
+    },
+    {
+      "id": "s234",
+      "startSec": 861.373,
+      "endSec": 866.513,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "and you're willing to learn from the clients you work with, then yes, you can eventually",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "and"
+        }
+      }
+    },
+    {
+      "id": "s235",
+      "startSec": 866.513,
+      "endSec": 867.733,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "get work.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "get"
+        }
+      }
+    },
+    {
+      "id": "s236",
+      "startSec": 867.733,
+      "endSec": 872.893,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "But the biggest thing I learned is that you shouldn't spend all your time trying to look hireable.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "But"
+        }
+      }
+    },
+    {
+      "id": "s237",
+      "startSec": 872.893,
+      "endSec": 875.573,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "You need to actually become good enough to be hireable.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "You"
+        }
+      }
+    },
+    {
+      "id": "s238",
+      "startSec": 875.573,
+      "endSec": 880.693,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And then your profile, your portfolio, your proposal and everything else should just show that.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s239",
+      "startSec": 880.693,
+      "endSec": 882.013,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "That's basically my Upwork journey.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "That's"
+        }
+      }
+    },
+    {
+      "id": "s240",
+      "startSec": 882.013,
+      "endSec": 887.933,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "I only made around $150 from Upwork, but honestly I learned a lot from those few clients.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "I"
+        }
+      }
+    },
+    {
+      "id": "s241",
+      "startSec": 887.933,
+      "endSec": 891.953,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "And if you want me to make another video where I actually go through the technical side of",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "And"
+        }
+      }
+    },
+    {
+      "id": "s242",
+      "startSec": 891.953,
+      "endSec": 897.773,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "Upwork, how I find jobs, how I decide which jobs to apply for, how I write the application,",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "Upwork"
+        }
+      }
+    },
+    {
+      "id": "s243",
+      "startSec": 897.773,
+      "endSec": 902.893,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "how I detect fake clients and how I actually apply to a job, just comment Upwork and I'll",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "how"
+        }
+      }
+    },
+    {
+      "id": "s244",
+      "startSec": 902.893,
+      "endSec": 905.056,
+      "layout": "STACK",
+      "beat": "none",
+      "vo": "make that video.",
+      "stack": {
+        "media": {
+          "kind": "placeholder",
+          "label": "FOOTAGE: REPLACE-ME describe exactly what clip to place here",
+          "aspect": "16:9",
+          "cue": "make"
+        }
+      }
+    }
+  ]
+}

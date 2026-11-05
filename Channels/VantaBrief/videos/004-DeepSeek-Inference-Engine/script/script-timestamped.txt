@@ -1,0 +1,90 @@
+﻿[00:00:00.000 --> 00:00:05.280]  Silicon Valley spent billions of dollars locking down AI behind expensive monthly subscriptions.
+[00:00:05.280 --> 00:00:08.960]  For the past year, the biggest mystery wasn't just how Chinese labs train their models.
+[00:00:08.960 --> 00:00:14.280]  It was how they managed to sell access to them for pennies while Western companies burned through billions in cloud bills.
+[00:00:14.280 --> 00:00:20.920]  Most people in the industry assumed it had to be a financial bluff that labs like DeepSeek were taking massive losses just to undercut the competition.
+[00:00:20.920 --> 00:00:24.720]  Well, a few weeks ago, DeepSeek quietly dropped an update that changed everything.
+[00:00:24.720 --> 00:00:32.400]  They released DeepSeek V4.1 Flash 1017 and alongside it, they open sourced their core production inference engine, DeepinFear.
+[00:00:32.400 --> 00:00:35.800]  And the numbers coming out of their data centers are genuinely staggering.
+[00:00:35.800 --> 00:00:40.680]  In a single cluster, this system processes 155 trillion tokens every single day.
+[00:00:40.680 --> 00:00:44.960]  That comes out to roughly 1.8 billion words generated every second around the clock.
+[00:00:44.960 --> 00:00:50.960]  Even during discounted off-peak hours, a single GPU running their setup generates about $38 of revenue per hour.
+[00:00:50.960 --> 00:00:56.480]  When an enterprise AI chip typically costs $5 to $10 an hour to run, DeepSeek isn't losing money at all.
+[00:00:56.480 --> 00:00:59.680]  They are operating at an estimated 80% gross profit margin.
+[00:00:59.680 --> 00:01:06.240]  And instead of keeping those optimization secrets locked away like every other major tech company, they put the entire engine on GitHub for free.
+[00:01:06.240 --> 00:01:09.960]  So can this new open source monster actually match the closed frontier models?
+[00:01:09.960 --> 00:01:13.720]  Or is it just another project that looks impressive on a benchmark sheet until you try it?
+[00:01:13.720 --> 00:01:18.040]  Let's look at what it can actually do, how they pulled off this engineering magic trick and whether you should switch.
+[00:01:18.040 --> 00:01:21.400]  To find out what this model is capable of, I didn't just read boring static benchmarks.
+[00:01:21.400 --> 00:01:26.800]  I dug straight into the official test runs, case studies, and technical evaluations to see how it handles heavy duty tasks.
+[00:01:26.800 --> 00:01:33.400]  Now, you could use DeepSeek on their standard web chat interface, but this model is built for agentic workflows and long horizon tasks.
+[00:01:33.400 --> 00:01:38.040]  A much better way to use it is with an agentic coding harness, like their very own open source harness.
+[00:01:38.040 --> 00:01:46.200]  When you put it through complex generation tests, like asking it to build a complete interactive 3D mechanical watch diagram from scratch, it doesn't just write basic code.
+[00:01:46.200 --> 00:01:52.560]  It figures out the spatial geometry, the lighting, the shadows, and the interactive elements, so you can hover over a gear and see what it does.
+[00:01:52.560 --> 00:01:56.440]  And look at what it comes up with. Look how clean this is. All of the pieces fit together.
+[00:01:56.440 --> 00:01:59.920]  You can see the lighting and the shadows moving as you rotate the watch face.
+[00:01:59.920 --> 00:02:03.160]  If you hover over the hairspring, it gives you a precise definition.
+[00:02:03.160 --> 00:02:07.800]  You can click "Explode" and it breaks apart every single layer of the watch into a 3D space.
+[00:02:07.800 --> 00:02:12.120]  For an open source model, that level of spatial reasoning and 3D generation is completely unreal.
+[00:02:12.120 --> 00:02:16.920]  Next, when tested on heavy multimodal reasoning, like uploading a high resolution image of a bakery counter,
+[00:02:16.920 --> 00:02:20.760]  packed with pastries, and asking it to count and identify every single item individually,
+[00:02:20.760 --> 00:02:24.040]  it takes a few minutes of deep thinking, cropping, and analyzing layers.
+[00:02:24.040 --> 00:02:30.960]  But it successfully categorizes and counts over 130 individual pastries, factoring in the ones hidden behind the stacks.
+[00:02:30.960 --> 00:02:32.520]  Even more impressive is the speed.
+[00:02:32.520 --> 00:02:38.680]  When you turn off reasoning and just look at text output, it flies at over 125 to 150 tokens per second,
+[00:02:38.680 --> 00:02:42.120]  with optimized cloud providers pushing past 800 tokens per second.
+[00:02:42.120 --> 00:02:46.520]  It's fast, it's cheap, and the intelligence is dangerously close to top tier closed models.
+[00:02:46.520 --> 00:02:50.360]  But how did they make an open source model run this fast without melting the hardware?
+[00:02:50.360 --> 00:02:54.200]  The secret isn't just raw computing power. It's a masterclass in systems engineering.
+[00:02:54.200 --> 00:02:57.560]  Normally when you send a massive prompt to an AI, like an entire software code base,
+[00:02:57.560 --> 00:03:02.920]  the model has to process every single word through every single layer of its network before it can write the very first letter.
+[00:03:02.920 --> 00:03:05.480]  That reading phase eats up an enormous amount of compute.
+[00:03:05.480 --> 00:03:12.200]  DeepSeek solved this at the architectural level by splitting their layers in half using a causal encoder/decoder design.
+[00:03:12.200 --> 00:03:15.560]  The bottom layers act as a dedicated reader while the top layers act as a writer.
+[00:03:15.560 --> 00:03:18.680]  When your prompt comes in, it only runs through half the layers,
+[00:03:18.680 --> 00:03:21.960]  cutting the heavy reading work in half before the server even breaks a sweat.
+[00:03:21.960 --> 00:03:24.360]  On top of that, they use wide expert parallelism.
+[00:03:24.360 --> 00:03:32.760]  Instead of forcing one GPU to carry all the weight, they distribute the AI's experts across clusters of 64 to 128 graphics cards.
+[00:03:32.760 --> 00:03:39.240]  Memory traffic drops by nearly 88%, allowing a single GPU to pump out massive amounts of data without choking.
+[00:03:39.240 --> 00:03:40.360]  And then there's the caching.
+[00:03:40.360 --> 00:03:43.640]  Have you ever wondered why coding agents can run for hours without lagging out?
+[00:03:43.640 --> 00:03:45.160]  It's because of input caching.
+[00:03:45.160 --> 00:03:49.320]  DeepSeek built an insane storage infrastructure using a custom distributed file system
+[00:03:49.320 --> 00:03:53.640]  with 100 petabytes of SSD storage dedicated purely to caching context.
+[00:03:53.640 --> 00:03:58.040]  When you combine that with their system, their cache hit rate reaches an incredible 96%.
+[00:03:58.040 --> 00:04:00.440]  Most of the compute it serves has already been calculated,
+[00:04:00.440 --> 00:04:03.880]  meaning it reuses earlier calculations instead of starting from scratch.
+[00:04:03.880 --> 00:04:08.520]  That is why their profit margins are sitting at 80% while their API prices remain dirt cheap.
+[00:04:08.520 --> 00:04:12.040]  Now, as exciting as all of this sounds, there is a catch you need to know about.
+[00:04:12.040 --> 00:04:15.480]  DeepSeek's documentation is very upfront about what they didn't hand over.
+[00:04:15.480 --> 00:04:19.080]  Deepinfer gives you the engine, but they didn't hand over the entire industrial bakery.
+[00:04:19.080 --> 00:04:22.600]  They kept their massive storage clusters, specialized network routing systems,
+[00:04:22.600 --> 00:04:24.760]  and global load balancers behind closed doors.
+[00:04:24.760 --> 00:04:28.040]  To actually run this at scale, you still need serious enterprise infrastructure,
+[00:04:28.040 --> 00:04:31.240]  typically clusters of 128 high-end GPUs.
+[00:04:31.240 --> 00:04:33.320]  But here is the most fascinating part of the release.
+[00:04:33.320 --> 00:04:36.280]  Deepinfer explicitly supports two hardware platforms,
+[00:04:36.280 --> 00:04:40.840]  NVIDIA's brand new Blackwell architecture and Huawei's domestic Ascend 950 chips.
+[00:04:40.840 --> 00:04:42.280]  Notice who's completely missing?
+[00:04:42.280 --> 00:04:45.000]  NVIDIA's older Hopper chips like the H100.
+[00:04:45.000 --> 00:04:47.640]  DeepSeek bypassed the previous generation entirely.
+[00:04:47.640 --> 00:04:51.160]  Amid tightening US trade restrictions, they built this software to run natively
+[00:04:51.160 --> 00:04:53.800]  on domestic Chinese silicon with first-class performance.
+[00:04:53.800 --> 00:04:57.320]  It proves that frontier-scale AI operations can run completely independent
+[00:04:57.320 --> 00:04:58.920]  of Western silicon if necessary.
+[00:04:58.920 --> 00:05:01.240]  For the last two years, the narrative in tech has been simple.
+[00:05:01.240 --> 00:05:04.200]  Whoever spends the most money buying the most GPUs wins.
+[00:05:04.200 --> 00:05:07.000]  But DeepSeek keeps showing us that smart systems engineering
+[00:05:07.000 --> 00:05:09.240]  beats brute force spending every single time.
+[00:05:09.240 --> 00:05:12.680]  By open-sourcing Deepinfer, they've put massive pressure on cloud providers
+[00:05:12.680 --> 00:05:15.400]  that charge high markups just to host open-source models.
+[00:05:15.400 --> 00:05:18.600]  The competition isn't just about who can build the smartest model anymore.
+[00:05:18.600 --> 00:05:21.960]  It's about who can deliver that intelligence at the lowest possible cost.
+[00:05:21.960 --> 00:05:24.200]  And right now, DeepSeek is writing the playbook.
+[00:05:24.200 --> 00:05:25.080]  So, what do you think?
+[00:05:25.080 --> 00:05:28.920]  Will Western AI companies finally be forced to lower their prices after this?
+[00:05:28.920 --> 00:05:31.400]  Or will closed-source labs find a way to fight back?
+[00:05:31.400 --> 00:05:32.440]  Let me know in the comments.
+[00:05:32.440 --> 00:05:34.440]  And if you enjoyed breaking this down with me today,
+[00:05:34.440 --> 00:05:37.640]  a like and subscribe always means a lot and keeps the channel rolling.
+[00:05:37.640 --> 00:05:39.080]  Thanks for watching all the way to the end.
+[00:05:39.080 --> 00:05:41.240]  Stay safe and I'll catch you on the next one.

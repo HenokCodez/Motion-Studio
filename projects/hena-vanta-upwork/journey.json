@@ -1,0 +1,42 @@
+{
+  "title": "my first 365 days on upwork",
+  "events": [
+    {
+      "id": "start",
+      "label": "march 2025",
+      "note": "profile live, 0 clients",
+      "date": "2025-03-10"
+    },
+    {
+      "id": "optimize",
+      "label": "april 2025",
+      "note": "over-optimization, 0 proposals",
+      "date": "2025-04-15"
+    },
+    {
+      "id": "first_client",
+      "label": "june 2025",
+      "note": "first $15 contract landed",
+      "date": "2025-06-10"
+    },
+    {
+      "id": "scams",
+      "label": "august 2025",
+      "note": "filtered out fake client jobs",
+      "date": "2025-08-20"
+    },
+    {
+      "id": "retention",
+      "label": "december 2025",
+      "note": "repeat clients beat cold proposals",
+      "date": "2025-12-05"
+    },
+    {
+      "id": "verdict",
+      "label": "march 2026",
+      "note": "$150 earned, real freelance skills",
+      "date": "2026-03-10"
+    }
+  ]
+}
+

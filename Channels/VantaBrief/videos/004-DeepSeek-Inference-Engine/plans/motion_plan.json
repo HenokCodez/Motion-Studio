@@ -1,0 +1,127 @@
+{
+  "project": "004-DeepSeek-Inference-Engine",
+  "channel": "VantaBrief",
+  "total_duration_seconds": 341.24,
+  "moments": [
+    {
+      "id": "MG-01",
+      "concept_name": "Causal-Encoder-Decoder-Layer-Split",
+      "composition_id": "DeepSeek-CED",
+      "start_time": 185.48,
+      "end_time": 193.48,
+      "start_timecode": "03:05.480",
+      "end_timecode": "03:13.480",
+      "duration_seconds": 8.0,
+      "script_excerpt": "DeepSeek solved this at the architectural level by splitting their layers in half using a causal encoder/decoder design. The bottom layers act as a dedicated reader while the top layers act as a writer.",
+      "explanation_objective": "Visualizes 40-layer transformer splitting into reader prefill layer and writer decode layer, reducing prefill active compute by 50%."
+    },
+    {
+      "id": "MG-02",
+      "concept_name": "Wide-Expert-Parallelism-Cluster",
+      "composition_id": "DeepSeek-WideEP",
+      "start_time": 204.36,
+      "end_time": 212.36,
+      "start_timecode": "03:24.360",
+      "end_timecode": "03:32.360",
+      "duration_seconds": 8.0,
+      "script_excerpt": "Instead of forcing one GPU to carry all the weight, they distribute the AI's experts across clusters of 64 to 128 graphics cards. Memory traffic drops by nearly 88%.",
+      "explanation_objective": "Visualizes 128 GPU matrix dispatching sparse queries, showing memory bus traffic dropping by 88%."
+    },
+    {
+      "id": "MG-03",
+      "concept_name": "Context-Storage-100PB-3FS",
+      "composition_id": "DeepSeek-ContextCache",
+      "start_time": 229.32,
+      "end_time": 237.32,
+      "start_timecode": "03:49.320",
+      "end_timecode": "03:57.320",
+      "duration_seconds": 8.0,
+      "script_excerpt": "DeepSeek built an insane storage infrastructure using a custom distributed file system with 100 petabytes of SSD storage dedicated purely to caching context. Their cache hit rate reaches an incredible 96%.",
+      "explanation_objective": "Visualizes 100PB NVMe storage cluster delivering 96% cache hit rate with precomputed KV cache reuse."
+    },
+    {
+      "id": "MG-04",
+      "concept_name": "Hardware-Matrix-Blackwell-Ascend-Hopper",
+      "composition_id": "DeepSeek-HardwareMatrix",
+      "start_time": 276.28,
+      "end_time": 284.28,
+      "start_timecode": "04:36.280",
+      "end_timecode": "04:44.280",
+      "duration_seconds": 8.0,
+      "script_excerpt": "Deep Infer explicitly supports two hardware platforms: Nvidia's brand-new Blackwell architecture and Huawei's domestic Ascend 950 chips. Notice who's completely missing? Nvidia's older Hopper chips like the H100.",
+      "explanation_objective": "Visualizes native support for Blackwell & Ascend 950 while striking Hopper H100 as bypassed."
+    },
+    {
+      "id": "MG-05",
+      "concept_name": "Unit-Economics-Gross-Profit-Margin",
+      "composition_id": "DeepSeek-UnitEconomics",
+      "start_time": 46.0,
+      "end_time": 54.0,
+      "start_timecode": "00:46.000",
+      "end_timecode": "00:54.000",
+      "duration_seconds": 8.0,
+      "script_excerpt": "When an enterprise AI chip typically costs $5 to $10 an hour to run, DeepSeek isn't losing money at all. They are operating at an estimated 80% gross profit margin.",
+      "explanation_objective": "Visualizes $38/hr revenue against $5-$10 cloud cost yielding 80% net margin."
+    },
+    {
+      "id": "MG-06",
+      "concept_name": "DeepSeek-Stack-3D-CoverFlow",
+      "composition_id": "DeepSeek-CoverFlow",
+      "start_time": 22.0,
+      "end_time": 29.5,
+      "start_timecode": "00:22.000",
+      "end_timecode": "00:29.500",
+      "duration_seconds": 7.5,
+      "script_excerpt": "Well, a few weeks ago, DeepSeek quietly dropped an update that changed everything. They released DeepSeek V4.1 Flash and opened source their core production engine...",
+      "explanation_objective": "3D perspective cover-flow card carousel cycling through DeepSeek V4.1 Flash, DeepEnphere, 3FS, and EP64."
+    },
+    {
+      "id": "MG-07",
+      "concept_name": "Raw-Inference-Velocity-Gauge",
+      "composition_id": "DeepSeek-VelocityGauge",
+      "start_time": 155.0,
+      "end_time": 162.5,
+      "start_timecode": "02:35.000",
+      "end_timecode": "02:42.500",
+      "duration_seconds": 7.5,
+      "script_excerpt": "When you turn off reasoning and just look at text output, it flies at over 125 to 150 tokens per second, with optimized cloud providers pushing past 800 tokens per second.",
+      "explanation_objective": "Multi-stage velocity surge gauge ramping from 24 to 150 to 800+ tokens per second with glowing laser shimmer."
+    },
+    {
+      "id": "MG-08",
+      "concept_name": "Inference-Evolution-Timeline-Ruler",
+      "composition_id": "DeepSeek-TimelineRuler",
+      "start_time": 298.0,
+      "end_time": 305.5,
+      "start_timecode": "04:58.000",
+      "end_timecode": "05:05.500",
+      "duration_seconds": 7.5,
+      "script_excerpt": "For the last two years, the narrative in tech has been simple: whoever spends the most money buying the most GPUs wins. But DeepSeek keeps showing us that systems engineering beats brute force spending...",
+      "explanation_objective": "Chronological timeline ruler traveling 2023 -> 2024 -> 2025 -> 2026 showing the paradigm shift from brute force to systems engineering."
+    },
+    {
+      "id": "MG-09",
+      "concept_name": "Autonomous-Architecture-Rings",
+      "composition_id": "DeepSeek-InfrastructureRings",
+      "start_time": 238.0,
+      "end_time": 245.5,
+      "start_timecode": "03:58.000",
+      "end_timecode": "04:05.500",
+      "duration_seconds": 7.5,
+      "script_excerpt": "When you combine that with their system, their cache hit rate reaches an incredible 96%. Most of the compute it serves has already been calculated...",
+      "explanation_objective": "Triple concentric glowing activity rings: 100PB 3FS NVMe Storage, 64-GPU Wide MoE, and Causal Attention Kernel."
+    },
+    {
+      "id": "MG-10",
+      "concept_name": "Cloud-Toll-vs-Open-Stack",
+      "composition_id": "DeepSeek-TollVsOpenStack",
+      "start_time": 8.0,
+      "end_time": 15.5,
+      "start_timecode": "00:08.000",
+      "end_timecode": "00:15.500",
+      "duration_seconds": 7.5,
+      "script_excerpt": "It was how they managed to sell access to them for pennies while Western companies burned through billions in cloud bills.",
+      "explanation_objective": "Contrasting the $5-$10/hr cloud GPU toll with DeepSeek's $0.14/M token open architecture yielding 80% margins."
+    }
+  ]
+}

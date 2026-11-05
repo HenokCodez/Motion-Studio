@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> NOT FOR HENA VANTA. Never use for the Hena Vanta channel.
+
 # VantaBrief Video Production Workflow
 
 This workflow defines the automated end-to-end pipeline for generating VantaBrief tech breakdown videos according to the **[VantaBrief Visual Style Bible](file:///D:/Automations/motion-studio/Channels/VantaBrief/style/VantaBrief_Visual_Style_Bible.md)**.

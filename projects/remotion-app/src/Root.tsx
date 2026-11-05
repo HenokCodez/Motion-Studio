@@ -34,6 +34,19 @@ import whiteboardKitPlan from "../workflow2-whiteboard/plan.json";
 import { Workflow3Short } from "./workflow3/Short";
 // @ts-ignore
 import workflow3Storyboard from "./workflow3/storyboard.json";
+import { MG01CausalEncoderDecoder } from "./compositions/vanta_deepseek/MG01CausalEncoderDecoder";
+import { MG02WideExpertParallelism } from "./compositions/vanta_deepseek/MG02WideExpertParallelism";
+import { MG03ContextCache } from "./compositions/vanta_deepseek/MG03ContextCache";
+import { MG04HardwareSupportMatrix } from "./compositions/vanta_deepseek/MG04HardwareSupportMatrix";
+import { MG05UnitEconomicsMargin } from "./compositions/vanta_deepseek/MG05UnitEconomicsMargin";
+import {
+  MG06CoverFlow,
+  MG07VelocityGauge,
+  MG08TimelineRuler,
+  MG09InfrastructureRings,
+  MG10TollVsOpenStack,
+} from "./compositions/vanta_deepseek";
+import { Episode004DeepSeek } from "./compositions/episodes/Episode004DeepSeek";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -413,7 +426,107 @@ export const RemotionRoot: React.FC = () => {
           height={1080}
         />
       </Folder>
+      <Folder name="DeepSeek-Standalone-MG">
+        <Composition
+          id="DeepSeek-CED"
+          component={MG01CausalEncoderDecoder}
+          durationInFrames={240}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="DeepSeek-WideEP"
+          component={MG02WideExpertParallelism}
+          durationInFrames={240}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="DeepSeek-ContextCache"
+          component={MG03ContextCache}
+          durationInFrames={240}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="DeepSeek-HardwareMatrix"
+          component={MG04HardwareSupportMatrix}
+          durationInFrames={240}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="DeepSeek-UnitEconomics"
+          component={MG05UnitEconomicsMargin}
+          durationInFrames={240}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="DeepSeek-CoverFlow"
+          component={MG06CoverFlow}
+          durationInFrames={225}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="DeepSeek-VelocityGauge"
+          component={MG07VelocityGauge}
+          durationInFrames={225}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="DeepSeek-TimelineRuler"
+          component={MG08TimelineRuler}
+          durationInFrames={225}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="DeepSeek-InfrastructureRings"
+          component={MG09InfrastructureRings}
+          durationInFrames={225}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="DeepSeek-TollVsOpenStack"
+          component={MG10TollVsOpenStack}
+          durationInFrames={225}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+      </Folder>
       <Folder name="Vanta-Brief">
+        <Composition
+          id="VantaBrief-Episode-004"
+          component={Episode004DeepSeek}
+          durationInFrames={10256}
+          fps={30}
+          width={1920}
+          height={1080}
+          defaultProps={{ debug: false }}
+        />
+        <Composition
+          id="VantaBrief-Episode-004-Debug"
+          component={Episode004DeepSeek}
+          durationInFrames={10256}
+          fps={30}
+          width={1920}
+          height={1080}
+          defaultProps={{ debug: true }}
+        />
         <Composition
           id="VantaBrief-Episode-003"
           component={Episode003OpenSource}
