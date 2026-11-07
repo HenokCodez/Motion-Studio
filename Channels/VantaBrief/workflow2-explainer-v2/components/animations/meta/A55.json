@@ -1,0 +1,81 @@
+{
+ "id": "A55",
+ "name": "Logo Orbit",
+ "category": "Logos/brand",
+ "duration": 90,
+ "keyframes": [
+  0,
+  10,
+  22,
+  40,
+  60,
+  89
+ ],
+ "easing": "orbit ring EASE.inOut f4-26; satellites spring pop staggered 6f from f14; rotation 0.045 rad/frame",
+ "bestFor": "Subject (hub) vs several other companies orbiting it.",
+ "notSuitable": "More than 5 logos.",
+ "keyframeTable": [
+  [
+   0,
+   "hub popping"
+  ],
+  [
+   10,
+   "hub + orbit ring drawing"
+  ],
+  [
+   22,
+   "satellites popping"
+  ],
+  [
+   40,
+   "4 logos orbiting"
+  ],
+  [
+   60,
+   "orbiting"
+  ],
+  [
+   89,
+   "rest: 4 real logos mid-orbit around DeepSeek hub"
+  ]
+ ],
+ "script": [
+  "Hub (orange circle with its real logo) pops in; an orbit ring draws; real logos on cream badges pop in and orbit slowly."
+ ],
+ "params": {
+  "names": "3-5 strings",
+  "files": "files in assets/logos/",
+  "hub": "<=12 chars",
+  "hubFile": "file in assets/logos/"
+ },
+ "maxContent": "<=5 satellites",
+ "footprint": "~1180 x 600 px",
+ "colorRules": "Hub orange; logos keep native colors on cream badges.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 540,
+   "text": "hub with real logo"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 1360,
+   "y": 540,
+   "text": "logos orbit"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 960,
+   "y": 300,
+   "text": "orbit ring"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false,
+ "ref": "pin2.jpg"
+}

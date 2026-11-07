@@ -1,0 +1,89 @@
+{
+ "id": "A03",
+ "name": "Scribble-In Card",
+ "category": "Reveals/intros",
+ "duration": 66,
+ "keyframes": [
+  0,
+  8,
+  18,
+  26,
+  38,
+  65
+ ],
+ "easing": "scribble EASE.inOut f0-30; outline EASE.inOut f24-44; fill linear-ish EASE.out f26-38; content EASE.back (0.34,1.56,0.64,1) f44-60",
+ "bestFor": "Introducing the highlighted option / key idea as a single hero card ('Heavy-Duty Tasks').",
+ "notSuitable": "When 2+ things must appear together.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   8,
+   "first 3 zig-zag passes of brown-orange scribble"
+  ],
+  [
+   18,
+   "scribble covers ~60% of the card area"
+  ],
+  [
+   26,
+   "scribble complete; orange outline starting to draw"
+  ],
+  [
+   38,
+   "outline nearly complete, fill solid, no icon/label yet"
+  ],
+  [
+   65,
+   "rest: highlighted card 700x360 at (610,360), chip icon 150px, label 56px"
+  ]
+ ],
+ "script": [
+  "f0-30: a fat 40px brown-orange (#6B3A2E) pen zig-zags back and forth down the card area, 10 passes.",
+  "f24-44: orange outline draws around the scribbled area.",
+  "f26-38: solid #6B3A2E fill fades in, hiding gaps.",
+  "f44-60: icon + label pop in with overshoot and 20px rise."
+ ],
+ "params": {
+  "label": "string <=24 chars",
+  "icon": "ICONS key"
+ },
+ "maxContent": "label <=24 chars",
+ "footprint": "700x360 px (36% x 33%)",
+ "colorRules": "Whole card is the orange focal group (hi fill + orange outline + orange icon).",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 640,
+   "y": 520,
+   "text": "fat scribble zig-zags down"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 960,
+   "y": 540,
+   "text": "scribble completes, outline starts"
+  },
+  {
+   "n": 3,
+   "k": 4,
+   "x": 1310,
+   "y": 540,
+   "text": "orange outline completes, fill solid"
+  },
+  {
+   "n": 4,
+   "k": 5,
+   "x": 960,
+   "y": 600,
+   "text": "icon + label pop in"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false,
+ "ref": "s2-three-cards.jpg"
+}

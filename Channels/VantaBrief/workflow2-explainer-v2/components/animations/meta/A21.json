@@ -1,0 +1,79 @@
+{
+ "id": "A21",
+ "name": "Hub and Spokes",
+ "category": "Diagrams/systems",
+ "duration": 90,
+ "keyframes": [
+  0,
+  10,
+  24,
+  40,
+  58,
+  89
+ ],
+ "easing": "hub EASE.inOut f0-16; spokes EASE.inOut 14f staggered 8f from f18; satellites 14f from f28",
+ "bestFor": "One thing with 4 attributes/uses ('DeepSeek: open weights, low cost, ...').",
+ "notSuitable": "More than 4 satellites.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   10,
+   "hub outline half drawn"
+  ],
+  [
+   24,
+   "hub orange; spoke 1-2 drawing"
+  ],
+  [
+   40,
+   "spokes 1-3 drawn; satellites 1-2 in"
+  ],
+  [
+   58,
+   "all spokes drawn; satellite 4 appearing"
+  ],
+  [
+   89,
+   "rest: orange hub center + 4 satellites in corners"
+  ]
+ ],
+ "script": [
+  "The orange hub draws in the center.",
+  "Four spokes draw out to the corners, each followed by its satellite card and label."
+ ],
+ "params": {
+  "hub": "string <=10 chars",
+  "spokes": "array of 4 strings <=12 chars"
+ },
+ "maxContent": "hub <=10 chars at 48px; 4 satellites <=12 chars at 36px",
+ "footprint": "Full safe frame (1560 x 700)",
+ "colorRules": "Hub orange only.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 540,
+   "text": "hub draws"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 640,
+   "y": 380,
+   "text": "spokes draw to corners"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 330,
+   "y": 240,
+   "text": "satellite cards"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

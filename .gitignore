@@ -60,3 +60,14 @@ Channels/**/workflow2/
 *.log
 .DS_Store
 Thumbs.db
+
+# Hena Vanta channel asset caches
+projects/remotion-app/public/hena-vanta/
+.agents/skills/hena-vanta/public/
+
+# QA frames and temporary test renders
+**/qa/*.png
+projects/**/qa/*.png
+
+# Junction / symlink public directories
+Channels/**/public/

@@ -1,0 +1,78 @@
+{
+ "id": "A16",
+ "name": "Staircase Climb",
+ "category": "Lists/steps/process",
+ "duration": 90,
+ "keyframes": [
+  0,
+  16,
+  30,
+  46,
+  62,
+  89
+ ],
+ "easing": "steps EASE.out 14f staggered 12f from f10; marker hops EASE.inOut 8f each from f54 (arc 80px)",
+ "bestFor": "Progression or maturity levels, 3-4 stages ('Test, Tune, Ship, Scale').",
+ "notSuitable": "Non-ordered items.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   16,
+   "step 1 drawn, step 2 drawing"
+  ],
+  [
+   30,
+   "steps 1-3 drawn"
+  ],
+  [
+   46,
+   "all 4 steps drawn, last one orange; marker appears on step 1"
+  ],
+  [
+   62,
+   "marker mid-hop towards step 3"
+  ],
+  [
+   89,
+   "rest: marker on top of step 4"
+  ]
+ ],
+ "script": [
+  "Four blocks of rising height build left to right.",
+  "An orange ball appears on step 1 and hops up one step at a time."
+ ],
+ "params": {
+  "steps": "array of 4 strings <=10 chars"
+ },
+ "maxContent": "4 steps, labels <=10 chars at 40px",
+ "footprint": "1200 x 480 px",
+ "colorRules": "Top step and marker orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 510,
+   "y": 780,
+   "text": "steps build left\u2192right"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 510,
+   "y": 740,
+   "text": "orange marker appears"
+  },
+  {
+   "n": 3,
+   "k": 4,
+   "x": 960,
+   "y": 640,
+   "text": "marker hops up"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

@@ -1,0 +1,78 @@
+{
+ "id": "A47",
+ "name": "Two-Person Dialogue",
+ "category": "People/characters",
+ "duration": 84,
+ "keyframes": [
+  0,
+  10,
+  24,
+  40,
+  54,
+  83
+ ],
+ "easing": "bubble 1 EASE.back f12-26; bubble 2 EASE.back f40-54",
+ "bestFor": "Question/answer or myth/reply exchanges.",
+ "notSuitable": "Monologues.",
+ "keyframeTable": [
+  [
+   0,
+   "figures drawing"
+  ],
+  [
+   10,
+   "two figures"
+  ],
+  [
+   24,
+   "bubble 1 popping"
+  ],
+  [
+   40,
+   "bubble 1 done, bubble 2 starting"
+  ],
+  [
+   54,
+   "bubble 2 popping (orange)"
+  ],
+  [
+   83,
+   "rest: two figures, two bubbles"
+  ]
+ ],
+ "script": [
+  "Two figures face each other; the left asks in a cream bubble, the right answers in an orange bubble."
+ ],
+ "params": {
+  "a": "<=16 chars",
+  "b": "<=16 chars"
+ },
+ "maxContent": "bubbles <=16 chars at 44px",
+ "footprint": "~1300 x 640 px",
+ "colorRules": "Answer bubble orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 330,
+   "y": 700,
+   "text": "left figure"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 690,
+   "y": 315,
+   "text": "question bubble"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 1230,
+   "y": 485,
+   "text": "orange answer bubble"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

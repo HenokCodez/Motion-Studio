@@ -1,0 +1,79 @@
+{
+ "id": "A23",
+ "name": "Pipeline with Packets",
+ "category": "Diagrams/systems",
+ "duration": 96,
+ "keyframes": [
+  0,
+  14,
+  30,
+  46,
+  62,
+  95
+ ],
+ "easing": "stages EASE.out 14f staggered 6f; packets (r=24) linear 36f each, one every 12f from f22; packets turn orange after the highlighted stage",
+ "bestFor": "Data/requests moving through stages ('Ingest, Route, Compute, Serve').",
+ "notSuitable": "Non-sequential systems.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   14,
+   "stages 1-3 built, arrows drawing"
+  ],
+  [
+   30,
+   "all stages built; packet 1 leaves stage 1"
+  ],
+  [
+   46,
+   "packet 1 behind stage 2; packet 2 out"
+  ],
+  [
+   62,
+   "packet 1 orange after stage 3; packet 3 out"
+  ],
+  [
+   95,
+   "rest: pipeline, packets gone"
+  ]
+ ],
+ "script": [
+  "Four stage boxes build left to right with arrows between them.",
+  "Three packets travel along the line (hidden when inside boxes) and turn orange after the highlighted stage."
+ ],
+ "params": {
+  "stages": "array of 4 strings <=10 chars",
+  "highlight": "index"
+ },
+ "maxContent": "4 stages <=10 chars at 40px",
+ "footprint": "1590 x 110 px",
+ "colorRules": "Highlighted stage orange; packets orange after it.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 330,
+   "y": 540,
+   "text": "stages build"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 660,
+   "y": 520,
+   "text": "packet travels"
+  },
+  {
+   "n": 3,
+   "k": 4,
+   "x": 1300,
+   "y": 520,
+   "text": "packet turns orange"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

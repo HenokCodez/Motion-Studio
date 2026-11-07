@@ -1,0 +1,77 @@
+{
+ "id": "A44",
+ "name": "Thinking Person to Diagram",
+ "category": "People/characters",
+ "duration": 90,
+ "keyframes": [
+  0,
+  10,
+  24,
+  40,
+  58,
+  89
+ ],
+ "easing": "bubble EASE.inOut f10-30; bolt fade f24-36 out f46-54; nodes f52-72 staggered 6f",
+ "bestFor": "An idea turning into a structure ('think, then diagram').",
+ "notSuitable": "More than 3 nodes.",
+ "keyframeTable": [
+  [
+   0,
+   "figure drawing"
+  ],
+  [
+   10,
+   "figure + thought dots"
+  ],
+  [
+   24,
+   "bubble drawn, orange bolt appearing"
+  ],
+  [
+   40,
+   "bolt visible"
+  ],
+  [
+   58,
+   "bolt gone, nodes appearing"
+  ],
+  [
+   89,
+   "rest: figure + bubble with 3 linked nodes"
+  ]
+ ],
+ "script": [
+  "Figure in thinking pose; thought dots then a bubble draw; an orange bolt (the idea) shows then is replaced by a 3-node diagram."
+ ],
+ "params": {
+  "nodes": "3 strings <=8 chars"
+ },
+ "maxContent": "3 nodes, labels <=8 chars at 24px",
+ "footprint": "~1000 x 750 px",
+ "colorRules": "Bolt and middle node orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 400,
+   "y": 700,
+   "text": "thinking figure"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 900,
+   "y": 330,
+   "text": "bubble + idea bolt"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 900,
+   "y": 330,
+   "text": "bolt becomes diagram"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

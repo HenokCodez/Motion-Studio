@@ -1,0 +1,86 @@
+{
+ "id": "A50",
+ "name": "Pan-Zoom to Next Node",
+ "category": "Camera/transitions",
+ "duration": 90,
+ "keyframes": [
+  0,
+  16,
+  30,
+  46,
+  60,
+  89
+ ],
+ "easing": "zoom EASE.inOut f20-30 to 1.2x; pan EASE.inOut f30-54; zoom-out f54-76 back to 1.0 centered",
+ "bestFor": "Moving attention from one node to the next on an infinite-canvas feel.",
+ "notSuitable": "Single-object scenes.",
+ "keyframeTable": [
+  [
+   0,
+   "nodes drawing, camera 1.0"
+  ],
+  [
+   16,
+   "both nodes + arrow visible"
+  ],
+  [
+   30,
+   "camera at 1.2x on left node"
+  ],
+  [
+   46,
+   "camera panning right"
+  ],
+  [
+   60,
+   "camera on right node, starting to zoom out"
+  ],
+  [
+   89,
+   "rest: camera 1.0, both nodes inside safe frame"
+  ]
+ ],
+ "script": [
+  "Two nodes with an arrow build. The camera zooms to 1.2x on the left node, pans to the right (orange) node, then zooms out so both rest inside the safe frame."
+ ],
+ "params": {
+  "left": "<=12 chars",
+  "right": "<=12 chars"
+ },
+ "maxContent": "2 nodes <=12 chars at 48px",
+ "footprint": "rest: 1380 x 140 px",
+ "colorRules": "Right node orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 480,
+   "y": 540,
+   "text": "nodes build"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 480,
+   "y": 540,
+   "text": "zoom in on node 1"
+  },
+  {
+   "n": 3,
+   "k": 4,
+   "x": 960,
+   "y": 540,
+   "text": "pan right"
+  },
+  {
+   "n": 4,
+   "k": 5,
+   "x": 960,
+   "y": 540,
+   "text": "zoom out to rest"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false,
+ "strictFrom": 76
+}

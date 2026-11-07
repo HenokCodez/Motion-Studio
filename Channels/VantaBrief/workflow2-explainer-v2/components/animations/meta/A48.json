@@ -1,0 +1,79 @@
+{
+ "id": "A48",
+ "name": "Taped Photo + Note",
+ "category": "People/photo",
+ "duration": 72,
+ "keyframes": [
+  0,
+  8,
+  18,
+  30,
+  46,
+  71
+ ],
+ "easing": "photo spring pop {damping:12,stiffness:140,mass:0.7} f0; tape EASE.back f14-24; arrow f40-54; note wipe f50-66",
+ "bestFor": "Showing one real photo (person/hardware/event) with an annotation.",
+ "notSuitable": "Several photos (use A49/A35).",
+ "keyframeTable": [
+  [
+   0,
+   "photo growing"
+  ],
+  [
+   8,
+   "photo ~1x"
+  ],
+  [
+   18,
+   "tape strips popping"
+  ],
+  [
+   30,
+   "caption wiping"
+  ],
+  [
+   46,
+   "arrow drawing"
+  ],
+  [
+   71,
+   "rest: tilted photo frame, orange arrow + note"
+  ]
+ ],
+ "script": [
+  "Tilted photo frame pops in with two tape strips; caption fades; orange arrow and note appear."
+ ],
+ "params": {
+  "src": "file in assets/photos/ (placeholder silhouette if empty)",
+  "caption": "<=18 chars",
+  "note": "<=14 chars"
+ },
+ "maxContent": "caption <=18 chars, note <=14 chars",
+ "footprint": "520 x 460 px + note",
+ "colorRules": "Arrow + note orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 860,
+   "y": 520,
+   "text": "photo frame pops"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 700,
+   "y": 290,
+   "text": "tape strips"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 1250,
+   "y": 470,
+   "text": "orange arrow + note"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

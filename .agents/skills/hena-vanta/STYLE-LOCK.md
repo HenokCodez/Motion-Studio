@@ -18,7 +18,7 @@ STATUS: DRAFT
 - **Mute (Secondary Text & Labels)**: `#8C8C93`
 - **Card (Card Surfaces)**: `#F6F6F8`
 - **Line (Dividers & Connectors)**: `#D7D7DD`
-- **Background**: Light white grid loop (`public/bg.mp4`), muted.
+- **Background**: Light white grid loop (`public/hena-vanta/bg.mp4`), muted.
 
 ## 3. Typography
 - **Font Stack**: `Inter, 'Inter Variable', -apple-system, 'Segoe UI', Arial, sans-serif`
@@ -64,13 +64,21 @@ Easing: `Easing.out(Easing.cubic)` default; `Easing.inOut(Easing.cubic)` for pan
 
 ## 5. FootageNote Rule (Missing Footage Slots)
 - **Constraint**: NO black boxes, NO fills, NO outlines, NO drawn shapes.
-- **Specification**: Exactly ONE line of 20px text, centred at the slot centre, coloured Mute (`#8C8C93`).
-- **Label Format**: `"TYPE: what to show"` (e.g., `"TALKING-HEAD: Creator reflecting on starting out"`).
+- **Specification**: Exactly ONE line of 20px text, centred at the slot centre (`960, 540 ± 2px`), coloured Mute (`#8C8C93`).
+- **Label Format**: `"TYPE: what to show"` where TYPE must be strictly one of: `GAMEPLAY | SCREEN REC | B-ROLL | PHOTO | FACE CAM | CHART`.
 - **Purpose**: Zero visual clutter so the editor's B-roll / A-roll in Premiere Pro completely covers the note without letterbox artifacts.
+
+## 5.1. v6 Architecture, Schema & Isolation Rules
+- **Project Isolation**: Every v6 build lives in a fresh folder `projects/hena-vanta-v6-<slug>/`. Reusing previous project components, `timeline.json`, `PLAN.md`, `review.json`, or stills is strictly prohibited.
+- **Timeline Schema**: `src/timeline.v6.json` using valid catalog IDs (`A01`–`A64`). The legacy v5 layouts (`STACK`, `LIST`, `STEPS`, `JOURNEY`) and `PlaceholderBox` are strictly forbidden.
+- **Palette Enforcement**: Red is `#E01E2D` (`HV.red`). `#FF0000` is an automatic failure.
+- **Auditing & Gates**:
+  - `scripts/validate-v6.mjs` enforces E1–E8 numbers, palette, density ($\le 20\%$ text-only), and repetition limits.
+  - D2 still review requires the agent to actually view and record observations for 10+ stills in `qa/review.json`.
 
 ## 6. Brand & Reference Integrity Rule
 - **Channel Identity**: "Hena Vanta" only.
-- **Logo**: Genuine channel logo from `public/logo.png`. Used small (avatar size) in channel rows, headers, and chapter cards.
+- **Logo**: Genuine channel logo from `public/hena-vanta/logo.png`. Used small (avatar size) in channel rows, headers, and chapter cards.
 - **Forbidden Reference Strings**: Grep check must return 0 hits for `"ItsProger"`, `"Proger"`, `"5.5M"`, `"346,154"`, `"vidIQ"`, `"ViewStats"`, `"MrBeast"`, `"Wifies"`, `"Noob"`.
 - **Zero Invention**: Real screenshots and metrics only. Never invent placeholder numbers or copy numbers from catalog reference images.
 

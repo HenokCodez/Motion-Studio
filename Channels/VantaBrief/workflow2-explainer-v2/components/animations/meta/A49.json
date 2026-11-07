@@ -1,0 +1,78 @@
+{
+ "id": "A49",
+ "name": "Stacked Polaroids",
+ "category": "People/photo",
+ "duration": 84,
+ "keyframes": [
+  0,
+  8,
+  20,
+  34,
+  50,
+  83
+ ],
+ "easing": "cards spring settle {9,90,1} staggered 10f, drop 500px",
+ "bestFor": "A sequence of 3 moments/versions as photos.",
+ "notSuitable": "One photo (A48).",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   8,
+   "first card dropping"
+  ],
+  [
+   20,
+   "cards 1-2 in"
+  ],
+  [
+   34,
+   "third card dropping"
+  ],
+  [
+   50,
+   "settling"
+  ],
+  [
+   83,
+   "rest: 3 fanned cards, last outlined orange"
+  ]
+ ],
+ "script": [
+  "Three polaroid-style cards drop in one by one, fanned at -10, 0 and +8 degrees."
+ ],
+ "params": {
+  "captions": "3 strings <=8 chars",
+  "photos": "files in assets/photos/"
+ },
+ "maxContent": "3 cards, captions <=8 chars",
+ "footprint": "~800 x 400 px",
+ "colorRules": "Last card outline + caption orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 700,
+   "y": 500,
+   "text": "cards drop in"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 960,
+   "y": 520,
+   "text": "fan settles"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 1220,
+   "y": 520,
+   "text": "last card orange"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

@@ -1,0 +1,80 @@
+{
+ "id": "A20",
+ "name": "Layered Stack",
+ "category": "Diagrams/systems",
+ "duration": 84,
+ "keyframes": [
+  0,
+  10,
+  24,
+  38,
+  60,
+  83
+ ],
+ "easing": "layers EASE.out 14f, built bottom to top, staggered 12f; note arrow EASE.out f64-76",
+ "bestFor": "Stacks/tiers/architecture layers with a 'you are here' layer.",
+ "notSuitable": "Non-hierarchical relations.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   10,
+   "bottom layer dropping in"
+  ],
+  [
+   24,
+   "bottom two layers in place"
+  ],
+  [
+   38,
+   "all four layers in place"
+  ],
+  [
+   60,
+   "stack complete; note not yet"
+  ],
+  [
+   83,
+   "rest: stack + orange arrow + note at highlighted layer"
+  ]
+ ],
+ "script": [
+  "Layers drop in from above one by one, starting with the bottom layer.",
+  "An orange arrow and note point at the highlighted layer."
+ ],
+ "params": {
+  "layers": "array of 3-4 strings <=24 chars",
+  "highlight": "index",
+  "note": "string <=16 chars"
+ },
+ "maxContent": "<=4 layers, labels <=24 chars",
+ "footprint": "700 x 460 px + note (1100 wide)",
+ "colorRules": "Highlighted layer, arrow, note orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 760,
+   "text": "bottom layer first"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 960,
+   "y": 520,
+   "text": "top layer last"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 1450,
+   "y": 640,
+   "text": "orange arrow + note"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

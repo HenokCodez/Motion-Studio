@@ -1,0 +1,77 @@
+{
+ "id": "A43",
+ "name": "Stick Figure Walks and Points",
+ "category": "People/characters",
+ "duration": 96,
+ "keyframes": [
+  0,
+  10,
+  24,
+  40,
+  60,
+  95
+ ],
+ "easing": "walk EASE.inOut f0-40 (370px); pose switch at f40; card EASE.inOut f44-60; text wipe f56-76",
+ "bestFor": "Introducing a concept via a character presenting it.",
+ "notSuitable": "Dense content.",
+ "keyframeTable": [
+  [
+   0,
+   "figure drawing at left"
+  ],
+  [
+   10,
+   "figure walking right"
+  ],
+  [
+   24,
+   "walking, legs swinging"
+  ],
+  [
+   40,
+   "arrives, switches to pointing pose"
+  ],
+  [
+   60,
+   "card drawn, pointing"
+  ],
+  [
+   95,
+   "rest: figure points at orange card with text"
+  ]
+ ],
+ "script": [
+  "A stick figure draws, walks 370px right with swinging legs, stops and points at a card that draws in with a label."
+ ],
+ "params": {
+  "text": "string <=18 chars"
+ },
+ "maxContent": "text <=18 chars at 56px",
+ "footprint": "~1400 x 520 px",
+ "colorRules": "Card orange; figure cream.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 330,
+   "y": 640,
+   "text": "figure walks"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 520,
+   "y": 640,
+   "text": "stops and points"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 1220,
+   "y": 510,
+   "text": "orange card + label"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

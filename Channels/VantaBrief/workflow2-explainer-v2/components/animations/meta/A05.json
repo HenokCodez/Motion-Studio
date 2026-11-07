@@ -1,0 +1,80 @@
+{
+ "id": "A05",
+ "name": "Word-by-Word Handwritten",
+ "category": "Typography/kinetic",
+ "duration": 90,
+ "keyframes": [
+  0,
+  10,
+  24,
+  38,
+  56,
+  89
+ ],
+ "easing": "each word: spring pop {damping:12,stiffness:140,mass:0.7}, one word every 7 frames starting f6",
+ "bestFor": "Narration punchlines of 3-7 words, one idea ('Real tasks break paper scores').",
+ "notSuitable": "More than 7 words; lists.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   10,
+   "word 1 popping in (scale 0.8->1.1->1)"
+  ],
+  [
+   24,
+   "words 1-3 visible, 'break' in orange"
+  ],
+  [
+   38,
+   "line 1 complete, line 2 word 1 popping"
+  ],
+  [
+   56,
+   "all words visible"
+  ],
+  [
+   89,
+   "rest: 2 centered lines, 96px, one orange word"
+  ]
+ ],
+ "script": [
+  "Words appear every 7 frames; each scales up with a small spring and un-rotates from a random \u00b13\u00b0 tilt.",
+  "Line break happens automatically at 1300 px.",
+  "The emphasized word index renders orange."
+ ],
+ "params": {
+  "text": "string 3-7 words",
+  "emphasis": "array of word indexes (max 1)"
+ },
+ "maxContent": "<=7 words, <=34 chars total",
+ "footprint": "<=1300 x 240 px",
+ "colorRules": "One orange word max.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 830,
+   "y": 520,
+   "text": "word pops in"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 1050,
+   "y": 520,
+   "text": "emphasis word = orange"
+  },
+  {
+   "n": 3,
+   "k": 4,
+   "x": 960,
+   "y": 640,
+   "text": "auto 2-line wrap"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

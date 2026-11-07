@@ -1,0 +1,72 @@
+{
+ "id": "A38",
+ "name": "Pen Circle Highlight",
+ "category": "Emphasis/State",
+ "duration": 60,
+ "keyframes": [
+  0,
+  8,
+  18,
+  28,
+  40,
+  59
+ ],
+ "easing": "text fade f0-10; circle EASE.out f14-32; second pass f30-42",
+ "bestFor": "Circling a word/number in a sentence.",
+ "notSuitable": "Long sentences.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   8,
+   "sentence fading in"
+  ],
+  [
+   18,
+   "circle ~25% drawn, word orange"
+  ],
+  [
+   28,
+   "circle ~80% drawn"
+  ],
+  [
+   40,
+   "circle done, second pass drawing"
+  ],
+  [
+   59,
+   "rest: two orange passes around the word"
+  ]
+ ],
+ "script": [
+  "Sentence appears; the key word turns orange; an orange pen ellipse circles it twice."
+ ],
+ "params": {
+  "before": "<=12 chars",
+  "word": "<=16 chars",
+  "after": "<=12 chars"
+ },
+ "maxContent": "<=34 chars total",
+ "footprint": "~1250 x 160 px",
+ "colorRules": "Word + circles orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 2,
+   "x": 1100,
+   "y": 520,
+   "text": "circle draws"
+  },
+  {
+   "n": 2,
+   "k": 4,
+   "x": 1100,
+   "y": 500,
+   "text": "second pass"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

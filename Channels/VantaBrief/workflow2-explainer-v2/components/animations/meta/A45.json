@@ -1,0 +1,78 @@
+{
+ "id": "A45",
+ "name": "Crowd Builder",
+ "category": "People/characters",
+ "duration": 84,
+ "keyframes": [
+  0,
+  10,
+  24,
+  38,
+  56,
+  83
+ ],
+ "easing": "figures spring pop staggered 3f from f4; label fade f50-66",
+ "bestFor": "'Many people/testers/users' counts.",
+ "notSuitable": "Individual stories.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   10,
+   "first figures popping"
+  ],
+  [
+   24,
+   "two rows partly filled"
+  ],
+  [
+   38,
+   "all 18 popped"
+  ],
+  [
+   56,
+   "label fading in"
+  ],
+  [
+   83,
+   "rest: 3 rows of 6 figures, last waves in orange"
+  ]
+ ],
+ "script": [
+  "Mini stick figures pop in one by one filling a 6x3 grid; the last one is orange and waves."
+ ],
+ "params": {
+  "count": "number <=18",
+  "label": "string <=24 chars"
+ },
+ "maxContent": "<=18 figures, label <=24 chars",
+ "footprint": "960 x 560 px",
+ "colorRules": "Last figure orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 640,
+   "y": 560,
+   "text": "figures pop in"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 960,
+   "y": 720,
+   "text": "grid fills"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 1360,
+   "y": 800,
+   "text": "last figure orange"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

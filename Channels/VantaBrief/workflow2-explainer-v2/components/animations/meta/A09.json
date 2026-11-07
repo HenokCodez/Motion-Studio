@@ -1,0 +1,89 @@
+{
+ "id": "A09",
+ "name": "A-vs-B Slide-In",
+ "category": "Comparisons",
+ "duration": 78,
+ "keyframes": [
+  0,
+  10,
+  22,
+  34,
+  50,
+  77
+ ],
+ "easing": "boxes EASE.out f0-20 / f4-24 (700px travel); highlight EASE.out f26-38; text wipes EASE.inOut f28-64",
+ "bestFor": "Comparing two things ('Standard Webchat vs Agentic Workflows').",
+ "notSuitable": "Three or more options.",
+ "keyframeTable": [
+  [
+   0,
+   "empty (boxes off-screen)"
+  ],
+  [
+   10,
+   "both boxes almost in place, still sliding (left box x\u2248100, right box x\u22481060)"
+  ],
+  [
+   22,
+   "boxes in place, empty; 'vs' starts popping at f24"
+  ],
+  [
+   34,
+   "right box fully orange; titles half-wiped ('Stand', 'Agent')"
+  ],
+  [
+   50,
+   "titles done; first bullet of each box done; second bullets not started"
+  ],
+  [
+   77,
+   "rest: two 770x420 boxes, right highlighted, 2 bullets each"
+  ]
+ ],
+ "script": [
+  "f0-24: left box slides from the left, right box from the right.",
+  "f22-30: 'vs' pops in the gap.",
+  "f26-38: right box fills #6B3A2E and its outline draws in orange.",
+  "f28-64: titles and bullets wipe in."
+ ],
+ "params": {
+  "left": "{title<=22 chars, bullets<=2 x 24 chars}",
+  "right": "same"
+ },
+ "maxContent": "title <=22 chars, bullets <=2 x 24 chars",
+ "footprint": "2 x 770x420 px, gap 60 (40% each)",
+ "colorRules": "Right box = orange focal. Left cream.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 560,
+   "y": 540,
+   "text": "left box slides in"
+  },
+  {
+   "n": 2,
+   "k": 1,
+   "x": 1360,
+   "y": 540,
+   "text": "right box slides in"
+  },
+  {
+   "n": 3,
+   "k": 3,
+   "x": 1380,
+   "y": 420,
+   "text": "right fills + orange outline"
+  },
+  {
+   "n": 4,
+   "k": 5,
+   "x": 540,
+   "y": 520,
+   "text": "bullets wipe in"
+  }
+ ],
+ "status": "rendered",
+ "entrance": true,
+ "ref": "s3-a-vs-b.jpg"
+}

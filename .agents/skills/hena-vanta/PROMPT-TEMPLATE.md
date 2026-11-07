@@ -5,7 +5,7 @@ Use the hena-vanta skill (v6) for the channel Hena Vanta. Build the full video i
 INPUTS
 Folder: D:\Youtube\Hena Vanta\Videos\<name>\   (voiceover, my time-stamped script, script.txt)
 Format: <long-form | shorts>   Resolution 1920x1080 (shorts: 1080x1920)
-Background: D:\Youtube\Hena Vanta\Branding\Bg (white grid, loop, muted, black text)  -> copy to public/bg.mp4
+Background: D:\Youtube\Hena Vanta\Branding\Bg (white grid, loop, muted, black text)  -> copy to public/hena-vanta/bg.mp4
 Output: D:\Youtube\Hena Vanta\Renders\<name>.mp4
 
 STYLE (v6): kinetic one-word-at-a-time text attached to objects (bubbles, pills, windows, list cards, cursor, Venn, journey).

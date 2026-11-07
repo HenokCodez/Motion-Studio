@@ -1,0 +1,80 @@
+{
+ "id": "A06",
+ "name": "Strike-Through \u2192 Replace",
+ "category": "Typography/kinetic",
+ "duration": 72,
+ "keyframes": [
+  0,
+  10,
+  18,
+  26,
+  40,
+  71
+ ],
+ "easing": "strike EASE.inOut f6-22; old text fade f22-34 (EASE.out); new text EASE.back f28-46",
+ "bestFor": "Myth vs reality; 'it's not X, it's Y'; correcting a claim.",
+ "notSuitable": "Neutral lists.",
+ "keyframeTable": [
+  [
+   0,
+   "old text centered at y470, nothing else"
+  ],
+  [
+   10,
+   "strike stroke ~25% across the old text"
+  ],
+  [
+   18,
+   "strike ~75% across"
+  ],
+  [
+   26,
+   "strike complete; old text dimming and rising"
+  ],
+  [
+   40,
+   "old text at ~40% opacity above; new orange text settling"
+  ],
+  [
+   71,
+   "rest: old dimmed+struck at y~430, new orange at y650"
+  ]
+ ],
+ "script": [
+  "f6-22: a cream pen stroke (8px) is drawn through the old text, slightly sloped.",
+  "f22-34: old text dims to 40% and rises 40px.",
+  "f28-46: new text slides up 60px with overshoot, in orange."
+ ],
+ "params": {
+  "oldText": "string <=24 chars",
+  "newText": "string <=24 chars"
+ },
+ "maxContent": "each <=24 chars",
+ "footprint": "<=1000 x 380 px",
+ "colorRules": "New text orange (the true side). Old text/strike cream.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 2,
+   "x": 960,
+   "y": 436,
+   "text": "pen strikes through"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 960,
+   "y": 420,
+   "text": "old text dims + rises"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 960,
+   "y": 650,
+   "text": "new text slides up"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

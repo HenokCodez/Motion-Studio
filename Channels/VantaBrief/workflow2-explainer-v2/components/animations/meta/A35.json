@@ -1,0 +1,81 @@
+{
+ "id": "A35",
+ "name": "Numbered Photo Cards",
+ "category": "People/photo",
+ "duration": 90,
+ "keyframes": [
+  0,
+  10,
+  26,
+  44,
+  62,
+  89
+ ],
+ "easing": "cards spring pop staggered 8f from f4; banner fade f36-48; highlight f60+",
+ "bestFor": "Intro of a numbered set of people/steps/episodes (Part N).",
+ "notSuitable": "More than 5 items.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   10,
+   "card 1 popping"
+  ],
+  [
+   26,
+   "cards 1-3 in"
+  ],
+  [
+   44,
+   "all 5 in; banner appearing"
+  ],
+  [
+   62,
+   "card 3 turning orange"
+  ],
+  [
+   89,
+   "rest: 3 + banner + 2 cards, one orange"
+  ]
+ ],
+ "script": [
+  "Five portrait cards pop in (3 on top, 2 below) with big numbers.",
+  "A banner appears between rows; one card highlights orange."
+ ],
+ "params": {
+  "banner": "string <=12 chars",
+  "photos": "array of files in assets/photos/ (silhouette placeholders if empty)",
+  "highlight": "index"
+ },
+ "maxContent": "5 cards, banner <=12 chars",
+ "footprint": "660 x 700 px",
+ "colorRules": "Highlighted card orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 700,
+   "y": 285,
+   "text": "cards pop in"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 960,
+   "y": 525,
+   "text": "banner"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 1220,
+   "y": 285,
+   "text": "highlight orange"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false,
+ "ref": "pin5.jpg"
+}

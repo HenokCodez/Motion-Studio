@@ -1,0 +1,77 @@
+{
+ "id": "A41",
+ "name": "Arrow Point Bounce",
+ "category": "Emphasis/State",
+ "duration": 66,
+ "keyframes": [
+  0,
+  8,
+  14,
+  26,
+  40,
+  65
+ ],
+ "easing": "card EASE.inOut f0-14; arrow EASE.out f10-28; bounce sin(0.55f)*16px along arrow, decaying from f30",
+ "bestFor": "Pointing at a specific item ('this one').",
+ "notSuitable": "Several targets.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   8,
+   "card drawing"
+  ],
+  [
+   14,
+   "arrow ~25% drawn"
+  ],
+  [
+   26,
+   "arrow complete"
+  ],
+  [
+   40,
+   "arrow bouncing toward card"
+  ],
+  [
+   65,
+   "rest: arrow resting near card corner"
+  ]
+ ],
+ "script": [
+  "Target card draws; a big orange arrow draws in from the lower left and bounces toward it."
+ ],
+ "params": {
+  "target": "string <=14 chars"
+ },
+ "maxContent": "target <=14 chars at 48px",
+ "footprint": "~800 x 480 px",
+ "colorRules": "Arrow orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 980,
+   "y": 540,
+   "text": "target card"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 520,
+   "y": 760,
+   "text": "arrow draws"
+  },
+  {
+   "n": 3,
+   "k": 4,
+   "x": 700,
+   "y": 640,
+   "text": "arrow bounces"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

@@ -1,0 +1,80 @@
+{
+ "id": "A15",
+ "name": "Funnel",
+ "category": "Lists/steps/process",
+ "duration": 90,
+ "keyframes": [
+  0,
+  14,
+  30,
+  46,
+  62,
+  89
+ ],
+ "easing": "funnel outline EASE.inOut f0-16; chips drop EASE.inOut 24f staggered 12f from f10, shrink to 40%; result spring pop at f58",
+ "bestFor": "Many inputs narrowing to one result ('papers, demos, leaderboards -> real score').",
+ "notSuitable": "More than 3 inputs.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   14,
+   "funnel drawn; chip 1 falling"
+  ],
+  [
+   30,
+   "chips 1-2 falling and shrinking"
+  ],
+  [
+   46,
+   "chip 3 falling; chip 1 gone"
+  ],
+  [
+   62,
+   "all chips merged; result popping"
+  ],
+  [
+   89,
+   "rest: funnel + orange result card below spout"
+  ]
+ ],
+ "script": [
+  "The funnel outline draws.",
+  "Three chips drop in one after another, drift to the centre, shrink to 40% and fade out inside the funnel.",
+  "The orange result card pops below the spout."
+ ],
+ "params": {
+  "chips": "array of 3 strings <=11 chars",
+  "result": "string <=16 chars"
+ },
+ "maxContent": "3 chips <=11 chars, result <=16 chars",
+ "footprint": "900 x 660 px",
+ "colorRules": "Result card orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 300,
+   "text": "funnel outline draws"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 960,
+   "y": 400,
+   "text": "chips drop + shrink"
+  },
+  {
+   "n": 3,
+   "k": 4,
+   "x": 960,
+   "y": 850,
+   "text": "orange result pops"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

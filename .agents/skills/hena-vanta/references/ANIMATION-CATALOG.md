@@ -20,7 +20,7 @@ Global: background = our grid loop. Sizes are for 1920x1080. `sec(1)=30f`. Never
 **Motion**: F1 (0 f) card at centre. F2 (+12 f) whole stack rises 90 px and card clips off the top edge (camera tilts down). F3–F5 words appear one by one on a baseline under the row ("today", "we're", "talking", "about", "ideas"); each new word enters with wordPop at the right end, and the whole line slides left so the newest word stays near centre; older words fade to 60%. The keyword ("ideas") is red. F6 (+66 f) stack blurOut + drift up-left while the next kinetic scene (A02) blurs in at centre.
 **Exit**: blurOut 8 f, overlap 6 f.
 **Build with**: `Card`, `WordSync mode="ticker"`.
-**HV adaptation**: the channel row shows "Hena Vanta" and OUR logo (public/logo.png) in the avatar circle. The reference image for this entry was redrawn as a neutral schematic (the original showed another channel). Delete the like/share counts (or show real ones); keyword red not green.
+**HV adaptation**: the channel row shows "Hena Vanta" and OUR logo (public/hena-vanta/logo.png) in the avatar circle. The reference image for this entry was redrawn as a neutral schematic (the original showed another channel). Delete the like/share counts (or show real ones); keyword red not green.
 
 ### A02 Word stack (kinetic two-line phrase)
 **Idea**: any short claim, said word by word ("killer ideas is all you need").

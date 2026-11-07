@@ -1,0 +1,78 @@
+{
+ "id": "A18",
+ "name": "Conveyor Gate",
+ "category": "Lists/steps/process",
+ "duration": 96,
+ "keyframes": [
+  0,
+  14,
+  30,
+  46,
+  66,
+  95
+ ],
+ "easing": "belt EASE.inOut f0-14; boxes EASE.inOut 54f staggered 14f from f10; box turns orange after crossing x=960",
+ "bestFor": "A process that transforms inputs ('raw -> agent -> result').",
+ "notSuitable": "Static comparisons.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   14,
+   "belt + gate drawn, box 1 entering left"
+  ],
+  [
+   30,
+   "boxes 1-2 on the belt left of the gate, box 1 approaching it"
+  ],
+  [
+   46,
+   "box 1 has passed the gate and is orange on the right; boxes 2-3 left of the gate"
+  ],
+  [
+   66,
+   "boxes 1-2 orange on the right; box 3 entering the gate"
+  ],
+  [
+   95,
+   "rest: three orange boxes (150px, 50px gaps) right of the gate"
+  ]
+ ],
+ "script": [
+  "The belt and an orange gate draw.",
+  "Three cream boxes travel left to right, pass behind the gate, and come out orange."
+ ],
+ "params": {
+  "gate": "string <=10 chars"
+ },
+ "maxContent": "3 boxes, gate label <=10 chars",
+ "footprint": "1550 x 270 px",
+ "colorRules": "Gate and exited boxes orange; entering boxes cream.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 500,
+   "text": "gate (orange)"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 300,
+   "y": 560,
+   "text": "cream boxes enter"
+  },
+  {
+   "n": 3,
+   "k": 4,
+   "x": 1560,
+   "y": 560,
+   "text": "boxes exit orange"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

@@ -1,0 +1,86 @@
+{
+ "id": "A08",
+ "name": "Stacked Emphasis Slam",
+ "category": "Typography/kinetic",
+ "duration": 60,
+ "keyframes": [
+  0,
+  8,
+  14,
+  20,
+  30,
+  59
+ ],
+ "easing": "line1/3 slide: EASE.out f0-14 / f18-32; big word: spring pop f10+; burst strokes f14-24, fade f24-34",
+ "bestFor": "'It's not X, it's Y' / one keyword that must land hard.",
+ "notSuitable": "Sentences >25 chars on the big line.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   8,
+   "top line sliding in from left"
+  ],
+  [
+   14,
+   "top line in place; big word slams in at 1.7x scale"
+  ],
+  [
+   20,
+   "big word at ~1.1x, burst strokes drawing"
+  ],
+  [
+   30,
+   "burst fading, bottom line sliding in from right"
+  ],
+  [
+   59,
+   "rest: 3 stacked lines centered"
+  ]
+ ],
+ "script": [
+  "Top line slides in from the left; big orange word slams in from 1.7x with a spring; ten short burst strokes radiate around it then fade; bottom line slides in from the right."
+ ],
+ "params": {
+  "top": "<=22 chars",
+  "big": "<=8 chars uppercase",
+  "bottom": "<=30 chars"
+ },
+ "maxContent": "big word <=8 chars at 220px",
+ "footprint": "~900 x 560 px (47% x 52%)",
+ "colorRules": "Big word orange; burst + lines cream.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 700,
+   "y": 360,
+   "text": "top line slides in"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 960,
+   "y": 600,
+   "text": "big word slams in"
+  },
+  {
+   "n": 3,
+   "k": 3,
+   "x": 1400,
+   "y": 360,
+   "text": "burst strokes radiate"
+  },
+  {
+   "n": 4,
+   "k": 4,
+   "x": 1000,
+   "y": 790,
+   "text": "bottom line slides in"
+  }
+ ],
+ "status": "rendered",
+ "entrance": true
+}

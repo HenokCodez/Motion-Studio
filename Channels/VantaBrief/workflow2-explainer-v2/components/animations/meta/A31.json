@@ -1,0 +1,79 @@
+{
+ "id": "A31",
+ "name": "Toggle Switch Flip",
+ "category": "Emphasis/State",
+ "duration": 72,
+ "keyframes": [
+  0,
+  10,
+  24,
+  30,
+  38,
+  71
+ ],
+ "easing": "track draw EASE.inOut f0-14; knob spring pop f26+; label fade f6-18",
+ "bestFor": "A setting/mode flipping from off to on ('Agent mode').",
+ "notSuitable": "Anything that is not a binary state.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   10,
+   "track drawing"
+  ],
+  [
+   24,
+   "track done, knob left, OFF label"
+  ],
+  [
+   30,
+   "knob moving right, track turning orange"
+  ],
+  [
+   38,
+   "knob overshoots near right end"
+  ],
+  [
+   71,
+   "rest: orange track, knob right, ON on the left"
+  ]
+ ],
+ "script": [
+  "Pill track draws; label fades in.",
+  "At f26 the knob springs from left to right; the track fills #6B3A2E with orange outline; OFF becomes ON."
+ ],
+ "params": {
+  "label": "string <=24 chars"
+ },
+ "maxContent": "label <=24 chars",
+ "footprint": "520 x 200 px + label",
+ "colorRules": "Track orange only after flip.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 540,
+   "text": "track draws"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 960,
+   "y": 540,
+   "text": "knob springs across"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 850,
+   "y": 555,
+   "text": "ON label"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false,
+ "ref": "pin1.jpg"
+}

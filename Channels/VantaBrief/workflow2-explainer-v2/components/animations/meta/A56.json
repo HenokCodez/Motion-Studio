@@ -1,0 +1,88 @@
+{
+ "id": "A56",
+ "name": "Logo Duel",
+ "category": "Logos/brand",
+ "duration": 72,
+ "keyframes": [
+  0,
+  8,
+  18,
+  30,
+  56,
+  71
+ ],
+ "easing": "tiles EASE.out f0-20 (700px travel); VS spring pop f22; winner EASE.inOut f50-62",
+ "bestFor": "Two named products head to head.",
+ "notSuitable": "More than two.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   8,
+   "tiles sliding in"
+  ],
+  [
+   18,
+   "tiles in place"
+  ],
+  [
+   30,
+   "VS popping"
+  ],
+  [
+   56,
+   "right tile highlighting, left dimming"
+  ],
+  [
+   71,
+   "rest: right tile orange and 1.06x, left at 45%"
+  ]
+ ],
+ "script": [
+  "Two real logos slide in from the edges, VS pops, the right one wins (orange)."
+ ],
+ "params": {
+  "left": "<=10 chars",
+  "right": "<=10 chars",
+  "leftFile": "file in assets/logos/",
+  "rightFile": "file in assets/logos/"
+ },
+ "maxContent": "2 logos",
+ "footprint": "1160 x 300 px + labels",
+ "colorRules": "Winner tile orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 530,
+   "y": 480,
+   "text": "left logo slides in"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 1390,
+   "y": 480,
+   "text": "right logo slides in"
+  },
+  {
+   "n": 3,
+   "k": 3,
+   "x": 960,
+   "y": 520,
+   "text": "VS"
+  },
+  {
+   "n": 4,
+   "k": 5,
+   "x": 1390,
+   "y": 480,
+   "text": "winner orange"
+  }
+ ],
+ "status": "rendered",
+ "entrance": true,
+ "strictFrom": 30
+}

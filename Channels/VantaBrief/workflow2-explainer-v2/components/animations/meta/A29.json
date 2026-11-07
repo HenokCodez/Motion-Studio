@@ -1,0 +1,79 @@
+{
+ "id": "A29",
+ "name": "Subscribe CTA (channel logo)",
+ "category": "Callouts/CTA",
+ "duration": 90,
+ "keyframes": [
+  0,
+  8,
+  20,
+  34,
+  58,
+  89
+ ],
+ "easing": "logo spring pop f2; channel name wipe EASE.inOut f12-34; button spring pop f28; press 0.94 at f56-64 then label switches",
+ "bestFor": "'Subscribe to Vanta Brief' moments.",
+ "notSuitable": "Mid-explanation beats.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   8,
+   "logo popping at left"
+  ],
+  [
+   20,
+   "logo done; channel name wiping"
+  ],
+  [
+   34,
+   "name complete; button popping (blue)"
+  ],
+  [
+   58,
+   "button pressed (0.94)"
+  ],
+  [
+   89,
+   "rest: logo + name + dark 'Subscribed' button"
+  ]
+ ],
+ "script": [
+  "Channel logo pops in.",
+  "Channel name wipes in.",
+  "Blue Subscribe button pops, gets pressed and turns into a dark 'Subscribed' button."
+ ],
+ "params": {
+  "channel": "string <=14 chars"
+ },
+ "maxContent": "channel name <=14 chars at 88px",
+ "footprint": "~1100 x 300 px",
+ "colorRules": "Blue button = channel-identity role (small area). No orange needed.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 480,
+   "y": 540,
+   "text": "logo pops"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 910,
+   "y": 635,
+   "text": "blue button pops"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 910,
+   "y": 635,
+   "text": "press -> Subscribed"
+  }
+ ],
+ "status": "rendered (logo/screenshot slots show labelled placeholders until assets are fetched)",
+ "entrance": false
+}

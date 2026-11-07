@@ -1,0 +1,90 @@
+{
+ "id": "A01",
+ "name": "Pen-Draw Title",
+ "category": "Reveals/intros",
+ "duration": 75,
+ "keyframes": [
+  0,
+  12,
+  24,
+  36,
+  52,
+  74
+ ],
+ "easing": "icon: EASE.inOut cubic-bezier(0.65,0,0.35,1) f0-26; title wipe: same f14-46; subtitle: EASE.out (0.22,1,0.36,1) f46-62",
+ "bestFor": "Opening a topic or chapter: 'Real World or Benchmark?', 'Let's talk about X'.",
+ "notSuitable": "Lists, comparisons, anything needing more than one headline.",
+ "keyframeTable": [
+  [
+   0,
+   "empty frame, grid only"
+  ],
+  [
+   12,
+   "icon 45% drawn (top of scales + beam), title not started"
+  ],
+  [
+   24,
+   "icon fully drawn orange; title wipe 22%, nib dot at left of title"
+  ],
+  [
+   36,
+   "title 70% revealed, orange nib dot at wipe edge"
+  ],
+  [
+   52,
+   "title complete, nib gone, subtitle 25% visible, 12px below rest"
+  ],
+  [
+   74,
+   "rest: icon (960,300) 190px, title centered baseline y600, subtitle baseline y700"
+  ]
+ ],
+ "script": [
+  "f0-26: the orange icon is pen-drawn stroke by stroke (stroke-dashoffset 1->0).",
+  "f14-46: the title is revealed left-to-right by a clip wipe; an orange dot (the pen nib, r=10) rides the wipe edge.",
+  "f46-62: subtitle fades in and rises 16px.",
+  "f62-74: hold."
+ ],
+ "params": {
+  "title": "string, <=45 chars, auto-fits to 1612 px (96px max, never below fit)",
+  "subtitle": "string <=60 chars",
+  "icon": "key of ICONS (scales, play, chip, browser, check, cube, bolt, star, search, warn)"
+ },
+ "maxContent": "title <=45 chars (auto-shrinks); subtitle <=60 chars",
+ "footprint": "icon 190x190 + title <=1612 wide x ~100 tall + subtitle = ~1200x520 px centered (62% x 48%)",
+ "colorRules": "Icon orange (the single orange focal). Title/subtitle cream. No blue.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 2,
+   "x": 960,
+   "y": 330,
+   "text": "icon pen-draws"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 960,
+   "y": 600,
+   "text": "title wipes L\u2192R"
+  },
+  {
+   "n": 3,
+   "k": 3,
+   "x": 1330,
+   "y": 600,
+   "text": "orange nib rides the wipe edge"
+  },
+  {
+   "n": 4,
+   "k": 5,
+   "x": 960,
+   "y": 700,
+   "text": "subtitle rises + fades in"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false,
+ "ref": "s1-title-icon.jpg"
+}

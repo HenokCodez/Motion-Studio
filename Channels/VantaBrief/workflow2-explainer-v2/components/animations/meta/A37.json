@@ -1,0 +1,78 @@
+{
+ "id": "A37",
+ "name": "Staggered Stat Cards",
+ "category": "Data",
+ "duration": 90,
+ "keyframes": [
+  0,
+  12,
+  28,
+  44,
+  62,
+  89
+ ],
+ "easing": "cards EASE.out 20f staggered 10f from f4 (rise 60px); numbers count up EASE.out 36f",
+ "bestFor": "Three headline stats side by side.",
+ "notSuitable": "One stat (use A07).",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   12,
+   "card 1 rising"
+  ],
+  [
+   28,
+   "cards 1-2 up, counting"
+  ],
+  [
+   44,
+   "all 3 in, counting"
+  ],
+  [
+   62,
+   "counts finishing"
+  ],
+  [
+   89,
+   "rest: 3 cards at staggered heights, third orange"
+  ]
+ ],
+ "script": [
+  "Three cards rise in at different heights; numbers count up; the third is orange."
+ ],
+ "params": {
+  "stats": "3 {v number, s suffix, l label<=16 chars}"
+ },
+ "maxContent": "3 cards, labels <=16 chars",
+ "footprint": "1580 x 420 px",
+ "colorRules": "Third card orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 390,
+   "y": 540,
+   "text": "cards rise in"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 960,
+   "y": 620,
+   "text": "numbers count up"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 1530,
+   "y": 560,
+   "text": "orange card"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false,
+ "ref": "pin7.jpg"
+}

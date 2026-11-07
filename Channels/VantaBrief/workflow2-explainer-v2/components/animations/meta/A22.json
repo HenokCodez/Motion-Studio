@@ -1,0 +1,80 @@
+{
+ "id": "A22",
+ "name": "Exploded Layers (isometric)",
+ "category": "Diagrams/systems",
+ "duration": 96,
+ "keyframes": [
+  0,
+  12,
+  26,
+  40,
+  58,
+  95
+ ],
+ "easing": "explode EASE.out f22-58 (plates travel 180-200px); labels fade f50-74",
+ "bestFor": "Showing internal structure/layers coming apart ('3D Explode', architecture internals).",
+ "notSuitable": "Flat lists.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   12,
+   "3 plates nearly stacked, appearing"
+  ],
+  [
+   26,
+   "plates starting to separate"
+  ],
+  [
+   40,
+   "mid-explosion, guide lines fading in"
+  ],
+  [
+   58,
+   "fully exploded, dashed guides visible"
+  ],
+  [
+   95,
+   "rest: 3 diamonds at y 300/500/700 + labels right; middle orange"
+  ]
+ ],
+ "script": [
+  "Three isometric plates start stacked.",
+  "They separate vertically; dashed guide lines connect their corners.",
+  "Labels with leader lines appear on the right."
+ ],
+ "params": {
+  "layers": "array of 3 strings <=20 chars",
+  "highlight": "index"
+ },
+ "maxContent": "3 plates, labels <=20 chars at 40px",
+ "footprint": "~1070 x 580 px",
+ "colorRules": "Highlighted plate orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 500,
+   "text": "plates start stacked"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 960,
+   "y": 400,
+   "text": "plates separate"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 1560,
+   "y": 500,
+   "text": "labels + leader lines"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

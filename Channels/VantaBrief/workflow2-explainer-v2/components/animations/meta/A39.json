@@ -1,0 +1,77 @@
+{
+ "id": "A39",
+ "name": "Shake Alert",
+ "category": "Emphasis/State",
+ "duration": 66,
+ "keyframes": [
+  0,
+  8,
+  16,
+  24,
+  36,
+  65
+ ],
+ "easing": "card EASE.back f0-14; shake sin(f*2.2)*14px decaying over 30f from f14; sparks f14-26",
+ "bestFor": "Warning/pitfall/'wait, is this legit?' beats.",
+ "notSuitable": "Calm explanations.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   8,
+   "card growing"
+  ],
+  [
+   16,
+   "card shaking, sparks drawing"
+  ],
+  [
+   24,
+   "shaking, sparks fading"
+  ],
+  [
+   36,
+   "shake decaying"
+  ],
+  [
+   65,
+   "rest: orange warning card, still"
+  ]
+ ],
+ "script": [
+  "Card with warning icon pops in, shakes left-right with decay while 4 spark strokes flash."
+ ],
+ "params": {
+  "text": "string <=16 chars"
+ },
+ "maxContent": "text <=16 chars at 48px",
+ "footprint": "640 x 300 px",
+ "colorRules": "Whole card orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 780,
+   "y": 540,
+   "text": "warn icon"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 960,
+   "y": 540,
+   "text": "card shakes"
+  },
+  {
+   "n": 3,
+   "k": 3,
+   "x": 610,
+   "y": 450,
+   "text": "spark strokes"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

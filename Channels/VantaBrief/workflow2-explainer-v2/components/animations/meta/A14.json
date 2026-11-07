@@ -1,0 +1,79 @@
+{
+ "id": "A14",
+ "name": "Numbered Path",
+ "category": "Lists/steps/process",
+ "duration": 90,
+ "keyframes": [
+  0,
+  10,
+  24,
+  40,
+  62,
+  89
+ ],
+ "easing": "path EASE.inOut f6-62; stop pops: spring pop when path reaches each stop",
+ "bestFor": "Sequential 3-step process told left to right.",
+ "notSuitable": "More than 3 steps or branching flows.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   10,
+   "path starting, stop 1 popped"
+  ],
+  [
+   24,
+   "path ~35% drawn, approaching stop 2"
+  ],
+  [
+   40,
+   "stop 2 popped at top of the curve"
+  ],
+  [
+   62,
+   "path complete; stop 3 popped (orange)"
+  ],
+  [
+   89,
+   "rest: S-curve with 3 numbered stops + labels"
+  ]
+ ],
+ "script": [
+  "An S-curved line draws from the lower left to the right.",
+  "Each numbered circle springs in as the line reaches it; its label appears with it.",
+  "The last stop is orange."
+ ],
+ "params": {
+  "labels": "array of 3 strings <=16 chars"
+ },
+ "maxContent": "3 stops, labels <=16 chars at 40px",
+ "footprint": "~1450 x 480 px",
+ "colorRules": "Last stop orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 300,
+   "y": 700,
+   "text": "stop 1 pops first"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 700,
+   "y": 520,
+   "text": "line draws toward stop 2"
+  },
+  {
+   "n": 3,
+   "k": 4,
+   "x": 1560,
+   "y": 640,
+   "text": "last stop = orange"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

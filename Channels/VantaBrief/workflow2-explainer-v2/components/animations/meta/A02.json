@@ -1,0 +1,81 @@
+{
+ "id": "A02",
+ "name": "Marker Underline Sweep",
+ "category": "Reveals/intros",
+ "duration": 60,
+ "keyframes": [
+  0,
+  8,
+  16,
+  24,
+  36,
+  59
+ ],
+ "easing": "text fade: EASE.out f0-10; underline 1 EASE.out f14-30; underline 2 EASE.out f30-42",
+ "bestFor": "Emphasizing one key phrase inside a sentence ('real failures').",
+ "notSuitable": "Long sentences (>34 chars) or more than one emphasized phrase.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   8,
+   "line of text 80% opaque, 4px low, all cream"
+  ],
+  [
+   16,
+   "text settled; keyword turned orange; underline 1 starts at left of keyword"
+  ],
+  [
+   24,
+   "underline 1 ~60% drawn (thick 10px)"
+  ],
+  [
+   36,
+   "underline 1 complete, underline 2 (thin, shorter, 22px lower) 50% drawn"
+  ],
+  [
+   59,
+   "rest: both strokes complete under the keyword"
+  ]
+ ],
+ "script": [
+  "f0-10: sentence fades in and rises 20px.",
+  "f14: keyword switches from cream to orange.",
+  "f14-30: thick orange marker stroke sweeps left\u2192right under the keyword.",
+  "f30-42: thinner second stroke draws underneath, slightly shorter (the double underline)."
+ ],
+ "params": {
+  "before": "string <=22 chars",
+  "keyword": "string <=22 chars"
+ },
+ "maxContent": "before+keyword total <=34 chars at 88px",
+ "footprint": "~1230 x 170 px centered (64% x 16%)",
+ "colorRules": "Keyword + both strokes orange; everything else cream.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 2,
+   "x": 1200,
+   "y": 590,
+   "text": "keyword turns orange"
+  },
+  {
+   "n": 2,
+   "k": 1,
+   "x": 1250,
+   "y": 584,
+   "text": "thick marker stroke sweeps"
+  },
+  {
+   "n": 3,
+   "k": 1,
+   "x": 1190,
+   "y": 606,
+   "text": "thin second stroke (double underline)"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

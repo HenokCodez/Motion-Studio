@@ -1,0 +1,88 @@
+{
+ "id": "A30",
+ "name": "Screenshot in Sketch Browser",
+ "category": "Real media",
+ "duration": 84,
+ "keyframes": [
+  0,
+  10,
+  20,
+  42,
+  52,
+  83
+ ],
+ "easing": "frame EASE.inOut f0-16; bar f10-20; content fade f16-26; circle EASE.out f40-56; note wipe EASE.inOut f54-70",
+ "bestFor": "Showing a real site/product/leaderboard screenshot with a pointer to the key area.",
+ "notSuitable": "Photos of people (use photo animations).",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   10,
+   "frame outline drawing"
+  ],
+  [
+   20,
+   "frame + url bar + dots visible"
+  ],
+  [
+   42,
+   "screenshot visible, orange circle just starting"
+  ],
+  [
+   52,
+   "circle nearly complete, note starting to wipe"
+  ],
+  [
+   83,
+   "rest: frame 900x520, circle, note below"
+  ]
+ ],
+ "script": [
+  "Browser frame draws with url bar.",
+  "Screenshot (assets/screenshots/<file>) fades in.",
+  "Orange pen circle draws over the key region, note wipes in below."
+ ],
+ "params": {
+  "src": "filename in assets/screenshots/",
+  "url": "string <=28 chars",
+  "note": "string <=20 chars"
+ },
+ "maxContent": "1 screenshot, note <=20 chars",
+ "footprint": "900 x 520 px + note",
+ "colorRules": "Circle + note orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 230,
+   "text": "frame draws"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 960,
+   "y": 300,
+   "text": "url bar + dots"
+  },
+  {
+   "n": 3,
+   "k": 4,
+   "x": 1150,
+   "y": 470,
+   "text": "orange circle"
+  },
+  {
+   "n": 4,
+   "k": 5,
+   "x": 1150,
+   "y": 850,
+   "text": "note"
+  }
+ ],
+ "status": "rendered (logo/screenshot slots show labelled placeholders until assets are fetched)",
+ "entrance": false
+}

@@ -1,0 +1,70 @@
+{
+ "id": "A40",
+ "name": "Spark Burst Badge",
+ "category": "Emphasis/State",
+ "duration": 60,
+ "keyframes": [
+  0,
+  8,
+  14,
+  22,
+  34,
+  59
+ ],
+ "easing": "badge spring pop {damping:12,stiffness:140,mass:0.7} f4; rays EASE.out f10-22, fade f24-36",
+ "bestFor": "'New/Breaking/Key' sticker moments.",
+ "notSuitable": "Long text.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   8,
+   "badge popping"
+  ],
+  [
+   14,
+   "badge 1.1x, rays drawing"
+  ],
+  [
+   22,
+   "rays complete"
+  ],
+  [
+   34,
+   "rays gone"
+  ],
+  [
+   59,
+   "rest: orange-outlined badge with label"
+  ]
+ ],
+ "script": [
+  "A circular badge pops in; 12 orange rays burst around it and fade."
+ ],
+ "params": {
+  "label": "string <=6 chars uppercase"
+ },
+ "maxContent": "label <=6 chars at 120px",
+ "footprint": "430 x 430 px",
+ "colorRules": "Badge outline, label and rays orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 540,
+   "text": "badge pops"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 1100,
+   "y": 420,
+   "text": "rays burst"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

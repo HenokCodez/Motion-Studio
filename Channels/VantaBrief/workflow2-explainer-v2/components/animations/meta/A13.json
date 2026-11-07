@@ -1,0 +1,79 @@
+{
+ "id": "A13",
+ "name": "Checklist Tick-Draw",
+ "category": "Lists/steps/process",
+ "duration": 84,
+ "keyframes": [
+  0,
+  12,
+  28,
+  46,
+  66,
+  83
+ ],
+ "easing": "box EASE.inOut 10f; text wipe EASE.inOut 16f; tick EASE.back 12f; rows staggered 20f from f8",
+ "bestFor": "Listing 2-4 short criteria or features that all get ticked off.",
+ "notSuitable": "More than 4 items or long sentences.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   12,
+   "row 1 box drawn, text wiping"
+  ],
+  [
+   28,
+   "row 1 tick being drawn; row 2 box+text appearing"
+  ],
+  [
+   46,
+   "rows 1-2 ticked; row 3 text wiping"
+  ],
+  [
+   66,
+   "all rows ticked, last tick drawing"
+  ],
+  [
+   83,
+   "rest: 3 rows x (64px box + 56px text + orange tick)"
+  ]
+ ],
+ "script": [
+  "Each row: a rough 64px box draws, the text wipes in beside it, then an orange tick draws over the box with overshoot.",
+  "Rows start 20 frames apart."
+ ],
+ "params": {
+  "items": "array 2-4 strings, each <=28 chars"
+ },
+ "maxContent": "<=4 items, <=28 chars each at 56px",
+ "footprint": "~880 x 440 px centered",
+ "colorRules": "Ticks orange (one group); boxes and text cream.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 552,
+   "y": 448,
+   "text": "box draws"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 560,
+   "y": 430,
+   "text": "orange tick draws over box"
+  },
+  {
+   "n": 3,
+   "k": 3,
+   "x": 900,
+   "y": 560,
+   "text": "next row starts 20f later"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false,
+ "ref": "s2-three-cards.jpg"
+}

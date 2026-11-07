@@ -1,0 +1,87 @@
+{
+ "id": "A11",
+ "name": "Center-Out Split Wipe",
+ "category": "Comparisons",
+ "duration": 72,
+ "keyframes": [
+  0,
+  8,
+  16,
+  24,
+  36,
+  71
+ ],
+ "easing": "divider EASE.inOut f0-14; panel reveal clip grows outward from the center f10-34; text f30-48",
+ "bestFor": "Before/after, paper vs production, two states of one thing.",
+ "notSuitable": "Items that need to arrive separately.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   8,
+   "divider 60% drawn top\u2192bottom"
+  ],
+  [
+   16,
+   "divider done; panels 25% revealed from center"
+  ],
+  [
+   24,
+   "panels ~60% revealed"
+  ],
+  [
+   36,
+   "panels full; labels wiping"
+  ],
+  [
+   71,
+   "rest: two 770x440 panels, right highlighted"
+  ]
+ ],
+ "script": [
+  "f0-14: cream divider line draws top to bottom at x=960.",
+  "f10-34: left panel unrolls leftward and right panel rightward from the divider.",
+  "f30-48: icons are visible; labels wipe in."
+ ],
+ "params": {
+  "left": "<=22 chars",
+  "right": "<=22 chars"
+ },
+ "maxContent": "labels <=22 chars",
+ "footprint": "2 x 770x440 px, gap 60",
+ "colorRules": "Right panel orange focal.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 540,
+   "text": "divider draws"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 780,
+   "y": 540,
+   "text": "panels unroll outward"
+  },
+  {
+   "n": 3,
+   "k": 2,
+   "x": 1140,
+   "y": 540,
+   "text": "from the center line"
+  },
+  {
+   "n": 4,
+   "k": 4,
+   "x": 1378,
+   "y": 660,
+   "text": "labels wipe in"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

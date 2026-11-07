@@ -1,0 +1,82 @@
+{
+ "id": "A33",
+ "name": "Chart Card with Tab Hop",
+ "category": "Data",
+ "duration": 96,
+ "keyframes": [
+  0,
+  12,
+  30,
+  46,
+  62,
+  95
+ ],
+ "easing": "card EASE.inOut f0-14; line EASE.inOut f12-36; tab hop EASE.inOut f40-52; data morph f44-64",
+ "bestFor": "A metric that changes by period/variant, with a big number and a trend.",
+ "notSuitable": "Many series.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   12,
+   "card drawing, title and tabs fading in"
+  ],
+  [
+   30,
+   "line drawing"
+  ],
+  [
+   46,
+   "tab selector hopping from 24H to 7D"
+  ],
+  [
+   62,
+   "line morphing to new data, value changed"
+  ],
+  [
+   95,
+   "rest: card, value 94.2, orange line + area, tab 2 selected"
+  ]
+ ],
+ "script": [
+  "Card draws with title, big number and three tabs.",
+  "Orange line and area draw.",
+  "The selector hops to the second tab, the line morphs and the number updates."
+ ],
+ "params": {
+  "tabs": "3 strings <=4 chars",
+  "values": "3 numbers",
+  "title": "string <=20 chars"
+ },
+ "maxContent": "3 tabs, title <=20 chars",
+ "footprint": "900 x 520 px",
+ "colorRules": "Line, area, selected tab orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 1130,
+   "y": 330,
+   "text": "tabs"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 1215,
+   "y": 330,
+   "text": "selector hops"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 960,
+   "y": 600,
+   "text": "line morphs"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false,
+ "ref": "pin3.jpg"
+}

@@ -1,0 +1,5 @@
+# Hena Vanta v6 Full Video Render Command
+# NOTE: DO NOT RUN THIS COMMAND AUTOMATICALLY. The user will run this command when ready to perform the final full video render.
+
+node .agents/skills/hena-vanta/scripts/render.mjs "D:\Youtube\Hena Vanta\Project FIle\Videos\1. I tried Upwork for 365 days...is it worth it\AI\output\upwork_v6_full.mp4" --project projects/hena-vanta-v6-upwork-365 --voiceover "D:\Youtube\Hena Vanta\Project FIle\Videos\1. I tried Upwork for 365 days...is it worth it\AI\upwork_clean_audio.wav"
+

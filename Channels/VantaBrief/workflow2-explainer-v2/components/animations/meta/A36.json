@@ -1,0 +1,80 @@
+{
+ "id": "A36",
+ "name": "Sliding Pill Nav",
+ "category": "Lists/steps/process",
+ "duration": 90,
+ "keyframes": [
+  0,
+  12,
+  30,
+  46,
+  66,
+  89
+ ],
+ "easing": "pill EASE.inOut f0-14; highlight hops EASE.inOut f38-50 and f58-74",
+ "bestFor": "Walking through 4 steps/modes where one is active at a time.",
+ "notSuitable": "Unordered content.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   12,
+   "pill drawing"
+  ],
+  [
+   30,
+   "icons in, highlight on icon 1"
+  ],
+  [
+   46,
+   "highlight sliding to icon 2"
+  ],
+  [
+   66,
+   "highlight sliding to icon 4"
+  ],
+  [
+   89,
+   "rest: highlight on icon 4, label below"
+  ]
+ ],
+ "script": [
+  "Pill track + 4 icons draw.",
+  "An orange-outlined highlight slides to icon 2 then icon 4; the label below changes."
+ ],
+ "params": {
+  "icons": "4 ICONS keys",
+  "labels": "4 strings <=10 chars"
+ },
+ "maxContent": "4 icons, labels <=10 chars",
+ "footprint": "760 x 140 px + label",
+ "colorRules": "Highlight, active icon and label orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 540,
+   "text": "pill + icons"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 950,
+   "y": 540,
+   "text": "highlight slides"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 1297,
+   "y": 540,
+   "text": "ends on icon 4"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false,
+ "ref": "pin6.jpg"
+}

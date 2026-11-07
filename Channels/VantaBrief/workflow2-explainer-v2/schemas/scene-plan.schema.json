@@ -1,0 +1,7 @@
+{"$schema":"http://json-schema.org/draft-07/schema#","title":"scene-plan","type":"object","required":["scenes"],
+"properties":{"fps":{"const":30},"audio":{"type":["string","null"],"description":"path under assets/ e.g. audio/voiceover.mp3"},
+"scenes":{"type":"array","minItems":1,"items":{"type":"object","required":["id","start","end","narration","intent","animations"],
+"properties":{"id":{"type":"string"},"start":{"type":"number","minimum":0},"end":{"type":"number"},"narration":{"type":"string"},
+"intent":{"enum":["title","define","compare","list","sequence","process","stat","chart","hierarchy","layers","brand","brand-group","screenshot","quote","warning","question","recap","cta","transition"]},
+"intensity":{"enum":["calm","medium","hero"]},"assets":{"type":"array","items":{"type":"string"}},
+"animations":{"type":"array","minItems":1,"items":{"type":"object","required":["id"],"properties":{"id":{"pattern":"^A[0-9]{2}$"},"params":{"type":"object"}}}}}}}}}

@@ -1,0 +1,157 @@
+{
+ "fps": 30,
+ "audio": null,
+ "scenes": [
+  {
+   "id": "s01",
+   "start": 0,
+   "end": 3.5,
+   "narration": "Real World or Benchmark?",
+   "intent": "title",
+   "intensity": "hero",
+   "assets": [],
+   "animations": [
+    {
+     "id": "A01",
+     "params": {
+      "title": "Real World or Benchmark?",
+      "subtitle": "Paper metrics vs production reality",
+      "icon": "scales"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "start": 3.5,
+   "end": 7.0,
+   "narration": "Official test runs, case studies and heavy-duty tasks",
+   "intent": "list",
+   "intensity": "medium",
+   "assets": [],
+   "animations": [
+    {
+     "id": "A13",
+     "params": {
+      "items": [
+       "Official test runs",
+       "Case studies",
+       "Heavy-duty tasks"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "start": 7.0,
+   "end": 10.5,
+   "narration": "Other closed-tier models like ChatGPT, Claude, Gemini and Grok",
+   "intent": "brand-group",
+   "intensity": "medium",
+   "assets": [
+    "logos/chatgpt.svg",
+    "logos/claude.svg",
+    "logos/gemini.svg",
+    "logos/grok.svg"
+   ],
+   "animations": [
+    {
+     "id": "A28",
+     "params": {
+      "names": [
+       "ChatGPT",
+       "Claude",
+       "Gemini",
+       "Grok"
+      ],
+      "files": [
+       "chatgpt.svg",
+       "claude.svg",
+       "gemini.svg",
+       "grok.svg"
+      ],
+      "highlight": -1
+     }
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "start": 10.5,
+   "end": 14.0,
+   "narration": "Standard webchat versus agentic workflows",
+   "intent": "compare",
+   "intensity": "medium",
+   "assets": [],
+   "animations": [
+    {
+     "id": "A09",
+     "params": {}
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "start": 14.0,
+   "end": 21.0,
+   "narration": "Breguet overcoil and 3D explode",
+   "intent": "process",
+   "intensity": "hero",
+   "assets": [],
+   "animations": [
+    {
+     "id": "A19",
+     "params": {}
+    },
+    {
+     "id": "A22",
+     "params": {
+      "layers": [
+       "Hairspring",
+       "3D Explode",
+       "3D Space"
+      ],
+      "highlight": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "start": 21.0,
+   "end": 24.5,
+   "narration": "130 plus pastries identified",
+   "intent": "stat",
+   "intensity": "hero",
+   "assets": [],
+   "animations": [
+    {
+     "id": "A07",
+     "params": {
+      "value": 130,
+      "label": "individual pastries identified",
+      "sub": "in a single test run"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "start": 24.5,
+   "end": 28.0,
+   "narration": "Subscribe to Vanta Brief",
+   "intent": "cta",
+   "intensity": "medium",
+   "assets": [
+    "brand/vanta-brief-logo.png"
+   ],
+   "animations": [
+    {
+     "id": "A29",
+     "params": {}
+    }
+   ]
+  }
+ ]
+}

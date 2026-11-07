@@ -1,0 +1,79 @@
+{
+ "id": "A53",
+ "name": "Page Flip Card",
+ "category": "Camera/transitions",
+ "duration": 72,
+ "keyframes": [
+  0,
+  8,
+  18,
+  30,
+  40,
+  71
+ ],
+ "easing": "squash EASE.inOut f12-30 (scaleX 1->0), expand EASE.back f30-48; lift sin() -24px",
+ "bestFor": "Switching between two states/pages of one card.",
+ "notSuitable": "Unrelated scenes.",
+ "keyframeTable": [
+  [
+   0,
+   "card drawing"
+  ],
+  [
+   8,
+   "front face"
+  ],
+  [
+   18,
+   "card squashing"
+  ],
+  [
+   30,
+   "edge-on (nearly invisible)"
+  ],
+  [
+   40,
+   "back face expanding (orange)"
+  ],
+  [
+   71,
+   "rest: back face, orange"
+  ]
+ ],
+ "script": [
+  "The card squashes horizontally to an edge, swaps face, expands again as an orange card."
+ ],
+ "params": {
+  "front": "<=12 chars",
+  "back": "<=12 chars"
+ },
+ "maxContent": "<=12 chars at 96px",
+ "footprint": "700 x 420 px",
+ "colorRules": "Back face orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 540,
+   "text": "front face"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 960,
+   "y": 540,
+   "text": "flips edge-on"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 960,
+   "y": 540,
+   "text": "orange back"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false,
+ "strictFrom": 50
+}

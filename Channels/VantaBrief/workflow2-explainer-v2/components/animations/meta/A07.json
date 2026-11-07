@@ -1,0 +1,82 @@
+{
+ "id": "A07",
+ "name": "Number Roll-Up + Check",
+ "category": "Data",
+ "duration": 75,
+ "keyframes": [
+  0,
+  10,
+  22,
+  36,
+  52,
+  74
+ ],
+ "easing": "check draw EASE.inOut f0-18; count EASE.out (0.22,1,0.36,1) f8-52; label fade f40-56",
+ "bestFor": "A single headline statistic ('130+', '96%', '$38/hr').",
+ "notSuitable": "Several stats at once.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   10,
+   "check ~55% drawn; number reads 26+"
+  ],
+  [
+   22,
+   "check done; number reads 111+"
+  ],
+  [
+   36,
+   "number reads 129+"
+  ],
+  [
+   52,
+   "number final 130+, label starting"
+  ],
+  [
+   74,
+   "rest: check y250, number 300px y650, label 52px, sub 32px"
+  ]
+ ],
+ "script": [
+  "f0-18: orange check pen-draws.",
+  "f8-52: the number counts from 0 to value with an ease-out; suffix is always shown so width is stable.",
+  "f40-62: label then sub-label fade in."
+ ],
+ "params": {
+  "value": "number <=999",
+  "label": "string <=36 chars",
+  "sub": "string <=36 chars (>=32px)"
+ },
+ "maxContent": "number <=4 chars incl suffix",
+ "footprint": "~900 x 640 px centered",
+ "colorRules": "Check + number orange; labels cream.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 250,
+   "text": "check pen-draws"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 960,
+   "y": 500,
+   "text": "number rolls up"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 960,
+   "y": 760,
+   "text": "label + sub fade in"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false,
+ "ref": "s5-big-stat.jpg"
+}

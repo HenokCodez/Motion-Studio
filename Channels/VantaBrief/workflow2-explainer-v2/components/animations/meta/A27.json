@@ -1,0 +1,80 @@
+{
+ "id": "A27",
+ "name": "Logo Stamp",
+ "category": "Logos/brand",
+ "duration": 66,
+ "keyframes": [
+  0,
+  6,
+  12,
+  20,
+  36,
+  65
+ ],
+ "easing": "stamp: spring {damping:12,stiffness:140,mass:0.7} from f4, start scale 1.6; rays f10-20 fade f22-34; name EASE-linear fade f18-30",
+ "bestFor": "Introducing the channel or the main subject with its real logo; intro/outro.",
+ "notSuitable": "Many logos at once (use A28).",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   6,
+   "logo scaling down from 1.6x"
+  ],
+  [
+   12,
+   "logo near 1x; blue burst rays drawing"
+  ],
+  [
+   20,
+   "rays complete"
+  ],
+  [
+   36,
+   "rays gone, name visible"
+  ],
+  [
+   65,
+   "rest: logo 320px at (960,450), name 72px below"
+  ]
+ ],
+ "script": [
+  "Logo slams in from 1.6x with a spring.",
+  "Ten blue burst strokes radiate and fade (channel-identity role).",
+  "Name fades in below."
+ ],
+ "params": {
+  "src": "path under assets/ (default brand/vanta-brief-logo.png)",
+  "name": "string <=20 chars"
+ },
+ "maxContent": "1 logo + name <=20 chars",
+ "footprint": "~560 x 520 px",
+ "colorRules": "Burst rays blue (identity role). Logo keeps native colors.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 450,
+   "text": "logo slams in"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 960,
+   "y": 330,
+   "text": "blue burst rays"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 960,
+   "y": 730,
+   "text": "name fades in"
+  }
+ ],
+ "status": "rendered (logo/screenshot slots show labelled placeholders until assets are fetched)",
+ "entrance": false
+}

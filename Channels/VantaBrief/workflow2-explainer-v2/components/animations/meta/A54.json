@@ -1,0 +1,79 @@
+{
+ "id": "A54",
+ "name": "Zoom Through Portal",
+ "category": "Camera/transitions",
+ "duration": 72,
+ "keyframes": [
+  0,
+  10,
+  24,
+  36,
+  48,
+  71
+ ],
+ "easing": "zoom 1->23x cubic f10-42; portal fades f36-44; new title EASE.out f40-56",
+ "bestFor": "Entering a topic ('inside the model').",
+ "notSuitable": "Calm beats.",
+ "keyframeTable": [
+  [
+   0,
+   "ring drawing"
+  ],
+  [
+   10,
+   "ring + label, zoom starting"
+  ],
+  [
+   24,
+   "ring growing"
+  ],
+  [
+   36,
+   "ring filling the frame"
+  ],
+  [
+   48,
+   "new title appearing"
+  ],
+  [
+   71,
+   "rest: orange title centered"
+  ]
+ ],
+ "script": [
+  "A ring with a label draws; the camera zooms through it (cubic) and the next title appears."
+ ],
+ "params": {
+  "portal": "<=8 chars",
+  "title": "<=20 chars"
+ },
+ "maxContent": "title <=20 chars at 100px",
+ "footprint": "rest: ~1100 x 120 px",
+ "colorRules": "Title orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 540,
+   "text": "portal ring"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 960,
+   "y": 540,
+   "text": "zoom through"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 960,
+   "y": 570,
+   "text": "new title"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false,
+ "strictFrom": 50
+}

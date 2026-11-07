@@ -1,0 +1,87 @@
+{
+ "id": "A10",
+ "name": "Balance Scale Tip",
+ "category": "Comparisons",
+ "duration": 90,
+ "keyframes": [
+  0,
+  10,
+  20,
+  30,
+  44,
+  89
+ ],
+ "easing": "build EASE.inOut f0-14; cards EASE.out f6-24; tip: spring {damping:5,stiffness:70,mass:1} from f20, final angle 7\u00b0 (right side down)",
+ "bestFor": "Weighing two things where one clearly outweighs ('paper metrics vs real workloads').",
+ "notSuitable": "More than two items.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   10,
+   "fulcrum + beam drawing"
+  ],
+  [
+   20,
+   "beam level, both pan-cards drawn"
+  ],
+  [
+   30,
+   "beam tipping, overshoots to ~9\u00b0"
+  ],
+  [
+   44,
+   "beam rebounds ~5\u00b0"
+  ],
+  [
+   89,
+   "rest: beam 7\u00b0 right-down, cards upright"
+  ]
+ ],
+ "script": [
+  "f0-14: fulcrum triangle, base line and beam draw.",
+  "f6-24: strings and two pan-cards draw in (cards stay upright when the beam rotates).",
+  "f20+: the beam tips right with an under-damped spring, wobbles and settles at 7\u00b0."
+ ],
+ "params": {
+  "left": "<=16 chars",
+  "right": "<=16 chars"
+ },
+ "maxContent": "each label <=16 chars at 40px",
+ "footprint": "~1340 x 420 px (70% x 39%)",
+ "colorRules": "Right card orange (argued side), left card blue outline (contrast pair role). Beam cream.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 560,
+   "text": "fulcrum + beam draw"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 440,
+   "y": 700,
+   "text": "left card = blue outline (contrast)"
+  },
+  {
+   "n": 3,
+   "k": 3,
+   "x": 1400,
+   "y": 640,
+   "text": "beam tips, overshoots"
+  },
+  {
+   "n": 4,
+   "k": 5,
+   "x": 1480,
+   "y": 700,
+   "text": "right (orange) side heavier"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

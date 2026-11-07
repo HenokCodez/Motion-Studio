@@ -1,0 +1,63 @@
+# Animation Catalog INDEX
+
+Catalog of 57 animations (A01-A57). Status `rendered` = keyframes rendered from the real Remotion component by `scripts/render-boards.mjs` and composed by `scripts/make-board.py`.
+
+| ID | Name | Category | Best for | Frames | Intensity | Status | Spec | Board |
+|---|---|---|---|---|---|---|---|---|
+| A01 | Pen-Draw Title | Reveals/intros | Opening a topic or chapter: 'Real World or Benchmark?', 'Let's talk about X' | 75 | hero | rendered | [A01-pen-draw-title.md](A01-pen-draw-title.md) | [png](filmstrips/A01.png) |
+| A02 | Marker Underline Sweep | Reveals/intros | Emphasizing one key phrase inside a sentence ('real failures') | 60 | calm | rendered | [A02-marker-underline-sweep.md](A02-marker-underline-sweep.md) | [png](filmstrips/A02.png) |
+| A03 | Scribble-In Card | Reveals/intros | Introducing the highlighted option / key idea as a single hero card ('Heavy-Duty Tasks') | 66 | medium | rendered | [A03-scribble-in-card.md](A03-scribble-in-card.md) | [png](filmstrips/A03.png) |
+| A04 | Tape-and-Stick Note | Reveals/intros | A takeaway / reminder / definition delivered as a pinned note | 66 | calm | rendered | [A04-tape-and-stick-note.md](A04-tape-and-stick-note.md) | [png](filmstrips/A04.png) |
+| A05 | Word-by-Word Handwritten | Typography/kinetic | Narration punchlines of 3-7 words, one idea ('Real tasks break paper scores') | 90 | medium | rendered | [A05-word-by-word-handwritten.md](A05-word-by-word-handwritten.md) | [png](filmstrips/A05.png) |
+| A06 | Strike-Through → Replace | Typography/kinetic | Myth vs reality | 72 | medium | rendered | [A06-strike-through-replace.md](A06-strike-through-replace.md) | [png](filmstrips/A06.png) |
+| A07 | Number Roll-Up + Check | Data | A single headline statistic ('130+', '96%', '$38/hr') | 75 | hero | rendered | [A07-number-roll-up-check.md](A07-number-roll-up-check.md) | [png](filmstrips/A07.png) |
+| A08 | Stacked Emphasis Slam | Typography/kinetic | 'It's not X, it's Y' / one keyword that must land hard | 60 | hero | rendered | [A08-stacked-emphasis-slam.md](A08-stacked-emphasis-slam.md) | [png](filmstrips/A08.png) |
+| A09 | A-vs-B Slide-In | Comparisons | Comparing two things ('Standard Webchat vs Agentic Workflows') | 78 | medium | rendered | [A09-a-vs-b-slide-in.md](A09-a-vs-b-slide-in.md) | [png](filmstrips/A09.png) |
+| A10 | Balance Scale Tip | Comparisons | Weighing two things where one clearly outweighs ('paper metrics vs real workloads') | 90 | hero | rendered | [A10-balance-scale-tip.md](A10-balance-scale-tip.md) | [png](filmstrips/A10.png) |
+| A11 | Center-Out Split Wipe | Comparisons | Before/after, paper vs production, two states of one thing | 72 | medium | rendered | [A11-center-out-split-wipe.md](A11-center-out-split-wipe.md) | [png](filmstrips/A11.png) |
+| A12 | Tug of War | Comparisons | Two forces competing | 96 | hero | rendered | [A12-tug-of-war.md](A12-tug-of-war.md) | [png](filmstrips/A12.png) |
+| A13 | Checklist Tick-Draw | Lists/steps/process | Listing 2-4 short criteria or features that all get ticked off | 84 | calm | rendered | [A13-checklist-tick-draw.md](A13-checklist-tick-draw.md) | [png](filmstrips/A13.png) |
+| A14 | Numbered Path | Lists/steps/process | Sequential 3-step process told left to right | 90 | medium | rendered | [A14-numbered-path.md](A14-numbered-path.md) | [png](filmstrips/A14.png) |
+| A15 | Funnel | Lists/steps/process | Many inputs narrowing to one result ('papers, demos, leaderboards -> real score') | 90 | medium | rendered | [A15-funnel.md](A15-funnel.md) | [png](filmstrips/A15.png) |
+| A16 | Staircase Climb | Lists/steps/process | Progression or maturity levels, 3-4 stages ('Test, Tune, Ship, Scale') | 90 | medium | rendered | [A16-staircase-climb.md](A16-staircase-climb.md) | [png](filmstrips/A16.png) |
+| A17 | Timeline Marker | Lists/steps/process | History/milestones across time (3 points) | 84 | calm | rendered | [A17-timeline-marker.md](A17-timeline-marker.md) | [png](filmstrips/A17.png) |
+| A18 | Conveyor Gate | Lists/steps/process | A process that transforms inputs ('raw -> agent -> result') | 96 | hero | rendered | [A18-conveyor-gate.md](A18-conveyor-gate.md) | [png](filmstrips/A18.png) |
+| A19 | Node-Link Flow (3 nodes) | Diagrams/systems | A 3-step flow with one highlighted step ('Hairspring -> 3D Explode -> 3D Space') | 84 | medium | rendered | [A19-node-link-flow-3-nodes.md](A19-node-link-flow-3-nodes.md) | [png](filmstrips/A19.png) |
+| A20 | Layered Stack | Diagrams/systems | Stacks/tiers/architecture layers with a 'you are here' layer | 84 | medium | rendered | [A20-layered-stack.md](A20-layered-stack.md) | [png](filmstrips/A20.png) |
+| A21 | Hub and Spokes | Diagrams/systems | One thing with 4 attributes/uses ('DeepSeek: open weights, low cost,  | 90 | hero | rendered | [A21-hub-and-spokes.md](A21-hub-and-spokes.md) | [png](filmstrips/A21.png) |
+| A22 | Exploded Layers (isometric) | Diagrams/systems | Showing internal structure/layers coming apart ('3D Explode', architecture internals) | 96 | hero | rendered | [A22-exploded-layers-isometric.md](A22-exploded-layers-isometric.md) | [png](filmstrips/A22.png) |
+| A23 | Pipeline with Packets | Diagrams/systems | Data/requests moving through stages ('Ingest, Route, Compute, Serve') | 96 | medium | rendered | [A23-pipeline-with-packets.md](A23-pipeline-with-packets.md) | [png](filmstrips/A23.png) |
+| A24 | Tree / Branching | Diagrams/systems | Hierarchy or a plan that splits into 3 parts ('3-step strategy') | 90 | medium | rendered | [A24-tree-branching.md](A24-tree-branching.md) | [png](filmstrips/A24.png) |
+| A25 | Bar Grow | Data | Comparing 3-4 values ('Model A/B/C vs Ours') | 90 | medium | rendered | [A25-bar-grow.md](A25-bar-grow.md) | [png](filmstrips/A25.png) |
+| A26 | Line Draw + Annotation | Data | A trend with one moment worth pointing at ('Real-world jump') | 96 | hero | rendered | [A26-line-draw-annotation.md](A26-line-draw-annotation.md) | [png](filmstrips/A26.png) |
+| A27 | Logo Stamp | Logos/brand | Introducing the channel or the main subject with its real logo | 66 | hero | rendered (logo/screenshot slots show labelled placeholders until assets are fetched) | [A27-logo-stamp.md](A27-logo-stamp.md) | [png](filmstrips/A27.png) |
+| A28 | Logo Cluster Pop-in | Logos/brand | A group of real logos ('other closed-tier models' -> ChatGPT, Claude, Gemini, Grok | 84 | medium | rendered (logo/screenshot slots show labelled placeholders until assets are fetched) | [A28-logo-cluster-pop-in.md](A28-logo-cluster-pop-in.md) | [png](filmstrips/A28.png) |
+| A29 | Subscribe CTA (channel logo) | Callouts/CTA | 'Subscribe to Vanta Brief' moments | 90 | medium | rendered (logo/screenshot slots show labelled placeholders until assets are fetched) | [A29-subscribe-cta-channel-logo.md](A29-subscribe-cta-channel-logo.md) | [png](filmstrips/A29.png) |
+| A30 | Screenshot in Sketch Browser | Real media | Showing a real site/product/leaderboard screenshot with a pointer to the key area | 84 | medium | rendered (logo/screenshot slots show labelled placeholders until assets are fetched) | [A30-screenshot-in-sketch-browser.md](A30-screenshot-in-sketch-browser.md) | [png](filmstrips/A30.png) |
+| A31 | Toggle Switch Flip | Emphasis/State | A setting/mode flipping from off to on ('Agent mode') | 72 | medium | rendered | [A31-toggle-switch-flip.md](A31-toggle-switch-flip.md) | [png](filmstrips/A31.png) |
+| A32 | Sonar Pulse Rings | Emphasis/State | Signal/detection/'something is happening here' beats | 84 | medium | rendered | [A32-sonar-pulse-rings.md](A32-sonar-pulse-rings.md) | [png](filmstrips/A32.png) |
+| A33 | Chart Card with Tab Hop | Data | A metric that changes by period/variant, with a big number and a trend | 96 | hero | rendered | [A33-chart-card-with-tab-hop.md](A33-chart-card-with-tab-hop.md) | [png](filmstrips/A33.png) |
+| A34 | Icon Tile Focus Row | Lists/steps/process | Choosing one of 4 options/tools | 84 | medium | rendered | [A34-icon-tile-focus-row.md](A34-icon-tile-focus-row.md) | [png](filmstrips/A34.png) |
+| A35 | Numbered Photo Cards | People/photo | Intro of a numbered set of people/steps/episodes (Part N) | 90 | hero | rendered | [A35-numbered-photo-cards.md](A35-numbered-photo-cards.md) | [png](filmstrips/A35.png) |
+| A36 | Sliding Pill Nav | Lists/steps/process | Walking through 4 steps/modes where one is active at a time | 90 | medium | rendered | [A36-sliding-pill-nav.md](A36-sliding-pill-nav.md) | [png](filmstrips/A36.png) |
+| A37 | Staggered Stat Cards | Data | Three headline stats side by side | 90 | hero | rendered | [A37-staggered-stat-cards.md](A37-staggered-stat-cards.md) | [png](filmstrips/A37.png) |
+| A38 | Pen Circle Highlight | Emphasis/State | Circling a word/number in a sentence | 60 | medium | rendered | [A38-pen-circle-highlight.md](A38-pen-circle-highlight.md) | [png](filmstrips/A38.png) |
+| A39 | Shake Alert | Emphasis/State | Warning/pitfall/'wait, is this legit?' beats | 66 | medium | rendered | [A39-shake-alert.md](A39-shake-alert.md) | [png](filmstrips/A39.png) |
+| A40 | Spark Burst Badge | Emphasis/State | 'New/Breaking/Key' sticker moments | 60 | medium | rendered | [A40-spark-burst-badge.md](A40-spark-burst-badge.md) | [png](filmstrips/A40.png) |
+| A41 | Arrow Point Bounce | Emphasis/State | Pointing at a specific item ('this one') | 66 | medium | rendered | [A41-arrow-point-bounce.md](A41-arrow-point-bounce.md) | [png](filmstrips/A41.png) |
+| A42 | Sticker Pop | Emphasis/State | '#1', 'Top pick', ranking stickers | 60 | medium | rendered | [A42-sticker-pop.md](A42-sticker-pop.md) | [png](filmstrips/A42.png) |
+| A43 | Stick Figure Walks and Points | People/characters | Introducing a concept via a character presenting it | 96 | hero | rendered | [A43-stick-figure-walks-and-points.md](A43-stick-figure-walks-and-points.md) | [png](filmstrips/A43.png) |
+| A44 | Thinking Person to Diagram | People/characters | An idea turning into a structure ('think, then diagram') | 90 | medium | rendered | [A44-thinking-person-to-diagram.md](A44-thinking-person-to-diagram.md) | [png](filmstrips/A44.png) |
+| A45 | Crowd Builder | People/characters | 'Many people/testers/users' counts | 84 | medium | rendered | [A45-crowd-builder.md](A45-crowd-builder.md) | [png](filmstrips/A45.png) |
+| A46 | Presenter at Board | People/characters | Explaining a short list with a presenter | 90 | medium | rendered | [A46-presenter-at-board.md](A46-presenter-at-board.md) | [png](filmstrips/A46.png) |
+| A47 | Two-Person Dialogue | People/characters | Question/answer or myth/reply exchanges | 84 | medium | rendered | [A47-two-person-dialogue.md](A47-two-person-dialogue.md) | [png](filmstrips/A47.png) |
+| A48 | Taped Photo + Note | People/photo | Showing one real photo (person/hardware/event) with an annotation | 72 | medium | rendered | [A48-taped-photo-note.md](A48-taped-photo-note.md) | [png](filmstrips/A48.png) |
+| A49 | Stacked Polaroids | People/photo | A sequence of 3 moments/versions as photos | 84 | medium | rendered | [A49-stacked-polaroids.md](A49-stacked-polaroids.md) | [png](filmstrips/A49.png) |
+| A50 | Pan-Zoom to Next Node | Camera/transitions | Moving attention from one node to the next on an infinite-canvas feel | 90 | hero | rendered | [A50-pan-zoom-to-next-node.md](A50-pan-zoom-to-next-node.md) | [png](filmstrips/A50.png) |
+| A51 | Whip Pan | Camera/transitions | Fast cut between two statements/chapters | 72 | medium | rendered | [A51-whip-pan.md](A51-whip-pan.md) | [png](filmstrips/A51.png) |
+| A52 | Ink Brush Wipe + Chapter | Camera/transitions | Chapter changes | 84 | medium | rendered | [A52-ink-brush-wipe-chapter.md](A52-ink-brush-wipe-chapter.md) | [png](filmstrips/A52.png) |
+| A53 | Page Flip Card | Camera/transitions | Switching between two states/pages of one card | 72 | medium | rendered | [A53-page-flip-card.md](A53-page-flip-card.md) | [png](filmstrips/A53.png) |
+| A54 | Zoom Through Portal | Camera/transitions | Entering a topic ('inside the model') | 72 | hero | rendered | [A54-zoom-through-portal.md](A54-zoom-through-portal.md) | [png](filmstrips/A54.png) |
+| A55 | Logo Orbit | Logos/brand | Subject (hub) vs several other companies orbiting it | 90 | hero | rendered | [A55-logo-orbit.md](A55-logo-orbit.md) | [png](filmstrips/A55.png) |
+| A56 | Logo Duel | Logos/brand | Two named products head to head | 72 | hero | rendered | [A56-logo-duel.md](A56-logo-duel.md) | [png](filmstrips/A56.png) |
+| A57 | Headline Scroll | Real media | Showing press coverage/headlines about a topic | 96 | medium | rendered | [A57-headline-scroll.md](A57-headline-scroll.md) | [png](filmstrips/A57.png) |

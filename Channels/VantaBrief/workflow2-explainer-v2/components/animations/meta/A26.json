@@ -1,0 +1,79 @@
+{
+ "id": "A26",
+ "name": "Line Draw + Annotation",
+ "category": "Data",
+ "duration": 96,
+ "keyframes": [
+  0,
+  14,
+  30,
+  46,
+  66,
+  95
+ ],
+ "easing": "axes f0-18; line EASE.inOut f18-64; circle EASE.out f66-78; note wipe EASE.inOut f76-92",
+ "bestFor": "A trend with one moment worth pointing at ('Real-world jump').",
+ "notSuitable": "Category comparisons.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   14,
+   "axes drawn"
+  ],
+  [
+   30,
+   "line ~25% drawn"
+  ],
+  [
+   46,
+   "line ~65% drawn"
+  ],
+  [
+   66,
+   "line complete; orange circle starting at last point"
+  ],
+  [
+   95,
+   "rest: circle + leader + note"
+  ]
+ ],
+ "script": [
+  "Axes draw, the line draws left to right with dots appearing as it passes them.",
+  "An orange pen circle draws around the last point, a leader line and note follow."
+ ],
+ "params": {
+  "values": "array of 5-6 numbers 0-100",
+  "note": "string <=18 chars"
+ },
+ "maxContent": "6 points, note <=18 chars at 40px",
+ "footprint": "1200 x 600 px",
+ "colorRules": "Circle, leader and note orange; line cream.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 360,
+   "y": 560,
+   "text": "axes draw"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 1000,
+   "y": 600,
+   "text": "line draws L\u2192R"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 1460,
+   "y": 366,
+   "text": "orange circle + note"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

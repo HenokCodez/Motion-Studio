@@ -1,0 +1,81 @@
+{
+ "id": "A28",
+ "name": "Logo Cluster Pop-in",
+ "category": "Logos/brand",
+ "duration": 84,
+ "keyframes": [
+  0,
+  10,
+  22,
+  40,
+  60,
+  83
+ ],
+ "easing": "tiles: spring pop {12,140,0.7} staggered 6f from f4; dim others EASE-linear f54-66",
+ "bestFor": "A group of real logos ('other closed-tier models' -> ChatGPT, Claude, Gemini, Grok...), then one highlighted.",
+ "notSuitable": "Single logo (use A27).",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   10,
+   "tiles 1-2 popping"
+  ],
+  [
+   22,
+   "tiles 1-4 in"
+  ],
+  [
+   40,
+   "all 6 tiles in"
+  ],
+  [
+   60,
+   "others dimming, highlight turning orange"
+  ],
+  [
+   83,
+   "rest: highlighted tile orange, others at 45%"
+  ]
+ ],
+ "script": [
+  "Tiles (240x200) spring in one by one.",
+  "Tile content = real logo from assets/logos/<file> (placeholder circle + initial if file missing).",
+  "Then all but the highlighted tile dim and the highlighted tile turns orange."
+ ],
+ "params": {
+  "names": "array 3-6 strings <=12 chars",
+  "files": "array of filenames in assets/logos/ (same order)",
+  "highlight": "index or -1"
+ },
+ "maxContent": "<=6 tiles, names <=12 chars at 28px",
+ "footprint": "840 x 460 px",
+ "colorRules": "Highlighted tile orange only. Logos keep native colors.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 660,
+   "y": 410,
+   "text": "tiles pop in"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 960,
+   "y": 410,
+   "text": "real logo per tile"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 960,
+   "y": 540,
+   "text": "others dim, one turns orange"
+  }
+ ],
+ "status": "rendered (logo/screenshot slots show labelled placeholders until assets are fetched)",
+ "entrance": false
+}

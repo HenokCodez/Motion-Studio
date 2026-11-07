@@ -23,12 +23,12 @@ If any of these three assets is missing, **STOP IMMEDIATELY**, state exactly whi
 
 ### Asset Sync to Remotion Project (Runs at the Start of Every Run)
 At the start of every run, use the exact project path that motion-studio uses for Remotion renders: `D:\Automations\motion-studio\projects\remotion-app`. If that path does not exist, STOP and ask the user; never create a new Remotion project.
-Copy both assets into its `public/` folder:
-1. Ensure `D:\Automations\motion-studio\projects\remotion-app\public\` directory exists.
-2. Copy `D:\Automations\motion-studio\.agents\skills\hena-vanta\public\bg.mp4` -> `D:\Automations\motion-studio\projects\remotion-app\public\bg.mp4`.
-3. Copy `D:\Automations\motion-studio\.agents\skills\hena-vanta\public\logo.png` -> `D:\Automations\motion-studio\projects\remotion-app\public\logo.png`.
-4. Verify that both `D:\Automations\motion-studio\projects\remotion-app\public\bg.mp4` and `D:\Automations\motion-studio\projects\remotion-app\public\logo.png` exist on disk and are non-empty. If either is missing, refuse to proceed:
-   `"REFUSED: Failed to verify <bg.mp4 | logo.png> in Remotion project public/ folder: D:\Automations\motion-studio\projects\remotion-app\public\"`
+Copy both assets into its `public/hena-vanta/` folder:
+1. Ensure `D:\Automations\motion-studio\projects\remotion-app\public\hena-vanta\` directory exists.
+2. Copy `D:\Automations\motion-studio\.agents\skills\hena-vanta\public\bg.mp4` -> `D:\Automations\motion-studio\projects\remotion-app\public\hena-vanta\bg.mp4`.
+3. Copy `D:\Automations\motion-studio\.agents\skills\hena-vanta\public\logo.png` -> `D:\Automations\motion-studio\projects\remotion-app\public\hena-vanta\logo.png`.
+4. Verify that both `D:\Automations\motion-studio\projects\remotion-app\public\hena-vanta\bg.mp4` and `D:\Automations\motion-studio\projects\remotion-app\public\hena-vanta\logo.png` exist on disk and are non-empty. If either is missing, refuse to proceed:
+   `"REFUSED: Failed to verify <bg.mp4 | logo.png> in Remotion project public folder: D:\Automations\motion-studio\projects\remotion-app\public\hena-vanta\"`
 
 ---
 

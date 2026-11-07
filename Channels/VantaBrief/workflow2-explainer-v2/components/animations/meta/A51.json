@@ -1,0 +1,80 @@
+{
+ "id": "A51",
+ "name": "Whip Pan",
+ "category": "Camera/transitions",
+ "duration": 72,
+ "keyframes": [
+  0,
+  16,
+  22,
+  32,
+  44,
+  71
+ ],
+ "easing": "exit/enter EASE.inOut f14-34 (2300px travel); speed lines f12-24 fade f26-36",
+ "bestFor": "Fast cut between two statements/chapters.",
+ "notSuitable": "Calm continuity.",
+ "keyframeTable": [
+  [
+   0,
+   "first word centered"
+  ],
+  [
+   16,
+   "speed lines ~35% drawn, first word starting to move"
+  ],
+  [
+   22,
+   "first word flying left, second flying in, lines complete"
+  ],
+  [
+   32,
+   "second word almost centered, lines fading"
+  ],
+  [
+   44,
+   "settling"
+  ],
+  [
+   71,
+   "rest: second word (orange) centered"
+  ]
+ ],
+ "script": [
+  "First title whips off left while speed lines flash; second title whips in from the right."
+ ],
+ "params": {
+  "from": "<=10 chars",
+  "to": "<=10 chars"
+ },
+ "maxContent": "titles <=10 chars at 120px",
+ "footprint": "~700 x 160 px",
+ "colorRules": "Second title orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 700,
+   "y": 520,
+   "text": "speed lines"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 500,
+   "y": 590,
+   "text": "title 1 exits left"
+  },
+  {
+   "n": 3,
+   "k": 3,
+   "x": 1400,
+   "y": 590,
+   "text": "title 2 enters right"
+  }
+ ],
+ "status": "rendered",
+ "entrance": true,
+ "strictFrame": 44,
+ "strictFrom": 44
+}

@@ -1,0 +1,22 @@
+{
+ "name": "workflow2-explainer-v2",
+ "private": true,
+ "version": "2.0.0",
+ "scripts": {
+  "boards": "node scripts/render-boards.mjs && python3 scripts/safe-pixel-check.py && python3 scripts/keyframe-check.py && python3 scripts/make-board.py && python3 scripts/gen-specs.py",
+  "render": "node scripts/render-video.mjs out/final.mp4",
+  "bounds": "node scripts/bounds-check-remotion.mjs"
+ },
+ "dependencies": {
+  "@remotion/bundler": "4.0.541",
+  "@remotion/renderer": "4.0.541",
+  "esbuild": "*",
+  "react": "18",
+  "react-dom": "18",
+  "remotion": "4.0.541",
+  "roughjs": "*"
+ },
+ "devDependencies": {
+  "@remotion/cli": "^4.0.541"
+ }
+}

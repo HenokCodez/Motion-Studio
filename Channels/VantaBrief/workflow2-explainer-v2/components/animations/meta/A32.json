@@ -1,0 +1,80 @@
+{
+ "id": "A32",
+ "name": "Sonar Pulse Rings",
+ "category": "Emphasis/State",
+ "duration": 84,
+ "keyframes": [
+  0,
+  8,
+  20,
+  36,
+  56,
+  83
+ ],
+ "easing": "dot spring pop f0; rings EASE.out radius 40->260 over 48f, looped, offset 14f",
+ "bestFor": "Signal/detection/'something is happening here' beats.",
+ "notSuitable": "Static lists.",
+ "keyframeTable": [
+  [
+   0,
+   "dot popping"
+  ],
+  [
+   8,
+   "dot, first ring starting"
+  ],
+  [
+   20,
+   "ring 1 mid-size, ring 2 starting"
+  ],
+  [
+   36,
+   "2-3 rings visible, label wiping"
+  ],
+  [
+   56,
+   "rings looping"
+  ],
+  [
+   83,
+   "rest: dot + fading rings + label"
+  ]
+ ],
+ "script": [
+  "Orange dot pops.",
+  "Three orange rings expand from it and fade, looping every 48 frames.",
+  "Label wipes in below."
+ ],
+ "params": {
+  "label": "string <=28 chars"
+ },
+ "maxContent": "label <=28 chars at 56px",
+ "footprint": "520 x 520 px + label",
+ "colorRules": "Everything orange except the label.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 500,
+   "text": "dot pops"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 1160,
+   "y": 500,
+   "text": "rings expand + fade"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 960,
+   "y": 830,
+   "text": "label"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false,
+ "ref": "pin2.jpg"
+}

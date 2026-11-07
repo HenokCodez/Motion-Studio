@@ -1,0 +1,53 @@
+{
+ "deepseek": {
+  "url": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/deepseek.svg",
+  "file": "deepseek.svg",
+  "date": "2026-11-07"
+ },
+ "chatgpt": {
+  "url": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/openai.svg",
+  "file": "chatgpt.svg",
+  "date": "2026-11-07"
+ },
+ "gemini": {
+  "url": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/gemini.svg",
+  "file": "gemini.svg",
+  "date": "2026-11-07"
+ },
+ "claude": {
+  "url": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/claude-ai-icon.svg",
+  "file": "claude.svg",
+  "date": "2026-11-07"
+ },
+ "grok": {
+  "url": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/xai_dark.svg",
+  "file": "grok.svg",
+  "date": "2026-11-07",
+  "note": "SVGL xai_dark variant; fill recolored #ffff -> #231F20 so the mark is visible on the cream badge"
+ },
+ "mistral": {
+  "url": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/mistral-ai_logo.svg",
+  "file": "mistral.svg",
+  "date": "2026-11-07"
+ },
+ "meta": {
+  "url": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/meta.svg",
+  "file": "meta.svg",
+  "date": "2026-11-07"
+ },
+ "github": {
+  "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg",
+  "file": "github.svg",
+  "date": "2026-11-07"
+ },
+ "nvidia": {
+  "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/nvidia.svg",
+  "file": "nvidia.svg",
+  "date": "2026-11-07"
+ },
+ "huawei": {
+  "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/huawei.svg",
+  "file": "huawei.svg",
+  "date": "2026-11-07"
+ }
+}

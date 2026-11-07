@@ -1,0 +1,79 @@
+{
+ "id": "A17",
+ "name": "Timeline Marker",
+ "category": "Lists/steps/process",
+ "duration": 84,
+ "keyframes": [
+  0,
+  12,
+  36,
+  52,
+  70,
+  83
+ ],
+ "easing": "line EASE.inOut f0-20; marker EASE.inOut f30-70; chips spring pop at f34/52/70",
+ "bestFor": "History/milestones across time (3 points).",
+ "notSuitable": "More than 3 milestones.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   12,
+   "line 60% drawn"
+  ],
+  [
+   36,
+   "marker near milestone 1; chip 1 popping"
+  ],
+  [
+   52,
+   "marker mid-way; chip 2 popping"
+  ],
+  [
+   70,
+   "marker at milestone 3; chip 3 (orange) popping"
+  ],
+  [
+   83,
+   "rest: 3 chips + years, marker on last"
+  ]
+ ],
+ "script": [
+  "A baseline draws left to right.",
+  "An orange marker slides along it; each milestone chip + year pops as the marker arrives.",
+  "Final milestone is orange."
+ ],
+ "params": {
+  "items": "array of 3 {label<=12 chars, year<=6 chars}"
+ },
+ "maxContent": "3 milestones",
+ "footprint": "1420 x 300 px",
+ "colorRules": "Last chip + marker orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 900,
+   "y": 600,
+   "text": "baseline draws"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 420,
+   "y": 500,
+   "text": "chip pops when marker arrives"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 1500,
+   "y": 500,
+   "text": "last milestone orange"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

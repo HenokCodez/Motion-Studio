@@ -1,0 +1,78 @@
+{
+ "id": "A46",
+ "name": "Presenter at Board",
+ "category": "People/characters",
+ "duration": 90,
+ "keyframes": [
+  0,
+  10,
+  24,
+  40,
+  58,
+  89
+ ],
+ "easing": "figure draw f0-14; board EASE.inOut f10-28; title wipe f26-42; bullets wipe 14f staggered 14f from f40",
+ "bestFor": "Explaining a short list with a presenter.",
+ "notSuitable": "Long lists.",
+ "keyframeTable": [
+  [
+   0,
+   "figure drawing"
+  ],
+  [
+   10,
+   "figure pointing, board starting"
+  ],
+  [
+   24,
+   "board nearly drawn"
+  ],
+  [
+   40,
+   "title wiping"
+  ],
+  [
+   58,
+   "bullet 1 done, bullet 2 wiping"
+  ],
+  [
+   89,
+   "rest: figure + board with title and 3 bullets"
+  ]
+ ],
+ "script": [
+  "Figure points at a board that draws in; title then three bullets wipe in."
+ ],
+ "params": {
+  "title": "<=20 chars",
+  "bullets": "3 strings <=22 chars"
+ },
+ "maxContent": "title <=20, bullets <=22 chars",
+ "footprint": "1000 x 500 px",
+ "colorRules": "Title orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 520,
+   "y": 700,
+   "text": "presenter"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 1160,
+   "y": 520,
+   "text": "board draws"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 1000,
+   "y": 570,
+   "text": "bullets wipe in"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

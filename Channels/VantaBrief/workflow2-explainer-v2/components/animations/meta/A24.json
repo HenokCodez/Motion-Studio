@@ -1,0 +1,80 @@
+{
+ "id": "A24",
+ "name": "Tree / Branching",
+ "category": "Diagrams/systems",
+ "duration": 90,
+ "keyframes": [
+  0,
+  12,
+  26,
+  40,
+  56,
+  89
+ ],
+ "easing": "root EASE.inOut f0-16; trunk f14-26; branches f24-40; children EASE.out 14f staggered 6f from f38",
+ "bestFor": "Hierarchy or a plan that splits into 3 parts ('3-step strategy').",
+ "notSuitable": "More than 3 children.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   12,
+   "root outline drawing"
+  ],
+  [
+   26,
+   "root done; trunk drawn"
+  ],
+  [
+   40,
+   "horizontal branch drawn"
+  ],
+  [
+   56,
+   "children 1-2 in"
+  ],
+  [
+   89,
+   "rest: root + 3 children, right one orange"
+  ]
+ ],
+ "script": [
+  "Root card draws, a trunk drops, a horizontal bar splits left and right, children cards appear."
+ ],
+ "params": {
+  "root": "string <=24 chars",
+  "children": "array of 3 strings <=16 chars",
+  "highlight": "index"
+ },
+ "maxContent": "root <=24 chars, children <=16 chars at 48px",
+ "footprint": "1520 x 600 px",
+ "colorRules": "Highlighted child orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 210,
+   "text": "root draws"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 960,
+   "y": 430,
+   "text": "branches split"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 1520,
+   "y": 675,
+   "text": "highlighted child orange"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false,
+ "ref": "pin8.jpg"
+}

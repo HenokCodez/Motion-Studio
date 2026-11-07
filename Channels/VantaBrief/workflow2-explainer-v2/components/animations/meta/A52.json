@@ -1,0 +1,79 @@
+{
+ "id": "A52",
+ "name": "Ink Brush Wipe + Chapter",
+ "category": "Camera/transitions",
+ "duration": 84,
+ "keyframes": [
+  0,
+  12,
+  22,
+  34,
+  46,
+  83
+ ],
+ "easing": "brush strokes EASE.inOut 20f staggered 3f from f10; fade f34-48; new title f40-52; blue underline f50-64",
+ "bestFor": "Chapter changes.",
+ "notSuitable": "Mid-scene beats.",
+ "keyframeTable": [
+  [
+   0,
+   "first chapter title"
+  ],
+  [
+   12,
+   "brush strokes starting"
+  ],
+  [
+   22,
+   "strokes crossing"
+  ],
+  [
+   34,
+   "full coverage"
+  ],
+  [
+   46,
+   "strokes fading, new title appearing"
+  ],
+  [
+   83,
+   "rest: new title with blue underline"
+  ]
+ ],
+ "script": [
+  "Five thick cream brush strokes sweep left to right covering the title, fade away, and reveal the new chapter title with a blue underline (chapter-card identity role)."
+ ],
+ "params": {
+  "from": "<=14 chars",
+  "to": "<=14 chars"
+ },
+ "maxContent": "titles <=14 chars at 110px",
+ "footprint": "~1600 x 500 px",
+ "colorRules": "Underline blue (chapter card role); strokes/titles cream.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 500,
+   "y": 300,
+   "text": "brush strokes sweep"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 960,
+   "y": 540,
+   "text": "cover title"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 960,
+   "y": 640,
+   "text": "blue underline"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false,
+ "strictFrom": 60
+}

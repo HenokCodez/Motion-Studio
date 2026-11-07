@@ -1,0 +1,79 @@
+{
+ "id": "A57",
+ "name": "Headline Scroll",
+ "category": "Real media",
+ "duration": 96,
+ "keyframes": [
+  0,
+  12,
+  30,
+  50,
+  72,
+  95
+ ],
+ "easing": "frame EASE.inOut f0-16; scroll EASE.inOut f10-70 (330px); highlight EASE.out f70-84",
+ "bestFor": "Showing press coverage/headlines about a topic.",
+ "notSuitable": "Single article detail (use A30).",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   12,
+   "frame + url bar"
+  ],
+  [
+   30,
+   "headlines scrolling up"
+  ],
+  [
+   50,
+   "scrolling"
+  ],
+  [
+   72,
+   "scroll done, underline starting"
+  ],
+  [
+   95,
+   "rest: highlighted headline orange + underline"
+  ]
+ ],
+ "script": [
+  "Browser frame draws; headlines scroll up inside a clipped window; one headline is underlined and turns orange."
+ ],
+ "params": {
+  "source": "<=28 chars",
+  "headlines": "6 strings <=36 chars",
+  "highlight": "index"
+ },
+ "maxContent": "6 headlines <=36 chars at 36px",
+ "footprint": "900 x 560 px",
+ "colorRules": "Highlighted headline orange.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 300,
+   "text": "frame + url bar"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 960,
+   "y": 520,
+   "text": "headlines scroll"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 960,
+   "y": 470,
+   "text": "orange underline"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

@@ -31,7 +31,7 @@ thumbnails/logos of other people). They exist ONLY to show layout and motion. Th
   those are placeholders to be replaced with OUR content or removed.
 * Every place the references show a channel identity (A01 channel row, A13 avatars, A33 channel header, A36/A40-A43 thumbnails),
   use **Hena Vanta**: the channel name "Hena Vanta" and OUR logo.
-* **Logo**: use the user's own logo file (assumed `D:\Youtube\Hena Vanta\Branding\Logo` -> copy to `public/logo.png`; if this file is
+* **Logo**: use the user's own logo file (assumed `D:\Youtube\Hena Vanta\Branding\Logo` -> copy to `public/hena-vanta/logo.png`; if this file is
   missing, stop and ask the user for the path; do NOT invent or draw a logo, and do NOT use the "HV" circle drawn in the schematic frames,
   it is only a slot marker). The logo appears small (avatar-size) in A01/A13/A33 and the chapter card A64; never large, never every scene.
 * Examples/thumbnails come only from OUR captures of real things named in the script (C4), with credit (A43), never from the references.
@@ -58,7 +58,7 @@ thumbnails/logos of other people). They exist ONLY to show layout and motion. Th
 8. **No drawn marks over footage or screenshots**: no arrows, circles, X marks, scribbles, underlines drawn on top of footage. Allowed: the system cursor (A-cursor, because it is a UI click), geometric diagram shapes that ARE the content (Venn circles, S-curve, bars), a green/red highlight box on a *word inside a caption*, and the strike-through inside a bubble.
 9. **Layouts are centred** (except the two-column "heading + cards" A40 whose geometry is specified). Keep 96 px safe margin; nothing touches an edge except intentional camera-pan reveals that end inside the safe area.
 10. **SFX**: none on text, lists, stats, steps, journey. Only `ui` on image/screenshot cards and `ding` on chapter cards. No music. (unchanged)
-11. **Background** is always the supplied loop `D:\Youtube\Hena Vanta\Branding\Bg` (white grid, muted, black text). Copy to `public/bg.mp4`. Never draw our own background, never add the macOS wallpaper from the reference videos, never a black/dark canvas. Dark screenshots sit inside a white window card (A11/A12) so the white page stays white.
+11. **Background** is always the supplied loop `D:\Youtube\Hena Vanta\Branding\Bg` (white grid, muted, black text). Copy to `public/hena-vanta/bg.mp4`. Never draw our own background, never add the macOS wallpaper from the reference videos, never a black/dark canvas. Dark screenshots sit inside a white window card (A11/A12) so the white page stays white.
 
 ## Footage notes (replaces black placeholders)
 
@@ -103,6 +103,28 @@ Checklist (write `[x] item - evidence` for each; stop and report at the first im
 **D. QA + RENDER** D1 `qa-frames.mjs --folder <folder>` = 0 failures, `qa/REPORT.md` pasted in full. D2 open every still (also +0.15 s and +0.45 s after each element starts) and check: centred, off edges, no overlap with footage slot, mid-state of the entrance visible (blur/scale in progress), drift present, journey not cropped, steps one at a time, real screenshots, red words red from frame 1, FootageNote exactly centred and 20 px. D3 `qa/review.json`; max 5 fix loops. D4 render only via `render.mjs <out> --voiceover <file>`; -14 LUFS ±1, true peak <= -1 dBTP, >=98% voiceover words recovered. D5 `placeholders.csv`.
 
 **FINAL REPORT**: full checklist with evidence; pasted QA report; counts (beats by animation ID, text-only %, bare footage %, images captured/failed/FLAG, SFX cues, distinct animation IDs used); list of every FootageNote with timecode; everything unverified + assumptions. Never say "done" or "QA passed" without the numbers. Do not publish.
+
+## v6 build rules
+
+1. **New Project Isolation**: NEVER reuse a previous project's scene components, `timeline.json`, `PLAN.md`, `review.json` or stills. Every v6 video MUST be built in a NEW folder: `D:\Automations\motion-studio\projects\hena-vanta-v6-<video-slug>\`, cloned from the scaffold only for `Root`/`package`/render plumbing. Old projects (e.g. `hena-vanta-upwork`) are strictly archives.
+2. **v6 Timeline Schema (`src/timeline.v6.json`)**: `scenes[]` each with `{ id, start, end, anim: "A05" (A01-A64), props: {...}, words: [{text, time, color?, italic?, line?}], media?: {kind:"screenshot"|"footage", file?|label?}, sfx?: "ui"|"ding", idea, why }`. Words come directly from `timeline.raw.json` word times. A `SceneView` maps `anim` -> component from `src/hena-vanta`; unknown animation IDs fail the build.
+3. **Old Taxonomy Banned**: The old v5 types `STACK`, `LIST`, `STEPS`, `JOURNEY` and the black `PlaceholderBox` are strictly forbidden in v6 projects. Missing footage = `FootageNote` only (`20px`, centered `#8C8C93`, no box).
+4. **Automated Validation (`scripts/validate-v6.mjs`)**: Runs before QA and FAILS on:
+   - Any scene without a valid catalog `anim` ID (`A01`–`A64`).
+   - Text-only runtime $> 20\%$.
+   - Same `anim` ID within 4 consecutive scenes.
+   - Fewer than 14 distinct IDs (long-form) or 6 (shorts).
+   - Fewer than 9 visual events in the first 15 s.
+   - Hook with fewer than 5 distinct animation IDs.
+   - Any color not in the HV palette (`#E01E2D` red, etc.; `#FF0000` is an automatic failure).
+   - Any placeholder that is not a `FootageNote` (`20px`, `#8C8C93`, centered at `960, 540 ± 2px`, no box).
+   - `FootageNote` types outside `GAMEPLAY | SCREEN REC | B-ROLL | PHOTO | FACE CAM | CHART`.
+   - Forbidden brand strings (`ItsProger`, `Proger`, `5.5M`, `346,154`, `vidIQ`, `ViewStats`, `MrBeast`, `Wifies`, `Noob`).
+   - Words on screen $> 6$.
+   - Text $< 28\text{px}$ outside screenshots.
+   - Prints full E1–E8 numbers report.
+5. **v6 Placeholder Export**: `export-placeholders.mjs` must output v6 types (`GAMEPLAY`, `SCREEN REC`, `B-ROLL`, `PHOTO`, `FACE CAM`, `CHART`) reading media labels from `timeline.v6.json`.
+6. **Mandatory Still Review (D2)**: D2 must be genuine. The agent must VIEW the stills (open the images, not pixel stats) and write one concrete observation per still in `qa/review.json`, with `problemsFound` and `fixed`. "Zero defects on the first pass" is rejected without 10+ viewed stills with concrete observations.
 
 ## Building a scene (recipe)
 

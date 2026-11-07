@@ -1,0 +1,87 @@
+{
+ "id": "A12",
+ "name": "Tug of War",
+ "category": "Comparisons",
+ "duration": 96,
+ "keyframes": [
+  0,
+  10,
+  24,
+  40,
+  66,
+  95
+ ],
+ "easing": "rope EASE.out f0-12; shake sin(f*1.6)*6px f14-64; knot sin(f*0.55)*45px; win slide EASE.out f64-86 to +220px",
+ "bestFor": "Two forces competing; 'closed vs open', 'cost vs capability'.",
+ "notSuitable": "Neutral comparisons with no winner.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   10,
+   "two cards and sagging rope drawing"
+  ],
+  [
+   24,
+   "rope taut; cards jitter; knot oscillating"
+  ],
+  [
+   40,
+   "knot swinging left of center"
+  ],
+  [
+   66,
+   "knot starts sliding right (winner)"
+  ],
+  [
+   95,
+   "rest: knot at x\u22481180, left card dimmed + tilted"
+  ]
+ ],
+ "script": [
+  "f0-12: both cards and the rope draw in; rope sags 30px then tightens.",
+  "f14-64: cards shake in opposition, knot oscillates around center.",
+  "f64-86: orange side wins: knot slides 220px right, left card dims to 60% and tilts -3\u00b0."
+ ],
+ "params": {
+  "left": "<=16 chars",
+  "right": "<=16 chars"
+ },
+ "maxContent": "labels <=16 chars",
+ "footprint": "~1612 x 170 px full safe width, 1 row",
+ "colorRules": "Right card + knot orange. Left cream.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 300,
+   "y": 540,
+   "text": "cards + rope draw in"
+  },
+  {
+   "n": 2,
+   "k": 2,
+   "x": 960,
+   "y": 520,
+   "text": "knot oscillates"
+  },
+  {
+   "n": 3,
+   "k": 2,
+   "x": 300,
+   "y": 470,
+   "text": "cards jitter"
+  },
+  {
+   "n": 4,
+   "k": 5,
+   "x": 1180,
+   "y": 500,
+   "text": "orange wins: knot slides right"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false
+}

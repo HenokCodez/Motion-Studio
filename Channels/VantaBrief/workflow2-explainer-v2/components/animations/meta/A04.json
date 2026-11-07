@@ -1,0 +1,80 @@
+{
+ "id": "A04",
+ "name": "Tape-and-Stick Note",
+ "category": "Reveals/intros",
+ "duration": 66,
+ "keyframes": [
+  0,
+  6,
+  14,
+  24,
+  40,
+  65
+ ],
+ "easing": "drop: spring {damping:9,stiffness:90,mass:1}; tape: EASE.back f14-24; text lines: EASE.inOut starting f24/38/48",
+ "bestFor": "A takeaway / reminder / definition delivered as a pinned note.",
+ "notSuitable": "Anything needing a diagram or >3 text lines.",
+ "keyframeTable": [
+  [
+   0,
+   "note 800px above, rotated -15\u00b0 (off-screen)"
+  ],
+  [
+   6,
+   "note falling, still tilted ~-11\u00b0"
+  ],
+  [
+   14,
+   "note overshoots into place near centre, tape strips start popping"
+  ],
+  [
+   24,
+   "note settled at -3\u00b0, both tape strips visible, first line starting to wipe"
+  ],
+  [
+   40,
+   "title line complete, bullet 1 wiping"
+  ],
+  [
+   65,
+   "rest: note 640x380 rotated -3\u00b0, title + 2 bullets"
+  ]
+ ],
+ "script": [
+  "f0-20: the note drops from above with a spring and rotates from -15\u00b0 to -3\u00b0.",
+  "f14-24: two cream tape strips pop onto the top corners.",
+  "f24-40: title is wiped in; f38-58: the two bullets wipe in one after the other."
+ ],
+ "params": {
+  "title": "string <=24 chars",
+  "lines": "array <=2 strings, each <=22 chars"
+ },
+ "maxContent": "title <=24 chars, 2 bullets <=22 chars",
+ "footprint": "640x380 px (33% x 35%)",
+ "colorRules": "Cream outline, dark fill. No orange needed (add orange to ONE word only if it is the key idea).",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 960,
+   "y": 330,
+   "text": "note drops in with spring"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 660,
+   "y": 330,
+   "text": "tape strips pop on"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 780,
+   "y": 540,
+   "text": "text wipes in line by line"
+  }
+ ],
+ "status": "rendered",
+ "entrance": true
+}

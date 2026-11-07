@@ -1,0 +1,81 @@
+{
+ "id": "A34",
+ "name": "Icon Tile Focus Row",
+ "category": "Lists/steps/process",
+ "duration": 84,
+ "keyframes": [
+  0,
+  12,
+  28,
+  40,
+  56,
+  83
+ ],
+ "easing": "tiles EASE.out 16f staggered 5f; focus ring appears f28-36; hop EASE.inOut f46-58",
+ "bestFor": "Choosing one of 4 options/tools; one gets selected.",
+ "notSuitable": "More than 4 items.",
+ "keyframeTable": [
+  [
+   0,
+   "empty"
+  ],
+  [
+   12,
+   "tiles 1-3 drawing"
+  ],
+  [
+   28,
+   "all tiles in; focus not yet"
+  ],
+  [
+   40,
+   "focus on tile 2, tile filled"
+  ],
+  [
+   56,
+   "focus hopping to target"
+  ],
+  [
+   83,
+   "rest: focus on target tile (orange fill)"
+  ]
+ ],
+ "script": [
+  "Four tiles build.",
+  "An orange focus ring lands on tile 2 then hops to the target tile, which fills and turns orange."
+ ],
+ "params": {
+  "icons": "4 ICONS keys",
+  "labels": "4 strings <=10 chars",
+  "target": "index 0-3"
+ },
+ "maxContent": "4 tiles, labels <=10 chars at 36px",
+ "footprint": "1360 x 280 px",
+ "colorRules": "Focused tile orange only.",
+ "callouts": [
+  {
+   "n": 1,
+   "k": 1,
+   "x": 440,
+   "y": 500,
+   "text": "tiles build"
+  },
+  {
+   "n": 2,
+   "k": 3,
+   "x": 800,
+   "y": 520,
+   "text": "focus ring lands"
+  },
+  {
+   "n": 3,
+   "k": 5,
+   "x": 1160,
+   "y": 520,
+   "text": "hops to target"
+  }
+ ],
+ "status": "rendered",
+ "entrance": false,
+ "ref": "pin4.jpg"
+}
