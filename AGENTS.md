@@ -260,3 +260,4 @@ python studio.py build-explainer-canvas <project> [--channel CHANNEL]  # Render 
 ```
 
 For Hena Vanta, hena-vanta-lock.md takes priority over everything in this file.
+For Vanta Brief, vantabrief.md and the fixed skill at `Channels/VantaBrief/workflow2-explainer-v2` take priority over everything in this file. Whenever a prompt mentions "Vanta Brief" or requests building a video with `workflow2-explainer-v2`, lock onto `D:\Automations\motion-studio\Channels\VantaBrief\workflow2-explainer-v2` as the exclusive operating instruction set.

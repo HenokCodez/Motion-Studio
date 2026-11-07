@@ -1,23 +1,50 @@
+# Vanta Brief Channel Permanent Lock Rule
+
 > [!IMPORTANT]
-> NOT FOR HENA VANTA. Never use for the Hena Vanta channel.
+> NOT FOR HENA VANTA. Never use for the Hena Vanta channel. Applies EXCLUSIVELY to Vanta Brief.
 
-# VantaBrief Visual Style Bible Integration Rule
+## 1. Trigger Conditions
+This rule applies ALWAYS and AUTOMATICALLY whenever:
+- The user prompt mentions "Vanta Brief" or "VantaBrief".
+- The user prompt mentions or pastes: `Use the D:\Automations\motion-studio\Channels\VantaBrief\workflow2-explainer-v2 for the channel Vanta Brief. Build the full video in one go.`
+- The user references any path under `D:\Automations\motion-studio\Channels\VantaBrief\`.
+- The user provides project inputs with Format: long-form, Resolution: 1920x1080 for Vanta Brief.
 
-This rule is automatically loaded by Google Antigravity for the `motion-studio` workspace.
+## 2. Fixed Skill Location (Permanent & Immutable)
+- **Skill Path**: `D:\Automations\motion-studio\Channels\VantaBrief\workflow2-explainer-v2`
+- **Rule**: NEVER change this location. NEVER copy it elsewhere. NEVER reinvent the workflow or use generic Remotion scaffolds.
+- **Working Directory**: Every terminal command MUST run inside this folder (`cd D:\Automations\motion-studio\Channels\VantaBrief\workflow2-explainer-v2`). Where any prompt and the skill disagree, the skill's files win.
 
-## Authoritative Directive
-Whenever building, planning, scripting, editing, or rendering a video for **VantaBrief**:
-You MUST follow the **[VantaBrief Visual Style Bible](file:///D:/Automations/motion-studio/Channels/VantaBrief/style/VantaBrief_Visual_Style_Bible.md)** (`Channels/VantaBrief/style/VantaBrief_Visual_Style_Bible_Gemini_Remotion.docx`).
+## 3. Mandatory Pre-Flight Sequence
+Before executing any video generation for Vanta Brief:
+1. Open and follow `SKILL.md` in the fixed directory.
+2. Read the 6 core reference documents in order:
+   - `references\layout-law.md` (Safe frame x:154-1766, y:86-994; font >= 24px; title auto-fit; gap >= 40px)
+   - `references\style-bible.md` (Real Grid_1.mp4 background; #FAF4D9 cream; #231F20 card; #FF6B35 orange accent; Excalifont/Inter; NO captions/subtitles)
+   - `references\scheduler-rules.md` (scene-plan JSON schema; pacing <= 3.5s/anim; >=15-20 distinct IDs; no repeat within 6 scenes; alternating intensity)
+   - `references\asset-protocol.md` (Official logos with provenance; Playwright screenshots in A30; missing assets to MISSING.md; NO GIFs)
+   - `references\animation-catalog\INDEX.md` (Catalog A01-A57; specs + filmstrips)
+   - `references\visual-refs\MAP.md` (Visual reference mapping)
+3. Windows environment: use `python` (not `python3`); Remotion Chromium path `CHROME="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"`.
 
-### The 5 Visual Styles
-1. **Style 1: Kinetic Typography** — Bold claims, punchlines, contrasts, key phrases. Large high-contrast type, natural speech line breaks, sharp reveals, hold long enough to read once. NO word-by-word karaoke captions, NO bouncy elastic overshoots.
-2. **Style 2: Real Evidence / Screen-Led** — Authentic product UI, code snippets, terminal execution, documentation, official screenshots. Subtle camera zoom/pan to direct attention. NO fabricated UI, fake metrics, or invented features.
-3. **Style 3: Editorial Collage / Visual Metaphor** — Paper-like layers, receipts, stacking invoices, real object cutouts, directional motion with subtle depth. NO generic stock art filler or cartoon scenes.
-4. **Style 4: Graphic Symbols / Icon-Led Beats** — Minimalist geometric non-human icons, state changes (connected, filled, active), progress indicators.
-5. **Style 5: Technical Motion Graphics (Primary Explanation Style)** — **RESERVED PRIMARILY FOR EXPLAINING HOW THINGS WORK**: system mechanisms, architecture, comparisons, timelines, and process logic. Crisp outlined nodes, directed connectors, code/output panels, progressive builds (Orient -> Introduce -> Connect -> Transform -> Resolve -> Hold) on dark matte canvas (`#231F20`). Do NOT turn every scene into a diagram.
+## 4. Hard Rules & Prohibitions
+- **Background**: ALWAYS the real `assets\bg\Grid_1.mp4` looped by `components\SceneVideo.tsx`. NEVER recreate, tint, or overlay it.
+- **Palette**: Locked to Charcoal `#231F20`, Cream `#FAF4D9`, Orange `#FF6B35` (max 1 focal element per scene), restricted Blue `#1677FF`, rare Lime `#CBFF4D`. NO green, purple, red, neon, gradients, or glassmorphism.
+- **Audio Integrity**: Untouched narration voiceover only (`audio.mp3` in `assets\audio\`). NO sound effects, NO background music, NO ducking (Rule R1).
+- **Character Ban**: NO cartoon mascots, stick figures, human faces, or animated avatars (Rule R4). Pure geometric/technical hand-drawn UI.
+- **Typography & Layout**: Absolute minimum `fontSize >= 24px`. Safe frame `x: 154-1766, y: 86-994`. Titles never clip (use `scripts\font-fit.js`).
+- **No Captions / Subtitles**: NEVER add word-by-word karaoke captions or narration subtitles.
+- **No GIFs**: Leave named slots (`GIF_SLOT_01...`) in the plan notes for the user.
+- **Never Auto-Render Full Video**: Never run the final production video render automatically. Output the exact CLI command for the user to execute.
 
-### Strict Prohibitions
-- **NO Sound Effects, NO Music, NO Ducking** (Rule R1): Only the user's untouched voiceover audio (`audio.mp3`) is allowed.
-- **NO Character Visuals** (Rule R4): No human characters, stick figures, mascots, cartoon people, generic avatars, human-like robots, or anthropomorphic objects with faces/eyes. Default = NO characters. The only permitted exception is an explicitly requested logo-headed figure with the official VantaBrief logo.
-- **NO Color Palette Drift** (Rule R3): Authored graphics must use Charcoal `#231F20`, Cream `#FAF4D9`, Electric blue `#1677FF`, Amber `#F59E0B`, Crimson `#EF4444`, Emerald `#10B981`.
-- **NO Fake Footage** (Rule R5): Use `FOOTAGE NEEDED` placeholders with exact shot instructions for any missing asset.
+## 5. Standard 9-Gate Execution Procedure
+1. **Inspect Inputs**: Read script, timestamped script, voiceover audio, and existing assets from the input folder. List any missing inputs once.
+2. **Analyze Intent**: Deconstruct script into narrative beats with an explicit `intent` each.
+3. **Author Scene Plan**: Generate `scene-plan.json` in the fixed skill folder according to `schemas\scene-plan.schema.json`.
+4. **Lint Variety**: Run `python scripts\variety-lint.py scene-plan.json` until PASS.
+5. **Check Assets**: Run `python scripts\check-assets.py scene-plan.json`. Log gaps to `assets\MISSING.md`.
+6. **Build Scenes**: Use only verified catalog animations (`A01`–`A57`) via composition `Video` in `components\Root.tsx`.
+7. **Pixel & DOM Audit**: Render scene stills (`npx remotion still components/Root.tsx Video out/s<NN>.png --frame=<n>`). Run `python scripts\safe-pixel-check.py out\s*.png`, `python scripts\palette-lint.py out\s*.png`, and `node scripts\bounds-check-remotion.mjs <IDs>`.
+8. **Preview & Contact Sheet**: Render a 10s preview (`node scripts\render-video.mjs out\preview.mp4 0 10`), generate contact sheet (`python scripts\contact-sheet.py out\preview.mp4 out\contact.png`), and inspect the image.
+9. **Deliverables & Handoff**: Output self-audit report (PASS/FAIL with numbers) and provide the exact command:  
+   `node scripts\render-video.mjs out\final.mp4`
