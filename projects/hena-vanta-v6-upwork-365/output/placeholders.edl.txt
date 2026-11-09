@@ -9,3 +9,5 @@
 00:07:20:29  s95  FACE CAM  Explaining honest proposal psychology  (5.88 s)
 00:08:37:13  s111  FACE CAM  Explaining revision handling mindset  (3.68 s)
 00:09:57:05  s129  FACE CAM  Summarizing core client management principles  (3.26 s)
+00:12:03:10  s146b  FACE CAM  Speaker reflection on learning  (2.80 s)
+00:12:27:22  s150  FACE CAM  Speaker transition to mistakes summary  (3.40 s)

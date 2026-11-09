@@ -1,5 +1,11 @@
-# Hena Vanta v6 Full Video Render Command
-# NOTE: DO NOT RUN THIS COMMAND AUTOMATICALLY. The user will run this command when ready to perform the final full video render.
+# Hena Vanta v6 Full Video Render Pipeline
+# NOTE: DO NOT RUN THIS COMMAND AUTOMATICALLY. The user will run this when ready to perform the final full video render.
 
+# 1. Main Render (Gated Remotion render + ProRes/H.264 packaging)
 node .agents/skills/hena-vanta/scripts/render.mjs "D:\Youtube\Hena Vanta\Project FIle\Videos\1. I tried Upwork for 365 days...is it worth it\AI\output\upwork_v6_full.mp4" --project projects/hena-vanta-v6-upwork-365 --voiceover "D:\Youtube\Hena Vanta\Project FIle\Videos\1. I tried Upwork for 365 days...is it worth it\AI\upwork_clean_audio.wav"
 
+# 2. Loudness Verification (-14 LUFS target, 1 LU tolerance, true peak <= -1 dBTP)
+node .agents/skills/hena-vanta/scripts/check-loudness.mjs "D:\Youtube\Hena Vanta\Project FIle\Videos\1. I tried Upwork for 365 days...is it worth it\AI\output\upwork_v6_full.mp4" -14 1 -1
+
+# 3. Word-Recovery Verification (transcribes final audio and verifies >= 98% word match against voiceover)
+node .agents/skills/hena-vanta/scripts/verify-final-audio.mjs "D:\Youtube\Hena Vanta\Project FIle\Videos\1. I tried Upwork for 365 days...is it worth it\AI\output\upwork_v6_full.mp4" "D:\Youtube\Hena Vanta\Project FIle\Videos\1. I tried Upwork for 365 days...is it worth it\AI\upwork_clean_audio.wav"

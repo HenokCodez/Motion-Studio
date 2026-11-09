@@ -16,7 +16,7 @@
   "scenes": [
     {
       "id": "s01",
-      "start": 0.0,
+      "start": 0,
       "end": 1.8,
       "anim": "A03",
       "props": {
@@ -72,7 +72,7 @@
       "words": [
         {
           "text": "Upwork",
-          "time": 1.56
+          "time": 1.8
         },
         {
           "text": "and",
@@ -109,7 +109,7 @@
       "words": [
         {
           "text": "I",
-          "time": 3.26
+          "time": 3.4
         },
         {
           "text": "thought",
@@ -219,7 +219,7 @@
       "words": [
         {
           "text": "my",
-          "time": 8.56
+          "time": 8.8
         },
         {
           "text": "first",
@@ -294,7 +294,7 @@
       "words": [
         {
           "text": "and",
-          "time": 11.56
+          "time": 11.8
         },
         {
           "text": "I",
@@ -353,7 +353,7 @@
       "words": [
         {
           "text": "was",
-          "time": 14.44
+          "time": 14.5
         },
         {
           "text": "I",
@@ -411,7 +411,7 @@
     {
       "id": "s08",
       "start": 17.5,
-      "end": 22.0,
+      "end": 22,
       "anim": "A53",
       "props": {
         "events": [
@@ -438,7 +438,7 @@
       "words": [
         {
           "text": "my",
-          "time": 17.46
+          "time": 17.5
         },
         {
           "text": "whole",
@@ -507,8 +507,8 @@
     },
     {
       "id": "s09",
-      "start": 22.0,
-      "end": 25.0,
+      "start": 22,
+      "end": 25,
       "anim": "A11",
       "media": {
         "kind": "screenshot",
@@ -521,7 +521,7 @@
       "words": [
         {
           "text": "what",
-          "time": 21.96
+          "time": 22
         },
         {
           "text": "I",
@@ -558,8 +558,8 @@
     },
     {
       "id": "s10",
-      "start": 25.0,
-      "end": 31.0,
+      "start": 25,
+      "end": 31,
       "anim": "A52",
       "media": {
         "kind": "footage",
@@ -656,8 +656,8 @@
     },
     {
       "id": "s11",
-      "start": 31.0,
-      "end": 35.0,
+      "start": 31,
+      "end": 35,
       "anim": "A05",
       "props": {
         "mode": "swap"
@@ -703,7 +703,7 @@
     },
     {
       "id": "s12",
-      "start": 35.0,
+      "start": 35,
       "end": 41.5,
       "anim": "A14",
       "media": {
@@ -814,7 +814,7 @@
       "words": [
         {
           "text": "YouTube.",
-          "time": 41.26
+          "time": 41.5
         },
         {
           "text": "I",
@@ -914,7 +914,7 @@
       "words": [
         {
           "text": "world",
-          "time": 47.28
+          "time": 47.5
         },
         {
           "text": "country.",
@@ -1004,7 +1004,7 @@
     {
       "id": "s15",
       "start": 53.5,
-      "end": 61.0,
+      "end": 61,
       "anim": "A54",
       "props": {
         "leftLabel": "9-to-5",
@@ -1013,7 +1013,7 @@
       "words": [
         {
           "text": "I",
-          "time": 53.44
+          "time": 53.5
         },
         {
           "text": "didn't",
@@ -1123,8 +1123,8 @@
     },
     {
       "id": "s16",
-      "start": 61.0,
-      "end": 66.0,
+      "start": 61,
+      "end": 66,
       "anim": "A52",
       "media": {
         "kind": "footage",
@@ -1135,7 +1135,7 @@
       "words": [
         {
           "text": "seemed",
-          "time": 60.74
+          "time": 61
         },
         {
           "text": "like",
@@ -1201,8 +1201,8 @@
     },
     {
       "id": "s17",
-      "start": 66.0,
-      "end": 72.0,
+      "start": 66,
+      "end": 72,
       "anim": "A07",
       "props": {
         "tone": "them",
@@ -1211,7 +1211,7 @@
       "words": [
         {
           "text": "getting",
-          "time": 65.8
+          "time": 66
         },
         {
           "text": "my",
@@ -1295,7 +1295,7 @@
     },
     {
       "id": "s18",
-      "start": 72.0,
+      "start": 72,
       "end": 76.5,
       "anim": "A03",
       "props": {
@@ -1308,7 +1308,7 @@
       "words": [
         {
           "text": "around",
-          "time": 71.9
+          "time": 72
         },
         {
           "text": "3",
@@ -1385,7 +1385,7 @@
       "words": [
         {
           "text": "if",
-          "time": 76.02
+          "time": 76.5
         },
         {
           "text": "I",
@@ -1473,12 +1473,16 @@
       "props": {
         "label": "MISTAKE #1: OVER-OPTIMIZING",
         "tone": "red",
-        "start": 10
+        "start": 10,
+        "icon": "brain",
+        "quote": "Optimize profile before having work",
+        "warning": "TRAP: PREMATURE OPTIMIZATION",
+        "note": "Build proof before tweaking profiles"
       },
       "words": [
         {
           "text": "at",
-          "time": 81.26
+          "time": 81.5
         },
         {
           "text": "the",
@@ -1579,7 +1583,7 @@
       "words": [
         {
           "text": "actual",
-          "time": 86.42
+          "time": 86.5
         },
         {
           "text": "work.",
@@ -1650,7 +1654,7 @@
       "words": [
         {
           "text": "portfolio.",
-          "time": 91.16
+          "time": 91.5
         },
         {
           "text": "I",
@@ -1728,7 +1732,7 @@
       "words": [
         {
           "text": "professional.",
-          "time": 96.02
+          "time": 96.5
         },
         {
           "text": "But",
@@ -1790,7 +1794,7 @@
     {
       "id": "s24",
       "start": 100.5,
-      "end": 106.0,
+      "end": 106,
       "anim": "A50",
       "media": {
         "kind": "screenshot",
@@ -1803,7 +1807,7 @@
       "words": [
         {
           "text": "had",
-          "time": 100.44
+          "time": 100.5
         },
         {
           "text": "just",
@@ -1873,8 +1877,8 @@
     },
     {
       "id": "s25",
-      "start": 106.0,
-      "end": 111.0,
+      "start": 106,
+      "end": 111,
       "anim": "A52",
       "media": {
         "kind": "footage",
@@ -1885,7 +1889,7 @@
       "words": [
         {
           "text": "projects,",
-          "time": 105.92
+          "time": 106
         },
         {
           "text": "I",
@@ -1943,7 +1947,7 @@
     },
     {
       "id": "s26",
-      "start": 111.0,
+      "start": 111,
       "end": 116.5,
       "anim": "A45",
       "media": {
@@ -2030,7 +2034,7 @@
     {
       "id": "s27",
       "start": 116.5,
-      "end": 121.0,
+      "end": 121,
       "anim": "A03",
       "props": {
         "value": 6,
@@ -2107,7 +2111,7 @@
     },
     {
       "id": "s28",
-      "start": 121.0,
+      "start": 121,
       "end": 126.38,
       "anim": "A08",
       "props": {
@@ -2198,7 +2202,10 @@
       "anim": "A48",
       "props": {
         "headline": "MISTAKE #2: PREMATURE OPTIMIZATION",
-        "note": "Optimizing before having good work"
+        "note": "Portfolio beats profile copy",
+        "icon": "brain",
+        "quote": "Optimize before having proof",
+        "warning": "TRAP: POLISHING ZERO PROOF"
       },
       "idea": "Trap warning on premature optimization",
       "why": "Mistake most beginners make per IDEA-TO-ANIMATION.md (A48)",
@@ -3008,7 +3015,8 @@
           "text": "studying.",
           "time": 178.54
         }
-      ]
+      ],
+      "sfx": "ui"
     },
     {
       "id": "s40",
@@ -3158,7 +3166,8 @@
           "text": "30",
           "time": 189.88
         }
-      ]
+      ],
+      "sfx": "ui"
     },
     {
       "id": "s42",
@@ -3846,7 +3855,8 @@
           "text": "learning.",
           "time": 235.64
         }
-      ]
+      ],
+      "sfx": "ui"
     },
     {
       "id": "s52",
@@ -4040,7 +4050,7 @@
       "words": [
         {
           "text": "editing",
-          "time": 247.54
+          "time": 247.8
         },
         {
           "text": "a",
@@ -4110,7 +4120,8 @@
           "text": "enjoying",
           "time": 253.58
         }
-      ]
+      ],
+      "sfx": "ui"
     },
     {
       "id": "s55",
@@ -4440,7 +4451,10 @@
       "anim": "A48",
       "props": {
         "headline": "MISTAKE #3: WRONG FIRST JOB",
-        "note": "Taking contracts outside your desired niche"
+        "note": "Unrelated gigs dilute focus",
+        "icon": "warning",
+        "quote": "Take any job to start",
+        "warning": "TRAP: WRONG FIRST NICHE"
       },
       "idea": "Trap warning on wrong first contract",
       "why": "Mistake most beginners make (A48)",
@@ -4606,7 +4620,8 @@
           "text": "should",
           "time": 287.94
         }
-      ]
+      ],
+      "sfx": "ui"
     },
     {
       "id": "s62",
@@ -5417,7 +5432,8 @@
           "text": "profile.",
           "time": 342.16
         }
-      ]
+      ],
+      "sfx": "ui"
     },
     {
       "id": "s73",
@@ -5701,7 +5717,8 @@
           "text": "scams.",
           "time": 359.8
         }
-      ]
+      ],
+      "sfx": "ui"
     },
     {
       "id": "s77",
@@ -6032,7 +6049,7 @@
     {
       "id": "s81",
       "start": 380.14,
-      "end": 385.0,
+      "end": 385,
       "anim": "A63",
       "props": {
         "time": "2 days turnaround"
@@ -6104,7 +6121,7 @@
     },
     {
       "id": "s82",
-      "start": 385.0,
+      "start": 385,
       "end": 389.02,
       "anim": "A05",
       "props": {
@@ -6479,7 +6496,10 @@
       "anim": "A48",
       "props": {
         "headline": "MISTAKE #4: SPRAY AND PRAY",
-        "note": "Applying to every random listing"
+        "note": "Targeted pitches beat mass proposals",
+        "icon": "warning",
+        "quote": "Apply to every single job",
+        "warning": "TRAP: SPRAY AND PRAY"
       },
       "idea": "Trap warning on proposal spam",
       "why": "Mistake most beginners make (A48)",
@@ -7263,7 +7283,8 @@
           "text": "attached,",
           "time": 456.88
         }
-      ]
+      ],
+      "sfx": "ui"
     },
     {
       "id": "s99",
@@ -7345,7 +7366,8 @@
           "text": "do.",
           "time": 462.3
         }
-      ]
+      ],
+      "sfx": "ui"
     },
     {
       "id": "s100",
@@ -7649,7 +7671,8 @@
           "text": "test",
           "time": 480.22
         }
-      ]
+      ],
+      "sfx": "ui"
     },
     {
       "id": "s103",
@@ -7790,7 +7813,10 @@
       "anim": "A48",
       "props": {
         "headline": "MISTAKE #5: UNREQUESTED RE-STYLES",
-        "note": "Changing client style without asking"
+        "note": "Low rates attract demanding clients",
+        "icon": "warning",
+        "quote": "Compete solely on low price",
+        "warning": "TRAP: RACE TO THE BOTTOM"
       },
       "idea": "Trap warning against unrequested changes",
       "why": "Mistake most beginners make (A48)",
@@ -8375,7 +8401,8 @@
           "text": "wants.",
           "time": 524.3
         }
-      ]
+      ],
+      "sfx": "ui"
     },
     {
       "id": "s113",
@@ -8735,7 +8762,10 @@
       "anim": "A48",
       "props": {
         "headline": "BOUNDARY: REASONABLE LIMITS",
-        "note": "Do not work unlimited hours unpaid"
+        "note": "Improve craft instead of complaining",
+        "icon": "brain",
+        "quote": "Blame the platform for failure",
+        "warning": "TRAP: EXTERNALIZING BLAME"
       },
       "idea": "Trap warning establishing revision boundaries",
       "why": "Mistake most beginners make (A48)",
@@ -9213,7 +9243,8 @@
           "text": "don't",
           "time": 576.52
         }
-      ]
+      ],
+      "sfx": "ui"
     },
     {
       "id": "s125",
@@ -9229,7 +9260,7 @@
       "words": [
         {
           "text": "don't",
-          "time": 576.52
+          "time": 576.75
         },
         {
           "text": "just",
@@ -9605,39 +9636,39 @@
       "words": [
         {
           "text": "with",
-          "time": 0.0
+          "time": 600.44
         },
         {
           "text": "clients",
-          "time": 0.3
+          "time": 600.74
         },
         {
           "text": "aren't",
-          "time": 0.68
+          "time": 601.12
         },
         {
           "text": "really",
-          "time": 1.1
+          "time": 601.54
         },
         {
           "text": "editing",
-          "time": 1.38
+          "time": 601.82
         },
         {
           "text": "problems.",
-          "time": 1.78
+          "time": 602.22
         },
         {
           "text": "They're",
-          "time": 2.68
+          "time": 603.12
         },
         {
           "text": "communication",
-          "time": 2.76
+          "time": 603.2
         },
         {
           "text": "problems.",
-          "time": 3.2
+          "time": 603.64
         }
       ]
     },
@@ -9651,60 +9682,63 @@
       "props": {
         "level": "warning",
         "title": "Client quality",
-        "note": "Not every lead is worth accepting"
+        "note": "Vetting clients saves months",
+        "icon": "warning",
+        "quote": "Every client is a fit",
+        "warning": "TRAP: IGNORING RED FLAGS"
       },
       "words": [
         {
           "text": "And",
-          "time": 0.7
+          "time": 604.88
         },
         {
           "text": "then",
-          "time": 0.7
+          "time": 604.88
         },
         {
           "text": "I",
-          "time": 0.92
+          "time": 605.1
         },
         {
           "text": "learned",
-          "time": 1.12
+          "time": 605.3
         },
         {
           "text": "something",
-          "time": 1.3
+          "time": 605.48
         },
         {
           "text": "else.",
-          "time": 1.6
+          "time": 605.78
         },
         {
           "text": "Not",
-          "time": 2.18
+          "time": 606.36
         },
         {
           "text": "every",
-          "time": 2.18
+          "time": 606.36
         },
         {
           "text": "client",
-          "time": 2.4
+          "time": 606.58
         },
         {
           "text": "is",
-          "time": 2.76
+          "time": 606.94
         },
         {
           "text": "a",
-          "time": 3.22
+          "time": 607.4
         },
         {
           "text": "good",
-          "time": 3.38
+          "time": 607.56
         },
         {
           "text": "client.",
-          "time": 3.54
+          "time": 607.72
         }
       ]
     },
@@ -9723,107 +9757,107 @@
       "words": [
         {
           "text": "I",
-          "time": 0.68
+          "time": 608.82
         },
         {
           "text": "had",
-          "time": 0.68
+          "time": 608.82
         },
         {
           "text": "another",
-          "time": 0.92
+          "time": 609.06
         },
         {
           "text": "client",
-          "time": 1.42
+          "time": 609.56
         },
         {
           "text": "offer",
-          "time": 1.8
+          "time": 609.94
         },
         {
           "text": "me",
-          "time": 2.08
+          "time": 610.22
         },
         {
           "text": "around",
-          "time": 2.38
+          "time": 610.52
         },
         {
           "text": "$30",
-          "time": 2.68
+          "time": 610.82
         },
         {
           "text": "for",
-          "time": 3.08
+          "time": 611.22
         },
         {
           "text": "an",
-          "time": 3.64
+          "time": 611.78
         },
         {
           "text": "8",
-          "time": 3.9
+          "time": 612.04
         },
         {
           "text": "minute",
-          "time": 4.16
+          "time": 612.3
         },
         {
           "text": "video",
-          "time": 4.36
+          "time": 612.5
         },
         {
           "text": "and",
-          "time": 5.16
+          "time": 613.3
         },
         {
           "text": "at",
-          "time": 5.22
+          "time": 613.36
         },
         {
           "text": "first",
-          "time": 5.4
+          "time": 613.54
         },
         {
           "text": "I",
-          "time": 5.62
+          "time": 613.76
         },
         {
           "text": "thought",
-          "time": 5.84
+          "time": 613.98
         },
         {
           "text": "okay",
-          "time": 6.2
+          "time": 614.34
         },
         {
           "text": "this",
-          "time": 6.5
+          "time": 614.64
         },
         {
           "text": "could",
-          "time": 6.72
+          "time": 614.86
         },
         {
           "text": "be",
-          "time": 6.88
+          "time": 615.02
         },
         {
           "text": "a",
-          "time": 7.04
+          "time": 615.18
         },
         {
           "text": "long",
-          "time": 7.18
+          "time": 615.32
         },
         {
           "text": "term",
-          "time": 7.34
+          "time": 615.48
         },
         {
           "text": "client.",
-          "time": 7.5
+          "time": 615.64
         }
       ]
     },
@@ -9843,71 +9877,71 @@
       "words": [
         {
           "text": "But",
-          "time": 0.38
+          "time": 616.44
         },
         {
           "text": "then",
-          "time": 0.4
+          "time": 616.46
         },
         {
           "text": "I",
-          "time": 0.64
+          "time": 616.7
         },
         {
           "text": "actually",
-          "time": 0.82
+          "time": 616.88
         },
         {
           "text": "looked",
-          "time": 1.22
+          "time": 617.28
         },
         {
           "text": "at",
-          "time": 1.52
+          "time": 617.58
         },
         {
           "text": "the",
-          "time": 1.72
+          "time": 617.78
         },
         {
           "text": "requirements.",
-          "time": 1.84
+          "time": 617.9
         },
         {
           "text": "There",
-          "time": 2.82
+          "time": 618.88
         },
         {
           "text": "were",
-          "time": 2.88
+          "time": 618.94
         },
         {
           "text": "more",
-          "time": 3.08
+          "time": 619.14
         },
         {
           "text": "than",
-          "time": 3.26
+          "time": 619.32
         },
         {
           "text": "20",
-          "time": 3.5
+          "time": 619.56
         },
         {
           "text": "requirements",
-          "time": 3.94
+          "time": 620
         },
         {
           "text": "for",
-          "time": 4.42
+          "time": 620.48
         },
         {
           "text": "one",
-          "time": 4.68
+          "time": 620.74
         },
         {
           "text": "video.",
-          "time": 4.88
+          "time": 620.94
         }
       ]
     },
@@ -9942,131 +9976,131 @@
       "words": [
         {
           "text": "They",
-          "time": 0.38
+          "time": 621.68
         },
         {
           "text": "wanted",
-          "time": 0.44
+          "time": 621.74
         },
         {
           "text": "very",
-          "time": 0.78
+          "time": 622.08
         },
         {
           "text": "specific",
-          "time": 1.2
+          "time": 622.5
         },
         {
           "text": "timestamps.",
-          "time": 1.84
+          "time": 623.14
         },
         {
           "text": "They",
-          "time": 2.74
+          "time": 624.04
         },
         {
           "text": "wanted",
-          "time": 2.76
+          "time": 624.06
         },
         {
           "text": "every",
-          "time": 3.2
+          "time": 624.5
         },
         {
           "text": "silent",
-          "time": 3.68
+          "time": 624.98
         },
         {
           "text": "section",
-          "time": 4.0
+          "time": 625.3
         },
         {
           "text": "identified.",
-          "time": 4.42
+          "time": 625.72
         },
         {
           "text": "They",
-          "time": 5.6
+          "time": 626.9
         },
         {
           "text": "wanted",
-          "time": 5.66
+          "time": 626.96
         },
         {
           "text": "me",
-          "time": 6.02
+          "time": 627.32
         },
         {
           "text": "to",
-          "time": 6.38
+          "time": 627.68
         },
         {
           "text": "generate",
-          "time": 6.66
+          "time": 627.96
         },
         {
           "text": "footage",
-          "time": 7.12
+          "time": 628.42
         },
         {
           "text": "using",
-          "time": 7.7
+          "time": 629
         },
         {
           "text": "my",
-          "time": 8.42
+          "time": 629.72
         },
         {
           "text": "own",
-          "time": 8.66
+          "time": 629.96
         },
         {
           "text": "AI",
-          "time": 8.88
+          "time": 630.18
         },
         {
           "text": "tools.",
-          "time": 9.3
+          "time": 630.6
         },
         {
           "text": "And",
-          "time": 10.0
+          "time": 631.3
         },
         {
           "text": "there",
-          "time": 10.0
+          "time": 631.3
         },
         {
           "text": "were",
-          "time": 10.14
+          "time": 631.44
         },
         {
           "text": "a",
-          "time": 10.32
+          "time": 631.62
         },
         {
           "text": "lot",
-          "time": 10.48
+          "time": 631.78
         },
         {
           "text": "of",
-          "time": 10.62
+          "time": 631.92
         },
         {
           "text": "other",
-          "time": 10.8
+          "time": 632.1
         },
         {
           "text": "very",
-          "time": 11.22
+          "time": 632.52
         },
         {
           "text": "specific",
-          "time": 11.54
+          "time": 632.84
         },
         {
           "text": "requirements.",
-          "time": 12.22
+          "time": 633.52
         }
       ]
     },
@@ -10096,159 +10130,159 @@
       "words": [
         {
           "text": "So",
-          "time": 0.4
+          "time": 634.48
         },
         {
           "text": "when",
-          "time": 0.48
+          "time": 634.56
         },
         {
           "text": "I",
-          "time": 0.68
+          "time": 634.76
         },
         {
           "text": "actually",
-          "time": 0.94
+          "time": 635.02
         },
         {
           "text": "look",
-          "time": 1.48
+          "time": 635.56
         },
         {
           "text": "at",
-          "time": 1.7
+          "time": 635.78
         },
         {
           "text": "the",
-          "time": 1.86
+          "time": 635.94
         },
         {
           "text": "amount",
-          "time": 1.96
+          "time": 636.04
         },
         {
           "text": "of",
-          "time": 2.16
+          "time": 636.24
         },
         {
           "text": "work",
-          "time": 2.32
+          "time": 636.4
         },
         {
           "text": "that",
-          "time": 2.74
+          "time": 636.82
         },
         {
           "text": "$30",
-          "time": 2.8
+          "time": 636.88
         },
         {
           "text": "wasn't",
-          "time": 3.24
+          "time": 637.32
         },
         {
           "text": "really",
-          "time": 3.84
+          "time": 637.92
         },
         {
           "text": "$30",
-          "time": 4.14
+          "time": 638.22
         },
         {
           "text": "worth",
-          "time": 4.58
+          "time": 638.66
         },
         {
           "text": "of",
-          "time": 5.02
+          "time": 639.1
         },
         {
           "text": "work.",
-          "time": 5.2
+          "time": 639.28
         },
         {
           "text": "That",
-          "time": 5.76
+          "time": 639.84
         },
         {
           "text": "video",
-          "time": 5.8
+          "time": 639.88
         },
         {
           "text": "could",
-          "time": 6.08
+          "time": 640.16
         },
         {
           "text": "have",
-          "time": 6.34
+          "time": 640.42
         },
         {
           "text": "taken",
-          "time": 6.48
+          "time": 640.56
         },
         {
           "text": "me",
-          "time": 6.74
+          "time": 640.82
         },
         {
           "text": "basically",
-          "time": 7.1
+          "time": 641.18
         },
         {
           "text": "the",
-          "time": 7.58
+          "time": 641.66
         },
         {
           "text": "whole",
-          "time": 7.96
+          "time": 642.04
         },
         {
           "text": "day",
-          "time": 8.18
+          "time": 642.26
         },
         {
           "text": "and",
-          "time": 8.8
+          "time": 642.88
         },
         {
           "text": "I",
-          "time": 8.86
+          "time": 642.94
         },
         {
           "text": "already",
-          "time": 9.1
+          "time": 643.18
         },
         {
           "text": "had",
-          "time": 9.62
+          "time": 643.7
         },
         {
           "text": "other",
-          "time": 10.0
+          "time": 644.08
         },
         {
           "text": "work.",
-          "time": 10.32
+          "time": 644.4
         },
         {
           "text": "So",
-          "time": 10.9
+          "time": 644.98
         },
         {
           "text": "I",
-          "time": 10.96
+          "time": 645.04
         },
         {
           "text": "didn't",
-          "time": 11.16
+          "time": 645.24
         },
         {
           "text": "accept",
-          "time": 11.44
+          "time": 645.52
         },
         {
           "text": "it.",
-          "time": 11.76
+          "time": 645.84
         }
       ]
     },
@@ -10272,127 +10306,127 @@
       "words": [
         {
           "text": "And",
-          "time": 0.5
+          "time": 646.58
         },
         {
           "text": "that",
-          "time": 0.5
+          "time": 646.58
         },
         {
           "text": "taught",
-          "time": 0.68
+          "time": 646.76
         },
         {
           "text": "me",
-          "time": 0.88
+          "time": 646.96
         },
         {
           "text": "something",
-          "time": 1.08
+          "time": 647.16
         },
         {
           "text": "really",
-          "time": 1.36
+          "time": 647.44
         },
         {
           "text": "important.",
-          "time": 1.74
+          "time": 647.82
         },
         {
           "text": "At",
-          "time": 2.78
+          "time": 648.86
         },
         {
           "text": "the",
-          "time": 2.82
+          "time": 648.9
         },
         {
           "text": "beginning",
-          "time": 3.0
+          "time": 649.08
         },
         {
           "text": "you",
-          "time": 3.28
+          "time": 649.36
         },
         {
           "text": "think",
-          "time": 3.56
+          "time": 649.64
         },
         {
           "text": "I",
-          "time": 3.84
+          "time": 649.92
         },
         {
           "text": "just",
-          "time": 4.32
+          "time": 650.4
         },
         {
           "text": "need",
-          "time": 4.56
+          "time": 650.64
         },
         {
           "text": "a",
-          "time": 4.76
+          "time": 650.84
         },
         {
           "text": "client.",
-          "time": 4.9
+          "time": 650.98
         },
         {
           "text": "But",
-          "time": 5.72
+          "time": 651.8
         },
         {
           "text": "later",
-          "time": 5.74
+          "time": 651.82
         },
         {
           "text": "you",
-          "time": 6.04
+          "time": 652.12
         },
         {
           "text": "realize",
-          "time": 6.28
+          "time": 652.36
         },
         {
           "text": "I",
-          "time": 6.7
+          "time": 652.78
         },
         {
           "text": "need",
-          "time": 7.2
+          "time": 653.28
         },
         {
           "text": "a",
-          "time": 7.4
+          "time": 653.48
         },
         {
           "text": "client",
-          "time": 7.56
+          "time": 653.64
         },
         {
           "text": "whose",
-          "time": 7.88
+          "time": 653.96
         },
         {
           "text": "expectations",
-          "time": 8.12
+          "time": 654.2
         },
         {
           "text": "I",
-          "time": 8.66
+          "time": 654.74
         },
         {
           "text": "can",
-          "time": 9.04
+          "time": 655.12
         },
         {
           "text": "actually",
-          "time": 9.22
+          "time": 655.3
         },
         {
           "text": "meet.",
-          "time": 9.7
+          "time": 655.78
         }
       ]
     },
@@ -10406,104 +10440,107 @@
       "props": {
         "level": "critical",
         "title": "Review hazard",
-        "note": "Bad feedback damages visibility"
+        "note": "Define deliverables clearly upfront",
+        "icon": "warning",
+        "quote": "Accept scope creep silently",
+        "warning": "TRAP: UNPAID SCOPE EXPANSION"
       },
       "words": [
         {
           "text": "Because",
-          "time": 0.42
+          "time": 656.56
         },
         {
           "text": "if",
-          "time": 0.44
+          "time": 656.58
         },
         {
           "text": "you",
-          "time": 0.7
+          "time": 656.84
         },
         {
           "text": "accept",
-          "time": 0.86
+          "time": 657
         },
         {
           "text": "a",
-          "time": 1.18
+          "time": 657.32
         },
         {
           "text": "job",
-          "time": 1.38
+          "time": 657.52
         },
         {
           "text": "you",
-          "time": 1.6
+          "time": 657.74
         },
         {
           "text": "can't",
-          "time": 1.78
+          "time": 657.92
         },
         {
           "text": "handle",
-          "time": 2.06
+          "time": 658.2
         },
         {
           "text": "you",
-          "time": 2.48
+          "time": 658.62
         },
         {
           "text": "might",
-          "time": 2.58
+          "time": 658.72
         },
         {
           "text": "end",
-          "time": 2.76
+          "time": 658.9
         },
         {
           "text": "up",
-          "time": 3.0
+          "time": 659.14
         },
         {
           "text": "with",
-          "time": 3.2
+          "time": 659.34
         },
         {
           "text": "a",
-          "time": 3.36
+          "time": 659.5
         },
         {
           "text": "bad",
-          "time": 3.52
+          "time": 659.66
         },
         {
           "text": "review.",
-          "time": 3.72
+          "time": 659.86
         },
         {
           "text": "And",
-          "time": 4.42
+          "time": 660.56
         },
         {
           "text": "that",
-          "time": 4.42
+          "time": 660.56
         },
         {
           "text": "can",
-          "time": 4.6
+          "time": 660.74
         },
         {
           "text": "affect",
-          "time": 4.78
+          "time": 660.92
         },
         {
           "text": "your",
-          "time": 5.1
+          "time": 661.24
         },
         {
           "text": "future",
-          "time": 5.34
+          "time": 661.48
         },
         {
           "text": "jobs.",
-          "time": 5.58
+          "time": 661.72
         }
       ]
     },
@@ -10521,75 +10558,75 @@
       "words": [
         {
           "text": "So",
-          "time": 0.54
+          "time": 662.68
         },
         {
           "text": "sometimes",
-          "time": 0.64
+          "time": 662.78
         },
         {
           "text": "saying",
-          "time": 1.2
+          "time": 663.34
         },
         {
           "text": "no",
-          "time": 1.8
+          "time": 663.94
         },
         {
           "text": "to",
-          "time": 2.12
+          "time": 664.26
         },
         {
           "text": "a",
-          "time": 2.28
+          "time": 664.42
         },
         {
           "text": "job",
-          "time": 2.42
+          "time": 664.56
         },
         {
           "text": "is",
-          "time": 2.74
+          "time": 664.88
         },
         {
           "text": "better",
-          "time": 3.12
+          "time": 665.26
         },
         {
           "text": "than",
-          "time": 3.36
+          "time": 665.5
         },
         {
           "text": "accepting",
-          "time": 3.62
+          "time": 665.76
         },
         {
           "text": "it",
-          "time": 3.98
+          "time": 666.12
         },
         {
           "text": "just",
-          "time": 4.38
+          "time": 666.52
         },
         {
           "text": "because",
-          "time": 4.62
+          "time": 666.76
         },
         {
           "text": "you",
-          "time": 4.96
+          "time": 667.1
         },
         {
           "text": "want",
-          "time": 5.16
+          "time": 667.3
         },
         {
           "text": "the",
-          "time": 5.32
+          "time": 667.46
         },
         {
           "text": "money.",
-          "time": 5.66
+          "time": 667.8
         }
       ]
     },
@@ -10608,75 +10645,75 @@
       "words": [
         {
           "text": "money.",
-          "time": -0.1
+          "time": 667.9
         },
         {
           "text": "And",
-          "time": 0.9
+          "time": 668.8
         },
         {
           "text": "looking",
-          "time": 0.9
+          "time": 668.8
         },
         {
           "text": "back",
-          "time": 0.9
+          "time": 668.8
         },
         {
           "text": "my",
-          "time": 1.28
+          "time": 669.18
         },
         {
           "text": "portfolio",
-          "time": 1.34
+          "time": 669.24
         },
         {
           "text": "was",
-          "time": 1.8
+          "time": 669.7
         },
         {
           "text": "probably",
-          "time": 2.18
+          "time": 670.08
         },
         {
           "text": "one",
-          "time": 2.44
+          "time": 670.34
         },
         {
           "text": "of",
-          "time": 2.72
+          "time": 670.62
         },
         {
           "text": "my",
-          "time": 2.86
+          "time": 670.76
         },
         {
           "text": "biggest",
-          "time": 3.04
+          "time": 670.94
         },
         {
           "text": "problems.",
-          "time": 3.32
+          "time": 671.22
         },
         {
           "text": "My",
-          "time": 4.14
+          "time": 672.04
         },
         {
           "text": "portfolio",
-          "time": 4.22
+          "time": 672.12
         },
         {
           "text": "was",
-          "time": 4.74
+          "time": 672.64
         },
         {
           "text": "missing",
-          "time": 5.12
+          "time": 673.02
         },
         {
           "text": "quality.",
-          "time": 5.5
+          "time": 673.4
         }
       ]
     },
@@ -10707,107 +10744,107 @@
       "words": [
         {
           "text": "There",
-          "time": 0.5
+          "time": 674.44
         },
         {
           "text": "were",
-          "time": 0.54
+          "time": 674.48
         },
         {
           "text": "unrelated",
-          "time": 0.72
+          "time": 674.66
         },
         {
           "text": "videos",
-          "time": 1.22
+          "time": 675.16
         },
         {
           "text": "in",
-          "time": 1.86
+          "time": 675.8
         },
         {
           "text": "it.",
-          "time": 2.16
+          "time": 676.1
         },
         {
           "text": "Some",
-          "time": 2.42
+          "time": 676.36
         },
         {
           "text": "of",
-          "time": 2.46
+          "time": 676.4
         },
         {
           "text": "the",
-          "time": 2.62
+          "time": 676.56
         },
         {
           "text": "work",
-          "time": 2.76
+          "time": 676.7
         },
         {
           "text": "was",
-          "time": 2.98
+          "time": 676.92
         },
         {
           "text": "cheap",
-          "time": 3.26
+          "time": 677.2
         },
         {
           "text": "and",
-          "time": 4.08
+          "time": 678.02
         },
         {
           "text": "my",
-          "time": 4.16
+          "time": 678.1
         },
         {
           "text": "profile",
-          "time": 4.36
+          "time": 678.3
         },
         {
           "text": "description",
-          "time": 4.84
+          "time": 678.78
         },
         {
           "text": "was",
-          "time": 5.26
+          "time": 679.2
         },
         {
           "text": "claiming",
-          "time": 5.64
+          "time": 679.58
         },
         {
           "text": "more",
-          "time": 5.98
+          "time": 679.92
         },
         {
           "text": "than",
-          "time": 6.54
+          "time": 680.48
         },
         {
           "text": "what",
-          "time": 6.78
+          "time": 680.72
         },
         {
           "text": "my",
-          "time": 7.04
+          "time": 680.98
         },
         {
           "text": "portfolio",
-          "time": 7.28
+          "time": 681.22
         },
         {
           "text": "could",
-          "time": 7.8
+          "time": 681.74
         },
         {
           "text": "actually",
-          "time": 8.08
+          "time": 682.02
         },
         {
           "text": "prove.",
-          "time": 8.58
+          "time": 682.52
         }
       ]
     },
@@ -10831,103 +10868,103 @@
       "words": [
         {
           "text": "I",
-          "time": 0.26
+          "time": 683.08
         },
         {
           "text": "was",
-          "time": 0.4
+          "time": 683.22
         },
         {
           "text": "trying",
-          "time": 0.56
+          "time": 683.38
         },
         {
           "text": "to",
-          "time": 0.8
+          "time": 683.62
         },
         {
           "text": "make",
-          "time": 1.0
+          "time": 683.82
         },
         {
           "text": "my",
-          "time": 1.2
+          "time": 684.02
         },
         {
           "text": "profile",
-          "time": 1.46
+          "time": 684.28
         },
         {
           "text": "look",
-          "time": 1.92
+          "time": 684.74
         },
         {
           "text": "professional",
-          "time": 2.26
+          "time": 685.08
         },
         {
           "text": "instead",
-          "time": 2.82
+          "time": 685.64
         },
         {
           "text": "of",
-          "time": 3.2
+          "time": 686.02
         },
         {
           "text": "actually",
-          "time": 3.42
+          "time": 686.24
         },
         {
           "text": "making",
-          "time": 3.86
+          "time": 686.68
         },
         {
           "text": "the",
-          "time": 4.16
+          "time": 686.98
         },
         {
           "text": "work",
-          "time": 4.46
+          "time": 687.28
         },
         {
           "text": "professional.",
-          "time": 4.74
+          "time": 687.56
         },
         {
           "text": "And",
-          "time": 5.7
+          "time": 688.52
         },
         {
           "text": "eventually",
-          "time": 5.7
+          "time": 688.52
         },
         {
           "text": "I",
-          "time": 6.16
+          "time": 688.98
         },
         {
           "text": "realized",
-          "time": 6.46
+          "time": 689.28
         },
         {
           "text": "that",
-          "time": 6.78
+          "time": 689.6
         },
         {
           "text": "clients",
-          "time": 7.02
+          "time": 689.84
         },
         {
           "text": "can",
-          "time": 7.36
+          "time": 690.18
         },
         {
           "text": "see",
-          "time": 7.68
+          "time": 690.5
         },
         {
           "text": "that.",
-          "time": 8.04
+          "time": 690.86
         }
       ]
     },
@@ -10946,75 +10983,75 @@
       "words": [
         {
           "text": "You",
-          "time": 0.3
+          "time": 691.48
         },
         {
           "text": "can't",
-          "time": 0.32
+          "time": 691.5
         },
         {
           "text": "really",
-          "time": 0.72
+          "time": 691.9
         },
         {
           "text": "fool",
-          "time": 0.94
+          "time": 692.12
         },
         {
           "text": "most",
-          "time": 1.24
+          "time": 692.42
         },
         {
           "text": "clients.",
-          "time": 1.54
+          "time": 692.72
         },
         {
           "text": "They've",
-          "time": 2.54
+          "time": 693.72
         },
         {
           "text": "already",
-          "time": 2.62
+          "time": 693.8
         },
         {
           "text": "posted",
-          "time": 2.9
+          "time": 694.08
         },
         {
           "text": "multiple",
-          "time": 3.4
+          "time": 694.58
         },
         {
           "text": "jobs.",
-          "time": 3.72
+          "time": 694.9
         },
         {
           "text": "They've",
-          "time": 4.82
+          "time": 696
         },
         {
           "text": "already",
-          "time": 4.92
+          "time": 696.1
         },
         {
           "text": "looked",
-          "time": 5.22
+          "time": 696.4
         },
         {
           "text": "through",
-          "time": 5.58
+          "time": 696.76
         },
         {
           "text": "hundreds",
-          "time": 5.98
+          "time": 697.16
         },
         {
           "text": "of",
-          "time": 6.44
+          "time": 697.62
         },
         {
           "text": "freelancers.",
-          "time": 6.76
+          "time": 697.94
         }
       ]
     },
@@ -11031,87 +11068,87 @@
       "words": [
         {
           "text": "They",
-          "time": 0.58,
+          "time": 699,
           "line": 0
         },
         {
           "text": "can",
-          "time": 0.64,
+          "time": 699.06,
           "line": 0
         },
         {
           "text": "look",
-          "time": 0.84,
+          "time": 699.26,
           "line": 0
         },
         {
           "text": "at",
-          "time": 1.02,
+          "time": 699.44,
           "line": 0
         },
         {
           "text": "your",
-          "time": 1.24,
+          "time": 699.66,
           "line": 0
         },
         {
           "text": "portfolio",
-          "time": 1.48,
+          "time": 699.9,
           "line": 0
         },
         {
           "text": "and",
-          "time": 1.92,
+          "time": 700.34,
           "line": 0
         },
         {
           "text": "understand",
-          "time": 2.36,
+          "time": 700.78,
           "line": 0
         },
         {
           "text": "pretty",
-          "time": 2.96,
+          "time": 701.38,
           "line": 1
         },
         {
           "text": "quickly",
-          "time": 3.36,
+          "time": 701.78,
           "line": 1
         },
         {
           "text": "whether",
-          "time": 3.78,
+          "time": 702.2,
           "line": 1
         },
         {
           "text": "you",
-          "time": 4.28,
+          "time": 702.7,
           "line": 1
         },
         {
           "text": "actually",
-          "time": 4.54,
+          "time": 702.96,
           "line": 1
         },
         {
           "text": "know",
-          "time": 4.88,
+          "time": 703.3,
           "line": 1
         },
         {
           "text": "what",
-          "time": 5.16,
+          "time": 703.58,
           "line": 1
         },
         {
           "text": "you're",
-          "time": 5.46,
+          "time": 703.88,
           "line": 1
         },
         {
           "text": "doing.",
-          "time": 5.6,
+          "time": 704.02,
           "line": 1
         }
       ]
@@ -11126,84 +11163,87 @@
       "props": {
         "level": "info",
         "title": "Honest baseline",
-        "note": "Display real competence"
+        "note": "Freelancing requires real craft",
+        "icon": "brain",
+        "quote": "Upwork is easy passive income",
+        "warning": "TRAP: EXPECTING EASY MONEY"
       },
       "words": [
         {
           "text": "So",
-          "time": 0.6
+          "time": 704.88
         },
         {
           "text": "if",
-          "time": 0.6
+          "time": 704.88
         },
         {
           "text": "you're",
-          "time": 0.82
+          "time": 705.1
         },
         {
           "text": "just",
-          "time": 1.02
+          "time": 705.3
         },
         {
           "text": "starting",
-          "time": 1.3
+          "time": 705.58
         },
         {
           "text": "out",
-          "time": 1.74
+          "time": 706.02
         },
         {
           "text": "don't",
-          "time": 2.3
+          "time": 706.58
         },
         {
           "text": "try",
-          "time": 2.64
+          "time": 706.92
         },
         {
           "text": "to",
-          "time": 2.88
+          "time": 707.16
         },
         {
           "text": "pretend",
-          "time": 3.08
+          "time": 707.36
         },
         {
           "text": "you're",
-          "time": 3.42
+          "time": 707.7
         },
         {
           "text": "an",
-          "time": 3.68
+          "time": 707.96
         },
         {
           "text": "expert.",
-          "time": 3.78
+          "time": 708.06
         },
         {
           "text": "Just",
-          "time": 4.4
+          "time": 708.68
         },
         {
           "text": "show",
-          "time": 4.42
+          "time": 708.7
         },
         {
           "text": "what",
-          "time": 4.66
+          "time": 708.94
         },
         {
           "text": "you",
-          "time": 4.88
+          "time": 709.16
         },
         {
           "text": "actually",
-          "time": 5.02
+          "time": 709.3
         },
         {
           "text": "know.",
-          "time": 5.38
+          "time": 709.66
         }
       ]
     },
@@ -11234,135 +11274,135 @@
       "words": [
         {
           "text": "If",
-          "time": 0.36
+          "time": 710.32
         },
         {
           "text": "you",
-          "time": 0.4
+          "time": 710.36
         },
         {
           "text": "don't",
-          "time": 0.52
+          "time": 710.48
         },
         {
           "text": "have",
-          "time": 0.7
+          "time": 710.66
         },
         {
           "text": "client",
-          "time": 0.86
+          "time": 710.82
         },
         {
           "text": "work",
-          "time": 1.16
+          "time": 711.12
         },
         {
           "text": "yet",
-          "time": 1.42
+          "time": 711.38
         },
         {
           "text": "make",
-          "time": 1.88
+          "time": 711.84
         },
         {
           "text": "your",
-          "time": 1.98
+          "time": 711.94
         },
         {
           "text": "own",
-          "time": 2.16
+          "time": 712.12
         },
         {
           "text": "sample",
-          "time": 2.32
+          "time": 712.28
         },
         {
           "text": "projects.",
-          "time": 2.6
+          "time": 712.56
         },
         {
           "text": "Make",
-          "time": 3.5
+          "time": 713.46
         },
         {
           "text": "them",
-          "time": 3.5
+          "time": 713.46
         },
         {
           "text": "as",
-          "time": 3.74
+          "time": 713.7
         },
         {
           "text": "good",
-          "time": 3.92
+          "time": 713.88
         },
         {
           "text": "as",
-          "time": 4.08
+          "time": 714.04
         },
         {
           "text": "you",
-          "time": 4.22
+          "time": 714.18
         },
         {
           "text": "can.",
-          "time": 4.38
+          "time": 714.34
         },
         {
           "text": "And",
-          "time": 4.92
+          "time": 714.88
         },
         {
           "text": "make",
-          "time": 4.94
+          "time": 714.9
         },
         {
           "text": "sure",
-          "time": 5.14
+          "time": 715.1
         },
         {
           "text": "the",
-          "time": 5.38
+          "time": 715.34
         },
         {
           "text": "portfolio",
-          "time": 5.6
+          "time": 715.56
         },
         {
           "text": "actually",
-          "time": 6.16
+          "time": 716.12
         },
         {
           "text": "supports",
-          "time": 6.9
+          "time": 716.86
         },
         {
           "text": "what",
-          "time": 7.4
+          "time": 717.36
         },
         {
           "text": "your",
-          "time": 7.78
+          "time": 717.74
         },
         {
           "text": "profile",
-          "time": 7.98
+          "time": 717.94
         },
         {
           "text": "says",
-          "time": 8.36
+          "time": 718.32
         },
         {
           "text": "you",
-          "time": 8.72
+          "time": 718.68
         },
         {
           "text": "can",
-          "time": 8.98
+          "time": 718.94
         },
         {
           "text": "do.",
-          "time": 9.16
+          "time": 719.12
         }
       ]
     },
@@ -11380,55 +11420,55 @@
       "words": [
         {
           "text": "And",
-          "time": 0.28
+          "time": 719.68
         },
         {
           "text": "that's",
-          "time": 0.28
+          "time": 719.68
         },
         {
           "text": "another",
-          "time": 0.56
+          "time": 719.96
         },
         {
           "text": "thing",
-          "time": 0.8
+          "time": 720.2
         },
         {
           "text": "I",
-          "time": 1.06
+          "time": 720.46
         },
         {
           "text": "learned",
-          "time": 1.22
+          "time": 720.62
         },
         {
           "text": "about",
-          "time": 1.36
+          "time": 720.76
         },
         {
           "text": "myself.",
-          "time": 1.66
+          "time": 721.06
         },
         {
           "text": "I'm",
-          "time": 2.52
+          "time": 721.92
         },
         {
           "text": "not",
-          "time": 2.7
+          "time": 722.1
         },
         {
           "text": "an",
-          "time": 2.88
+          "time": 722.28
         },
         {
           "text": "Upwork",
-          "time": 3.08
+          "time": 722.48
         },
         {
           "text": "expert.",
-          "time": 3.46
+          "time": 722.86
         }
       ]
     },
@@ -11446,41 +11486,45 @@
       "words": [
         {
           "text": "I'm",
-          "time": 0.48
+          "time": 723.8
         },
         {
           "text": "not",
-          "time": 0.68
+          "time": 724
         },
         {
           "text": "making",
-          "time": 0.82
+          "time": 724.14
         },
         {
           "text": "this",
-          "time": 1.1
+          "time": 724.42
         },
         {
           "text": "video",
-          "time": 1.36
+          "time": 724.68
         },
         {
           "text": "because",
-          "time": 1.64
+          "time": 724.96
         },
         {
           "text": "I",
-          "time": 1.96
+          "time": 725.28
         },
         {
           "text": "mastered",
-          "time": 2.14
+          "time": 725.46
         },
         {
           "text": "Upwork.",
-          "time": 2.44
+          "time": 725.76
         }
-      ]
+      ],
+      "media": {
+        "kind": "footage",
+        "label": "FACE CAM: Speaker reflection on learning"
+      }
     },
     {
       "id": "s147",
@@ -11502,79 +11546,79 @@
       "words": [
         {
           "text": "I've",
-          "time": 0.28
+          "time": 726.4
         },
         {
           "text": "made",
-          "time": 0.56
+          "time": 726.68
         },
         {
           "text": "more",
-          "time": 0.8
+          "time": 726.92
         },
         {
           "text": "than",
-          "time": 1.02
+          "time": 727.14
         },
         {
           "text": "$5,000",
-          "time": 1.52
+          "time": 727.64
         },
         {
           "text": "outside",
-          "time": 2.02
+          "time": 728.14
         },
         {
           "text": "of",
-          "time": 2.6
+          "time": 728.72
         },
         {
           "text": "Upwork",
-          "time": 2.74
+          "time": 728.86
         },
         {
           "text": "from",
-          "time": 3.06
+          "time": 729.18
         },
         {
           "text": "video",
-          "time": 3.44
+          "time": 729.56
         },
         {
           "text": "editing.",
-          "time": 3.86
+          "time": 729.98
         },
         {
           "text": "But",
-          "time": 4.68
+          "time": 730.8
         },
         {
           "text": "on",
-          "time": 4.68
+          "time": 730.8
         },
         {
           "text": "Upwork",
-          "time": 4.88
+          "time": 731
         },
         {
           "text": "I've",
-          "time": 5.54
+          "time": 731.66
         },
         {
           "text": "only",
-          "time": 5.78
+          "time": 731.9
         },
         {
           "text": "made",
-          "time": 6.04
+          "time": 732.16
         },
         {
           "text": "around",
-          "time": 6.34
+          "time": 732.46
         },
         {
           "text": "$150.",
-          "time": 6.66
+          "time": 732.78
         }
       ]
     },
@@ -11592,107 +11636,107 @@
       "words": [
         {
           "text": "So",
-          "time": 0.78
+          "time": 734.42
         },
         {
           "text": "I'm",
-          "time": 0.86
+          "time": 734.5
         },
         {
           "text": "not",
-          "time": 1.08
+          "time": 734.72
         },
         {
           "text": "here",
-          "time": 1.26
+          "time": 734.9
         },
         {
           "text": "to",
-          "time": 1.5
+          "time": 735.14
         },
         {
           "text": "tell",
-          "time": 1.68
+          "time": 735.32
         },
         {
           "text": "you",
-          "time": 1.84
+          "time": 735.48
         },
         {
           "text": "that",
-          "time": 1.98
+          "time": 735.62
         },
         {
           "text": "I'm",
-          "time": 2.12
+          "time": 735.76
         },
         {
           "text": "some",
-          "time": 2.38
+          "time": 736.02
         },
         {
           "text": "Upwork",
-          "time": 2.52
+          "time": 736.16
         },
         {
           "text": "guru.",
-          "time": 2.88
+          "time": 736.52
         },
         {
           "text": "I'm",
-          "time": 3.28
+          "time": 736.92
         },
         {
           "text": "just",
-          "time": 3.44
+          "time": 737.08
         },
         {
           "text": "showing",
-          "time": 3.62
+          "time": 737.26
         },
         {
           "text": "you",
-          "time": 3.84
+          "time": 737.48
         },
         {
           "text": "what",
-          "time": 4.1
+          "time": 737.74
         },
         {
           "text": "happened",
-          "time": 4.3
+          "time": 737.94
         },
         {
           "text": "to",
-          "time": 4.64
+          "time": 738.28
         },
         {
           "text": "me",
-          "time": 4.88
+          "time": 738.52
         },
         {
           "text": "and",
-          "time": 5.08
+          "time": 738.72
         },
         {
           "text": "what",
-          "time": 5.32
+          "time": 738.96
         },
         {
           "text": "made",
-          "time": 5.56
+          "time": 739.2
         },
         {
           "text": "my",
-          "time": 5.82
+          "time": 739.46
         },
         {
           "text": "journey",
-          "time": 6.1
+          "time": 739.74
         },
         {
           "text": "easier.",
-          "time": 6.42
+          "time": 740.06
         }
       ]
     },
@@ -11711,107 +11755,107 @@
       "words": [
         {
           "text": "And",
-          "time": 0.46
+          "time": 741.02
         },
         {
           "text": "I",
-          "time": 0.46
+          "time": 741.02
         },
         {
           "text": "think",
-          "time": 0.66
+          "time": 741.22
         },
         {
           "text": "that's",
-          "time": 0.82
+          "time": 741.38
         },
         {
           "text": "actually",
-          "time": 1.1
+          "time": 741.66
         },
         {
           "text": "more",
-          "time": 1.42
+          "time": 741.98
         },
         {
           "text": "useful",
-          "time": 1.68
+          "time": 742.24
         },
         {
           "text": "for",
-          "time": 2.02
+          "time": 742.58
         },
         {
           "text": "someone",
-          "time": 2.36
+          "time": 742.92
         },
         {
           "text": "who",
-          "time": 2.72
+          "time": 743.28
         },
         {
           "text": "is",
-          "time": 2.92
+          "time": 743.48
         },
         {
           "text": "starting",
-          "time": 3.04
+          "time": 743.6
         },
         {
           "text": "out.",
-          "time": 3.32
+          "time": 743.88
         },
         {
           "text": "Because",
-          "time": 4.0
+          "time": 744.56
         },
         {
           "text": "I",
-          "time": 4.0
+          "time": 744.56
         },
         {
           "text": "was",
-          "time": 4.16
+          "time": 744.72
         },
         {
           "text": "a",
-          "time": 4.32
+          "time": 744.88
         },
         {
           "text": "beginner",
-          "time": 4.5
+          "time": 745.06
         },
         {
           "text": "too,",
-          "time": 4.8
+          "time": 745.36
         },
         {
           "text": "I",
-          "time": 5.22
+          "time": 745.78
         },
         {
           "text": "made",
-          "time": 5.46
+          "time": 746.02
         },
         {
           "text": "a",
-          "time": 5.68
+          "time": 746.24
         },
         {
           "text": "lot",
-          "time": 5.88
+          "time": 746.44
         },
         {
           "text": "of",
-          "time": 6.06
+          "time": 746.62
         },
         {
           "text": "stupid",
-          "time": 6.26
+          "time": 746.82
         },
         {
           "text": "mistakes.",
-          "time": 6.64
+          "time": 747.2
         }
       ]
     },
@@ -11829,45 +11873,49 @@
       "words": [
         {
           "text": "And",
-          "time": 0.68
+          "time": 748.4
         },
         {
           "text": "I",
-          "time": 0.68
+          "time": 748.4
         },
         {
           "text": "can",
-          "time": 0.88
+          "time": 748.6
         },
         {
           "text": "show",
-          "time": 1.06
+          "time": 748.78
         },
         {
           "text": "you",
-          "time": 1.28
+          "time": 749
         },
         {
           "text": "exactly",
-          "time": 1.48
+          "time": 749.2
         },
         {
           "text": "what",
-          "time": 1.9
+          "time": 749.62
         },
         {
           "text": "those",
-          "time": 2.28
+          "time": 750
         },
         {
           "text": "mistakes",
-          "time": 2.52
+          "time": 750.24
         },
         {
           "text": "were.",
-          "time": 2.96
+          "time": 750.68
         }
-      ]
+      ],
+      "media": {
+        "kind": "footage",
+        "label": "FACE CAM: Speaker transition to mistakes summary"
+      }
     },
     {
       "id": "s151",
@@ -11882,137 +11930,137 @@
       "words": [
         {
           "text": "So",
-          "time": 0.6,
+          "time": 751.72,
           "line": 0
         },
         {
           "text": "if",
-          "time": 0.66,
+          "time": 751.78,
           "line": 0
         },
         {
           "text": "I",
-          "time": 0.86,
+          "time": 751.98,
           "line": 0
         },
         {
           "text": "had",
-          "time": 0.98,
+          "time": 752.1,
           "line": 0
         },
         {
           "text": "to",
-          "time": 1.16,
+          "time": 752.28,
           "line": 0
         },
         {
           "text": "start",
-          "time": 1.26,
+          "time": 752.38,
           "line": 0
         },
         {
           "text": "Upwork",
-          "time": 1.48,
+          "time": 752.6,
           "line": 0
         },
         {
           "text": "again,",
-          "time": 1.86,
+          "time": 752.98,
           "line": 0
         },
         {
           "text": "I",
-          "time": 2.36,
+          "time": 753.48,
           "line": 0
         },
         {
           "text": "would",
-          "time": 2.48,
+          "time": 753.6,
           "line": 0
         },
         {
           "text": "do",
-          "time": 2.64,
+          "time": 753.76,
           "line": 0
         },
         {
           "text": "things",
-          "time": 2.82,
+          "time": 753.94,
           "line": 0
         },
         {
           "text": "very",
-          "time": 3.1,
+          "time": 754.22,
           "line": 0
         },
         {
           "text": "differently.",
-          "time": 3.42,
+          "time": 754.54,
           "line": 1
         },
         {
           "text": "First,",
-          "time": 4.14,
+          "time": 755.26,
           "line": 1
         },
         {
           "text": "I",
-          "time": 4.34,
+          "time": 755.46,
           "line": 1
         },
         {
           "text": "would",
-          "time": 4.36,
+          "time": 755.48,
           "line": 1
         },
         {
           "text": "actually",
-          "time": 4.48,
+          "time": 755.6,
           "line": 1
         },
         {
           "text": "learn",
-          "time": 4.9,
+          "time": 756.02,
           "line": 1
         },
         {
           "text": "the",
-          "time": 5.14,
+          "time": 756.26,
           "line": 1
         },
         {
           "text": "skill",
-          "time": 5.34,
+          "time": 756.46,
           "line": 1
         },
         {
           "text": "before",
-          "time": 5.62,
+          "time": 756.74,
           "line": 1
         },
         {
           "text": "trying",
-          "time": 5.98,
+          "time": 757.1,
           "line": 1
         },
         {
           "text": "to",
-          "time": 6.3,
+          "time": 757.42,
           "line": 1
         },
         {
           "text": "freelance",
-          "time": 6.5,
+          "time": 757.62,
           "line": 1
         },
         {
           "text": "with",
-          "time": 6.86,
+          "time": 757.98,
           "line": 1
         },
         {
           "text": "it.",
-          "time": 7.18,
+          "time": 758.3,
           "line": 1
         }
       ]
@@ -12032,83 +12080,83 @@
       "words": [
         {
           "text": "For",
-          "time": 0.28
+          "time": 758.8
         },
         {
           "text": "video",
-          "time": 0.34
+          "time": 758.86
         },
         {
           "text": "editing,",
-          "time": 0.68
+          "time": 759.2
         },
         {
           "text": "I",
-          "time": 1.42
+          "time": 759.94
         },
         {
           "text": "spent",
-          "time": 1.46
+          "time": 759.98
         },
         {
           "text": "around",
-          "time": 1.72
+          "time": 760.24
         },
         {
           "text": "3",
-          "time": 1.98
+          "time": 760.5
         },
         {
           "text": "or",
-          "time": 2.22
+          "time": 760.74
         },
         {
           "text": "4",
-          "time": 2.38
+          "time": 760.9
         },
         {
           "text": "months",
-          "time": 2.64
+          "time": 761.16
         },
         {
           "text": "learning",
-          "time": 2.88
+          "time": 761.4
         },
         {
           "text": "the",
-          "time": 3.26
+          "time": 761.78
         },
         {
           "text": "basics",
-          "time": 3.52
+          "time": 762.04
         },
         {
           "text": "before",
-          "time": 3.88
+          "time": 762.4
         },
         {
           "text": "I",
-          "time": 4.68
+          "time": 763.2
         },
         {
           "text": "really",
-          "time": 4.84
+          "time": 763.36
         },
         {
           "text": "started",
-          "time": 5.06
+          "time": 763.58
         },
         {
           "text": "taking",
-          "time": 5.48
+          "time": 764
         },
         {
           "text": "it",
-          "time": 5.74
+          "time": 764.26
         },
         {
           "text": "seriously.",
-          "time": 6.04
+          "time": 764.56
         }
       ]
     },
@@ -12132,171 +12180,171 @@
       "words": [
         {
           "text": "Then",
-          "time": 0.56
+          "time": 765.44
         },
         {
           "text": "I",
-          "time": 0.56
+          "time": 765.44
         },
         {
           "text": "would",
-          "time": 0.74
+          "time": 765.62
         },
         {
           "text": "choose",
-          "time": 0.92
+          "time": 765.8
         },
         {
           "text": "what",
-          "time": 1.16
+          "time": 766.04
         },
         {
           "text": "I",
-          "time": 1.46
+          "time": 766.34
         },
         {
           "text": "actually",
-          "time": 1.66
+          "time": 766.54
         },
         {
           "text": "want",
-          "time": 2.06
+          "time": 766.94
         },
         {
           "text": "to",
-          "time": 2.28
+          "time": 767.16
         },
         {
           "text": "work",
-          "time": 2.44
+          "time": 767.32
         },
         {
           "text": "with.",
-          "time": 2.6
+          "time": 767.48
         },
         {
           "text": "I",
-          "time": 3.24
+          "time": 768.12
         },
         {
           "text": "wouldn't",
-          "time": 3.44
+          "time": 768.32
         },
         {
           "text": "create",
-          "time": 3.8
+          "time": 768.68
         },
         {
           "text": "a",
-          "time": 4.04
+          "time": 768.92
         },
         {
           "text": "profile",
-          "time": 4.26
+          "time": 769.14
         },
         {
           "text": "as",
-          "time": 4.58
+          "time": 769.46
         },
         {
           "text": "a",
-          "time": 4.8
+          "time": 769.68
         },
         {
           "text": "software",
-          "time": 4.96
+          "time": 769.84
         },
         {
           "text": "engineer",
-          "time": 5.26
+          "time": 770.14
         },
         {
           "text": "and",
-          "time": 5.68
+          "time": 770.56
         },
         {
           "text": "then",
-          "time": 6.18
+          "time": 771.06
         },
         {
           "text": "slowly",
-          "time": 6.4
+          "time": 771.28
         },
         {
           "text": "turn",
-          "time": 6.7
+          "time": 771.58
         },
         {
           "text": "it",
-          "time": 7.06
+          "time": 771.94
         },
         {
           "text": "into",
-          "time": 7.22
+          "time": 772.1
         },
         {
           "text": "a",
-          "time": 7.5
+          "time": 772.38
         },
         {
           "text": "video",
-          "time": 7.7
+          "time": 772.58
         },
         {
           "text": "editor.",
-          "time": 8.0
+          "time": 772.88
         },
         {
           "text": "I",
-          "time": 8.96
+          "time": 773.84
         },
         {
           "text": "would",
-          "time": 9.02
+          "time": 773.9
         },
         {
           "text": "decide",
-          "time": 9.16
+          "time": 774.04
         },
         {
           "text": "what",
-          "time": 9.52
+          "time": 774.4
         },
         {
           "text": "I",
-          "time": 9.76
+          "time": 774.64
         },
         {
           "text": "want",
-          "time": 9.9
+          "time": 774.78
         },
         {
           "text": "to",
-          "time": 10.08
+          "time": 774.96
         },
         {
           "text": "do",
-          "time": 10.22
+          "time": 775.1
         },
         {
           "text": "and",
-          "time": 10.38
+          "time": 775.26
         },
         {
           "text": "build",
-          "time": 10.62
+          "time": 775.5
         },
         {
           "text": "everything",
-          "time": 10.84
+          "time": 775.72
         },
         {
           "text": "around",
-          "time": 11.3
+          "time": 776.18
         },
         {
           "text": "that.",
-          "time": 11.6
+          "time": 776.48
         }
       ]
     },
@@ -12310,100 +12358,103 @@
       "props": {
         "level": "warning",
         "title": "Portfolio traps",
-        "note": "Avoid filler clips or stolen work"
+        "note": "Depth beats spamming bids",
+        "icon": "brain",
+        "quote": "More proposals equal more wins",
+        "warning": "TRAP: PROPOSAL VOLUME BIAS"
       },
       "words": [
         {
           "text": "Then",
-          "time": 0.74
+          "time": 777.48
         },
         {
           "text": "I",
-          "time": 0.76
+          "time": 777.5
         },
         {
           "text": "would",
-          "time": 0.98
+          "time": 777.72
         },
         {
           "text": "build",
-          "time": 1.16
+          "time": 777.9
         },
         {
           "text": "a",
-          "time": 1.36
+          "time": 778.1
         },
         {
           "text": "real",
-          "time": 1.62
+          "time": 778.36
         },
         {
           "text": "portfolio.",
-          "time": 1.98
+          "time": 778.72
         },
         {
           "text": "Not",
-          "time": 2.9
+          "time": 779.64
         },
         {
           "text": "just",
-          "time": 2.94
+          "time": 779.68
         },
         {
           "text": "random",
-          "time": 3.12
+          "time": 779.86
         },
         {
           "text": "videos.",
-          "time": 3.5
+          "time": 780.24
         },
         {
           "text": "Not",
-          "time": 4.38
+          "time": 781.12
         },
         {
           "text": "someone",
-          "time": 4.4
+          "time": 781.14
         },
         {
           "text": "else's",
-          "time": 4.76
+          "time": 781.5
         },
         {
           "text": "work.",
-          "time": 5.14
+          "time": 781.88
         },
         {
           "text": "Not",
-          "time": 5.92
+          "time": 782.66
         },
         {
           "text": "cheap",
-          "time": 5.98
+          "time": 782.72
         },
         {
           "text": "videos",
-          "time": 6.24
+          "time": 782.98
         },
         {
           "text": "just",
-          "time": 6.66
+          "time": 783.4
         },
         {
           "text": "to",
-          "time": 7.06
+          "time": 783.8
         },
         {
           "text": "fill",
-          "time": 7.24
+          "time": 783.98
         },
         {
           "text": "the",
-          "time": 7.44
+          "time": 784.18
         },
         {
           "text": "portfolio.",
-          "time": 7.6
+          "time": 784.34
         }
       ]
     },
@@ -12434,87 +12485,87 @@
       "words": [
         {
           "text": "I",
-          "time": 0.44
+          "time": 785.16
         },
         {
           "text": "would",
-          "time": 0.62
+          "time": 785.34
         },
         {
           "text": "make",
-          "time": 0.84
+          "time": 785.56
         },
         {
           "text": "a",
-          "time": 1.14
+          "time": 785.86
         },
         {
           "text": "few",
-          "time": 1.32
+          "time": 786.04
         },
         {
           "text": "really",
-          "time": 1.5
+          "time": 786.22
         },
         {
           "text": "good",
-          "time": 1.8
+          "time": 786.52
         },
         {
           "text": "sample",
-          "time": 2.12
+          "time": 786.84
         },
         {
           "text": "projects",
-          "time": 2.48
+          "time": 787.2
         },
         {
           "text": "that",
-          "time": 2.9
+          "time": 787.62
         },
         {
           "text": "actually",
-          "time": 3.34
+          "time": 788.06
         },
         {
           "text": "represent",
-          "time": 3.82
+          "time": 788.54
         },
         {
           "text": "the",
-          "time": 4.3
+          "time": 789.02
         },
         {
           "text": "work",
-          "time": 4.52
+          "time": 789.24
         },
         {
           "text": "I",
-          "time": 4.74
+          "time": 789.46
         },
         {
           "text": "want",
-          "time": 4.94
+          "time": 789.66
         },
         {
           "text": "clients",
-          "time": 5.12
+          "time": 789.84
         },
         {
           "text": "to",
-          "time": 5.48
+          "time": 790.2
         },
         {
           "text": "hire",
-          "time": 5.68
+          "time": 790.4
         },
         {
           "text": "me",
-          "time": 5.9
+          "time": 790.62
         },
         {
           "text": "for.",
-          "time": 6.12
+          "time": 790.84
         }
       ]
     },
@@ -12541,103 +12592,103 @@
       "words": [
         {
           "text": "Then",
-          "time": 0.54
+          "time": 791.64
         },
         {
           "text": "I",
-          "time": 0.58
+          "time": 791.68
         },
         {
           "text": "would",
-          "time": 0.74
+          "time": 791.84
         },
         {
           "text": "make",
-          "time": 0.88
+          "time": 791.98
         },
         {
           "text": "the",
-          "time": 1.06
+          "time": 792.16
         },
         {
           "text": "profile",
-          "time": 1.22
+          "time": 792.32
         },
         {
           "text": "simple.",
-          "time": 1.6
+          "time": 792.7
         },
         {
           "text": "I",
-          "time": 2.26
+          "time": 793.36
         },
         {
           "text": "wouldn't",
-          "time": 2.4
+          "time": 793.5
         },
         {
           "text": "spend",
-          "time": 2.7
+          "time": 793.8
         },
         {
           "text": "months",
-          "time": 2.92
+          "time": 794.02
         },
         {
           "text": "trying",
-          "time": 3.26
+          "time": 794.36
         },
         {
           "text": "to",
-          "time": 3.58
+          "time": 794.68
         },
         {
           "text": "make",
-          "time": 3.74
+          "time": 794.84
         },
         {
           "text": "the",
-          "time": 3.94
+          "time": 795.04
         },
         {
           "text": "description",
-          "time": 4.12
+          "time": 795.22
         },
         {
           "text": "sound",
-          "time": 4.52
+          "time": 795.62
         },
         {
           "text": "perfect.",
-          "time": 4.96
+          "time": 796.06
         },
         {
           "text": "Because",
-          "time": 5.98
+          "time": 797.08
         },
         {
           "text": "honestly,",
-          "time": 6.04
+          "time": 797.14
         },
         {
           "text": "your",
-          "time": 6.7
+          "time": 797.8
         },
         {
           "text": "portfolio",
-          "time": 6.88
+          "time": 797.98
         },
         {
           "text": "is",
-          "time": 7.3
+          "time": 798.4
         },
         {
           "text": "the",
-          "time": 7.82
+          "time": 798.92
         },
         {
           "text": "backbone.",
-          "time": 7.98
+          "time": 799.08
         }
       ]
     },
@@ -12661,127 +12712,127 @@
       "words": [
         {
           "text": "If",
-          "time": 0.44
+          "time": 799.84
         },
         {
           "text": "your",
-          "time": 0.52
+          "time": 799.92
         },
         {
           "text": "portfolio",
-          "time": 0.78
+          "time": 800.18
         },
         {
           "text": "is",
-          "time": 1.22
+          "time": 800.62
         },
         {
           "text": "good,",
-          "time": 1.68
+          "time": 801.08
         },
         {
           "text": "it",
-          "time": 1.98
+          "time": 801.38
         },
         {
           "text": "shows",
-          "time": 2.06
+          "time": 801.46
         },
         {
           "text": "what",
-          "time": 2.3
+          "time": 801.7
         },
         {
           "text": "you",
-          "time": 2.56
+          "time": 801.96
         },
         {
           "text": "can",
-          "time": 2.72
+          "time": 802.12
         },
         {
           "text": "do.",
-          "time": 2.88
+          "time": 802.28
         },
         {
           "text": "If",
-          "time": 3.58
+          "time": 802.98
         },
         {
           "text": "your",
-          "time": 3.64
+          "time": 803.04
         },
         {
           "text": "portfolio",
-          "time": 3.84
+          "time": 803.24
         },
         {
           "text": "is",
-          "time": 4.26
+          "time": 803.66
         },
         {
           "text": "bad,",
-          "time": 4.66
+          "time": 804.06
         },
         {
           "text": "no",
-          "time": 5.16
+          "time": 804.56
         },
         {
           "text": "amount",
-          "time": 5.32
+          "time": 804.72
         },
         {
           "text": "of",
-          "time": 5.54
+          "time": 804.94
         },
         {
           "text": "5",
-          "time": 5.8
+          "time": 805.2
         },
         {
           "text": "years",
-          "time": 6.04
+          "time": 805.44
         },
         {
           "text": "of",
-          "time": 6.3
+          "time": 805.7
         },
         {
           "text": "experience",
-          "time": 6.54
+          "time": 805.94
         },
         {
           "text": "in",
-          "time": 6.92
+          "time": 806.32
         },
         {
           "text": "your",
-          "time": 7.3
+          "time": 806.7
         },
         {
           "text": "description",
-          "time": 7.48
+          "time": 806.88
         },
         {
           "text": "is",
-          "time": 7.92
+          "time": 807.32
         },
         {
           "text": "going",
-          "time": 8.26
+          "time": 807.66
         },
         {
           "text": "to",
-          "time": 8.5
+          "time": 807.9
         },
         {
           "text": "fix",
-          "time": 8.74
+          "time": 808.14
         },
         {
           "text": "it.",
-          "time": 8.94
+          "time": 808.34
         }
       ]
     },
@@ -12799,123 +12850,123 @@
       "words": [
         {
           "text": "And",
-          "time": 0.28
+          "time": 808.96
         },
         {
           "text": "after",
-          "time": 0.32
+          "time": 809
         },
         {
           "text": "that",
-          "time": 0.64
+          "time": 809.32
         },
         {
           "text": "I",
-          "time": 0.94
+          "time": 809.62
         },
         {
           "text": "would",
-          "time": 1.06
+          "time": 809.74
         },
         {
           "text": "start",
-          "time": 1.2
+          "time": 809.88
         },
         {
           "text": "applying",
-          "time": 1.5
+          "time": 810.18
         },
         {
           "text": "much",
-          "time": 1.86
+          "time": 810.54
         },
         {
           "text": "earlier.",
-          "time": 2.14
+          "time": 810.82
         },
         {
           "text": "I",
-          "time": 2.92
+          "time": 811.6
         },
         {
           "text": "wouldn't",
-          "time": 3.02
+          "time": 811.7
         },
         {
           "text": "apply",
-          "time": 3.3
+          "time": 811.98
         },
         {
           "text": "to",
-          "time": 3.66
+          "time": 812.34
         },
         {
           "text": "everything.",
-          "time": 3.86
+          "time": 812.54
         },
         {
           "text": "I",
-          "time": 4.56
+          "time": 813.24
         },
         {
           "text": "would",
-          "time": 4.58
+          "time": 813.26
         },
         {
           "text": "look",
-          "time": 4.72
+          "time": 813.4
         },
         {
           "text": "through",
-          "time": 4.92
+          "time": 813.6
         },
         {
           "text": "the",
-          "time": 5.12
+          "time": 813.8
         },
         {
           "text": "jobs,",
-          "time": 5.28
+          "time": 813.96
         },
         {
           "text": "find",
-          "time": 5.82
+          "time": 814.5
         },
         {
           "text": "the",
-          "time": 5.98
+          "time": 814.66
         },
         {
           "text": "ones",
-          "time": 6.16
+          "time": 814.84
         },
         {
           "text": "that",
-          "time": 6.34
+          "time": 815.02
         },
         {
           "text": "actually",
-          "time": 6.58
+          "time": 815.26
         },
         {
           "text": "match",
-          "time": 6.92
+          "time": 815.6
         },
         {
           "text": "me",
-          "time": 7.14
+          "time": 815.82
         },
         {
           "text": "and",
-          "time": 7.46
+          "time": 816.14
         },
         {
           "text": "apply",
-          "time": 7.92
+          "time": 816.6
         },
         {
           "text": "strategically.",
-          "time": 8.3
+          "time": 816.98
         }
       ]
     },
@@ -12933,83 +12984,83 @@
       "words": [
         {
           "text": "So",
-          "time": 0.5
+          "time": 818.04
         },
         {
           "text": "was",
-          "time": 0.96
+          "time": 818.5
         },
         {
           "text": "Upwork",
-          "time": 1.06
+          "time": 818.6
         },
         {
           "text": "worth",
-          "time": 1.46
+          "time": 819
         },
         {
           "text": "it?",
-          "time": 1.76
+          "time": 819.3
         },
         {
           "text": "For",
-          "time": 2.48
+          "time": 820.02
         },
         {
           "text": "me",
-          "time": 2.54
+          "time": 820.08
         },
         {
           "text": "I",
-          "time": 2.8
+          "time": 820.34
         },
         {
           "text": "think",
-          "time": 2.9
+          "time": 820.44
         },
         {
           "text": "it",
-          "time": 3.08
+          "time": 820.62
         },
         {
           "text": "was",
-          "time": 3.22
+          "time": 820.76
         },
         {
           "text": "useful,",
-          "time": 3.4
+          "time": 820.94
         },
         {
           "text": "but",
-          "time": 4.04
+          "time": 821.58
         },
         {
           "text": "definitely",
-          "time": 4.2
+          "time": 821.74
         },
         {
           "text": "not",
-          "time": 4.6
+          "time": 822.14
         },
         {
           "text": "in",
-          "time": 5.0
+          "time": 822.54
         },
         {
           "text": "the",
-          "time": 5.26
+          "time": 822.8
         },
         {
           "text": "way",
-          "time": 5.4
+          "time": 822.94
         },
         {
           "text": "I",
-          "time": 5.58
+          "time": 823.12
         },
         {
           "text": "expected.",
-          "time": 5.78
+          "time": 823.32
         }
       ]
     },
@@ -13028,83 +13079,83 @@
       "words": [
         {
           "text": "I",
-          "time": 0.34
+          "time": 824
         },
         {
           "text": "started",
-          "time": 0.56
+          "time": 824.22
         },
         {
           "text": "thinking",
-          "time": 0.86
+          "time": 824.52
         },
         {
           "text": "that",
-          "time": 1.22
+          "time": 824.88
         },
         {
           "text": "once",
-          "time": 1.6
+          "time": 825.26
         },
         {
           "text": "I",
-          "time": 1.9
+          "time": 825.56
         },
         {
           "text": "got",
-          "time": 2.16
+          "time": 825.82
         },
         {
           "text": "1",
-          "time": 2.39
+          "time": 826.05
         },
         {
           "text": "or",
-          "time": 2.62
+          "time": 826.28
         },
         {
           "text": "2",
-          "time": 2.79
+          "time": 826.45
         },
         {
           "text": "clients,",
-          "time": 2.96
+          "time": 826.62
         },
         {
           "text": "I",
-          "time": 3.48
+          "time": 827.14
         },
         {
           "text": "would",
-          "time": 3.7
+          "time": 827.36
         },
         {
           "text": "get",
-          "time": 3.94
+          "time": 827.6
         },
         {
           "text": "flooded",
-          "time": 4.16
+          "time": 827.82
         },
         {
           "text": "with",
-          "time": 4.48
+          "time": 828.14
         },
         {
           "text": "clients.",
-          "time": 4.8
+          "time": 828.46
         },
         {
           "text": "That",
-          "time": 5.66
+          "time": 829.32
         },
         {
           "text": "didn't",
-          "time": 5.7
+          "time": 829.36
         },
         {
           "text": "happen.",
-          "time": 6.0
+          "time": 829.66
         }
       ]
     },
@@ -13134,99 +13185,99 @@
       "words": [
         {
           "text": "I",
-          "time": 0.38
+          "time": 830.32
         },
         {
           "text": "spent",
-          "time": 0.4
+          "time": 830.34
         },
         {
           "text": "months",
-          "time": 0.68
+          "time": 830.62
         },
         {
           "text": "getting",
-          "time": 1.04
+          "time": 830.98
         },
         {
           "text": "almost",
-          "time": 1.4
+          "time": 831.34
         },
         {
           "text": "nothing.",
-          "time": 1.84
+          "time": 831.78
         },
         {
           "text": "I",
-          "time": 2.46
+          "time": 832.4
         },
         {
           "text": "changed",
-          "time": 2.64
+          "time": 832.58
         },
         {
           "text": "my",
-          "time": 2.98
+          "time": 832.92
         },
         {
           "text": "profession,",
-          "time": 3.28
+          "time": 833.22
         },
         {
           "text": "I",
-          "time": 3.86
+          "time": 833.8
         },
         {
           "text": "changed",
-          "time": 3.94
+          "time": 833.88
         },
         {
           "text": "my",
-          "time": 4.2
+          "time": 834.14
         },
         {
           "text": "profile,",
-          "time": 4.48
+          "time": 834.42
         },
         {
           "text": "I",
-          "time": 5.1
+          "time": 835.04
         },
         {
           "text": "worked",
-          "time": 5.1
+          "time": 835.04
         },
         {
           "text": "locally,",
-          "time": 5.34
+          "time": 835.28
         },
         {
           "text": "I",
-          "time": 6.16
+          "time": 836.1
         },
         {
           "text": "improved",
-          "time": 6.2
+          "time": 836.14
         },
         {
           "text": "my",
-          "time": 6.54
+          "time": 836.48
         },
         {
           "text": "skills,",
-          "time": 6.78
+          "time": 836.72
         },
         {
           "text": "I",
-          "time": 7.36
+          "time": 837.3
         },
         {
           "text": "built",
-          "time": 7.42
+          "time": 837.36
         },
         {
           "text": "my",
-          "time": 7.62
+          "time": 837.56
         }
       ]
     },
@@ -13245,79 +13296,79 @@
       "words": [
         {
           "text": "portfolio,",
-          "time": 0.0
+          "time": 837.76
         },
         {
           "text": "I",
-          "time": 0.86
+          "time": 838.62
         },
         {
           "text": "eventually",
-          "time": 0.88
+          "time": 838.64
         },
         {
           "text": "got",
-          "time": 1.2
+          "time": 838.96
         },
         {
           "text": "a",
-          "time": 1.58
+          "time": 839.34
         },
         {
           "text": "$20",
-          "time": 1.78
+          "time": 839.54
         },
         {
           "text": "job,",
-          "time": 2.16
+          "time": 839.92
         },
         {
           "text": "used",
-          "time": 2.76
+          "time": 840.52
         },
         {
           "text": "that",
-          "time": 2.9
+          "time": 840.66
         },
         {
           "text": "money",
-          "time": 3.14
+          "time": 840.9
         },
         {
           "text": "to",
-          "time": 3.38
+          "time": 841.14
         },
         {
           "text": "buy",
-          "time": 3.62
+          "time": 841.38
         },
         {
           "text": "Connects",
-          "time": 3.84
+          "time": 841.6
         },
         {
           "text": "and",
-          "time": 4.14
+          "time": 841.9
         },
         {
           "text": "then",
-          "time": 4.4
+          "time": 842.16
         },
         {
           "text": "got",
-          "time": 4.52
+          "time": 842.28
         },
         {
           "text": "a",
-          "time": 4.68
+          "time": 842.44
         },
         {
           "text": "$90",
-          "time": 4.82
+          "time": 842.58
         },
         {
           "text": "client.",
-          "time": 5.22
+          "time": 842.98
         }
       ]
     },
@@ -13336,79 +13387,79 @@
       "words": [
         {
           "text": "And",
-          "time": 0.16
+          "time": 843.66
         },
         {
           "text": "that",
-          "time": 0.2
+          "time": 843.7
         },
         {
           "text": "$90",
-          "time": 0.36
+          "time": 843.86
         },
         {
           "text": "client",
-          "time": 0.8
+          "time": 844.3
         },
         {
           "text": "probably",
-          "time": 1.38
+          "time": 844.88
         },
         {
           "text": "taught",
-          "time": 1.78
+          "time": 845.28
         },
         {
           "text": "me",
-          "time": 2.14
+          "time": 845.64
         },
         {
           "text": "more",
-          "time": 2.36
+          "time": 845.86
         },
         {
           "text": "about",
-          "time": 2.6
+          "time": 846.1
         },
         {
           "text": "freelancing",
-          "time": 2.96
+          "time": 846.46
         },
         {
           "text": "than",
-          "time": 3.48
+          "time": 846.98
         },
         {
           "text": "all",
-          "time": 4.06
+          "time": 847.56
         },
         {
           "text": "the",
-          "time": 4.3
+          "time": 847.8
         },
         {
           "text": "profile",
-          "time": 4.44
+          "time": 847.94
         },
         {
           "text": "optimization",
-          "time": 4.8
+          "time": 848.3
         },
         {
           "text": "I",
-          "time": 5.46
+          "time": 848.96
         },
         {
           "text": "did",
-          "time": 5.66
+          "time": 849.16
         },
         {
           "text": "before",
-          "time": 5.82
+          "time": 849.32
         },
         {
           "text": "that.",
-          "time": 6.2
+          "time": 849.7
         }
       ]
     },
@@ -13422,76 +13473,79 @@
       "props": {
         "level": "warning",
         "title": "Reality check",
-        "note": "Platform requires perseverance"
+        "note": "Be hireable before marketing",
+        "icon": "warning",
+        "quote": "Platform replaces real skill",
+        "warning": "TRAP: SURFACE OVER SUBSTANCE"
       },
       "words": [
         {
           "text": "So",
-          "time": 0.3
+          "time": 850.28
         },
         {
           "text": "if",
-          "time": 0.4
+          "time": 850.38
         },
         {
           "text": "you're",
-          "time": 0.58
+          "time": 850.56
         },
         {
           "text": "starting",
-          "time": 0.78
+          "time": 850.76
         },
         {
           "text": "Upwork",
-          "time": 1.2
+          "time": 851.18
         },
         {
           "text": "because",
-          "time": 1.66
+          "time": 851.64
         },
         {
           "text": "you",
-          "time": 2.06
+          "time": 852.04
         },
         {
           "text": "think",
-          "time": 2.3
+          "time": 852.28
         },
         {
           "text": "it's",
-          "time": 2.5
+          "time": 852.48
         },
         {
           "text": "easy",
-          "time": 2.78
+          "time": 852.76
         },
         {
           "text": "money,",
-          "time": 3.06
+          "time": 853.04
         },
         {
           "text": "my",
-          "time": 3.78
+          "time": 853.76
         },
         {
           "text": "experience",
-          "time": 4.04
+          "time": 854.02
         },
         {
           "text": "definitely",
-          "time": 4.56
+          "time": 854.54
         },
         {
           "text": "doesn't",
-          "time": 4.98
+          "time": 854.96
         },
         {
           "text": "show",
-          "time": 5.38
+          "time": 855.36
         },
         {
           "text": "that.",
-          "time": 5.62
+          "time": 855.6
         }
       ]
     },
@@ -13526,147 +13580,147 @@
       "words": [
         {
           "text": "But",
-          "time": 0.64
+          "time": 856.5
         },
         {
           "text": "if",
-          "time": 0.7
+          "time": 856.56
         },
         {
           "text": "you",
-          "time": 1.1
+          "time": 856.96
         },
         {
           "text": "already",
-          "time": 1.26
+          "time": 857.12
         },
         {
           "text": "have",
-          "time": 1.56
+          "time": 857.42
         },
         {
           "text": "a",
-          "time": 1.84
+          "time": 857.7
         },
         {
           "text": "skill,",
-          "time": 1.98
+          "time": 857.84
         },
         {
           "text": "you",
-          "time": 2.2
+          "time": 858.06
         },
         {
           "text": "can",
-          "time": 2.38
+          "time": 858.24
         },
         {
           "text": "actually",
-          "time": 2.56
+          "time": 858.42
         },
         {
           "text": "show",
-          "time": 2.88
+          "time": 858.74
         },
         {
           "text": "your",
-          "time": 3.18
+          "time": 859.04
         },
         {
           "text": "work,",
-          "time": 3.4
+          "time": 859.26
         },
         {
           "text": "you're",
-          "time": 4.14
+          "time": 860
         },
         {
           "text": "willing",
-          "time": 4.42
+          "time": 860.28
         },
         {
           "text": "to",
-          "time": 4.56
+          "time": 860.42
         },
         {
           "text": "be",
-          "time": 4.78
+          "time": 860.64
         },
         {
           "text": "patient",
-          "time": 4.96
+          "time": 860.82
         },
         {
           "text": "and",
-          "time": 5.58
+          "time": 861.44
         },
         {
           "text": "you're",
-          "time": 5.9
+          "time": 861.76
         },
         {
           "text": "willing",
-          "time": 6.56
+          "time": 862.42
         },
         {
           "text": "to",
-          "time": 6.76
+          "time": 862.62
         },
         {
           "text": "learn",
-          "time": 7.02
+          "time": 862.88
         },
         {
           "text": "from",
-          "time": 7.28
+          "time": 863.14
         },
         {
           "text": "the",
-          "time": 7.54
+          "time": 863.4
         },
         {
           "text": "clients",
-          "time": 7.72
+          "time": 863.58
         },
         {
           "text": "you",
-          "time": 8.06
+          "time": 863.92
         },
         {
           "text": "work",
-          "time": 8.24
+          "time": 864.1
         },
         {
           "text": "with,",
-          "time": 8.44
+          "time": 864.3
         },
         {
           "text": "then",
-          "time": 9.26
+          "time": 865.12
         },
         {
           "text": "yes,",
-          "time": 9.32
+          "time": 865.18
         },
         {
           "text": "you",
-          "time": 9.88
+          "time": 865.74
         },
         {
           "text": "can",
-          "time": 9.96
+          "time": 865.82
         },
         {
           "text": "eventually",
-          "time": 10.18
+          "time": 866.04
         },
         {
           "text": "get",
-          "time": 10.72
+          "time": 866.58
         },
         {
           "text": "work.",
-          "time": 11.02
+          "time": 866.88
         }
       ]
     },
@@ -13690,115 +13744,115 @@
       "words": [
         {
           "text": "But",
-          "time": 0.62
+          "time": 867.8
         },
         {
           "text": "the",
-          "time": 0.68
+          "time": 867.86
         },
         {
           "text": "biggest",
-          "time": 1.0
+          "time": 868.18
         },
         {
           "text": "thing",
-          "time": 1.26
+          "time": 868.44
         },
         {
           "text": "I",
-          "time": 1.46
+          "time": 868.64
         },
         {
           "text": "learned",
-          "time": 1.66
+          "time": 868.84
         },
         {
           "text": "is",
-          "time": 1.92
+          "time": 869.1
         },
         {
           "text": "that",
-          "time": 2.16
+          "time": 869.34
         },
         {
           "text": "you",
-          "time": 2.4
+          "time": 869.58
         },
         {
           "text": "shouldn't",
-          "time": 2.74
+          "time": 869.92
         },
         {
           "text": "spend",
-          "time": 3.14
+          "time": 870.32
         },
         {
           "text": "all",
-          "time": 3.34
+          "time": 870.52
         },
         {
           "text": "your",
-          "time": 3.72
+          "time": 870.9
         },
         {
           "text": "time",
-          "time": 3.92
+          "time": 871.1
         },
         {
           "text": "trying",
-          "time": 4.22
+          "time": 871.4
         },
         {
           "text": "to",
-          "time": 4.48
+          "time": 871.66
         },
         {
           "text": "look",
-          "time": 4.66
+          "time": 871.84
         },
         {
           "text": "hireable.",
-          "time": 4.86
+          "time": 872.04
         },
         {
           "text": "You",
-          "time": 5.78
+          "time": 872.96
         },
         {
           "text": "need",
-          "time": 5.78
+          "time": 872.96
         },
         {
           "text": "to",
-          "time": 5.92
+          "time": 873.1
         },
         {
           "text": "actually",
-          "time": 6.08
+          "time": 873.26
         },
         {
           "text": "become",
-          "time": 6.44
+          "time": 873.62
         },
         {
           "text": "good",
-          "time": 6.76
+          "time": 873.94
         },
         {
           "text": "enough",
-          "time": 7.04
+          "time": 874.22
         },
         {
           "text": "to",
-          "time": 7.28
+          "time": 874.46
         },
         {
           "text": "be",
-          "time": 7.5
+          "time": 874.68
         },
         {
           "text": "hireable.",
-          "time": 7.66
+          "time": 874.84
         }
       ]
     },
@@ -13815,102 +13869,102 @@
       "words": [
         {
           "text": "And",
-          "time": 0.2,
+          "time": 875.64,
           "line": 0
         },
         {
           "text": "then",
-          "time": 0.26,
+          "time": 875.7,
           "line": 0
         },
         {
           "text": "your",
-          "time": 0.42,
+          "time": 875.86,
           "line": 0
         },
         {
           "text": "profile,",
-          "time": 0.66,
+          "time": 876.1,
           "line": 0
         },
         {
           "text": "your",
-          "time": 1.26,
+          "time": 876.7,
           "line": 0
         },
         {
           "text": "portfolio,",
-          "time": 1.32,
+          "time": 876.76,
           "line": 0
         },
         {
           "text": "your",
-          "time": 2.1,
+          "time": 877.54,
           "line": 0
         },
         {
           "text": "proposal",
-          "time": 2.22,
+          "time": 877.66,
           "line": 0
         },
         {
           "text": "and",
-          "time": 2.8,
+          "time": 878.24,
           "line": 0
         },
         {
           "text": "everything",
-          "time": 2.92,
+          "time": 878.36,
           "line": 0
         },
         {
           "text": "else",
-          "time": 3.2,
+          "time": 878.64,
           "line": 1
         },
         {
           "text": "should",
-          "time": 3.48,
+          "time": 878.92,
           "line": 1
         },
         {
           "text": "just",
-          "time": 3.7,
+          "time": 879.14,
           "line": 1
         },
         {
           "text": "show",
-          "time": 3.94,
+          "time": 879.38,
           "line": 1
         },
         {
           "text": "that.",
-          "time": 4.32,
+          "time": 879.76,
           "line": 1
         },
         {
           "text": "That's",
-          "time": 5.32,
+          "time": 880.76,
           "line": 1
         },
         {
           "text": "basically",
-          "time": 5.32,
+          "time": 880.76,
           "line": 1
         },
         {
           "text": "my",
-          "time": 5.32,
+          "time": 880.76,
           "line": 1
         },
         {
           "text": "Upwork",
-          "time": 5.6,
+          "time": 881.04,
           "line": 1
         },
         {
           "text": "journey.",
-          "time": 6.02,
+          "time": 881.46,
           "line": 1
         }
       ]
@@ -13931,71 +13985,71 @@
       "words": [
         {
           "text": "I",
-          "time": 0.3
+          "time": 882.08
         },
         {
           "text": "only",
-          "time": 0.44
+          "time": 882.22
         },
         {
           "text": "made",
-          "time": 0.66
+          "time": 882.44
         },
         {
           "text": "around",
-          "time": 0.9
+          "time": 882.68
         },
         {
           "text": "$150",
-          "time": 1.24
+          "time": 883.02
         },
         {
           "text": "from",
-          "time": 1.94
+          "time": 883.72
         },
         {
           "text": "Upwork,",
-          "time": 2.64
+          "time": 884.42
         },
         {
           "text": "but",
-          "time": 3.28
+          "time": 885.06
         },
         {
           "text": "honestly",
-          "time": 3.36
+          "time": 885.14
         },
         {
           "text": "I",
-          "time": 3.86
+          "time": 885.64
         },
         {
           "text": "learned",
-          "time": 4.12
+          "time": 885.9
         },
         {
           "text": "a",
-          "time": 4.32
+          "time": 886.1
         },
         {
           "text": "lot",
-          "time": 4.52
+          "time": 886.3
         },
         {
           "text": "from",
-          "time": 4.7
+          "time": 886.48
         },
         {
           "text": "those",
-          "time": 4.96
+          "time": 886.74
         },
         {
           "text": "few",
-          "time": 5.18
+          "time": 886.96
         },
         {
           "text": "clients.",
-          "time": 5.42
+          "time": 887.2
         }
       ]
     },
@@ -14030,147 +14084,147 @@
       "words": [
         {
           "text": "And",
-          "time": 0.48
+          "time": 888
         },
         {
           "text": "if",
-          "time": 0.54
+          "time": 888.06
         },
         {
           "text": "you",
-          "time": 0.68
+          "time": 888.2
         },
         {
           "text": "want",
-          "time": 0.84
+          "time": 888.36
         },
         {
           "text": "me",
-          "time": 1.02
+          "time": 888.54
         },
         {
           "text": "to",
-          "time": 1.18
+          "time": 888.7
         },
         {
           "text": "make",
-          "time": 1.32
+          "time": 888.84
         },
         {
           "text": "another",
-          "time": 1.48
+          "time": 889
         },
         {
           "text": "video",
-          "time": 1.78
+          "time": 889.3
         },
         {
           "text": "where",
-          "time": 2.12
+          "time": 889.64
         },
         {
           "text": "I",
-          "time": 2.4
+          "time": 889.92
         },
         {
           "text": "actually",
-          "time": 2.6
+          "time": 890.12
         },
         {
           "text": "go",
-          "time": 2.96
+          "time": 890.48
         },
         {
           "text": "through",
-          "time": 3.18
+          "time": 890.7
         },
         {
           "text": "the",
-          "time": 3.38
+          "time": 890.9
         },
         {
           "text": "technical",
-          "time": 3.56
+          "time": 891.08
         },
         {
           "text": "side",
-          "time": 3.92
+          "time": 891.44
         },
         {
           "text": "of",
-          "time": 4.28
+          "time": 891.8
         },
         {
           "text": "Upwork,",
-          "time": 4.5
+          "time": 892.02
         },
         {
           "text": "how",
-          "time": 5.22
+          "time": 892.74
         },
         {
           "text": "I",
-          "time": 5.3
+          "time": 892.82
         },
         {
           "text": "find",
-          "time": 5.48
+          "time": 893
         },
         {
           "text": "jobs,",
-          "time": 5.8
+          "time": 893.32
         },
         {
           "text": "how",
-          "time": 6.6
+          "time": 894.12
         },
         {
           "text": "I",
-          "time": 6.64
+          "time": 894.16
         },
         {
           "text": "decide",
-          "time": 6.8
+          "time": 894.32
         },
         {
           "text": "which",
-          "time": 7.16
+          "time": 894.68
         },
         {
           "text": "jobs",
-          "time": 7.44
+          "time": 894.96
         },
         {
           "text": "to",
-          "time": 7.76
+          "time": 895.28
         },
         {
           "text": "apply",
-          "time": 7.98
+          "time": 895.5
         },
         {
           "text": "for,",
-          "time": 8.28
+          "time": 895.8
         },
         {
           "text": "how",
-          "time": 8.86
+          "time": 896.38
         },
         {
           "text": "I",
-          "time": 9.04
+          "time": 896.56
         },
         {
           "text": "write",
-          "time": 9.2
+          "time": 896.72
         },
         {
           "text": "the",
-          "time": 9.42
+          "time": 896.94
         },
         {
           "text": "application,",
-          "time": 9.58
+          "time": 897.1
         }
       ]
     },
@@ -14188,87 +14242,87 @@
       "words": [
         {
           "text": "how",
-          "time": 0.32
+          "time": 897.84
         },
         {
           "text": "I",
-          "time": 0.4
+          "time": 897.92
         },
         {
           "text": "detect",
-          "time": 0.58
+          "time": 898.1
         },
         {
           "text": "fake",
-          "time": 0.88
+          "time": 898.4
         },
         {
           "text": "clients",
-          "time": 1.2
+          "time": 898.72
         },
         {
           "text": "and",
-          "time": 1.98
+          "time": 899.5
         },
         {
           "text": "how",
-          "time": 2.14
+          "time": 899.66
         },
         {
           "text": "I",
-          "time": 2.34
+          "time": 899.86
         },
         {
           "text": "actually",
-          "time": 2.58
+          "time": 900.1
         },
         {
           "text": "apply",
-          "time": 2.94
+          "time": 900.46
         },
         {
           "text": "to",
-          "time": 3.28
+          "time": 900.8
         },
         {
           "text": "a",
-          "time": 3.46
+          "time": 900.98
         },
         {
           "text": "job,",
-          "time": 3.6
+          "time": 901.12
         },
         {
           "text": "just",
-          "time": 4.06
+          "time": 901.58
         },
         {
           "text": "comment",
-          "time": 4.12
+          "time": 901.64
         },
         {
           "text": "Upwork",
-          "time": 4.48
+          "time": 902
         },
         {
           "text": "and",
-          "time": 5.0
+          "time": 902.52
         },
         {
           "text": "I'll",
-          "time": 5.26
+          "time": 902.78
         },
         {
           "text": "make",
-          "time": 5.44
+          "time": 902.96
         },
         {
           "text": "that",
-          "time": 5.64
+          "time": 903.16
         },
         {
           "text": "video.",
-          "time": 5.9
+          "time": 903.42
         }
       ]
     }

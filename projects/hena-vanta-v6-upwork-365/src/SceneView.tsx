@@ -1,5 +1,5 @@
 import React from 'react';
-import {Img, staticFile, useCurrentFrame} from 'remotion';
+import {Img, interpolate, staticFile, useCurrentFrame} from 'remotion';
 import {
   Beam,
   Bubble,
@@ -180,8 +180,302 @@ export const SceneView: React.FC<{
             {p.suffix && <span> {p.suffix}</span>}
           </div>
         );
-      case 'A48':
-        return <Pill label={p.label ?? ''} tone="red" start={p.start ?? 0} />;
+      case 'A22': {
+        const title = p.title || 'Portfolio player';
+        const note = p.note || '';
+        const imgSrc = p.src || scene.media?.file;
+        const focusProg = interpolate(frame, [0, 20], [0, 1], {extrapolateRight: 'clamp'});
+        const blurAmount = interpolate(focusProg, [0, 1], [14, 0]);
+        const cardOpacity = interpolate(focusProg, [0, 1], [0.15, 1]);
+        const scrubProgress = interpolate(frame, [10, 45], [0, 100], {extrapolateRight: 'clamp'});
+
+        return (
+          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: 1000}}>
+            <div style={{
+              width: 960, height: 540, borderRadius: 24, overflow: 'hidden', background: '#fff',
+              boxShadow: SHADOW, border: `1px solid ${HV.line}`,
+              opacity: cardOpacity, filter: `blur(${blurAmount}px)`, position: 'relative'
+            }}>
+              {imgSrc ? (
+                <Img src={staticFile(imgSrc)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+              ) : (
+                <div style={{width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', background: HV.card}}>
+                  <span style={{fontFamily: FONT, fontSize: 36, color: HV.mute}}>{title}</span>
+                </div>
+              )}
+              <div style={{
+                position: 'absolute', bottom: 0, left: 0, right: 0, height: 64,
+                background: 'rgba(255, 255, 255, 0.92)', backdropFilter: 'blur(8px)',
+                borderTop: `1px solid ${HV.line}`, display: 'flex', alignItems: 'center', padding: '0 24px', gap: 16
+              }}>
+                <div style={{width: 12, height: 12, borderRadius: 6, background: HV.red}} />
+                <div style={{flex: 1, height: 6, borderRadius: 3, background: HV.grey, position: 'relative'}}>
+                  <div style={{width: `${scrubProgress}%`, height: '100%', borderRadius: 3, background: HV.blue}} />
+                  <div style={{
+                    position: 'absolute', left: `${scrubProgress}%`, top: '50%', transform: 'translate(-50%, -50%)',
+                    width: 16, height: 16, borderRadius: 8, background: '#fff', border: `2px solid ${HV.blue}`
+                  }} />
+                </div>
+                <span style={{fontFamily: FONT, fontSize: 16, fontWeight: 600, color: HV.ink}}>
+                  {Math.floor(scrubProgress)}%
+                </span>
+              </div>
+            </div>
+            {note && (
+              <div style={{marginTop: 16, fontFamily: FONT, fontSize: 22, color: HV.mute, fontStyle: 'italic'}}>
+                *{note}
+              </div>
+            )}
+          </div>
+        );
+      }
+      case 'A27': {
+        const title = p.title || 'Definition';
+        const note = p.note || '';
+        const imgSrc = p.src || scene.media?.file;
+        return (
+          <Window title={title} width={1160} height={660} start={0}>
+            <div style={{display: 'flex', flexDirection: 'column', height: '100%', padding: '24px 36px', boxSizing: 'border-box', justifyContent: 'space-between', alignItems: 'center'}}>
+              {imgSrc && (
+                <div style={{height: 280, width: '100%', borderRadius: 16, overflow: 'hidden', border: `1px solid ${HV.line}`}}>
+                  <Img src={staticFile(imgSrc)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+                </div>
+              )}
+              <div style={{fontFamily: FONT, fontSize: 32, fontStyle: 'italic', color: HV.ink, lineHeight: 1.25, textAlign: 'center', maxWidth: 960}}>
+                <WordSync words={relWords} mode="stack" size={32} outAt={durInFrames - 8} />
+              </div>
+              {note && (
+                <div style={{fontFamily: FONT, fontSize: 18, color: HV.mute, fontStyle: 'italic', textAlign: 'center'}}>
+                  *{note}
+                </div>
+              )}
+            </div>
+          </Window>
+        );
+      }
+      case 'A35': {
+        const title = p.title || 'Decision weight';
+        const rawItems = Array.isArray(p.items) ? p.items : [
+          { label: 'Category A', value: 70 },
+          { label: 'Category B', value: 30 }
+        ];
+        const colors = [HV.blue, HV.amber, HV.green, HV.red];
+        return (
+          <div style={{display: 'flex', flexDirection: 'column', width: 900, gap: 24}}>
+            {title && (
+              <div style={{fontFamily: FONT, fontSize: 32, fontWeight: 700, color: HV.ink, marginBottom: 8}}>
+                {title}
+              </div>
+            )}
+            {rawItems.map((it: any, i: number) => {
+              const label = typeof it === 'string' ? it : it.label;
+              const val = typeof it === 'object' && typeof it.value === 'number' ? it.value : 50;
+              const barIn = interpolate(frame, [i * 8, i * 8 + 14], [0, 1], {extrapolateRight: 'clamp'});
+              const color = colors[i % colors.length];
+              return (
+                <div key={i} style={{display: 'flex', flexDirection: 'column', gap: 8}}>
+                  <div style={{display: 'flex', justifyContent: 'space-between', fontFamily: FONT, fontSize: 24, fontWeight: 600, color: HV.ink}}>
+                    <span>{label}</span>
+                    <span>{Math.round(val * barIn)}%</span>
+                  </div>
+                  <div style={{height: 44, width: '100%', background: HV.card, borderRadius: 22, border: `1px solid ${HV.line}`, overflow: 'hidden'}}>
+                    <div style={{
+                      height: '100%', width: `${val * barIn}%`, background: color, borderRadius: 22
+                    }} />
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        );
+      }
+      case 'A36': {
+        const milestones = Array.isArray(p.milestones) ? p.milestones : [];
+        return (
+          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: 1000, gap: 24}}>
+            <div style={{display: 'flex', gap: 20, width: '100%', justifyContent: 'center'}}>
+              {milestones.map((m: any, idx: number) => {
+                const mIn = riseIn(frame, idx * 10, 24, 12);
+                return (
+                  <div
+                    key={idx}
+                    style={{
+                      ...mIn,
+                      flex: 1,
+                      padding: '24px 20px',
+                      borderRadius: 20,
+                      background: '#fff',
+                      border: `1px solid ${HV.line}`,
+                      boxShadow: SHADOW,
+                      display: 'flex',
+                      flexDirection: 'column',
+                      gap: 12
+                    }}
+                  >
+                    <div style={{
+                      alignSelf: 'flex-start', padding: '6px 14px', borderRadius: 99,
+                      background: idx === milestones.length - 1 ? HV.blue : HV.grey,
+                      color: idx === milestones.length - 1 ? '#fff' : HV.ink,
+                      fontFamily: FONT, fontSize: 18, fontWeight: 700
+                    }}>
+                      {m.time}
+                    </div>
+                    <div style={{fontFamily: FONT, fontSize: 24, fontWeight: 600, color: HV.ink, lineHeight: 1.2}}>
+                      {m.label}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+            <div style={{fontFamily: FONT, fontSize: 26, fontStyle: 'italic', color: HV.mute, maxWidth: 960, textAlign: 'center'}}>
+              <WordSync words={relWords} mode="stack" size={26} outAt={durInFrames - 8} />
+            </div>
+          </div>
+        );
+      }
+      case 'A38': {
+        const left = p.left || { title: 'Context', note: '' };
+        const right = p.right || { title: 'Reality', note: '' };
+        return (
+          <div style={{position: 'relative', width: 1200, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <div style={{
+              position: 'absolute', width: 1100, height: 420, borderRadius: 32,
+              background: `linear-gradient(135deg, ${HV.grey} 0%, rgba(22, 115, 255, 0.08) 100%)`,
+              filter: 'blur(24px)', opacity: 0.6
+            }} />
+            <div style={{position: 'relative', display: 'flex', gap: 36, width: 1100, zIndex: 2}}>
+              <div style={{
+                flex: 1, padding: '36px 32px', borderRadius: 24, background: '#fff',
+                border: `1px solid ${HV.line}`, boxShadow: SHADOW, display: 'flex', flexDirection: 'column', gap: 12
+              }}>
+                <div style={{fontFamily: FONT, fontSize: 20, fontWeight: 700, color: HV.mute, textTransform: 'uppercase'}}>
+                  Context
+                </div>
+                <div style={{fontFamily: FONT, fontSize: 44, fontWeight: 800, color: HV.ink, lineHeight: 1.15}}>
+                  {left.title}
+                </div>
+                {left.note && (
+                  <div style={{fontFamily: FONT, fontSize: 24, color: HV.mute, fontStyle: 'italic'}}>
+                    *{left.note}
+                  </div>
+                )}
+              </div>
+              <div style={{
+                flex: 1, padding: '36px 32px', borderRadius: 24, background: '#fff',
+                border: `2px solid ${HV.blue}`, boxShadow: SHADOW, display: 'flex', flexDirection: 'column', gap: 12
+              }}>
+                <div style={{fontFamily: FONT, fontSize: 20, fontWeight: 700, color: HV.blue, textTransform: 'uppercase'}}>
+                  Reality
+                </div>
+                <div style={{fontFamily: FONT, fontSize: 44, fontWeight: 800, color: HV.ink, lineHeight: 1.15}}>
+                  {right.title}
+                </div>
+                {right.note && (
+                  <div style={{fontFamily: FONT, fontSize: 24, color: HV.mute, fontStyle: 'italic'}}>
+                    *{right.note}
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        );
+      }
+      case 'A48': {
+        const iconType = p.icon || 'brain';
+        const quoteText = p.quote || relWords.map((w) => w.text).join(' ');
+        const warningText = p.warning || 'TRAP: FALLING FOR IT';
+        const noteText = p.note || '';
+
+        const iconOpacity = interpolate(frame, [0, 15], [0, 1], {extrapolateRight: 'clamp'});
+        const iconScale = interpolate(frame, [0, 15], [0.8, 1], {extrapolateRight: 'clamp'});
+        const quoteProgress = interpolate(frame, [20, 32], [0, 1], {extrapolateRight: 'clamp'});
+        const quoteTranslateY = interpolate(quoteProgress, [0, 1], [0, -28]);
+        const quoteOpacity = interpolate(quoteProgress, [0, 1], [1, 0.55]);
+
+        const warningIn = riseIn(frame, 24, 30, 12);
+        const noteIn = riseIn(frame, 36, 20, 12);
+        const warningParts = warningText.split(/(TRAP:?)/i);
+
+        return (
+          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', maxWidth: 1200, gap: 16}}>
+            <div style={{display: 'flex', alignItems: 'center', gap: 24, transform: `translateY(${quoteTranslateY}px)`}}>
+              <div style={{
+                width: 64, height: 64, borderRadius: 16, background: HV.card, border: `1px solid ${HV.line}`,
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                opacity: iconOpacity, transform: `scale(${iconScale})`
+              }}>
+                {iconType === 'brain' ? (
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke={HV.red} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.44-2.04z" />
+                    <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.44-2.04z" />
+                  </svg>
+                ) : (
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke={HV.red} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />
+                    <line x1="12" y1="9" x2="12" y2="13" />
+                    <line x1="12" y1="17" x2="12.01" y2="17" />
+                  </svg>
+                )}
+              </div>
+              <div style={{fontFamily: FONT, fontSize: 38, fontStyle: 'italic', fontWeight: 500, color: HV.ink, opacity: quoteOpacity}}>
+                "{quoteText}"
+              </div>
+            </div>
+            <div style={{
+              ...warningIn,
+              fontFamily: FONT,
+              fontSize: 54,
+              fontWeight: 800,
+              fontStyle: 'italic',
+              color: HV.ink,
+              textAlign: 'center',
+              marginTop: 8
+            }}>
+              {warningParts.map((part, i) => (
+                /TRAP:?/i.test(part) ? <span key={i} style={{color: HV.red}}>{part} </span> : <span key={i}>{part}</span>
+              ))}
+            </div>
+            {noteText && (
+              <div style={{...noteIn, fontFamily: FONT, fontSize: 22, color: HV.mute, fontStyle: 'italic', textAlign: 'center'}}>
+                *{noteText}
+              </div>
+            )}
+          </div>
+        );
+      }
+      case 'A63': {
+        const timeText = p.time || '6 hours';
+        const ringProg = interpolate(frame, [0, 30], [0, 0.75], {extrapolateRight: 'clamp'});
+        const strokeDashoffset = 2 * Math.PI * 120 * (1 - ringProg);
+        return (
+          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 20}}>
+            <div style={{position: 'relative', width: 300, height: 300, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+              <svg width="300" height="300" style={{transform: 'rotate(-90deg)'}}>
+                <circle cx="150" cy="150" r="120" stroke={HV.grey} strokeWidth="16" fill="none" />
+                <circle
+                  cx="150" cy="150" r="120"
+                  stroke={HV.blue} strokeWidth="16" fill="none"
+                  strokeDasharray={2 * Math.PI * 120}
+                  strokeDashoffset={strokeDashoffset}
+                  strokeLinecap="round"
+                />
+              </svg>
+              <div style={{position: 'absolute', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+                <span style={{fontFamily: FONT, fontSize: 20, fontWeight: 600, color: HV.mute}}>INVESTED</span>
+                <span style={{fontFamily: FONT, fontSize: 48, fontWeight: 800, color: HV.ink, fontVariantNumeric: 'tabular-nums'}}>
+                  {timeText.split(' ')[0]}
+                </span>
+                <span style={{fontFamily: FONT, fontSize: 20, fontWeight: 700, color: HV.blue, textTransform: 'uppercase'}}>
+                  {timeText.split(' ').slice(1).join(' ')}
+                </span>
+              </div>
+            </div>
+            <div style={{fontFamily: FONT, fontSize: 36, fontStyle: 'italic', color: HV.ink}}>
+              <WordSync words={relWords} mode="stack" size={36} outAt={durInFrames - 8} />
+            </div>
+          </div>
+        );
+      }
       case 'A50':
         return (
           <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 60, width: 1400}}>

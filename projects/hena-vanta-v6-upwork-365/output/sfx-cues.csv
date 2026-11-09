@@ -1,159 +1,20 @@
 scene,timecode,seconds,category,sfx_name,file_path,target_element
-s01,00:00:00:00,0.00,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Hook stat pill showing 365 days milestone
-s02,00:00:01:24,1.80,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Claim the narrator will challenge
-s03,00:00:03:12,3.40,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Kinetic negation word swap
-s04,00:00:06:06,6.20,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Viewer question typed like search
-s05,00:00:08:24,8.80,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Public Google search context
-s06,00:00:11:24,11.80,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Parallel list of 3 items introduced item by item
-s07,00:00:14:15,14.50,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Short claim with punchline word stack
-s08,00:00:17:15,17.50,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Story over time (persistent master journey)
-s09,00:00:22:00,22.00,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Editor software UI context (illustrative)
-s11,00:00:31:00,31.00,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word swap anchoring start date
-s12,00:00:35:00,35.00,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Software engineering student context
-s13,00:00:41:15,41.50,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Red keyword one-liner interlude
-s14,00:00:47:15,47.50,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Currency platform context (Wise public page)
-s15,00:00:53:15,53.50,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Comparison of two things (split with pills)
-s17,00:01:06:00,66.00,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Audience naive reaction / objection
-s18,00:01:12:00,72.00,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Big number milestone stat pill
-s19,00:01:16:15,76.50,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Checklist ticks (steps one at a time)
-s20,00:01:21:15,81.50,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Mistake most beginners make (trap warning)
-s21,00:01:26:15,86.50,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Story over time (journey node 1)
-s22,00:01:31:15,91.50,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Portfolio showcase context
-s23,00:01:36:15,96.50,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Kinetic word swap revealing root flaw
-s24,00:01:40:15,100.50,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Video editing software interface
-s26,00:01:51:00,111.00,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Payment platform context (Stripe public site)
-s27,00:01:56:15,116.50,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Big number milestone stat pill
-s28,00:02:01:00,121.00,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Parallel list of actionable launch steps
-s29,00:02:06:11,126.38,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Trap warning on premature optimization
-s30,00:02:10:23,130.78,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Reaction bubble on changing niches
-s31,00:02:14:14,134.48,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Comparison split between tweaking and waiting
-s33,00:02:25:01,145.04,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Red keyword callout against waiting
-s34,00:02:29:12,149.40,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Checklist ticks of productive alternatives
-s35,00:02:34:08,154.26,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word swap connecting portfolio and profile
-s36,00:02:37:13,157.44,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Speech bubble on earlier applications
-s37,00:02:42:20,162.68,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word stack realization punchline
-s38,00:02:48:23,168.76,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Master journey node 2 on niche pivoting
-s39,00:02:54:02,174.06,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Software background context
-s40,00:02:58:26,178.88,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Market reaction bubble on saturation
-s41,00:03:04:16,184.52,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Software lowball pricing context
-s42,00:03:10:12,190.40,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Red keyword on client budget drop
-s43,00:03:16:07,196.22,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word swap on reduced developer demand
-s45,00:03:23:27,203.90,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Personal reflection bubble on decision
-s46,00:03:28:02,208.08,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Comparison split between two freelancing tracks
-s47,00:03:34:07,214.24,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Stat pill on video editing invite rate
-s48,00:03:38:02,218.06,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word stack contrasting software profile
-s49,00:03:42:15,222.50,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Red keyword on pivot to video editing
-s50,00:03:45:28,225.94,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Stopwatch milestone measuring learning effort
-s51,00:03:51:16,231.52,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Sample practice reels context
-s52,00:03:55:29,235.98,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Stat pill measuring local client duration
-s54,00:04:07:24,247.80,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Side heading with Premiere timeline context
-s55,00:04:14:02,254.08,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word swap on local client income
-s56,00:04:17:10,257.34,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Red keyword on equipment upgrade milestone
-s57,00:04:21:27,261.90,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Stat pill on $2000 equipment investment
-s58,00:04:27:14,267.46,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Speech bubble on motivation boost
-s59,00:04:30:25,270.82,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Master journey node 3 on profile transition
-s60,00:04:36:28,276.94,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Trap warning on wrong first contract
-s61,00:04:42:05,282.16,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,First $10 project screenshot context
-s62,00:04:48:07,288.22,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word stack reality check on single review
-s64,00:05:00:04,300.14,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Parallel list of work history consequences
-s65,00:05:05:28,305.94,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Red keyword on avoiding random contracts
-s66,00:05:11:02,311.06,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word swap on value of first project
-s67,00:05:14:08,314.26,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Comparison split on credibility baseline
-s68,00:05:19:17,319.56,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Bubble reflecting on niche alignment
-s69,00:05:25:13,325.44,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Bubble on permanent client record
-s70,00:05:31:09,331.30,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word stack marking start of silent months
-s71,00:05:34:15,334.50,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Checklist ticks during silent period
-s72,00:05:38:24,338.80,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Side heading with portfolio showcase
-s74,00:05:45:22,345.72,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word swap on passive platform checking
-s75,00:05:51:22,351.74,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Stat pill on incoming invitation count
-s76,00:05:55:22,355.74,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Screenshot context of scam freelance invite
-s77,00:06:00:04,360.14,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Reaction bubble on lack of inbound flow
-s78,00:06:06:02,366.06,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Narrator speech bubble on first invite
-s79,00:06:11:29,371.96,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Red keyword on first video editing contract
-s80,00:06:15:17,375.58,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Stat pill measuring first contract payment
-s81,00:06:20:04,380.14,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Stopwatch measuring rapid project turnaround
-s82,00:06:25:00,385.00,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word swap converting contract into Connects
-s83,00:06:29:01,389.02,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Master journey node 4 on active applications
-s84,00:06:33:09,393.30,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Stat pill on Connects budget purchase
-s85,00:06:39:05,399.16,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Comparison split on shifting approach
-s86,00:06:42:18,402.60,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Bubble on choosing relevant jobs
-s87,00:06:46:22,406.74,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word stack marking control shift
-s88,00:06:49:23,409.78,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Trap warning on proposal spam
-s89,00:06:54:04,414.14,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Checklist ticks for proposal selection
-s90,00:06:58:08,418.26,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Bubble on connects budget pacing
-s91,00:07:03:08,423.28,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Comparison split between quality and volume
-s92,00:07:06:11,426.36,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word swap on skipping mismatched jobs
-s93,00:07:11:13,431.42,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Parallel list of proposal guidelines
-s94,00:07:17:08,437.26,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Red keyword on avoiding generic AI proposals
-s96,00:07:26:26,446.86,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Stat pill marking $90 contract milestone
-s97,00:07:30:05,450.18,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Bubble on client learning experience
-s98,00:07:33:06,453.20,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Client sample video context
-s99,00:07:37:08,457.26,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Side heading matching editing style
-s100,00:07:42:16,462.52,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Checklist ticks of proposal points
-s101,00:07:48:13,468.42,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Parallel list of client assurances
-s102,00:07:54:14,474.46,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Client payout verification card
-s103,00:08:00:13,480.44,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Bubble on clear client requirements
-s104,00:08:04:05,484.18,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Master journey node 5 on client collaboration
-s105,00:08:08:09,488.30,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Trap warning against unrequested changes
-s106,00:08:11:25,491.84,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Comparison split between client style and editor taste
-s107,00:08:17:26,497.88,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Red keyword on executing client vision
-s108,00:08:23:17,503.58,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word swap on understanding client scope
-s109,00:08:28:26,508.86,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Bubble on asking before altering style
-s110,00:08:33:17,513.58,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word stack reality check on client style
-s112,00:08:41:03,521.10,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Revision request context card
-s113,00:08:44:22,524.72,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Bubble expressing revision objection
-s114,00:08:47:26,527.88,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word swap accommodating small change
-s115,00:08:51:07,531.24,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Bubble on client goodwill
-s116,00:08:57:05,537.18,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Comparison split between partnership and friction
-s117,00:09:00:07,540.24,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word stack on relationship building
-s118,00:09:04:05,544.18,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Trap warning establishing revision boundaries
-s119,00:09:08:02,548.06,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Red keyword on reasonable adjustments
-s120,00:09:13:26,553.86,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Checklist ticks of communication rules
-s121,00:09:18:25,558.84,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Bubble warning against guessing client intent
-s122,00:09:22:08,562.26,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Bubble encouraging specific questions
-s123,00:09:26:14,566.48,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word swap preventing lost editing hours
-s124,00:09:30:24,570.80,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Side heading with project file hand-off
-s125,00:09:36:22,576.75,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Comparison split on efficient file sharing
-s126,00:09:41:06,581.20,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word stack on asking before doing
-s127,00:09:46:28,586.94,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Red keyword identifying root client issue
-s128,00:09:52:26,592.88,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Word swap contrasting communication and craft
-s130,00:10:00:13,600.44,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Distinguishing technical issues from communication
-s131,00:10:04:05,604.18,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Warning about client quality
-s132,00:10:08:04,608.14,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Client offering 30 dollars for 8 minute video
-s133,00:10:16:02,616.06,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Over twenty requirements for one video
-s134,00:10:21:09,621.30,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Excessive scope list on low-budget project
-s135,00:10:34:02,634.08,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Full day work required for 30 dollars
-s136,00:10:46:02,646.08,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Shifting from any client to aligned client
-s137,00:10:56:04,656.14,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Risk of negative review affecting future work
-s138,00:11:02:04,662.14,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Power of turning down mismatched projects
-s139,00:11:07:27,667.90,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Evaluating early portfolio quality
-s140,00:11:13:28,673.94,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Flaws in beginner portfolio
-s141,00:11:22:25,682.82,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Surface presentation versus genuine craft
-s142,00:11:31:05,691.18,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Clients spot beginner inflation easily
-s143,00:11:38:13,698.42,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Portfolio reveals true skill immediately
-s144,00:11:44:08,704.28,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Encouraging honesty over false expertise
-s145,00:11:49:29,709.96,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Building self-directed spec work
-s146,00:11:59:12,719.40,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Disclosing lack of expert status
-s147,00:12:06:04,726.12,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Comparing external earnings with platform earnings
-s148,00:12:13:19,733.64,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Swapping guru persona for documented experience
-s149,00:12:20:17,740.56,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Value of transparent beginner lessons
-s151,00:12:31:04,751.12,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Starting over with skill-first approach
-s152,00:12:38:16,758.52,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Dedicated study period in editing software
-s153,00:12:44:26,764.88,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Selecting a single dedicated service
-s154,00:12:56:22,776.74,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Warning against low-effort portfolio shortcuts
-s155,00:13:04:22,784.72,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Curating high-impact sample projects
-s156,00:13:11:03,791.10,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Portfolio weight versus description copy
-s157,00:13:19:12,799.40,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Visual evidence versus unverified claims
-s158,00:13:28:20,808.68,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Selective strategic job searching
-s159,00:13:37:16,817.54,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Assessing if platform was worth the effort
-s160,00:13:43:20,823.66,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Myth of client avalanche
-s161,00:13:49:28,829.94,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Timeline of perseverance and pivot
-s162,00:13:57:23,837.76,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Turning first 20 dollar job into 90 dollar contract
-s163,00:14:03:15,843.50,ui,click.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Sound effect\Click\click.wav,Real client work teaches more than theory
-s164,00:14:09:29,849.98,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Upwork is not passive or easy income
-s165,00:14:15:26,855.86,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Prerequisites for successful freelancing
-s166,00:14:27:05,867.18,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Being truly good rather than appearing good
-s167,00:14:35:13,875.44,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Materials reflect underlying competence
-s168,00:14:41:23,881.78,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Final accounting of 150 dollars earned
-s169,00:14:47:16,887.52,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Teasing in-depth technical follow-up
-s170,00:14:57:16,897.52,impact,Pop Deep.wav,D:\Editor 2.0\SFX + Meme sounds\My Downloads\Sound Effects\Pop Deep.wav,Call to action commenting Upwork
+s05,00:00:08:24,8.80,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/google.png)
+s09,00:00:22:00,22.00,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/premiere_pro.png)
+s12,00:00:35:00,35.00,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/github.png)
+s14,00:00:47:15,47.50,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/wise.png)
+s22,00:01:31:15,91.50,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/youtube.png)
+s24,00:01:40:15,100.50,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/premiere_pro.png)
+s26,00:01:51:00,111.00,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/stripe.png)
+s39,00:02:54:02,174.06,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/github.png)
+s41,00:03:04:16,184.52,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/github.png)
+s51,00:03:51:16,231.52,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/youtube.png)
+s54,00:04:07:24,247.80,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/premiere_pro.png)
+s61,00:04:42:05,282.16,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/github.png)
+s72,00:05:38:24,338.80,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/youtube.png)
+s76,00:05:55:22,355.74,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/telegram.png)
+s98,00:07:33:06,453.20,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/youtube.png)
+s99,00:07:37:08,457.26,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/premiere_pro.png)
+s102,00:07:54:14,474.46,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/stripe.png)
+s112,00:08:41:03,521.10,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/github.png)
+s124,00:09:30:24,570.80,ui,click.wav,D:\\Editor 2.0\\SFX + Meme sounds\\My Downloads\\Sound Effects\\Sound effect\\Click\\click.wav,Screenshot card (shots/premiere_pro.png)

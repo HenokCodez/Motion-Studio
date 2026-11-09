@@ -62,6 +62,206 @@ const isShorts = tl.meta?.format === "shorts" || totalRuntime < 90;
 
 console.log(`=== VALIDATING HENA VANTA v6: ${scenes.length} scenes, runtime: ${totalRuntime.toFixed(2)}s ===\n`);
 
+// 0a. Check SceneView.tsx: every anim ID used has an explicit case/registry entry in SceneView; no fall-through to default
+const sceneViewPath = path.join(projDir, "src", "SceneView.tsx");
+if (fs.existsSync(sceneViewPath)) {
+  const svCode = fs.readFileSync(sceneViewPath, "utf8");
+  const caseMatches = new Set([...svCode.matchAll(/case\s+['"](A\d+)['"]\s*:/g)].map((m) => m[1]));
+  const usedIds = new Set(scenes.map((s) => s.anim));
+  usedIds.forEach((id) => {
+    if (id === "A52") return; // Handled as top-level FootageNote guard in SceneView
+    if (!caseMatches.has(id)) {
+      fail("V6_SCENEVIEW_CASE", `Anim ID "${id}" is used in timeline but has no explicit case in SceneView.tsx (would fall through to default).`);
+    }
+  });
+} else {
+  fail("V6_SCENEVIEW_NOT_FOUND", `SceneView.tsx not found at: ${sceneViewPath}`);
+}
+
+// 0b. Word bounds: every word time lies inside its own scene's [start, end] (absolute timeline seconds)
+scenes.forEach((s) => {
+  if (s.words) {
+    s.words.forEach((w) => {
+      if (typeof w.time !== "number" || isNaN(w.time)) {
+        fail("V6_WORD_TIMING_BOUNDS", `Scene ${s.id} word "${w.text}" has non-numeric time: ${w.time}`);
+      } else if (w.time < s.start - 0.1 || w.time > s.end + 0.1) {
+        fail("V6_WORD_TIMING_BOUNDS", `Scene ${s.id} word "${w.text}" at ${w.time}s lies outside scene bounds [${s.start.toFixed(2)}s, ${s.end.toFixed(2)}s].`);
+      }
+    });
+  }
+});
+
+// 0c. Longest interval with no visible change (word onset, object entrance, object step) per scene <= 3.0 s
+let maxGapAll = 0;
+let worstSceneId = null;
+let worstSceneGap = 0;
+
+scenes.forEach((s) => {
+  const events = [s.start];
+  if (s.words) {
+    s.words.forEach((w) => {
+      if (typeof w.time === "number" && !isNaN(w.time)) {
+        if (w.time >= s.start - 0.05 && w.time <= s.end + 0.05) {
+          events.push(Math.max(s.start, Math.min(s.end, w.time)));
+        }
+      }
+    });
+  }
+  if (s.props) {
+    if (Array.isArray(s.props.items)) {
+      s.props.items.forEach((it) => {
+        if (typeof it === "object" && typeof it.at === "number") {
+          const t = s.start + it.at / 30;
+          if (t >= s.start && t <= s.end) events.push(t);
+        }
+      });
+    }
+    if (typeof s.props.extendAt === "number") {
+      const t = s.start + s.props.extendAt / 30;
+      if (t >= s.start && t <= s.end) events.push(t);
+    }
+    if (typeof s.props.clickAt === "number") {
+      const t = s.start + s.props.clickAt / 30;
+      if (t >= s.start && t <= s.end) events.push(t);
+    }
+    if (typeof s.props.focusAt === "number") {
+      const t = s.start + s.props.focusAt / 30;
+      if (t >= s.start && t <= s.end) events.push(t);
+    }
+  }
+  events.push(s.end);
+  events.sort((a, b) => a - b);
+
+  let sceneMaxGap = 0;
+  for (let i = 1; i < events.length; i++) {
+    const gap = events[i] - events[i - 1];
+    if (gap > sceneMaxGap) sceneMaxGap = gap;
+  }
+  if (sceneMaxGap > maxGapAll) {
+    maxGapAll = sceneMaxGap;
+    worstSceneId = s.id;
+    worstSceneGap = sceneMaxGap;
+  }
+  if (sceneMaxGap > 3.0) {
+    fail("V6_MAX_NO_CHANGE_GAP", `Scene ${s.id} (${s.anim}, dur ${(s.end - s.start).toFixed(2)}s) has no-change interval of ${sceneMaxGap.toFixed(2)}s (> 3.0s limit).`);
+  }
+});
+
+// 0d. SFX: only `ui` on scenes whose media is a screenshot/image card, and `ding` on A64; sfx-cues.csv must be generated ONLY from timeline's sfx fields
+let timelineSfxCount = 0;
+const timelineSfxCategories = {};
+scenes.forEach((s) => {
+  const sfx = s.sfx || (s.props && s.props.sfx);
+  if (sfx) {
+    timelineSfxCount++;
+    timelineSfxCategories[sfx] = (timelineSfxCategories[sfx] || 0) + 1;
+    if (sfx === "ui") {
+      const isCardOrShot = s.media?.kind === "screenshot" || !!s.media?.file || s.anim === "A45" || s.anim === "A11" || s.anim === "A14" || s.anim === "A50";
+      if (!isCardOrShot) {
+        fail("V6_SFX_RULES", `Scene ${s.id} (${s.anim}) has "ui" SFX but media is not a screenshot/image card.`);
+      }
+    } else if (sfx === "ding") {
+      if (s.anim !== "A64") {
+        fail("V6_SFX_RULES", `Scene ${s.id} (${s.anim}) has "ding" SFX but anim is not A64 chapter card.`);
+      }
+    } else {
+      fail("V6_SFX_RULES", `Scene ${s.id} has invalid SFX category "${sfx}". Allowed: only "ui" or "ding".`);
+    }
+  }
+});
+
+const sfxCsvPath = path.join(projDir, "output", "sfx-cues.csv");
+let sfxCsvRowCount = 0;
+const sfxCsvCategories = {};
+if (fs.existsSync(sfxCsvPath)) {
+  const csvLines = fs.readFileSync(sfxCsvPath, "utf8").trim().split("\n").filter(Boolean);
+  const rows = csvLines.slice(1);
+  sfxCsvRowCount = rows.length;
+  if (rows.length !== timelineSfxCount) {
+    fail("V6_SFX_CSV_COUNT", `output/sfx-cues.csv has ${rows.length} rows, but timeline defines ${timelineSfxCount} SFX scenes.`);
+  }
+  rows.forEach((line, rIdx) => {
+    const parts = line.split(",");
+    const category = parts[3]?.trim();
+    if (category) {
+      sfxCsvCategories[category] = (sfxCsvCategories[category] || 0) + 1;
+    }
+    if (category !== "ui" && category !== "ding") {
+      fail("V6_SFX_CSV_CATEGORY", `output/sfx-cues.csv row ${rIdx + 1} has forbidden category "${category}". Only "ui" and "ding" allowed.`);
+    }
+  });
+}
+
+// 0e. FootageNote / A52 reconcile: every A52 scene has media.kind="footage" and valid label; placeholders.csv rows must equal A52 count
+const a52Scenes = scenes.filter((s) => s.anim === "A52" || s.media?.kind === "footage");
+a52Scenes.forEach((s) => {
+  if (s.anim !== "A52") {
+    fail("V6_A52_ANIM", `Scene ${s.id} has footage media but anim is "${s.anim}". Must be A52.`);
+  }
+  if (!s.media || s.media.kind !== "footage") {
+    fail("V6_A52_MEDIA", `Scene ${s.id} is A52 but missing media.kind="footage".`);
+  }
+  const label = s.media?.label || "";
+  const m = label.match(/^([A-Z ]+):\s*(.+)$/);
+  if (!m || !ALLOWED_FOOTAGE_TYPES.has(m[1].trim())) {
+    fail("V6_A52_LABEL", `Scene ${s.id} FootageNote label "${label}" must match "TYPE: what to show" with TYPE in ${[...ALLOWED_FOOTAGE_TYPES].join(" | ")}.`);
+  }
+});
+
+const placeholdersCsvPath = path.join(projDir, "output", "placeholders.csv");
+let placeholdersCsvRows = 0;
+if (fs.existsSync(placeholdersCsvPath)) {
+  const pLines = fs.readFileSync(placeholdersCsvPath, "utf8").trim().split("\n").filter(Boolean);
+  const pRows = pLines.slice(1);
+  placeholdersCsvRows = pRows.length;
+  if (pRows.length !== a52Scenes.length) {
+    fail("V6_PLACEHOLDERS_COUNT", `output/placeholders.csv has ${pRows.length} rows, but timeline has ${a52Scenes.length} A52 footage scenes.`);
+  }
+}
+
+// 0f. A48 scene catalog compliance: must contain icon, quote, warning
+const a48Scenes = scenes.filter((s) => s.anim === "A48");
+a48Scenes.forEach((s) => {
+  const p = s.props || {};
+  if (!p.icon || !p.quote || !p.warning) {
+    fail("V6_A48_PROPS", `Scene ${s.id} (${s.anim}) must define props.icon, props.quote, and props.warning.`);
+  }
+});
+if (fs.existsSync(sceneViewPath)) {
+  const svCode = fs.readFileSync(sceneViewPath, "utf8");
+  const a48CaseMatch = svCode.match(/case\s+['"]A48['"][\s\S]*?(?=case\s+['"]|default:)/);
+  if (!a48CaseMatch || !a48CaseMatch[0].includes("quote") || !a48CaseMatch[0].includes("warning")) {
+    fail("V6_A48_IMPLEMENTATION", `SceneView.tsx case 'A48' does not render the icon, quote line, and warning line from the catalog.`);
+  }
+}
+
+// 0g. review.json must have "viewed" and "automatedOnly"; validator counts only "viewed"
+const revPath = path.join(projDir, "qa", "review.json");
+let viewedCount = 0;
+let automatedOnlyCount = 0;
+if (fs.existsSync(revPath)) {
+  try {
+    const rev = JSON.parse(fs.readFileSync(revPath, "utf8"));
+    if (!Array.isArray(rev.viewed) || !Array.isArray(rev.automatedOnly)) {
+      fail("V6_REVIEW_SCHEMA", `qa/review.json must have both "viewed" and "automatedOnly" arrays.`);
+    } else {
+      viewedCount = rev.viewed.length;
+      automatedOnlyCount = rev.automatedOnly.length;
+      if (viewedCount < 40) {
+        fail("V6_REVIEW_VIEWED_COUNT", `qa/review.json has only ${viewedCount} viewed stills (minimum required: 40).`);
+      }
+      rev.viewed.forEach((item, idx) => {
+        const obs = typeof item === "object" ? (item.observation || item.note) : "";
+        if (!obs || obs.length < 5) {
+          fail("V6_REVIEW_VIEWED_OBSERVATION", `qa/review.json viewed[${idx}] missing concrete observation.`);
+        }
+      });
+    }
+  } catch (err) {
+    fail("V6_REVIEW_PARSE", `Failed to parse qa/review.json: ${err.message}`);
+  }
+}
+
 // 1. anim ID validation
 scenes.forEach((s, idx) => {
   if (!s.anim || !VALID_ANIMS.has(s.anim)) {
@@ -236,15 +436,19 @@ scenes.forEach((s) => {
   });
 });
 
+const nonA52Distinct = new Set([...distinctIds].filter((id) => id !== "A52"));
 console.log("\n=================== E1-E8 AUDIT SUMMARY ===================");
-console.log(`E1 Distinct animation IDs : ${distinctIds.size} (${[...distinctIds].join(", ")})`);
+console.log(`E1 Distinct animation IDs : ${distinctIds.size} (${nonA52Distinct.size} excluding A52: ${[...nonA52Distinct].join(", ")})`);
 console.log(`E2 Scene -> ID sequence   : ${scenes.map((s) => s.anim).slice(0, 20).join(" -> ")} ...`);
 console.log(`E3 Text-only runtime %    : ${textOnlyPct.toFixed(1)}% (target <= 20%)`);
 console.log(`E4 Visual events in 15s   : ${hookEvents} events, ${hookIds.size} distinct IDs`);
-console.log(`E5 FootageNote count      : ${scenes.filter((s) => s.media?.kind === "footage").length} scenes (${bareFootagePct.toFixed(1)}% runtime)`);
+console.log(`E5 FootageNote count      : ${a52Scenes.length} scenes vs ${placeholdersCsvRows} in placeholders.csv (${bareFootagePct.toFixed(1)}% runtime)`);
 console.log(`E6 Numbers in mock UI     : Verified factual against voiceover`);
 console.log(`E7 Hook recipe applied    : H1 Experiment`);
 console.log(`E8 Brand string grep      : 0 forbidden strings found`);
+console.log(`Pacing Max No-Change Gap  : ${worstSceneGap.toFixed(2)}s (worst scene: ${worstSceneId}, target <= 3.0s)`);
+console.log(`SFX Cues Count & Cat      : Timeline: ${timelineSfxCount} (${JSON.stringify(timelineSfxCategories)}), CSV: ${sfxCsvRowCount} (${JSON.stringify(sfxCsvCategories)})`);
+console.log(`QA Stills Review          : ${viewedCount} viewed stills, ${automatedOnlyCount} automated-only`);
 console.log("===========================================================\n");
 
 if (failures.length > 0) {
