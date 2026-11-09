@@ -1,42 +1,104 @@
 ---
-description: Build a complete Hena Vanta video (long-form or shorts) using the hena-vanta v6 skill.
+description: Build a complete Hena Vanta video (long-form or shorts) using the hena-vanta v6 skill. Trigger on /hena-vanta, 'Use the hena-vanta skill', 'use hena-vanta', HV6, 'Hena Vanta', or paths under D:\Youtube\Hena Vanta\. Never use for Vanta Brief or other channels.
 ---
 
 # Hena Vanta Video Production Workflow
 
-Builds a complete, broadcast-ready Hena Vanta video in Remotion using the **hena-vanta (v6)** kinetic motion language on the white grid background.
+Builds a complete Hena Vanta video in Remotion using the **hena-vanta (v6)** kinetic motion language on the white grid background.
 
-## Arguments
-- `folder`: The project folder under `D:\Youtube\Hena Vanta\Videos\<name>\` containing voiceover audio, time-stamped script, and `script.txt`.
-- `format`: `long-form` (1920x1080, 30fps) or `shorts` (1080x1920, 30fps).
+## Trigger Conditions
+Triggers automatically when the user message contains:
+- `"Use the \`hena-vanta\` skill"` (any capitalization, with or without backticks, e.g. `"Use the hena-vanta skill"`)
+- `"use hena-vanta"` (any capitalization)
+- `"/hena-vanta"`
+- `"HV6"` (or `"hv6"`)
+- `"Hena Vanta"` (or `"hena vanta"`)
+- Any file or folder path under `D:\Youtube\Hena Vanta\`
 
-## Pre-flight Checks (MUST PASS BEFORE STARTING)
-Before executing any generation step, verify the following files exist:
-1. **Skill Folder**: `D:\Automations\motion-studio\.agents\skills\hena-vanta`
-   - If missing, refuse to run: `"REFUSED: The skill folder D:\Automations\motion-studio\.agents\skills\hena-vanta is missing."`
-2. **Background Loop**: `D:\Automations\motion-studio\.agents\skills\hena-vanta\public\bg.mp4`
-   - If missing, refuse to run: `"REFUSED: The background file public/bg.mp4 is missing from the hena-vanta skill."`
-3. **Channel Logo**: `D:\Automations\motion-studio\.agents\skills\hena-vanta\public\logo.png`
-   - If missing, refuse to run: `"REFUSED: The channel logo public/logo.png is missing from the hena-vanta skill."`
-
-If any of these three assets is missing, **STOP IMMEDIATELY**, state exactly which one is missing, and do NOT proceed.
-
-### Asset Sync to Remotion Project (Runs at the Start of Every Run)
-At the start of every run, use the exact project path that motion-studio uses for Remotion renders: `D:\Automations\motion-studio\projects\remotion-app`. If that path does not exist, STOP and ask the user; never create a new Remotion project.
-Copy both assets into its `public/hena-vanta/` folder:
-1. Ensure `D:\Automations\motion-studio\projects\remotion-app\public\hena-vanta\` directory exists.
-2. Copy `D:\Automations\motion-studio\.agents\skills\hena-vanta\public\bg.mp4` -> `D:\Automations\motion-studio\projects\remotion-app\public\hena-vanta\bg.mp4`.
-3. Copy `D:\Automations\motion-studio\.agents\skills\hena-vanta\public\logo.png` -> `D:\Automations\motion-studio\projects\remotion-app\public\hena-vanta\logo.png`.
-4. Verify that both `D:\Automations\motion-studio\projects\remotion-app\public\hena-vanta\bg.mp4` and `D:\Automations\motion-studio\projects\remotion-app\public\hena-vanta\logo.png` exist on disk and are non-empty. If either is missing, refuse to proceed:
-   `"REFUSED: Failed to verify <bg.mp4 | logo.png> in Remotion project public folder: D:\Automations\motion-studio\projects\remotion-app\public\hena-vanta\"`
+### Anti-Triggers & Exclusions:
+- Must **NOT** trigger on `"Vanta"`, `"Vanta Brief"`, `"my channel"`, `"make a video"`, `"shorts"`, or `"motion studio"` alone.
+- **NEVER** trigger when another channel's skill is named (e.g. `workflow2-explainer-v2`, `voiceover-to-short`, `workflow4-editor-v1`).
+- Never run for Vanta Brief or any other channel.
 
 ---
 
-## Execution Instructions (from PROMPT-TEMPLATE.md)
+## Input Format & Parsing Rules
 
-### 1. Initialize & Read Order
-Print as the first line of output:
-`hena-vanta v6 loaded [version: v6, STYLE-LOCK: <DRAFT | LOCKED>]`
+The workflow accepts this message format:
+```text
+Use the `hena-vanta` skill.
+- Voiceover: <path to .wav/.mp3>
+- Script: <path to script.txt, or the script pasted in the message>
+- Format: long-form (16:9 1080p) or shorts (vertical)
+- Background: <optional; a video from Branding\Bg; default = D:\Youtube\Hena Vanta\Branding\Bg\bg.mp4>
+```
+
+### Parsing & Pre-Flight Rules:
+1. **Folder Derivation (`VIDEO_DIR`)**:
+   - Derive `VIDEO_DIR` from the voiceover path.
+   - Real layouts on disk:
+     - `D:\Youtube\Hena Vanta\Videos\<name>\` OR
+     - `D:\Youtube\Hena Vanta\Project FIle\Videos\<name>\AI\`
+   - If a path does not exist, search both layouts for `<name>` and use the matching folder.
+   - If multiple matching folders are found, ask the user ONE question to clarify.
+2. **Voiceover**: `.wav` or `.mp3` audio.
+3. **Script**:
+   - If pasted directly, write it to `script.txt` in `VIDEO_DIR`.
+   - If the script has timestamps, import them (`raw.source: "supplied:"`).
+   - If the script lacks timestamps, align to voiceover audio and label `raw.source: "aligned:"`.
+4. **Format**:
+   - `"shorts"` = 1080x1920 vertical.
+   - `"long-form"` = 1920x1080 horizontal.
+   - If format is missing from the request, ask the user ONE question to clarify.
+5. **Background**:
+   - Optional; default is `D:\Youtube\Hena Vanta\Branding\Bg\bg.mp4` (or any video from `D:\Youtube\Hena Vanta\Branding\Bg\`).
+   - Copy to `public/hena-vanta/bg.mp4` in the Remotion project.
+6. **Assets & Output**:
+   - Output folder: `VIDEO_DIR\output` (create it if missing).
+   - SFX Library: `D:\Editor 2.0\SFX + Meme sounds`.
+   - Channel Logo: `D:\Youtube\Hena Vanta\Branding\logo2.png` -> copy to `public/hena-vanta/logo.png`.
+7. **Strict Non-Render Policy**:
+   - **NEVER** render the final video: build the composition, run `validate-v6.mjs` + `qa-frames.mjs`, inspect the stills, then write `render-command.txt` (with loudness check `-14 LUFS, true peak <= -1 dBTP` and word-recovery check `>=98%`) and stop.
+
+---
+
+## Execution Sequence
+
+### 1. Initialize & Mandatory Startup Confirmation
+Always print the complete **Startup Confirmation Block** before any work:
+
+```text
+hena-vanta v6 loaded [v6.0 (final), STYLE-LOCK: LOCKED 2026-11-09]
+Approved reference: projects\hena-vanta-v6-upwork-365
+Checksums: OK / MISMATCH (list files)
+Parsed input:
+  Voiceover: <path> (found: yes/no, duration)
+  Script: <path or pasted -> saved to ...> (timestamps: supplied / aligned)
+  Format: long-form 1920x1080 / shorts 1080x1920
+  Background: <file>
+  VIDEO_DIR: <path>
+  Output: <path>\output
+  SFX folder: D:\Editor 2.0\SFX + Meme sounds
+Skill files edited this run: none
+Other channels' files touched: none
+Render: NOT started (command will be in render-command.txt)
+```
+
+If checksums mismatch, STOP and ask the user before doing anything. If a required input is missing, ask ONE question.
+
+When the build is done, conclude with the **Finish Confirmation Block**:
+```text
+=================== BUILD FINISH CONFIRMATION ===================
+Validation (validate-v6.mjs) : <PASS / FAIL details>
+QA Checks (qa-frames.mjs)   : <checks passed count / total>
+Stills Viewed               : <count> viewed stills with concrete observations
+Scene Count                 : <total scenes>
+Total Runtime               : <runtime in seconds / minutes>
+Footage Notes / Placeholders: <count> rows exported to placeholders.csv
+Render Command Path         : <path to render-command.txt>
+Style used: LOCKED, no skill changes made
+=================================================================
+```
 
 Read the following reference documents in exact order before writing any scene:
 1. `SKILL.md`
@@ -47,7 +109,7 @@ Read the following reference documents in exact order before writing any scene:
 6. `references/IDEA-TO-ANIMATION.md`
 
 ### 2. Work Through Checklist in Order (A1–D5)
-For every item, write `[x] item - evidence` (number, file path, or quoted line). If an item fails, write `[ ] item - why` and stop. Do not render until A–D are `[x]`.
+For every item, write `[x] item - evidence` (number, file path, or quoted line). If an item fails, write `[ ] item - why` and stop.
 
 #### A. Timing
 - [ ] A1: Found timing and voiceover files in the folder.
@@ -72,12 +134,12 @@ For every item, write `[x] item - evidence` (number, file path, or quoted line).
 - [ ] C5: Missing footage represented only as 20px centred grey text notes.
 - [ ] C6: `PLAN.md` completed with idea -> animation ID -> rationale, hook recipe H1–H6.
 
-#### D. QA and Render
+#### D. QA and Render Command
 - [ ] D1: `qa-frames.mjs` passed with 0 failures. Pasted `qa/REPORT.md`.
 - [ ] D2: Opened every still at start, +0.15s, +0.45s, and mid-scene.
 - [ ] D3: Wrote `qa/review.json` with >= 90% stills reviewed.
-- [ ] D4: Rendered via `render.mjs` with -14 LUFS (+/- 1), true peak <= -1 dBTP, word recovery >= 98%.
-- [ ] D5: Final report pasted.
+- [ ] D4: Wrote `render-command.txt` with loudness verification (`-14 LUFS ±1, true peak <= -1 dBTP`) and word recovery (`>=98%`); video NOT auto-rendered.
+- [ ] D5: Exported `placeholders.csv` and `placeholders.edl.txt`.
 
 ---
 
@@ -90,4 +152,3 @@ For every item, write `[x] item - evidence` (number, file path, or quoted line).
 - **E6**: Mock UIs contain no invented numbers.
 - **E7**: Every still opened at start, +0.15s, +0.45s, mid-scene.
 - **E8**: Brand check: grep for forbidden reference creator strings ("ItsProger", "Proger", "5.5M", "346,154", "vidIQ", "ViewStats", "MrBeast", "Wifies", "Noob") = 0 hits; verified logo used.
-

@@ -436,6 +436,168 @@ scenes.forEach((s) => {
   });
 });
 
+// 12. E6: Numbers in mock UI / on-screen stats factual verification against voiceover
+const WORD_TO_NUM = {
+  "zero": 0, "one": 1, "first": 1, "two": 2, "second": 2, "three": 3, "third": 3,
+  "four": 4, "fourth": 4, "five": 5, "fifth": 5, "six": 6, "sixth": 6,
+  "seven": 7, "seventh": 7, "eight": 8, "eighth": 8, "nine": 9, "ninth": 9,
+  "ten": 10, "tenth": 10, "fifteen": 15, "twenty": 20, "thirty": 30,
+  "fifty": 50, "ninety": 90, "hundred": 100, "hundreds": 100, "thousand": 1000,
+  "year": 365, "day": 1, "month": 30
+};
+
+console.log("--- E6 FACTUAL NUMBER & STAT CHECK ---");
+let e6Passed = 0;
+let e6Failed = 0;
+
+scenes.forEach((s, idx) => {
+  const voWords = (s.words || []).map((w) => w.text).join(" ");
+  const prevVo = idx > 0 ? (scenes[idx - 1].words || []).map((w) => w.text).join(" ") : "";
+  const nextVo = idx < scenes.length - 1 ? (scenes[idx + 1].words || []).map((w) => w.text).join(" ") : "";
+  const fullContextVo = `${prevVo} ${voWords} ${nextVo}`.toLowerCase();
+  const sceneVoLower = voWords.toLowerCase();
+
+  const p = s.props || {};
+  const statsInScene = [];
+
+  if (p.countUp) {
+    const val = typeof p.countUp === "object" ? p.countUp.to : p.countUp;
+    statsInScene.push({ type: "countUp", val: String(val) });
+  }
+
+  if (s.anim === "A03" && p.value !== undefined) {
+    statsInScene.push({ type: "StatPill (A03)", val: `${p.value}${p.suffix || ""}` });
+  } else if (s.anim === "A10" && p.value !== undefined) {
+    statsInScene.push({ type: "MetricPill (A10)", val: `${p.value}${p.suffix || ""}` });
+  } else if (s.anim === "A14") {
+    if (p.amount) statsInScene.push({ type: "PricePill (A14)", val: String(p.amount) });
+    if (p.label && /\d/.test(p.label)) statsInScene.push({ type: "CardLabel (A14)", val: p.label });
+    if (p.sub && /\d/.test(p.sub)) statsInScene.push({ type: "Subtext (A14)", val: p.sub });
+  } else if (s.anim === "A45" && p.footnote && /\d/.test(p.footnote)) {
+    statsInScene.push({ type: "Footnote (A45)", val: p.footnote });
+  } else if (s.anim === "A48" && p.headline && /\d/.test(p.headline)) {
+    statsInScene.push({ type: "Mistake (A48)", val: p.headline });
+  } else if (s.anim === "A48" && p.label && /\d/.test(p.label)) {
+    statsInScene.push({ type: "Mistake (A48)", val: p.label });
+  } else if (s.anim === "A54") {
+    if (p.left && /\d/.test(p.left)) statsInScene.push({ type: "CompareLeft (A54)", val: p.left });
+    if (p.right && /\d/.test(p.right)) statsInScene.push({ type: "CompareRight (A54)", val: p.right });
+    if (p.leftLabel && /\d/.test(p.leftLabel)) statsInScene.push({ type: "CompareLeft (A54)", val: p.leftLabel });
+  } else if (s.anim === "A56" && p.value && /\d/.test(p.value)) {
+    statsInScene.push({ type: "BadgeValue (A56)", val: p.value });
+  } else if (s.anim === "A63" && p.time && /\d/.test(p.time)) {
+    statsInScene.push({ type: "Timestamp (A63)", val: p.time });
+  } else if (s.anim === "A27" && p.note && /\d/.test(p.note)) {
+    statsInScene.push({ type: "Note (A27)", val: p.note });
+  } else if (s.anim === "A53" && p.headline && /\d/.test(p.headline)) {
+    statsInScene.push({ type: "JourneyMilestone (A53)", val: p.headline });
+  } else if (s.anim === "A08" && Array.isArray(p.items)) {
+    p.items.forEach((it, iIdx) => {
+      const itStr = typeof it === "string" ? it : it.label || "";
+      if (/\d/.test(itStr)) {
+        statsInScene.push({ type: `ListItem[${iIdx + 1}] (A08)`, val: itStr });
+      }
+    });
+  }
+
+  // Deduplicate stats for the scene
+  const seenVals = new Set();
+  const dedupedStats = [];
+  statsInScene.forEach((st) => {
+    if (!seenVals.has(st.val)) {
+      seenVals.add(st.val);
+      dedupedStats.push(st);
+    }
+  });
+
+  dedupedStats.forEach((st) => {
+    const digits = (st.val.match(/\d+/g) || []).map(Number);
+    let agrees = false;
+
+    for (const d of digits) {
+      if (sceneVoLower.includes(String(d)) || fullContextVo.includes(String(d))) {
+        agrees = true;
+        break;
+      }
+      for (const [w, n] of Object.entries(WORD_TO_NUM)) {
+        if (n === d && (sceneVoLower.includes(w) || fullContextVo.includes(w))) {
+          agrees = true;
+          break;
+        }
+      }
+      if (agrees) break;
+
+      if (d === 365 && (sceneVoLower.includes("year") || fullContextVo.includes("year"))) {
+        agrees = true;
+        break;
+      }
+      if (d === 2000 && (sceneVoLower.includes("2000") || sceneVoLower.includes("two thousand"))) {
+        agrees = true;
+        break;
+      }
+      if ((st.type.startsWith("ListItem") || st.type.startsWith("Mistake")) && [1, 2, 3, 4, 5].includes(d)) {
+        agrees = true;
+        break;
+      }
+      if (st.type.startsWith("JourneyMilestone") && [1, 2, 3, 4, 5, 6, 7].includes(d)) {
+        agrees = true;
+        break;
+      }
+    }
+
+    const status = agrees ? "PASS" : "FAIL";
+    if (agrees) e6Passed++;
+    else e6Failed++;
+
+    console.log(`[E6] Scene ${s.id} (${s.anim}) | On-Screen: "${st.val}" | VO: "${voWords}" | ${status}`);
+
+    if (!agrees) {
+      fail("V6_NUMBER_MISMATCH", `Scene ${s.id} (${s.anim}) on-screen value "${st.val}" does not agree with spoken voiceover words: "${voWords}".`);
+    }
+  });
+});
+
+// 13. E7: Hook Recipe applied (computed from timeline.v6.json)
+const HOOK_RECIPES = [
+  { id: "H1", name: "Experiment", seq: ["A03", "A06", "A05", "A60", "A14", "A08"] },
+  { id: "H2", name: "Money/result", seq: ["A55", "A58", "A57", "A14", "A05"] },
+  { id: "H3", name: "Investigation/truth", seq: ["A57", "A07", "A39", "A14", "A48"] },
+  { id: "H4", name: "Tutorial", seq: ["A02", "A56", "A10", "A11"] },
+  { id: "H5", name: "Explanation", seq: ["A01", "A04", "A33", "A29", "A39"] },
+  { id: "H6", name: "Shorts", seq: ["A55", "A06", "A57", "A14", "A05"] }
+];
+
+const hookAnims = hookScenes.map((s) => s.anim);
+let bestRecipe = null;
+let bestScore = -1;
+let bestMatches = 0;
+
+HOOK_RECIPES.forEach((rec) => {
+  let matches = 0;
+  rec.seq.forEach((targetAnim, idx) => {
+    if (idx < hookAnims.length && hookAnims[idx] === targetAnim) {
+      matches++;
+    }
+  });
+  const score = matches / rec.seq.length;
+  if (score > bestScore) {
+    bestScore = score;
+    bestRecipe = rec;
+    bestMatches = matches;
+  }
+});
+
+const hookFormulaStr = "argmax_{R in {H1..H6}} (sum_{i=0}^{|R|-1} [hookSeq[i] == R.seq[i]] / |R|)";
+const hookComputedResult = `${bestRecipe.id} ${bestRecipe.name} (computed: ${bestMatches}/${bestRecipe.seq.length} sequence match, score: ${bestScore.toFixed(2)})`;
+if (bestScore < 0.5) {
+  fail("V6_HOOK_RECIPE", `Hook sequence [${hookAnims.join(", ")}] does not match any recognized hook recipe (best score: ${bestScore.toFixed(2)} for ${bestRecipe.id}).`);
+}
+
+// 14. Pacing: shortest and longest scenes
+const scenesByDur = [...scenes].map((s) => ({ id: s.id, anim: s.anim, dur: s.end - s.start })).sort((a, b) => a.dur - b.dur);
+const shortest5 = scenesByDur.slice(0, 5);
+const longest5 = scenesByDur.slice(-5).reverse();
+
 const nonA52Distinct = new Set([...distinctIds].filter((id) => id !== "A52"));
 console.log("\n=================== E1-E8 AUDIT SUMMARY ===================");
 console.log(`E1 Distinct animation IDs : ${distinctIds.size} (${nonA52Distinct.size} excluding A52: ${[...nonA52Distinct].join(", ")})`);
@@ -443,10 +605,13 @@ console.log(`E2 Scene -> ID sequence   : ${scenes.map((s) => s.anim).slice(0, 20
 console.log(`E3 Text-only runtime %    : ${textOnlyPct.toFixed(1)}% (target <= 20%)`);
 console.log(`E4 Visual events in 15s   : ${hookEvents} events, ${hookIds.size} distinct IDs`);
 console.log(`E5 FootageNote count      : ${a52Scenes.length} scenes vs ${placeholdersCsvRows} in placeholders.csv (${bareFootagePct.toFixed(1)}% runtime)`);
-console.log(`E6 Numbers in mock UI     : Verified factual against voiceover`);
-console.log(`E7 Hook recipe applied    : H1 Experiment`);
+console.log(`E6 Numbers in mock UI     : Verified factual (${e6Passed}/${e6Passed + e6Failed} stats passed, ${e6Failed} mismatches)`);
+console.log(`E7 Hook recipe formula    : ${hookFormulaStr}`);
+console.log(`E7 Hook recipe applied    : ${hookComputedResult}`);
 console.log(`E8 Brand string grep      : 0 forbidden strings found`);
 console.log(`Pacing Max No-Change Gap  : ${worstSceneGap.toFixed(2)}s (worst scene: ${worstSceneId}, target <= 3.0s)`);
+console.log(`Pacing 5 Shortest Scenes  : ${shortest5.map((s) => `${s.id} (${s.anim}, ${s.dur.toFixed(2)}s)`).join(", ")}`);
+console.log(`Pacing 5 Longest Scenes   : ${longest5.map((s) => `${s.id} (${s.anim}, ${s.dur.toFixed(2)}s)`).join(", ")}`);
 console.log(`SFX Cues Count & Cat      : Timeline: ${timelineSfxCount} (${JSON.stringify(timelineSfxCategories)}), CSV: ${sfxCsvRowCount} (${JSON.stringify(sfxCsvCategories)})`);
 console.log(`QA Stills Review          : ${viewedCount} viewed stills, ${automatedOnlyCount} automated-only`);
 console.log("===========================================================\n");

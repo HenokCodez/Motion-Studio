@@ -1,110 +1,103 @@
 # Hena Vanta Style Lock
 
-STATUS: DRAFT
+STATUS: LOCKED (Approved 2026-11-09)
 
-## 1. Skill Version
-- **Version**: 6.0 (final)
-- **Engine**: Remotion (Antigravity)
-- **Resolution**: 1920x1080 (shorts: 1080x1920) @ 30 fps
+> [!IMPORTANT]
+> The Hena Vanta visual style is officially **LOCKED** based on the approved benchmark production `projects\hena-vanta-v6-upwork-365`.
+> From now on, these specifications may change **ONLY** if the user explicitly says the exact phrase: **"update the skill"**.
 
-## 2. Palette Tokens
-- **Ink (Text & Dark Accents)**: `#0B0B0F`
-- **Paper (Base White)**: `#FFFFFF`
-- **Red (Hero Keyword / Alert)**: `#E01E2D`
-- **Blue (Telemetry / Accent)**: `#1673FF`
-- **Green (Success / Positive Metric)**: `#27C75A`
-- **Amber (Warning / Neutral)**: `#FFB020`
-- **Grey (Subtle Fills & Backgrounds)**: `#EDEDF0`
-- **Mute (Secondary Text & Labels)**: `#8C8C93`
-- **Card (Card Surfaces)**: `#F6F6F8`
-- **Line (Dividers & Connectors)**: `#D7D7DD`
-- **Background**: Light white grid loop (`public/hena-vanta/bg.mp4`), muted.
+---
 
-## 3. Typography
-- **Font Stack**: `Inter, 'Inter Variable', -apple-system, 'Segoe UI', Arial, sans-serif`
-- **Hierarchy**:
-  - Hero Words / Punch Titles: 80px–120px, bold/extra-bold
+## 1. Approval Record & Reference Benchmark
+- **Status**: `LOCKED`
+- **Approval Date**: `2026-11-09`
+- **Approved Video**: `projects\hena-vanta-v6-upwork-365` ("1. I tried Upwork for 365 days...is it worth it")
+- **Final Timeline Path**: `projects/hena-vanta-v6-upwork-365/src/timeline.v6.json`
+- **Approved Snapshot**: `.agents/skills/hena-vanta/reference/approved-upwork-365/` (`timeline.v6.json`, `SceneView.tsx`)
+- **Key Metrics**: 171 scenes, 903.84s runtime (15m 03s), 24 distinct animation IDs, 14.7% text-only runtime, 6.5% bare footage (13 FootageNotes), 100% factual number agreement (48/48 stats passed), H1 Experiment hook recipe (6/6 sequence match, score: 1.00), worst no-change gap 1.34s (target $\le 3.0$s).
+
+---
+
+## 2. Animation IDs Actually Used (24 Distinct Catalog IDs)
+Only catalog animations are allowed. The approved video verified and used the following 24 distinct IDs:
+- **Text & Kinetic Voice**: `A02` (kinetic word stack), `A05` (single word swap with red keyword).
+- **Numbers, Metrics & Milestones**: `A03` (count-up stat pill with sparkline), `A10` (metric pill with delta / percentage), `A14` (window card with price tag & proof capture), `A36` (journey milestone progress bar), `A56` (checklist card with dynamic ticks), `A63` (terminal window with timestamp badge).
+- **Dialogue & Objections**: `A06` (iMessage bubble with strike-through), `A07` (dual dialogue reply bubble stack).
+- **Lists & Architecture**: `A08` (3 list cards staggered entrance with number badges), `A11` (clean browser window with titlebar dots), `A22` (interactive folder / player view), `A27` (split terminal & editor view), `A38` (workflow steps sequencer), `A39` (overlapping Venn diagram), `A45` (screenshot card with italic mute footnote), `A47` (dual workspace compare panel), `A50` (macOS system notification card), `A53` (master journey roadmap), `A54` (split side-by-side comparison), `A60` (search bar typing with question).
+- **Footage Slots**: `A52` (FootageNote text on grid, 0 black boxes).
+
+---
+
+## 3. Motion Numbers Actually Used
+All motion follows these strict mathematical parameters:
+- **Camera Drift** (`<Scene>`):
+  - Translate X in `[-24, +24]` px (seeded by scene index).
+  - Translate Y in `[-16, +16]` px.
+  - Scale: `1.00 -> 1.04` over scene duration.
+  - Easing: Linear.
+- **Blur Hand-Off & Overlap**:
+  - `softIn`: opacity `0 -> 1`, blur `12 -> 0` px, translateY `24 -> 0` px, scale `0.96 -> 1.0` over 8–12 frames (cubic-out).
+  - `blurOut`: opacity `1 -> 0`, blur `0 -> 14` px, scale `1.0 -> 1.03` over 8 frames (quad-in).
+  - Scene hand-off overlap: 6 frames between outgoing and incoming scenes. Never hard-cut, never dip to white/black.
+- **Word-Sync Offset**:
+  - Words arrive at `wordStartFrame - 3` (-0.10s at 30 fps).
+  - Entrance `wordPop`: 12 frames, spring `{damping: 18, stiffness: 220, mass: 0.6}`.
+  - Centering shift: spring `{damping: 20, stiffness: 160}`.
+
+---
+
+## 4. Palette Tokens
+Strictly enforced; `#FF0000` is banned:
+- **Ink**: `#0B0B0F` (Text, diagram strokes, high-contrast marks)
+- **Paper**: `#FFFFFF` (Base cards, surfaces, clean canvas)
+- **Red**: `#E01E2D` (HV.red — hero keyword, strike-through, alerts, trap warnings)
+- **Blue**: `#1673FF` (Telemetry, count-up stat pill, active dialogue bubble)
+- **Green**: `#27C75A` (Growth, positive delta, verified badges)
+- **Amber**: `#FFB020` (Caution, 1x tags, milestone accents)
+- **Grey**: `#EDEDF0` (Secondary bubble, subtle fills, skeleton bars)
+- **Mute**: `#8C8C93` (FootageNote, footnotes, ghost labels)
+- **Card**: `#F6F6F8` (Elevated card background)
+- **Line**: `#D7D7DD` (Dividers, borders, connectors)
+
+---
+
+## 5. Typography Standards
+- **Font Family**: `Inter, 'Inter Variable', -apple-system, 'Segoe UI', Arial, sans-serif`
+- **Case Rule**: Sentence case everywhere. ALL CAPS is strictly forbidden except for the warning tag in `A48`.
+- **Weights & Scales**:
+  - Hero Words / Punch Titles: 80px–120px, bold/extra-bold (600–800)
   - Object Text / Cards / Windows: 36px–56px, semi-bold
   - Minor Telemetry / Tags: 24px–32px, medium
-  - FootageNote: 20px, centred, regular
+  - Footnote: 20px–24px, italic 400
+  - FootageNote: 20px, medium (500)
 
-## 4. Motion Vocabulary (Exact from references/MOTION-PRINCIPLES.md)
+---
 
-### 1. One continuous "virtual camera"
-Objects are not cut in; they travel through a camera that is always very slowly moving.
-* **Drift** (`<Scene drift>`): over the whole scene translate X by a random-but-seeded value in [-24, +24] px and Y in [-16, +16] px, and scale 1.00 -> 1.04. Linear easing. Seed from the scene index so neighbouring scenes drift in different directions.
-* **Hand-off, not cut.** The outgoing object blurs out while moving ~40 px in the direction of drift; the incoming object blurs in from the other side. They overlap for 6 frames. See "blurOut / blurIn" below. Never hard-cut and never fade through white.
-* **Objects morph into each other**: the same window stays on screen while its contents change (A11 -> A12 -> A13 -> A14 are ONE window). Prefer reusing a persistent container to starting a new one.
-* **Pan reveals**: a card larger than the frame can slide so only part is visible (A13, A21, A32). Pan on ease-in-out over 20–30 frames, ends inside the safe area.
+## 6. Background File & Rendering Pipeline
+- **Source**: `D:\Youtube\Hena Vanta\Branding\Bg\bg.mp4` (copied to `public/hena-vanta/bg.mp4`).
+- **Characteristics**: 1920x1080 @ 60fps (30.0s loop), flat orthogonal clean white grid, zero lens/barrel distortion.
+- **Rendering Architecture**: Mounted in `Background.tsx` using Remotion's `<OffthreadVideo>` inside a `<Loop durationInFrames={900}>`.
+  - Muted, full-bleed 1920x1080 (`objectFit: 'cover'`).
+  - Isolated from scene drift and transforms so the grid stays completely planar and undistorted.
+  - Off-thread extraction bypasses Chrome HTML5 media decoder to prevent timeout hangs during high-concurrency renders.
 
-### 2. Words arrive at the spoken time
-* A word's entrance starts at `wordStartFrame - 3`.
-* **Entrance "wordPop"** (12 frames): opacity 0->1 over 6f, translateY +14 -> 0 px, blur 8px -> 0, scale 0.92 -> 1. spring `{damping: 18, stiffness: 220, mass: 0.6}`.
-* Previous words do not vanish: they stay until the phrase ends, shift to keep the phrase centred (spring `{damping: 20, stiffness: 160}`), and may dim to 100%->70% opacity when older than 4 words.
-* **Phrase out**: all words blurOut together 4 frames after the last word was spoken, unless the next scene reuses the object.
-* **Emphasis**: red keyword (`HV.red`) or italic. Never bold + red + underline together. Never more than 2 emphasised words per phrase.
+---
 
-### 3. Object entrances (the full vocabulary)
-All frame counts at 30 fps. Use ONLY these. A scene uses at most two.
+## 7. Channel Logo
+- **Source**: `D:\Youtube\Hena Vanta\Branding\logo2.png` -> `public/hena-vanta/logo.png`.
+- **Usage**: Small avatar size in channel headers (`A33`), player rows (`A01`), and chapter cards (`A64`). Never watermarked across full frames.
 
-| Name | Motion |
-|---|---|
-| `softIn` | opacity 0->1, blur 12->0 px, translateY 24->0, scale 0.96->1; 12 f; easing out-cubic. Default for anything calm (cards, screenshots, windows). |
-| `popIn` | scale 0.6 -> 1.06 -> 1 (spring damping 11, stiffness 260, mass 0.7), opacity 0->1 in first 4 f. For pills, badges, bubbles, stats (things that "land"). |
-| `slideIn` | translateX +120 px -> 0 (or -120), opacity 0->1 in 6 f, blur 6->0; 14 f; out-quart. For lists and side panels. |
-| `riseIn` | translateY +80 -> 0, blur 10->0, opacity 0->1; 14 f; out-cubic. For stacks that grow upward/downward (A07, A19, A40). |
-| `drawOn` | stroke-dashoffset 100%->0 over N f, out-quad. For lines, circles of a diagram, S-curve, chart. |
-| `typeOn` | characters appear at 1 per 2 f with no blur. Only for the search bar (A60) and typed numbers. |
-| `countUp` | number eased with out-expo from 0 to target over 45 f, digits tabular; the pill is already on screen at f0. |
-| `cursorGlide` | cursor moves on a quadratic bezier with ease-in-out, 18–30 f, tiny overshoot (3 px) then settles; a click = scale 1 -> 0.88 -> 1 over 6 f at the target, target pill `scale 0.97` + blur 1.5 px for 4 f ("pressed"). |
-| `blurOut` | opacity 1->0, blur 0->14 px, scale 1->1.03; 8 f; in-quad. Always the exit. |
-| `focusDim` | non-active items opacity 1 -> 0.3 and blur 0 -> 1.5 px over 8 f; active item scale 1.04. |
+---
 
-Easing: `Easing.out(Easing.cubic)` default; `Easing.inOut(Easing.cubic)` for pans; springs only for popIn and re-layout.
-
-## 5. FootageNote Rule (Missing Footage Slots)
-- **Constraint**: NO black boxes, NO fills, NO outlines, NO drawn shapes.
-- **Specification**: Exactly ONE line of 20px text, centred at the slot centre (`960, 540 ± 2px`), coloured Mute (`#8C8C93`).
+## 8. FootageNote Rule (Missing Footage Slots)
+- **Constraint**: NO black boxes, NO dark fills, NO outlines, NO drawn shapes.
+- **Specification**: Exactly ONE line of 20px text, centred at the slot centre (`(960, 540)` for full frame), coloured Mute (`#8C8C93`).
 - **Label Format**: `"TYPE: what to show"` where TYPE must be strictly one of: `GAMEPLAY | SCREEN REC | B-ROLL | PHOTO | FACE CAM | CHART`.
-- **Purpose**: Zero visual clutter so the editor's B-roll / A-roll in Premiere Pro completely covers the note without letterbox artifacts.
-
-## 5.1. v6 Architecture, Schema & Isolation Rules
-- **Project Isolation**: Every v6 build lives in a fresh folder `projects/hena-vanta-v6-<slug>/`. Reusing previous project components, `timeline.json`, `PLAN.md`, `review.json`, or stills is strictly prohibited.
-- **Timeline Schema**: `src/timeline.v6.json` using valid catalog IDs (`A01`–`A64`). The legacy v5 layouts (`STACK`, `LIST`, `STEPS`, `JOURNEY`) and `PlaceholderBox` are strictly forbidden.
-- **Palette Enforcement**: Red is `#E01E2D` (`HV.red`). `#FF0000` is an automatic failure.
-- **Auditing & Gates**:
-  - `scripts/validate-v6.mjs` enforces E1–E8 numbers, palette, density ($\le 20\%$ text-only), and repetition limits.
-  - D2 still review requires the agent to actually view and record observations for 10+ stills in `qa/review.json`.
-
-## 6. Brand & Reference Integrity Rule
-- **Channel Identity**: "Hena Vanta" only.
-- **Logo**: Genuine channel logo from `public/hena-vanta/logo.png`. Used small (avatar size) in channel rows, headers, and chapter cards.
-- **Forbidden Reference Strings**: Grep check must return 0 hits for `"ItsProger"`, `"Proger"`, `"5.5M"`, `"346,154"`, `"vidIQ"`, `"ViewStats"`, `"MrBeast"`, `"Wifies"`, `"Noob"`.
-- **Zero Invention**: Real screenshots and metrics only. Never invent placeholder numbers or copy numbers from catalog reference images.
+- **Budget**: Bare footage $\le 25\%$ of runtime, $\le 6.0$s consecutively.
+- **Export**: Exported to `output/placeholders.csv` for Premiere Pro timeline assembly.
 
 ---
 
-## 7. Style Lock Lifecycle & Behaviour
-- **While DRAFT**: Build videos normally with the v6 skill.
-- **Approval Trigger**: When the user says **"approve this video"** (exact words):
-  1. Set status to `LOCKED`.
-  2. Record the video name and date.
-  3. Fill **Approved animation IDs** with the IDs used in that video and their per-scene timings and durations.
-  4. Record average words-per-scene, scene length, text-only %, distinct IDs, and hook recipe used.
-  5. Save 8 approved stills into `references/approved/<video-name>/`.
-- **When LOCKED**:
-  1. Every new video must follow those approved numbers and prefer the approved animation IDs.
-  2. New IDs may be added only if the sentence has no approved match, and must be listed in `PLAN.md` as "new, needs approval".
-  3. When the user says **"reject <ID> because <reason>"**, add it to the rejected list and never use it again.
-  4. Modifying a LOCKED rule requires the exact words **"update the skill"**.
-
----
-
-## 8. Approved Animation IDs
-*(Empty while in DRAFT status — populated upon user approval)*
-
----
-
-## 9. Rejected Animation IDs and Why
-*(Empty while in DRAFT status — populated upon user rejection)*
-
+## 9. Governance & Change Control
+- **LOCKED Status**: Active.
+- Modifying any rule, token, component, or parameter in this file or `.agents/skills/hena-vanta/` requires the user to explicitly say: **"update the skill"**.

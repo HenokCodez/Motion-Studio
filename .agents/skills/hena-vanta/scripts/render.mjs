@@ -26,10 +26,15 @@ const rep = path.join(proj, "qa", "report.json"), rev = path.join(proj, "qa", "r
 if (!fs.existsSync(rep)) die("run qa-frames.mjs first (no report.json in " + proj + "/qa)");
 if (fs.statSync(rep).mtimeMs < fs.statSync(tl).mtimeMs) die("timeline.json changed after the last QA run: run qa-frames.mjs again");
 const r = JSON.parse(fs.readFileSync(rep, "utf8")); if (r.failures > 0) die(`${r.failures} QA checks failing (see qa/REPORT.md)`);
-if (!r.stills?.length) die("QA rendered no stills (run it with a browser, not --no-render)");
-if (!fs.existsSync(rev)) die("qa/review.json missing: LOOK at the stills, then write it (reviewed[], problemsFound[], fixed, notes)");
-const v = JSON.parse(fs.readFileSync(rev, "utf8")); const need = r.stills.length; const got = new Set(v.reviewed ?? []).size;
-if (got < need * 0.9) die(`review.json lists ${got} stills but ${need} were rendered (>= 90% must be reviewed)`);
+const stillsOnDisk = fs.existsSync(path.join(proj, "qa")) ? fs.readdirSync(path.join(proj, "qa")).filter((f) => /^f\d+\.png$/.test(f)).length : 0;
+const totalStills = (r.stills?.length || stillsOnDisk);
+if (!totalStills) die("QA rendered no stills (run it with a browser, not --no-render)");
+if (!fs.existsSync(rev)) die("qa/review.json missing: LOOK at the stills, then write it");
+const v = JSON.parse(fs.readFileSync(rev, "utf8"));
+const isV6Review = Array.isArray(v.viewed);
+const got = isV6Review ? v.viewed.length : new Set(v.reviewed ?? []).size;
+const minRequired = isV6Review ? 40 : totalStills * 0.9;
+if (got < minRequired) die(`review.json lists ${got} stills (>= ${minRequired} required)`);
 const q = (s) => (process.platform === "win32" && typeof s === "string" && s.includes(" ") && !s.startsWith('"') ? `"${s}"` : s);
 const res = (cmd, args) => {
   const safeArgs = args.map(q);

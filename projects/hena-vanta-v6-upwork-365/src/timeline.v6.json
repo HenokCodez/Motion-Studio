@@ -2035,13 +2035,12 @@
       "id": "s27",
       "start": 116.5,
       "end": 121,
-      "anim": "A03",
+      "anim": "A47",
       "props": {
-        "value": 6,
-        "start": 10,
-        "suffix": " samples",
-        "tone": "green",
-        "sparkline": false
+        "prefix": "learned the skill,",
+        "keyword": "sample work",
+        "suffix": "first",
+        "keywordColor": "#27C75A"
       },
       "words": [
         {
@@ -2106,8 +2105,8 @@
           "time": 120.54
         }
       ],
-      "idea": "Big number milestone stat pill",
-      "why": "Locks the optimal focused sample count takeaway (A03)"
+      "idea": "Calm italic takeaway on building proof",
+      "why": "Highlights focused sample work first without invented numbers"
     },
     {
       "id": "s28",
@@ -5586,15 +5585,10 @@
       "id": "s75",
       "start": 351.74,
       "end": 355.74,
-      "anim": "A03",
-      "props": {
-        "value": 5,
-        "start": 0,
-        "suffix": " periodic invites",
-        "tone": "blue"
-      },
-      "idea": "Stat pill on incoming invitation count",
-      "why": "Number itself is the object (A03)",
+      "anim": "A02",
+      "props": {},
+      "idea": "Spoken text on incoming invitations",
+      "why": "Displays genuine client invite flow without placeholder count",
       "words": [
         {
           "text": "a",
@@ -10109,21 +10103,21 @@
       "start": 634.08,
       "end": 646.08,
       "anim": "A36",
-      "idea": "Full day work required for 30 dollars",
-      "why": "A36 visualizes full day time expenditure",
+      "idea": "Evaluation timeline for lowball offer",
+      "why": "Milestones reflect verbatim spoken economics",
       "props": {
         "milestones": [
           {
-            "time": "Hour 1",
-            "label": "Script & timestamps"
+            "time": "",
+            "label": "Initial offer"
           },
           {
-            "time": "Hour 4",
-            "label": "Asset generation"
+            "time": "All day",
+            "label": "Required effort"
           },
           {
-            "time": "Hour 8",
-            "label": "Final revision"
+            "time": "Declined",
+            "label": "Final decision"
           }
         ]
       },
@@ -10548,12 +10542,11 @@
       "id": "s138",
       "start": 662.14,
       "end": 667.9,
-      "anim": "A03",
-      "idea": "Power of turning down mismatched projects",
-      "why": "A03 punches key decision verb",
+      "anim": "A06",
+      "idea": "Refusal boundary takeaway",
+      "why": "Bubble states clear boundary on saying no",
       "props": {
-        "text": "Saying no",
-        "note": "Protecting schedule and rating"
+        "start": 0
       },
       "words": [
         {
@@ -11410,12 +11403,11 @@
       "id": "s146",
       "start": 719.4,
       "end": 723.32,
-      "anim": "A03",
-      "idea": "Disclosing lack of expert status",
-      "why": "A03 punches personal honesty statement",
+      "anim": "A07",
+      "idea": "Honest perspective takeaway",
+      "why": "Clear reply bubble reflection",
       "props": {
-        "text": "Not an expert",
-        "note": "Personal perspective"
+        "start": 0
       },
       "words": [
         {
@@ -12573,21 +12565,11 @@
       "id": "s156",
       "start": 791.1,
       "end": 799.4,
-      "anim": "A35",
-      "idea": "Portfolio weight versus description copy",
-      "why": "A35 shows data distribution of hiring influence",
+      "anim": "A06",
+      "idea": "Profile clarity message",
+      "why": "Speaks directly to keeping profile simple and focused",
       "props": {
-        "title": "Client decision weight",
-        "items": [
-          {
-            "label": "Portfolio",
-            "value": 80
-          },
-          {
-            "label": "Bio text",
-            "value": 20
-          }
-        ]
+        "start": 0
       },
       "words": [
         {
@@ -13164,21 +13146,21 @@
       "start": 829.94,
       "end": 837.76,
       "anim": "A36",
-      "idea": "Timeline of perseverance and pivot",
-      "why": "A36 visualizes lengthy perseverance sequence",
+      "idea": "Multi-stage progression",
+      "why": "Reflects spoken journey steps",
       "props": {
         "milestones": [
           {
-            "time": "Month 1",
-            "label": "Profile reset"
+            "time": "Months",
+            "label": "Near zero results"
           },
           {
-            "time": "Month 4",
-            "label": "Local editing"
+            "time": "Locally",
+            "label": "Client experience"
           },
           {
-            "time": "Month 8",
-            "label": "Refined craft"
+            "time": "Skills",
+            "label": "Craft refinement"
           }
         ]
       },
@@ -14232,12 +14214,11 @@
       "id": "s170",
       "start": 897.52,
       "end": 903.84,
-      "anim": "A03",
-      "idea": "Call to action commenting Upwork",
-      "why": "A03 punches the final viewer engagement call",
+      "anim": "A06",
+      "idea": "Community call to action",
+      "why": "Clean kinetic callout for comments",
       "props": {
-        "text": "Comment Upwork",
-        "note": "For detailed technical breakdown"
+        "start": 0
       },
       "words": [
         {

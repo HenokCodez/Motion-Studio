@@ -1,9 +1,69 @@
 ---
 name: hena-vanta
-description: Builds full Hena Vanta videos in Remotion (Antigravity) from a voiceover + time-stamped script, using a kinetic one-word-at-a-time motion language on the white grid background. Use for any Hena Vanta long-form or Shorts build. Version 6 (final).
+description: Builds Hena Vanta videos (Remotion kinetic style, white grid bg). Use when the user says 'Use the hena-vanta skill', 'use hena-vanta', /hena-vanta, HV6, Hena Vanta, or gives a path under D:\Youtube\Hena Vanta\. Never use for Vanta Brief or any other channel, and never when another channel's skill is named.
 ---
 
 # Hena Vanta video skill — v6 (final)
+
+> [!IMPORTANT]
+> Always print the **Startup Confirmation Block** filled with real values as the first reply of every Hena Vanta run before any work:
+> ```text
+> hena-vanta v6 loaded [v6.0 (final), STYLE-LOCK: LOCKED 2026-11-09]
+> Approved reference: projects\hena-vanta-v6-upwork-365
+> Checksums: OK / MISMATCH (list files)
+> Parsed input:
+>   Voiceover: <path> (found: yes/no, duration)
+>   Script: <path or pasted -> saved to ...> (timestamps: supplied / aligned)
+>   Format: long-form 1920x1080 / shorts 1080x1920
+>   Background: <file>
+>   VIDEO_DIR: <path>
+>   Output: <path>\output
+>   SFX folder: D:\Editor 2.0\SFX + Meme sounds
+> Skill files edited this run: none
+> Other channels' files touched: none
+> Render: NOT started (command will be in render-command.txt)
+> ```
+> If checksums mismatch, STOP and ask the user before doing anything. If a required input is missing, ask ONE question.
+> NEVER render the video: build, run `validate-v6.mjs` + `qa-frames.mjs`, view the stills, write `render-command.txt` (with loudness and word-recovery checks), and stop.
+
+## Input Format & Project Intake
+
+The skill accepts this exact user prompt format and runs the full workflow from it:
+
+```text
+Use the `hena-vanta` skill.
+- Voiceover: <path to .wav/.mp3>
+- Script: <path to script.txt, or the script pasted in the message>
+- Format: long-form (16:9 1080p) or shorts (vertical)
+- Background: <optional; a video from Branding\Bg; default = D:\Youtube\Hena Vanta\Branding\Bg\bg.mp4>
+```
+
+### Rules for Reading & Parsing Inputs:
+1. **Folder Derivation**:
+   - Derive `VIDEO_DIR` from the voiceover path.
+   - The real layout may be `D:\Youtube\Hena Vanta\Videos\<name>\` OR `D:\Youtube\Hena Vanta\Project FIle\Videos\<name>\AI\`.
+   - If a path does not exist, search both layouts for the folder name and use the match.
+   - Ask the user ONE question only if there are several matches.
+2. **Voiceover**: `.wav` or `.mp3`.
+3. **Script**:
+   - If pasted in the chat prompt, save it as `script.txt` in `VIDEO_DIR`.
+   - If the script has timestamps, import them (label `raw.source: "supplied:"`).
+   - If the script lacks timestamps, align it to the voiceover audio and label `raw.source: "aligned:"`.
+4. **Format**:
+   - `"shorts"` = 1080x1920 vertical.
+   - `"long-form"` = 1920x1080 horizontal.
+   - If missing from the prompt, ask the user ONE question to clarify format before proceeding.
+5. **Background**:
+   - Optional parameter; default is `D:\Youtube\Hena Vanta\Branding\Bg\bg.mp4` (or any video from `Branding\Bg`).
+   - Copy to `public/hena-vanta/bg.mp4` in the Remotion project.
+6. **Output & Directories**:
+   - Output directory: `VIDEO_DIR\output` (create it if it does not exist).
+   - SFX Library: `D:\Editor 2.0\SFX + Meme sounds`.
+   - Logo: `D:\Youtube\Hena Vanta\Branding\logo2.png` -> copy to `public/hena-vanta/logo.png`.
+7. **Execution & Non-Render Policy**:
+   - NEVER render the video: build, run `validate-v6.mjs` + `qa-frames.mjs`, view the stills, then write `render-command.txt` (with loudness `-14 LUFS, true peak <= -1 dBTP` and word-recovery `>=98%` checks) and stop.
+
+---
 
 You build the full video in one go. You cannot see the reference video, so everything you need to reproduce its look
 is written down here and in `references/`. READ THE FILES IN THE ORDER BELOW BEFORE WRITING ANY SCENE.
@@ -31,7 +91,7 @@ thumbnails/logos of other people). They exist ONLY to show layout and motion. Th
   those are placeholders to be replaced with OUR content or removed.
 * Every place the references show a channel identity (A01 channel row, A13 avatars, A33 channel header, A36/A40-A43 thumbnails),
   use **Hena Vanta**: the channel name "Hena Vanta" and OUR logo.
-* **Logo**: use the user's own logo file (assumed `D:\Youtube\Hena Vanta\Branding\Logo` -> copy to `public/hena-vanta/logo.png`; if this file is
+* **Logo**: use the user's own logo file (`D:\Youtube\Hena Vanta\Branding\logo2.png` -> copy to `public/hena-vanta/logo.png`; if this file is
   missing, stop and ask the user for the path; do NOT invent or draw a logo, and do NOT use the "HV" circle drawn in the schematic frames,
   it is only a slot marker). The logo appears small (avatar-size) in A01/A13/A33 and the chapter card A64; never large, never every scene.
 * Examples/thumbnails come only from OUR captures of real things named in the script (C4), with credit (A43), never from the references.
@@ -100,9 +160,23 @@ Checklist (write `[x] item - evidence` for each; stop and report at the first im
 
 **C. VISUALS** C1 no drawn marks (rule 8). C2 only catalog animations; every beat in PLAN.md has `idea -> animation ID -> why`. C3 story over time = ONE master journey (A53) with 3–8 events (label + note), one event per scene, line extends one event per scene, nothing revealed early. C4 real screenshot/photo for every named site/tool/product/person/page-number, rejected if blocked/denied/captcha/consent/blank, opened and `verified:true` with source+date, PASS/FAIL list. C5 failed captures become labelled FootageNotes and are reported. C6 PLAN.md filled (beat table, sources+licences, FLAGs, animation-ID column).
 
-**D. QA + RENDER** D1 `qa-frames.mjs --folder <folder>` = 0 failures, `qa/REPORT.md` pasted in full. D2 open every still (also +0.15 s and +0.45 s after each element starts) and check: centred, off edges, no overlap with footage slot, mid-state of the entrance visible (blur/scale in progress), drift present, journey not cropped, steps one at a time, real screenshots, red words red from frame 1, FootageNote exactly centred and 20 px. D3 `qa/review.json`; max 5 fix loops. D4 render only via `render.mjs <out> --voiceover <file>`; -14 LUFS ±1, true peak <= -1 dBTP, >=98% voiceover words recovered. D5 `placeholders.csv`.
+**D. QA + RENDER COMMAND** D1 `qa-frames.mjs --folder <folder>` = 0 failures, `qa/REPORT.md` pasted in full. D2 open every still (also +0.15 s and +0.45 s after each element starts) and check: centred, off edges, no overlap with footage slot, mid-state of the entrance visible (blur/scale in progress), drift present, journey not cropped, steps one at a time, real screenshots, red words red from frame 1, FootageNote exactly centred and 20 px. D3 `qa/review.json`; max 5 fix loops. D4 render command: write `render-command.txt` containing the exact render command, followed by loudness verification (`-14 LUFS ±1, true peak <= -1 dBTP`) and word-recovery verification (`>=98%` words recovered); NEVER auto-render the video. D5 `placeholders.csv`.
 
 **FINAL REPORT**: full checklist with evidence; pasted QA report; counts (beats by animation ID, text-only %, bare footage %, images captured/failed/FLAG, SFX cues, distinct animation IDs used); list of every FootageNote with timecode; everything unverified + assumptions. Never say "done" or "QA passed" without the numbers. Do not publish.
+
+**Finish Confirmation Block**: When the build is complete, always conclude your response with this exact summary block:
+```text
+=================== BUILD FINISH CONFIRMATION ===================
+Validation (validate-v6.mjs) : <PASS / FAIL details>
+QA Checks (qa-frames.mjs)   : <checks passed count / total>
+Stills Viewed               : <count> viewed stills with concrete observations
+Scene Count                 : <total scenes>
+Total Runtime               : <runtime in seconds / minutes>
+Footage Notes / Placeholders: <count> rows exported to placeholders.csv
+Render Command Path         : <path to render-command.txt>
+Style used: LOCKED, no skill changes made
+=================================================================
+```
 
 ## v6 build rules
 

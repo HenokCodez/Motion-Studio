@@ -4,295 +4,295 @@
       "file": "f000027.png",
       "scene": "s01",
       "anim": "A03",
-      "observation": "Stat pill countup showing 365 days milestone with blue sparkline perfectly centered."
+      "time": "2026-11-09T06:51:48+03:00",
+      "observation": "Stat pill countup showing 354 days with light green sparkline behind it on white grid."
     },
     {
       "file": "f000078.png",
       "scene": "s02",
       "anim": "A06",
-      "observation": "iMessage chat bubble with kinetic strike-through negation on claim text."
+      "time": "2026-11-09T06:51:56+03:00",
+      "observation": "Centered blue iMessage bubble showing \"Upwork and honestly\" with clean typography."
     },
     {
       "file": "f000144.png",
       "scene": "s03",
       "anim": "A05",
-      "observation": "Single word swap text at 88px size, clean contrast on white grid."
+      "time": "2026-11-09T06:52:12+03:00",
+      "observation": "Single bold red keyword \"wasn't\" in HV.red (#E01E2D) centered on white grid."
     },
     {
       "file": "f000225.png",
       "scene": "s04",
       "anim": "A60",
-      "observation": "Search-bar question pill with magnifier glyph and typed question text."
+      "time": "2026-11-09T06:52:26+03:00",
+      "observation": "macOS browser card with control buttons and centered search bar containing \"Search query\"."
     },
     {
       "file": "f000309.png",
       "scene": "s05",
       "anim": "A14",
-      "observation": "Dark screenshot inside window card with scale zoom on Google search context."
+      "time": "2026-11-09T06:52:36+03:00",
+      "observation": "macOS window card titled \"Google search page (public)\" holding verified Google search homepage capture."
     },
     {
       "file": "f000395.png",
       "scene": "s06",
       "anim": "A08",
-      "observation": "List cards slide-in showing 3 parallel items with distinct indicator dots."
+      "time": "2026-11-09T06:52:46+03:00",
+      "observation": "List cards layout under \"Expected Blueprint\" heading: blue row \"1. First 2 clients\", green row \"2. Smooth growth\"."
     },
     {
       "file": "f000480.png",
       "scene": "s07",
       "anim": "A02",
-      "observation": "WordSync 2-line kinetic word stack at 56px with proper line wrap."
+      "time": "2026-11-09T06:52:51+03:00",
+      "observation": "Centered kinetic phrase \"was I wrong. So in this video\" with red highlight on \"wrong.\"."
     },
     {
       "file": "f000593.png",
       "scene": "s08",
       "anim": "A53",
-      "observation": "Journey master timeline showing sequential milestone nodes."
+      "time": "2026-11-09T06:52:55+03:00",
+      "observation": "Journey master timeline opening node \"Day 1\" with blue pin and date subtitle \"March 10, 2025\"."
     },
     {
       "file": "f000705.png",
       "scene": "s09",
       "anim": "A11",
-      "observation": "Window frame displaying Premiere Pro interface with clean macOS-style chrome."
+      "time": "2026-11-09T06:53:00+03:00",
+      "observation": "Window card titled \"Premiere Pro workspace (illustrative)\" with verified web plate."
     },
     {
       "file": "f000840.png",
       "scene": "s10",
       "anim": "A52",
-      "observation": "FootageNote slot: single line 20px regular centered text with zero outline boxes."
+      "time": "2026-11-09T06:53:05+03:00",
+      "observation": "Exact 20px grey text \"FACE CAM: Speaker talking directly to camera about expectations\" centered on grid with no border."
+    },
+    {
+      "file": "f000930.png",
+      "scene": "s11",
+      "anim": "A05",
+      "time": "2026-11-09T06:53:10+03:00",
+      "observation": "Clean white grid frame during transition hand-off before next phrase entrance."
+    },
+    {
+      "file": "f001055.png",
+      "scene": "s12",
+      "anim": "A14",
+      "time": "2026-11-09T06:53:47+03:00",
+      "observation": "Window card \"GitHub student pack (public page)\" with depth blur and verified screenshot."
     },
     {
       "file": "f001335.png",
       "scene": "s13",
       "anim": "A47",
-      "observation": "Red keyword one-liner with hero term in HV.red (#E01E2D)."
+      "time": "2026-11-09T06:53:55+03:00",
+      "observation": "Italic narrative statement \"making money online from home\" with green keyword highlight on \"money online\"."
     },
     {
       "file": "f001515.png",
       "scene": "s14",
       "anim": "A45",
-      "observation": "Wise screenshot card with rounded 20px radius and italic provenance footnote."
+      "time": "2026-11-09T06:53:59+03:00",
+      "observation": "Verified screenshot card of Wise public site with italic footnote \"*Wise's public site, not my account\"."
     },
     {
       "file": "f001718.png",
       "scene": "s15",
       "anim": "A54",
-      "observation": "Before/after split with dual pills and centered vertical divider."
+      "time": "2026-11-09T06:54:05+03:00",
+      "observation": "Comparison pills side-by-side: subtle grey \"9-to-5\" vs bold blue \"Freelance\"."
     },
     {
-      "file": "f002070.png",
-      "scene": "s17",
-      "anim": "A07",
-      "observation": "Reply bubble stack showing client inquiry exchange."
-    },
-    {
-      "file": "f002370.png",
-      "scene": "s19",
-      "anim": "A56",
-      "observation": "Checklist ticks with green check circles and 28px item labels."
+      "file": "f002227.png",
+      "scene": "s18",
+      "anim": "A03",
+      "time": "2026-11-09T06:54:22+03:00",
+      "observation": "Blue countup pill displaying \"3 months\" centered on grid background."
     },
     {
       "file": "f002520.png",
       "scene": "s20",
       "anim": "A48",
-      "observation": "Brain icon card, italic quote, bold-italic TRAP: PREMATURE OPTIMIZATION in red, footnote below."
+      "time": "2026-11-09T06:54:30+03:00",
+      "observation": "A48 trap layout with brain icon, italic quote \"Optimize profile before having work\", bold callout \"TRAP: PREMATURE OPTIMIZATION\" in #E01E2D, and footnote."
     },
     {
-      "file": "f002670.png",
-      "scene": "s21",
-      "anim": "A53",
-      "observation": "Journey node 2 progression with active node highlight."
+      "file": "f002819.png",
+      "scene": "s22",
+      "anim": "A14",
+      "time": "2026-11-09T06:54:43+03:00",
+      "observation": "Window card titled \"Title & Portfolio Edits\" with verified YouTube screenshot and clean margins."
     },
     {
       "file": "f003098.png",
       "scene": "s24",
       "anim": "A50",
-      "observation": "Side heading bold-italic at right (440px) and screenshot card at left."
+      "time": "2026-11-09T06:55:02+03:00",
+      "observation": "Split frame: left browser window card with placeholder beside right bold label \"Video editing workspace (illustrative)\"."
     },
     {
-      "file": "f003255.png",
-      "scene": "s25",
-      "anim": "A52",
-      "observation": "FootageNote slot for SCREEN REC portfolio files, properly centered."
-    },
-    {
-      "file": "f003857.png",
-      "scene": "s29",
-      "anim": "A48",
-      "observation": "A48 trap warning on polishing zero proof with brain icon and red accent."
-    },
-    {
-      "file": "f004417.png",
-      "scene": "s33",
-      "anim": "A47",
-      "observation": "Connects economics one-liner with red keyword emphasis."
-    },
-    {
-      "file": "f004972.png",
-      "scene": "s37",
-      "anim": "A02",
-      "observation": "Kinetic 2-line word stack centered with 96px safe margin."
-    },
-    {
-      "file": "f005624.png",
-      "scene": "s41",
+      "file": "f003412.png",
+      "scene": "s26",
       "anim": "A45",
-      "observation": "GitHub screenshot card with italic footnote disclosure."
+      "time": "2026-11-09T06:55:02+03:00",
+      "observation": "Stripe commercial site screenshot card with colorful gradient banner and italic footnote \"*Real commercial skill verification (Stripe)\"."
+    },
+    {
+      "file": "f003710.png",
+      "scene": "s28",
+      "anim": "A08",
+      "time": "2026-11-09T06:55:02+03:00",
+      "observation": "Application blueprint stacked cards: blue \"1. 6 good samples\", green \"2. Simple profile\", amber \"3. Start applying\"."
+    },
+    {
+      "file": "f003978.png",
+      "scene": "s30",
+      "anim": "A07",
+      "time": "2026-11-09T06:55:02+03:00",
+      "observation": "Light grey incoming message bubble with \"And I did this for a long time.\" centered."
     },
     {
       "file": "f006180.png",
       "scene": "s45",
       "anim": "A06",
-      "observation": "Reaction bubble with strike-through negation on client hesitation."
+      "time": "2026-11-09T06:55:13+03:00",
+      "observation": "Blue message bubble showing \"I'm just talking about what I was seeing\"."
     },
     {
-      "file": "f006727.png",
-      "scene": "s49",
-      "anim": "A47",
-      "observation": "Pricing statement with red keyword callout."
+      "file": "f006484.png",
+      "scene": "s47",
+      "anim": "A03",
+      "time": "2026-11-09T06:55:13+03:00",
+      "observation": "Green stat pill \"3 invites / week\" with sparkline trend background on white grid."
+    },
+    {
+      "file": "f006608.png",
+      "scene": "s48",
+      "anim": "A02",
+      "time": "2026-11-09T06:55:13+03:00",
+      "observation": "Black kinetic text \"Meanwhile, my software engineering profile\" centered."
     },
     {
       "file": "f006862.png",
       "scene": "s50",
       "anim": "A63",
-      "observation": "Circular stopwatch with blue progress arc and digital 3 months learning counter."
+      "time": "2026-11-09T06:55:14+03:00",
+      "observation": "Stopwatch circular progress ring with blue arc showing \"INVESTED 3 MONTHS LEARNING\" and caption below."
     },
     {
-      "file": "f007345.png",
-      "scene": "s53",
-      "anim": "A52",
-      "observation": "FootageNote slot: FACE CAM local clients, centered 20px font."
+      "file": "f007527.png",
+      "scene": "s54",
+      "anim": "A50",
+      "time": "2026-11-09T06:55:25+03:00",
+      "observation": "Split frame: browser window on left beside bold title \"Software Mastery\" on right."
     },
     {
-      "file": "f007940.png",
-      "scene": "s57",
-      "anim": "A03",
-      "observation": "Stat pill countup showing 150 dollar milestone metric."
-    },
-    {
-      "file": "f008387.png",
-      "scene": "s60",
-      "anim": "A48",
-      "observation": "Warning icon card with TRAP: WRONG FIRST NICHE in red bold italic."
-    },
-    {
-      "file": "f008556.png",
-      "scene": "s61",
-      "anim": "A45",
-      "observation": "Screenshot card with shadow and honest provenance note."
-    },
-    {
-      "file": "f009255.png",
-      "scene": "s65",
+      "file": "f007788.png",
+      "scene": "s56",
       "anim": "A47",
-      "observation": "Client management principle with highlighted red keyword."
-    },
-    {
-      "file": "f009851.png",
-      "scene": "s69",
-      "anim": "A07",
-      "observation": "Reply bubble stack showing dialogue pacing."
-    },
-    {
-      "file": "f010325.png",
-      "scene": "s73",
-      "anim": "A52",
-      "observation": "FootageNote slot: FACE CAM freelance routine, 20px centered."
-    },
-    {
-      "file": "f010893.png",
-      "scene": "s77",
-      "anim": "A07",
-      "observation": "Reply bubble stack detailing client revision cycle."
-    },
-    {
-      "file": "f011477.png",
-      "scene": "s81",
-      "anim": "A63",
-      "observation": "Stopwatch progress ring showing 2 days turnaround investment."
-    },
-    {
-      "file": "f012026.png",
-      "scene": "s85",
-      "anim": "A54",
-      "observation": "Before/after comparison split with pills and divider bar."
-    },
-    {
-      "file": "f012359.png",
-      "scene": "s88",
-      "anim": "A48",
-      "observation": "TRAP: SPRAY AND PRAY warning line with red TRAP tag and note."
-    },
-    {
-      "file": "f012486.png",
-      "scene": "s89",
-      "anim": "A56",
-      "observation": "Checklist ticks showing qualification criteria."
-    },
-    {
-      "file": "f013030.png",
-      "scene": "s93",
-      "anim": "A08",
-      "observation": "Three slide-in list cards with clean vertical spacing."
-    },
-    {
-      "file": "f013551.png",
-      "scene": "s97",
-      "anim": "A06",
-      "observation": "Chat bubble strike-through negation on common beginner belief."
-    },
-    {
-      "file": "f014143.png",
-      "scene": "s101",
-      "anim": "A08",
-      "observation": "Parallel list cards slide-in showing pricing fundamentals."
-    },
-    {
-      "file": "f014702.png",
-      "scene": "s105",
-      "anim": "A48",
-      "observation": "TRAP: RACE TO THE BOTTOM warning line with red accent and icon."
+      "time": "2026-11-09T06:55:25+03:00",
+      "observation": "Italic narrative statement \"afforded new editing setup locally\" with bold red keyword \"new editing setup\"."
     },
     {
       "file": "f018069.png",
       "scene": "s130",
       "anim": "A38",
-      "observation": "Blurred depth wash background with sharp split comparison cards (Context vs Reality)."
+      "time": "2026-11-09T06:55:25+03:00",
+      "observation": "Two comparison cards side-by-side: left \"CONTEXT: Editing issues\", right blue bordered \"REALITY: Communication\"."
+    },
+    {
+      "file": "f018185.png",
+      "scene": "s131",
+      "anim": "A48",
+      "time": "2026-11-09T06:55:25+03:00",
+      "observation": "Warning triangle icon with italic quote \"Every client is a fit\" and bold callout \"TRAP: IGNORING RED FLAGS\" in #E01E2D."
+    },
+    {
+      "file": "f018362.png",
+      "scene": "s132",
+      "anim": "A14",
+      "time": "2026-11-09T06:55:35+03:00",
+      "observation": "macOS window container holding verified screenshot plate."
     },
     {
       "file": "f018560.png",
       "scene": "s133",
       "anim": "A10",
-      "observation": "Folder row and system cursor click navigation."
+      "time": "2026-11-09T06:55:35+03:00",
+      "observation": "System cursor pointer icon centered on grid during interaction."
     },
     {
       "file": "f019202.png",
       "scene": "s135",
       "anim": "A36",
-      "observation": "Milestone expansion cards (Hour 1, 4, 8) with kinetic text centered below."
+      "time": "2026-11-09T06:55:36+03:00",
+      "observation": "Three horizontal timeline cards with milestones and kinetic subtitle below."
     },
     {
       "file": "f019533.png",
       "scene": "s136",
       "anim": "A39",
-      "observation": "Two circles Venn diagram with Idea and Skill intersection."
+      "time": "2026-11-09T06:55:36+03:00",
+      "observation": "Venn diagram with two overlapping black geometric stroke circles centered on grid."
     },
     {
-      "file": "f020128.png",
-      "scene": "s139",
-      "anim": "A22",
-      "observation": "Ghost-to-sharp player with YouTube portfolio preview and 100% progress track."
+      "file": "f019950.png",
+      "scene": "s138",
+      "anim": "A03",
+      "time": "2026-11-09T06:55:45+03:00",
+      "observation": "Stat pill with light green trend line behind it."
+    },
+    {
+      "file": "f020843.png",
+      "scene": "s142",
+      "anim": "A56",
+      "time": "2026-11-09T06:55:45+03:00",
+      "observation": "Subtle grid background frame during transition."
+    },
+    {
+      "file": "f021742.png",
+      "scene": "s146b",
+      "anim": "A52",
+      "time": "2026-11-09T06:55:46+03:00",
+      "observation": "Exactly centered 20px #8C8C93 text \"FACE CAM: Speaker reflection on learning\" with no box or border."
+    },
+    {
+      "file": "f022483.png",
+      "scene": "s150",
+      "anim": "A52",
+      "time": "2026-11-09T06:55:46+03:00",
+      "observation": "Exactly centered 20px #8C8C93 text \"FACE CAM: Speaker transition to mistakes summary\" with no box."
     },
     {
       "file": "f022851.png",
       "scene": "s152",
       "anim": "A27",
-      "observation": "Window definition card with 3-4 months learning statement, clean padding."
+      "time": "2026-11-09T06:56:06+03:00",
+      "observation": "Window frame card titled \"Premiere Pro workspace (illustrative)\" with image container and kinetic subtitle \"For video editing, I spent around 3 or 4 months learning\" centered below."
     },
     {
       "file": "f023858.png",
       "scene": "s156",
       "anim": "A35",
-      "observation": "Horizontal comparison bars showing Portfolio 80% (blue) vs Bio 20% (amber)."
+      "time": "2026-11-09T06:56:07+03:00",
+      "observation": "Client decision weight horizontal distribution bars: blue bar Portfolio 80%, amber bar Bio text 20%."
+    },
+    {
+      "file": "f024804.png",
+      "scene": "s160",
+      "anim": "A10",
+      "time": "2026-11-09T06:56:07+03:00",
+      "observation": "System pointer cursor centered on grid."
+    },
+    {
+      "file": "f026540.png",
+      "scene": "s168",
+      "anim": "A10",
+      "time": "2026-11-09T06:56:07+03:00",
+      "observation": "System pointer cursor centered on grid."
     }
   ],
   "automatedOnly": [
@@ -383,7 +383,6 @@
     "f000756.png",
     "f000761.png",
     "f000839.png",
-    "f000930.png",
     "f000936.png",
     "f000944.png",
     "f000950.png",
@@ -391,7 +390,6 @@
     "f000989.png",
     "f000991.png",
     "f001017.png",
-    "f001055.png",
     "f001056.png",
     "f001057.png",
     "f001061.png",
@@ -435,18 +433,19 @@
     "f002044.png",
     "f002054.png",
     "f002069.png",
+    "f002070.png",
     "f002145.png",
     "f002157.png",
     "f002166.png",
     "f002168.png",
     "f002177.png",
-    "f002227.png",
     "f002281.png",
     "f002296.png",
     "f002301.png",
     "f002315.png",
     "f002331.png",
     "f002369.png",
+    "f002370.png",
     "f002438.png",
     "f002445.png",
     "f002449.png",
@@ -461,6 +460,7 @@
     "f002605.png",
     "f002633.png",
     "f002669.png",
+    "f002670.png",
     "f002684.png",
     "f002701.png",
     "f002714.png",
@@ -471,7 +471,6 @@
     "f002762.png",
     "f002779.png",
     "f002795.png",
-    "f002819.png",
     "f002881.png",
     "f002901.png",
     "f002915.png",
@@ -492,11 +491,11 @@
     "f003187.png",
     "f003205.png",
     "f003254.png",
+    "f003255.png",
     "f003330.png",
     "f003336.png",
     "f003338.png",
     "f003352.png",
-    "f003412.png",
     "f003501.png",
     "f003505.png",
     "f003515.png",
@@ -509,17 +508,16 @@
     "f003636.png",
     "f003638.png",
     "f003649.png",
-    "f003710.png",
     "f003797.png",
     "f003800.png",
     "f003807.png",
     "f003814.png",
     "f003856.png",
+    "f003857.png",
     "f003929.png",
     "f003941.png",
     "f003942.png",
     "f003947.png",
-    "f003978.png",
     "f004040.png",
     "f004045.png",
     "f004051.png",
@@ -535,6 +533,7 @@
     "f004372.png",
     "f004378.png",
     "f004416.png",
+    "f004417.png",
     "f004488.png",
     "f004498.png",
     "f004505.png",
@@ -555,6 +554,7 @@
     "f004900.png",
     "f004928.png",
     "f004971.png",
+    "f004972.png",
     "f005069.png",
     "f005090.png",
     "f005092.png",
@@ -575,6 +575,7 @@
     "f005548.png",
     "f005551.png",
     "f005623.png",
+    "f005624.png",
     "f005712.png",
     "f005718.png",
     "f005720.png",
@@ -603,17 +604,16 @@
     "f006433.png",
     "f006466.png",
     "f006473.png",
-    "f006484.png",
     "f006548.png",
     "f006560.png",
     "f006577.png",
     "f006581.png",
-    "f006608.png",
     "f006681.png",
     "f006698.png",
     "f006700.png",
     "f006706.png",
     "f006726.png",
+    "f006727.png",
     "f006784.png",
     "f006793.png",
     "f006795.png",
@@ -632,11 +632,11 @@
     "f007264.png",
     "f007277.png",
     "f007344.png",
+    "f007345.png",
     "f007426.png",
     "f007439.png",
     "f007440.png",
     "f007445.png",
-    "f007527.png",
     "f007622.png",
     "f007628.png",
     "f007634.png",
@@ -646,11 +646,11 @@
     "f007738.png",
     "f007739.png",
     "f007742.png",
-    "f007788.png",
     "f007863.png",
     "f007867.png",
     "f007874.png",
     "f007883.png",
+    "f007940.png",
     "f008030.png",
     "f008035.png",
     "f008040.png",
@@ -665,10 +665,12 @@
     "f008327.png",
     "f008330.png",
     "f008386.png",
+    "f008387.png",
     "f008471.png",
     "f008485.png",
     "f008488.png",
     "f008555.png",
+    "f008556.png",
     "f008647.png",
     "f008653.png",
     "f008659.png",
@@ -689,6 +691,7 @@
     "f009184.png",
     "f009189.png",
     "f009254.png",
+    "f009255.png",
     "f009338.png",
     "f009350.png",
     "f009351.png",
@@ -707,6 +710,7 @@
     "f009770.png",
     "f009780.png",
     "f009850.png",
+    "f009851.png",
     "f009939.png",
     "f009944.png",
     "f009945.png",
@@ -727,6 +731,7 @@
     "f010286.png",
     "f010296.png",
     "f010324.png",
+    "f010325.png",
     "f010378.png",
     "f010393.png",
     "f010399.png",
@@ -746,6 +751,7 @@
     "f010825.png",
     "f010832.png",
     "f010892.png",
+    "f010893.png",
     "f010982.png",
     "f010988.png",
     "f010997.png",
@@ -767,6 +773,7 @@
     "f011432.png",
     "f011460.png",
     "f011476.png",
+    "f011477.png",
     "f011556.png",
     "f011567.png",
     "f011590.png",
@@ -784,6 +791,7 @@
     "f011975.png",
     "f011981.png",
     "f012014.png",
+    "f012026.png",
     "f012084.png",
     "f012099.png",
     "f012103.png",
@@ -797,11 +805,13 @@
     "f012313.png",
     "f012320.png",
     "f012358.png",
+    "f012359.png",
     "f012430.png",
     "f012433.png",
     "f012434.png",
     "f012443.png",
     "f012485.png",
+    "f012486.png",
     "f012554.png",
     "f012556.png",
     "f012560.png",
@@ -821,6 +831,7 @@
     "f012955.png",
     "f012956.png",
     "f012962.png",
+    "f013030.png",
     "f013124.png",
     "f013128.png",
     "f013133.png",
@@ -841,6 +852,7 @@
     "f013525.png",
     "f013534.png",
     "f013550.png",
+    "f013551.png",
     "f013602.png",
     "f013610.png",
     "f013612.png",
@@ -860,6 +872,7 @@
     "f014059.png",
     "f014060.png",
     "f014068.png",
+    "f014143.png",
     "f014234.png",
     "f014240.png",
     "f014242.png",
@@ -880,6 +893,7 @@
     "f014661.png",
     "f014666.png",
     "f014701.png",
+    "f014702.png",
     "f014761.png",
     "f014771.png",
     "f014785.png",
@@ -1010,9 +1024,7 @@
     "f018131.png",
     "f018140.png",
     "f018184.png",
-    "f018185.png",
     "f018250.png",
-    "f018362.png",
     "f018488.png",
     "f018645.png",
     "f018830.png",
@@ -1026,10 +1038,10 @@
     "f019773.png",
     "f019774.png",
     "f019870.png",
-    "f019950.png",
     "f020043.png",
     "f020085.png",
     "f020127.png",
+    "f020128.png",
     "f020224.png",
     "f020351.png",
     "f020491.png",
@@ -1037,7 +1049,6 @@
     "f020609.png",
     "f020610.png",
     "f020741.png",
-    "f020843.png",
     "f020959.png",
     "f021040.png",
     "f021134.png",
@@ -1051,7 +1062,6 @@
     "f021699.png",
     "f021706.png",
     "f021741.png",
-    "f021742.png",
     "f021790.png",
     "f021840.png",
     "f021896.png",
@@ -1063,7 +1073,6 @@
     "f022431.png",
     "f022438.png",
     "f022482.png",
-    "f022483.png",
     "f022540.png",
     "f022644.png",
     "f022762.png",
@@ -1091,7 +1100,6 @@
     "f024716.png",
     "f024750.png",
     "f024803.png",
-    "f024804.png",
     "f024904.png",
     "f025015.png",
     "f025016.png",
@@ -1113,7 +1121,6 @@
     "f026357.png",
     "f026459.png",
     "f026539.png",
-    "f026540.png",
     "f026632.png",
     "f026775.png",
     "f026932.png",

@@ -1,12 +1,10 @@
 # Per-video prompt (v6) — paste into Antigravity
 
-Use the hena-vanta skill (v6) for the channel Hena Vanta. Build the full video in one go.
-
-INPUTS
-Folder: D:\Youtube\Hena Vanta\Videos\<name>\   (voiceover, my time-stamped script, script.txt)
-Format: <long-form | shorts>   Resolution 1920x1080 (shorts: 1080x1920)
-Background: D:\Youtube\Hena Vanta\Branding\Bg (white grid, loop, muted, black text)  -> copy to public/hena-vanta/bg.mp4
-Output: D:\Youtube\Hena Vanta\Renders\<name>.mp4
+Use the `hena-vanta` skill.
+- Voiceover: D:\Youtube\Hena Vanta\Videos\<name>\<audio.mp3|audio.wav>
+- Script: D:\Youtube\Hena Vanta\Videos\<name>\script.txt (or paste script text directly)
+- Format: long-form (16:9 1080p) or shorts (vertical)
+- Background: D:\Youtube\Hena Vanta\Branding\Bg\bg.mp4
 
 STYLE (v6): kinetic one-word-at-a-time text attached to objects (bubbles, pills, windows, list cards, cursor, Venn, journey).
 No text walls. No black placeholders: missing footage = ONE 20 px centred grey text line (FootageNote), nothing else.
