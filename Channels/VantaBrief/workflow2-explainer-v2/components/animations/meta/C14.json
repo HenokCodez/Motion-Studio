@@ -1,0 +1,15 @@
+{
+  "id": "C14",
+  "name": "Dual Silicon Platform Switch",
+  "category": "Diagrams/systems",
+  "custom": true,
+  "duration": 80,
+  "keyframes": [0, 16, 32, 48, 64, 79],
+  "params": {
+    "title": "string <=24 chars",
+    "chipA": "string <=20 chars",
+    "chipB": "string <=20 chars",
+    "skipped": "string <=24 chars"
+  },
+  "maxContent": "Dual silicon chip cards with Hopper bypassed strike-through"
+}

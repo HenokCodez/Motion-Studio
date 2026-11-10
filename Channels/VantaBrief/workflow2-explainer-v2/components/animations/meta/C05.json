@@ -1,0 +1,14 @@
+{
+  "id": "C05",
+  "name": "80% Profit Margin Dial Gauge",
+  "category": "Data",
+  "custom": true,
+  "duration": 80,
+  "keyframes": [0, 16, 32, 48, 64, 79],
+  "params": {
+    "stat": "string <=10 chars",
+    "label": "string <=24 chars",
+    "note": "string <=28 chars"
+  },
+  "maxContent": "Dial arc gauge with orange sweep to 80% mark and cost comparison"
+}

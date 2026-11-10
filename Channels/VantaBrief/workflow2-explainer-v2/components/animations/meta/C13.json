@@ -1,0 +1,14 @@
+{
+  "id": "C13",
+  "name": "Open Engine vs Closed Industrial Bakery",
+  "category": "Comparisons",
+  "custom": true,
+  "duration": 84,
+  "keyframes": [0, 16, 32, 50, 68, 83],
+  "params": {
+    "title": "string <=24 chars",
+    "open": "string <=20 chars",
+    "closed": "string <=20 chars"
+  },
+  "maxContent": "Split comparison of open code engine versus locked private infrastructure"
+}

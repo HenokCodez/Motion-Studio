@@ -1,5 +1,6 @@
 import React from 'react';
-import {useCurrentFrame, spring, staticFile} from 'remotion';
+import {spring, staticFile} from 'remotion';
+import {useCurrentFrame} from '../primitives';
 import {LogoBadge, Stage, Card, Pen, T, C, EASE, SPR, prog, roughLine, roughEllipse} from '../primitives';
 import meta from './meta/A28.json';
 export const DURATION = meta.duration;

@@ -1,5 +1,5 @@
 import React, {useMemo} from 'react';
-import {AbsoluteFill, Img, staticFile, delayRender, continueRender, getInputProps} from 'remotion';
+import {AbsoluteFill, Img, staticFile, delayRender, continueRender, getInputProps, useCurrentFrame as useRemotionFrame} from 'remotion';
 import rough from 'roughjs';
 import {C, SAFE, HAND, HEAVY, MIN_FONT} from './theme';
 export * from './theme';
@@ -9,6 +9,8 @@ export const roughRect = (x: number, y: number, w: number, h: number, seed = 1) 
   gen.toPaths(gen.rectangle(x, y, w, h, opts(seed))).map(p => p.d).join(' ');
 export const roughLine = (pts: [number, number][], seed = 1) =>
   gen.toPaths(gen.linearPath(pts, opts(seed))).map(p => p.d).join(' ');
+/** straight polyline, no hand-drawn jitter: use for geometry that changes every frame (ropes, morphing lines) so it does not shimmer */
+export const plainLine = (pts: [number, number][]) => 'M' + pts.map(q => q.join(' ')).join(' L');
 export const roughPath = (d: string, seed = 1) => gen.toPaths(gen.path(d, opts(seed))).map(p => p.d).join(' ');
 export const roughEllipse = (cx: number, cy: number, w: number, h: number, seed = 1) =>
   gen.toPaths(gen.ellipse(cx, cy, w, h, opts(seed))).map(p => p.d).join(' ');
@@ -49,11 +51,18 @@ export const Stage: React.FC<{children: React.ReactNode; debug?: boolean}> = ({c
   );
 };
 
-/** stroke that draws itself. p: 0..1 */
-export const Pen: React.FC<{d: string; p: number; color?: string; w?: number; fill?: string; opacity?: number}> =
-  ({d, p, color = C.ink, w = 4, fill = 'none', opacity = 1}) =>
-    p <= 0 ? null : <path d={d} pathLength={1} fill={fill} stroke={color} strokeWidth={w} strokeLinecap="round" strokeLinejoin="round"
-      strokeDasharray="1 1" strokeDashoffset={1 - Math.min(p, 1)} opacity={opacity} />;
+/** stroke that draws itself. p: 0..1. v2.1: subpaths are drawn one after another (SVG restarts dashes per subpath, which made detached fragments). */
+const subLen = (d: string) => { const el = document.createElementNS('http://www.w3.org/2000/svg', 'path'); el.setAttribute('d', d); try { return Math.max(0.001, el.getTotalLength()); } catch { return 1; } };
+export const Pen: React.FC<{d: string; p: number; color?: string; w?: number; fill?: string; opacity?: number}> = ({d, p, color = C.ink, w = 4, fill = 'none', opacity = 1}) => {
+  const parts = useMemo(() => { const ps = d.split(/(?=M)/).map(x => x.trim()).filter(Boolean); const lens = ps.map(subLen); const tot = lens.reduce((x, y) => x + y, 0); let acc = 0;
+    return ps.map((x, i) => { const a0 = acc / tot; acc += lens[i]; return {d: x, a: a0, b: acc / tot}; }); }, [d]);
+  if (p <= 0) return null;
+  return <g opacity={opacity}>
+    {fill !== 'none' && <path d={d} fill={fill} stroke="none" />}
+    {parts.map((pt, i) => { const q = Math.min(1, Math.max(0, (p - pt.a) / Math.max(1e-6, pt.b - pt.a))); return q <= 0 ? null :
+      <path key={i} d={pt.d} pathLength={1} fill="none" stroke={color} strokeWidth={w} strokeLinecap="round" strokeLinejoin="round" strokeDasharray="1 1" strokeDashoffset={1 - q} />; })}
+  </g>;
+};
 
 /** hand-drawn card. p = outline draw progress, fillP = fill opacity. */
 export const Card: React.FC<{x: number; y: number; w: number; h: number; p?: number; fillP?: number; fill?: string;
@@ -130,8 +139,8 @@ export const Stick: React.FC<{x: number; y: number; h: number; pose?: 'stand' | 
   ({x, y, h, pose = 'stand', p = 1, color = C.ink, flip = false, walk = 0, w = 6}) => {
     const s = h / 200;
     const arms = pose === 'point' ? 'M50 70 L104 58 M50 70 L26 112' : pose === 'wave' ? 'M50 70 L84 34 M50 70 L26 112' : pose === 'think' ? 'M50 70 L34 98 L56 78 M50 70 L74 112' : 'M50 70 L26 112 M50 70 L74 112';
-    const d = useMemo(() => roughPath(`M32 30 a18 18 0 1 0 36 0 a18 18 0 1 0 -36 0 M50 48 L50 120 ${arms} M50 120 L${50 - 22 * walk} 190 M50 120 L${50 + 22 * walk} 190`, 3), [pose, walk]);
-    return <g transform={`translate(${x} ${y}) scale(${flip ? -s : s} ${s}) translate(-50 -190)`}><Pen d={d} p={p} color={color} w={w / s} /></g>;
+    const d = useMemo(() => roughPath(`M32 30 a18 18 0 1 0 36 0 a18 18 0 1 0 -36 0 M50 48 L50 120 ${arms}`, 3), [pose]);
+    return <g transform={`translate(${x} ${y}) scale(${flip ? -s : s} ${s}) translate(-50 -190)`}><Pen d={d} p={p} color={color} w={w / s} />{p > 0.6 && <path d={`M50 120 L${50 - 22 * walk} 190 M50 120 L${50 + 22 * walk} 190`} fill="none" stroke={color} strokeWidth={w / s} strokeLinecap="round" />}</g>;
   };
 /** photo slot: real photo from assets/photos/<src>, else a labelled silhouette placeholder */
 export const PhotoSlot: React.FC<{x: number; y: number; w: number; h: number; src?: string; p?: number}> = ({x, y, w, h, src, p = 1}) =>
@@ -144,3 +153,21 @@ export const LogoBadge: React.FC<{cx: number; cy: number; r: number; file?: stri
   file ? <g>{round ? <circle cx={cx} cy={cy} r={r} fill={C.ink} /> : <rect x={cx - r} y={cy - r} width={2 * r} height={2 * r} rx={r * 0.25} fill={C.ink} />}
     <image href={staticFile('logos/' + file)} x={cx - r * 0.62} y={cy - r * 0.62} width={r * 1.24} height={r * 1.24} preserveAspectRatio="xMidYMid meet" /></g> :
     <g><circle cx={cx} cy={cy} r={r} fill="none" stroke={C.ink} strokeWidth={4} strokeDasharray="10 8" /><text x={cx} y={cy + r * 0.3} fontSize={r * 0.8} fill={C.ink} textAnchor="middle" fontFamily={HEAVY}>{initial}</text></g>;
+
+Object.assign(ICONS, {
+  server: 'M15 18 L85 18 L85 42 L15 42 Z M15 58 L85 58 L85 82 L15 82 Z M28 30 L32 30 M28 70 L32 70 M70 30 L74 30 M70 70 L74 70',
+  database: 'M20 25 Q50 5 80 25 L80 75 Q50 95 20 75 Z M20 25 Q50 45 80 25 M20 50 Q50 70 80 50',
+  globe: 'M50 8 A42 42 0 1 0 50 92 A42 42 0 1 0 50 8 M8 50 L92 50 M50 8 Q25 50 50 92 M50 8 Q75 50 50 92',
+  lock: 'M25 45 L75 45 L75 88 L25 88 Z M35 45 L35 30 Q35 12 50 12 Q65 12 65 30 L65 45',
+  dollar: 'M50 8 L50 92 M72 28 Q60 14 45 16 Q26 20 30 38 Q34 52 52 54 Q74 58 70 72 Q64 88 40 84 Q26 80 24 70',
+  rocket: 'M50 8 Q72 28 68 62 L32 62 Q28 28 50 8 M32 62 L20 80 L36 74 M68 62 L80 80 L64 74 M50 70 L50 90',
+  cloud: 'M28 70 Q8 70 12 50 Q14 34 32 36 Q38 14 60 18 Q78 22 76 40 Q94 42 90 58 Q88 72 72 70 Z',
+  clock: 'M50 8 A42 42 0 1 0 50 92 A42 42 0 1 0 50 8 M50 28 L50 52 L68 62',
+  person: 'M50 14 A14 14 0 1 0 50 42 A14 14 0 1 0 50 14 M22 90 Q22 52 50 52 Q78 52 78 90',
+  chart: 'M12 12 L12 88 L90 88 M24 70 L44 50 L60 62 L88 24',
+  gear: 'M50 34 A16 16 0 1 0 50 66 A16 16 0 1 0 50 34 M50 8 L50 22 M50 78 L50 92 M8 50 L22 50 M78 50 L92 50 M20 20 L30 30 M70 70 L80 80 M80 20 L70 30 M30 70 L20 80',
+  doc: 'M24 10 L64 10 L80 26 L80 90 L24 90 Z M64 10 L64 26 L80 26 M36 46 L68 46 M36 62 L68 62',
+});
+/** v2.1 pacing: animations read time through this context. speed<1 stretches an animation, delay (frames) postpones its start. SceneVideo sets it. */
+export const TimeCtx = React.createContext<{speed: number; delay: number}>({speed: 1, delay: 0});
+export const useCurrentFrame = () => { const f = useRemotionFrame(); const {speed, delay} = React.useContext(TimeCtx); return Math.max(0, f - delay) * speed; };

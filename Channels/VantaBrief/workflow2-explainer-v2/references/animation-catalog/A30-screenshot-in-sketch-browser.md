@@ -18,31 +18,34 @@ Photos of people (use photo animations).
 | 0 | empty |
 | 10 | frame outline drawing |
 | 20 | frame + url bar + dots visible |
-| 42 | screenshot visible, orange circle just starting |
-| 52 | circle nearly complete, note starting to wipe |
-| 83 | rest: frame 900x520, circle, note below |
+| 48 | screenshot visible (dark theme), orange circle mid-draw on the chosen region |
+| 66 | circle done, view zooming into the region, note wiping |
+| 83 | rest: zoomed on the region (1.8x), note below |
 
 ## Plain-English motion script
-1. Browser frame draws with url bar.
-2. Screenshot (assets/screenshots/<file>) fades in.
-3. Orange pen circle draws over the key region, note wipes in below.
+1. Sketch browser (1100x620) draws with url bar.
+2. Screenshot (assets/screenshots/<file>) fades in, inverted to the dark theme unless theme=original.
+3. Orange pen circle draws on the chosen region (params.region fractions).
+4. The view zooms 1.8x into that region; note wipes in below.
 
 ## Callouts on the filmstrip
 1. (frame 10) frame draws
-2. (frame 20) url bar + dots
-3. (frame 52) orange circle
+2. (frame 48) orange circle on the key region
+3. (frame 66) view zooms into the region
 4. (frame 83) note
 
 ## Parameters
 - `src`: filename in assets/screenshots/
 - `url`: string <=28 chars
-- `note`: string <=20 chars
+- `note`: string <=28 chars
+- `region`: [x,y,w,h] fractions 0-1 of the screenshot to circle and zoom into (pick the part that matters)
+- `theme`: dark (default) or original
 
 ## Max content
-1 screenshot, note <=20 chars
+1 screenshot, note <=28 chars
 
 ## Layout footprint
-900 x 520 px + note
+1100 x 620 px + note (57% x 57%)
 
 ## Color usage rules
 Circle + note orange.

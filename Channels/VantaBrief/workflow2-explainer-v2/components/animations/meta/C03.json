@@ -1,0 +1,13 @@
+{
+  "id": "C03",
+  "name": "Padlock Snapping Open",
+  "category": "Emphasis/State",
+  "custom": true,
+  "duration": 75,
+  "keyframes": [0, 15, 30, 45, 60, 74],
+  "params": {
+    "title": "string <=24 chars",
+    "label": "string <=24 chars"
+  },
+  "maxContent": "Unlocking padlock with sparks and open source badge"
+}

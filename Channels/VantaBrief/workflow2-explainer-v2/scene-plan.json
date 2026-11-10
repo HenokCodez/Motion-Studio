@@ -1,5 +1,6 @@
 {
   "fps": 30,
+  "pacing": "auto",
   "audio": "audio/voiceover.mp3",
   "scenes": [
     {
@@ -17,14 +18,16 @@
             "title": "Silicon Valley vs DeepSeek",
             "subtitle": "Billions spent locking AI behind subscriptions",
             "icon": "scales"
-          }
+          },
+          "delay": 0
         },
         {
-          "id": "A03",
+          "id": "C01",
           "params": {
-            "label": "Locked Subscriptions",
-            "icon": "warn"
-          }
+            "title": "Compute Cluster",
+            "sub": "Data Center Infrastructure"
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -42,21 +45,25 @@
           "params": {
             "a": "How they train?",
             "b": "The mystery"
-          }
+          },
+          "delay": 0
         },
         {
-          "id": "A10",
+          "id": "C02",
           "params": {
             "left": "Billions Cloud",
-            "right": "Pennies API"
-          }
+            "right": "Pennies API",
+            "sub": "Cloud Costs vs Efficient API"
+          },
+          "delay": 0.2
         },
         {
           "id": "A02",
           "params": {
             "before": "Sell access for",
             "keyword": "pennies"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -76,20 +83,24 @@
           "params": {
             "oldText": "Financial bluff?",
             "newText": "Real Efficiency"
-          }
+          },
+          "delay": 0
         },
         {
-          "id": "A39",
+          "id": "C03",
           "params": {
-            "text": "Massive Losses?"
-          }
+            "title": "Core Production Engine",
+            "label": "OPEN SOURCE CODE"
+          },
+          "delay": 0.2
         },
         {
           "id": "A27",
           "params": {
             "src": "logos/deepseek.svg",
             "name": "DeepSeek"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -113,7 +124,8 @@
               "DeepInfer Engine",
               "Full Open Source"
             ]
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A34",
@@ -125,20 +137,22 @@
               "star"
             ],
             "labels": [
-              "V4.1 Flash",
-              "DeepInfer",
+              "Flash",
+              "Infer",
               "Engine",
               "GitHub"
             ],
             "target": 1
-          }
+          },
+          "delay": 0.1
         },
         {
           "id": "A54",
           "params": {
-            "portal": "DEEPINFER",
-            "title": "Production Engine"
-          }
+            "portal": "INFER",
+            "title": "Engine"
+          },
+          "delay": 0
         }
       ]
     },
@@ -158,21 +172,24 @@
             "emphasis": [
               0
             ]
-          }
+          },
+          "delay": 0
         },
         {
-          "id": "A07",
+          "id": "C04",
           "params": {
-            "value": 155,
-            "label": "Trillion Tokens / Day",
-            "sub": "In a single cluster"
-          }
+            "val": "155 TRILLION",
+            "label": "Tokens Processed / Day",
+            "sub": "1.8 Billion Words / Second"
+          },
+          "delay": 0.2
         },
         {
           "id": "A40",
           "params": {
             "label": "RECORD"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -191,21 +208,22 @@
             "stats": [
               {
                 "v": 155,
-                "s": "T",
+                "s": "T/d",
                 "l": "Tokens / day"
               },
               {
                 "v": 1.8,
-                "s": "B",
+                "s": "B/s",
                 "l": "Words / second"
               },
               {
                 "v": 24,
-                "s": "h",
+                "s": "hrs",
                 "l": "Around clock"
               }
             ]
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A33",
@@ -221,13 +239,15 @@
               44
             ],
             "title": "$38/hr per GPU"
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A41",
           "params": {
             "target": "$38 / hr"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -241,17 +261,34 @@
       "assets": [],
       "animations": [
         {
-          "id": "A25",
+          "id": "C05",
           "params": {
-            "values": [
-              8,
-              38
+            "stat": "80%",
+            "label": "Gross Profit Margin",
+            "note": "$38/hr Rev vs $8/hr Cost"
+          },
+          "delay": 0
+        },
+        {
+          "id": "A19",
+          "params": {
+            "nodes": [
+              {
+                "label": "Chip $8",
+                "icon": "chip"
+              },
+              {
+                "label": "Rev $38",
+                "icon": "bolt"
+              },
+              {
+                "label": "80% Margin",
+                "icon": "star"
+              }
             ],
-            "labels": [
-              "Cost",
-              "Revenue"
-            ]
-          }
+            "highlight": 2
+          },
+          "delay": 0.2
         },
         {
           "id": "A08",
@@ -259,20 +296,8 @@
             "top": "Not losing money",
             "big": "PROFIT",
             "bottom": "$38 Rev vs $8 Cost"
-          }
-        },
-        {
-          "id": "A26",
-          "params": {
-            "values": [
-              20,
-              35,
-              55,
-              70,
-              80
-            ],
-            "note": "80% Gross Margin"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -295,7 +320,8 @@
             "src": "deepseek-github.png",
             "url": "github.com/deepseek-ai",
             "note": "Open Source Code"
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A56",
@@ -304,14 +330,16 @@
             "right": "DeepSeek",
             "leftFile": "chatgpt.svg",
             "rightFile": "deepseek.svg"
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A12",
           "params": {
             "left": "Closed Frontier",
             "right": "Open Weights"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -339,7 +367,8 @@
               "Leaderboard Verified"
             ],
             "highlight": 1
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A14",
@@ -349,7 +378,8 @@
               "Architecture",
               "Should Switch"
             ]
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A36",
@@ -366,7 +396,8 @@
               "Silicon",
               "Verdict"
             ]
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -387,7 +418,8 @@
               "Paper",
               "Tests"
             ]
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A16",
@@ -398,13 +430,15 @@
               "Case Study",
               "Heavy-Duty"
             ]
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A18",
           "params": {
-            "gate": "STRESS TEST"
-          }
+            "gate": "HEAVY TASK"
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -434,13 +468,15 @@
                 "Long horizon tasks"
               ]
             }
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A31",
           "params": {
             "label": "Agentic Mode"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -465,14 +501,16 @@
             ],
             "highlight": 1,
             "note": "Coding Harness"
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A53",
           "params": {
             "front": "Web Chat UI",
             "back": "Code Harness"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -494,27 +532,17 @@
               "Physics"
             ],
             "result": "3D Mechanical"
-          }
+          },
+          "delay": 0
         },
         {
-          "id": "A19",
+          "id": "C06",
           "params": {
-            "nodes": [
-              {
-                "label": "Geometry",
-                "icon": "cube"
-              },
-              {
-                "label": "3D Watch",
-                "icon": "bolt"
-              },
-              {
-                "label": "Interactive",
-                "icon": "browser"
-              }
-            ],
-            "highlight": 1
-          }
+            "title": "3D Mechanical Watch",
+            "part1": "Hairspring Loop",
+            "part2": "Escapement Gear"
+          },
+          "delay": 0.2
         },
         {
           "id": "A22",
@@ -525,7 +553,8 @@
               "3D Dial Frame"
             ],
             "highlight": 1
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -548,14 +577,15 @@
               "Gear Physics"
             ],
             "highlight": 2
-          }
+          },
+          "delay": 0
         },
         {
-          "id": "A50",
+          "id": "A41",
           "params": {
-            "left": "Hover Gear",
-            "right": "Inspect Flow"
-          }
+            "target": "Gear Physics"
+          },
+          "delay": 0.2
         },
         {
           "id": "A46",
@@ -566,7 +596,8 @@
               "Dynamic motion",
               "Clean rendering"
             ]
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -582,9 +613,10 @@
         {
           "id": "A52",
           "params": {
-            "from": "Face Rotation",
+            "from": "Rotation",
             "to": "Shadow Trace"
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A48",
@@ -592,7 +624,8 @@
             "src": "",
             "caption": "Breguet Hairspring",
             "note": "Active Node"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -606,16 +639,16 @@
       "assets": [],
       "animations": [
         {
-          "id": "A23",
+          "id": "C07",
           "params": {
-            "stages": [
-              "Dial",
-              "Movement",
-              "Escapement",
-              "Balance"
-            ],
-            "highlight": 2
-          }
+            "title": "Exploded 3D Space",
+            "layers": [
+              "Top Glass Bezel",
+              "Mechanical Movement",
+              "Titanium Case Back"
+            ]
+          },
+          "delay": 0
         },
         {
           "id": "A17",
@@ -634,14 +667,16 @@
                 "year": "Step 3"
               }
             ]
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A45",
           "params": {
             "count": 12,
             "label": "Spatial Testers Stunned"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -655,19 +690,21 @@
       "assets": [],
       "animations": [
         {
-          "id": "A35",
+          "id": "C08",
           "params": {
-            "banner": "TEST 02",
-            "photos": [],
-            "highlight": 1
-          }
+            "title": "Vision Reasoning Test",
+            "count": "130+ Pastries",
+            "sub": "Spatial Occlusion & Counting"
+          },
+          "delay": 0
         },
         {
           "id": "A11",
           "params": {
             "left": "Hi-Res Image",
             "right": "Vision Tokenizer"
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A49",
@@ -678,7 +715,8 @@
               "Success"
             ],
             "photos": []
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -701,7 +739,8 @@
               "Cross-check",
               "Count"
             ]
-          }
+          },
+          "delay": 0
         }
       ]
     },
@@ -720,19 +759,22 @@
             "value": 130,
             "label": "Pastries Identified",
             "sub": "Including occluded items"
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A42",
           "params": {
             "text": "130+"
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A43",
           "params": {
             "text": "Precise Geometry"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -746,11 +788,29 @@
       "assets": [],
       "animations": [
         {
+          "id": "C09",
+          "params": {
+            "title": "Inference Throughput",
+            "base": "150 T/S",
+            "turbo": "800 T/S"
+          },
+          "delay": 0
+        },
+        {
+          "id": "A08",
+          "params": {
+            "top": "Text Output",
+            "big": "150 T/S",
+            "bottom": "Pure generation throughput"
+          },
+          "delay": 0.2
+        },
+        {
           "id": "A33",
           "params": {
             "tabs": [
               "BASE",
-              "TURBO",
+              "FAST",
               "PEAK"
             ],
             "values": [
@@ -759,37 +819,8 @@
               150
             ],
             "title": "Tokens / Second"
-          }
-        },
-        {
-          "id": "A08",
-          "params": {
-            "top": "Text Output",
-            "big": "150 T/S",
-            "bottom": "Pure generation throughput"
-          }
-        },
-        {
-          "id": "A37",
-          "params": {
-            "stats": [
-              {
-                "v": 150,
-                "s": "t/s",
-                "l": "Standard run"
-              },
-              {
-                "v": 800,
-                "s": "t/s",
-                "l": "Cloud turbo"
-              },
-              {
-                "v": 5,
-                "s": "x",
-                "l": "Speed boost"
-              }
-            ]
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -823,19 +854,22 @@
               "grok.svg"
             ],
             "highlight": -1
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A40",
           "params": {
             "label": "PARITY"
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A32",
           "params": {
             "label": "Melt Hardware?"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -854,7 +888,8 @@
             "title": "Systems Engineering",
             "subtitle": "How DeepSeek achieved peak throughput",
             "icon": "chip"
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A04",
@@ -864,15 +899,17 @@
               "Full repository",
               "Millions of tokens"
             ]
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A38",
           "params": {
             "before": "Secret is",
             "word": "Architecture",
-            "after": "not brute force"
-          }
+            "after": "smart code"
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -895,20 +932,23 @@
             ],
             "highlight": 1,
             "note": "All Layers Pass"
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A18",
           "params": {
             "gate": "ALL LAYERS"
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A51",
           "params": {
-            "from": "Full Reading",
-            "to": "Heavy Compute"
-          }
+            "from": "Reading",
+            "to": "Compute"
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -922,29 +962,29 @@
       "assets": [],
       "animations": [
         {
+          "id": "C10",
+          "params": {
+            "reader": "Bottom: Reader (50%)",
+            "writer": "Top: Writer (50%)",
+            "saving": "50% Compute Saved"
+          },
+          "delay": 0
+        },
+        {
           "id": "A11",
           "params": {
             "left": "Monolith Model",
             "right": "Causal Split"
-          }
-        },
-        {
-          "id": "A22",
-          "params": {
-            "layers": [
-              "Reader Layers",
-              "Causal Bridge",
-              "Writer Layers"
-            ],
-            "highlight": 1
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A10",
           "params": {
             "left": "Bottom: Reader",
             "right": "Top: Writer"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -965,7 +1005,8 @@
               "Half Layers",
               "Fast Start"
             ]
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A25",
@@ -978,14 +1019,16 @@
               "Before",
               "After"
             ]
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A02",
           "params": {
             "before": "Deploying",
             "keyword": "Wide MoE"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -999,6 +1042,15 @@
       "assets": [],
       "animations": [
         {
+          "id": "C11",
+          "params": {
+            "title": "Wide Expert Parallelism",
+            "gpus": "64-128 GPUs Cluster",
+            "drop": "-88% Traffic Drop"
+          },
+          "delay": 0
+        },
+        {
           "id": "A24",
           "params": {
             "root": "Wide MoE Cluster",
@@ -1008,25 +1060,16 @@
               "Expert Nodes"
             ],
             "highlight": 0
-          }
-        },
-        {
-          "id": "A15",
-          "params": {
-            "chips": [
-              "Expert 1",
-              "Expert 2",
-              "Expert N"
-            ],
-            "result": "Distributed GPUs"
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A54",
           "params": {
             "portal": "128 GPUs",
             "title": "Parallel Cluster"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -1050,13 +1093,15 @@
               12
             ],
             "note": "-88% Traffic Drop"
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A31",
           "params": {
             "label": "Low Bandwidth"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -1086,7 +1131,8 @@
               "KV Cache",
               "Speed"
             ]
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A23",
@@ -1098,7 +1144,8 @@
               "KV Cache"
             ],
             "highlight": 1
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A19",
@@ -1118,7 +1165,8 @@
               }
             ],
             "highlight": 1
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -1132,6 +1180,15 @@
       "assets": [],
       "animations": [
         {
+          "id": "C12",
+          "params": {
+            "title": "Input Context Caching",
+            "storage": "100 PB SSD Storage",
+            "hitRate": "96% Cache Hit Rate"
+          },
+          "delay": 0
+        },
+        {
           "id": "A16",
           "params": {
             "steps": [
@@ -1140,13 +1197,8 @@
               "Hot 90%",
               "Peak 96%"
             ]
-          }
-        },
-        {
-          "id": "A41",
-          "params": {
-            "target": "100PB Storage"
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A05",
@@ -1155,7 +1207,8 @@
             "emphasis": [
               0
             ]
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -1185,21 +1238,24 @@
                 "Zero waste"
               ]
             }
-          }
+          },
+          "delay": 0
         },
         {
-          "id": "A50",
+          "id": "A03",
           "params": {
-            "left": "Prefix Stored",
-            "right": "Tokens Served"
-          }
+            "label": "Instant Prefix Reuse",
+            "icon": "bolt"
+          },
+          "delay": 0.1
         },
         {
           "id": "A12",
           "params": {
             "left": "Cheap API Price",
             "right": "80% Margin"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -1216,7 +1272,8 @@
           "id": "A39",
           "params": {
             "text": "The Catch"
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A13",
@@ -1226,7 +1283,8 @@
               "Layer Code",
               "Infra Kept Private"
             ]
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -1242,23 +1300,21 @@
       ],
       "animations": [
         {
-          "id": "A21",
+          "id": "C13",
           "params": {
-            "hub": "DeepInfer",
-            "spokes": [
-              "Engine Code",
-              "Parallel Kern",
-              "Closed Storage",
-              "Closed Mesh"
-            ]
-          }
+            "title": "What Was Kept Private",
+            "open": "DeepInfer Engine",
+            "closed": "Industrial Bakery"
+          },
+          "delay": 0
         },
         {
           "id": "A52",
           "params": {
             "from": "Engine Given",
             "to": "Bakery Closed"
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A34",
@@ -1273,10 +1329,11 @@
               "Storage",
               "Routing",
               "Balancers",
-              "Proprietary"
+              "Private"
             ],
             "target": 3
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -1295,15 +1352,17 @@
             "banner": "CLUSTERS",
             "photos": [],
             "highlight": 2
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A48",
           "params": {
             "src": "",
-            "caption": "128 Enterprise GPUs",
+            "caption": "128 Big GPUs",
             "note": "Required Spec"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -1320,23 +1379,14 @@
       ],
       "animations": [
         {
-          "id": "A17",
+          "id": "C14",
           "params": {
-            "items": [
-              {
-                "label": "Blackwell",
-                "year": "NVIDIA"
-              },
-              {
-                "label": "Ascend 950",
-                "year": "Huawei"
-              },
-              {
-                "label": "Bypassed",
-                "year": "Hopper"
-              }
-            ]
-          }
+            "title": "Hardware Independence",
+            "chipA": "NVIDIA Blackwell",
+            "chipB": "Huawei Ascend 950",
+            "skipped": "Hopper H100 (Bypassed)"
+          },
+          "delay": 0
         },
         {
           "id": "A56",
@@ -1345,7 +1395,8 @@
             "right": "Huawei",
             "leftFile": "nvidia.svg",
             "rightFile": "huawei.svg"
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A44",
@@ -1355,7 +1406,8 @@
               "Hardware",
               "Targets"
             ]
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -1376,14 +1428,20 @@
             "src": "leaderboard.png",
             "url": "deepseek.com/hardware",
             "note": "Hopper Skipped"
-          }
+          },
+          "delay": 0
         },
         {
-          "id": "A53",
+          "id": "A22",
           "params": {
-            "front": "Hopper H100",
-            "back": "Skipped Entirely"
-          }
+            "layers": [
+              "Hopper H100",
+              "Blackwell",
+              "Ascend 950"
+            ],
+            "highlight": 0
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -1413,14 +1471,16 @@
             ],
             "hub": "DeepSeek",
             "hubFile": "deepseek.svg"
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A06",
           "params": {
             "oldText": "Western Silicon",
             "newText": "Native Silicon"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -1434,13 +1494,6 @@
       "assets": [],
       "animations": [
         {
-          "id": "A03",
-          "params": {
-            "label": "The Old Narrative",
-            "icon": "warn"
-          }
-        },
-        {
           "id": "A04",
           "params": {
             "title": "Old Brute Force Rule",
@@ -1448,14 +1501,24 @@
               "Spend most money",
               "Buy most GPUs"
             ]
-          }
+          },
+          "delay": 0
+        },
+        {
+          "id": "A10",
+          "params": {
+            "left": "Spend Money",
+            "right": "Buy Most GPUs"
+          },
+          "delay": 0.2
         },
         {
           "id": "A45",
           "params": {
             "count": 10,
             "label": "GPU Spending Race"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -1483,13 +1546,15 @@
               "Inference Revolution Unfolds"
             ],
             "highlight": 2
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A43",
           "params": {
             "text": "Smart Engineering"
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A46",
@@ -1500,7 +1565,8 @@
               "Public weights",
               "Host competition"
             ]
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -1522,8 +1588,9 @@
           "id": "A51",
           "params": {
             "from": "Smartest",
-            "to": "Lowest Cost"
-          }
+            "to": "Low Cost"
+          },
+          "delay": 0
         },
         {
           "id": "A28",
@@ -1541,13 +1608,15 @@
               "deepseek.svg"
             ],
             "highlight": 3
-          }
+          },
+          "delay": 0.2
         },
         {
           "id": "A42",
           "params": {
             "text": "LEAD"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -1565,21 +1634,24 @@
           "params": {
             "a": "Lower Prices?",
             "b": "Fight Back?"
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A38",
           "params": {
             "before": "Will labs",
             "word": "lower prices",
-            "after": "or fight back?"
-          }
+            "after": "fight back?"
+          },
+          "delay": 0.2
         },
         {
           "id": "A32",
           "params": {
             "label": "The Price War"
-          }
+          },
+          "delay": 0.2
         }
       ]
     },
@@ -1599,24 +1671,27 @@
           "params": {
             "captions": [
               "Like",
-              "Subscribe",
+              "Sub",
               "Comment"
             ],
             "photos": []
-          }
+          },
+          "delay": 0
         },
         {
           "id": "A29",
           "params": {
             "channel": "Vanta Brief"
-          }
+          },
+          "delay": 0.3
         },
         {
           "id": "A27",
           "params": {
             "src": "brand/vanta-brief-logo.png",
             "name": "Vanta Brief"
-          }
+          },
+          "delay": 0.3
         }
       ]
     }

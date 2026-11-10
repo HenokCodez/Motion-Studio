@@ -1,0 +1,13 @@
+{
+  "id": "C07",
+  "name": "3D Exploded Watch Layers",
+  "category": "Diagrams/systems",
+  "custom": true,
+  "duration": 84,
+  "keyframes": [0, 16, 32, 50, 68, 83],
+  "params": {
+    "title": "string <=22 chars",
+    "layers": "array <=3 strings, each <=20 chars"
+  },
+  "maxContent": "3 isometric layers exploding vertically with connection lines"
+}

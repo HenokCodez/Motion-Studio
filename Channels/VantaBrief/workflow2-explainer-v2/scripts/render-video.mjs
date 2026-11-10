@@ -21,7 +21,15 @@ await renderMedia({
   outputLocation: out,
   inputProps: {plan},
   browserExecutable: exe,
-  chromiumOptions: {args: ['--no-sandbox']},
+  concurrency: 6,
+  chromiumOptions: {
+    args: [
+      '--no-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-background-networking',
+      '--disable-background-timer-throttling'
+    ]
+  },
   frameRange: a !== undefined ? [Math.round(+a * 30), Math.round(+b * 30) - 1] : undefined,
   onProgress: p => {
     const percent = Math.floor(p.progress * 100);

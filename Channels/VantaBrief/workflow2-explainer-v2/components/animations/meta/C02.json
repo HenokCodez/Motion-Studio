@@ -1,0 +1,14 @@
+{
+  "id": "C02",
+  "name": "Coin Stack vs Melting Dollars",
+  "category": "Comparisons",
+  "custom": true,
+  "duration": 80,
+  "keyframes": [0, 16, 32, 48, 64, 79],
+  "params": {
+    "left": "string <=16 chars",
+    "right": "string <=16 chars",
+    "sub": "string <=28 chars"
+  },
+  "maxContent": "2 contrasting coin stacks with vs badge and flame/check markers"
+}

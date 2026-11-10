@@ -1,0 +1,14 @@
+{
+  "id": "C04",
+  "name": "Streaming Token Rate Meter",
+  "category": "Data",
+  "custom": true,
+  "duration": 84,
+  "keyframes": [0, 16, 32, 50, 68, 83],
+  "params": {
+    "val": "string <=16 chars",
+    "label": "string <=26 chars",
+    "sub": "string <=28 chars"
+  },
+  "maxContent": "155T tokens hero stat with streaming data highway lanes"
+}

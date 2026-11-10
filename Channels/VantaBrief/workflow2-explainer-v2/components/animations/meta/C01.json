@@ -1,0 +1,13 @@
+{
+  "id": "C01",
+  "name": "Server Racks Compute Cluster",
+  "category": "Diagrams/systems",
+  "custom": true,
+  "duration": 75,
+  "keyframes": [0, 15, 30, 45, 60, 74],
+  "params": {
+    "title": "string <=20 chars",
+    "sub": "string <=28 chars"
+  },
+  "maxContent": "3 server racks with blade lights and labels"
+}

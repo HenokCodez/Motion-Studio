@@ -1,0 +1,14 @@
+{
+  "id": "C06",
+  "name": "3D Mechanical Watch Escapement & Hairspring",
+  "category": "Diagrams/systems",
+  "custom": true,
+  "duration": 90,
+  "keyframes": [0, 18, 36, 54, 72, 89],
+  "params": {
+    "title": "string <=22 chars",
+    "part1": "string <=18 chars",
+    "part2": "string <=18 chars"
+  },
+  "maxContent": "Balance wheel, spiral hairspring and meshing escapement gear"
+}

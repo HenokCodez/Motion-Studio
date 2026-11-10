@@ -1,0 +1,14 @@
+{
+  "id": "C09",
+  "name": "800 Tokens/sec Tachometer",
+  "category": "Data",
+  "custom": true,
+  "duration": 75,
+  "keyframes": [0, 15, 30, 45, 60, 74],
+  "params": {
+    "title": "string <=22 chars",
+    "base": "string <=12 chars",
+    "turbo": "string <=12 chars"
+  },
+  "maxContent": "Standard vs Turbo speed comparison with 5x acceleration boost"
+}

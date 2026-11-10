@@ -1,17 +1,9 @@
 #!/usr/bin/env python3
-import json, sys, os, glob
-from collections import Counter
+import json, os
 
 R = os.path.dirname(os.path.abspath(__file__))
-meta = {os.path.basename(p)[:-5]: json.load(open(p)) for p in glob.glob(R + '/components/animations/meta/*.json')}
 
-# 41 scenes with exactly 112 animation slots
-# We will use 55 IDs x 2 = 110, plus 2 IDs x 1 = 2 -> total 112 animations.
-# Exactly all 57 IDs used! Cap 2 respected!
-
-# Let's define the scene structures:
-# Each scene has (id, start, end, narration, intent, intensity, assets, anim_specs)
-raw_scenes = [
+scenes = [
     # Scene 1 (0.00 -> 5.28, 5.28s) 2 anims
     {
         "id": "s01",
@@ -21,9 +13,9 @@ raw_scenes = [
         "intent": "title",
         "intensity": "hero",
         "assets": [],
-        "anims": [
-            ("A01", {"title": "Silicon Valley vs DeepSeek", "subtitle": "Billions spent locking AI behind subscriptions", "icon": "scales"}),
-            ("A03", {"label": "Locked Subscriptions", "icon": "warn"})
+        "animations": [
+            {"id": "A01", "params": {"title": "Silicon Valley vs DeepSeek", "subtitle": "Billions spent locking AI behind subscriptions", "icon": "scales"}, "delay": 0.2},
+            {"id": "C01", "params": {"title": "Compute Cluster", "sub": "Data Center Infrastructure"}, "delay": 0.4}
         ]
     },
     # Scene 2 (5.28 -> 14.28, 9.00s) 3 anims
@@ -35,10 +27,10 @@ raw_scenes = [
         "intent": "compare",
         "intensity": "medium",
         "assets": [],
-        "anims": [
-            ("A47", {"a": "How they train?", "b": "The mystery"}),
-            ("A10", {"left": "Billions Cloud", "right": "Pennies API"}),
-            ("A02", {"before": "Sell access for", "keyword": "pennies"})
+        "animations": [
+            {"id": "A47", "params": {"a": "How they train?", "b": "The mystery"}, "delay": 0.3},
+            {"id": "C02", "params": {"left": "Billions Cloud", "right": "Pennies API", "sub": "Cloud Costs vs Efficient API"}, "delay": 0.5},
+            {"id": "A02", "params": {"before": "Sell access for", "keyword": "pennies"}, "delay": 0.4}
         ]
     },
     # Scene 3 (14.28 -> 24.72, 10.44s) 3 anims
@@ -50,10 +42,10 @@ raw_scenes = [
         "intent": "brand",
         "intensity": "hero",
         "assets": ["logos/deepseek.svg"],
-        "anims": [
-            ("A06", {"oldText": "Financial bluff?", "newText": "Real Efficiency"}),
-            ("A39", {"text": "Massive Losses?"}),
-            ("A27", {"src": "logos/deepseek.svg", "name": "DeepSeek"})
+        "animations": [
+            {"id": "A06", "params": {"oldText": "Financial bluff?", "newText": "Real Efficiency"}, "delay": 0.3},
+            {"id": "C03", "params": {"title": "Core Production Engine", "label": "OPEN SOURCE CODE"}, "delay": 0.5},
+            {"id": "A27", "params": {"src": "logos/deepseek.svg", "name": "DeepSeek"}, "delay": 0.3}
         ]
     },
     # Scene 4 (24.72 -> 32.40, 7.68s) 3 anims
@@ -65,10 +57,10 @@ raw_scenes = [
         "intent": "list",
         "intensity": "medium",
         "assets": ["logos/deepseek.svg", "logos/github.svg"],
-        "anims": [
-            ("A13", {"items": ["DeepSeek V4.1 Flash", "DeepInfer Engine", "Full Open Source"]}),
-            ("A34", {"icons": ["bolt", "chip", "cube", "star"], "labels": ["V4.1 Flash", "DeepInfer", "Engine", "GitHub"], "target": 1}),
-            ("A54", {"portal": "DEEPINFER", "title": "Production Engine"})
+        "animations": [
+            {"id": "A13", "params": {"items": ["DeepSeek V4.1 Flash", "DeepInfer Engine", "Full Open Source"]}, "delay": 0.3},
+            {"id": "A34", "params": {"icons": ["bolt", "chip", "cube", "star"], "labels": ["Flash", "Infer", "Engine", "GitHub"], "target": 1}, "delay": 0.3},
+            {"id": "A54", "params": {"portal": "INFER", "title": "Engine"}, "delay": 0.3}
         ]
     },
     # Scene 5 (32.40 -> 40.68, 8.28s) 3 anims
@@ -80,10 +72,10 @@ raw_scenes = [
         "intent": "stat",
         "intensity": "hero",
         "assets": [],
-        "anims": [
-            ("A05", {"text": "Staggering Data Center Numbers", "emphasis": [0]}),
-            ("A07", {"value": 155, "label": "Trillion Tokens / Day", "sub": "In a single cluster"}),
-            ("A40", {"label": "RECORD"})
+        "animations": [
+            {"id": "A05", "params": {"text": "Staggering Data Center Numbers", "emphasis": [0]}, "delay": 0.3},
+            {"id": "C04", "params": {"val": "155 TRILLION", "label": "Tokens Processed / Day", "sub": "1.8 Billion Words / Second"}, "delay": 0.5},
+            {"id": "A40", "params": {"label": "RECORD"}, "delay": 0.3}
         ]
     },
     # Scene 6 (40.68 -> 50.96, 10.28s) 3 anims
@@ -95,10 +87,10 @@ raw_scenes = [
         "intent": "chart",
         "intensity": "medium",
         "assets": [],
-        "anims": [
-            ("A37", {"stats": [{"v": 155, "s": "T", "l": "Tokens / day"}, {"v": 1.8, "s": "B", "l": "Words / second"}, {"v": 24, "s": "h", "l": "Around clock"}]}),
-            ("A33", {"tabs": ["PEAK", "OFF", "AVG"], "values": [52, 38, 44], "title": "$38/hr per GPU"}),
-            ("A41", {"target": "$38 / hr"})
+        "animations": [
+            {"id": "A37", "params": {"stats": [{"v": 155, "s": "T/d", "l": "Tokens / day"}, {"v": 1.8, "s": "B/s", "l": "Words / second"}, {"v": 24, "s": "hrs", "l": "Around clock"}]}, "delay": 0.3},
+            {"id": "A33", "params": {"tabs": ["PEAK", "OFF", "AVG"], "values": [52, 38, 44], "title": "$38/hr per GPU"}, "delay": 0.4},
+            {"id": "A41", "params": {"target": "$38 / hr"}, "delay": 0.3}
         ]
     },
     # Scene 7 (50.96 -> 59.68, 8.72s) 3 anims
@@ -110,10 +102,10 @@ raw_scenes = [
         "intent": "compare",
         "intensity": "hero",
         "assets": [],
-        "anims": [
-            ("A25", {"values": [8, 38], "labels": ["Cost", "Revenue"]}),
-            ("A08", {"top": "Not losing money", "big": "PROFIT", "bottom": "$38 Rev vs $8 Cost"}),
-            ("A26", {"values": [20, 35, 55, 70, 80], "note": "80% Gross Margin"})
+        "animations": [
+            {"id": "A25", "params": {"values": [8, 38], "labels": ["Cost", "Revenue"]}, "delay": 0.3},
+            {"id": "C05", "params": {"stat": "80%", "label": "Gross Profit Margin", "note": "$38/hr Rev vs $8/hr Cost"}, "delay": 0.5},
+            {"id": "A08", "params": {"top": "Not losing money", "big": "PROFIT", "bottom": "$38 Rev vs $8 Cost"}, "delay": 0.4}
         ]
     },
     # Scene 8 (59.68 -> 69.96, 10.28s) 3 anims
@@ -125,10 +117,10 @@ raw_scenes = [
         "intent": "screenshot",
         "intensity": "medium",
         "assets": ["screenshots/deepseek-github.png", "logos/deepseek.svg", "logos/chatgpt.svg"],
-        "anims": [
-            ("A30", {"src": "deepseek-github.png", "url": "github.com/deepseek-ai", "note": "Open Source Code"}),
-            ("A56", {"left": "Frontier", "right": "DeepSeek", "leftFile": "chatgpt.svg", "rightFile": "deepseek.svg"}),
-            ("A12", {"left": "Closed Frontier", "right": "Open Weights"})
+        "animations": [
+            {"id": "A30", "params": {"src": "deepseek-github.png", "url": "github.com/deepseek-ai", "note": "Open Source Code"}, "delay": 0.3},
+            {"id": "A56", "params": {"left": "Frontier", "right": "DeepSeek", "leftFile": "chatgpt.svg", "rightFile": "deepseek.svg"}, "delay": 0.4},
+            {"id": "A12", "params": {"left": "Closed Frontier", "right": "Open Weights"}, "delay": 0.4}
         ]
     },
     # Scene 9 (69.96 -> 78.04, 8.08s) 3 anims
@@ -140,10 +132,10 @@ raw_scenes = [
         "intent": "sequence",
         "intensity": "medium",
         "assets": ["screenshots/leaderboard.png"],
-        "anims": [
-            ("A57", {"source": "LMSYS Leaderboard", "headlines": ["DeepSeek V4.1 Scores High", "Paper Benchmark or Real?", "Synthetic Test Variance", "Real Workload Shift", "Production Stress Test", "Leaderboard Verified"], "highlight": 1}),
-            ("A14", {"labels": ["Real Tasks", "Architecture", "Should Switch"]}),
-            ("A36", {"icons": ["search", "chip", "bolt", "star"], "labels": ["Capability", "Engine", "Silicon", "Verdict"]})
+        "animations": [
+            {"id": "A57", "params": {"source": "LMSYS Leaderboard", "headlines": ["DeepSeek V4.1 Scores High", "Paper Benchmark or Real?", "Synthetic Test Variance", "Real Workload Shift", "Production Stress Test", "Leaderboard Verified"], "highlight": 1}, "delay": 0.3},
+            {"id": "A14", "params": {"labels": ["Real Tasks", "Architecture", "Should Switch"]}, "delay": 0.3},
+            {"id": "A36", "params": {"icons": ["search", "chip", "bolt", "star"], "labels": ["Capability", "Engine", "Silicon", "Verdict"]}, "delay": 0.3}
         ]
     },
     # Scene 10 (78.04 -> 86.80, 8.76s) 3 anims
@@ -155,10 +147,10 @@ raw_scenes = [
         "intent": "list",
         "intensity": "calm",
         "assets": [],
-        "anims": [
-            ("A44", {"nodes": ["Static", "Paper", "Tests"]}),
-            ("A16", {"steps": ["Official", "Test Runs", "Case Study", "Heavy-Duty"]}),
-            ("A18", {"gate": "STRESS TEST"})
+        "animations": [
+            {"id": "A44", "params": {"nodes": ["Static", "Paper", "Tests"]}, "delay": 0.3},
+            {"id": "A16", "params": {"steps": ["Official", "Test Runs", "Case Study", "Heavy-Duty"]}, "delay": 0.3},
+            {"id": "A18", "params": {"gate": "HEAVY TASK"}, "delay": 0.3}
         ]
     },
     # Scene 11 (86.80 -> 93.40, 6.60s) 2 anims
@@ -170,9 +162,9 @@ raw_scenes = [
         "intent": "compare",
         "intensity": "medium",
         "assets": [],
-        "anims": [
-            ("A09", {"left": {"title": "Standard Webchat", "bullets": ["Single prompt", "Short horizon"]}, "right": {"title": "Agent Workflows", "bullets": ["Multi-step loop", "Long horizon tasks"]}}),
-            ("A31", {"label": "Agentic Mode"})
+        "animations": [
+            {"id": "A09", "params": {"left": {"title": "Standard Webchat", "bullets": ["Single prompt", "Short horizon"]}, "right": {"title": "Agent Workflows", "bullets": ["Multi-step loop", "Long horizon tasks"]}}, "delay": 0.3},
+            {"id": "A31", "params": {"label": "Agentic Mode"}, "delay": 0.4}
         ]
     },
     # Scene 12 (93.40 -> 98.04, 4.64s) 2 anims
@@ -184,9 +176,9 @@ raw_scenes = [
         "intent": "layers",
         "intensity": "medium",
         "assets": ["logos/deepseek.svg"],
-        "anims": [
-            ("A20", {"layers": ["CLI Terminal", "Agent Loop", "Model Core"], "highlight": 1, "note": "Coding Harness"}),
-            ("A53", {"front": "Web Chat UI", "back": "Code Harness"})
+        "animations": [
+            {"id": "A20", "params": {"layers": ["CLI Terminal", "Agent Loop", "Model Core"], "highlight": 1, "note": "Coding Harness"}, "delay": 0.3},
+            {"id": "A53", "params": {"front": "Web Chat UI", "back": "Code Harness"}, "delay": 0.3}
         ]
     },
     # Scene 13 (98.04 -> 106.20, 8.16s) 3 anims
@@ -198,10 +190,10 @@ raw_scenes = [
         "intent": "process",
         "intensity": "hero",
         "assets": [],
-        "anims": [
-            ("A15", {"chips": ["Geometry", "Lighting", "Physics"], "result": "3D Mechanical"}),
-            ("A19", {"nodes": [{"label": "Geometry", "icon": "cube"}, {"label": "3D Watch", "icon": "bolt"}, {"label": "Interactive", "icon": "browser"}], "highlight": 1}),
-            ("A22", {"layers": ["Balance Wheel", "Hairspring", "3D Dial Frame"], "highlight": 1})
+        "animations": [
+            {"id": "A15", "params": {"chips": ["Geometry", "Lighting", "Physics"], "result": "3D Mechanical"}, "delay": 0.3},
+            {"id": "C06", "params": {"title": "3D Mechanical Watch", "part1": "Hairspring Loop", "part2": "Escapement Gear"}, "delay": 0.5},
+            {"id": "A22", "params": {"layers": ["Balance Wheel", "Hairspring", "3D Dial Frame"], "highlight": 1}, "delay": 0.4}
         ]
     },
     # Scene 14 (106.20 -> 116.44, 10.24s) 3 anims
@@ -213,10 +205,10 @@ raw_scenes = [
         "intent": "hierarchy",
         "intensity": "medium",
         "assets": [],
-        "anims": [
-            ("A24", {"root": "Spatial Engine", "children": ["Dynamic Lights", "Soft Shadows", "Gear Physics"], "highlight": 2}),
-            ("A50", {"left": "Hover Gear", "right": "Inspect Flow"}),
-            ("A46", {"title": "Interactive 3D", "bullets": ["All pieces fit", "Dynamic motion", "Clean rendering"]})
+        "animations": [
+            {"id": "A24", "params": {"root": "Spatial Engine", "children": ["Dynamic Lights", "Soft Shadows", "Gear Physics"], "highlight": 2}, "delay": 0.3},
+            {"id": "A41", "params": {"target": "Gear Physics"}, "delay": 0.4},
+            {"id": "A46", "params": {"title": "Interactive 3D", "bullets": ["All pieces fit", "Dynamic motion", "Clean rendering"]}, "delay": 0.3}
         ]
     },
     # Scene 15 (116.44 -> 123.16, 6.72s) 2 anims
@@ -228,9 +220,9 @@ raw_scenes = [
         "intent": "transition",
         "intensity": "calm",
         "assets": [],
-        "anims": [
-            ("A52", {"from": "Face Rotation", "to": "Shadow Trace"}),
-            ("A48", {"src": "", "caption": "Breguet Hairspring", "note": "Active Node"})
+        "animations": [
+            {"id": "A52", "params": {"from": "Rotation", "to": "Shadow Trace"}, "delay": 0.3},
+            {"id": "A48", "params": {"src": "", "caption": "Breguet Hairspring", "note": "Active Node"}, "delay": 0.4}
         ]
     },
     # Scene 16 (123.16 -> 132.12, 8.96s) 3 anims
@@ -242,10 +234,10 @@ raw_scenes = [
         "intent": "layers",
         "intensity": "hero",
         "assets": [],
-        "anims": [
-            ("A23", {"stages": ["Dial", "Movement", "Escapement", "Balance"], "highlight": 2}),
-            ("A17", {"items": [{"label": "Assembled", "year": "Step 1"}, {"label": "Explode", "year": "Step 2"}, {"label": "3D Layers", "year": "Step 3"}]}),
-            ("A45", {"count": 12, "label": "Spatial Testers Stunned"})
+        "animations": [
+            {"id": "C07", "params": {"title": "Exploded 3D Space", "layers": ["Top Glass Bezel", "Mechanical Movement", "Titanium Case Back"]}, "delay": 0.4},
+            {"id": "A17", "params": {"items": [{"label": "Assembled", "year": "Step 1"}, {"label": "Explode", "year": "Step 2"}, {"label": "3D Layers", "year": "Step 3"}]}, "delay": 0.4},
+            {"id": "A45", "params": {"count": 12, "label": "Spatial Testers Stunned"}, "delay": 0.3}
         ]
     },
     # Scene 17 (132.12 -> 140.76, 8.64s) 3 anims
@@ -257,10 +249,10 @@ raw_scenes = [
         "intent": "sequence",
         "intensity": "medium",
         "assets": [],
-        "anims": [
-            ("A35", {"banner": "TEST 02", "photos": [], "highlight": 1}),
-            ("A11", {"left": "Hi-Res Image", "right": "Vision Tokenizer"}),
-            ("A49", {"captions": ["Spatial", "Reason", "Success"], "photos": []})
+        "animations": [
+            {"id": "C08", "params": {"title": "Vision Reasoning Test", "count": "130+ Pastries", "sub": "Spatial Occlusion & Counting"}, "delay": 0.4},
+            {"id": "A11", "params": {"left": "Hi-Res Image", "right": "Vision Tokenizer"}, "delay": 0.4},
+            {"id": "A49", "params": {"captions": ["Spatial", "Reason", "Success"], "photos": []}, "delay": 0.3}
         ]
     },
     # Scene 18 (140.76 -> 144.04, 3.28s) 1 anim
@@ -272,8 +264,8 @@ raw_scenes = [
         "intent": "process",
         "intensity": "medium",
         "assets": [],
-        "anims": [
-            ("A21", {"hub": "Thinking", "spokes": ["Crop Patch", "Analyze", "Cross-check", "Count"]})
+        "animations": [
+            {"id": "A21", "params": {"hub": "Thinking", "spokes": ["Crop Patch", "Analyze", "Cross-check", "Count"]}, "delay": 0.4}
         ]
     },
     # Scene 19 (144.04 -> 152.52, 8.48s) 3 anims
@@ -285,10 +277,10 @@ raw_scenes = [
         "intent": "stat",
         "intensity": "hero",
         "assets": [],
-        "anims": [
-            ("A07", {"value": 130, "label": "Pastries Identified", "sub": "Including occluded items"}),
-            ("A42", {"text": "130+"}),
-            ("A43", {"text": "Precise Geometry"})
+        "animations": [
+            {"id": "A07", "params": {"value": 130, "label": "Pastries Identified", "sub": "Including occluded items"}, "delay": 0.3},
+            {"id": "A42", "params": {"text": "130+"}, "delay": 0.3},
+            {"id": "A43", "params": {"text": "Precise Geometry"}, "delay": 0.3}
         ]
     },
     # Scene 20 (152.52 -> 162.12, 9.60s) 3 anims
@@ -300,10 +292,10 @@ raw_scenes = [
         "intent": "chart",
         "intensity": "hero",
         "assets": [],
-        "anims": [
-            ("A33", {"tabs": ["BASE", "TURBO", "PEAK"], "values": [80, 125, 150], "title": "Tokens / Second"}),
-            ("A08", {"top": "Text Output", "big": "150 T/S", "bottom": "Pure generation throughput"}),
-            ("A37", {"stats": [{"v": 150, "s": "t/s", "l": "Standard run"}, {"v": 800, "s": "t/s", "l": "Cloud turbo"}, {"v": 5, "s": "x", "l": "Speed boost"}]})
+        "animations": [
+            {"id": "C09", "params": {"title": "Inference Throughput", "base": "150 T/S", "turbo": "800 T/S"}, "delay": 0.5},
+            {"id": "A08", "params": {"top": "Text Output", "big": "150 T/S", "bottom": "Pure generation throughput"}, "delay": 0.4},
+            {"id": "A33", "params": {"tabs": ["BASE", "FAST", "PEAK"], "values": [80, 125, 150], "title": "Tokens / Second"}, "delay": 0.4}
         ]
     },
     # Scene 21 (162.12 -> 170.36, 8.24s) 3 anims
@@ -315,10 +307,10 @@ raw_scenes = [
         "intent": "brand-group",
         "intensity": "medium",
         "assets": ["logos/chatgpt.svg", "logos/claude.svg", "logos/gemini.svg", "logos/grok.svg"],
-        "anims": [
-            ("A28", {"names": ["ChatGPT", "Claude", "Gemini", "Grok"], "files": ["chatgpt.svg", "claude.svg", "gemini.svg", "grok.svg"], "highlight": -1}),
-            ("A40", {"label": "PARITY"}),
-            ("A32", {"label": "Melt Hardware?"})
+        "animations": [
+            {"id": "A28", "params": {"names": ["ChatGPT", "Claude", "Gemini", "Grok"], "files": ["chatgpt.svg", "claude.svg", "gemini.svg", "grok.svg"], "highlight": -1}, "delay": 0.3},
+            {"id": "A40", "params": {"label": "PARITY"}, "delay": 0.3},
+            {"id": "A32", "params": {"label": "Melt Hardware?"}, "delay": 0.4}
         ]
     },
     # Scene 22 (170.36 -> 177.56, 7.20s) 3 anims
@@ -330,10 +322,10 @@ raw_scenes = [
         "intent": "title",
         "intensity": "hero",
         "assets": [],
-        "anims": [
-            ("A01", {"title": "Systems Engineering", "subtitle": "How DeepSeek achieved peak throughput", "icon": "chip"}),
-            ("A04", {"title": "Massive Prompt", "lines": ["Full repository", "Millions of tokens"]}),
-            ("A38", {"before": "Secret is", "word": "Architecture", "after": "not brute force"})
+        "animations": [
+            {"id": "A01", "params": {"title": "Systems Engineering", "subtitle": "How DeepSeek achieved peak throughput", "icon": "chip"}, "delay": 0.2},
+            {"id": "A04", "params": {"title": "Massive Prompt", "lines": ["Full repository", "Millions of tokens"]}, "delay": 0.4},
+            {"id": "A38", "params": {"before": "Secret is", "word": "Architecture", "after": "smart code"}, "delay": 0.4}
         ]
     },
     # Scene 23 (177.56 -> 185.48, 7.92s) 3 anims
@@ -345,10 +337,10 @@ raw_scenes = [
         "intent": "layers",
         "intensity": "medium",
         "assets": [],
-        "anims": [
-            ("A20", {"layers": ["Layer 1..32", "Attention Pass", "Layer 33..64"], "highlight": 1, "note": "All Layers Pass"}),
-            ("A18", {"gate": "ALL LAYERS"}),
-            ("A51", {"from": "Full Reading", "to": "Heavy Compute"})
+        "animations": [
+            {"id": "A20", "params": {"layers": ["Layer 1..32", "Attention Pass", "Layer 33..64"], "highlight": 1, "note": "All Layers Pass"}, "delay": 0.3},
+            {"id": "A18", "params": {"gate": "ALL LAYERS"}, "delay": 0.3},
+            {"id": "A51", "params": {"from": "Reading", "to": "Compute"}, "delay": 0.3}
         ]
     },
     # Scene 24 (185.48 -> 195.56, 10.08s) 3 anims
@@ -360,10 +352,10 @@ raw_scenes = [
         "intent": "compare",
         "intensity": "hero",
         "assets": [],
-        "anims": [
-            ("A11", {"left": "Monolith Model", "right": "Causal Split"}),
-            ("A22", {"layers": ["Reader Layers", "Causal Bridge", "Writer Layers"], "highlight": 1}),
-            ("A10", {"left": "Bottom: Reader", "right": "Top: Writer"})
+        "animations": [
+            {"id": "C10", "params": {"reader": "Bottom: Reader (50%)", "writer": "Top: Writer (50%)", "saving": "50% Compute Saved"}, "delay": 0.5},
+            {"id": "A11", "params": {"left": "Monolith Model", "right": "Causal Split"}, "delay": 0.4},
+            {"id": "A10", "params": {"left": "Bottom: Reader", "right": "Top: Writer"}, "delay": 0.4}
         ]
     },
     # Scene 25 (195.56 -> 204.36, 8.80s) 3 anims
@@ -375,10 +367,10 @@ raw_scenes = [
         "intent": "sequence",
         "intensity": "medium",
         "assets": [],
-        "anims": [
-            ("A14", {"labels": ["Prompt In", "Half Layers", "Fast Start"]}),
-            ("A25", {"values": [100, 50], "labels": ["Before", "After"]}),
-            ("A02", {"before": "Deploying", "keyword": "Wide MoE"})
+        "animations": [
+            {"id": "A14", "params": {"labels": ["Prompt In", "Half Layers", "Fast Start"]}, "delay": 0.3},
+            {"id": "A25", "params": {"values": [100, 50], "labels": ["Before", "After"]}, "delay": 0.4},
+            {"id": "A02", "params": {"before": "Deploying", "keyword": "Wide MoE"}, "delay": 0.4}
         ]
     },
     # Scene 26 (204.36 -> 212.76, 8.40s) 3 anims
@@ -390,10 +382,10 @@ raw_scenes = [
         "intent": "hierarchy",
         "intensity": "hero",
         "assets": [],
-        "anims": [
-            ("A24", {"root": "Wide MoE Cluster", "children": ["64-128 GPUs", "Shared Memory", "Expert Nodes"], "highlight": 0}),
-            ("A15", {"chips": ["Expert 1", "Expert 2", "Expert N"], "result": "Distributed GPUs"}),
-            ("A54", {"portal": "128 GPUs", "title": "Parallel Cluster"})
+        "animations": [
+            {"id": "C11", "params": {"title": "Wide Expert Parallelism", "gpus": "64-128 GPUs Cluster", "drop": "-88% Traffic Drop"}, "delay": 0.5},
+            {"id": "A24", "params": {"root": "Wide MoE Cluster", "children": ["64-128 GPUs", "Shared Memory", "Expert Nodes"], "highlight": 0}, "delay": 0.4},
+            {"id": "A54", "params": {"portal": "128 GPUs", "title": "Parallel Cluster"}, "delay": 0.3}
         ]
     },
     # Scene 27 (212.76 -> 219.24, 6.48s) 2 anims
@@ -405,9 +397,9 @@ raw_scenes = [
         "intent": "chart",
         "intensity": "hero",
         "assets": [],
-        "anims": [
-            ("A26", {"values": [90, 75, 45, 20, 12], "note": "-88% Traffic Drop"}),
-            ("A31", {"label": "Low Bandwidth"})
+        "animations": [
+            {"id": "A26", "params": {"values": [90, 75, 45, 20, 12], "note": "-88% Traffic Drop"}, "delay": 0.4},
+            {"id": "A31", "params": {"label": "Low Bandwidth"}, "delay": 0.4}
         ]
     },
     # Scene 28 (219.24 -> 229.32, 10.08s) 3 anims
@@ -419,10 +411,10 @@ raw_scenes = [
         "intent": "process",
         "intensity": "medium",
         "assets": ["logos/deepseek.svg"],
-        "anims": [
-            ("A36", {"icons": ["chip", "bolt", "cube", "star"], "labels": ["Prompt", "Compute", "KV Cache", "Speed"]}),
-            ("A23", {"stages": ["RAM Tier", "Custom FS", "SSD Pool", "KV Cache"], "highlight": 1}),
-            ("A19", {"nodes": [{"label": "Nodes", "icon": "chip"}, {"label": "Custom FS", "icon": "cube"}, {"label": "Storage", "icon": "browser"}], "highlight": 1})
+        "animations": [
+            {"id": "A36", "params": {"icons": ["chip", "bolt", "cube", "star"], "labels": ["Prompt", "Compute", "KV Cache", "Speed"]}, "delay": 0.3},
+            {"id": "A23", "params": {"stages": ["RAM Tier", "Custom FS", "SSD Pool", "KV Cache"], "highlight": 1}, "delay": 0.4},
+            {"id": "A19", "params": {"nodes": [{"label": "Nodes", "icon": "chip"}, {"label": "Custom FS", "icon": "cube"}, {"label": "Storage", "icon": "browser"}], "highlight": 1}, "delay": 0.4}
         ]
     },
     # Scene 29 (229.32 -> 238.04, 8.72s) 3 anims
@@ -434,10 +426,10 @@ raw_scenes = [
         "intent": "stat",
         "intensity": "hero",
         "assets": [],
-        "anims": [
-            ("A16", {"steps": ["Cold 0%", "Warm 60%", "Hot 90%", "Peak 96%"]}),
-            ("A41", {"target": "100PB Storage"}),
-            ("A05", {"text": "96 Percent Hit Rate", "emphasis": [0]})
+        "animations": [
+            {"id": "C12", "params": {"title": "Input Context Caching", "storage": "100 PB SSD Storage", "hitRate": "96% Cache Hit Rate"}, "delay": 0.5},
+            {"id": "A16", "params": {"steps": ["Cold 0%", "Warm 60%", "Hot 90%", "Peak 96%"]}, "delay": 0.4},
+            {"id": "A05", "params": {"text": "96 Percent Hit Rate", "emphasis": [0]}, "delay": 0.3}
         ]
     },
     # Scene 30 (238.04 -> 248.52, 10.48s) 3 anims
@@ -449,10 +441,10 @@ raw_scenes = [
         "intent": "compare",
         "intensity": "medium",
         "assets": [],
-        "anims": [
-            ("A09", {"left": {"title": "Naive Compute", "bullets": ["Re-run every layer", "Wasted energy"]}, "right": {"title": "Cache Reuse", "bullets": ["Cached attention", "Zero waste"]}}),
-            ("A50", {"left": "Prefix Stored", "right": "Tokens Served"}),
-            ("A12", {"left": "Cheap API Price", "right": "80% Margin"})
+        "animations": [
+            {"id": "A09", "params": {"left": {"title": "Naive Compute", "bullets": ["Re-run every layer", "Wasted energy"]}, "right": {"title": "Cache Reuse", "bullets": ["Cached attention", "Zero waste"]}}, "delay": 0.3},
+            {"id": "A03", "params": {"label": "Instant Prefix Reuse", "icon": "bolt"}, "delay": 0.4},
+            {"id": "A12", "params": {"left": "Cheap API Price", "right": "80% Margin"}, "delay": 0.4}
         ]
     },
     # Scene 31 (248.52 -> 255.48, 6.96s) 2 anims
@@ -464,9 +456,9 @@ raw_scenes = [
         "intent": "warning",
         "intensity": "calm",
         "assets": [],
-        "anims": [
-            ("A39", {"text": "The Catch"}),
-            ("A13", {"items": ["Inference Engine", "Layer Code", "Infra Kept Private"]})
+        "animations": [
+            {"id": "A39", "params": {"text": "The Catch"}, "delay": 0.3},
+            {"id": "A13", "params": {"items": ["Inference Engine", "Layer Code", "Infra Kept Private"]}, "delay": 0.4}
         ]
     },
     # Scene 32 (255.48 -> 264.76, 9.28s) 3 anims
@@ -478,10 +470,10 @@ raw_scenes = [
         "intent": "process",
         "intensity": "medium",
         "assets": ["logos/deepseek.svg"],
-        "anims": [
-            ("A21", {"hub": "DeepInfer", "spokes": ["Engine Code", "Parallel Kern", "Closed Storage", "Closed Mesh"]}),
-            ("A52", {"from": "Engine Given", "to": "Bakery Closed"}),
-            ("A34", {"icons": ["cube", "bolt", "browser", "warn"], "labels": ["Storage", "Routing", "Balancers", "Proprietary"], "target": 3})
+        "animations": [
+            {"id": "C13", "params": {"title": "What Was Kept Private", "open": "DeepInfer Engine", "closed": "Industrial Bakery"}, "delay": 0.5},
+            {"id": "A52", "params": {"from": "Engine Given", "to": "Bakery Closed"}, "delay": 0.4},
+            {"id": "A34", "params": {"icons": ["cube", "bolt", "browser", "warn"], "labels": ["Storage", "Routing", "Balancers", "Private"], "target": 3}, "delay": 0.4}
         ]
     },
     # Scene 33 (264.76 -> 271.24, 6.48s) 2 anims
@@ -493,9 +485,9 @@ raw_scenes = [
         "intent": "stat",
         "intensity": "hero",
         "assets": [],
-        "anims": [
-            ("A35", {"banner": "CLUSTERS", "photos": [], "highlight": 2}),
-            ("A48", {"src": "", "caption": "128 Enterprise GPUs", "note": "Required Spec"})
+        "animations": [
+            {"id": "A35", "params": {"banner": "CLUSTERS", "photos": [], "highlight": 2}, "delay": 0.3},
+            {"id": "A48", "params": {"src": "", "caption": "128 Big GPUs", "note": "Required Spec"}, "delay": 0.4}
         ]
     },
     # Scene 34 (271.24 -> 280.84, 9.60s) 3 anims
@@ -507,10 +499,10 @@ raw_scenes = [
         "intent": "brand",
         "intensity": "hero",
         "assets": ["logos/nvidia.svg", "logos/huawei.svg"],
-        "anims": [
-            ("A17", {"items": [{"label": "Blackwell", "year": "NVIDIA"}, {"label": "Ascend 950", "year": "Huawei"}, {"label": "Bypassed", "year": "Hopper"}]}),
-            ("A56", {"left": "NVIDIA", "right": "Huawei", "leftFile": "nvidia.svg", "rightFile": "huawei.svg"}),
-            ("A44", {"nodes": ["Silicon", "Hardware", "Targets"]})
+        "animations": [
+            {"id": "C14", "params": {"title": "Hardware Independence", "chipA": "NVIDIA Blackwell", "chipB": "Huawei Ascend 950", "skipped": "Hopper H100 (Bypassed)"}, "delay": 0.5},
+            {"id": "A56", "params": {"left": "NVIDIA", "right": "Huawei", "leftFile": "nvidia.svg", "rightFile": "huawei.svg"}, "delay": 0.4},
+            {"id": "A44", "params": {"nodes": ["Silicon", "Hardware", "Targets"]}, "delay": 0.3}
         ]
     },
     # Scene 35 (280.84 -> 287.64, 6.80s) 2 anims
@@ -522,9 +514,9 @@ raw_scenes = [
         "intent": "screenshot",
         "intensity": "medium",
         "assets": ["screenshots/leaderboard.png"],
-        "anims": [
-            ("A30", {"src": "leaderboard.png", "url": "deepseek.com/hardware", "note": "Hopper Skipped"}),
-            ("A53", {"front": "Hopper H100", "back": "Skipped Entirely"})
+        "animations": [
+            {"id": "A30", "params": {"src": "leaderboard.png", "url": "deepseek.com/hardware", "note": "Hopper Skipped"}, "delay": 0.3},
+            {"id": "A53", "params": {"front": "Hopper H100", "back": "Skipped H100"}, "delay": 0.4}
         ]
     },
     # Scene 36 (287.64 -> 293.80, 6.16s) 2 anims
@@ -536,9 +528,9 @@ raw_scenes = [
         "intent": "brand",
         "intensity": "hero",
         "assets": ["logos/deepseek.svg", "logos/nvidia.svg", "logos/huawei.svg"],
-        "anims": [
-            ("A55", {"names": ["NVIDIA", "Huawei"], "files": ["nvidia.svg", "huawei.svg"], "hub": "DeepSeek", "hubFile": "deepseek.svg"}),
-            ("A06", {"oldText": "Western Silicon", "newText": "Native Silicon"})
+        "animations": [
+            {"id": "A55", "params": {"names": ["NVIDIA", "Huawei"], "files": ["nvidia.svg", "huawei.svg"], "hub": "DeepSeek", "hubFile": "deepseek.svg"}, "delay": 0.4},
+            {"id": "A06", "params": {"oldText": "Western Silicon", "newText": "Native Silicon"}, "delay": 0.4}
         ]
     },
     # Scene 37 (293.80 -> 304.20, 10.40s) 3 anims
@@ -550,10 +542,10 @@ raw_scenes = [
         "intent": "define",
         "intensity": "calm",
         "assets": [],
-        "anims": [
-            ("A03", {"label": "The Old Narrative", "icon": "warn"}),
-            ("A04", {"title": "Old Brute Force Rule", "lines": ["Spend most money", "Buy most GPUs"]}),
-            ("A45", {"count": 10, "label": "GPU Spending Race"})
+        "animations": [
+            {"id": "A03", "params": {"label": "The Old Narrative", "icon": "warn"}, "delay": 0.3},
+            {"id": "A04", "params": {"title": "Old Brute Force Rule", "lines": ["Spend most money", "Buy most GPUs"]}, "delay": 0.4},
+            {"id": "A45", "params": {"count": 10, "label": "GPU Spending Race"}, "delay": 0.3}
         ]
     },
     # Scene 38 (304.20 -> 312.68, 8.48s) 3 anims
@@ -565,10 +557,10 @@ raw_scenes = [
         "intent": "hierarchy",
         "intensity": "hero",
         "assets": ["logos/github.svg"],
-        "anims": [
-            ("A57", {"source": "TechCrunch & SemiAnalysis", "headlines": ["DeepSeek Disrupts Cloud Pricing", "Open Inference Engine Released", "Cloud Providers Under Pressure", "Margins Drop Across Industry", "Smart Systems Over Brute Force", "Inference Revolution Unfolds"], "highlight": 2}),
-            ("A43", {"text": "Smart Engineering"}),
-            ("A46", {"title": "Cloud Pressure", "bullets": ["Lower margins", "Public weights", "Host competition"]})
+        "animations": [
+            {"id": "A57", "params": {"source": "TechCrunch & SemiAnalysis", "headlines": ["DeepSeek Disrupts Cloud Pricing", "Open Inference Engine Released", "Cloud Providers Under Pressure", "Margins Drop Across Industry", "Smart Systems Over Brute Force", "Inference Revolution Unfolds"], "highlight": 2}, "delay": 0.3},
+            {"id": "A43", "params": {"text": "Smart Engineering"}, "delay": 0.3},
+            {"id": "A46", "params": {"title": "Cloud Pressure", "bullets": ["Lower margins", "Public weights", "Host competition"]}, "delay": 0.3}
         ]
     },
     # Scene 39 (312.68 -> 321.96, 9.28s) 3 anims
@@ -580,10 +572,10 @@ raw_scenes = [
         "intent": "brand",
         "intensity": "hero",
         "assets": ["logos/deepseek.svg", "logos/chatgpt.svg", "logos/claude.svg", "logos/gemini.svg"],
-        "anims": [
-            ("A51", {"from": "Smartest", "to": "Lowest Cost"}),
-            ("A28", {"names": ["Cost", "Speed", "Scale", "Weights"], "files": ["chatgpt.svg", "claude.svg", "gemini.svg", "deepseek.svg"], "highlight": 3}),
-            ("A42", {"text": "LEAD"})
+        "animations": [
+            {"id": "A51", "params": {"from": "Smartest", "to": "Low Cost"}, "delay": 0.3},
+            {"id": "A28", "params": {"names": ["Cost", "Speed", "Scale", "Weights"], "files": ["chatgpt.svg", "claude.svg", "gemini.svg", "deepseek.svg"], "highlight": 3}, "delay": 0.4},
+            {"id": "A42", "params": {"text": "LEAD"}, "delay": 0.3}
         ]
     },
     # Scene 40 (321.96 -> 331.40, 9.44s) 3 anims
@@ -595,10 +587,10 @@ raw_scenes = [
         "intent": "question",
         "intensity": "calm",
         "assets": [],
-        "anims": [
-            ("A47", {"a": "Lower Prices?", "b": "Fight Back?"}),
-            ("A38", {"before": "Will labs", "word": "lower prices", "after": "or fight back?"}),
-            ("A32", {"label": "The Price War"})
+        "animations": [
+            {"id": "A47", "params": {"a": "Lower Prices?", "b": "Fight Back?"}, "delay": 0.3},
+            {"id": "A38", "params": {"before": "Will labs", "word": "lower prices", "after": "fight back?"}, "delay": 0.4},
+            {"id": "A32", "params": {"label": "The Price War"}, "delay": 0.4}
         ]
     },
     # Scene 41 (331.40 -> 341.237, 9.837s) 3 anims
@@ -610,48 +602,23 @@ raw_scenes = [
         "intent": "cta",
         "intensity": "hero",
         "assets": ["brand/vanta-brief-logo.png"],
-        "anims": [
-            ("A49", {"captions": ["Like", "Subscribe", "Comment"], "photos": []}),
-            ("A29", {"channel": "Vanta Brief"}),
-            ("A27", {"src": "brand/vanta-brief-logo.png", "name": "Vanta Brief"})
+        "animations": [
+            {"id": "A49", "params": {"captions": ["Like", "Sub", "Comment"], "photos": []}, "delay": 0.3},
+            {"id": "A29", "params": {"channel": "Vanta Brief"}, "delay": 0.5},
+            {"id": "A27", "params": {"src": "brand/vanta-brief-logo.png", "name": "Vanta Brief"}, "delay": 0.5}
         ]
     }
 ]
 
-# Build JSON structure
-formatted_scenes = []
-for s in raw_scenes:
-    sc = {
-        "id": s["id"],
-        "start": s["start"],
-        "end": s["end"],
-        "narration": s["narration"],
-        "intent": s["intent"],
-        "intensity": s["intensity"],
-        "assets": s["assets"],
-        "animations": [{"id": a[0], "params": a[1]} for a in s["anims"]]
-    }
-    formatted_scenes.append(sc)
-
 plan = {
     "fps": 30,
+    "pacing": "auto",
     "audio": "audio/voiceover.mp3",
-    "scenes": formatted_scenes
+    "scenes": scenes
 }
 
 out_path = os.path.join(R, "scene-plan.json")
 with open(out_path, "w", encoding="utf-8") as f:
     json.dump(plan, f, indent=2)
 
-print(f"Generated scene-plan.json with {len(formatted_scenes)} scenes.")
-
-# Run internal checks
-flat = [a[0] for s in raw_scenes for a in s["anims"]]
-c = Counter(flat)
-print(f"Total animation instances: {len(flat)}")
-print(f"Distinct animation IDs: {len(c)}")
-over = {k: v for k, v in c.items() if v > 2}
-if over:
-    print("ERROR: IDs used > 2 times:", over)
-else:
-    print("SUCCESS: All IDs used <= 2 times!")
+print(f"Generated scene-plan.json with {len(scenes)} scenes.")

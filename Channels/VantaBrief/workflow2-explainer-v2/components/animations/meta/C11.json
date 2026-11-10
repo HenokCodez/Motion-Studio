@@ -1,0 +1,14 @@
+{
+  "id": "C11",
+  "name": "128-GPU Distributed Expert Crossbar Mesh",
+  "category": "Diagrams/systems",
+  "custom": true,
+  "duration": 80,
+  "keyframes": [0, 16, 32, 48, 64, 79],
+  "params": {
+    "title": "string <=24 chars",
+    "gpus": "string <=24 chars",
+    "drop": "string <=20 chars"
+  },
+  "maxContent": "8-GPU crossbar routing mesh with traffic drop metric"
+}
